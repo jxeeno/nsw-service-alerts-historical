@@ -115,7 +115,8 @@ async function run() {
     const {data: buf} = await axios.get('https://api.transport.nsw.gov.au/v1/gtfs/alerts/sydneytrains', {
         headers: {
             Authorization: `apikey ${tfnswApiKey}`
-        }
+        },
+        responseType: 'arraybuffer'
     });
 
     const alertFeed = await decodeGtfsProtobuf(buf);
