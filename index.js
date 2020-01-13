@@ -9,7 +9,7 @@ const branch = 'data';
 
 const COMMON_CREATE_OR_UPDATE_FILE = {
     owner: 'jxeeno',
-    repo: 'nsw-service-alerts',
+    repo: 'nsw-service-alerts-historical',
     author: {
         name: 'jxeeno',
         email: 'ken+github@anytrip.com.au'
