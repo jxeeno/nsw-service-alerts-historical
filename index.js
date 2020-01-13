@@ -88,21 +88,27 @@ async function run() {
                         .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
 
-    const filterAndStoreIcs = (fn, className) => {
-        const filtered = icsAlerts.filter(fn);
-        await updateFile(
-            `data/raw-ics/${className}.json`,
-            JSON.stringify(filtered, null, 2)
-        );
+    const filterAndStoreIcs = async (fn, className) => {
+        try{
+            const filtered = icsAlerts.filter(fn);
+            await updateFile(
+                `data/raw-ics/${className}.json`,
+                JSON.stringify(filtered, null, 2)
+            );
+        }catch(e){
+            console.error('Failed to process '+className)
+        }
     }
 
-    filterAndStoreIcs(_ => true, 'all');
-    filterAndStoreIcs(a => a.properties.announcementType === 'liftsEscalators', 'liftsEscalators');
-    filterAndStoreIcs(a => a.properties.announcementType === 'trackwork', 'trackwork');
-    filterAndStoreIcs(a => a.properties.announcementType === 'serviceChange', 'serviceChange');
-    filterAndStoreIcs(a => a.priority === 'veryLow', 'veryLowPriority');
-    filterAndStoreIcs(a => a.priority === 'low', 'lowPriority');
-    filterAndStoreIcs(a => a.priority === 'normal', 'normalPriority');
+    await Promise.all([
+        filterAndStoreIcs(_ => true, 'all'),
+        filterAndStoreIcs(a => a.properties.announcementType === 'liftsEscalators', 'liftsEscalators'),
+        filterAndStoreIcs(a => a.properties.announcementType === 'trackwork', 'trackwork'),
+        filterAndStoreIcs(a => a.properties.announcementType === 'serviceChange', 'serviceChange'),
+        filterAndStoreIcs(a => a.priority === 'veryLow', 'veryLowPriority'),
+        filterAndStoreIcs(a => a.priority === 'low', 'lowPriority'),
+        filterAndStoreIcs(a => a.priority === 'normal', 'normalPriority'),
+    ]);
 
 
     const {data: buf} = await axios.get('https://api.transport.nsw.gov.au/v1/gtfs/alerts/sydneytrains', {
