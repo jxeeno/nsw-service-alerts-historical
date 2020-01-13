@@ -72,13 +72,51 @@ async function run() {
 
     const icsAlerts = data.infos.current
                         .sort((a, b) => parseInt(a.id) - parseInt(b.id));
-                        // .filter(a => a.properties.priority != 'veryLow')
-                        // .filter(a => a.properties.announcementType != 'liftsEscalators')
-    
+
+    const liftsEscalators = icsAlerts.filter(a => a.properties.announcementType === 'liftsEscalators');
+    const trackwork = icsAlerts.filter(a => a.properties.announcementType === 'trackwork');
+    const serviceChange = icsAlerts.filter(a => a.properties.announcementType === 'serviceChange');
+    const veryLowPriority = icsAlerts.filter(a => a.priority === 'veryLow');
+    const lowPriority = icsAlerts.filter(a => a.priority === 'low');
+    const normalPriority = icsAlerts.filter(a => a.priority === 'normal');
+
     await updateFile(
-        `data/raw-ics-infos.json`,
+        `data/raw-ics/all.json`,
         JSON.stringify(icsAlerts, null, 2)
     );
+
+    await updateFile(
+        `data/raw-ics/liftsEscalators.json`,
+        JSON.stringify(liftsEscalators, null, 2)
+    );
+
+    await updateFile(
+        `data/raw-ics/trackwork.json`,
+        JSON.stringify(trackwork, null, 2)
+    );
+
+    await updateFile(
+        `data/raw-ics/serviceChange.json`,
+        JSON.stringify(serviceChange, null, 2)
+    );
+
+    await updateFile(
+        `data/raw-ics/veryLowPriority.json`,
+        JSON.stringify(veryLowPriority, null, 2)
+    );
+
+    await updateFile(
+        `data/raw-ics/lowPriority.json`,
+        JSON.stringify(lowPriority, null, 2)
+    );
+
+    await updateFile(
+        `data/raw-ics/normalPriority.json`,
+        JSON.stringify(normalPriority, null, 2)
+    );
+
+    // .filter(a => a.properties.priority != 'veryLow')
+    // .filter(a => a.properties.announcementType != 'liftsEscalators')
 }
  
 run();
