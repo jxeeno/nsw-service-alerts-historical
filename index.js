@@ -1,5 +1,6 @@
 const github = require('@actions/github');
 const axios = require('axios');
+const protobuf = require('protobufjs');
 
 const toBase64 = (str) => {
     return Buffer.from(str || '').toString('base64');
@@ -14,6 +15,19 @@ const COMMON_CREATE_OR_UPDATE_FILE = {
         name: 'jxeeno',
         email: 'ken+github@anytrip.com.au'
     }
+}
+
+const getRoot = async () => {
+    if(root){return root;}
+    root = await new protobuf.Root().load("gtfs-realtime.proto", { keepCase: true })
+    return root;
+}
+
+const decodeGtfsProtobuf = async (payload) => {
+    const root = await getRoot();
+    const FeedMessage = root.lookupType("transit_realtime.FeedMessage");
+    const message = FeedMessage.decode(payload);
+    return FeedMessage.toObject(message);
 }
 
 async function run() {
@@ -73,46 +87,35 @@ async function run() {
     const icsAlerts = data.infos.current
                         .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 
-    const liftsEscalators = icsAlerts.filter(a => a.properties.announcementType === 'liftsEscalators');
-    const trackwork = icsAlerts.filter(a => a.properties.announcementType === 'trackwork');
-    const serviceChange = icsAlerts.filter(a => a.properties.announcementType === 'serviceChange');
-    const veryLowPriority = icsAlerts.filter(a => a.priority === 'veryLow');
-    const lowPriority = icsAlerts.filter(a => a.priority === 'low');
-    const normalPriority = icsAlerts.filter(a => a.priority === 'normal');
 
-    await updateFile(
-        `data/raw-ics/all.json`,
-        JSON.stringify(icsAlerts, null, 2)
-    );
+    const filterAndStoreIcs = (fn, className) => {
+        const filtered = icsAlerts.filter(fn);
+        await updateFile(
+            `data/raw-ics/${className}.json`,
+            JSON.stringify(filtered, null, 2)
+        );
+    }
 
-    await updateFile(
-        `data/raw-ics/liftsEscalators.json`,
-        JSON.stringify(liftsEscalators, null, 2)
-    );
+    filterAndStoreIcs(_ => true, 'all');
+    filterAndStoreIcs(a => a.properties.announcementType === 'liftsEscalators', 'liftsEscalators');
+    filterAndStoreIcs(a => a.properties.announcementType === 'trackwork', 'trackwork');
+    filterAndStoreIcs(a => a.properties.announcementType === 'serviceChange', 'serviceChange');
+    filterAndStoreIcs(a => a.priority === 'veryLow', 'veryLowPriority');
+    filterAndStoreIcs(a => a.priority === 'low', 'lowPriority');
+    filterAndStoreIcs(a => a.priority === 'normal', 'normalPriority');
 
-    await updateFile(
-        `data/raw-ics/trackwork.json`,
-        JSON.stringify(trackwork, null, 2)
-    );
 
-    await updateFile(
-        `data/raw-ics/serviceChange.json`,
-        JSON.stringify(serviceChange, null, 2)
-    );
+    const {data: buf} = await axios.get('https://api.transport.nsw.gov.au/v1/gtfs/alerts/sydneytrains', {
+        headers: {
+            Authorization: `apikey ${tfnswApiKey}`
+        }
+    });
 
+    const alertFeed = await decodeGtfsProtobuf(buf);
+    delete alertFeed.header.timestamp;
     await updateFile(
-        `data/raw-ics/veryLowPriority.json`,
-        JSON.stringify(veryLowPriority, null, 2)
-    );
-
-    await updateFile(
-        `data/raw-ics/lowPriority.json`,
-        JSON.stringify(lowPriority, null, 2)
-    );
-
-    await updateFile(
-        `data/raw-ics/normalPriority.json`,
-        JSON.stringify(normalPriority, null, 2)
+        `data/sydtrains/${alerts}.json`,
+        JSON.stringify(alertFeed, null, 2)
     );
 
     // .filter(a => a.properties.priority != 'veryLow')
