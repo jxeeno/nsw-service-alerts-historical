@@ -1,0 +1,22 @@
+name: TfNSW Service Alerts Archiver
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: '*/5 * * * *'
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Install dependencies
+      run: yarn
+    - name: Run script
+      run: node index.js
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        TFNSW_API_KEY: ${{ secrets.TFNSW_API_KEY }}
