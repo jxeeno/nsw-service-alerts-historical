@@ -17,10 +17,11 @@ const COMMON_CREATE_OR_UPDATE_FILE = {
     }
 }
 
+let protoRoot;
 const getRoot = async () => {
-    if(root){return root;}
-    root = await new protobuf.Root().load("gtfs-realtime.proto", { keepCase: true })
-    return root;
+    if(protoRoot){return protoRoot;}
+    protoRoot = await new protobuf.Root().load("gtfs-realtime.proto", { keepCase: true })
+    return protoRoot;
 }
 
 const decodeGtfsProtobuf = async (payload) => {
