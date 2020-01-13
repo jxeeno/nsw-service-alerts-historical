@@ -122,7 +122,7 @@ async function run() {
     const alertFeed = await decodeGtfsProtobuf(buf);
     delete alertFeed.header.timestamp;
     await updateFile(
-        `data/sydtrains/${alerts}.json`,
+        `data/sydtrains/alerts.json`,
         JSON.stringify(alertFeed, null, 2)
     );
 
