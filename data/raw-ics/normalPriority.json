@@ -18470,11 +18470,11 @@
   {
     "type": "lineInfo",
     "id": "6045184",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-01-17T02:04:31Z",
-      "lastModification": "2020-01-17T02:11:15Z",
+      "lastModification": "2020-01-17T02:52:41Z",
       "availability": {
         "from": "2020-01-17T02:04:00Z",
         "to": "2020-01-17T12:04:59Z"
@@ -18487,8 +18487,8 @@
       ]
     },
     "urlText": "The 9.30am Sydney to Armidale Xplorer service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045184&seqID=1",
-    "content": "The Sydney to Armidale Xplorer has experienced a delay due to an operational issue at Singleton.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045184&seqID=2",
+    "content": "The Sydney to Armidale Xplorer has experienced a delay due to an operational issue at Singleton.\n&nbsp;\n<em><span style=\"font-size: medium;\">Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span style=\"font-family: Times New Roman; font-size: medium;\">Trip Planner</span></a><span style=\"font-size: medium;\">&nbsp;for the latest travel information with real time updates.</span></em><span style=\"font-size: medium;\">&nbsp;</span>",
     "subtitle": "The 9.30am Sydney to Armidale Xplorer service delay.",
     "properties": {
       "providerCode": "NSWTL",
@@ -18586,6 +18586,130 @@
           "operator": {
             "id": "LR",
             "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045191",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-17T02:46:03Z",
+      "lastModification": "2020-01-17T02:49:58Z",
+      "availability": {
+        "from": "2020-01-17T02:46:00Z",
+        "to": "2020-01-17T11:46:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-17T02:46:00Z",
+          "to": "2020-01-17T11:46:59Z"
+        }
+      ]
+    },
+    "urlText": "The 11.41am Sydney to Grafton XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045191&seqID=1",
+    "content": "The Sydney to Grafton XPT service has experience a delay due to a freight train&nbsp;mechanical issue at Gosford.\n&nbsp;\n<em><span style=\"font-size: medium;\">Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span style=\"font-family: Times New Roman; font-size: medium;\">Trip Planner</span></a><span style=\"font-size: medium;\">&nbsp;for the latest travel information with real time updates.</span></em><span style=\"font-size: medium;\">&nbsp;</span>",
+    "subtitle": "The 11.41am Sydney to Grafton XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 35",
+          "number": "35",
+          "description": "Central to Grafton",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045193",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-17T03:01:24Z",
+      "lastModification": "2020-01-17T03:03:45Z",
+      "availability": {
+        "from": "2020-01-17T03:01:00Z",
+        "to": "2020-01-17T13:01:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-17T03:01:00Z",
+          "to": "2020-01-17T13:01:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in Pymble",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045193&seqID=1",
+    "content": "Buses are diverted away from The Comenarra Parkway due to a bus breakdown. Buses are using Kissing Point Road instead, missing eight stops.&nbsp;",
+    "subtitle": "Diversion in Pymble",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Pymble, Route 5 7 2 buses are diverted away from The Comenarra Parkway due to a bus breakdown. Buses are using Kissing Point Road instead, missing eight stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:34572: :H:",
+          "destination": {
+            "name": "Turramurra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 572",
+          "number": "572",
+          "description": "Macquarie University to Turramurra via South Turramura & West Pymble",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2443",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:34572: :R:",
+          "destination": {
+            "name": "Macquarie University Campus In",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 572",
+          "number": "572",
+          "description": "Turramurra to Macquarie University via South Turramura & West Pymble",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2443",
+            "name": "Transdev NSW"
           }
         }
       ]
