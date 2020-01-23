@@ -21366,11 +21366,11 @@
   {
     "type": "lineInfo",
     "id": "6045498",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-01-23T05:05:56Z",
-      "lastModification": "2020-01-23T05:45:04Z",
+      "lastModification": "2020-01-23T05:46:45Z",
       "availability": {
         "from": "2020-01-23T05:05:00Z",
         "to": "2020-01-23T15:05:59Z"
@@ -21383,7 +21383,7 @@
       ]
     },
     "urlText": "T1 North Shore Line, T1 Western Line and T9 Northern - delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045498&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045498&seqID=3",
     "content": "Allow extra travel time due to urgent track equipment repairs at North Sydney. Listen to announcements and check indicator boards.",
     "subtitle": "T1 North Shore Line, T1 Western Line and T9 Northern - delays",
     "properties": {
@@ -21441,44 +21441,6 @@
           "name": "Sydney Trains Network T1 North Shore & Western Line",
           "number": "T1 North Shore & Western Line",
           "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T9: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "Hornsby to North Shore via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -21558,6 +21520,78 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045500",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-23T05:44:17Z",
+      "lastModification": "2020-01-23T05:46:21Z",
+      "availability": {
+        "from": "2020-01-23T05:44:00Z",
+        "to": "2020-01-23T15:44:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-23T05:44:00Z",
+          "to": "2020-01-23T15:44:59Z"
+        }
+      ]
+    },
+    "urlText": "L1 Light Rail - partial closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045500&seqID=1",
+    "content": "Buses are replacing light rail services between Lewisham West and Dulwich Hill due to urgent mechanical repairs to light rail vehicles. Allow extra travel time. Light Rail services are still running between Central and Lewisham West.",
+    "subtitle": "L1 Light Rail - partial closure",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are replacing light rail services between Lewisham West and Dulwich Hill due to urgent mechanical repairs to light rail vehicles. Allow extra travel time. Light Rail services are still running between Central and Lewisham West.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L1: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill Light Rail",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Dulwich Hill to Central",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
           }
         }
       ]
