@@ -35138,78 +35138,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6045485",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-01-23T04:12:13Z",
-      "lastModification": "2020-01-23T04:15:57Z",
-      "availability": {
-        "from": "2020-01-23T04:12:00Z",
-        "to": "2020-01-23T14:12:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-01-23T04:12:00Z",
-          "to": "2020-01-23T14:12:59Z"
-        }
-      ]
-    },
-    "urlText": "Central Coast & Newcastle Line - delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045485&seqID=2",
-    "content": "Allow extra travel time due to a freight train with mechanical problems at Wyee earlier. Listen to announcements and check indicator boards.",
-    "subtitle": "Central Coast & Newcastle Line - delays",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to a freight train with mechanical problems at Wyee earlier. Listen to announcements and check indicator boards.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6045486",
     "version": 4,
     "priority": "normal",
@@ -35445,11 +35373,11 @@
   {
     "type": "lineInfo",
     "id": "6045498",
-    "version": 1,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-01-23T05:05:56Z",
-      "lastModification": "2020-01-23T05:06:56Z",
+      "lastModification": "2020-01-23T05:46:45Z",
       "availability": {
         "from": "2020-01-23T05:05:00Z",
         "to": "2020-01-23T15:05:59Z"
@@ -35461,10 +35389,10 @@
         }
       ]
     },
-    "urlText": "T1 North Shore Line - delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045498&seqID=1",
+    "urlText": "T1 North Shore Line, T1 Western Line and T9 Northern - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045498&seqID=3",
     "content": "Allow extra travel time due to urgent track equipment repairs at North Sydney. Listen to announcements and check indicator boards.",
-    "subtitle": "T1 North Shore Line - delays",
+    "subtitle": "T1 North Shore Line, T1 Western Line and T9 Northern - delays",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow extra travel time due to urgent track equipment repairs at North Sydney. Listen to announcements and check indicator boards.",
@@ -35482,6 +35410,63 @@
           "name": "Sydney Trains Network T1 North Shore & Western Line",
           "number": "T1 North Shore & Western Line",
           "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -35542,6 +35527,294 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045500",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-23T05:44:17Z",
+      "lastModification": "2020-01-23T05:46:21Z",
+      "availability": {
+        "from": "2020-01-23T05:44:00Z",
+        "to": "2020-01-23T15:44:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-23T05:44:00Z",
+          "to": "2020-01-23T15:44:59Z"
+        }
+      ]
+    },
+    "urlText": "L1 Light Rail - partial closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045500&seqID=1",
+    "content": "Buses are replacing light rail services between Lewisham West and Dulwich Hill due to urgent mechanical repairs to light rail vehicles. Allow extra travel time. Light Rail services are still running between Central and Lewisham West.",
+    "subtitle": "L1 Light Rail - partial closure",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are replacing light rail services between Lewisham West and Dulwich Hill due to urgent mechanical repairs to light rail vehicles. Allow extra travel time. Light Rail services are still running between Central and Lewisham West.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L1: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill Light Rail",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Dulwich Hill to Central",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045502",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-23T05:53:54Z",
+      "lastModification": "2020-01-23T06:02:05Z",
+      "availability": {
+        "from": "2020-01-23T05:53:00Z",
+        "to": "2020-01-23T15:53:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-23T05:53:00Z",
+          "to": "2020-01-23T15:53:59Z"
+        }
+      ]
+    },
+    "urlText": "Leichhardt - diversion",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045502&seqID=2",
+    "content": "Routes 440 and M10 are diverting away from Norton Street between Wetherill Street and Short Street due to a fallen tree. Buses are using Marion Street, Renwick Street and Allen Street instead, missing three stops.",
+    "subtitle": "Leichhardt - diversion",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Leichhardt, some buses are diverting away from Norton Street between Wetherill Street and Short Street due to a fallen tree. They are missing three stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74440: :R:",
+          "destination": {
+            "name": "Darling St at Waterloo St, Roz",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 440",
+          "number": "440",
+          "description": "Bondi Junction to Rozelle",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74440: :H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 440",
+          "number": "440",
+          "description": "Rozelle to Bondi Junction",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74M10: :H:",
+          "destination": {
+            "name": "Anzac Pde at Green St, Maroubr",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M10",
+          "number": "M10",
+          "description": "Opal only - Leichhardt to Maroubra Junction via City",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74M10: :R:",
+          "destination": {
+            "name": "Norton St near William St, Lei",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M10",
+          "number": "M10",
+          "description": "Opal only - Maroubra Junction to Leichhardt via City",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045503",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-23T05:56:28Z",
+      "lastModification": "2020-01-23T05:58:17Z",
+      "availability": {
+        "from": "2020-01-23T05:56:00Z",
+        "to": "2020-01-23T15:56:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-23T05:56:00Z",
+          "to": "2020-01-23T15:56:59Z"
+        }
+      ]
+    },
+    "urlText": "4:20pm Central to Newcastle Interchange train - delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045503&seqID=2",
+    "content": "Allow up to 50 minutes extra travel time on the 4:20pm Central to Newcastle Interchange train due to urgent mechanical repairs at Central. Listen to announcements and check indicator boards.",
+    "subtitle": "4:20pm Central to Newcastle Interchange train - delay",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow up to 50 minutes extra travel time on the 4:20pm Central to Newcastle Interchange train due to urgent mechanical repairs at Central. Listen to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045504",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-23T06:00:32Z",
+      "lastModification": "2020-01-23T06:04:54Z",
+      "availability": {
+        "from": "2020-01-23T06:00:00Z",
+        "to": "2020-01-23T16:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-23T06:00:00Z",
+          "to": "2020-01-23T16:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Delays in Thornleigh",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045504&seqID=2",
+    "content": "Some buses are delayed up to 30 minutes due to an earlier truck fire on Pennant Hills Road just past The Comenarra Parkway.",
+    "subtitle": "Delays in Thornleigh",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Thornleigh, some buses are delayed up to 30 minutes due to an earlier truck fire on Pennant Hills Road just past The Comenarra Parkway.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:23600: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 600",
+          "number": "600",
+          "description": "Hornsby to Parramatta",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
           }
         }
       ]
