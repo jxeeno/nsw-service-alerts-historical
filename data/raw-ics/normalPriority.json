@@ -22856,33 +22856,6 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6045618",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-01-25T00:12:29Z",
-      "lastModification": "2020-01-25T00:12:46Z",
-      "availability": {
-        "from": "2020-01-25T00:12:00Z",
-        "to": "2020-01-25T01:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-01-25T00:12:00Z",
-          "to": "2020-01-25T01:00:59Z"
-        }
-      ]
-    },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045618&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
-    "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6045623",
     "version": 2,
@@ -22949,6 +22922,130 @@
           "operator": {
             "id": "112",
             "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045624",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-25T00:53:18Z",
+      "lastModification": "2020-01-25T01:01:41Z",
+      "availability": {
+        "from": "2020-01-25T00:53:00Z",
+        "to": "2020-01-25T10:53:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-25T00:53:00Z",
+          "to": "2020-01-25T10:53:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversions in Avoca Beach",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045624&seqID=3",
+    "content": "Route 66A and 66C are diverting away from Hillside Drive and&nbsp;<span>Karani Avenue&nbsp;</span>due to fallen wires. Three stops are being missed.&nbsp;",
+    "subtitle": "Diversions in Avoca Beach",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Avoca Beach, route 6 6 A and 6 6 C are diverting away from Hillside Drive and Karani Avenue due to fallen wires. Three stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:6166C: :R:",
+          "destination": {
+            "name": "Gosford Station",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 66C",
+          "number": "66C",
+          "description": "Gosford to Copacabana & Avoca Beach via Kincumber & Green Pt (Loop Service)",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        },
+        {
+          "id": "nsw:6166A: :R:",
+          "destination": {
+            "name": "Gosford Station",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 66A",
+          "number": "66A",
+          "description": "Gosford to Avoca Beach & Copacabana via Kincumber & Green Pt (Loop Service)",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045625",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-25T00:56:45Z",
+      "lastModification": "2020-01-25T00:59:22Z",
+      "availability": {
+        "from": "2020-01-25T00:56:00Z",
+        "to": "2020-01-25T12:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-25T00:56:00Z",
+          "to": "2020-01-25T12:30:59Z"
+        }
+      ]
+    },
+    "urlText": "The 11:44 Sydney to Grafton XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045625&seqID=1",
+    "content": "This service has been delayed due to a mechanical issue.<br /><br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "The 11:44 Sydney to Grafton XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 35",
+          "number": "35",
+          "description": "Central to Grafton",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
