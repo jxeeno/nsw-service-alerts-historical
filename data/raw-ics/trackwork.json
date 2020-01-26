@@ -404,101 +404,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6044792",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-01-09T00:15:00Z",
-      "lastModification": "2020-01-09T00:17:00Z",
-      "availability": {
-        "from": "2020-01-09T00:15:00Z",
-        "to": "2020-01-26T05:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-01-25T21:00:00Z",
-          "to": "2020-01-26T05:00:59Z"
-        }
-      ]
-    },
-    "urlText": "At Otford and Helensburgh, trains towards Central will depart from platform 2 not platform 1",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6044792&seqID=1",
-    "content": "<strong>Sunday 26 January </strong><br /><strong>From 8am until 4pm</strong>\n<ul>\n<li>At Otford and Helensburgh, trains towards Central will depart from platform 2 not platform 1.</li>\n</ul>",
-    "subtitle": "At Otford and Helensburgh, trains towards Central will depart from platform 2 not platform 1",
-    "properties": {
-      "providerCode": "PT Marketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101357:2508171,2508172,2508108,2508117#10101356:2508161,2508162,250898",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10101357",
-          "name": "Otford Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95366047:1",
-            "name": "Otford",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "10101356",
-          "name": "Helensburgh Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95366028:1",
-            "name": "Helensburgh",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6045004",
     "version": 2,
@@ -8291,6 +8196,77 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045654",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-26T05:33:39Z",
+      "lastModification": "2020-01-26T05:37:16Z",
+      "availability": {
+        "from": "2020-01-26T05:33:00Z",
+        "to": "2020-01-26T15:33:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-26T05:33:00Z",
+          "to": "2020-01-26T15:33:59Z"
+        }
+      ]
+    },
+    "urlText": "Buses replacing trains between Cabramatta and Granville",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045654&seqID=1",
+    "content": "Buses are replacing trains between Cabramatta and Granville due to lightning strikes affecting signalling equipment. T2 Inner West &amp; Leppington Line trains run to a changed timetable between Leppington and the City via Regents Park.",
+    "subtitle": "Buses replacing trains between Cabramatta and Granville",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are replacing trains between Cabramatta and Granville due to lightning strikes affecting signalling equipment. T2 Inner West & Leppington Line trains run to a changed timetable between Leppington and the City via Regents Park.",
+      "announcementType": "trackwork"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
