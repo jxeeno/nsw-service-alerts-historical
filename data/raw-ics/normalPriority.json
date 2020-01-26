@@ -19762,11 +19762,11 @@
   {
     "type": "lineInfo",
     "id": "6045654",
-    "version": 1,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-01-26T05:33:39Z",
-      "lastModification": "2020-01-26T05:37:16Z",
+      "lastModification": "2020-01-26T06:24:21Z",
       "availability": {
         "from": "2020-01-26T05:33:00Z",
         "to": "2020-01-26T15:33:59Z"
@@ -19778,13 +19778,13 @@
         }
       ]
     },
-    "urlText": "Buses replacing trains between Cabramatta and Granville",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045654&seqID=1",
-    "content": "Buses are replacing trains between Cabramatta and Granville due to lightning strikes affecting signalling equipment. T2 Inner West &amp; Leppington Line trains run to a changed timetable between Leppington and the City via Regents Park.",
-    "subtitle": "Buses replacing trains between Cabramatta and Granville",
+    "urlText": "T2 Inner West & Leppington Line - partial closure and T5 line closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045654&seqID=4",
+    "content": "Trains are not running between Granville and Cabramatta due to lightning strikes affecting signalling equipment. Bus companies have been contacted to provide a replacement service however they are yet to arrive. Allow plenty of extra time, listen to announcements and check indicator boards.&nbsp;T2 Inner West &amp; Leppington Line trains are also running to a changed timetable between Leppington and the City via Regents Park.<br /><br />Also due to this no T5 line services are operating. Passengers should INTERCHANGE AT Granville for a service to their destination. Allow plenty of additional travel time, listen to announcements and check indictor boards for latest updates.",
+    "subtitle": "T2 Inner West & Leppington Line - partial closure and T5 line closure",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing trains between Cabramatta and Granville due to lightning strikes affecting signalling equipment. T2 Inner West & Leppington Line trains run to a changed timetable between Leppington and the City via Regents Park.",
+      "speechText": "Trains are not running between Granville and Cabramatta due to lightning strikes affecting signalling equipment. Bus companies have been contacted to provide a replacement service however they are yet to arrive. Allow plenty of extra time, listen to announcements and check indicator boards. T2 Inner West & Leppington Line trains are also running to a changed timetable between Leppington and the City via Regents Park.\nAlso due to this no T5 line services are operating. Passengers should INTERCHANGE AT Granville for a service to their destination. Allow plenty of additional travel time, listen to announcements and check indictor boards for latest updates.",
       "announcementType": "trackwork"
     },
     "affected": {
@@ -19884,59 +19884,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6045660",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-01-26T06:10:01Z",
-      "lastModification": "2020-01-26T06:11:20Z",
-      "availability": {
-        "from": "2020-01-26T06:10:00Z",
-        "to": "2020-01-26T16:10:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-01-26T06:10:00Z",
-          "to": "2020-01-26T16:10:59Z"
-        }
-      ]
-    },
-    "urlText": "L2 Light Rail - service changes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045660&seqID=1",
-    "content": "Services are not operating between Central and Town Hall due to a crash at Moore Park.&nbsp;",
-    "subtitle": "L2 Light Rail - service changes",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "Services are not operating between Central and Town Hall due to a crash at Moore Park.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:780L2: :H:",
-          "destination": {
-            "name": "Randwick Light Rail, Randwick",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L2 Randwick Line",
-          "number": "L2 Randwick Line",
-          "description": "Circular Quay to Randwick",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6045661",
     "version": 2,
     "priority": "normal",
@@ -19982,6 +19929,149 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045664",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-26T06:15:35Z",
+      "lastModification": "2020-01-26T06:19:50Z",
+      "availability": {
+        "from": "2020-01-26T06:15:00Z",
+        "to": "2020-01-26T16:15:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-26T06:15:00Z",
+          "to": "2020-01-26T16:15:59Z"
+        }
+      ]
+    },
+    "urlText": "L2 Light Rail - service changes",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045664&seqID=2",
+    "content": "Services are not operating between Central and Town Hall due to a crash at Moore Park. Services are operating between Town Hall and Central and between Randwick and Moore Park. Light rail replacement buses are being organised but are yet to arrive.&nbsp;",
+    "subtitle": "L2 Light Rail - service changes",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Services are not operating between Central and Town Hall due to a crash at Moore Park. Services are operating between Town Hall and Central and between Randwick and Moore Park. Light rail replacement buses are being organised but are yet to arrive.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L2: :H:",
+          "destination": {
+            "name": "Randwick Light Rail, Randwick",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045665",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-26T06:30:47Z",
+      "lastModification": "2020-01-26T06:30:57Z",
+      "availability": {
+        "from": "2020-01-26T06:30:00Z",
+        "to": "2020-01-26T16:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-26T06:30:00Z",
+          "to": "2020-01-26T16:30:59Z"
+        }
+      ]
+    },
+    "urlText": "T2 Inner West & Leppington Line - partial closure and T5 line closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045665&seqID=1",
+    "content": "Trains are not running between Granville and Cabramatta due to lightning strikes affecting signalling equipment. Bus companies have been contacted to provide a replacement service however they are yet to arrive. Allow plenty of extra time, listen to announcements and check indicator boards.&nbsp;T2 Inner West &amp; Leppington Line trains are also running to a changed timetable between Leppington and the City via Regents Park.<br /><br />Also due to this no T5 line services are operating. Passengers should interchange at Granville for a service to their destination. Allow plenty of additional travel time, listen to announcements and check indictor boards for latest updates.",
+    "subtitle": "T2 Inner West & Leppington Line - partial closure and T5 line closure",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Trains are not running between Granville and Cabramatta due to lightning strikes affecting signalling equipment. Bus companies have been contacted to provide a replacement service however they are yet to arrive. Allow plenty of extra time, listen to announcements and check indicator boards. T2 Inner West & Leppington Line trains are also running to a changed timetable between Leppington and the City via Regents Park.\nAlso due to this no T5 line services are operating. Passengers should INTERCHANGE AT Granville for a service to their destination. Allow plenty of additional travel time, listen to announcements and check indictor boards for latest updates.",
+      "announcementType": "trackwork"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
