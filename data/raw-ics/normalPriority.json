@@ -15757,51 +15757,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6045685",
+    "id": "6045689",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-01-27T09:34:00Z",
-      "lastModification": "2020-01-27T09:35:00Z",
+      "creation": "2020-01-27T20:38:26Z",
+      "lastModification": "2020-01-27T20:42:41Z",
       "availability": {
-        "from": "2020-01-27T09:34:00Z",
-        "to": "2020-01-27T20:15:59Z"
+        "from": "2020-01-27T20:38:00Z",
+        "to": "2020-01-28T06:38:59Z"
       },
       "validity": [
         {
-          "from": "2020-01-27T09:34:00Z",
-          "to": "2020-01-27T20:15:59Z"
+          "from": "2020-01-27T20:38:00Z",
+          "to": "2020-01-28T06:38:59Z"
         }
       ]
     },
-    "urlText": "19:50 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045685&seqID=1",
-    "content": "This service has been delayed due to a signal failure near West Footscray in Victoria.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "19:50 Melbourne to Sydney XPT delay.",
+    "urlText": "Villawood - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045689&seqID=1",
+    "content": "Buses are delayed up to 15 minutes due to a car and truck crash on the Hume Highway at Woodville Road in Villawood.",
+    "subtitle": "Villawood - delays",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Buses are delayed up to 15 minutes due to a car and truck crash on the Hume Highway at Woodville Road in Villawood.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:38907: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Bankstown Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Bankstown to Parramatta via Bass Hill",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Parramatta to Bankstown via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38905: :R:",
+          "destination": {
+            "name": "Harley Cres after Allingham St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 905",
+          "number": "905",
+          "description": "Bankstown to Fairfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38905: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 905",
+          "number": "905",
+          "description": "Fairfield to Bankstown",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
