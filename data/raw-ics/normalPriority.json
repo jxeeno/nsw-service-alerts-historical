@@ -16013,58 +16013,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6045733",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-01-28T07:55:07Z",
-      "lastModification": "2020-01-28T07:55:56Z",
-      "availability": {
-        "from": "2020-01-28T07:55:00Z",
-        "to": "2020-01-28T09:15:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-01-28T07:55:00Z",
-          "to": "2020-01-28T09:15:59Z"
-        }
-      ]
-    },
-    "urlText": "08:30 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045733&seqID=1",
-    "content": "This service has been delayed due toan operational issue.<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
-    "subtitle": "08:30 Melbourne to Sydney XPT delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "generalInfo",
     "id": "6045735",
     "version": 2,
@@ -16628,6 +16576,78 @@
           "operator": {
             "id": "2436",
             "name": "Hillsbus"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045742",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-28T09:15:02Z",
+      "lastModification": "2020-01-28T09:19:01Z",
+      "availability": {
+        "from": "2020-01-28T09:15:00Z",
+        "to": "2020-01-28T19:15:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-01-28T09:15:00Z",
+          "to": "2020-01-28T19:15:59Z"
+        }
+      ]
+    },
+    "urlText": "Metro North West Line - reduced frequency",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045742&seqID=1",
+    "content": "Metro services are running at a reduced frequency at some stations due to a police operation at Rouse Hill. Allow extra travel time, listen to announcements and check information displays for service updates.",
+    "subtitle": "Metro North West Line - reduced frequency",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Metro services are running at a reduced frequency at some stations due to a police operation at Rouse Hill. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
           }
         }
       ]
