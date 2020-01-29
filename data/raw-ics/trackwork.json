@@ -1522,11 +1522,11 @@
   {
     "type": "routeInfo",
     "id": "6045077",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-01-15T00:11:00Z",
-      "lastModification": "2020-01-28T23:50:00Z",
+      "creation": "2020-01-15T00:11:36Z",
+      "lastModification": "2020-01-29T23:08:19Z",
       "availability": {
         "from": "2020-01-15T00:11:00Z",
         "to": "2020-02-02T15:00:59Z"
@@ -1539,8 +1539,8 @@
       ]
     },
     "urlText": "Trackwork between Liverpool and Bankstown",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045077&seqID=3",
-    "content": "<strong>Saturday 1 and Sunday 2 February</strong>\n<ul>\n<li>Buses replace trains between Liverpool and Bankstown.</li>\n<li>Trains run between Lidcombe, Bankstown and Sydenham only, some to a changed timetable.</li>\n<li>If you are travelling towards the City, change at Sydenham for a <strong>T4 Eastern Suburbs &amp; Illawarra Line</strong> train to St Peters, Erskineville, Redfern, Central, Town Hall or Martin Place.</li>\n<li>City Circle trains run in one direction only, from Central first stop Town Hall.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/4t3/014T3\">4T3: Liverpool, then all stations to Bankstown and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/4at3/014AT-3\">4AT3: Liverpool, Cabramatta, then Bankstown and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/16t3/0116T-3\">16T3: Lidcombe all to Cabramatta (bypassing Carramar) and return</a>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045077&seqID=4",
+    "content": "<strong>Saturday 1 and Sunday 2 February</strong>\n<ul>\n<li>Buses replace trains between Liverpool and Bankstown.</li>\n<li>Trains run between Lidcombe, Bankstown and the City, some to a changed timetable.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/4t3/014T3\">4T3: Liverpool, then all stations to Bankstown and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/4at3/014AT-3\">4AT3: Liverpool, Cabramatta, then Bankstown and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/16t3/0116T-3\">16T3: Lidcombe all to Cabramatta (bypassing Carramar) and return</a>",
     "subtitle": "Trackwork between Liverpool and Bankstown",
     "properties": {
       "providerCode": "PT Marketing",
@@ -9090,6 +9090,162 @@
           "parent": {
             "name": "Riverstone",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045809",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-29T23:03:44Z",
+      "lastModification": "2020-01-29T23:05:54Z",
+      "availability": {
+        "from": "2020-01-29T23:03:00Z",
+        "to": "2020-02-06T15:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-03T10:45:00Z",
+          "to": "2020-02-03T15:00:59Z"
+        },
+        {
+          "from": "2020-02-04T10:45:00Z",
+          "to": "2020-02-04T15:00:59Z"
+        },
+        {
+          "from": "2020-02-05T10:45:00Z",
+          "to": "2020-02-05T15:00:59Z"
+        },
+        {
+          "from": "2020-02-06T10:45:00Z",
+          "to": "2020-02-06T15:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Trackwork on the T1 North Shore Line may affect how you travel",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045809&seqID=1",
+    "content": "<strong>Monday 3 to Thursday 6 February</strong><br /><strong>Nightly from 9.45pm until 2am</strong>\n<ul>\n<li>Trackwork will not affect Metro services but trackwork on the<strong> T1 North Shore Line</strong> may affect how you travel.</li>\n<li>If you are travelling to or from the City <strong>please change at Epping</strong>, not Chatswood, for a direct train to Central via the <strong>T9 Northern Line</strong>.</li>\n</ul>",
+    "subtitle": "Trackwork on the T1 North Shore Line may affect how you travel",
+    "properties": {
+      "providerCode": "PT Marketing",
+      "speechText": "Monday 3 to Thursday 6 February\nNightly from 9 45 PM until 2 AM\n\nTrackwork will not affect Metro services but trackwork on the T1 North Shore Line may affect how you travel.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6045810",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-29T23:06:00Z",
+      "lastModification": "2020-01-29T23:07:28Z",
+      "availability": {
+        "from": "2020-01-29T23:06:00Z",
+        "to": "2020-02-09T15:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-07T12:00:00Z",
+          "to": "2020-02-09T15:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Trackwork on the T1 North Shore Line may affect how you travel",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045810&seqID=1",
+    "content": "<strong>11pm Friday 7 to 2am Monday 10 February</strong>\n<ul>\n<li>Trackwork will not affect Metro services but trackwork on the<strong> T1 North Shore Line</strong> may affect how you travel.</li>\n<li>If you are travelling to or from the City <strong>please change at Epping</strong>, not Chatswood, for a direct train to Central via the <strong>T9 Northern Line</strong>.</li>\n</ul>",
+    "subtitle": "Trackwork on the T1 North Shore Line may affect how you travel",
+    "properties": {
+      "providerCode": "PT Marketing",
+      "speechText": "11 PM Friday 7 to 2 AM Monday 10 February\n\nTrackwork will not affect Metro services but trackwork on the T1 North Shore Line may affect how you travel.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
           }
         }
       ]
