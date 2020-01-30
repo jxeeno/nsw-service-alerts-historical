@@ -18100,30 +18100,178 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6045811",
+    "type": "stopInfo",
+    "id": "6045812",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-01-29T23:49:41Z",
-      "lastModification": "2020-01-29T23:49:51Z",
+      "creation": "2020-01-30T00:04:16Z",
+      "lastModification": "2020-01-30T00:06:11Z",
       "availability": {
-        "from": "2020-01-29T23:49:00Z",
-        "to": "2020-01-30T00:00:59Z"
+        "from": "2020-01-30T00:04:00Z",
+        "to": "2020-02-08T07:00:59Z"
       },
       "validity": [
         {
-          "from": "2020-01-29T23:49:00Z",
-          "to": "2020-01-30T00:00:59Z"
+          "from": "2020-01-31T20:00:00Z",
+          "to": "2020-02-01T07:00:59Z"
+        },
+        {
+          "from": "2020-02-07T20:00:00Z",
+          "to": "2020-02-08T07:00:59Z"
         }
       ]
     },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045811&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
+    "urlText": "Lilyfield bus stop relocation",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045812&seqID=1",
+    "content": "From 7am to 6pm each day on Saturdays 1 and 8 February, the bus stop <strong>Lilyfield Rd at Edward St (204053)</strong> will be temporarily relocated 65 metres east before Helena St due to roadwork. <br /><br />Please follow the signs for directions to the new stop location.",
+    "subtitle": "Lilyfield bus stop relocation",
     "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "providerCode": "PT Marketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10112664:204053",
+      "speechText": "From 7 AM to 5 PM  each day on Saturday 1 and 8 February, the bus stop Lilyfield Rd at Edward St will be temporarily relocated 65 metres east before Helena St due to roadwork.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74447: :R:",
+          "destination": {
+            "name": "Lilyfield",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 447",
+          "number": "447",
+          "description": "Lilyfield to Leichhardt Marketplace (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74470: :H:",
+          "destination": {
+            "name": "Lilyfield",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 470",
+          "number": "470",
+          "description": "City Martin Place to Lilyfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10112664",
+          "name": "Lilyfield Rd at Edward St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95333006:1",
+            "name": "Lilyfield",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6045813",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-01-30T00:06:42Z",
+      "lastModification": "2020-01-30T00:10:37Z",
+      "availability": {
+        "from": "2020-01-30T00:06:00Z",
+        "to": "2020-02-16T12:59:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-08T18:00:00Z",
+          "to": "2020-02-16T13:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Rawson Place, Haymarket new bus stop",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045813&seqID=1",
+    "content": "From 5am Sunday 9 February, <strong>route 440</strong> towards Rozelle and <strong>M10</strong> towards Leichhardt will be re-routed to run from the new bus stop <strong>Haymarket Light Rail, Rawson Pl (2000243)</strong> instead of the current stop <strong>Pitt St opp Barlow St (200083)</strong>.",
+    "subtitle": "Rawson Place, Haymarket new bus stop",
+    "properties": {
+      "providerCode": "PT Marketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10111083:200083",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74440: :R:",
+          "destination": {
+            "name": "Rozelle",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 440",
+          "number": "440",
+          "description": "Bondi Junction to Rozelle",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74M10: :R:",
+          "destination": {
+            "name": "Leichhardt",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M10",
+          "number": "M10",
+          "description": "Opal only - Maroubra Junction to Leichhardt via City",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10111083",
+          "name": "Pitt St opp Barlow St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301017:1",
+            "name": "Haymarket",
+            "type": "locality"
+          }
+        }
+      ]
     }
   }
 ]
