@@ -14989,51 +14989,72 @@
   },
   {
     "type": "lineInfo",
-    "id": "6046091",
+    "id": "6046092",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-04T09:46:23Z",
-      "lastModification": "2020-02-04T09:48:05Z",
+      "creation": "2020-02-04T10:49:31Z",
+      "lastModification": "2020-02-04T10:59:08Z",
       "availability": {
-        "from": "2020-02-04T09:46:00Z",
-        "to": "2020-02-04T10:46:59Z"
+        "from": "2020-02-04T10:49:00Z",
+        "to": "2020-02-04T20:49:59Z"
       },
       "validity": [
         {
-          "from": "2020-02-04T09:46:00Z",
-          "to": "2020-02-04T10:46:59Z"
+          "from": "2020-02-04T10:49:00Z",
+          "to": "2020-02-04T20:49:59Z"
         }
       ]
     },
-    "urlText": "07:45 Broken Hill to Sydney XPLORER delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046091&seqID=1",
-    "content": "This service has been delayed due to an earlier medical emergency at Lithgow.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "07:45 Broken Hill to Sydney XPLORER delay.",
+    "urlText": "Newcastle Light Rail services suspended",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046092&seqID=1",
+    "content": "Newcastle Light Rail services have been suspended until further notice due to infrastructure damage.&nbsp;",
+    "subtitle": "Newcastle Light Rail services suspended",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "smsText": "Newcastle Light Rail services have been suspended until further notice due to infrastructure damage.&nbsp;",
+      "speechText": "Newcastle Light Rail services have been suspended until further notice due to infrastructure damage.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76446: :R:",
+          "id": "nsw:78NLR: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Newcastle Interchange",
             "type": "stop"
           },
-          "name": "Regional Trains and 446",
-          "number": "446",
-          "description": "Broken Hill to Central",
-          "iconId": 3,
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Beach to Newcastle Interchange",
+          "iconId": 21,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 4,
+            "iconId": 4
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "NT",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:78NLR: :H:",
+          "destination": {
+            "name": "Newcastle Beach Light Rail, Ne",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Interchange to Newcastle Beach",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
           }
         }
       ]
