@@ -1124,11 +1124,11 @@
   {
     "type": "routeInfo",
     "id": "6045384",
-    "version": 1,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-01-21T23:03:00Z",
-      "lastModification": "2020-01-21T23:05:00Z",
+      "creation": "2020-01-21T23:03:24Z",
+      "lastModification": "2020-02-05T00:42:29Z",
       "availability": {
         "from": "2020-01-21T23:03:00Z",
         "to": "2020-02-06T15:00:59Z"
@@ -1153,8 +1153,8 @@
       ]
     },
     "urlText": "Trackwork between Leppington and Fairfield",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045384&seqID=1",
-    "content": "<strong>Monday 3 to Thursday 6 February</strong> <br /><strong>Nightly from 9.50pm until 2am</strong>\n<ul>\n<li>Buses replace trains between Leppington and Fairfield.</li>\n<li>Trains run to a changed timetable between Fairfield and the City via Granville.</li>\n<li><strong>T8 Airport &amp; South Line</strong> trains run to the normal timetable between Macarthur and the City via the Airport.</li>\n<li>Buses also replace <strong>T3 Bankstown Line</strong> trains between Liverpool and Villawood.</li>\n<li><a href=\"https://transportnsw.info/trip#/\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes<br /></strong><br />8T2: Liverpool, Glenfield, Edmondson Park, Leppington and return<br />15T2: Fairfield, Cabramatta, then Liverpool and return<br />29T2: Fairfield all stations to Leppington and return<br /><br />",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6045384&seqID=3",
+    "content": "<strong>Monday 3 to Thursday 6 February</strong> <br /><strong>Nightly from 9.50pm until 2am</strong>\n<ul>\n<li>Buses replace trains between Leppington and Fairfield.</li>\n<li>Trains run to a changed timetable between Fairfield and the City via Granville.</li>\n<li><strong>T8 Airport &amp; South Line</strong> trains run to the normal timetable between Macarthur and the City via the Airport.</li>\n<li>Buses also replace <strong>T3 Bankstown Line</strong> trains between Liverpool and Villawood.</li>\n<li><a href=\"https://transportnsw.info/trip#/\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes<br /></strong><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/8t2/018T2\">8T2: Liverpool, Glenfield, Edmondson Park, Leppington and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/15t2/0115T-2\">15T2: Fairfield, Cabramatta, then Liverpool and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/29t2/0129T-2\">29T2: Fairfield all stations to Leppington and return</a><br /><br />",
     "subtitle": "Trackwork between Leppington and Fairfield",
     "properties": {
       "providerCode": "PT Marketing",
@@ -1184,7 +1184,7 @@
         {
           "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Leppington Station",
+            "name": "Liverpool Station",
             "type": "stop"
           },
           "name": "Sydney Trains Network T2 Inner West & Leppington Line",
@@ -1194,6 +1194,86 @@
           "product": {
             "class": 1,
             "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:018T2: :H:",
+          "destination": {
+            "name": "Leppington",
+            "type": "stop"
+          },
+          "name": "Temporary buses 8T2",
+          "number": "8T2",
+          "description": "Liverpool, then Glenfield, Edmondson Park, Leppington",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:018T2: :R:",
+          "destination": {
+            "name": "Liverpool",
+            "type": "stop"
+          },
+          "name": "Temporary buses 8T2",
+          "number": "8T2",
+          "description": "Leppington, then Edmondson Park, Glenfield, Liverpool",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0115T:2:R:",
+          "destination": {
+            "name": "Fairfield",
+            "type": "stop"
+          },
+          "name": "Temporary buses 15T2",
+          "number": "15T2",
+          "description": "Liverpool, Cabramatta then Fairfield",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0129T:2:H:",
+          "destination": {
+            "name": "Leppington",
+            "type": "stop"
+          },
+          "name": "Temporary buses 29T2",
+          "number": "29T2",
+          "description": "Fairfield, then all stations to Leppington",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0129T:2:R:",
+          "destination": {
+            "name": "Fairfield",
+            "type": "stop"
+          },
+          "name": "Temporary buses 29T2",
+          "number": "29T2",
+          "description": "Leppington, then all stations to Fairfield",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
           },
           "operator": {}
         }
