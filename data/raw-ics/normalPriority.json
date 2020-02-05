@@ -16234,11 +16234,11 @@
   {
     "type": "lineInfo",
     "id": "6046130",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-02-05T18:36:09Z",
-      "lastModification": "2020-02-05T18:45:03Z",
+      "lastModification": "2020-02-05T18:50:50Z",
       "availability": {
         "from": "2020-02-05T18:36:00Z",
         "to": "2020-02-06T04:36:59Z"
@@ -16251,8 +16251,8 @@
       ]
     },
     "urlText": "Diversions at Concord West",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046130&seqID=2",
-    "content": "Buses are diverting away from Concord Road due to a burst water main between Hospital Road and Killoola Street. Buses to Waterloo are using Fremont Street, Killoola Street, Loch Maree Parade and Homebush Bay Drive. Buses to Hurstville are using Homebush Bay Drive, Australia Avenue, Pemeroy Street, Queen Street, Concord Road and Hospital Road. Three bus stops are being missed.&nbsp;&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046130&seqID=3",
+    "content": "Buses are diverting away from Concord Road due to a burst water main between Hospital Road and Killoola Street. Buses to Waterloo are using Fremont Street, Killoola Street, Loch Maree Parade and Homebush Bay Drive. Buses to Hurstville are using Homebush Bay Drive, Australia Avenue, Pemeroy Street, Queen Street, Concord Road and Hospital Road. Buses to and from Burwood are also diverting via local roads. Three bus stops are being missed.&nbsp;&nbsp;",
     "subtitle": "Diversions at Concord West",
     "properties": {
       "providerCode": "TMC",
@@ -16336,6 +16336,96 @@
           "operator": {
             "id": "2444",
             "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:26458: :H:",
+          "destination": {
+            "name": "Christian Scientist Church, Ch",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 458",
+          "number": "458",
+          "description": "PrePay-Only - Burwood to Ryde",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:26458: :R:",
+          "destination": {
+            "name": "Westfield Burwood, Victoria St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 458",
+          "number": "458",
+          "description": "PrePay-Only - Ryde to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6046131",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-05T18:45:07Z",
+      "lastModification": "2020-02-05T18:46:54Z",
+      "availability": {
+        "from": "2020-02-05T18:45:00Z",
+        "to": "2020-02-06T08:45:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-05T18:45:00Z",
+          "to": "2020-02-06T08:45:59Z"
+        }
+      ]
+    },
+    "urlText": "The 09:30 Sydney to Moree XPLORER service alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046131&seqID=1",
+    "content": "<br />Due to a mechanical issue, the Sydney to Moree XPLORER service has been replaced by a coach service from Werris Creek to Moree.<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "The 09:30 Sydney to Moree XPLORER service alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76243: :H:",
+          "destination": {
+            "name": "Moree Station, Moree",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 243",
+          "number": "243",
+          "description": "Werris Creek to Moree",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
