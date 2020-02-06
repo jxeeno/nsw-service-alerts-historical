@@ -16726,11 +16726,11 @@
   {
     "type": "lineInfo",
     "id": "6046190",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-02-06T18:16:18Z",
-      "lastModification": "2020-02-06T18:18:36Z",
+      "lastModification": "2020-02-06T20:18:47Z",
       "availability": {
         "from": "2020-02-06T18:16:00Z",
         "to": "2020-02-06T23:00:59Z"
@@ -16743,8 +16743,8 @@
       ]
     },
     "urlText": "The 05:35 Byron Bay to Grafton coach service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046190&seqID=1",
-    "content": "This service has been delayed due to wet weather conditions on the North Coast.<br /><br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046190&seqID=2",
+    "content": "This service has been delayed due to wet weather conditions on the North Coast. Due to this delay this service will no stop at Chatsworth Island or Ulmarra.&nbsp;<br /><br /><br /> <em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
     "subtitle": "The 05:35 Byron Bay to Grafton coach service delay.",
     "properties": {
       "providerCode": "NSWTL",
@@ -17429,6 +17429,78 @@
           "operator": {
             "id": "2442",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6046199",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-06T20:16:06Z",
+      "lastModification": "2020-02-06T20:18:56Z",
+      "availability": {
+        "from": "2020-02-06T20:16:00Z",
+        "to": "2020-02-07T06:16:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-06T20:16:00Z",
+          "to": "2020-02-07T06:16:59Z"
+        }
+      ]
+    },
+    "urlText": "Central Coast & Newcastle Line - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046199&seqID=2",
+    "content": "Allow extra time due to trains requiring mechanical repairs at Hawkesbury River and Woy Woy earlier. Also listen to announcements and check indicator boards.&nbsp;",
+    "subtitle": "Central Coast & Newcastle Line - delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra time due to trains requiring mechanical repairs at Hawkesbury River and Woy Woy earlier. Also listen to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
