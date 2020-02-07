@@ -17944,51 +17944,78 @@
   },
   {
     "type": "lineInfo",
-    "id": "6046264",
+    "id": "6046267",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-07T08:17:02Z",
-      "lastModification": "2020-02-07T08:17:58Z",
+      "creation": "2020-02-07T09:31:35Z",
+      "lastModification": "2020-02-07T09:43:40Z",
       "availability": {
-        "from": "2020-02-07T08:17:00Z",
-        "to": "2020-02-07T09:40:59Z"
+        "from": "2020-02-07T09:31:00Z",
+        "to": "2020-02-12T14:00:59Z"
       },
       "validity": [
         {
-          "from": "2020-02-07T08:17:00Z",
-          "to": "2020-02-07T09:40:59Z"
+          "from": "2020-02-10T09:30:00Z",
+          "to": "2020-02-10T14:00:59Z"
+        },
+        {
+          "from": "2020-02-11T09:30:00Z",
+          "to": "2020-02-11T14:00:59Z"
+        },
+        {
+          "from": "2020-02-12T09:30:00Z",
+          "to": "2020-02-12T14:00:59Z"
         }
       ]
     },
-    "urlText": "04:55 Brisbane to Sydney XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046264&seqID=1",
-    "content": "This service is running behind schedule due to operational issues.<br /><br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "04:55 Brisbane to Sydney XPT delay",
+    "urlText": "L2 Randwick Line - changed service",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046267&seqID=1",
+    "content": "<strong>Monday 10 to Wednesday 12 February</strong><br /><br />Due to planned maintenance from 8:30pm until 1am, L2 Randwick Line light rail services will only run between Town Hall and Randwick. Use buses or trains between Town Hall and Circular Quay.",
+    "subtitle": "L2 Randwick Line - changed service",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "TMC",
+      "announcementType": "trackwork",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76032: :R:",
+          "id": "nsw:780L2: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Randwick Light Rail, Randwick",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 4,
+            "iconId": 4
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
           }
         }
       ]
