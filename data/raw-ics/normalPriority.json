@@ -16627,11 +16627,11 @@
   {
     "type": "lineInfo",
     "id": "6046267",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-02-07T09:31:35Z",
-      "lastModification": "2020-02-07T09:43:40Z",
+      "lastModification": "2020-02-08T01:45:01Z",
       "availability": {
         "from": "2020-02-07T09:31:00Z",
         "to": "2020-02-12T14:00:59Z"
@@ -16652,8 +16652,8 @@
       ]
     },
     "urlText": "L2 Randwick Line - changed service",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046267&seqID=1",
-    "content": "<strong>Monday 10 to Wednesday 12 February</strong><br /><br />Due to planned maintenance from 8:30pm until 1am, L2 Randwick Line light rail services will only run between Town Hall and Randwick. Use buses or trains between Town Hall and Circular Quay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046267&seqID=2",
+    "content": "<strong>Monday 10 to Wednesday 12 February</strong><br /><br />Due to planned maintenance from 8:30pm until 1am nightly only, L2 Randwick Line light rail services will only run between Town Hall and Randwick in both directions. Use alternative transport options including nearby buses or trains between Town Hall and Circular Quay.<br /><br />Between 5am and 8:30pm daily, normal light rail services will resume fully between Circular Quay and Randwick in both directions.&nbsp;",
     "subtitle": "L2 Randwick Line - changed service",
     "properties": {
       "providerCode": "TMC",
@@ -17120,6 +17120,116 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6046290",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-08T01:39:26Z",
+      "lastModification": "2020-02-08T01:40:29Z",
+      "availability": {
+        "from": "2020-02-08T01:39:00Z",
+        "to": "2020-02-08T11:39:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-08T01:39:00Z",
+          "to": "2020-02-08T11:39:59Z"
+        }
+      ]
+    },
+    "urlText": "South Coast Line - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046290&seqID=1",
+    "content": "<span>Allow extra travel time due to urgent signal equipment repairs at Coalcliff. Listen to announcements and check indicator boards.&nbsp;</span>",
+    "subtitle": "South Coast Line - delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to urgent signal equipment repairs at Coalcliff. Listen to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SCO: :R:",
+          "destination": {
+            "name": "Kiama Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry to Kiama",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SCO: :H:",
+          "destination": {
+            "name": "Bomaderry Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Kiama to Bomaderry",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
