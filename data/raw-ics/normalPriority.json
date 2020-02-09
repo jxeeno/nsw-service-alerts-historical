@@ -14045,8 +14045,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-07T03:59:11Z",
-      "lastModification": "2020-02-07T04:01:24Z",
+      "creation": "2020-02-07T03:59:00Z",
+      "lastModification": "2020-02-07T04:01:00Z",
       "availability": {
         "from": "2020-02-07T03:59:00Z",
         "to": "2020-03-11T04:00:59Z"
@@ -15245,11 +15245,11 @@
   {
     "type": "lineInfo",
     "id": "6046354",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-02-08T22:53:46Z",
-      "lastModification": "2020-02-09T00:23:32Z",
+      "lastModification": "2020-02-09T01:44:08Z",
       "availability": {
         "from": "2020-02-08T22:53:00Z",
         "to": "2020-02-09T08:53:59Z"
@@ -15261,56 +15261,18 @@
         }
       ]
     },
-    "urlText": "T9 Northern Line and Central Coast & Newcastle Line - major delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046354&seqID=2",
-    "content": "Allow plenty of extra travel time due to urgent signal equipment repairs at Woy Woy, rainfall safety monitors being activated at Wondabyne and&nbsp; fallen trees blocking the rail line at Cowan and Mount Kuring-Gai earlier. Listen to announcements and check indicator boards.",
-    "subtitle": "T9 Northern Line and Central Coast & Newcastle Line - major delays",
+    "urlText": "T9 Northern Line - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046354&seqID=3",
+    "content": "Allow extra travel time due to fallen trees blocking the rail line at Cowan and Mount Kuring-Gai earlier. Listen to announcements and check indicator boards.",
+    "subtitle": "T9 Northern Line - delays",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow plenty of extra travel time due to urgent signal equipment repairs at Woy Woy, rainfall safety monitors being activated at Wondabyne and  fallen trees blocking the rail line at Cowan and Mount Kuring-Gai earlier. Listen to announcements and check indicator boards.",
+      "speechText": "Allow extra travel time due to fallen trees blocking the rail line at Cowan and Mount Kuring-Gai earlier. Listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
         {
           "id": "nsw:020T9: :R:",
           "destination": {
@@ -15320,6 +15282,25 @@
           "name": "Sydney Trains Network T9 Northern Line",
           "number": "T9 Northern Line",
           "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -16100,6 +16081,78 @@
           "name": "Sydney Buses Network 146",
           "number": "146",
           "description": "PrePay-Only - Wheeler Heights to Manly",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6046380",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-09T01:39:12Z",
+      "lastModification": "2020-02-09T01:42:09Z",
+      "availability": {
+        "from": "2020-02-09T01:39:00Z",
+        "to": "2020-02-09T11:39:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-09T01:39:00Z",
+          "to": "2020-02-09T11:39:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in North Balgowlah",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046380&seqID=1",
+    "content": "Buses are diverting away from Eileen Street due to a fallen tree. Four stops are being missed.&nbsp;",
+    "subtitle": "Diversion in North Balgowlah",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are diverting away from Eileen Street due to a fallen tree. Four stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:28132: :H:",
+          "destination": {
+            "name": "St Luke's Grammar School, Head",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 132",
+          "number": "132",
+          "description": "PrePay-Only - Manly to Warringah Mall via North Balgowlah",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:28132: :R:",
+          "destination": {
+            "name": "Manly Wharf, West Esplanade, M",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 132",
+          "number": "132",
+          "description": "PrePay-Only - Warringah Mall to Manly via North Balgowlah",
           "iconId": 5,
           "product": {
             "class": 5,
