@@ -19589,25 +19589,25 @@
   {
     "type": "lineInfo",
     "id": "6047391",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-20T11:54:00Z",
-      "lastModification": "2020-02-20T11:59:00Z",
+      "creation": "2020-02-20T11:54:30Z",
+      "lastModification": "2020-02-20T16:49:59Z",
       "availability": {
         "from": "2020-02-20T11:54:00Z",
-        "to": "2020-02-20T21:54:59Z"
+        "to": "2020-02-20T19:54:59Z"
       },
       "validity": [
         {
           "from": "2020-02-20T11:54:00Z",
-          "to": "2020-02-20T21:54:59Z"
+          "to": "2020-02-20T19:54:59Z"
         }
       ]
     },
     "urlText": "07.42 Sydney to Melbourne XPT service issue.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047391&seqID=1",
-    "content": "<span>This XPT service has derailed just outside of Melbourne, near Wallan, at around 8pm. Emergency services are attending the scene and no further information is available at this time. Once emergency services have finalised investigations, passengers will be conveyed to Melbourne by coach services. We cannot comment any further as police are investigating</span>.<br />&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047391&seqID=2",
+    "content": "<span>This XPT service has derailed just outside of Melbourne, near Wallan, at around 8pm. Emergency services have attended the scene to investigate. Passengers were transferred to 3 Seymour coach services and arrived into Melbourne between 22:30 - 23:00</span>.<br />&nbsp;",
     "subtitle": "07.42 Sydney to Melbourne XPT service issue.",
     "properties": {
       "providerCode": "NSWTL",
@@ -19625,6 +19625,58 @@
           "name": "Regional Trains and Coaches Network 623",
           "number": "623",
           "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047394",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-20T16:53:50Z",
+      "lastModification": "2020-02-20T16:54:21Z",
+      "availability": {
+        "from": "2020-02-20T16:53:00Z",
+        "to": "2020-02-21T05:53:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-20T16:53:00Z",
+          "to": "2020-02-21T05:53:59Z"
+        }
+      ]
+    },
+    "urlText": "05:15 Grafton To Sydney XPT alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047394&seqID=1",
+    "content": "<span>Due to essential maintenance, this service is replaced by road coaches for the entire journey.</span> NSW TrainLink apologises for the inconvenience. <span><br /><em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>&nbsp;</span> <br /><br /><br />",
+    "subtitle": "05:15 Grafton To Sydney XPT alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76036: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 36",
+          "number": "36",
+          "description": "Grafton City to Central",
           "iconId": 3,
           "product": {
             "class": 1,
