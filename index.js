@@ -53,6 +53,7 @@ async function run() {
             }
         }catch(e){
             console.warn('error thrown when fetching contents of '+path);
+            console.error(e.message);
         }
         const content = toBase64(input);
 
