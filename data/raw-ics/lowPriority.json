@@ -1200,8 +1200,8 @@
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2020-02-21T22:32:00Z",
-      "lastModification": "2020-02-21T22:32:00Z",
+      "creation": "2020-02-21T22:32:30Z",
+      "lastModification": "2020-02-21T22:32:43Z",
       "availability": {
         "from": "2020-02-21T22:32:00Z",
         "to": "2020-02-29T08:32:59Z"
@@ -1418,8 +1418,8 @@
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2020-02-22T02:55:00Z",
-      "lastModification": "2020-02-22T02:55:00Z",
+      "creation": "2020-02-22T02:55:08Z",
+      "lastModification": "2020-02-22T02:55:42Z",
       "availability": {
         "from": "2020-02-22T02:55:00Z",
         "to": "2020-02-29T12:55:59Z"
@@ -1537,45 +1537,83 @@
   },
   {
     "type": "stopInfo",
-    "id": "6047466",
+    "id": "6047472",
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2020-02-23T00:06:08Z",
-      "lastModification": "2020-02-23T00:06:26Z",
+      "creation": "2020-02-23T05:11:16Z",
+      "lastModification": "2020-02-23T05:11:39Z",
       "availability": {
-        "from": "2020-02-23T00:06:00Z",
-        "to": "2020-02-28T10:06:59Z"
+        "from": "2020-02-23T05:11:00Z",
+        "to": "2020-02-28T15:11:59Z"
       },
       "validity": [
         {
-          "from": "2020-02-23T00:06:00Z",
-          "to": "2020-02-28T10:06:59Z"
+          "from": "2020-02-23T05:11:00Z",
+          "to": "2020-02-28T15:11:59Z"
         }
       ]
     },
-    "urlText": "Macarthur lift outage between platforms 1/2 and concourse",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047466&seqID=1",
-    "content": "The lift between platforms 1/2 and the concourse is temporarily out of service. For assistance ask staff or call 4629 0800.",
-    "subtitle": "Macarthur lift outage between platforms 1/2 and concourse",
+    "urlText": "Kings Cross lift outage platforms 1/2  to concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047472&seqID=1",
+    "content": "The lift between Platforms 1 and 2 and the concourse is temporarily out of service.<br /><br />If you require assistance, please call staff at Kings Cross Station on 9379 1204.",
+    "subtitle": "Kings Cross lift outage platforms 1/2  to concourse",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101297:2560712,2560711",
+      "stopIDglobalID": "10101107:201172,201171",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T8: :R:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Bondi Junction",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "Macarthur to City via Airport or Sydenham",
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Wollongong",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -1587,14 +1625,14 @@
           }
         },
         {
-          "id": "nsw:020T8: :H:",
+          "id": "nsw:020T4: :H:",
           "destination": {
-            "name": "Macarthur Station",
+            "name": "Central",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -1608,12 +1646,11 @@
       ],
       "stops": [
         {
-          "id": "10101297",
-          "name": "Macarthur Station",
+          "id": "10101107",
+          "name": "Kings Cross Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95313007:1",
-            "name": "Campbelltown",
+            "name": "Potts Point",
             "type": "locality"
           }
         }
