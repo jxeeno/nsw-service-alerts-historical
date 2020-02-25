@@ -2083,11 +2083,11 @@
   {
     "type": "routeInfo",
     "id": "6046810",
-    "version": 5,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-12T00:58:00Z",
-      "lastModification": "2020-02-24T02:11:00Z",
+      "creation": "2020-02-12T00:58:37Z",
+      "lastModification": "2020-02-25T02:46:49Z",
       "availability": {
         "from": "2020-02-12T00:58:00Z",
         "to": "2020-03-01T15:00:59Z"
@@ -2100,8 +2100,8 @@
       ]
     },
     "urlText": "Buses replace trains between Lithgow and Blacktown",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046810&seqID=5",
-    "content": "<strong>Sunday 1 March</strong>\n<ul>\n<li>Buses replace trains between Lithgow and Blacktown.</li>\n<li>Bathurst trains are replaced by buses between Bathurst and Central.</li>\n<li><strong>T1 Western Line</strong> trains run between Blacktown and the City. These trains do not run to the Blue Mountains Line train timetable.</li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call <a href=\"tel:132232\">132 232</a> to confirm departure times.</li>\n</ul>\n<strong>Bus routes</strong><br />2BM: Bathurst then express to Lithgow and return<br />6BM: Bathurst, then Lithgow, Mount Victoria, Katoomba, Springwood, Penrith, Parramatta, Central and return<br />10BM: Bathurst, Rydal, Tarana, Lithgow and return<br />42BM: Katoomba, then all stations to Penrith, then Blacktown and return<br />45BM: Katoomba, then express to Blacktown and return<br />53BM: Lithgow, then all stations to Katoomba, Springwood, Blaxland, then Blacktown and return<br />56BM: Mount Victoria, then all stations to Katoomba, Springwood, Blaxland, then Blacktown and return",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046810&seqID=6",
+    "content": "<strong>Sunday 1 March</strong>\n<ul>\n<li>Buses replace trains between Lithgow and Blacktown.</li>\n<li>Bathurst trains are replaced by buses between Bathurst and Central.</li>\n<li><strong>T1 Western Line</strong> trains run between Blacktown and the City. These trains do not run to the Blue Mountains Line train timetable.</li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call <a href=\"tel:132232\">132 232</a> to confirm departure times.</li>\n</ul>\n<strong>Bus routes</strong><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/2bm/012BM\">2BM: Bathurst then express to Lithgow and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/6bm/016BM\">6BM: Bathurst, then Lithgow, Mount Victoria, Katoomba, Springwood, Penrith, Parramatta, Central and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/10bm/0110B-M\">10BM: Bathurst, Rydal, Tarana, Lithgow and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/42bm/0142B-M\">42BM: Katoomba, then all stations to Penrith, then Blacktown and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/45bm/0145B-M\">45BM: Katoomba, then express to Blacktown and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/53bm/0153B-M\">53BM: Lithgow, then all stations to Katoomba, Springwood, Blaxland, then Blacktown and return</a><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/56bm/0156B-M\">56BM: Mount Victoria, then all stations to Katoomba, Springwood, Blaxland, then Blacktown and return</a>",
     "subtitle": "Buses replace trains between Lithgow and Blacktown",
     "properties": {
       "providerCode": "PT Marketing",
@@ -2112,6 +2112,22 @@
     },
     "affected": {
       "lines": [
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Bathurst",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
         {
           "id": "nsw:76BMT: :H:",
           "destination": {
@@ -2161,18 +2177,290 @@
           "operator": {}
         },
         {
-          "id": "nsw:02BMT: :H:",
+          "id": "nsw:016AB:M:H:",
           "destination": {
-            "name": "Lithgow Station",
+            "name": "Bathurst",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
+          "name": "Temporary buses 6ABM",
+          "number": "6ABM",
+          "description": "Mt Victoria, then Lithgow, Bathurst",
+          "iconId": 14,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:016AB:M:R:",
+          "destination": {
+            "name": "Springwood",
+            "type": "stop"
+          },
+          "name": "Temporary buses 6ABM",
+          "number": "6ABM",
+          "description": "Bathurst, then Lithgow, Mt Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:016BM: :H:",
+          "destination": {
+            "name": "Bathurst",
+            "type": "stop"
+          },
+          "name": "Temporary buses 6BM",
+          "number": "6BM",
+          "description": "Central, Parramatta, Penrith, Springwood, Katoomba, Mount Victoria, Lithgow and Bathurst",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:016BM: :R:",
+          "destination": {
+            "name": "Central",
+            "type": "stop"
+          },
+          "name": "Temporary buses 6BM",
+          "number": "6BM",
+          "description": "Bathurst, Lithgow, Mount Victoria, Katoomba, Springwood, Penrith, Parramatta and Central",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0142B:M:R:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 42BM",
+          "number": "42BM",
+          "description": "Katoomba, then all stations to Penrith",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0142B:M:H:",
+          "destination": {
+            "name": "Katoomba Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 42BM",
+          "number": "42BM",
+          "description": "Penrith, then all stations to Katoomba",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0143B:M:R:",
+          "destination": {
+            "name": "Penrith",
+            "type": "stop"
+          },
+          "name": "Temporary buses 43BM",
+          "number": "43BM",
+          "description": "Lithgow all stations to Katoomba, Springwood, Blaxland then Penrith",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0143B:M:H:",
+          "destination": {
+            "name": "Lithgow",
+            "type": "stop"
+          },
+          "name": "Temporary buses 43BM",
+          "number": "43BM",
+          "description": "Penrith, Blaxland, Springwood, Katoomba, then all stations to Lithgow",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0144B:M:R:",
+          "destination": {
+            "name": "Penrith",
+            "type": "stop"
+          },
+          "name": "Temporary buses 44BM",
+          "number": "44BM",
+          "description": "Katoomba then Penrith",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0144B:M:H:",
+          "destination": {
+            "name": "Katoomba",
+            "type": "stop"
+          },
+          "name": "Temporary buses 44BM",
+          "number": "44BM",
+          "description": "Penrith then Katoomba",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0145B:M:R:",
+          "destination": {
+            "name": "Blacktown",
+            "type": "stop"
+          },
+          "name": "Temporary buses 45BM",
+          "number": "45BM",
+          "description": "Katoomba, express to Blacktown",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0145B:M:H:",
+          "destination": {
+            "name": "Katoomba",
+            "type": "stop"
+          },
+          "name": "Temporary buses 45BM",
+          "number": "45BM",
+          "description": "Blacktown, express to Katoomba",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0146B:M:R:",
+          "destination": {
+            "name": "Penrith",
+            "type": "stop"
+          },
+          "name": "Temporary buses 46BM",
+          "number": "46BM",
+          "description": "Mt Victoria, all stations to Katoomba, Springwood, Blaxland, Penrith",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0146B:M:H:",
+          "destination": {
+            "name": "Mount Victoria",
+            "type": "stop"
+          },
+          "name": "Temporary buses 46BM",
+          "number": "46BM",
+          "description": "Penrith, Blaxland, Springwood, Katoomba, all stations to Mt Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0153B:M:R:",
+          "destination": {
+            "name": "Blacktown",
+            "type": "stop"
+          },
+          "name": "Temporary buses 53BM",
+          "number": "53BM",
+          "description": "Lithgow, then all stations to Katoomba, Springwood, Blaxland, Blacktown",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0153B:M:H:",
+          "destination": {
+            "name": "Lithgow",
+            "type": "stop"
+          },
+          "name": "Temporary buses 53BM",
+          "number": "53BM",
+          "description": "Blacktown, Blaxland, Springwood, Katoomba, then all stations to Lithgow",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0156B:M:R:",
+          "destination": {
+            "name": "Blacktown",
+            "type": "stop"
+          },
+          "name": "Temporary buses 56BM",
+          "number": "56BM",
+          "description": "Mt Victoria, then all stations to Katoomba, Springwood, Blaxland, Blacktown",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0156B:M:H:",
+          "destination": {
+            "name": "Mount Victoria",
+            "type": "stop"
+          },
+          "name": "Temporary buses 56BM",
+          "number": "56BM",
+          "description": "Blacktown, Blaxland, Springwood, Katoomba, then all stations to Mt Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
           },
           "operator": {}
         }
@@ -5245,11 +5533,11 @@
   {
     "type": "routeInfo",
     "id": "6047257",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-19T01:06:00Z",
-      "lastModification": "2020-02-19T02:56:00Z",
+      "creation": "2020-02-19T01:06:05Z",
+      "lastModification": "2020-02-25T02:48:51Z",
       "availability": {
         "from": "2020-02-19T01:06:00Z",
         "to": "2020-03-06T15:00:59Z"
@@ -5262,7 +5550,7 @@
       ]
     },
     "urlText": "Trackwork between Lithgow and Mount Victoria or Katoomba",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047257&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047257&seqID=3",
     "content": "<strong>Monday 2 to Friday 6 March</strong>\n<ul>\n<li>Buses replace trains between Lithgow and Mount Victoria.</li>\n<li>Trains run to a changed timetable between Mount Victoria and Central.</li>\n<li><strong>Daily from 9.30am until 5.30pm,</strong> buses replace trains between Lithgow and Katoomba.</li>\n<li>Trains run between Katoomba and Central, some to a changed timetable.</li>\n<li>Trains run between Bathurst and Lithgow.</li>\n<li>The following trains continue to run between Bathurst and Central:\n<ul>\n<li>05:46 Bathurst to Central, arriving 09:56</li>\n<li>17:47 Central to Bathurst, arriving 22:00</li>\n</ul>\n</li>\n<li><a href=\"https://transportnsw.info/trip#/\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br /><br />2BM: Bathurst express to Lithgow and return<br />6ABM: Bathurst, Lithgow then express to Mount Victoria and return<br />7BM: Lithgow, then all stations to Katoomba and return<br />10BM: Bathurst, then Tarana, Rydal, Lithgow and return<br />31BM: Lithgow then express to Mount Victoria and return<br />32BM: Lithgow, then all stations to Mount Victoria and return<br />33BM: Mount Victoria, then all stations to Katoomba and return<br />34BM: Lithgow then express to Katoomba and return<br />35BM: Bathurst, Lithgow, Mount Victoria, Katoomba and return<br /><br />",
     "subtitle": "Trackwork between Lithgow and Mount Victoria or Katoomba",
     "properties": {
@@ -5291,6 +5579,38 @@
           "operator": {}
         },
         {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:76BMT: :R:",
+          "destination": {
+            "name": "Central",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Lithgow",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
           "id": "nsw:02BMT: :R:",
           "destination": {
             "name": "Central Station",
@@ -5303,6 +5623,70 @@
           "product": {
             "class": 1,
             "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:016AB:M:H:",
+          "destination": {
+            "name": "Bathurst",
+            "type": "stop"
+          },
+          "name": "Temporary buses 6ABM",
+          "number": "6ABM",
+          "description": "Mt Victoria, then Lithgow, Bathurst",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:016AB:M:R:",
+          "destination": {
+            "name": "Springwood",
+            "type": "stop"
+          },
+          "name": "Temporary buses 6ABM",
+          "number": "6ABM",
+          "description": "Bathurst, then Lithgow, Mt Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0131B:M:R:",
+          "destination": {
+            "name": "Mount Victoria",
+            "type": "stop"
+          },
+          "name": "Temporary buses 31BM",
+          "number": "31BM",
+          "description": "Lithgow, then Mount Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0131B:M:H:",
+          "destination": {
+            "name": "Lithgow",
+            "type": "stop"
+          },
+          "name": "Temporary buses 31BM",
+          "number": "31BM",
+          "description": "Mount Victoria, then Lithgow",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
           },
           "operator": {}
         }
