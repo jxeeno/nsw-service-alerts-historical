@@ -14499,11 +14499,11 @@
   {
     "type": "lineInfo",
     "id": "6047418",
-    "version": 5,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-21T01:41:00Z",
-      "lastModification": "2020-02-26T01:27:00Z",
+      "creation": "2020-02-21T01:41:59Z",
+      "lastModification": "2020-02-27T21:43:36Z",
       "availability": {
         "from": "2020-02-21T01:41:00Z",
         "to": "2020-03-07T11:30:59Z"
@@ -14516,8 +14516,8 @@
       ]
     },
     "urlText": "Coaches replace the Grafton XPT service",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047418&seqID=5",
-    "content": "This service is a timetabled coach replacement service.<br /><br />Replacement service numbers:<br /><br /><br /> CLK3511 Sydney to Grafton, stopping Sydney, Taree, Kempsey, Coffs Harbour and Grafton. <br /><br />CLK3513 Sydney to Grafton, stopping Sydney, Broadmeadow, Taree and all stops to Grafton. <br /><br />CLK3515 Sydney to Grafton, stopping Sydney, Hornsby, Taree, Kendall, Wauchope, Kempsey, Macksville, Nambucca Heads, Uranga, Coffs Harbour and Grafton.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047418&seqID=6",
+    "content": "This service is a timetabled coach replacement service.<br /><br />Replacement service numbers:<br /><br /><br /> CLK3511 Sydney to Grafton, stopping Sydney, Taree, Kempsey, Coffs Harbour and Grafton. <br /><br />CLK3513 Sydney to Grafton, stopping Sydney, Broadmeadow, Taree and all stops to Grafton. <br /><br />CLK3515 Sydney to Grafton, stopping Sydney, Strathfield, Hornsby, Taree, Kendall, Wauchope, Kempsey, Macksville, Nambucca Heads, Uranga, Coffs Harbour and Grafton.",
     "subtitle": "Coaches replace the Grafton XPT service",
     "properties": {
       "providerCode": "NSWTL",
@@ -20658,30 +20658,219 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6047729",
+    "type": "lineInfo",
+    "id": "6047731",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-27T21:10:57Z",
-      "lastModification": "2020-02-27T21:11:11Z",
+      "creation": "2020-02-27T21:26:36Z",
+      "lastModification": "2020-02-27T21:36:51Z",
       "availability": {
-        "from": "2020-02-27T21:10:00Z",
-        "to": "2020-02-27T21:20:59Z"
+        "from": "2020-02-27T21:26:00Z",
+        "to": "2020-02-28T07:26:59Z"
       },
       "validity": [
         {
-          "from": "2020-02-27T21:10:00Z",
-          "to": "2020-02-27T21:20:59Z"
+          "from": "2020-02-27T21:26:00Z",
+          "to": "2020-02-28T07:26:59Z"
         }
       ]
     },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047729&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
+    "urlText": "Delays in Chipping Norton",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047731&seqID=1",
+    "content": "Buses are delayed up to 15 minutes due to a car breakdown on Newbridge Road near Henry Lawson Drive in Chipping Norton.&nbsp;",
+    "subtitle": "Delays in Chipping Norton",
     "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "providerCode": "TMC",
+      "speechText": "Buses are delayed up to 15 minutes due to a car breakdown on Newbridge Road near Henry Lawson Drive in Chipping Norton.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38M90: :H:",
+          "destination": {
+            "name": "Liverpool Interchange, Liverpo",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Burwood to Liverpool",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M90: :R:",
+          "destination": {
+            "name": "Westfield Burwood, Victoria St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Liverpool to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38903: :R:",
+          "destination": {
+            "name": "Westfield Liverpool, George St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 903",
+          "number": "903",
+          "description": "Liverpool to Chipping Norton (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047732",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-27T21:34:14Z",
+      "lastModification": "2020-02-27T21:42:22Z",
+      "availability": {
+        "from": "2020-02-27T21:34:00Z",
+        "to": "2020-02-28T07:34:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-27T21:34:00Z",
+          "to": "2020-02-28T07:34:59Z"
+        }
+      ]
+    },
+    "urlText": "T1 North Shore Line - Delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047732&seqID=3",
+    "content": "Allow extra travel time due to an operational issue at Lidcombe.&nbsp;Listen to announcements and check indicator boards.",
+    "subtitle": "T1 North Shore Line - Delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to an operational issue at Lidcombe. Listen to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047733",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-27T21:36:56Z",
+      "lastModification": "2020-02-27T21:38:04Z",
+      "availability": {
+        "from": "2020-02-27T21:36:00Z",
+        "to": "2020-02-28T07:36:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-27T21:36:00Z",
+          "to": "2020-02-28T07:36:59Z"
+        }
+      ]
+    },
+    "urlText": "T4 Eastern Suburbs & Illawarra Line - Delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047733&seqID=1",
+    "content": "Allow extra travel time due to a medical emergency at Wolli Creek earlier. List to announcements and check indicator boards.&nbsp;",
+    "subtitle": "T4 Eastern Suburbs & Illawarra Line - Delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to a medical emergency at Wolli Creek earlier. List to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Helensburgh Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
     }
   }
 ]
