@@ -21365,58 +21365,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6047713",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-02-27T02:58:35Z",
-      "lastModification": "2020-02-27T04:18:16Z",
-      "availability": {
-        "from": "2020-02-27T02:58:00Z",
-        "to": "2020-02-27T05:45:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-02-27T02:58:00Z",
-          "to": "2020-02-27T05:45:59Z"
-        }
-      ]
-    },
-    "urlText": "12:01 Sydney to Canberra XPLORER service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047713&seqID=2",
-    "content": "This service is delayed due to urgent trackwork near Campbelltown.&nbsp;<br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;\n<br /><br />",
-    "subtitle": "12:01 Sydney to Canberra XPLORER service delay",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76633: :H:",
-          "destination": {
-            "name": "Canberra Station, Kingston (AC",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 633",
-          "number": "633",
-          "description": "Central to Canberra",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6047714",
     "version": 2,
     "priority": "normal",
@@ -22796,6 +22744,78 @@
     "properties": {
       "providerCode": "Serco",
       "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047719",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-27T05:50:53Z",
+      "lastModification": "2020-02-27T05:54:24Z",
+      "availability": {
+        "from": "2020-02-27T05:50:00Z",
+        "to": "2020-02-27T15:50:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-27T05:50:00Z",
+          "to": "2020-02-27T15:50:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversions in Lilyfield",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047719&seqID=1",
+    "content": "Buses are diverting away from Mary Street and Perry Street via local streets due to tree removal taking place. Two stops missed.",
+    "subtitle": "Diversions in Lilyfield",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Lilyfield, route 4 40 buses towards Rozelle and route 4 45 towards Balmain are diverting away from Mary Street and Perry Street via local streets due to tree removal taking place. Two stops missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74440: :R:",
+          "destination": {
+            "name": "Kings Cross Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 440",
+          "number": "440",
+          "description": "Bondi Junction to Rozelle",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74445: :R:",
+          "destination": {
+            "name": "Darling St opp Gladstone Park,",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 445",
+          "number": "445",
+          "description": "Campsie to Balmain via Leichhardt Marketplace",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ]
     }
   }
 ]
