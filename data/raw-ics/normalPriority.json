@@ -21242,11 +21242,11 @@
   {
     "type": "lineInfo",
     "id": "6047712",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-02-27T02:52:42Z",
-      "lastModification": "2020-02-27T04:39:40Z",
+      "lastModification": "2020-02-27T06:36:02Z",
       "availability": {
         "from": "2020-02-27T02:52:00Z",
         "to": "2020-02-27T09:20:59Z"
@@ -21259,7 +21259,7 @@
       ]
     },
     "urlText": "05.55 Brisbane to Sydney XPT service delay and alteration",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047712&seqID=3",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047712&seqID=4",
     "content": "This service has terminated at Taree due to a medical emergency.<br />Customers will be transferred to replacement road coaches for the remainder of their journey.<br />Delays are anticipated.<br /><br /> <em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp; <br /><br /><br />",
     "subtitle": "05.55 Brisbane to Sydney XPT service delay and alteration",
     "properties": {
@@ -22391,6 +22391,111 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047721",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-27T06:32:45Z",
+      "lastModification": "2020-02-27T06:34:51Z",
+      "availability": {
+        "from": "2020-02-27T06:32:00Z",
+        "to": "2020-02-27T16:32:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-27T06:32:00Z",
+          "to": "2020-02-27T16:32:59Z"
+        }
+      ]
+    },
+    "urlText": "5:40pm Circular Quay to Sydney Olympic Park ferry cancelled",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047721&seqID=1",
+    "content": "The 5:40pm Circular Quay to Sydney Olympic Park ferry has been cancelled due to a ferry requiring mechanical repairs. The next service leaves Circular Quay at 5:55pm.",
+    "subtitle": "5:40pm Circular Quay to Sydney Olympic Park ferry cancelled",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "The 5:40pm Circular Quay to Sydney Olympic Park ferry has been cancelled due to a ferry requiring mechanical repairs. The next service leaves Circular Quay at 5:55pm.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Parramatta Wharf",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Parramatta River",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047722",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-27T06:36:05Z",
+      "lastModification": "2020-02-27T06:38:02Z",
+      "availability": {
+        "from": "2020-02-27T06:36:00Z",
+        "to": "2020-02-27T07:36:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-27T06:36:00Z",
+          "to": "2020-02-27T07:36:59Z"
+        }
+      ]
+    },
+    "urlText": "09:30 Sydney to Moree XPLORER service delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047722&seqID=1",
+    "content": "This service is delayed due speed restrictions.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;&nbsp;",
+    "subtitle": "09:30 Sydney to Moree XPLORER service delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76243: :H:",
+          "destination": {
+            "name": "Moree Station, Moree",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 243",
+          "number": "243",
+          "description": "Werris Creek to Moree",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
