@@ -14551,11 +14551,11 @@
   {
     "type": "lineInfo",
     "id": "6047421",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-21T02:33:00Z",
-      "lastModification": "2020-02-26T01:10:00Z",
+      "creation": "2020-02-21T02:33:21Z",
+      "lastModification": "2020-02-27T23:45:26Z",
       "availability": {
         "from": "2020-02-22T19:33:00Z",
         "to": "2020-03-07T20:00:59Z"
@@ -14568,8 +14568,8 @@
       ]
     },
     "urlText": "Coaches replace the Casino XPT service",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047421&seqID=4",
-    "content": "This service is a timetabled coach replacement service.<br /><br />Replacement service numbers:<br /><br /><br />CLK3414 Casino to Sydney, stopping at Grafton, Coffs Harbour, Kempsey, Wauchope, Taree and Sydney.<br /><br />CLK3416 Casino, Grafton, Coffs Harbour, Sawtell, Urunga, Nambucca Heads, Macksville, Kempsey, Wauchope, Kendall, Taree, Broadmeadow and Sydney.<br /><br />CLK3418 Casino, Grafton, Coffs Harbour, Sawtell, Urunga, Nambucca Heads, Macksville, Kempsey, Wauchope, Kendall, Taree, Hornsby and Sydney.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047421&seqID=5",
+    "content": "This service is a timetabled coach replacement service.<br /><br />Replacement service numbers:<br /><br /><br />CLK3414 Casino to Sydney, stopping at Grafton, Coffs Harbour, Kempsey, Wauchope, Taree and Sydney.<br /><br />CLK3416 Casino, Grafton, Coffs Harbour, Sawtell, Urunga, Nambucca Heads, Macksville, Kempsey, Wauchope, Kendall, Taree, Broadmeadow and Sydney.&nbsp;<br /><br />CLK3418 Casino, Grafton, Coffs Harbour, Sawtell, Urunga, Nambucca Heads, Macksville, Kempsey, Wauchope, Kendall, Taree, Hornsby and Sydney.<br /><br />Coaches are expected to arrive Sydney between 06:30 and 07:00, depending on morning traffic.",
     "subtitle": "Coaches replace the Casino XPT service",
     "properties": {
       "providerCode": "NSWTL",
@@ -20815,6 +20815,78 @@
           "operator": {
             "id": "SMNW",
             "name": "Sydney Metro"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047741",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-27T23:43:39Z",
+      "lastModification": "2020-02-27T23:45:06Z",
+      "availability": {
+        "from": "2020-02-27T23:43:00Z",
+        "to": "2020-02-28T09:43:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-27T23:43:00Z",
+          "to": "2020-02-28T09:43:59Z"
+        }
+      ]
+    },
+    "urlText": "T8 Airport & South Line - Delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047741&seqID=1",
+    "content": "Allow extra travel time due to a train requiring mechanical repairs at Central earlier. Listen to announcements and check indicator boards.&nbsp;",
+    "subtitle": "T8 Airport & South Line - Delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to a train requiring mechanical repairs at Central earlier. Listen to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Menangle Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
