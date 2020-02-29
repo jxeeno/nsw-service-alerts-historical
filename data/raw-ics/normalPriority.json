@@ -14369,26 +14369,26 @@
   {
     "type": "lineInfo",
     "id": "6047486",
-    "version": 3,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-02-23T23:41:02Z",
-      "lastModification": "2020-02-28T17:36:05Z",
+      "lastModification": "2020-02-29T08:51:05Z",
       "availability": {
         "from": "2020-02-23T23:41:00Z",
-        "to": "2020-02-29T09:15:59Z"
+        "to": "2020-02-29T10:15:59Z"
       },
       "validity": [
         {
           "from": "2020-02-23T23:41:00Z",
-          "to": "2020-02-29T09:15:59Z"
+          "to": "2020-02-29T10:15:59Z"
         }
       ]
     },
-    "urlText": "The 08:30 Melbourne to Sydney XPT services alteration.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047486&seqID=3",
+    "urlText": "08:30 Melbourne to Sydney XPT services alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047486&seqID=5",
     "content": "Due to a derailment in Victoria, this service is replaced by road coaches for the entire journey.&nbsp;<br /> NSW TrainLink apologises for the inconvenience and appreciate your understanding at this time.<br /><br /> <em>&nbsp;</em> <em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "The 08:30 Melbourne to Sydney XPT services alteration.",
+    "subtitle": "08:30 Melbourne to Sydney XPT services alteration.",
     "properties": {
       "providerCode": "NSWTL",
       "announcementType": "serviceChange",
@@ -20671,25 +20671,25 @@
   {
     "type": "lineInfo",
     "id": "6047792",
-    "version": 2,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-02-29T04:20:02Z",
-      "lastModification": "2020-02-29T06:04:15Z",
+      "lastModification": "2020-02-29T08:50:19Z",
       "availability": {
         "from": "2020-02-29T04:20:00Z",
-        "to": "2020-02-29T08:50:59Z"
+        "to": "2020-02-29T09:50:59Z"
       },
       "validity": [
         {
           "from": "2020-02-29T04:20:00Z",
-          "to": "2020-02-29T08:50:59Z"
+          "to": "2020-02-29T09:50:59Z"
         }
       ]
     },
     "urlText": "07:40 Sydney to Melbourne XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047792&seqID=2",
-    "content": "This service is running behind schedule, due to crossing a delayed freight train service at The Rock and temporary track speed restrictions in Victoria.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047792&seqID=4",
+    "content": "This service is running behind schedule, due to crossing a delayed freight train service at The Rock, temporary track speed restrictions in Victoria and a signal fault near Broadmeadows.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
     "subtitle": "07:40 Sydney to Melbourne XPT delay.",
     "properties": {
       "providerCode": "NSWTL",
@@ -21481,6 +21481,58 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047801",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-02-29T08:51:31Z",
+      "lastModification": "2020-02-29T08:53:54Z",
+      "availability": {
+        "from": "2020-02-29T08:51:00Z",
+        "to": "2020-02-29T21:51:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-02-29T08:51:00Z",
+          "to": "2020-02-29T21:51:59Z"
+        }
+      ]
+    },
+    "urlText": "19:50 Melbourne to Sydney XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047801&seqID=1",
+    "content": "This service has been delayed due to the late arrival of the XPT service from Sydney with earlier signal issues near Broadmeadows.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "19:50 Melbourne to Sydney XPT delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
