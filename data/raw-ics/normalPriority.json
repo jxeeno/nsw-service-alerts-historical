@@ -17142,11 +17142,11 @@
   {
     "type": "lineInfo",
     "id": "6047799",
-    "version": 13,
+    "version": 14,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-02-29T08:40:51Z",
-      "lastModification": "2020-02-29T22:37:34Z",
+      "lastModification": "2020-03-01T02:33:01Z",
       "availability": {
         "from": "2020-02-29T08:40:00Z",
         "to": "2020-03-01T23:00:59Z"
@@ -17158,13 +17158,13 @@
         }
       ]
     },
-    "urlText": "T3 Bankstown Line - partial closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047799&seqID=13",
-    "content": "Buses are replacing trains between Sydenham and Bankstown due to urgent overhead wiring repairs at Belmore. Delay travel or allow plenty of extra travel time, listen to announcements and check indicator boards. Trains are still running between the city and Sydenham, as well as between Bankstown and Liverpool.&nbsp;",
-    "subtitle": "T3 Bankstown Line - partial closure",
+    "urlText": "T3 Bankstown Line - Delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047799&seqID=14",
+    "content": "Allow extra travel time due to urgent overhead wiring repairs at Belmore earlier. Buses may supplement some services so listen to announcements and check indicator boards.",
+    "subtitle": "T3 Bankstown Line - Delays",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing trains between Sydenham and Bankstown due to urgent overhead wiring repairs at Belmore. Delay travel or allow plenty of extra travel time, listen to announcements and check indicator boards. Trains are still running between the city and Sydenham, as well as between Bankstown and Liverpool.",
+      "speechText": "Allow extra travel time due to urgent overhead wiring repairs at Belmore earlier. Buses may supplement some services so listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -18333,6 +18333,110 @@
           "operator": {
             "id": "2440",
             "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047814",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-01T02:36:20Z",
+      "lastModification": "2020-03-01T02:46:02Z",
+      "availability": {
+        "from": "2020-03-01T02:36:00Z",
+        "to": "2020-03-01T08:36:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-01T02:36:00Z",
+          "to": "2020-03-01T08:36:59Z"
+        }
+      ]
+    },
+    "urlText": "07:40 Sydney to Melbourne XPT service alterations",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047814&seqID=1",
+    "content": "This service is replaced by coaches between Albury and Melbourne due to temporary ARTC speed restrictions in Victoria.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>",
+    "subtitle": "07:40 Sydney to Melbourne XPT service alterations",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Sta",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047815",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-01T02:46:07Z",
+      "lastModification": "2020-03-01T02:47:42Z",
+      "availability": {
+        "from": "2020-03-01T02:46:00Z",
+        "to": "2020-03-01T20:46:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-01T02:46:00Z",
+          "to": "2020-03-01T20:46:59Z"
+        }
+      ]
+    },
+    "urlText": "19:30 Melbourne to Sydney overnight XPT alterations.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047815&seqID=1",
+    "content": "This service is replaced by coaches between Melbourne and Albury due to temporary ARTC speed restrictions in Victoria.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>",
+    "subtitle": "19:30 Melbourne to Sydney overnight XPT alterations.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
