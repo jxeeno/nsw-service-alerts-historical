@@ -16116,11 +16116,11 @@
   {
     "type": "lineInfo",
     "id": "6047904",
-    "version": 5,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-02T18:58:31Z",
-      "lastModification": "2020-03-02T21:59:54Z",
+      "lastModification": "2020-03-03T01:25:14Z",
       "availability": {
         "from": "2020-03-02T18:58:00Z",
         "to": "2020-03-03T04:58:59Z"
@@ -16133,12 +16133,12 @@
       ]
     },
     "urlText": "T1 North Shore, T1 Western and T9 Northern Line - delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047904&seqID=5",
-    "content": "Allow extra travel time due<span>&nbsp;to a derailment of a small maintenance vehicle at Circular Quay earlier and a trespasser on the track at Central earlier. Listen to announcements and check indicator boards.</span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047904&seqID=6",
+    "content": "Allow extra travel time due<span>&nbsp;to a derailment of a small maintenance vehicle at Circular Quay earlier. Listen to announcements and check indicator boards.</span>",
     "subtitle": "T1 North Shore, T1 Western and T9 Northern Line - delays",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to a derailment of a small maintenance vehicle at Circular Quay earlier and a trespasser on the track at Central earlier. Listen to announcements and check indicator boards.",
+      "speechText": "Allow extra travel time due to a derailment of a small maintenance vehicle at Circular Quay earlier. Listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -16878,11 +16878,11 @@
   {
     "type": "lineInfo",
     "id": "6047922",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-03T00:41:48Z",
-      "lastModification": "2020-03-03T00:44:46Z",
+      "lastModification": "2020-03-03T01:29:27Z",
       "availability": {
         "from": "2020-03-03T00:41:00Z",
         "to": "2020-03-03T10:41:59Z"
@@ -16895,7 +16895,7 @@
       ]
     },
     "urlText": "West coach delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047922&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047922&seqID=3",
     "content": "This service is running behind schedule awaiting the arrival of the delayed InterCity train.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
     "subtitle": "West coach delay",
     "properties": {
@@ -16905,25 +16905,6 @@
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:76553: :H:",
-          "destination": {
-            "name": "Oberon Coach Stop, Oberon",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 553",
-          "number": "553",
-          "description": "Mount Victoria to Oberon",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
         {
           "id": "nsw:76563: :H:",
           "destination": {
@@ -16941,6 +16922,58 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6047923",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-03T01:25:34Z",
+      "lastModification": "2020-03-03T01:29:56Z",
+      "availability": {
+        "from": "2020-03-03T01:25:00Z",
+        "to": "2020-03-03T09:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-03T01:25:00Z",
+          "to": "2020-03-03T09:00:59Z"
+        }
+      ]
+    },
+    "urlText": "The 08:30 CLK624 Melbourne to Sydney XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047923&seqID=1",
+    "content": "Due to late arrival of the replacement coach the 08:30 Melbourne to Sydney XPT service is running behind schedule.<br /><br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "The 08:30 CLK624 Melbourne to Sydney XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
