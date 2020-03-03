@@ -21262,11 +21262,11 @@
   {
     "type": "lineInfo",
     "id": "6047985",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-03T21:33:55Z",
-      "lastModification": "2020-03-03T21:42:53Z",
+      "lastModification": "2020-03-03T22:22:46Z",
       "availability": {
         "from": "2020-03-03T21:33:00Z",
         "to": "2020-03-04T07:33:59Z"
@@ -21278,10 +21278,10 @@
         }
       ]
     },
-    "urlText": "T2 Inner West & Leppington Line and T8 Airport & South Line - delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047985&seqID=2",
+    "urlText": "T2 Inner West & Leppington Line, T3 Bankstown Line and T8 Airport & South Line - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047985&seqID=3",
     "content": "Allow extra travel time due to extended boarding times caused by the wet weather and a train requiring mechanical repairs at Petersham earlier. Listen to announcements and check indicator boards.&nbsp;",
-    "subtitle": "T2 Inner West & Leppington Line and T8 Airport & South Line - delays",
+    "subtitle": "T2 Inner West & Leppington Line, T3 Bankstown Line and T8 Airport & South Line - delays",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow extra travel time due to extended boarding times caused by the wet weather and a train requiring mechanical repairs at Petersham earlier. Listen to announcements and check indicator boards.",
@@ -21356,6 +21356,44 @@
           "name": "Sydney Trains Network T8 Airport & South Line",
           "number": "T8 Airport & South Line",
           "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -21481,84 +21519,12 @@
   },
   {
     "type": "lineInfo",
-    "id": "6047988",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-03-03T22:00:25Z",
-      "lastModification": "2020-03-03T22:03:30Z",
-      "availability": {
-        "from": "2020-03-03T22:00:00Z",
-        "to": "2020-03-04T08:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-03-03T22:00:00Z",
-          "to": "2020-03-04T08:00:59Z"
-        }
-      ]
-    },
-    "urlText": "L1 Light Rail - partial closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047988&seqID=2",
-    "content": "Services are not running between Central and Convention due to flooding at Capital Square. Allow extra travel time. Services are still running between Convention and Dulwich Hill.",
-    "subtitle": "L1 Light Rail - partial closure",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "Services are not running between Central and Convention due to flooding at Capital Square. Allow extra travel time. Services are still running between Convention and Dulwich Hill.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:780L1: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
-          "number": "L1 Dulwich Hill Line",
-          "description": "Central to Dulwich Hill",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "LR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L1: :H:",
-          "destination": {
-            "name": "Dulwich Hill Light Rail",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
-          "number": "L1 Dulwich Hill Line",
-          "description": "Dulwich Hill to Central",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "LR",
-            "name": "Sydney Light Rail"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6047989",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-03T22:00:45Z",
-      "lastModification": "2020-03-03T22:17:49Z",
+      "lastModification": "2020-03-03T22:22:32Z",
       "availability": {
         "from": "2020-03-03T22:00:00Z",
         "to": "2020-03-04T08:00:59Z"
@@ -21571,12 +21537,12 @@
       ]
     },
     "urlText": "L2 Light Rail - partial closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047989&seqID=2",
-    "content": "Light Rail services are not running between Town Hall and Circular Quay due to urgent signal repairs&nbsp;at Circular Quay. Consider catching a train instead. Services continue to operate between Randwick and Central. Allow extra travel time and check information displays for service updates. &nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047989&seqID=3",
+    "content": "Light Rail services are not running between Town Hall and Circular Quay due to urgent signal repairs&nbsp;at Circular Quay. Consider catching a train instead. Services continue to operate between Randwick and Town Hall. Allow extra travel time and check information displays for service updates. &nbsp;",
     "subtitle": "L2 Light Rail - partial closure",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Light Rail services are not running between Town Hall and Circular Quay due to urgent signal repairs at Circular Quay. Consider catching a train instead. Services continue to operate between Randwick and Central. Allow extra travel time and check information displays for service updates.",
+      "speechText": "Light Rail services are not running between Town Hall and Circular Quay due to urgent signal repairs at Circular Quay. Consider catching a train instead. Services continue to operate between Randwick and Town Hall. Allow extra travel time and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
