@@ -17667,51 +17667,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6048167",
+    "id": "6048168",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-03-07T17:33:53Z",
-      "lastModification": "2020-03-07T17:35:47Z",
+      "creation": "2020-03-07T22:16:50Z",
+      "lastModification": "2020-03-07T22:24:11Z",
       "availability": {
-        "from": "2020-03-07T17:33:00Z",
-        "to": "2020-03-07T18:33:59Z"
+        "from": "2020-03-07T22:16:00Z",
+        "to": "2020-03-08T08:16:59Z"
       },
       "validity": [
         {
-          "from": "2020-03-07T17:33:00Z",
-          "to": "2020-03-07T18:33:59Z"
+          "from": "2020-03-07T22:16:00Z",
+          "to": "2020-03-08T08:16:59Z"
         }
       ]
     },
-    "urlText": "The 14:41 Sydney to Brisbane XPT service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048167&seqID=1",
-    "content": "This service is running behind schedule due to livestock on the track near Acacia Ridge in Queensland.<br /><br /> <em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "The 14:41 Sydney to Brisbane XPT service delay",
+    "urlText": "Sydney Light Rail out of service",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048168&seqID=1",
+    "content": "Sydney Light Rail is currently out of service until further notice due to a power failure across the network. <br />Passengers are advised to use alternative transport and to allow extra travel time.&nbsp;",
+    "subtitle": "Sydney Light Rail out of service",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Sydney Light Rail is currently out of service until further notice due to a power failure across the network. \nPassengers are advised to use alternative transport and to allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76031: :H:",
+          "id": "nsw:780L1: :H:",
           "destination": {
-            "name": "Brisbane (Roma Street) Station",
+            "name": "Dulwich Hill Light Rail",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "iconId": 3,
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "iconId": 13,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 4,
+            "iconId": 4
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L1: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Dulwich Hill to Central",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :H:",
+          "destination": {
+            "name": "Randwick Light Rail, Randwick",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
           }
         }
       ]
