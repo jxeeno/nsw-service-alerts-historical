@@ -17829,11 +17829,11 @@
   {
     "type": "lineInfo",
     "id": "6048157",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-07T04:05:00Z",
-      "lastModification": "2020-03-07T04:06:19Z",
+      "lastModification": "2020-03-07T08:37:43Z",
       "availability": {
         "from": "2020-03-07T04:05:00Z",
         "to": "2020-03-07T12:55:59Z"
@@ -17846,8 +17846,8 @@
       ]
     },
     "urlText": "South coach service delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048157&seqID=1",
-    "content": "These services are running behind schedule awaiting the arrival of the delayed XPT train replacement coaches. Due to this delay, these services will service stops for booked passengers only.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048157&seqID=2",
+    "content": "These services are running behind schedule awaiting the arrival of the delayed XPT train replacement coaches. <br />Due to this delay, these services will service stops for booked passengers only.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
     "subtitle": "South coach service delays",
     "properties": {
       "providerCode": "NSWTL",
@@ -17865,25 +17865,6 @@
           "name": "Regional Trains and 717",
           "number": "717",
           "description": "Cootamundra to Condobolin Town",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76725: :H:",
-          "destination": {
-            "name": "Mildura Station, Mildura (VIC)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 725",
-          "number": "725",
-          "description": "Cootamundra to Mildura",
           "iconId": 7,
           "product": {
             "class": 7,
@@ -17982,6 +17963,58 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6048162",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-07T08:33:49Z",
+      "lastModification": "2020-03-07T08:34:13Z",
+      "availability": {
+        "from": "2020-03-07T08:33:00Z",
+        "to": "2020-03-07T11:15:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-07T08:33:00Z",
+          "to": "2020-03-07T11:15:59Z"
+        }
+      ]
+    },
+    "urlText": "17:35 Grafton to Byron Bay coach delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048162&seqID=1",
+    "content": "This service is delayed due to the late arrival of the Sydney to Casino XPT service at Grafton.<br /><br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "17:35 Grafton to Byron Bay coach delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76143: :H:",
+          "destination": {
+            "name": "Byron Bay Coach Stop, Byron Ba",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 143",
+          "number": "143",
+          "description": "Grafton to Byron Bay",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
