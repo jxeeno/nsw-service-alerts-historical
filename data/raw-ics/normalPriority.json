@@ -15611,11 +15611,11 @@
   {
     "type": "lineInfo",
     "id": "6048218",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-09T05:32:13Z",
-      "lastModification": "2020-03-09T08:12:59Z",
+      "lastModification": "2020-03-09T08:14:58Z",
       "availability": {
         "from": "2020-03-09T05:32:00Z",
         "to": "2020-03-09T15:32:59Z"
@@ -15627,10 +15627,10 @@
         }
       ]
     },
-    "urlText": "T1 North Shore Line, T1 Western Line, T9 Northern Line and Central Coast & Newcastle Line - major delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048218&seqID=4",
+    "urlText": "T1 North Shore Line, T1 Western Line and T9 Northern Line - major delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048218&seqID=5",
     "content": "Allow plenty of extra travel time due to urgent track equipment repairs at Town Hall.&nbsp;Listen to announcements and check indicator boards as stopping patterns may change at short notice.",
-    "subtitle": "T1 North Shore Line, T1 Western Line, T9 Northern Line and Central Coast & Newcastle Line - major delays",
+    "subtitle": "T1 North Shore Line, T1 Western Line and T9 Northern Line - major delays",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow plenty of extra travel time due to urgent track equipment repairs at Town Hall. Listen to announcements and check indicator boards as stopping patterns may change at short notice.",
@@ -15751,25 +15751,6 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
           }
         }
       ]
@@ -15996,6 +15977,59 @@
     "properties": {
       "providerCode": "Serco",
       "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6048224",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-09T08:15:04Z",
+      "lastModification": "2020-03-09T08:16:13Z",
+      "availability": {
+        "from": "2020-03-09T08:15:00Z",
+        "to": "2020-03-09T18:15:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-09T08:15:00Z",
+          "to": "2020-03-09T18:15:59Z"
+        }
+      ]
+    },
+    "urlText": "Central Coast & Newcastle Line - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048224&seqID=1",
+    "content": "<span>Allow extra travel time due to urgent track equipment repairs at Town Hall.&nbsp;Listen to announcements and check indicator boards as stopping patterns may change at short notice.</span>",
+    "subtitle": "Central Coast & Newcastle Line - delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to urgent track equipment repairs at Town Hall. Listen to announcements and check indicator boards as stopping patterns may change at short notice.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ]
     }
   }
 ]
