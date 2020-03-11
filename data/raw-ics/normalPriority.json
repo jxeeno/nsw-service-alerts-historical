@@ -15235,8 +15235,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-03-10T15:35:25Z",
-      "lastModification": "2020-03-10T15:37:58Z",
+      "creation": "2020-03-10T15:35:00Z",
+      "lastModification": "2020-03-10T15:37:00Z",
       "availability": {
         "from": "2020-03-10T15:35:00Z",
         "to": "2020-03-13T12:00:59Z"
@@ -16440,30 +16440,75 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6048299",
+    "type": "lineInfo",
+    "id": "6048300",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-03-10T23:55:27Z",
-      "lastModification": "2020-03-10T23:55:41Z",
+      "creation": "2020-03-11T00:06:46Z",
+      "lastModification": "2020-03-11T00:07:22Z",
       "availability": {
-        "from": "2020-03-10T23:55:00Z",
-        "to": "2020-03-11T00:00:59Z"
+        "from": "2020-03-11T00:06:00Z",
+        "to": "2020-03-11T10:06:59Z"
       },
       "validity": [
         {
-          "from": "2020-03-10T23:55:00Z",
-          "to": "2020-03-11T00:00:59Z"
+          "from": "2020-03-11T00:06:00Z",
+          "to": "2020-03-11T10:06:59Z"
         }
       ]
     },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048299&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
+    "urlText": "L2 Light Rail - partial closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048300&seqID=1",
+    "content": "Light Rail services are not running between Town Hall and Circular Quay due to a collision between a truck and a tram near QVB. Consider catching a train instead. Services continue to operate between Randwick and Town Hall. Allow extra travel time and check information displays for service updates.&nbsp;&nbsp;",
+    "subtitle": "L2 Light Rail - partial closure",
     "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "providerCode": "TMC",
+      "speechText": "Light Rail services are not running between Town Hall and Circular Quay due to a collision between a truck and a tram near QVB. Consider catching a train instead. Services continue to operate between Randwick and Town Hall. Allow extra travel time and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L2: :H:",
+          "destination": {
+            "name": "Randwick Light Rail, Randwick",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ]
     }
   }
 ]
