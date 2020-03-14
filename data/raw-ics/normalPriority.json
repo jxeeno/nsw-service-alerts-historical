@@ -9814,92 +9814,6 @@
   },
   {
     "type": "stopInfo",
-    "id": "6047607",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-02-25T04:45:00Z",
-      "lastModification": "2020-02-25T04:48:00Z",
-      "availability": {
-        "from": "2020-02-25T04:45:00Z",
-        "to": "2020-03-14T05:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-03-13T21:00:00Z",
-          "to": "2020-03-14T05:00:59Z"
-        }
-      ]
-    },
-    "urlText": "At Stanwell Park, trains towards Central leave from platform 2, not platform 1",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047607&seqID=1",
-    "content": "<strong>Saturday 14 March</strong><br /><strong>From 8am until 4pm</strong>\n<ul>\n<li>At Stanwell Park, trains towards Central leave from platform 2, not platform 1.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
-    "subtitle": "At Stanwell Park, trains towards Central leave from platform 2, not platform 1",
-    "properties": {
-      "providerCode": "PT Marketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101358:2508181,2508182",
-      "speechText": "Saturday 14 March\nFrom 8 AM until 4 PM\n    At Stanwell Park, trains towards Central leave from platform 2, not platform 1.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10101358",
-          "name": "Stanwell Park Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95366054:1",
-            "name": "Stanwell Park",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
     "id": "6047608",
     "version": 1,
     "priority": "normal",
@@ -18396,6 +18310,58 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6048435",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-14T05:29:25Z",
+      "lastModification": "2020-03-14T05:32:52Z",
+      "availability": {
+        "from": "2020-03-14T05:29:00Z",
+        "to": "2020-03-14T08:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-14T05:29:00Z",
+          "to": "2020-03-14T08:00:59Z"
+        }
+      ]
+    },
+    "urlText": "South West coach service delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048435&seqID=1",
+    "content": "This service is running behind schedule awaiting the arrival of the delayed XPT train. Due to this delay, the coach will service stops for booked passengers only.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "South West coach service delays",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76741: :H:",
+          "destination": {
+            "name": "Echuca Coach Stop, Echuca (VIC",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 741",
+          "number": "741",
+          "description": "Albury to Echuca",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
