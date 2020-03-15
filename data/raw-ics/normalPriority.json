@@ -15483,11 +15483,11 @@
   {
     "type": "lineInfo",
     "id": "6048455",
-    "version": 3,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-15T21:54:15Z",
-      "lastModification": "2020-03-15T22:04:21Z",
+      "lastModification": "2020-03-15T22:08:30Z",
       "availability": {
         "from": "2020-03-15T21:54:00Z",
         "to": "2025-12-31T12:59:59Z"
@@ -15499,9 +15499,9 @@
         }
       ]
     },
-    "urlText": "On Demand service - times are indicative, phone Busabout Wagga Wagga on 02 5942 6600 to book.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048455&seqID=3",
-    "subtitle": "On Demand service - times are indicative, phone Busabout Wagga Wagga on 02 5942 6600 to book.",
+    "urlText": "On Demand service - times and locations are indicative, phone Busabout Wagga Wagga on 02 5942 6600 to book.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048455&seqID=6",
+    "subtitle": "On Demand service - times and locations are indicative, phone Busabout Wagga Wagga on 02 5942 6600 to book.",
     "properties": {
       "providerCode": "PT Marketing",
       "announcementType": "serviceChange"
@@ -16657,6 +16657,58 @@
           "operator": {
             "id": "2441",
             "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6048458",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-15T22:04:40Z",
+      "lastModification": "2020-03-15T22:07:27Z",
+      "availability": {
+        "from": "2020-03-15T22:04:00Z",
+        "to": "2020-03-16T08:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-15T22:04:00Z",
+          "to": "2020-03-16T08:30:59Z"
+        }
+      ]
+    },
+    "urlText": "07:40 Sydney to Melbourne XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048458&seqID=1",
+    "content": "This service is delayed due to animals in the rail corridor near Douglas Park.&nbsp;<br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "07:40 Sydney to Melbourne XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Sta",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
