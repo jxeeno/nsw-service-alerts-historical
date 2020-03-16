@@ -14604,11 +14604,11 @@
   {
     "type": "lineInfo",
     "id": "6048463",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-15T23:58:33Z",
-      "lastModification": "2020-03-16T00:36:48Z",
+      "lastModification": "2020-03-16T03:36:27Z",
       "availability": {
         "from": "2020-03-15T23:58:00Z",
         "to": "2020-03-16T09:58:59Z"
@@ -14621,7 +14621,7 @@
       ]
     },
     "urlText": "South Coast Line - Partial Closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048463&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048463&seqID=3",
     "content": "Buses replace trains in both directions between Bomaderry and Kiama due to urgent track equipment repairs at Berry. Allow extra travel time, listen to announcements and check indicator boards.&nbsp;",
     "subtitle": "South Coast Line - Partial Closure",
     "properties": {
@@ -14668,6 +14668,44 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
@@ -15026,6 +15064,58 @@
           "name": "Regional Trains and Coaches Network 33",
           "number": "33",
           "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6048468",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-16T03:33:47Z",
+      "lastModification": "2020-03-16T03:36:19Z",
+      "availability": {
+        "from": "2020-03-16T03:33:00Z",
+        "to": "2020-03-16T06:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-16T03:33:00Z",
+          "to": "2020-03-16T06:00:59Z"
+        }
+      ]
+    },
+    "urlText": "05:55 Brisbane to Sydney XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048468&seqID=1",
+    "content": "This service has been delayed due to track speed restrictions near Grafton.<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
+    "subtitle": "05:55 Brisbane to Sydney XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 32",
+          "number": "32",
+          "description": "Roma St to Central",
           "iconId": 3,
           "product": {
             "class": 1,
