@@ -12957,51 +12957,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6048641",
+    "id": "6048648",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-03-24T03:11:23Z",
-      "lastModification": "2020-03-24T03:12:37Z",
+      "creation": "2020-03-24T09:19:05Z",
+      "lastModification": "2020-03-24T09:24:15Z",
       "availability": {
-        "from": "2020-03-24T03:11:00Z",
-        "to": "2020-03-24T09:11:59Z"
+        "from": "2020-03-24T09:19:00Z",
+        "to": "2020-03-24T19:19:59Z"
       },
       "validity": [
         {
-          "from": "2020-03-24T03:11:00Z",
-          "to": "2020-03-24T09:11:59Z"
+          "from": "2020-03-24T09:19:00Z",
+          "to": "2020-03-24T19:19:59Z"
         }
       ]
     },
-    "urlText": "07:42 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048641&seqID=1",
-    "content": "This service is delayed due to an operational issue.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>",
-    "subtitle": "07:42 Sydney to Melbourne XPT delay",
+    "urlText": "Diversion in Concord",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048648&seqID=1",
+    "content": "Buses are diverting due to roadworks on Concord Road at Wellbank Street. They are using Correy Avenue and Flavelle Street, missing three bus stops.",
+    "subtitle": "Diversion in Concord",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Concord - Buses are diverting due to roadworks on Concord Road at Wellbank Street. They are using Correy Avenue and Flavelle Street, missing three bus stops.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76623: :H:",
+          "id": "nsw:74410: :H:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
+            "name": "Macquarie University Village,",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Buses Network 410",
+          "number": "410",
+          "description": "Hurstville to Macquarie Park",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74410: :R:",
+          "destination": {
+            "name": "Hurstville Station, Barratt St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 410",
+          "number": "410",
+          "description": "Macquarie Park to Hurstville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
