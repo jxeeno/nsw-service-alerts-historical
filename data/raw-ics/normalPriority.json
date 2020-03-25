@@ -12376,77 +12376,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6048658",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-03-25T02:31:00Z",
-      "lastModification": "2020-03-25T02:37:28Z",
-      "availability": {
-        "from": "2020-03-25T02:31:00Z",
-        "to": "2020-03-25T06:20:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-03-25T02:31:00Z",
-          "to": "2020-03-25T06:20:59Z"
-        }
-      ]
-    },
-    "urlText": "Moree and Armidale to Sydney XPLORER service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048658&seqID=1",
-    "content": "These services are delayed due to a signal failure near Grass Tree.<br /><br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "Moree and Armidale to Sydney XPLORER service delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76224: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 224",
-          "number": "224",
-          "description": "Armidale to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76244: :R:",
-          "destination": {
-            "name": "Werris Creek Station, Werris C",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 244",
-          "number": "244",
-          "description": "Moree to Werris Creek",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6048661",
     "version": 1,
     "priority": "normal",
@@ -12596,11 +12525,11 @@
   {
     "type": "lineInfo",
     "id": "6048662",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-25T05:20:12Z",
-      "lastModification": "2020-03-25T05:30:15Z",
+      "lastModification": "2020-03-25T06:35:04Z",
       "availability": {
         "from": "2020-03-25T05:20:00Z",
         "to": "2020-03-25T15:20:59Z"
@@ -12612,10 +12541,10 @@
         }
       ]
     },
-    "urlText": "T1 Western Line - major delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048662&seqID=2",
+    "urlText": "T1 Western Line and Blue Mountains Line - major delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048662&seqID=3",
     "content": "Allow plenty of extra travel time due to lightning strikes damaging signalling equipment at St Marys. Listen to announcements and check indicator boards.",
-    "subtitle": "T1 Western Line - major delays",
+    "subtitle": "T1 Western Line and Blue Mountains Line - major delays",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow plenty of extra travel time due to lightning strikes damaging signal equipment at St Marys. Listen to announcements and check indicator boards.",
@@ -12736,6 +12665,78 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6048664",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-25T06:35:10Z",
+      "lastModification": "2020-03-25T06:36:11Z",
+      "availability": {
+        "from": "2020-03-25T06:35:00Z",
+        "to": "2020-03-25T16:35:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-25T06:35:00Z",
+          "to": "2020-03-25T16:35:59Z"
+        }
+      ]
+    },
+    "urlText": "T1 North Shore Line - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048664&seqID=1",
+    "content": "Allow extra travel time due to lightning strikes damaging signalling equipment at St Marys. Listen to announcements and check indicator boards.",
+    "subtitle": "T1 North Shore Line - delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to lightning strikes damaging signal equipment at St Marys. Listen to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
