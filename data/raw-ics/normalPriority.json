@@ -15476,11 +15476,11 @@
   {
     "type": "lineInfo",
     "id": "6048721",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-03-26T05:35:13Z",
-      "lastModification": "2020-03-26T05:40:30Z",
+      "lastModification": "2020-03-26T11:22:46Z",
       "availability": {
         "from": "2020-03-26T05:35:00Z",
         "to": "2020-03-26T16:30:59Z"
@@ -15492,10 +15492,10 @@
         }
       ]
     },
-    "urlText": "14.41 Sydney to Casino XPT service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048721&seqID=1",
-    "content": "Sydney to Casino XPT service has experienced a delay due to mechanical issue with a freight train near Morisset.\n&nbsp;\n<em><span style=\"font-size: medium;\">Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span style=\"font-family: Times New Roman; font-size: medium;\">Trip Planner</span></a><span style=\"font-size: medium;\">&nbsp;for the latest travel information with real time updates.</span></em><span style=\"font-size: medium;\">&nbsp;</span>\n&nbsp;\n&nbsp;",
-    "subtitle": "14.41 Sydney to Casino XPT service delay.",
+    "urlText": "14.41 Sydney to Casino XPT service delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048721&seqID=2",
+    "content": "Sydney to Casino XPT service has experienced a delay due to mechanical issue with a freight train near Morisset. &nbsp; <br /><br /><em><span style=\"font-size: medium;\">Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span style=\"font-family: Times New Roman; font-size: medium;\">Trip Planner</span></a><span style=\"font-size: medium;\">&nbsp;for the latest travel information with real time updates.</span></em><span style=\"font-size: medium;\">&nbsp;</span> &nbsp; &nbsp;",
+    "subtitle": "14.41 Sydney to Casino XPT service delay",
     "properties": {
       "providerCode": "NSWTL",
       "announcementType": "serviceChange",
@@ -15622,6 +15622,117 @@
           "name": "Intercity Trains Network Hunter Line",
           "number": "Hunter Line",
           "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6048728",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-03-26T11:21:05Z",
+      "lastModification": "2020-03-26T11:23:32Z",
+      "availability": {
+        "from": "2020-03-26T11:21:00Z",
+        "to": "2020-03-26T21:21:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-03-26T11:21:00Z",
+          "to": "2020-03-26T21:21:59Z"
+        }
+      ]
+    },
+    "urlText": "Buses replace trains on South Coast Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048728&seqID=1",
+    "content": "The 0319 Kiama to Bomaderry and the 0405 Bomaderry to Kiama train services have been cancelled due to a train requiring mechanical repairs. A bus will replace these two services.",
+    "subtitle": "Buses replace trains on South Coast Line",
+    "properties": {
+      "providerCode": "TMC",
+      "smsText": "The 0319 Kiama to Bomaderry and the 0405 Bomaderry to Kiama train services have been cancelled due to a train requiring mechanical repairs. A bus will replace these two services.",
+      "speechText": "The 0319 Kiama to Bomaderry and the 0405 Bomaderry to Kiama train services have been cancelled due to a train requiring mechanical repairs. A bus will replace these two services.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SCO: :R:",
+          "destination": {
+            "name": "Kiama Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry to Kiama",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SCO: :H:",
+          "destination": {
+            "name": "Bomaderry Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Kiama to Bomaderry",
           "iconId": 2,
           "product": {
             "class": 1,
