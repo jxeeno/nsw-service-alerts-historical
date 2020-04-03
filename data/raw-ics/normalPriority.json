@@ -11153,14 +11153,14 @@
   {
     "type": "stopInfo",
     "id": "6048718",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-03-26T04:18:00Z",
-      "lastModification": "2020-03-26T04:22:00Z",
+      "creation": "2020-03-26T04:18:04Z",
+      "lastModification": "2020-04-03T03:32:54Z",
       "availability": {
         "from": "2020-03-26T04:18:00Z",
-        "to": "2020-05-03T19:00:59Z"
+        "to": "2020-05-09T19:00:59Z"
       },
       "validity": [
         {
@@ -11178,18 +11178,38 @@
         {
           "from": "2020-05-03T12:00:00Z",
           "to": "2020-05-03T19:00:59Z"
+        },
+        {
+          "from": "2020-05-05T12:00:00Z",
+          "to": "2020-05-05T19:00:59Z"
+        },
+        {
+          "from": "2020-05-06T12:00:00Z",
+          "to": "2020-05-06T19:00:59Z"
+        },
+        {
+          "from": "2020-05-07T12:00:00Z",
+          "to": "2020-05-07T19:00:59Z"
+        },
+        {
+          "from": "2020-05-08T12:00:00Z",
+          "to": "2020-05-08T19:00:59Z"
+        },
+        {
+          "from": "2020-05-09T12:00:00Z",
+          "to": "2020-05-09T19:00:59Z"
         }
       ]
     },
     "urlText": "Park St, Sydney CBD nightly bus stop closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048718&seqID=1",
-    "content": "From Monday&nbsp;30&nbsp;March to Friday&nbsp;3 April&nbsp;2020&nbsp; Nightly from 10pm to 5am the next day the bus stop <strong>Town Hall Station, Park St Stand G (2000426)</strong> will be closed due to Sydney Metro works. <br /><br />Please use the alternative stop <strong>Town Hall Station, Park St Stand H (2000249)</strong>.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048718&seqID=2",
+    "content": "From Monday&nbsp;30&nbsp;March to Thursday 9 April&nbsp;2020&nbsp; Nightly from 10pm to 5am the next day the bus stop <strong>Town Hall Station, Park St Stand G (2000426)</strong> will be closed due to Sydney Metro works. <br /><br />Please use the alternative stop <strong>Town Hall Station, Park St Stand H (2000249)</strong>.&nbsp;",
     "subtitle": "Park St, Sydney CBD nightly bus stop closure",
     "properties": {
       "providerCode": "PT Marketing",
       "appliesTo": "departingArriving",
       "stopIDglobalID": "10101101:2000426,2000249",
-      "speechText": "From Monday 30 March to Friday 3 April  Nightly from 10 PM to 5 AM the next day the bus stop Town Hall Station, Park Street Stand G will be closed due to Sydney Metro works.",
+      "speechText": "From Monday 30 March to Thursday 9 April  Nightly from 10 PM to 5 AM the next day the bus stop Town Hall Station, Park Street Stand G will be closed due to Sydney Metro works.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -24081,6 +24101,83 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6048889",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-04-03T03:33:19Z",
+      "lastModification": "2020-04-03T03:35:42Z",
+      "availability": {
+        "from": "2020-04-03T03:33:00Z",
+        "to": "2020-04-14T19:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-04-03T03:33:00Z",
+          "to": "2020-04-14T19:00:59Z"
+        }
+      ]
+    },
+    "urlText": "O'Connell St, North Parramatta bus diversion",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6048889&seqID=1",
+    "content": "From 12 noon Tuesday 31 March to 5am Wednesday 15 April 2020, Parramatta Light Rail work will close the bus stop <strong>O&rsquo;Connell St opposite Barney St (215147).</strong> The alternative stop is <strong>O&rsquo;Connell St before Dunlop St (215145)</strong>.",
+    "subtitle": "O'Connell St, North Parramatta bus diversion",
+    "properties": {
+      "providerCode": "PT Marketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10119066:215147#10119065:215145",
+      "speechText": "From 8 PM Friday 20 to 5 AM Monday 23 March, Parramatta light rail works on parts of O Connell Street and will divert route 5-4-9 bus services in both directions and will miss bus stops in the area.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:26549: :R:",
+          "destination": {
+            "name": "Epping",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 549",
+          "number": "549",
+          "description": "PrePay-Only - Parramatta to Epping via North Rocks",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10119066",
+          "name": "O'Connell St opp Barney St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346010:1",
+            "name": "North Parramatta",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10119065",
+          "name": "O'Connell St near Dunlop St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346010:1",
+            "name": "North Parramatta",
+            "type": "locality"
           }
         }
       ]
