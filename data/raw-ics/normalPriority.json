@@ -13941,51 +13941,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6049011",
+    "id": "6049012",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-04-09T20:18:53Z",
-      "lastModification": "2020-04-09T20:21:39Z",
+      "creation": "2020-04-09T22:03:14Z",
+      "lastModification": "2020-04-09T22:04:09Z",
       "availability": {
-        "from": "2020-04-09T20:18:00Z",
-        "to": "2020-04-09T21:30:59Z"
+        "from": "2020-04-09T22:03:00Z",
+        "to": "2020-04-10T08:03:59Z"
       },
       "validity": [
         {
-          "from": "2020-04-09T20:18:00Z",
-          "to": "2020-04-09T21:30:59Z"
+          "from": "2020-04-09T22:03:00Z",
+          "to": "2020-04-10T08:03:59Z"
         }
       ]
     },
-    "urlText": "The 19:50 CLK622 Melbourne to Sydney XPT service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049011&seqID=1",
-    "content": "Due to operational issue the 19:50 Melbourne to Sydney overnight XPT service is running behind schedule.<br /><br /><br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "The 19:50 CLK622 Melbourne to Sydney XPT service delay",
+    "urlText": "Diversions - Bass Hill Plaza",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049012&seqID=1",
+    "content": "Buses are diverting away from Bass Hill Plaza via local roads. One stop is being missed.",
+    "subtitle": "Diversions - Bass Hill Plaza",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Bass Hill, Route 9-0-5 and 9-0-7 buses are diverting away from Bass Hill Plaza via local roads. One stop is being missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:38905: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Harley Cres after Allingham St",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 905",
+          "number": "905",
+          "description": "Bankstown to Fairfield",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38905: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 905",
+          "number": "905",
+          "description": "Fairfield to Bankstown",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Bankstown to Parramatta via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Parramatta to Bankstown via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
