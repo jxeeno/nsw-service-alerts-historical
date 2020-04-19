@@ -15214,58 +15214,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6049208",
-    "version": 5,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-04-19T00:18:23Z",
-      "lastModification": "2020-04-19T04:30:22Z",
-      "availability": {
-        "from": "2020-04-19T00:18:00Z",
-        "to": "2020-04-19T06:18:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-04-19T00:18:00Z",
-          "to": "2020-04-19T06:18:59Z"
-        }
-      ]
-    },
-    "urlText": "08:05 Moree to Sydney XPLORER service alterations. Major delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049208&seqID=5",
-    "content": "This service is replaced by a coach from Narrabri to Sydney due to mechanical issues with a freight train ahead.<br /><br /><br /><em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>&nbsp;",
-    "subtitle": "08:05 Moree to Sydney XPLORER service alterations. Major delays",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76244: :R:",
-          "destination": {
-            "name": "Werris Creek Station, Werris C",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 244",
-          "number": "244",
-          "description": "Moree to Werris Creek",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6049209",
     "version": 1,
     "priority": "normal",
@@ -15422,51 +15370,72 @@
   },
   {
     "type": "lineInfo",
-    "id": "6049222",
+    "id": "6049224",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-04-19T05:18:32Z",
-      "lastModification": "2020-04-19T05:19:58Z",
+      "creation": "2020-04-19T06:26:30Z",
+      "lastModification": "2020-04-19T06:29:21Z",
       "availability": {
-        "from": "2020-04-19T05:18:00Z",
-        "to": "2020-04-19T06:18:59Z"
+        "from": "2020-04-19T06:26:00Z",
+        "to": "2020-04-19T16:26:59Z"
       },
       "validity": [
         {
-          "from": "2020-04-19T05:18:00Z",
-          "to": "2020-04-19T06:18:59Z"
+          "from": "2020-04-19T06:26:00Z",
+          "to": "2020-04-19T16:26:59Z"
         }
       ]
     },
-    "urlText": "South coach service delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049222&seqID=1",
-    "content": "This service is running behind schedule awaiting the arrival of the delayed Southern Highlands train services.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "South coach service delays",
+    "urlText": "L1 light rail services affected by breakdown",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049224&seqID=1",
+    "content": "Light rail is not running on the L1 route between Lewisham West and Dulwich Hill due to a vehicle requiring mechanical repairs at Dulwich Hill.",
+    "subtitle": "L1 light rail services affected by breakdown",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "smsText": "Light rail is not running on the L1 route between Lewisham West and Dulwich Hill due to a vehicle requiring mechanical repairs at Dulwich Hill.",
+      "speechText": "Light rail is not running on the L1 route between Lewisham West and Dulwich Hill due to a vehicle requiring mechanical repairs at Dulwich Hill.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76755: :H:",
+          "id": "nsw:780L1: :R:",
           "destination": {
-            "name": "Wollongong Station",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 755",
-          "number": "755",
-          "description": "Moss Vale to Wollongong",
-          "iconId": 7,
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "iconId": 13,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 4,
+            "iconId": 4
           },
           "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill Light Rail",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Dulwich Hill to Central",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
           }
         }
       ]
