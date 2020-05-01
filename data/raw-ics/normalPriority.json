@@ -21346,51 +21346,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6049561",
+    "id": "6049563",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-05-01T05:15:31Z",
-      "lastModification": "2020-05-01T05:17:15Z",
+      "creation": "2020-05-01T05:50:07Z",
+      "lastModification": "2020-05-01T05:53:09Z",
       "availability": {
-        "from": "2020-05-01T05:15:00Z",
-        "to": "2020-05-01T05:45:59Z"
+        "from": "2020-05-01T05:50:00Z",
+        "to": "2020-05-01T15:50:59Z"
       },
       "validity": [
         {
-          "from": "2020-05-01T05:15:00Z",
-          "to": "2020-05-01T05:45:59Z"
+          "from": "2020-05-01T05:50:00Z",
+          "to": "2020-05-01T15:50:59Z"
         }
       ]
     },
-    "urlText": "The 07:40 CLK623 Sydney to Melbourne XPT service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049561&seqID=1",
-    "content": "Due to operational issue the 07:40 Sydney to Melbourne XPT service is running behind schedule.<br /><br /><br />\n<em>&nbsp;</em>\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "The 07:40 CLK623 Sydney to Melbourne XPT service delay.",
+    "urlText": "Delays in Clyde & Granville",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049563&seqID=1",
+    "content": "Some buses are delayed up to 15 minutes due to fallen wires on Parramatta Rd in Auburn.",
+    "subtitle": "Delays in Clyde & Granville",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Clyde and Granville, some buses are delayed up to 15 minutes due to fallen wires on Parramatta Rd in Auburn.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76623: :H:",
+          "id": "nsw:32M92: :H:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
+            "name": "Sutherland Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Buses Network M92",
+          "number": "M92",
+          "description": "Parramatta to Sutherland",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32M92: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M92",
+          "number": "M92",
+          "description": "Sutherland to Parramatta",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38909: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 909",
+          "number": "909",
+          "description": "Bankstown to Parramatta via Birrong & Auburn",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38909: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 909",
+          "number": "909",
+          "description": "Parramatta to Bankstown via Auburn & Birrong",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
