@@ -14968,51 +14968,375 @@
   },
   {
     "type": "lineInfo",
-    "id": "6049799",
+    "id": "6049803",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-05-11T17:51:00Z",
-      "lastModification": "2020-05-11T17:52:28Z",
+      "creation": "2020-05-11T21:28:08Z",
+      "lastModification": "2020-05-11T21:34:00Z",
       "availability": {
-        "from": "2020-05-11T17:51:00Z",
-        "to": "2020-05-11T21:20:59Z"
+        "from": "2020-05-11T21:28:00Z",
+        "to": "2020-05-12T07:28:59Z"
       },
       "validity": [
         {
-          "from": "2020-05-11T17:51:00Z",
-          "to": "2020-05-11T21:20:59Z"
+          "from": "2020-05-11T21:28:00Z",
+          "to": "2020-05-12T07:28:59Z"
         }
       ]
     },
-    "urlText": "18:30 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049799&seqID=1",
-    "content": "This service has been delayed due to a medical emergency at Yass.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "18:30 Melbourne to Sydney XPT delay.",
+    "urlText": "Diversions at Rose Bay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049803&seqID=1",
+    "content": "Citybound buses are diverting away from New South Head Road at Rose Bay, due to a crash involving a truck and bicycle. Buses are using&nbsp;<span>Dover Road, Old South Head Road, O&rsquo;Ssullivan Road instead, missing 5 stops.&nbsp;</span>",
+    "subtitle": "Diversions at Rose Bay",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Citybound buses are diverting away from New South Head Road at Rose Bay, due to a crash involving a truck and bicycle. Five stops are being missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:31L24: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Wynyard Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network L24",
+          "number": "L24",
+          "description": "PrePay-Only - Vaucluse to City Wynyard (Limited Stops)",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31323: :R:",
+          "destination": {
+            "name": "Edgecliff Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 323",
+          "number": "323",
+          "description": "PrePay-Only - North Bondi to Edgecliff via New South Head Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31324: :R:",
+          "destination": {
+            "name": "Wharf Theatres, Hickson Rd, Da",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 324",
+          "number": "324",
+          "description": "PrePay-Only - Watsons Bay to City Walsh Bay via Old South Head Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31325: :R:",
+          "destination": {
+            "name": "Edgecliff Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 325",
+          "number": "325",
+          "description": "PrePay-Only - Watsons Bay to City Walsh Bay via Vaucluse Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31602:E:H:",
+          "destination": {
+            "name": "Kings Cross Station",
+            "type": "stop"
+          },
+          "name": "School buses 602e",
+          "number": "602e",
+          "description": "Rose Bay SC to Kings Cross",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31603:E:R:",
+          "destination": {
+            "name": "Rose Bay Secondary College",
+            "type": "stop"
+          },
+          "name": "School buses 603e",
+          "number": "603e",
+          "description": "Edgecliff to Rose Bay SC",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31603:E:H:",
+          "destination": {
+            "name": "Edgecliff Station",
+            "type": "stop"
+          },
+          "name": "School buses 603e",
+          "number": "603e",
+          "description": "Rose Bay SC to Edgecliff",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31613:E:H:",
+          "destination": {
+            "name": "Edgecliff Station",
+            "type": "stop"
+          },
+          "name": "School buses 613e",
+          "number": "613e",
+          "description": "Sydney Girls HS to Edgecliff",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31673:E:R:",
+          "destination": {
+            "name": "New South Head near Vaucluse,",
+            "type": "stop"
+          },
+          "name": "School buses 673e",
+          "number": "673e",
+          "description": "Edgecliff to Kincoppal Rose Bay",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31676:E:H:",
+          "destination": {
+            "name": "Anzac Pde at Green St, Maroubr",
+            "type": "stop"
+          },
+          "name": "School buses 676e",
+          "number": "676e",
+          "description": "Kincoppal Rose Bay to Maroubra Junction",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31678:E:H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "School buses 678e",
+          "number": "678e",
+          "description": "Scots College to Bondi Junction",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31687:E:H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "School buses 687e",
+          "number": "687e",
+          "description": "Sydney Grammar Preparatory School to Bondi Junction",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31699:E:R:",
+          "destination": {
+            "name": "Moriah College, Queens Park Rd",
+            "type": "stop"
+          },
+          "name": "School buses 699e",
+          "number": "699e",
+          "description": "Watsons Bay to Moriah College Queens Park",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31702:E:H:",
+          "destination": {
+            "name": "Dover Rd before Ian St, Rose B",
+            "type": "stop"
+          },
+          "name": "School buses 702e",
+          "number": "702e",
+          "description": "Moriah College Queens Park to Dover & New South Head Rds",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31710:E:H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "School buses 710e",
+          "number": "710e",
+          "description": "Rose Bay Secondary College to Bondi Jct",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31718:E:H:",
+          "destination": {
+            "name": "Military Rd Terminus, Watsons",
+            "type": "stop"
+          },
+          "name": "School buses 718e",
+          "number": "718e",
+          "description": "Sydney French School to Watsons Bay",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31719:E:R:",
+          "destination": {
+            "name": "Moverley Rd near The Sydney Fr",
+            "type": "stop"
+          },
+          "name": "School buses 719e",
+          "number": "719e",
+          "description": "Edgecliff to Sydney French School",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31721:E:H:",
+          "destination": {
+            "name": "Edgecliff Station",
+            "type": "stop"
+          },
+          "name": "School buses 721e",
+          "number": "721e",
+          "description": "Scots College to Edgecliff",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
           }
         }
       ]
