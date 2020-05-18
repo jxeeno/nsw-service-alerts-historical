@@ -16184,11 +16184,11 @@
   {
     "type": "lineInfo",
     "id": "6049989",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-05-18T19:17:16Z",
-      "lastModification": "2020-05-18T19:19:26Z",
+      "lastModification": "2020-05-18T20:28:22Z",
       "availability": {
         "from": "2020-05-18T19:17:00Z",
         "to": "2020-05-19T05:17:59Z"
@@ -16200,13 +16200,13 @@
         }
       ]
     },
-    "urlText": "T8 Airport & South Line - delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049989&seqID=1",
-    "content": "Allow extra travel time due to local power supply repairs between Kingsgrove and Revesby. Listen to announcements and check indicator boards",
-    "subtitle": "T8 Airport & South Line - delays",
+    "urlText": "T8 Airport & South Line - delays & buses replacing trains between Campbelltown and Macarthur",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049989&seqID=2",
+    "content": "Allow an extra 20 minutes travel time due to power supply repairs between Beverly Hills and Riverwood. Also, buses will replace trains between Campbelltown and Macarthur. Listen to announcements and check indicator boards.",
+    "subtitle": "T8 Airport & South Line - delays & buses replacing trains between Campbelltown and Macarthur",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to local power supply repairs between Kingsgrove and Revesby. Listen to announcements and check indicator boards",
+      "speechText": "Allow an extra 20 minutes travel time due to power supply repairs between Beverly Hills and Riverwood. Also, buses will replace trains between Campbelltown and Macarthur. Listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -16240,6 +16240,78 @@
           "name": "Sydney Trains Network T8 Airport & South Line",
           "number": "T8 Airport & South Line",
           "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6049993",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-05-18T20:22:36Z",
+      "lastModification": "2020-05-18T20:24:38Z",
+      "availability": {
+        "from": "2020-05-18T20:22:00Z",
+        "to": "2020-05-19T06:22:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-05-18T20:22:00Z",
+          "to": "2020-05-19T06:22:59Z"
+        }
+      ]
+    },
+    "urlText": "T2 Inner West & Leppington Line delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049993&seqID=1",
+    "content": "Allow extra travel time due to signal equipment repairs at Kingsgrove earlier. Listen to announcements and check indicator boards.",
+    "subtitle": "T2 Inner West & Leppington Line delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to signal equipment repairs at Kingsgrove earlier. Listen to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
           "iconId": 1,
           "product": {
             "class": 1,
