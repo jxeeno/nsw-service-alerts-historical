@@ -19494,11 +19494,11 @@
   {
     "type": "lineInfo",
     "id": "6050064",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-05-20T22:24:45Z",
-      "lastModification": "2020-05-20T22:30:15Z",
+      "lastModification": "2020-05-20T23:54:50Z",
       "availability": {
         "from": "2020-05-20T22:24:00Z",
         "to": "2020-05-21T08:24:59Z"
@@ -19511,12 +19511,12 @@
       ]
     },
     "urlText": "T1 North Shore Line and T1 Western Line delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050064&seqID=2",
-    "content": "Allow extra travel time due to urgent signal equipment repairs at Town Hall. Listen to announcements and check indicator boards.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050064&seqID=3",
+    "content": "Allow extra travel time due to urgent signal equipment repairs at Town Hall earlier. Listen to announcements and check indicator boards.&nbsp;",
     "subtitle": "T1 North Shore Line and T1 Western Line delays",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to urgent signal equipment repairs at Town Hall. Listen to announcements and check indicator boards.",
+      "speechText": "Allow extra travel time due to urgent signal equipment repairs at Town Hall earlier. Listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -19630,6 +19630,78 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6050069",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-05-20T23:52:42Z",
+      "lastModification": "2020-05-20T23:53:53Z",
+      "availability": {
+        "from": "2020-05-20T23:52:00Z",
+        "to": "2020-05-21T09:52:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-05-20T23:52:00Z",
+          "to": "2020-05-21T09:52:59Z"
+        }
+      ]
+    },
+    "urlText": "Buses replace trains between Bomaderry and Kiama",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050069&seqID=2",
+    "content": "Due to mechanical repairs on an earlier train, buses are replacing trains between Bomaderry and Kiama in both directions from 3:00am to 7:00am. A bus will leave Kiama at 3:19am, and Bomaderry at 4:05am. Passengers are advised to allow extra travel time.",
+    "subtitle": "Buses replace trains between Bomaderry and Kiama",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Due to mechanical repairs on an earlier train, buses are replacing trains between Bomaderry and Kiama in both directions from 3 am to 7 am. A bus will leave Kiama at 3 19 am, and Bomaderry at 4 0 5 am. Passengers are advised to allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
