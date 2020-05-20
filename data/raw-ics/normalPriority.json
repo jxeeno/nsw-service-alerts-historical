@@ -19493,51 +19493,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6050060",
-    "version": 1,
+    "id": "6050064",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-05-20T18:05:36Z",
-      "lastModification": "2020-05-20T18:07:16Z",
+      "creation": "2020-05-20T22:24:45Z",
+      "lastModification": "2020-05-20T22:30:15Z",
       "availability": {
-        "from": "2020-05-20T18:05:00Z",
-        "to": "2020-05-20T21:35:59Z"
+        "from": "2020-05-20T22:24:00Z",
+        "to": "2020-05-21T08:24:59Z"
       },
       "validity": [
         {
-          "from": "2020-05-20T18:05:00Z",
-          "to": "2020-05-20T21:35:59Z"
+          "from": "2020-05-20T22:24:00Z",
+          "to": "2020-05-21T08:24:59Z"
         }
       ]
     },
-    "urlText": "18:30 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050060&seqID=1",
-    "content": "This service has been delayed due to a signal failure issue near Binalong.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "18:30 Melbourne to Sydney XPT delay.",
+    "urlText": "T1 North Shore Line and T1 Western Line delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050064&seqID=2",
+    "content": "Allow extra travel time due to urgent signal equipment repairs at Town Hall. Listen to announcements and check indicator boards.&nbsp;",
+    "subtitle": "T1 North Shore Line and T1 Western Line delays",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to urgent signal equipment repairs at Town Hall. Listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:020T1:N:R:",
           "destination": {
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
