@@ -17155,51 +17155,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6050285",
+    "id": "6050287",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-05-28T18:36:05Z",
-      "lastModification": "2020-05-28T18:36:55Z",
+      "creation": "2020-05-28T22:46:33Z",
+      "lastModification": "2020-05-28T22:47:01Z",
       "availability": {
-        "from": "2020-05-28T18:36:00Z",
-        "to": "2020-05-28T22:36:59Z"
+        "from": "2020-05-28T22:46:00Z",
+        "to": "2020-05-29T08:46:59Z"
       },
       "validity": [
         {
-          "from": "2020-05-28T18:36:00Z",
-          "to": "2020-05-28T22:36:59Z"
+          "from": "2020-05-28T22:46:00Z",
+          "to": "2020-05-29T08:46:59Z"
         }
       ]
     },
-    "urlText": "19:50 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050285&seqID=1",
-    "content": "This service has been delayed due to a failed freight train service near Goulburn.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "19:50 Melbourne to Sydney XPT delay.",
+    "urlText": "Some delays in Chullora",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050287&seqID=1",
+    "content": "Heavy traffic on Waterloo Road is delaying some services.&nbsp; <br /><br />",
+    "subtitle": "Some delays in Chullora",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Chullora, route M90 buses are delayed by up to 20 minutes due to heavy traffic on Waterloo Road.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:38M90: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Liverpool Interchange, Liverpo",
             "type": "stop"
           },
-          "name": "Regional Trains and 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Burwood to Liverpool",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M90: :R:",
+          "destination": {
+            "name": "Westfield Burwood, Victoria St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Liverpool to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
