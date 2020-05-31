@@ -15876,11 +15876,11 @@
   {
     "type": "lineInfo",
     "id": "6050341",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-05-31T21:28:28Z",
-      "lastModification": "2020-05-31T22:41:51Z",
+      "lastModification": "2020-05-31T22:52:52Z",
       "availability": {
         "from": "2020-05-31T21:28:00Z",
         "to": "2020-06-01T07:28:59Z"
@@ -15893,12 +15893,12 @@
       ]
     },
     "urlText": "Central Coast & Newcastle Line - Major Delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050341&seqID=4",
-    "content": "Allow plenty of extra travel time towards the city due to a train requiring mechanical repairs at Cowan. Buses are being organised to replace trains between Hornsby and Gosford, but are yet to arrive. Listen to announcements and check indicator boards as stopping patterns may change at short notice.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050341&seqID=5",
+    "content": "Allow plenty of extra travel time due to a train requiring mechanical repairs at Cowan. Buses are being organised to replace trains between Hornsby and Gosford, but are yet to arrive. Listen to announcements and check indicator boards as stopping patterns may change at short notice.&nbsp;",
     "subtitle": "Central Coast & Newcastle Line - Major Delays",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow plenty of extra travel time towards the city due to a train requiring mechanical repairs at Cowan. Buses are being organised to replace trains between Hornsby and Gosford, but are yet to arrive. Listen to announcements and check indicator boards as stopping patterns may change at short notice.",
+      "speechText": "Allow plenty of extra travel time due to a train requiring mechanical repairs at Cowan. Buses are being organised to replace trains between Hornsby and Gosford, but are yet to arrive. Listen to announcements and check indicator boards as stopping patterns may change at short notice.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -15921,6 +15921,77 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6050345",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-05-31T22:50:26Z",
+      "lastModification": "2020-05-31T22:54:10Z",
+      "availability": {
+        "from": "2020-05-31T22:50:00Z",
+        "to": "2020-06-01T10:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-05-31T22:50:00Z",
+          "to": "2020-06-01T10:00:59Z"
+        }
+      ]
+    },
+    "urlText": "07:08 Sydney to Casino XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050345&seqID=1",
+    "content": "This service is delayed due to a train with mechanical problems at Cowan.<br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "07:08 Sydney to Casino XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
