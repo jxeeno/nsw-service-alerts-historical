@@ -7380,24 +7380,24 @@
   {
     "type": "stopInfo",
     "id": "6050425",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-06-03T00:32:34Z",
-      "lastModification": "2020-06-03T00:37:07Z",
+      "lastModification": "2020-06-03T00:39:43Z",
       "availability": {
         "from": "2020-06-03T00:32:00Z",
         "to": "2020-06-21T16:00:59Z"
       },
       "validity": [
         {
-          "from": "2020-06-18T16:00:00Z",
+          "from": "2020-06-19T13:00:00Z",
           "to": "2020-06-21T16:00:59Z"
         }
       ]
     },
     "urlText": "City Circle: Trains run in one direction only, from Central first stop Town Hall",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050425&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050425&seqID=3",
     "content": "<strong>Friday 19 to Sunday 21 June</strong>\n<ul>\n<li><strong>From 11pm Friday</strong>, trains run in one direction only, from Central first stop Town Hall.</li>\n<li>Some City Circle trains run to a changed timetable and leave from different platforms.</li>\n<li>You may need to change trains at Central to continue your journey.</li>\n<li>If you are travelling from Circular Quay to Wynyard or Town Hall you can catch the light rail.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
     "subtitle": "City Circle: Trains run in one direction only, from Central first stop Town Hall",
     "properties": {
@@ -7546,6 +7546,78 @@
             "id": "placeID:95301001:1",
             "name": "Sydney",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6050426",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-06-03T00:37:27Z",
+      "lastModification": "2020-06-03T00:39:35Z",
+      "availability": {
+        "from": "2020-06-03T00:37:00Z",
+        "to": "2020-06-21T16:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-06-19T13:00:00Z",
+          "to": "2020-06-21T16:00:59Z"
+        }
+      ]
+    },
+    "urlText": "T1 North Shore Line: Trains run between Berowra and Wynyard only",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050426&seqID=1",
+    "content": "<strong>Friday 19 to Sunday 21 June</strong>\n<ul>\n<li><strong>From 11pm Friday</strong>, trains may run to a changed timetable due to trackwork between Lidcombe and Central.</li>\n<li><strong>From 11.30pm Saturday until 4am Sunday</strong>, trains run between Berowra and Wynyard only due to trackwork between Central and Strathfield.</li>\n<li>City Circle trains run in one direction only, from Wynyard first stop Circular Quay, then continue to&nbsp;<strong>T3 Bankstown Line</strong>&nbsp;stations.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
+    "subtitle": "T1 North Shore Line: Trains run between Berowra and Wynyard only",
+    "properties": {
+      "providerCode": "PT Marketing",
+      "speechText": "Friday 19 to Sunday 21 June\n\nFrom 11 PM Friday, trains may run to a changed timetable due to trackwork between Lidcombe and Central.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
