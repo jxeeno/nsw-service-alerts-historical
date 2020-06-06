@@ -18228,52 +18228,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6050566",
-    "version": 1,
+    "id": "6050563",
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-06-06T01:42:07Z",
-      "lastModification": "2020-06-06T01:45:21Z",
+      "creation": "2020-06-06T01:33:20Z",
+      "lastModification": "2020-06-06T04:35:13Z",
       "availability": {
-        "from": "2020-06-06T01:42:00Z",
-        "to": "2020-06-06T04:05:59Z"
+        "from": "2020-06-06T04:30:00Z",
+        "to": "2020-06-06T07:00:59Z"
       },
       "validity": [
         {
-          "from": "2020-06-06T01:42:00Z",
-          "to": "2020-06-06T04:05:59Z"
+          "from": "2020-06-06T04:30:00Z",
+          "to": "2020-06-06T07:00:59Z"
         }
       ]
     },
-    "urlText": "The 12:58pm Rydalmere to Circular Quay ferry cancelled",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050566&seqID=1",
-    "content": "This service has been cancelled due to a mechanical problem. Catch the 1:58pm service instead.&nbsp;",
-    "subtitle": "The 12:58pm Rydalmere to Circular Quay ferry cancelled",
+    "urlText": "L2 Randwick Line and L3 Kingsford Line - changed service",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050563&seqID=3",
+    "content": "Light Rail services are not running between Central Chalmers Street and Circular Quay due to a public march in Sydney CBD. Services are still running between Central and Randwick/Kingsford.&nbsp;",
+    "subtitle": "L2 Randwick Line and L3 Kingsford Line - changed service",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "The 12 58 p m Rydalmere to Circular Quay ferry has been cancelled due to a mechanical problem. Catch the 1  58 p m service instead.",
+      "speechText": "Light Rail services are not running between Central Chalmers Street and Circular Quay due to a public march. Services are still running between Central and Randwick/Kingsford.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:090F3: :R:",
+          "id": "nsw:780L2: :H:",
+          "destination": {
+            "name": "Randwick Light Rail, Randwick",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
           "destination": {
             "name": "Circular Quay",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Parramatta River to Circular Quay",
-          "iconId": 10,
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 4,
+            "iconId": 4
           },
           "operator": {
-            "id": "112",
-            "name": "Sydney Ferries"
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :H:",
+          "destination": {
+            "name": "Juniors Kingsford Light Rail,",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Circular Quay to Kingsford",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Kingsford to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
           }
         }
       ]
