@@ -10581,109 +10581,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6050020",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-05-19T02:05:00Z",
-      "lastModification": "2020-05-19T02:07:00Z",
-      "availability": {
-        "from": "2020-05-19T02:05:00Z",
-        "to": "2020-06-07T06:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-06-06T22:00:00Z",
-          "to": "2020-06-07T06:00:59Z"
-        }
-      ]
-    },
-    "urlText": "At Coledale, Wombarra and Scarborough, trains towards Central leave from platform 2, not platform 1",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050020&seqID=1",
-    "content": "<strong>Sunday 7 June<br />From 8am until 4pm</strong>\n<ul>\n<li>At Coledale, Wombarra and Scarborough, trains towards Central leave from platform 2, not platform 1.</li>\n</ul>",
-    "subtitle": "At Coledale, Wombarra and Scarborough, trains towards Central leave from platform 2, not platform 1",
-    "properties": {
-      "providerCode": "PT Marketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101423:2515121,2515122#10101361:2515151,2515152,251585#10101360:2515131,2515132,251512,251513",
-      "speechText": "Sunday 7 June\nFrom 8 AM until 4 PM\n\n    At Coledale, Wombarra and Scarborough, trains towards Central leave from platform 2, not platform 1.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10101423",
-          "name": "Coledale Station",
-          "type": "stop",
-          "parent": {
-            "name": "Coledale",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "10101361",
-          "name": "Wombarra Station",
-          "type": "stop",
-          "parent": {
-            "name": "Wombarra",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "10101360",
-          "name": "Scarborough Station",
-          "type": "stop",
-          "parent": {
-            "name": "Scarborough",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6050045",
     "version": 2,
@@ -17879,6 +17776,58 @@
           "operator": {
             "id": "2444",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6050596",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-06-07T07:08:59Z",
+      "lastModification": "2020-06-07T07:14:27Z",
+      "availability": {
+        "from": "2020-06-07T07:08:00Z",
+        "to": "2020-06-07T10:08:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-06-07T07:08:00Z",
+          "to": "2020-06-07T10:08:59Z"
+        }
+      ]
+    },
+    "urlText": "15:55 Tamworth to Inverell coach delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050596&seqID=1",
+    "content": "This service is delayed due to the late arrival of the XPLORER servioce into Tamworth.<br /><br /><br /><em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>&nbsp;",
+    "subtitle": "15:55 Tamworth to Inverell coach delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76311: :H:",
+          "destination": {
+            "name": "Inverell Visitor Information C",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 311",
+          "number": "311",
+          "description": "Tamworth to Inverell",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
