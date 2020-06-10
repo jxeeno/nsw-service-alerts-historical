@@ -16685,58 +16685,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6050683",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-06-10T08:06:31Z",
-      "lastModification": "2020-06-10T08:08:39Z",
-      "availability": {
-        "from": "2020-06-10T08:06:00Z",
-        "to": "2020-06-10T09:30:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-06-10T08:06:00Z",
-          "to": "2020-06-10T09:30:59Z"
-        }
-      ]
-    },
-    "urlText": "07:41 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050683&seqID=1",
-    "content": "This service is delayed due to speed restrictions in Victoria.<br /><br /><br /><em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>&nbsp;",
-    "subtitle": "07:41 Sydney to Melbourne XPT delay",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6050684",
     "version": 1,
     "priority": "normal",
@@ -16834,6 +16782,78 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6050688",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-06-10T09:51:27Z",
+      "lastModification": "2020-06-10T09:53:01Z",
+      "availability": {
+        "from": "2020-06-10T09:51:00Z",
+        "to": "2020-06-10T19:51:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-06-10T09:51:00Z",
+          "to": "2020-06-10T19:51:59Z"
+        }
+      ]
+    },
+    "urlText": "Blue Mountains Line - allow extra travel time",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050688&seqID=1",
+    "content": "Allow extra travel time away from the city due to a train requiring mechanical repairs at Woodford. Listen to announcements and check indicator boards.",
+    "subtitle": "Blue Mountains Line - allow extra travel time",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time away from the city due to a train requiring mechanical repairs at Woodford.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
