@@ -14876,11 +14876,11 @@
   {
     "type": "stopInfo",
     "id": "6050944",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-06-19T05:05:00Z",
-      "lastModification": "2020-06-19T05:07:00Z",
+      "creation": "2020-06-19T05:05:30Z",
+      "lastModification": "2020-06-22T00:14:48Z",
       "availability": {
         "from": "2020-06-19T05:05:00Z",
         "to": "2020-08-31T13:59:59Z"
@@ -14893,61 +14893,31 @@
       ]
     },
     "urlText": "Botany temporary bus stop relocation",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050944&seqID=1",
-    "content": "The bus stop <strong>Swinbourne St at Trevelyn St (201939)</strong> will be temporarily relocated towards the corner of Wilson Street for approximately 2 months. Please follow signs for directions to the new location.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050944&seqID=2",
+    "content": "The bus stop <strong>Swinbourne St at Trevelyn St (201939)</strong> will be closed for approximately 2 months. Please use the alternative stop <strong>Swinbourne St at Stephen Rd (201938)</strong>.",
     "subtitle": "Botany temporary bus stop relocation",
     "properties": {
       "providerCode": "PT Marketing",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10111448:201939",
+      "stopIDglobalID": "10111448:201939#10111447:201938",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
-      "lines": [
-        {
-          "id": "nsw:31307: :R:",
-          "destination": {
-            "name": "Mascot Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 307",
-          "number": "307",
-          "description": "PrePay-Only - Port Botany Depot to Mascot",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:31310:X:R:",
-          "destination": {
-            "name": "Railway Sq",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 310X",
-          "number": "310X",
-          "description": "PrePay-Only - Banksmeadow to Central Railway Square (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        }
-      ],
       "stops": [
         {
           "id": "10111448",
           "name": "Swinbourne St at Trevelyn St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95310002:1",
+            "name": "Botany",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10111447",
+          "name": "Swinbourne St near Stephen Rd",
           "type": "stop",
           "parent": {
             "id": "placeID:95310002:1",
@@ -15124,78 +15094,6 @@
             "id": "placeID:95346010:1",
             "name": "North Parramatta",
             "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "6051031",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-06-21T22:56:43Z",
-      "lastModification": "2020-06-21T22:58:32Z",
-      "availability": {
-        "from": "2020-06-21T22:56:00Z",
-        "to": "2020-06-22T08:56:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-06-21T22:56:00Z",
-          "to": "2020-06-22T08:56:59Z"
-        }
-      ]
-    },
-    "urlText": "Bankstown - delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051031&seqID=1",
-    "content": "Some buses are delayed through Bankstown due to heavy traffic earlier",
-    "subtitle": "Bankstown - delays",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "Some buses are delayed up to 15 minutes through Bankstown due to heavy traffic earlier",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:38909: :R:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 909",
-          "number": "909",
-          "description": "Bankstown to Parramatta via Birrong & Auburn",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2444",
-            "name": "Transdev NSW"
-          }
-        },
-        {
-          "id": "nsw:38909: :H:",
-          "destination": {
-            "name": "Bankstown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 909",
-          "number": "909",
-          "description": "Parramatta to Bankstown via Auburn & Birrong",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2444",
-            "name": "Transdev NSW"
           }
         }
       ]
