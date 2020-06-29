@@ -15746,58 +15746,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6051225",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-06-28T22:35:26Z",
-      "lastModification": "2020-06-28T22:40:26Z",
-      "availability": {
-        "from": "2020-06-28T22:35:00Z",
-        "to": "2020-06-29T08:35:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-06-28T22:35:00Z",
-          "to": "2020-06-29T08:35:59Z"
-        }
-      ]
-    },
-    "urlText": "07:40 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051225&seqID=2",
-    "content": "This service is delayed due to mechanical issues.<br /><br /><br /><em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>&nbsp;",
-    "subtitle": "07:40 Sydney to Melbourne XPT delay",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6051228",
     "version": 1,
     "priority": "normal",
@@ -16332,6 +16280,78 @@
           "operator": {
             "id": "SLR",
             "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051258",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-06-29T08:49:27Z",
+      "lastModification": "2020-06-29T08:53:24Z",
+      "availability": {
+        "from": "2020-06-29T08:49:00Z",
+        "to": "2020-06-29T18:49:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-06-29T08:49:00Z",
+          "to": "2020-06-29T18:49:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in St Clair",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051258&seqID=1",
+    "content": "Buses heading towards Mount Druitt are diverting away from Mamre Road due to a multiple vehicle crash. They are using Banks Drive and Cook Parade, missing three bus stops. The crash is also delaying some buses heading towards Penrith.",
+    "subtitle": "Diversion in St Clair",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In St Clair, route 7 7 6 buses heading towards Mount Druitt are diverting away from Mamre Road due to a multiple vehicle crash. The crash is also delaying some buses heading towards Penrith by to 15 minutes.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:20776: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 776",
+          "number": "776",
+          "description": "Mount Druitt to Penrith via St Clair",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20776: :H:",
+          "destination": {
+            "name": "Mount Druitt Station, Mount Dr",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 776",
+          "number": "776",
+          "description": "Penrith to Mount Druitt via St Clair",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
           }
         }
       ]
