@@ -18162,58 +18162,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6051324",
-    "version": 3,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-07-02T01:54:13Z",
-      "lastModification": "2020-07-02T11:48:56Z",
-      "availability": {
-        "from": "2020-07-02T01:54:00Z",
-        "to": "2020-07-02T11:54:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-07-02T01:54:00Z",
-          "to": "2020-07-02T11:54:59Z"
-        }
-      ]
-    },
-    "urlText": "08:30 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051324&seqID=3",
-    "content": "This service has been delayed due to a mechanical issue.<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
-    "subtitle": "08:30 Melbourne to Sydney XPT delay.",
-    "properties": {
-      "providerCode": "Serco",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6051333",
     "version": 2,
     "priority": "normal",
@@ -18259,6 +18207,78 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051335",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-02T12:10:17Z",
+      "lastModification": "2020-07-02T12:13:26Z",
+      "availability": {
+        "from": "2020-07-02T12:10:00Z",
+        "to": "2020-07-02T22:10:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-02T12:10:00Z",
+          "to": "2020-07-02T22:10:59Z"
+        }
+      ]
+    },
+    "urlText": "South Coast Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051335&seqID=1",
+    "content": "Allow extra travel time due to urgent signal equipment repairs at Otford. Listen to announcements and check indicator boards&nbsp;as stopping patterns may change.&nbsp;",
+    "subtitle": "South Coast Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to urgent signal equipment repairs at Otford. Listen to announcements and check indicator boards as stopping patterns may change.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
