@@ -17234,11 +17234,11 @@
   {
     "type": "lineInfo",
     "id": "6051377",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-07-04T06:30:35Z",
-      "lastModification": "2020-07-04T07:15:45Z",
+      "lastModification": "2020-07-04T07:24:22Z",
       "availability": {
         "from": "2020-07-04T06:30:00Z",
         "to": "2020-07-04T16:30:59Z"
@@ -17250,13 +17250,13 @@
         }
       ]
     },
-    "urlText": "L3 Kingsford Line closed",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051377&seqID=4",
-    "content": "Services are not running in both directions due to a crash between a car and tram on Anzac Parade at Day Avenue in Kensington. Catch a bus or train instead or make alternative arrangements. Buses are being arranged but are not yet on site. Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
-    "subtitle": "L3 Kingsford Line closed",
+    "urlText": "L3 Kingsford Line - partial closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051377&seqID=5",
+    "content": "Services are not running between Moore Park and Juniors Kingsford due to a crash between a car and tram on Anzac Parade at Day Avenue in Kensington. Replacement buses are being organised but are not on site. Delay your trip until they start running, catch a regular bus service instead or make alternative arrangements. Allow extra travel time, listen to announcements and check information displays for service updates. Services are still running between Moore Park and Circular Quay.",
+    "subtitle": "L3 Kingsford Line - partial closure",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Services are not running in both directions due to a crash between a car and tram on Anzac Parade at Day Avenue in Kensington. Catch a bus or train instead or make alternative arrangements. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Services are not running between Moore Park and Juniors Kingsford due to a crash between a car and tram on Anzac Parade at Day Avenue in Kensington. Replacement buses are being organised but are not on site. Delay your trip until they start running, catch a regular bus service instead or make alternative arrangements. Allow extra travel time, listen to announcements and check information displays for service updates. Services are still running between Moore Park and Circular Quay.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -17370,6 +17370,77 @@
           "operator": {
             "id": "2441",
             "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051380",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-04T07:23:15Z",
+      "lastModification": "2020-07-04T07:24:40Z",
+      "availability": {
+        "from": "2020-07-04T07:23:00Z",
+        "to": "2020-07-04T12:23:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-04T07:23:00Z",
+          "to": "2020-07-04T12:23:59Z"
+        }
+      ]
+    },
+    "urlText": "West coach delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051380&seqID=1",
+    "content": "These services are running behind schedule due to trackwork in the Blue Mountains.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "West coach delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76565: :H:",
+          "destination": {
+            "name": "Orange Station, Orange",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 565",
+          "number": "565",
+          "description": "Lithgow to Orange",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76569: :H:",
+          "destination": {
+            "name": "Nyngan Coach Stop, Nyngan",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 569",
+          "number": "569",
+          "description": "Lithgow to Nyngan",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
