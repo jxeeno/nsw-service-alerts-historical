@@ -18100,11 +18100,11 @@
   {
     "type": "lineInfo",
     "id": "6051609",
-    "version": 6,
+    "version": 7,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-07-14T04:22:17Z",
-      "lastModification": "2020-07-14T08:22:23Z",
+      "lastModification": "2020-07-14T10:11:59Z",
       "availability": {
         "from": "2020-07-14T04:22:00Z",
         "to": "2020-07-14T14:22:59Z"
@@ -18117,8 +18117,8 @@
       ]
     },
     "urlText": "Hunter Line - some trains cancelled",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051609&seqID=6",
-    "content": "Buses are replacing the 6:31pm Maitland to Scone train, the 8:51pm Scone to Maitland train, and the 9:34pm Singleton to Maitland train due to an operational issue. The 8:24pm Newcastle Interchange to Singleton train has also been cancelled so catch the 8:29pm Newcastle Interchange to Maitland train instead and change at Maitland for a bus to Singleton. Allow extra travel time, listen to announcements and check indicator boards.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051609&seqID=7",
+    "content": "Buses are replacing the 8:51pm Scone to Maitland train and the 9:34pm Singleton to Maitland train due to an operational issue. The 8:24pm Newcastle Interchange to Singleton train has also been cancelled so catch the 8:29pm Newcastle Interchange to Maitland train instead and change at Maitland for a bus to Singleton. Allow extra travel time, listen to announcements and check indicator boards.",
     "subtitle": "Hunter Line - some trains cancelled",
     "properties": {
       "providerCode": "TMC",
@@ -19085,6 +19085,58 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051627",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-14T10:05:12Z",
+      "lastModification": "2020-07-14T10:07:03Z",
+      "availability": {
+        "from": "2020-07-14T10:05:00Z",
+        "to": "2020-07-14T11:45:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-14T10:05:00Z",
+          "to": "2020-07-14T11:45:59Z"
+        }
+      ]
+    },
+    "urlText": "The 16:30 CLK703 Queanbeyan to Wagga Wagga coach service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051627&seqID=1",
+    "content": "This service is running behind schedule.<br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "The 16:30 CLK703 Queanbeyan to Wagga Wagga coach service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76703: :H:",
+          "destination": {
+            "name": "Wagga Wagga Station, Turvey Park",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 703",
+          "number": "703",
+          "description": "Queanbeyan Bus Interchange to Wagga Wagga",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
