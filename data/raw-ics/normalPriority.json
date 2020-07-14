@@ -17519,11 +17519,11 @@
   {
     "type": "lineInfo",
     "id": "6051598",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-07-14T01:19:20Z",
-      "lastModification": "2020-07-14T01:19:49Z",
+      "lastModification": "2020-07-14T01:26:54Z",
       "availability": {
         "from": "2020-07-14T01:19:00Z",
         "to": "2020-07-14T11:19:59Z"
@@ -17535,13 +17535,13 @@
         }
       ]
     },
-    "urlText": "Buses replacing F1 Manly ferry services",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051598&seqID=1",
-    "content": "Buses are replacing ferries between Manly and Circular Quay due to the rough swell. Allow extra travel time.",
-    "subtitle": "Buses replacing F1 Manly ferry services",
+    "urlText": "F1 Manly ferry services not running",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051598&seqID=2",
+    "content": "<span>No ferries are running between Manly and Circular Quay due to the rough swell. Replacement buses are being organised but are not yet on site. Allow extra travel time. </span>",
+    "subtitle": "F1 Manly ferry services not running",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing ferries between Manly and Circular Quay due to the rough swell. Allow extra travel time.",
+      "speechText": "No ferries are running between Manly and Circular Quay due to the rough swell. Replacement buses are being organised but are not yet on site. Allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -17583,6 +17583,78 @@
           "operator": {
             "id": "112",
             "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051599",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-14T01:28:12Z",
+      "lastModification": "2020-07-14T01:29:36Z",
+      "availability": {
+        "from": "2020-07-14T01:28:00Z",
+        "to": "2020-07-14T11:28:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-14T01:28:00Z",
+          "to": "2020-07-14T11:28:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion - Ramsgate",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051599&seqID=1",
+    "content": "Buses are diverting away from Chuter Avenue at Sandringham Street due to wires down. Three stops on Chuter Avenue are being missed.&nbsp;",
+    "subtitle": "Diversion - Ramsgate",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Ramsgate, route 9-4-7 buses are diverting away from Chuter Avenue at Sandringham Street due to wires down. Three stops on Chuter Avenue are being missed",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:32947: :H:",
+          "destination": {
+            "name": "Kogarah Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 947",
+          "number": "947",
+          "description": "Hurstville to Kogarah via Dolls Pt",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32947: :R:",
+          "destination": {
+            "name": "Hurstville Interchange, Cross St, Hurstville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 947",
+          "number": "947",
+          "description": "Kogarah to Hurstville via Dolls Pt",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
           }
         }
       ]
