@@ -16779,26 +16779,26 @@
   {
     "type": "lineInfo",
     "id": "6051598",
-    "version": 3,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-07-14T01:19:20Z",
-      "lastModification": "2020-07-14T02:45:38Z",
+      "lastModification": "2020-07-14T05:16:21Z",
       "availability": {
         "from": "2020-07-14T01:19:00Z",
-        "to": "2020-07-14T11:19:59Z"
+        "to": "2020-07-14T15:00:59Z"
       },
       "validity": [
         {
           "from": "2020-07-14T01:19:00Z",
-          "to": "2020-07-14T11:19:59Z"
+          "to": "2020-07-14T15:00:59Z"
         }
       ]
     },
-    "urlText": "F1 Manly ferry services not running",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051598&seqID=3",
+    "urlText": "Ferries not running between Manly and Circular Quay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051598&seqID=5",
     "content": "<span>Buses are replacing ferries between Manly and Circular Quay due to the rough swell. Allow extra travel time.</span>",
-    "subtitle": "F1 Manly ferry services not running",
+    "subtitle": "Ferries not running between Manly and Circular Quay",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Buses are replacing ferries between Manly and Circular Quay due to the rough swell. Allow extra travel time.",
@@ -16843,6 +16843,44 @@
           "operator": {
             "id": "112",
             "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:04MFF: :H:",
+          "destination": {
+            "name": "Manly Wharf",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "306",
+            "name": "Manly Fast Ferry"
+          }
+        },
+        {
+          "id": "nsw:04MFF: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "306",
+            "name": "Manly Fast Ferry"
           }
         }
       ]
@@ -17560,6 +17598,58 @@
           "name": "Regional Trains and Coaches Network 33",
           "number": "33",
           "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051616",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-14T05:17:05Z",
+      "lastModification": "2020-07-14T05:18:05Z",
+      "availability": {
+        "from": "2020-07-14T05:17:00Z",
+        "to": "2020-07-14T06:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-14T05:17:00Z",
+          "to": "2020-07-14T06:30:59Z"
+        }
+      ]
+    },
+    "urlText": "12:01 Sydney to Canberra XPLORER service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051616&seqID=1",
+    "content": "The Sydney Canberra XPLORER service has been delayed due to operational issues.<br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
+    "subtitle": "12:01 Sydney to Canberra XPLORER service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76634: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 634",
+          "number": "634",
+          "description": "Canberra to Central",
           "iconId": 3,
           "product": {
             "class": 1,
