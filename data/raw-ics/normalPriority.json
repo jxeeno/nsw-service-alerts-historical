@@ -16451,11 +16451,11 @@
   {
     "type": "lineInfo",
     "id": "6051560",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-07-13T02:28:00Z",
-      "lastModification": "2020-07-14T04:08:00Z",
+      "creation": "2020-07-13T02:28:31Z",
+      "lastModification": "2020-07-14T20:04:15Z",
       "availability": {
         "from": "2020-07-13T02:28:00Z",
         "to": "2020-07-16T08:45:59Z"
@@ -16468,12 +16468,12 @@
       ]
     },
     "urlText": "Palm Beach ferries",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051560&seqID=4",
-    "content": "Ferries are diverting to Patonga today, tomorrow and Thursday due to strong winds and rough swells. More information&nbsp;<a href=\"https://www.fantasea.com.au/palm-beach-ferries/services/\">https://www.fantasea.com.au/palm-beach-ferries/services/</a>&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051560&seqID=5",
+    "content": "Ferries are diverting to Patonga today and tomorrow due to strong winds and rough swells. More information&nbsp;<a href=\"https://www.fantasea.com.au/palm-beach-ferries/services/\">https://www.fantasea.com.au/palm-beach-ferries/services/</a>&nbsp;",
     "subtitle": "Palm Beach ferries",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Ferries are diverting to Patonga today, tomorrow and Thursday due to forecast strong winds and rough swells.",
+      "speechText": "Ferries are diverting to Patonga today and tomorrow due to strong winds and rough swells.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -18612,51 +18612,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6051632",
+    "id": "6051633",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-07-14T13:08:00Z",
-      "lastModification": "2020-07-14T13:09:00Z",
+      "creation": "2020-07-14T20:02:48Z",
+      "lastModification": "2020-07-14T20:02:56Z",
       "availability": {
-        "from": "2020-07-14T13:08:00Z",
-        "to": "2020-07-14T18:08:59Z"
+        "from": "2020-07-14T20:02:00Z",
+        "to": "2020-07-15T06:02:59Z"
       },
       "validity": [
         {
-          "from": "2020-07-14T13:08:00Z",
-          "to": "2020-07-14T18:08:59Z"
+          "from": "2020-07-14T20:02:00Z",
+          "to": "2020-07-15T06:02:59Z"
         }
       ]
     },
-    "urlText": "20:35 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051632&seqID=1",
-    "content": "This service is delayed due to freight train issue near Mittagong.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
-    "subtitle": "20:35 Sydney to Melbourne XPT delay",
+    "urlText": "Ferries not running between Manly and Circular Quay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051633&seqID=1",
+    "content": "<span>Buses are replacing ferries between Manly and Circular Quay due to the rough swell. Allow extra travel time.</span>",
+    "subtitle": "Ferries not running between Manly and Circular Quay",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Buses are replacing ferries between Manly and Circular Quay due to the rough swell. Allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76621: :H:",
+          "id": "nsw:090F1: :H:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
+            "name": "Manly Wharf",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Circular Quay to Manly",
+          "iconId": 10,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F1: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Manly to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:04MFF: :H:",
+          "destination": {
+            "name": "Manly Wharf",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "306",
+            "name": "Manly Fast Ferry"
+          }
+        },
+        {
+          "id": "nsw:04MFF: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "306",
+            "name": "Manly Fast Ferry"
           }
         }
       ]
