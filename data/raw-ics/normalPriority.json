@@ -18469,11 +18469,11 @@
   {
     "type": "lineInfo",
     "id": "6051663",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-07-16T00:59:31Z",
-      "lastModification": "2020-07-16T01:00:12Z",
+      "lastModification": "2020-07-16T01:42:05Z",
       "availability": {
         "from": "2020-07-16T00:59:00Z",
         "to": "2020-07-16T10:59:59Z"
@@ -18486,12 +18486,12 @@
       ]
     },
     "urlText": "Delays - T4 Eastern Suburbs & Illawarra Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051663&seqID=1",
-    "content": "Allow extra travel time in both directions due to a fatality at St Peters. Passengers should change at Central for a shuttle train service between Central and Bondi Junction. Listen to announcements and check indicator boards.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051663&seqID=2",
+    "content": "Allow extra travel time in both directions due to a fatality at St Peters. Buses are supplementing services between Cronulla and Sutherland and between Waterfall and Sutherland. Listen to announcements and check indicator boards.&nbsp;",
     "subtitle": "Delays - T4 Eastern Suburbs & Illawarra Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time in both directions due to a fatality at St Peters. Passengers should change at Central for a shuttle train service between Central and Bondi Junction. Listen to announcements and check indicator boards.",
+      "speechText": "Allow extra travel time in both directions due to a fatality at St Peters. Buses are supplementing services between Cronulla and Sutherland and between Waterfall and Sutherland. Listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -18723,6 +18723,98 @@
           "parent": {
             "id": "placeID:95401001:95401001",
             "name": "Queensland",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6051667",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-16T01:25:19Z",
+      "lastModification": "2020-07-16T01:34:59Z",
+      "availability": {
+        "from": "2020-07-16T01:25:00Z",
+        "to": "2020-08-02T00:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-31T19:00:00Z",
+          "to": "2020-08-02T00:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Trackwork: Coaches replace the XPT between Brisbane and Grafton",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051667&seqID=1",
+    "content": "Coaches replace the XPT between Brisbane and Grafton.&nbsp; The XPT will commence from Casino and operate to Sydney.",
+    "subtitle": "Trackwork: Coaches replace the XPT between Brisbane and Grafton",
+    "properties": {
+      "providerCode": "NSWTL",
+      "stopIDglobalID": "10155061#10155066#10155062#10155063",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "10155061",
+          "name": "Brisbane (Roma Street) Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95401001:95401001",
+            "name": "Queensland",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10155066",
+          "name": "Kyogle Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95933046:1",
+            "name": "Kyogle",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10155062",
+          "name": "Casino Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95935006:1",
+            "name": "Casino",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10155063",
+          "name": "Grafton Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95902122:1",
+            "name": "South Grafton",
             "type": "locality"
           }
         }
