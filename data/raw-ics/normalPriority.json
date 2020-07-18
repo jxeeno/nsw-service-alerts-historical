@@ -17957,70 +17957,148 @@
   },
   {
     "type": "lineInfo",
-    "id": "6051706",
+    "id": "6051709",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-07-18T07:31:18Z",
-      "lastModification": "2020-07-18T07:32:22Z",
+      "creation": "2020-07-18T20:01:41Z",
+      "lastModification": "2020-07-18T20:06:24Z",
       "availability": {
-        "from": "2020-07-18T07:31:00Z",
-        "to": "2020-07-18T12:31:59Z"
+        "from": "2020-07-18T20:01:00Z",
+        "to": "2020-07-19T06:01:59Z"
       },
       "validity": [
         {
-          "from": "2020-07-18T07:31:00Z",
-          "to": "2020-07-18T12:31:59Z"
+          "from": "2020-07-18T20:01:00Z",
+          "to": "2020-07-19T06:01:59Z"
         }
       ]
     },
-    "urlText": "North West Coach Delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051706&seqID=1",
-    "content": "These services are running behind schedule due to the late arrival of the XPL Train service.<br /><br /><br /> <em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp; &nbsp;",
-    "subtitle": "North West Coach Delays",
+    "urlText": "T1, T5 delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051709&seqID=1",
+    "content": "Due to track quipment repairs at Westmead, trains on the T1 Western and T5 Cumberland outbound lines are experiencing delays of up to 15 minutes.&nbsp;",
+    "subtitle": "T1, T5 delays",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "smsText": "Due to track quipment repairs at Westmead, trains on the T1 Western and T5 Cumberland outbound lines are experiencing delays of up to 15 minutes.&nbsp;",
+      "speechText": "Due to track quipment repairs at Westmead, trains on the T1 Western and T5 Cumberland outbound lines are experiencing delays of up to 15 minutes.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76311: :H:",
+          "id": "nsw:020T1:N:R:",
           "destination": {
-            "name": "Inverell Visitor Information C",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 311",
-          "number": "311",
-          "description": "Tamworth to Inverell",
-          "iconId": 7,
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
         {
-          "id": "nsw:76327: :H:",
+          "id": "nsw:020T1:N:H:",
           "destination": {
-            "name": "Tenterfield Coach Stop, Tenter",
+            "name": "Berowra Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 327",
-          "number": "327",
-          "description": "Armidale to Tenterfield",
-          "iconId": 7,
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Richmond Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
