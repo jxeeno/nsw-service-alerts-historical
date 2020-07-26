@@ -13480,11 +13480,11 @@
   {
     "type": "lineInfo",
     "id": "6051872",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-07-26T10:55:37Z",
-      "lastModification": "2020-07-26T19:20:08Z",
+      "lastModification": "2020-07-26T20:43:22Z",
       "availability": {
         "from": "2020-07-26T10:55:00Z",
         "to": "2020-07-26T22:00:59Z"
@@ -13497,12 +13497,12 @@
       ]
     },
     "urlText": "Manly ferries replaced by buses",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051872&seqID=3",
-    "content": "<span>Buses are replacing ferries between Manly and Circular Quay due to the current weather conditions. Allow extra travel time.</span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051872&seqID=4",
+    "content": "<span>Buses are supplementing ferries between Manly and Circular Quay due to the current weather conditions. Allow extra travel time.</span>",
     "subtitle": "Manly ferries replaced by buses",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing ferries between Manly and Circular Quay due to the current weather conditions. Allow extra travel time.",
+      "speechText": "Buses are supplementing ferries between Manly and Circular Quay due to the current weather conditions. Allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -13688,6 +13688,116 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051881",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-26T20:43:39Z",
+      "lastModification": "2020-07-26T20:45:05Z",
+      "availability": {
+        "from": "2020-07-26T20:43:00Z",
+        "to": "2020-07-27T06:43:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-26T20:43:00Z",
+          "to": "2020-07-27T06:43:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion - Tuggerah",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051881&seqID=1",
+    "content": "Buses in both directions are diverting away from Johnson Road via local roads due to flooding. Two stops are being missed.&nbsp;",
+    "subtitle": "Diversion - Tuggerah",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Tuggerah, buses in both directions are diverting away from Johnson Road via local roads due to flooding. Two stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:62019: :H:",
+          "destination": {
+            "name": "Wyong Station",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 19",
+          "number": "19",
+          "description": "Gosford to Wyong",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2453",
+            "name": "Red Bus Service"
+          }
+        },
+        {
+          "id": "nsw:62019: :R:",
+          "destination": {
+            "name": "Gosford Station",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 19",
+          "number": "19",
+          "description": "Wyong to Gosford",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2453",
+            "name": "Red Bus Service"
+          }
+        },
+        {
+          "id": "nsw:62026: :R:",
+          "destination": {
+            "name": "Wyong Hospital, Henry Moore Dr, Hamlyn Terrace",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 26",
+          "number": "26",
+          "description": "The Entrance to Wyong",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2453",
+            "name": "Red Bus Service"
+          }
+        },
+        {
+          "id": "nsw:62026: :H:",
+          "destination": {
+            "name": "Torrens Ave at Coral St, The Entrance",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 26",
+          "number": "26",
+          "description": "Wyong to The Entrance",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2453",
+            "name": "Red Bus Service"
           }
         }
       ]
