@@ -15164,11 +15164,11 @@
   {
     "type": "lineInfo",
     "id": "6051936",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-07-27T06:39:11Z",
-      "lastModification": "2020-07-27T06:48:39Z",
+      "lastModification": "2020-07-27T07:17:13Z",
       "availability": {
         "from": "2020-07-27T06:39:00Z",
         "to": "2020-07-27T16:39:59Z"
@@ -15181,12 +15181,12 @@
       ]
     },
     "urlText": "L3 Kingsford Line - closed",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051936&seqID=2",
-    "content": "Light Rail services are not running between Circular Quay and Juniors Kingsford due to a crash on George Street in the Sydney CBD and a bus crash on Anzac Parade in Kensington. You can catch a L2 Light Rail service between Town Hall and Randwick, a train between&nbsp;Circular Quay and Central, or a regular bus service instead. Replacement buses are also being organised to run between Moore Park and Juniors Kingsford but are not yet on site. Allow extra travel time and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051936&seqID=3",
+    "content": "Light Rail services are not running between Circular Quay and Juniors Kingsford due to a crash on George Street in the Sydney CBD and a bus crash on Anzac Parade in Kensington. Buses are replacing light rail services between Moore Park and Juniors Kingsford. You can also catch a regular bus service, a train between Circular Quay and Central, or a L2 Light Rail service between Town Hall and Moore Park/Randwick.&nbsp;Allow extra travel time and check information displays for service updates.",
     "subtitle": "L3 Kingsford Line - closed",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Light Rail services are not running between Circular Quay and Juniors Kingsford due to a crash on George Street in the Sydney CBD and a bus crash on Anzac Parade in Kensington. You can catch a L 2 Light Rail service between Town Hall and Randwick, a train between Circular Quay and Central, or a regular bus service instead. Replacement buses are also being organised to run between Moore Park and Juniors Kingsford but are not yet on site. Allow extra travel time and check information displays for service updates.",
+      "speechText": "Light Rail services are not running between Circular Quay and Juniors Kingsford due to a crash on George Street in the Sydney CBD and a bus crash on Anzac Parade in Kensington. Buses are replacing light rail services between Moore Park and Juniors Kingsford. You can also catch a regular bus service, a train between Circular Quay and Central, or a L 2 Light Rail service between Town Hall and Moore Park/Randwick. Allow extra travel time and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -15343,6 +15343,58 @@
           "name": "Regional Trains and Coaches Network 33",
           "number": "33",
           "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051944",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-27T07:14:52Z",
+      "lastModification": "2020-07-27T07:16:15Z",
+      "availability": {
+        "from": "2020-07-27T07:14:00Z",
+        "to": "2020-07-27T09:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-27T07:14:00Z",
+          "to": "2020-07-27T09:30:59Z"
+        }
+      ]
+    },
+    "urlText": "09:30 Sydney to Moree XPLORER delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051944&seqID=1",
+    "content": "<br /><span>Due to the late arrival of replacement coaches into Muswellbrook, this service has been significantly delayed.</span>&nbsp;<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "09:30 Sydney to Moree XPLORER delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76243: :H:",
+          "destination": {
+            "name": "Moree Station, Moree",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 243",
+          "number": "243",
+          "description": "Werris Creek to Moree",
           "iconId": 3,
           "product": {
             "class": 1,
