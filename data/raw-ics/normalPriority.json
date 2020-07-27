@@ -14165,11 +14165,11 @@
   {
     "type": "lineInfo",
     "id": "6051923",
-    "version": 4,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-07-27T03:29:18Z",
-      "lastModification": "2020-07-27T06:38:13Z",
+      "lastModification": "2020-07-27T06:43:53Z",
       "availability": {
         "from": "2020-07-27T03:29:00Z",
         "to": "2020-07-27T13:29:59Z"
@@ -14181,13 +14181,13 @@
         }
       ]
     },
-    "urlText": "L2 Randwick Line and L3 Kingsford Line - partial closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051923&seqID=4",
-    "content": "Light Rail services are not running between Circular Quay and Town Hall due to a crash on George Street in the Sydney CBD. Catch a train instead. Trams are still running between Town Hall and Randwick, as well as between Town Hall and Juniors Kingsford. Allow extra travel time, listen to announcements and check information displays for service updates.",
-    "subtitle": "L2 Randwick Line and L3 Kingsford Line - partial closure",
+    "urlText": "L2 Randwick Line - partial closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051923&seqID=6",
+    "content": "Light Rail services are not running between Circular Quay and Town Hall due to a crash on George Street in the Sydney CBD. Catch a train instead. Trams are still running between Town Hall and Randwick. Allow extra travel time, listen to announcements and check information displays for service updates.",
+    "subtitle": "L2 Randwick Line - partial closure",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Light Rail services are not running between Circular Quay and Town Hall due to a crash on George Street in the Sydney CBD. Catch a train instead. Trams are still running between Town Hall and Randwick, as well as between Town Hall and Juniors Kingsford. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Light Rail services are not running between Circular Quay and Town Hall due to a crash on George Street in the Sydney CBD. Catch a train instead. Trams are still running between Town Hall and Randwick. Allow extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -14221,44 +14221,6 @@
           "name": "Sydney Light Rail Network L2 Randwick Line",
           "number": "L2 Randwick Line",
           "description": "Randwick to Circular Quay",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L3: :H:",
-          "destination": {
-            "name": "Juniors Kingsford Light Rail, Kingsford",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L3 Kingsford Line",
-          "number": "L3 Kingsford Line",
-          "description": "Circular Quay to Kingsford",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L3: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L3 Kingsford Line",
-          "number": "L3 Kingsford Line",
-          "description": "Kingsford to Circular Quay",
           "iconId": 13,
           "product": {
             "class": 4,
@@ -15304,6 +15266,149 @@
           "operator": {
             "id": "2441",
             "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051936",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-27T06:39:11Z",
+      "lastModification": "2020-07-27T06:43:33Z",
+      "availability": {
+        "from": "2020-07-27T06:39:00Z",
+        "to": "2020-07-27T16:39:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-27T06:39:00Z",
+          "to": "2020-07-27T16:39:59Z"
+        }
+      ]
+    },
+    "urlText": "L3 Kingsford Line - closed",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051936&seqID=1",
+    "content": "Light Rail services are not running between Circular Quay and Juniors Kingsford due to a crash on George Street in the Sydney CBD and a bus crash on Anzac Parade in Kensington. You can catch a L2 Light Rail service between Town Hall and Randwick, a train between&nbsp;Circular Quay and Central, or a regular bus service instead. Allow extra travel time and check information displays for service updates.",
+    "subtitle": "L3 Kingsford Line - closed",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Light Rail services are not running between Circular Quay and Juniors Kingsford due to a crash on George Street in the Sydney CBD and a bus crash on Anzac Parade in Kensington. You can catch a L2 Light Rail service between Town Hall and Randwick, a train between Circular Quay and Central, or a regular bus service instead. Allow extra travel time and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L3: :H:",
+          "destination": {
+            "name": "Juniors Kingsford Light Rail, Kingsford",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Circular Quay to Kingsford",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Kingsford to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6051937",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-07-27T06:40:47Z",
+      "lastModification": "2020-07-27T06:43:34Z",
+      "availability": {
+        "from": "2020-07-27T06:40:00Z",
+        "to": "2020-07-27T09:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-07-27T06:40:00Z",
+          "to": "2020-07-27T09:00:59Z"
+        }
+      ]
+    },
+    "urlText": "09:30 Sydney to Armidale & Moree XPLORER delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6051937&seqID=1",
+    "content": "Due to the late arrival of replacement coaches into Muswellbrook, this service has been significantly delayed.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><span>&nbsp;</span>",
+    "subtitle": "09:30 Sydney to Armidale & Moree XPLORER delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76223: :H:",
+          "destination": {
+            "name": "Armidale Station, Armidale",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 223",
+          "number": "223",
+          "description": "Central to Armidale",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76243: :H:",
+          "destination": {
+            "name": "Moree Station, Moree",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 243",
+          "number": "243",
+          "description": "Werris Creek to Moree",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
