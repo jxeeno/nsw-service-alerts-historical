@@ -17249,51 +17249,147 @@
   },
   {
     "type": "lineInfo",
-    "id": "6052476",
-    "version": 3,
+    "id": "6052477",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-08-15T20:35:04Z",
-      "lastModification": "2020-08-16T00:25:22Z",
+      "creation": "2020-08-16T02:47:49Z",
+      "lastModification": "2020-08-16T02:50:00Z",
       "availability": {
-        "from": "2020-08-15T20:35:00Z",
-        "to": "2020-08-16T01:30:59Z"
+        "from": "2020-08-16T02:47:00Z",
+        "to": "2020-08-16T12:47:59Z"
       },
       "validity": [
         {
-          "from": "2020-08-15T20:35:00Z",
-          "to": "2020-08-16T01:30:59Z"
+          "from": "2020-08-16T02:47:00Z",
+          "to": "2020-08-16T12:47:59Z"
         }
       ]
     },
-    "urlText": "07:05 Sydney to Canberra XPLORER service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052476&seqID=3",
-    "content": "<em>Due to an operational issue the Sydney to Canberra XPLORER service will be delayed.&nbsp;<br /><br /><br />Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "07:05 Sydney to Canberra XPLORER service delay",
+    "urlText": "Some delays in Mona Vale",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052477&seqID=1",
+    "content": "Heavy traffic on&nbsp;Pittwater Road is delaying some buses.",
+    "subtitle": "Some delays in Mona Vale",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Mona Vale, heavy traffic on Pittwater Road is delaying some buses up to 20 minutes.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76631: :H:",
+          "id": "nsw:280B1: :H:",
           "destination": {
-            "name": "Canberra Station, Kingston (ACT)",
+            "name": "Mona Vale B-Line, Mona Vale",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 631",
-          "number": "631",
-          "description": "Central to Canberra",
-          "iconId": 3,
+          "name": "Sydney Buses Network B1",
+          "number": "B1",
+          "description": "PrePay-Only - B-Line City Wynyard to Mona Vale",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:280B1: :R:",
+          "destination": {
+            "name": "Wynyard Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network B1",
+          "number": "B1",
+          "description": "PrePay-Only - B-Line Mona Vale to City Wynyard",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:28190:X:H:",
+          "destination": {
+            "name": "Ocean Pl at Ocean Rd, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 190X",
+          "number": "190X",
+          "description": "PrePay-Only - City Wynyard to Palm Beach (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:28190:X:R:",
+          "destination": {
+            "name": "Wynyard Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 190X",
+          "number": "190X",
+          "description": "PrePay-Only - Palm Beach to City Wynyard (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:28185: :R:",
+          "destination": {
+            "name": "Warringah Mall, Pittwater Rd, Brookvale",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 185",
+          "number": "185",
+          "description": "PrePay-Only - Mona Vale to Warringah Mall via Warriewood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:28185: :H:",
+          "destination": {
+            "name": "Darley St after Taronga Pl, Mona Vale",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 185",
+          "number": "185",
+          "description": "PrePay-Only - Warringah Mall to Mona Vale via Warriewood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
           }
         }
       ]
