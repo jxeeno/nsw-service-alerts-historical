@@ -16227,58 +16227,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6052516",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-08-18T03:29:08Z",
-      "lastModification": "2020-08-18T03:35:24Z",
-      "availability": {
-        "from": "2020-08-18T03:29:00Z",
-        "to": "2020-08-18T08:30:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-08-18T03:29:00Z",
-          "to": "2020-08-18T08:30:59Z"
-        }
-      ]
-    },
-    "urlText": "11:55 Canberra to Sydney XPLORER service.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052516&seqID=1",
-    "content": "This service is running behind schedule due to an operational issue with a freight train blocking the line.<br /><br />This service is expected to be delayed by up to 90 min.<br /><em><br />Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;\n<br /><br /><br /><br /><br />",
-    "subtitle": "11:55 Canberra to Sydney XPLORER service.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76634: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 634",
-          "number": "634",
-          "description": "Canberra to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6052518",
     "version": 1,
@@ -19258,6 +19206,78 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6052544",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-08-18T07:40:01Z",
+      "lastModification": "2020-08-18T07:44:06Z",
+      "availability": {
+        "from": "2020-08-18T07:40:00Z",
+        "to": "2020-08-18T17:40:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-08-18T07:40:00Z",
+          "to": "2020-08-18T17:40:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in Strathfield",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052544&seqID=1",
+    "content": "Buses are diverting away from Chalmers Road at Barker Road via Newton Road and South Street, missing two stops, due to a multi-vehicle crash.",
+    "subtitle": "Diversion in Strathfield",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Strathfield, route 4 oh 7 buses are diverting away from Chalmers Road at Barker Road via Newton Road and South Street, missing two stops, due to a multi-vehicle crash.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74407: :R:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 407",
+          "number": "407",
+          "description": "Burwood to Strathfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74407: :H:",
+          "destination": {
+            "name": "Westfield Burwood, Victoria St, Burwood",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 407",
+          "number": "407",
+          "description": "Strathfield to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
