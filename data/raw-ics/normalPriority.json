@@ -19542,51 +19542,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6052801",
+    "id": "6052802",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-08-26T15:43:00Z",
-      "lastModification": "2020-08-26T15:53:00Z",
+      "creation": "2020-08-26T19:35:47Z",
+      "lastModification": "2020-08-26T19:36:21Z",
       "availability": {
-        "from": "2020-08-26T15:43:00Z",
-        "to": "2020-08-26T19:00:59Z"
+        "from": "2020-08-26T19:35:00Z",
+        "to": "2020-08-27T05:35:59Z"
       },
       "validity": [
         {
-          "from": "2020-08-26T15:43:00Z",
-          "to": "2020-08-26T19:00:59Z"
+          "from": "2020-08-26T19:35:00Z",
+          "to": "2020-08-27T05:35:59Z"
         }
       ]
     },
-    "urlText": "20:42 Sydney To Melbourne XPT Service Delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052801&seqID=1",
-    "content": "Due to speed restrictions near Goulburn the 20:42 Sydney To Melbourne XPT service is delayed.<br /><br /><br /><br />\n<em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "20:42 Sydney To Melbourne XPT Service Delay",
+    "urlText": "T8 Airport & South Line - buses supplementing trains between Campbelltown and Macarthur",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052802&seqID=1",
+    "content": "Buses are supplementing train services between Campbelltown and Macarthur due to track equipment repairs at Macarthur. Allow extra travel time, listen to announcements and check indicator boards.",
+    "subtitle": "T8 Airport & South Line - buses supplementing trains between Campbelltown and Macarthur",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Buses are supplementing train services between Campbelltown and Macarthur due to track equipment repairs at Macarthur. Allow extra travel time, listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76621: :H:",
+          "id": "nsw:020T8: :H:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Station (VIC)",
+            "name": "Leppington Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
