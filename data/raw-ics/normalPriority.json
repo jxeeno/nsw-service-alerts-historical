@@ -20067,11 +20067,11 @@
   {
     "type": "lineInfo",
     "id": "6052795",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-08-26T07:13:11Z",
-      "lastModification": "2020-08-26T07:55:06Z",
+      "lastModification": "2020-08-26T08:02:05Z",
       "availability": {
         "from": "2020-08-26T07:13:00Z",
         "to": "2020-08-26T17:13:59Z"
@@ -20083,10 +20083,10 @@
         }
       ]
     },
-    "urlText": "T3 Bankstown Line - Delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052795&seqID=3",
+    "urlText": "T8 Airport & South Line - Delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052795&seqID=4",
     "content": "Allow extra travel time due to a medical emergency at Sydenham earlier. Listen to announcements, and check indicator boards.",
-    "subtitle": "T3 Bankstown Line - Delays",
+    "subtitle": "T8 Airport & South Line - Delays",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow extra travel time due to a medical emergency at Sydenham earlier. Listen to announcements, and check indicator boards.",
@@ -20095,25 +20095,6 @@
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:020T3: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "Liverpool or Lidcombe to City via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
         {
           "id": "nsw:020T8: :H:",
           "destination": {
@@ -20131,6 +20112,78 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6052798",
+    "version": 4,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-08-26T07:54:44Z",
+      "lastModification": "2020-08-26T08:00:52Z",
+      "availability": {
+        "from": "2020-08-26T07:54:00Z",
+        "to": "2020-08-26T17:54:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-08-26T07:54:00Z",
+          "to": "2020-08-26T17:54:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversions and some delays in Randwick",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052798&seqID=4",
+    "content": "Buses are diverting away from Arthur St at Belmore Rd due to a broken down bus. They are using an alternative route, missing 7 stops and delayed up to 30 minutes.",
+    "subtitle": "Diversions and some delays in Randwick",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Randwick, route 3-7-0 buses to Coogee and route 4-0-0 buses to Bondi Junction are diverting away from Arthur St at Belmore Rd due to a broken down bus. They are using an alternative route, missing 7 stops and delayed up to 30 minutes",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:31400: :H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 400",
+          "number": "400",
+          "description": "PrePay-Only - Sydney Airport to Bondi Junction via Eastgardens",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31370: :R:",
+          "destination": {
+            "name": "Arden St near Dolphin St, Coogee",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 370",
+          "number": "370",
+          "description": "PrePay-Only - Leichhardt Marketplace to Coogee",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
           }
         }
       ]
