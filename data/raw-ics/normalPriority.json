@@ -14226,93 +14226,6 @@
   },
   {
     "type": "stopInfo",
-    "id": "6052574",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-08-19T06:44:00Z",
-      "lastModification": "2020-08-19T06:47:00Z",
-      "availability": {
-        "from": "2020-08-19T06:44:00Z",
-        "to": "2020-08-30T19:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-08-23T19:00:00Z",
-          "to": "2020-08-30T19:00:59Z"
-        }
-      ]
-    },
-    "urlText": "891 bus route and bus stop changes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052574&seqID=1",
-    "content": "From 5am Monday 24 August, the <strong>891 bus route</strong> from Central to UNSW will return to travelling along Anzac Parade and High Street from Central instead of Alison Road.<br /><br />The 891 will no longer service the stops at <strong>UNSW Gate 8 and High St</strong> <strong>(203116)</strong> and <strong>UNSW Gate 3, High St (203121)</strong>.<br /><br /> The 891 will now service the stops at <strong>High St opp UNSW Gate 2 (2031163)</strong> and <strong>High St opp UNSW Gate 8 (2031164)</strong>.",
-    "subtitle": "891 bus route and bus stop changes",
-    "properties": {
-      "providerCode": "PT Marketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10112048:203116,2031164#10112058:2031163,203114#10112059:203121",
-      "speechText": "From 5 AM Monday 24 August, the 8-9-1 bus route from Central to UNSW will return to travelling along Anzac Parade and High Street from Central instead of Alison Road.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:31891: :H:",
-          "destination": {
-            "name": "High St Near Wansey",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 891",
-          "number": "891",
-          "description": "PrePay-Only - Central Eddy Ave to UNSW High St",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10112048",
-          "name": "UNSW Gate 8, High St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95350013:1",
-            "name": "Randwick",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "10112058",
-          "name": "UNSW Gate 2, High St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95350013:1",
-            "name": "Randwick",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "10112059",
-          "name": "UNSW Gate 3, High St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95350013:1",
-            "name": "Randwick",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
     "id": "6052576",
     "version": 1,
     "priority": "normal",
@@ -17341,6 +17254,59 @@
             "id": "placeID:95348001:1",
             "name": "Avalon",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6052896",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-08-30T21:24:05Z",
+      "lastModification": "2020-08-30T21:25:18Z",
+      "availability": {
+        "from": "2020-08-30T21:24:00Z",
+        "to": "2020-08-31T07:24:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-08-30T21:24:00Z",
+          "to": "2020-08-31T07:24:59Z"
+        }
+      ]
+    },
+    "urlText": "F4 - cancellation",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052896&seqID=1",
+    "content": "The 7:19am Rose Bay to Pyrmont Bay service has been cancelled due to a vessel breakdown. Catch the 7:39am service instead.&nbsp;",
+    "subtitle": "F4 - cancellation",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "The 7:19 a m Rose Bay to Pyrmont Bay service has been cancelled due to a vessel breakdown. Catch the 7:39 a m service instead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F4: :R:",
+          "destination": {
+            "name": "Pyrmont Bay Wharf",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F4 Cross Harbour",
+          "number": "F4 Cross Harbour",
+          "description": "Watsons Bay to Pyrmont Bay via Circular Quay and Barangaroo",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
           }
         }
       ]
