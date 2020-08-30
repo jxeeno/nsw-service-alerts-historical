@@ -17777,29 +17777,29 @@
   {
     "type": "lineInfo",
     "id": "6052890",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-08-30T08:01:37Z",
-      "lastModification": "2020-08-30T08:42:10Z",
+      "lastModification": "2020-08-30T10:07:02Z",
       "availability": {
         "from": "2020-08-30T08:01:00Z",
-        "to": "2020-08-30T11:01:59Z"
+        "to": "2020-08-30T13:01:59Z"
       },
       "validity": [
         {
           "from": "2020-08-30T08:01:00Z",
-          "to": "2020-08-30T11:01:59Z"
+          "to": "2020-08-30T13:01:59Z"
         }
       ]
     },
-    "urlText": "Bus replaces train between Moss Vale and Campbelltown",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052890&seqID=3",
-    "content": "The 7:09pm Campbelltown to Moss Vale train is replaced by a bus due to earlier track equipment repairs at Macarthur. Passengers are to allow extra travel time.",
-    "subtitle": "Bus replaces train between Moss Vale and Campbelltown",
+    "urlText": "Bus replaces trains between Moss Vale and Campbelltown",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052890&seqID=4",
+    "content": "The 4:06pm Central to Moss Vale, and 7:09pm Campbelltown to Moss Vale train are replaced by a bus, due to signal equipment repairs at Macarthur. Passengers are to allow extra travel time.",
+    "subtitle": "Bus replaces trains between Moss Vale and Campbelltown",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "The 7 09 pm Campbelltown to Moss Vale train is replaced by a bus due to earlier track equipment repairs at Macarthur. Passengers are to allow extra travel time.",
+      "speechText": "The 4 06 p m Central to Moss Vale, and 7 09 p m Campbelltown to Moss Vale train are replaced by a bus, due to signal equipment repairs at Macarthur. Passengers are to allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -17849,24 +17849,24 @@
   {
     "type": "lineInfo",
     "id": "6052892",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-08-30T09:20:17Z",
-      "lastModification": "2020-08-30T09:21:51Z",
+      "lastModification": "2020-08-30T10:10:47Z",
       "availability": {
         "from": "2020-08-30T09:20:00Z",
-        "to": "2020-08-30T19:20:59Z"
+        "to": "2020-08-30T16:00:59Z"
       },
       "validity": [
         {
           "from": "2020-08-30T09:20:00Z",
-          "to": "2020-08-30T19:20:59Z"
+          "to": "2020-08-30T16:00:59Z"
         }
       ]
     },
     "urlText": "17:42 Sydney to Canberra XPLORER service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052892&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052892&seqID=2",
     "content": "The Sydney to Canberra XPLORER service has been delayed due to a signal failure near Macarthur.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
     "subtitle": "17:42 Sydney to Canberra XPLORER service delay.",
     "properties": {
@@ -17893,6 +17893,78 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6052893",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-08-30T09:57:32Z",
+      "lastModification": "2020-08-30T10:02:39Z",
+      "availability": {
+        "from": "2020-08-30T09:57:00Z",
+        "to": "2020-08-30T19:57:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-08-30T09:57:00Z",
+          "to": "2020-08-30T19:57:59Z"
+        }
+      ]
+    },
+    "urlText": "T8 Airport and South Line - partial closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052893&seqID=1",
+    "content": "Trains are not operating between Campbelltown and Macarthur on the T8 Airport &amp; South Line due to signal equipment repairs at Macarthur. Passengers are advised to delay their journey, or make alternate travel arrangements. &nbsp;",
+    "subtitle": "T8 Airport and South Line - partial closure",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Trains are not operating between Campbelltown and Macarthur on the T 8 Airport and South Line due to signal equipment repairs at Macarthur. Passengers are advised to delay their journey, or make alternate travel arrangements.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
