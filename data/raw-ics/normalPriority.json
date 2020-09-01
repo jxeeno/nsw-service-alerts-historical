@@ -5418,11 +5418,11 @@
   {
     "type": "stopInfo",
     "id": "6046885",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-13T00:13:00Z",
-      "lastModification": "2020-06-17T04:22:00Z",
+      "creation": "2020-02-13T00:13:23Z",
+      "lastModification": "2020-09-01T06:31:58Z",
       "availability": {
         "from": "2020-02-13T00:13:00Z",
         "to": "2020-09-30T13:59:59Z"
@@ -5435,8 +5435,8 @@
       ]
     },
     "urlText": "Annandale bus stop relocation",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046885&seqID=2",
-    "content": "From Monday 17 February to end of September 2020:\n<ul>\n<li>The city-bound bus stop on <strong>The Crescent before Chapman Rd (203811)</strong> will be temporarily relocated approximately 65 metres south towards Johnston St.</li>\n<li>The out-bound bus stop on <strong>The Crescent before City West Link Rd (203816)</strong> will be temporarily relocated approximately 170 metres south towards Johnston St.</li>\n</ul>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6046885&seqID=3",
+    "content": "From Monday 17 February to end of September 2020:\n<ul>\n<li>The city-bound bus stop on <strong>The Crescent at Chapman Rd (203811)</strong> will be temporarily relocated approximately 65 metres south towards Johnston St.</li>\n<li>The out-bound bus stop on <strong>The Crescent at Johnston St (203816)</strong> will be temporarily relocated approximately 170 metres south towards Johnston St.</li>\n</ul>",
     "subtitle": "Annandale bus stop relocation",
     "properties": {
       "providerCode": "PT Marketing",
@@ -5447,6 +5447,25 @@
     },
     "affected": {
       "lines": [
+        {
+          "id": "nsw:381L1: :R:",
+          "destination": {
+            "name": "Central Station, Forecourt, Coach B",
+            "type": "stop"
+          },
+          "name": "Temporary buses 1L1",
+          "number": "1L1",
+          "description": "Dulwich Hill to Central",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
         {
           "id": "nsw:74433: :R:",
           "destination": {
@@ -5464,6 +5483,25 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:381L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill, Dudley St",
+            "type": "stop"
+          },
+          "name": "Temporary buses 1L1",
+          "number": "1L1",
+          "description": "Central to Dulwich Hill",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         },
         {
@@ -5489,7 +5527,7 @@
       "stops": [
         {
           "id": "10112589",
-          "name": "The Crescent before Chapman Rd",
+          "name": "The Crescent at Chapman Rd",
           "type": "stop",
           "parent": {
             "id": "placeID:95333001:1",
@@ -5499,7 +5537,7 @@
         },
         {
           "id": "10112594",
-          "name": "The Crescent before City West Link Rd",
+          "name": "The Crescent at Johnston St",
           "type": "stop",
           "parent": {
             "id": "placeID:95333001:1",
@@ -18060,6 +18098,78 @@
             "id": "placeID:95347024:1",
             "name": "Penrith",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6052939",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-09-01T06:27:24Z",
+      "lastModification": "2020-09-01T06:31:53Z",
+      "availability": {
+        "from": "2020-09-01T06:27:00Z",
+        "to": "2020-09-01T16:27:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-09-01T06:27:00Z",
+          "to": "2020-09-01T16:27:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays in Milperra",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052939&seqID=1",
+    "content": "Heavy traffic on Newbridge Road and Henry Lawson Drive is delaying some M90 buses.",
+    "subtitle": "Some delays in Milperra",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Milperra - Heavy traffic on Newbridge Road and Henry Lawson Drive is delaying some M 90 buses by up to 25 minutes.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38M90: :H:",
+          "destination": {
+            "name": "Liverpool Interchange, Liverpool",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Burwood to Liverpool",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M90: :R:",
+          "destination": {
+            "name": "Westfield Burwood, Victoria St, Burwood",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Liverpool to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
