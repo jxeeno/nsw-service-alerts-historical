@@ -18134,51 +18134,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6053040",
-    "version": 1,
+    "id": "6053041",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-09-04T01:09:00Z",
-      "lastModification": "2020-09-04T01:13:52Z",
+      "creation": "2020-09-04T02:06:52Z",
+      "lastModification": "2020-09-04T02:17:07Z",
       "availability": {
-        "from": "2020-09-04T01:09:00Z",
-        "to": "2020-09-04T02:09:59Z"
+        "from": "2020-09-04T02:06:00Z",
+        "to": "2020-09-04T12:06:59Z"
       },
       "validity": [
         {
-          "from": "2020-09-04T01:09:00Z",
-          "to": "2020-09-04T02:09:59Z"
+          "from": "2020-09-04T02:06:00Z",
+          "to": "2020-09-04T12:06:59Z"
         }
       ]
     },
-    "urlText": "06:55 Canberra to Sydney XPLORER service.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053040&seqID=1",
-    "content": "This service is behind schedule due to an operational issue.<br /><br />\n<em>&nbsp;</em><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;\n<br /><br /><br /><br />",
-    "subtitle": "06:55 Canberra to Sydney XPLORER service.",
+    "urlText": "Some delays in Glebe",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053041&seqID=2",
+    "content": "Due to a crash on Glebe Point Road some buses in the area are delayed.",
+    "subtitle": "Some delays in Glebe",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Due to a crash on Glebe Point Road some buses through Glebe are delayed up to 25 minutes.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76632: :R:",
+          "id": "nsw:74431: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Federal Rd opp Bicentennial Park",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 632",
-          "number": "632",
-          "description": "Canberra to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 431",
+          "number": "431",
+          "description": "City Martin Place to Glebe Point",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74431: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 431",
+          "number": "431",
+          "description": "Glebe Point to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74433: :R:",
+          "destination": {
+            "name": "Pitt St at Barlow St, Haymarket",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 433",
+          "number": "433",
+          "description": "Balmain Gladstone Park to Central Pitt St",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74433: :H:",
+          "destination": {
+            "name": "Darling St opp Gladstone Park, Balmain",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 433",
+          "number": "433",
+          "description": "Central Pitt St to Balmain Gladstone Park",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
