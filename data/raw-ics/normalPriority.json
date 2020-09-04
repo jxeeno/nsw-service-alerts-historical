@@ -15692,11 +15692,11 @@
   {
     "type": "stopInfo",
     "id": "6052904",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-08-30T23:52:00Z",
-      "lastModification": "2020-08-30T23:58:00Z",
+      "creation": "2020-08-30T23:52:17Z",
+      "lastModification": "2020-09-04T00:42:33Z",
       "availability": {
         "from": "2020-08-30T23:52:00Z",
         "to": "2020-09-19T13:59:59Z"
@@ -15709,7 +15709,7 @@
       ]
     },
     "urlText": "Kurraba Point Wharf temporary closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052904&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052904&seqID=2",
     "content": "Kurraba Point Wharf is closed temporarily for maintenance. <br /><br />Please use Neutral Bay Wharf as an alternative during the closure.",
     "subtitle": "Kurraba Point Wharf temporary closure",
     "properties": {
@@ -15731,6 +15731,25 @@
           "name": "Sydney Ferries Network F5 Neutral Bay",
           "number": "F5 Neutral Bay",
           "description": "Neutral Bay to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F5: :H:",
+          "destination": {
+            "name": "Neutral Bay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F5 Neutral Bay",
+          "number": "F5 Neutral Bay",
+          "description": "Circular Quay to Neutral Bay",
           "iconId": 10,
           "product": {
             "class": 9,
@@ -18115,51 +18134,52 @@
   },
   {
     "type": "lineInfo",
-    "id": "6053033",
+    "id": "6053036",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-09-03T21:26:28Z",
-      "lastModification": "2020-09-03T21:29:08Z",
+      "creation": "2020-09-04T00:41:06Z",
+      "lastModification": "2020-09-04T00:43:45Z",
       "availability": {
-        "from": "2020-09-03T21:26:00Z",
-        "to": "2020-09-04T00:26:59Z"
+        "from": "2020-09-04T00:41:00Z",
+        "to": "2020-09-04T10:41:59Z"
       },
       "validity": [
         {
-          "from": "2020-09-03T21:26:00Z",
-          "to": "2020-09-04T00:26:59Z"
+          "from": "2020-09-04T00:41:00Z",
+          "to": "2020-09-04T10:41:59Z"
         }
       ]
     },
-    "urlText": "05:30 Grenfell to Lithgow coach service",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053033&seqID=1",
-    "content": "This service will be delay due to mechanical issue.",
-    "subtitle": "05:30 Grenfell to Lithgow coach service",
+    "urlText": "T8 Airport & South Line - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053036&seqID=1",
+    "content": "Allow extra travel time due to a train requiring mechanical repairs at Minto. Listen to announcements and check indicator boards.",
+    "subtitle": "T8 Airport & South Line - delays",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to a train requiring mechanical repairs at Minto. Listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76550: :R:",
+          "id": "nsw:020T8: :R:",
           "destination": {
-            "name": "Lithgow Station",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 550",
-          "number": "550",
-          "description": "Grenfell to Lithgow",
-          "iconId": 7,
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
