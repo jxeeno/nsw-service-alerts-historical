@@ -18297,11 +18297,11 @@
   {
     "type": "stopInfo",
     "id": "6053044",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-09-04T03:32:50Z",
-      "lastModification": "2020-09-04T03:49:31Z",
+      "lastModification": "2020-09-04T03:54:10Z",
       "availability": {
         "from": "2020-09-04T03:32:00Z",
         "to": "2020-09-23T13:59:59Z"
@@ -18314,14 +18314,13 @@
       ]
     },
     "urlText": "Pyrmont Bay Wharf temporary closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053044&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053044&seqID=2",
     "content": "From Monday 21 to Wednesday 23 September Pyrmont Bay Wharf is temporarily closed<br />Please catch nearby <strong>Route 389</strong> bus services to the city instead.",
     "subtitle": "Pyrmont Bay Wharf temporary closure",
     "properties": {
       "providerCode": "PT Marketing",
       "appliesTo": "departingArriving",
       "stopIDglobalID": "10102033:200910",
-      "speechText": "Kurraba Point Wharf is closed temporarily for maintenance.\n\nPlease use Neutral Bay Wharf as an alternative during the closure.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -18427,6 +18426,129 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6053046",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-09-04T03:49:33Z",
+      "lastModification": "2020-09-04T03:54:04Z",
+      "availability": {
+        "from": "2020-09-04T03:49:00Z",
+        "to": "2020-10-09T12:49:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-09-20T14:09:00Z",
+          "to": "2020-10-09T12:49:59Z"
+        }
+      ]
+    },
+    "urlText": "McMahons Point Wharf changed access",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053046&seqID=1",
+    "content": "From Monday 21 September to Friday 9 October McMahons Point Wharf will temporarily close one side at a time. <br /><br />Ferry services will continue to operate. <br /><br />Please follow the signs in place for the side in current use.<br /><br />",
+    "subtitle": "McMahons Point Wharf changed access",
+    "properties": {
+      "providerCode": "PT Marketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10102015:20601,206076,206080",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Parramatta River to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Rydalmere",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Parramatta River",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F4: :R:",
+          "destination": {
+            "name": "Barangaroo",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F4 Cross Harbour",
+          "number": "F4 Cross Harbour",
+          "description": "Watsons Bay to Pyrmont Bay via Circular Quay and Barangaroo",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F4: :H:",
+          "destination": {
+            "name": "Watsons Bay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F4 Cross Harbour",
+          "number": "F4 Cross Harbour",
+          "description": "Pyrmont Bay to Watsons Bay via Barangaroo and Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10102015",
+          "name": "McMahons Point Wharf",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343007:1",
+            "name": "McMahons Point",
+            "type": "locality"
           }
         }
       ]
