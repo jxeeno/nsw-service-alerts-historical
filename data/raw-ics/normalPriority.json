@@ -13294,11 +13294,11 @@
   {
     "type": "routeInfo",
     "id": "6052737",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-08-25T02:04:00Z",
-      "lastModification": "2020-09-04T05:51:00Z",
+      "creation": "2020-08-25T02:04:44Z",
+      "lastModification": "2020-09-09T04:41:54Z",
       "availability": {
         "from": "2020-08-25T02:04:00Z",
         "to": "2020-09-10T16:50:59Z"
@@ -13323,7 +13323,7 @@
       ]
     },
     "urlText": "Trackwork between Newcastle Interchange and Broadmeadow",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052737&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052737&seqID=3",
     "content": "<strong>Monday 7 to Thursday 10 September</strong>\n<ul>\n<li><strong>Nightly from 9.50pm until 2.50am</strong>, buses replace trains from Broadmeadow to Newcastle Interchange.</li>\n<li><strong>Nightly from 10.20pm until 2.50am</strong>, buses replace trains from Newcastle Interchange to Broadmeadow.</li>\n<li>Trains run to the normal timetable between Broadmeadow and Central.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<br /><strong>Bus route</strong><br /><strong>60CN</strong>: Broadmeadow, Hamilton, Newcastle Interchange and return<br /><br />",
     "subtitle": "Trackwork between Newcastle Interchange and Broadmeadow",
     "properties": {
@@ -16348,11 +16348,11 @@
   {
     "type": "lineInfo",
     "id": "6052962",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-09-02T04:23:00Z",
-      "lastModification": "2020-09-02T04:25:00Z",
+      "creation": "2020-09-02T04:23:11Z",
+      "lastModification": "2020-09-09T04:39:27Z",
       "availability": {
         "from": "2020-09-02T04:23:00Z",
         "to": "2020-09-17T16:00:59Z"
@@ -16365,7 +16365,7 @@
       ]
     },
     "urlText": "Trackwork between Lithgow and Mount Victoria or Katoomba",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052962&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6052962&seqID=2",
     "content": "<strong>Monday 14 to Friday 18 September</strong>\n<ul>\n<li>Buses replace trains between Lithgow and Mount Victoria.</li>\n<li>Trains run to a changed timetable between Mount Victoria and Central.</li>\n<li>Bathurst trains continue to run, except on Monday until 9am when buses replace trains between Bathurst and Lithgow.</li>\n<li><strong>Daily from 9.20am until 5pm</strong>, buses replace trains between Lithgow and Katoomba.</li>\n<li>Trains run between Katoomba and Central, some to a changed timetable.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br />2BM: Lithgow, express to Bathurst and return (limited)<br />7BM: Katoomba, then all stations to Lithgow and return<br />10BM: Bathurst, then Tarana, Rydal, Lithgow and return (limited)<br />15BM: Bathurst, Tarana, Rydal, Lithgow then Katoomba and return (limited)<br />31BM: Lithgow, then express to Mount Victoria and return<br />32BM: Lithgow, then all stations to Mount Victoria and return<br />33BM: Katoomba, then all stations to Mount Victoria and return<br />34BM: Katoomba, then express to Lithgow and return",
     "subtitle": "Trackwork between Lithgow and Mount Victoria or Katoomba",
     "properties": {
@@ -16450,6 +16450,290 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:012BM: :R:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 2BM",
+          "number": "2BM",
+          "description": "Bathurst, then Lithgow",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:012BM: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 2BM",
+          "number": "2BM",
+          "description": "Lithgow, then Bathurst",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:017BM: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 7BM",
+          "number": "7BM",
+          "description": "Katoomba, then all stations to Lithgow",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:017BM: :R:",
+          "destination": {
+            "name": "Katoomba Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 7BM",
+          "number": "7BM",
+          "description": "Lithgow, then all stations to Katoomba",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0110B:M:R:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 10BM",
+          "number": "10BM",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0110B:M:H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 10BM",
+          "number": "10BM",
+          "description": "Lithgow, then Rydal, Tarana, Bathurst",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0115B:M:R:",
+          "destination": {
+            "name": "Katoomba Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 15BM",
+          "number": "15BM",
+          "description": "Bathurst, then Tarana, Rydal, Lithgow, Katoomba",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0131B:M:R:",
+          "destination": {
+            "name": "Mount Victoria Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 31BM",
+          "number": "31BM",
+          "description": "Lithgow, then Mount Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0131B:M:H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 31BM",
+          "number": "31BM",
+          "description": "Mount Victoria, then Lithgow",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0132B:M:R:",
+          "destination": {
+            "name": "Mount Victoria Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 32BM",
+          "number": "32BM",
+          "description": "Lithgow, then all stations to Mount Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0132B:M:H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 32BM",
+          "number": "32BM",
+          "description": "Mount Victoria, then all stations to Lithgow",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0133B:M:H:",
+          "destination": {
+            "name": "Mount Victoria Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 33BM",
+          "number": "33BM",
+          "description": "Katoomba then all stations to Mount Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0133B:M:R:",
+          "destination": {
+            "name": "Katoomba Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 33BM",
+          "number": "33BM",
+          "description": "Mount Victoria then all stations to Katoomba",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0134B:M:H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 34BM",
+          "number": "34BM",
+          "description": "Katoomba Express to Lithgow",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0134B:M:R:",
+          "destination": {
+            "name": "Katoomba Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 34BM",
+          "number": "34BM",
+          "description": "Lithgow Express to Katoomba",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
           }
         }
       ]
@@ -19374,116 +19658,6 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "6053160",
-    "version": 3,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-09-09T04:17:40Z",
-      "lastModification": "2020-09-09T04:30:01Z",
-      "availability": {
-        "from": "2020-09-09T04:17:00Z",
-        "to": "2020-09-09T14:17:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-09-09T04:17:00Z",
-          "to": "2020-09-09T14:17:59Z"
-        }
-      ]
-    },
-    "urlText": "Diversion in Willoughby",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053160&seqID=3",
-    "content": "Buses are diverting away from Willoughby Road due to a building fire at Mowbray Road. They are using Alpha Road and Frenchs Road instead, missing two bus stops. Also, route 262 school buses are ending their trips at Boundary Street and Penshurst Street in Roseville.",
-    "subtitle": "Diversion in Willoughby",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "In Willoughby - Southbound buses are diverting away from Willoughby Road due to a building fire at Mowbray Road. They are using Alpha Road and Frenchs Road instead, missing two bus stops. Also, route 2 6 2 school buses are ending their trips at Boundary Street and Penshurst Street in Roseville.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:26257: :H:",
-          "destination": {
-            "name": "The Esplanade at Awaba St, Mosman",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 257",
-          "number": "257",
-          "description": "PrePay-Only - Chatswood to Balmoral via Crows Nest",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2439",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:26340: :H:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 340",
-          "number": "340",
-          "description": "PrePay-Only - Chatswood to Bondi Junction",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2439",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:31343: :H:",
-          "destination": {
-            "name": "Dacey Gardens, Bunnerong Rd, Daceyville",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 343",
-          "number": "343",
-          "description": "PrePay-Only - Chatswood to Kingsford",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:39262: :H:",
-          "destination": {
-            "name": "Willoughby Rd opp Julian St, Willoughby",
-            "type": "stop"
-          },
-          "name": "School buses 262",
-          "number": "262",
-          "description": "Galstaun School to Willoughby Rd opp Julian St",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2445",
-            "name": "Forest Coach Lines"
           }
         }
       ]
