@@ -19249,11 +19249,11 @@
   {
     "type": "lineInfo",
     "id": "6053157",
-    "version": 3,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-09-09T03:02:42Z",
-      "lastModification": "2020-09-09T03:20:15Z",
+      "lastModification": "2020-09-09T05:14:16Z",
       "availability": {
         "from": "2020-09-09T03:02:00Z",
         "to": "2020-09-09T13:02:59Z"
@@ -19266,8 +19266,8 @@
       ]
     },
     "urlText": "Diversions in Mascot",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053157&seqID=3",
-    "content": "Buses are diverting away from a truck and car crash on Coward Street at Bourke Street. Routes 357 and 400 are missing four stops while Routes 418 and 420 are missing ten stops.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053157&seqID=5",
+    "content": "Buses are diverting away from a truck and car crash on Coward Street at Bourke Street.\n<ul>\n<li>Route 400 is using O'Riordan Street in both directions, missing four bus stops.&nbsp;</li>\n<li>Route 307 to Mascot is using O'Riordan Street, Gardeners Road and Kent Road, missing one bus stop.</li>\n<li>Route 418 towards Burwood is using Gardeners Road and Bourke Street to access Mascot station, then Coward Street, O'Riordan Street, Kent Road and Ricketty Street.</li>\n</ul>",
     "subtitle": "Diversions in Mascot",
     "properties": {
       "providerCode": "TMC",
@@ -19277,25 +19277,6 @@
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:74418: :H:",
-          "destination": {
-            "name": "St Spyridon College, Gardeners Rd, Kingsford",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 418",
-          "number": "418",
-          "description": "Burwood to Kingsford via Dulwich Hill, Sydenham & Mascot",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
         {
           "id": "nsw:74418: :R:",
           "destination": {
@@ -19313,6 +19294,63 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:31400: :R:",
+          "destination": {
+            "name": "Sydney Airport, International Terminal (T1), Mascot",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 400",
+          "number": "400",
+          "description": "PrePay-Only - Bondi Junction to Sydney Airport via Eastgardens",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31400: :H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 400",
+          "number": "400",
+          "description": "PrePay-Only - Sydney Airport to Bondi Junction via Eastgardens",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31307: :R:",
+          "destination": {
+            "name": "Bourke Rd after O'Riordan St, Mascot",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 307",
+          "number": "307",
+          "description": "PrePay-Only - Port Botany Depot to Mascot",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
           }
         },
         {
@@ -19354,79 +19392,22 @@
           }
         },
         {
-          "id": "nsw:31357: :H:",
+          "id": "nsw:74418: :H:",
           "destination": {
-            "name": "Bourke Rd after O'Riordan St, Mascot",
+            "name": "St Spyridon College, Gardeners Rd, Kingsford",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 357",
-          "number": "357",
-          "description": "PrePay-Only - Bondi Junction to Mascot via Randwick & Kingsford",
+          "name": "Sydney Buses Network 418",
+          "number": "418",
+          "description": "Burwood to Kingsford via Dulwich Hill, Sydenham & Mascot",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:31357: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 357",
-          "number": "357",
-          "description": "PrePay-Only - Mascot to Bondi Junction via Kingsford & Randwick",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:31400: :R:",
-          "destination": {
-            "name": "Sydney Airport, International Terminal (T1), Mascot",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 400",
-          "number": "400",
-          "description": "PrePay-Only - Bondi Junction to Sydney Airport via Eastgardens",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:31400: :H:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 400",
-          "number": "400",
-          "description": "PrePay-Only - Sydney Airport to Bondi Junction via Eastgardens",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
