@@ -17078,51 +17078,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6053280",
+    "id": "6053282",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-09-14T05:56:52Z",
-      "lastModification": "2020-09-14T05:57:10Z",
+      "creation": "2020-09-14T07:19:09Z",
+      "lastModification": "2020-09-14T07:20:22Z",
       "availability": {
-        "from": "2020-09-14T05:56:00Z",
-        "to": "2020-09-14T07:00:59Z"
+        "from": "2020-09-14T07:19:00Z",
+        "to": "2020-09-14T17:19:59Z"
       },
       "validity": [
         {
-          "from": "2020-09-14T05:56:00Z",
-          "to": "2020-09-14T07:00:59Z"
+          "from": "2020-09-14T07:19:00Z",
+          "to": "2020-09-14T17:19:59Z"
         }
       ]
     },
-    "urlText": "08:40 Armidale to Sydney XPLORER delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053280&seqID=1",
-    "content": "This service has been delayed due to rail congestion at Broadmeadow.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "08:40 Armidale to Sydney XPLORER delay.",
+    "urlText": "Some delays in Greenacre",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053282&seqID=1",
+    "content": "A two car crash on Roberts Road just past Norfolk Road is delaying some services by up to 10 minutes.",
+    "subtitle": "Some delays in Greenacre",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Greenacre, some buses are delayed up to 10 minutes due to a two car crash on Roberts Road just past Norfolk Road.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76224: :R:",
+          "id": "nsw:38913: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Bankstown Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 224",
-          "number": "224",
-          "description": "Armidale to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 913",
+          "number": "913",
+          "description": "Bankstown to Strathfield",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38913: :H:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 913",
+          "number": "913",
+          "description": "Strathfield to Bankstown",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38914: :R:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 914",
+          "number": "914",
+          "description": "Greenacre to Strathfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38914: :H:",
+          "destination": {
+            "name": "Greenacre Shops, Waterloo Rd, Greenacre",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 914",
+          "number": "914",
+          "description": "Strathfield to Greenacre",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
