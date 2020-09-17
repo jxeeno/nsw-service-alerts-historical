@@ -19303,11 +19303,11 @@
   {
     "type": "lineInfo",
     "id": "6053390",
-    "version": 5,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-09-17T08:35:04Z",
-      "lastModification": "2020-09-17T09:37:23Z",
+      "lastModification": "2020-09-17T10:12:35Z",
       "availability": {
         "from": "2020-09-17T08:35:00Z",
         "to": "2020-09-17T18:35:59Z"
@@ -19319,13 +19319,13 @@
         }
       ]
     },
-    "urlText": "T1 Western Line and Blue Mountains Line - partial closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053390&seqID=5",
-    "content": "Buses are replacing trains in both directions between St Marys and Penrith due to a fatality at Kingswood. Allow plenty of extra travel time, listen to announcements and check indicator boards.",
-    "subtitle": "T1 Western Line and Blue Mountains Line - partial closure",
+    "urlText": "T1 Western Line and Blue Mountains Line - delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053390&seqID=6",
+    "content": "Trains are running again between St Marys and Penrith after a fatality at Kingswood earlier. Buses may supplement some train services. Allow plenty of extra travel time, listen to announcements and check indicator boards.",
+    "subtitle": "T1 Western Line and Blue Mountains Line - delays",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing trains in both directions between St Marys and Penrith due to a fatality at Kingswood. Allow plenty of extra travel time, listen to announcements and check indicator boards.",
+      "speechText": "Trains are running again between St Marys and Penrith after a fatality at Kingswood earlier. Buses may supplement some train services. Allow plenty of extra travel time, listen to announcements and check indicator boards.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -19443,6 +19443,78 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6053394",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-09-17T10:28:13Z",
+      "lastModification": "2020-09-17T10:32:15Z",
+      "availability": {
+        "from": "2020-09-17T10:28:00Z",
+        "to": "2020-09-17T16:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-09-17T13:15:00Z",
+          "to": "2020-09-17T16:00:59Z"
+        }
+      ]
+    },
+    "urlText": "T3 Bankstown Line - buses replacing trains between Villawood and Liverpool",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053394&seqID=1",
+    "content": "From 11:15pm, buses are replacing trains in both directions between Villawood and Liverpool due to overhead wiring repairs near Cabramatta. Allow extra travel time, listen to announcements and check indicator boards.",
+    "subtitle": "T3 Bankstown Line - buses replacing trains between Villawood and Liverpool",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "From 11:15pm, buses are replacing trains in both directions between Villawood and Liverpool due to overhead wiring repairs near Cabramatta. Allow extra travel time, listen to announcements and check indicator boards.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
