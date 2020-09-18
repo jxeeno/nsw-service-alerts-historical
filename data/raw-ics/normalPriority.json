@@ -6735,11 +6735,11 @@
   {
     "type": "stopInfo",
     "id": "6049886",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-05-14T05:38:00Z",
-      "lastModification": "2020-05-14T06:04:00Z",
+      "creation": "2020-05-14T05:38:43Z",
+      "lastModification": "2020-09-18T07:35:56Z",
       "availability": {
         "from": "2020-05-14T05:38:00Z",
         "to": "2020-09-30T13:59:59Z"
@@ -6752,38 +6752,19 @@
       ]
     },
     "urlText": "Marrickville temporary stop closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049886&seqID=1",
-    "content": "From Sunday 31 May bus stop&nbsp;<strong>Marrickville Metro Shopping Centre, Smidmore St (220411)</strong> will be closed due to road closures in place for the Marrickville Metro Shopping Cente construction works. <br /><br />For <strong>routes 308</strong> and <strong>352</strong> please use the alternative stop <strong>Marrickville Metro, Smidmore St at Murray St (220451)</strong>. <br /><br />For <strong>route 355</strong> please use the alternative stop <strong><strong>Marrickville Metro, Smidmore St after Murray St</strong> (220452)</strong>.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6049886&seqID=2",
+    "content": "From Saturday 12 September, <strong>routes 352</strong> and <strong>355</strong> will miss stops at <strong>Marrickville Metro Shopping Centre, Smidmore St at Murray St (220451)</strong> and <strong>Smidmore St after Murray St (220452)</strong> for approximately 6 weeks due to works in the area.<br /> <br />Please use the alternative stop at <strong>Marrickville Metro Shopping Centre, Smidmore St (220468)</strong>.",
     "subtitle": "Marrickville temporary stop closure",
     "properties": {
       "providerCode": "PT Marketing",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10122501:220411#10195384:220451",
+      "stopIDglobalID": "10195384:220451#10122501:220451,220452#10195005:220468",
       "speechText": "From Sunday 31 May bus stop Marrickville Metro Shopping Centre, Smidmore Street will be closed due to road closures in place for the Marrickville Metro Shopping Cente construction works.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:74308: :R:",
-          "destination": {
-            "name": "Marrickville Metro",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 308",
-          "number": "308",
-          "description": "Marrickville Metro to Central Eddy Ave via Redfern  (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
         {
           "id": "nsw:31352: :R:",
           "destination": {
@@ -6863,8 +6844,8 @@
       ],
       "stops": [
         {
-          "id": "10122501",
-          "name": "Marrickville Metro Shopping Centre, Smidmore St",
+          "id": "10195384",
+          "name": "Marrickville Metro, Smidmore St af Murray St",
           "type": "stop",
           "parent": {
             "id": "placeID:95338005:1",
@@ -6873,8 +6854,18 @@
           }
         },
         {
-          "id": "10195384",
-          "name": "Marrickville Metro, Smidmore St af Murray St",
+          "id": "10122501",
+          "name": "Marrickville Metro, Smidmore St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338005:1",
+            "name": "Marrickville",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10195005",
+          "name": "Marrickville Metro Shopping Centre, Smidmore St",
           "type": "stop",
           "parent": {
             "id": "placeID:95338005:1",
