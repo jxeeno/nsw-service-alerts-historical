@@ -773,11 +773,11 @@
   {
     "type": "lineInfo",
     "id": "6053151",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-09-09T01:46:00Z",
-      "lastModification": "2020-09-16T02:42:00Z",
+      "creation": "2020-09-09T01:46:06Z",
+      "lastModification": "2020-09-23T04:44:12Z",
       "availability": {
         "from": "2020-09-09T01:46:00Z",
         "to": "2020-09-23T16:00:59Z"
@@ -790,7 +790,7 @@
       ]
     },
     "urlText": "Trackwork between Olympic Park and Lidcombe",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053151&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053151&seqID=3",
     "content": "<strong>Tuesday 22 and Wednesday 23 September &nbsp;</strong>\n<ul>\n<li>Buses replace trains between Olympic Park and Lidcombe.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus route<br /></strong><br /><strong>40T7</strong>: Lidcombe, then Olympic Park and return<br /><br />",
     "subtitle": "Trackwork between Olympic Park and Lidcombe",
     "properties": {
@@ -3302,11 +3302,11 @@
   {
     "type": "routeInfo",
     "id": "6053318",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-09-15T01:31:00Z",
-      "lastModification": "2020-09-15T01:53:00Z",
+      "creation": "2020-09-15T01:31:54Z",
+      "lastModification": "2020-09-23T04:43:02Z",
       "availability": {
         "from": "2020-09-15T01:31:00Z",
         "to": "2020-10-01T16:00:59Z"
@@ -3331,7 +3331,7 @@
       ]
     },
     "urlText": "Trackwork between Cronulla and Sutherland",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053318&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053318&seqID=3",
     "content": "<strong>Monday 28 September to Thursday 1 October</strong>\n<ul>\n<li>Nightly from 9.50pm until 2am, buses replace trains between Cronulla and Sutherland.</li>\n<li>Trains run to a changed timetable between Waterfall or Sutherland and Bondi Junction.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus route</strong><br />33T4: Cronulla, then all stations to Sutherland and return",
     "subtitle": "Trackwork between Cronulla and Sutherland",
     "properties": {
@@ -3343,6 +3343,22 @@
     },
     "affected": {
       "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Banksia",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
         {
           "id": "nsw:020T4: :H:",
           "destination": {
@@ -3360,18 +3376,34 @@
           "operator": {}
         },
         {
-          "id": "nsw:020T4: :R:",
+          "id": "nsw:0133T:4:H:",
           "destination": {
-            "name": "Hurstville",
+            "name": "Cronulla",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Waterfall or Cronulla to Bondi Junction",
-          "iconId": 1,
+          "name": "Temporary buses 33T4",
+          "number": "33T4",
+          "description": "Sutherland, then all stations to Cronulla",
+          "iconId": 14,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0133T:4:R:",
+          "destination": {
+            "name": "Sutherland",
+            "type": "stop"
+          },
+          "name": "Temporary buses 33T4",
+          "number": "33T4",
+          "description": "Cronulla, then all stations to Sutherland",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
           },
           "operator": {}
         }
