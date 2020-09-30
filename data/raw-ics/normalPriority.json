@@ -17372,11 +17372,11 @@
   {
     "type": "stopInfo",
     "id": "6053751",
-    "version": 1,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-09-30T01:18:09Z",
-      "lastModification": "2020-09-30T01:20:39Z",
+      "lastModification": "2020-09-30T06:19:33Z",
       "availability": {
         "from": "2020-09-30T01:18:00Z",
         "to": "2020-10-15T14:00:59Z"
@@ -17400,10 +17400,10 @@
         }
       ]
     },
-    "urlText": "Trains run in one direction only, from Central first stop Town Hall",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053751&seqID=1",
-    "content": "<strong>Monday 12 to Thursday 15 October</strong>\n<ul>\n<li>Nightly from 9.30pm until 1am, trains run in one direction only, from Central first stop Museum.</li>\n<li>Some City Circle trains run to a changed timetable and leave from different platforms.</li>\n<li>Some trains start or end at Central. You may need to change trains to continue your journey.</li>\n<li>If you are travelling from Town Hall or Wynyard to Circular Quay you can catch the light rail.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
-    "subtitle": "Trains run in one direction only, from Central first stop Town Hall",
+    "urlText": "Trains run in one direction only, from Central first stop Museum",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053751&seqID=5",
+    "content": "<strong>Monday 12 to Thursday 15 October</strong>\n<ul>\n<li><strong>Nightly from 9.30pm until 1am</strong>, trains run in one direction only, from Central first stop Museum.</li>\n<li>Some City Circle trains run to a changed timetable and leave from different platforms.</li>\n<li>Some trains start or end at Central. You may need to change trains to continue your journey.</li>\n<li>If you are travelling from Town Hall or Wynyard to Circular Quay you can catch the light rail.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
+    "subtitle": "Trains run in one direction only, from Central first stop Museum",
     "properties": {
       "providerCode": "PT Marketing",
       "appliesTo": "departingArriving",
@@ -17417,10 +17417,10 @@
         {
           "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Leppington Station",
+            "name": "City Circle via Museum",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
           "number": "T2 Inner West & Leppington Line",
           "description": "City to Parramatta or Leppington",
           "iconId": 1,
@@ -17434,14 +17434,14 @@
           }
         },
         {
-          "id": "nsw:020T8: :H:",
+          "id": "nsw:020T3: :H:",
           "destination": {
-            "name": "Macarthur Station",
+            "name": "City Circle via Town Hall",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -17453,14 +17453,14 @@
           }
         },
         {
-          "id": "nsw:020T2: :R:",
+          "id": "nsw:020T8: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Revesby via Airport",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -17477,9 +17477,47 @@
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "name": "Sydney Trains Network T8 Airport & South Line",
           "number": "T8 Airport & South Line",
           "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "City Circle via Town Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -19902,101 +19940,184 @@
   },
   {
     "type": "lineInfo",
-    "id": "6053771",
-    "version": 2,
+    "id": "6053774",
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-09-30T04:46:16Z",
-      "lastModification": "2020-09-30T04:50:33Z",
+      "creation": "2020-09-30T06:06:38Z",
+      "lastModification": "2020-09-30T06:30:01Z",
       "availability": {
-        "from": "2020-09-30T04:46:00Z",
-        "to": "2020-09-30T14:46:59Z"
+        "from": "2020-09-30T06:06:00Z",
+        "to": "2020-09-30T16:06:59Z"
       },
       "validity": [
         {
-          "from": "2020-09-30T04:46:00Z",
-          "to": "2020-09-30T14:46:59Z"
+          "from": "2020-09-30T06:06:00Z",
+          "to": "2020-09-30T16:06:59Z"
         }
       ]
     },
-    "urlText": "Diversions in Williamtown",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053771&seqID=2",
-    "content": "Buses are diverting away from Medowie Road due to a police operation. They are using Nelson Bay Road and Richardson Road instead, missing two stops.",
-    "subtitle": "Diversions in Williamtown",
+    "urlText": "South Coast Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053774&seqID=3",
+    "content": "Allow extra travel time due to a train requiring mechanical repairs at Waterfall earlier. Listen to announcements and check indicator boards as stopping patterns may change.",
+    "subtitle": "South Coast Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Williamtown, route 1-3-6 buses to Raymond Terrace and route 1-4-5 buses to Newcastle Airport are diverting away from Medowie Road due to a police operation. They are using Nelson Bay Road and Richardson Road instead, missing two stops.",
+      "speechText": "Allow extra travel time due to a train requiring mechanical repairs at Waterfall earlier. Listen to announcements and check indicator boards as stopping patterns may change.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:46136: :R:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Raymond Terrace Market Place, Port Stephens St, Raymond Terrace",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Hunter Buses Network 136",
-          "number": "136",
-          "description": "Stockton to Raymond Terrace via Medowie",
-          "iconId": 15,
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2448",
-            "name": "Hunter Valley Buses"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         },
         {
-          "id": "nsw:46145: :R:",
+          "id": "nsw:76SCO: :R:",
           "destination": {
-            "name": "Stockland Green Hills, Mitchell Dr, East Maitland",
+            "name": "Kiama Station",
             "type": "stop"
           },
-          "name": "Hunter Buses Network 145",
-          "number": "145",
-          "description": "Stockland Green Hills to Newcastle Airport via Woodberry & Raymond Terrace",
-          "iconId": 15,
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry to Kiama",
+          "iconId": 2,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2448",
-            "name": "Hunter Valley Buses"
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SCO: :H:",
+          "destination": {
+            "name": "Bomaderry Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Kiama to Bomaderry",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6053773",
-    "version": 1,
+    "type": "lineInfo",
+    "id": "6053776",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-09-30T05:10:24Z",
-      "lastModification": "2020-09-30T05:10:36Z",
+      "creation": "2020-09-30T06:07:55Z",
+      "lastModification": "2020-09-30T06:29:42Z",
       "availability": {
-        "from": "2020-09-30T05:10:00Z",
-        "to": "2020-09-30T05:45:59Z"
+        "from": "2020-09-30T06:07:00Z",
+        "to": "2020-09-30T16:07:59Z"
       },
       "validity": [
         {
-          "from": "2020-09-30T05:10:00Z",
-          "to": "2020-09-30T05:45:59Z"
+          "from": "2020-09-30T06:07:00Z",
+          "to": "2020-09-30T16:07:59Z"
         }
       ]
     },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053773&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
+    "urlText": "T4 Eastern Suburbs & Illawarra Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053776&seqID=2",
+    "content": "Allow extra travel time between Sutherland and Waterfall due to a train requiring mechanical repairs at Waterfall earlier. Listen to announcements and check indicators as stopping patterns may change.",
+    "subtitle": "T4 Eastern Suburbs & Illawarra Line",
     "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time between Sutherland and Waterfall due to a train requiring mechanical repairs at Waterfall earlier. Listen to announcements and check indicators as stopping patterns may change.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
     }
   }
 ]
