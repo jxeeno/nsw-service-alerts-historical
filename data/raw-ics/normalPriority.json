@@ -17073,11 +17073,11 @@
   {
     "type": "lineInfo",
     "id": "6053745",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-09-29T23:51:47Z",
-      "lastModification": "2020-09-29T23:55:16Z",
+      "lastModification": "2020-09-30T00:11:20Z",
       "availability": {
         "from": "2020-09-29T23:51:00Z",
         "to": "2020-09-30T09:51:59Z"
@@ -17090,12 +17090,12 @@
       ]
     },
     "urlText": "Diversions in Charmhaven",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053745&seqID=1",
-    "content": "Due to a crash on&nbsp;Pacific Highway at Moala Parade, buses are diverting away via Moala Parade, Panorama Avenue, and&nbsp;Wyreema Avenue.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053745&seqID=2",
+    "content": "Due to a crash on&nbsp;Pacific Highway at Moala Parade, buses are diverting via&nbsp;<span>Goobarabah Avenue, Dudley Street,</span>&nbsp;Panorama Avenue, and&nbsp;Wyreema Avenue.&nbsp;",
     "subtitle": "Diversions in Charmhaven",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Due to a crash on Pacific Highway at Moala Parade, buses through Charmhaven are diverting away via Moala Parade, Panorama Avenue, and Wyreema Avenue.",
+      "speechText": "Due to a crash on Pacific Highway at Moala Parade, buses through Charmhaven are diverting via Goobarabah Avenue, Dudley Street, Panorama Avenue, and Wyreema Avenue.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -17213,6 +17213,78 @@
           "operator": {
             "id": "2452",
             "name": "Busways Central Coast"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6053746",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-09-30T00:14:19Z",
+      "lastModification": "2020-09-30T00:18:09Z",
+      "availability": {
+        "from": "2020-09-30T00:14:00Z",
+        "to": "2020-09-30T10:14:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-09-30T00:14:00Z",
+          "to": "2020-09-30T10:14:59Z"
+        }
+      ]
+    },
+    "urlText": "Metro North West Line - Lift outage at North Ryde",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6053746&seqID=1",
+    "content": "<span>The lift at North Ryde is out of service between the platform and the concourse. If you require assistance, please ask staff, if present. Customers who require the lift can get off at Macquarie Park or Chatswood and catch a local bus instead.</span>",
+    "subtitle": "Metro North West Line - Lift outage at North Ryde",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "The lift at North Ryde is out of service between the platform and the concourse. If you require assistance, please ask staff, if present. Customers who require the lift can get off at Macquarie Park or Chatswood and catch a local bus instead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
           }
         }
       ]
