@@ -16222,33 +16222,6 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6054007",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-10-08T23:07:00Z",
-      "lastModification": "2020-10-08T23:07:00Z",
-      "availability": {
-        "from": "2020-10-08T23:07:00Z",
-        "to": "2020-10-08T23:30:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-10-08T23:07:00Z",
-          "to": "2020-10-08T23:30:59Z"
-        }
-      ]
-    },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054007&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
-    "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6054008",
     "version": 1,
@@ -16306,6 +16279,58 @@
           "name": "Regional Trains and Coaches Network 243",
           "number": "243",
           "description": "Werris Creek to Moree",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6054009",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-10-08T23:40:36Z",
+      "lastModification": "2020-10-08T23:43:54Z",
+      "availability": {
+        "from": "2020-10-08T23:40:00Z",
+        "to": "2020-10-09T04:15:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-10-08T23:40:00Z",
+          "to": "2020-10-09T04:15:59Z"
+        }
+      ]
+    },
+    "urlText": "07:40 Sydney to Melbourne XPT service delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054009&seqID=2",
+    "content": "Due to a police incident at Goulburn this service has been delayed.<br /><br /> <em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "07:40 Sydney to Melbourne XPT service delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station (VIC)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
           "iconId": 3,
           "product": {
             "class": 1,
