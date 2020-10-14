@@ -17165,51 +17165,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6054161",
-    "version": 2,
+    "id": "6054163",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-10-14T12:40:00Z",
-      "lastModification": "2020-10-14T12:42:00Z",
+      "creation": "2020-10-14T17:11:31Z",
+      "lastModification": "2020-10-14T17:14:05Z",
       "availability": {
-        "from": "2020-10-14T12:40:00Z",
-        "to": "2020-10-14T17:00:59Z"
+        "from": "2020-10-14T17:11:00Z",
+        "to": "2020-10-15T03:11:59Z"
       },
       "validity": [
         {
-          "from": "2020-10-14T12:40:00Z",
-          "to": "2020-10-14T17:00:59Z"
+          "from": "2020-10-14T17:11:00Z",
+          "to": "2020-10-15T03:11:59Z"
         }
       ]
     },
-    "urlText": "20:42 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054161&seqID=2",
-    "content": "This service is delayed due to an operational issue.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
-    "subtitle": "20:42 Sydney to Melbourne XPT delay",
+    "urlText": "Southern Highlands Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054163&seqID=1",
+    "content": "No trains are running between Moss Vale and Campbelltown due to a freight train with mechanical problems at Yerrinbool. Replacement buses have been organised but are not yet on site.&nbsp;Delay your trip until the buses arrive or allow plenty of extra travel time. Listen to announcements and check indicator boards for service updates.",
+    "subtitle": "Southern Highlands Line",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "RMC",
+      "speechText": "On the Southern Highlands Line. No trains are running between Moss Vale and Campbelltown due to a freight train with mechanical problems at Yerrinbool. Replacement buses have been organised but are not yet on site. Delay your trip until the buses arrive or allow plenty of extra travel time. Listen to announcements and check indicator boards for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76621: :H:",
+          "id": "nsw:76SHL: :H:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
+            "name": "Goulburn Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Campbelltown to Moss Vale",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76SHL: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Moss Vale to Campbelltown",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
