@@ -16299,58 +16299,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6054339",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-10-20T02:41:01Z",
-      "lastModification": "2020-10-20T02:44:50Z",
-      "availability": {
-        "from": "2020-10-20T02:41:00Z",
-        "to": "2020-10-20T06:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-10-20T02:41:00Z",
-          "to": "2020-10-20T06:00:59Z"
-        }
-      ]
-    },
-    "urlText": "06:18 Broken Hill to Sydney XPLORER delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054339&seqID=2",
-    "content": "Due to a late running frieght train near Ivanhoe, this service has been delayed.<br /><br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "06:18 Broken Hill to Sydney XPLORER delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76446: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 446",
-          "number": "446",
-          "description": "Broken Hill to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineBlocking",
     "id": "6054341",
     "version": 1,
@@ -16613,6 +16561,97 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6054353",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-10-20T06:07:55Z",
+      "lastModification": "2020-10-20T06:13:24Z",
+      "availability": {
+        "from": "2020-10-20T06:07:00Z",
+        "to": "2020-10-20T16:07:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-10-20T06:07:00Z",
+          "to": "2020-10-20T16:07:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays and diversions in Lidcombe",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054353&seqID=1",
+    "content": "Due to an overheight truck stuck on Vaughan Street, buses are being delayed and are diverting away from the area via local streets, missing 4 stops between Woodville Road and Rookwood Road.",
+    "subtitle": "Some delays and diversions in Lidcombe",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Lidcombe, route 9 oh 8 and school services are delayed up to 15 minutes and are diverting away from Vaughan Street via local streets due to an overheight truck. 4 stops missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38908: :H:",
+          "destination": {
+            "name": "Guildford Station, Railway St, Guildford",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 908",
+          "number": "908",
+          "description": "Bankstown to Merrylands via Auburn & Birrong",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38908: :R:",
+          "destination": {
+            "name": "Birrong Boys High School Cooper Rd, Birrong",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 908",
+          "number": "908",
+          "description": "Merrylands to Bankstown via Birrong & Auburn",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38S53:7:R:",
+          "destination": {
+            "name": "Arundle Rd opp Bass Hill High School, Bass Hill",
+            "type": "stop"
+          },
+          "name": "School buses S537",
+          "number": "S537",
+          "description": "Normanby St after River Av, Villawood to Bass Hill HS",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
