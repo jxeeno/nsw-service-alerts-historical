@@ -18173,11 +18173,11 @@
   {
     "type": "lineInfo",
     "id": "6054518",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-10-25T20:13:04Z",
-      "lastModification": "2020-10-25T20:18:53Z",
+      "lastModification": "2020-10-25T21:28:47Z",
       "availability": {
         "from": "2020-10-25T20:13:00Z",
         "to": "2020-10-26T06:13:59Z"
@@ -18190,12 +18190,12 @@
       ]
     },
     "urlText": "Manly Fast Ferry",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054518&seqID=4",
-    "content": "Manly Fast Ferry services are not running between Manly and Circular Quay due to severe weather. Catch a F1 Manly ferry service instead. Allow extra time, listen to announcements, and check information displays.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054518&seqID=5",
+    "content": "Manly Fast Ferry services are not running between Manly and Circular Quay due to severe weather. <span>Make&nbsp;alternative arrangements. A</span>llow plenty of extra time, listen to announcements, and check information displays.",
     "subtitle": "Manly Fast Ferry",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Manly Fast Ferry services are not running between Manly and Circular Quay due to severe weather. Catch an F1 Manly ferry service instead. Allow extra time, listen to announcements, and check information displays.",
+      "speechText": "Manly Fast Ferry services are not running between Manly and Circular Quay due to severe weather. Make alternative arrangements. Allow plenty of extra time, listen to announcements, and check information displays.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -18309,6 +18309,150 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6054521",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-10-25T20:59:30Z",
+      "lastModification": "2020-10-25T21:00:53Z",
+      "availability": {
+        "from": "2020-10-25T20:59:00Z",
+        "to": "2020-10-26T06:59:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-10-25T20:59:00Z",
+          "to": "2020-10-26T06:59:59Z"
+        }
+      ]
+    },
+    "urlText": "Some diversions in Greenwich",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054521&seqID=1",
+    "content": "Due to a fallen tree on&nbsp;<span lang=\"EN-AU\">Greenwich Road at Wardrop Street, buses are diverting via&nbsp;<span lang=\"EN-AU\">Greenwich Road and Chisolm Street. Six stops missed.</span></span>",
+    "subtitle": "Some diversions in Greenwich",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Due to a fallen tree on Greenwich Road at Wardrop Street, some buses are diverting via Greenwich Road and Chisolm Street. Six stops missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:26265: :R:",
+          "destination": {
+            "name": "North Sydney Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 265",
+          "number": "265",
+          "description": "PrePay-Only - Lane Cove to North Sydney via Greenwich",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:26265: :H:",
+          "destination": {
+            "name": "Lane Cove Library, Longueville Rd, Lane Cove",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 265",
+          "number": "265",
+          "description": "PrePay-Only - North Sydney to Lane Cove via Greenwich",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6054522",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-10-25T21:30:10Z",
+      "lastModification": "2020-10-25T21:31:06Z",
+      "availability": {
+        "from": "2020-10-25T21:30:00Z",
+        "to": "2020-10-26T07:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-10-25T21:30:00Z",
+          "to": "2020-10-26T07:30:59Z"
+        }
+      ]
+    },
+    "urlText": "F1 Manly Ferry",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054522&seqID=1",
+    "content": "Buses are replacing ferries between Manly and Circular Quay due to severe weather. Allow extra time, listen to announcements and check information displays.",
+    "subtitle": "F1 Manly Ferry",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are replacing ferries between Manly and Circular Quay due to severe weather. Allow extra time, listen to announcements and check information displays.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F1: :H:",
+          "destination": {
+            "name": "Manly Wharf",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Circular Quay to Manly",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F1: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Manly to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
           }
         }
       ]
