@@ -18010,11 +18010,11 @@
   {
     "type": "lineInfo",
     "id": "6054563",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-10-26T18:42:35Z",
-      "lastModification": "2020-10-26T19:14:21Z",
+      "lastModification": "2020-10-26T19:59:20Z",
       "availability": {
         "from": "2020-10-26T18:42:00Z",
         "to": "2020-10-27T04:42:59Z"
@@ -18027,12 +18027,12 @@
       ]
     },
     "urlText": "South Coast Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054563&seqID=2",
-    "content": "Buses are replacing the following trains due to a train requiring mechanical repairs at Wollongong:<br /><br />- 5:29am Thirroul to Port Kembla<br />- 6:11am Port Kembla to Thirroul<br />- 6:59am Thirroul to Port Kembla&nbsp;<br />- 7:56am Port Kembla to Thirroul&nbsp;<br /><br />Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054563&seqID=3",
+    "content": "Buses are replacing the following trains due to a train requiring mechanical repairs at Wollongong:<br /><br />- 6:59am Thirroul to Port Kembla&nbsp;<br />- 7:56am Port Kembla to Thirroul&nbsp;<br /><br />Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
     "subtitle": "South Coast Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing some trains between Thirroul and Port Kembla due to a train requiring mechanical repairs at Wollongong. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Buses are replacing the 6:59am Thirroul to Port Kembla and 7:56am Port Kembla to Thirroul trains due to a train requiring mechanical repairs at Wollongong. Allow extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -18126,6 +18126,78 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6054568",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-10-26T20:25:24Z",
+      "lastModification": "2020-10-26T20:29:37Z",
+      "availability": {
+        "from": "2020-10-26T20:25:00Z",
+        "to": "2020-10-27T06:25:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-10-26T20:25:00Z",
+          "to": "2020-10-27T06:25:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion - South Windsor",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054568&seqID=1",
+    "content": "Buses are diverting away from Blacktown Road via Racecourse Road, Hawkesbury Valley Way and Bourke Street due to a crash at The Driftway. Two stops are being missed.&nbsp;",
+    "subtitle": "Diversion - South Windsor",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Windsor Road, buses are diverting away from Blacktown Road via Racecourse Road, Hawkesbury Valley Way and Bourke Street due to a crash at The Driftway. Two stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:20675:A:R:",
+          "destination": {
+            "name": "Macquarie St before Day St, Windsor",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 675A",
+          "number": "675A",
+          "description": "Windsor to Richmond via RAAF Base & Bligh Park (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20675:C:R:",
+          "destination": {
+            "name": "Macquarie St before Day St, Windsor",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 675C",
+          "number": "675C",
+          "description": "Windsor to Richmond via Bligh Park & RAAF Base (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
           }
         }
       ]
