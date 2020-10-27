@@ -1569,45 +1569,64 @@
   },
   {
     "type": "stopInfo",
-    "id": "6054580",
+    "id": "6054589",
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2020-10-27T01:48:05Z",
-      "lastModification": "2020-10-27T01:48:29Z",
+      "creation": "2020-10-27T04:09:05Z",
+      "lastModification": "2020-10-27T04:09:19Z",
       "availability": {
-        "from": "2020-10-27T01:48:00Z",
-        "to": "2020-11-03T11:48:59Z"
+        "from": "2020-10-27T04:09:00Z",
+        "to": "2020-11-02T14:09:59Z"
       },
       "validity": [
         {
-          "from": "2020-10-27T01:48:00Z",
-          "to": "2020-11-03T11:48:59Z"
+          "from": "2020-10-27T04:09:00Z",
+          "to": "2020-11-02T14:09:59Z"
         }
       ]
     },
-    "urlText": "North Strathfield lift outage Platform 3, Hamilton and Pomeroy streets and Concourse",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054580&seqID=1",
-    "content": "The lift between&nbsp;Platform 3, Hamilton and Pomeroy streets and the Concourse is temporarily out of service. If you require assistance, please ask staff or phone 9752 8462",
-    "subtitle": "North Strathfield lift outage Platform 3, Hamilton and Pomeroy streets and Concourse",
+    "urlText": "Parramatta lift outage between platform 4 and eastern concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054589&seqID=1",
+    "content": "The lift between platform 4 and the eastern concourse is temporarily out of service. If you require assistance, ask staff or phone 9848 9450",
+    "subtitle": "Parramatta lift outage between platform 4 and eastern concourse",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101205:2137173",
+      "stopIDglobalID": "10101229:2150414",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T9: :R:",
+          "id": "nsw:02BMT: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Katoomba Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "Hornsby to North Shore via City",
+          "name": "Intercity Trains Net Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Richmond Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Emu Plains or Richmond",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -1619,14 +1638,33 @@
           }
         },
         {
-          "id": "nsw:020T9: :H:",
+          "id": "nsw:020T1:C:H:",
           "destination": {
-            "name": "Hornsby Station",
+            "name": "Richmond Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "North Shore to Hornsby via City",
+          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Emu Plains, City to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Richmond",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -1640,12 +1678,12 @@
       ],
       "stops": [
         {
-          "id": "10101205",
-          "name": "North Strathfield Station",
+          "id": "10101229",
+          "name": "Parramatta Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95314012:1",
-            "name": "North Strathfield",
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
             "type": "locality"
           }
         }
