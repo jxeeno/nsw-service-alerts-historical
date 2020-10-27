@@ -18087,52 +18087,152 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6054591",
+    "type": "stopInfo",
+    "id": "6054608",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-10-27T04:58:00Z",
-      "lastModification": "2020-10-27T05:03:00Z",
+      "creation": "2020-10-27T23:13:04Z",
+      "lastModification": "2020-10-27T23:27:02Z",
       "availability": {
-        "from": "2020-10-27T13:01:00Z",
-        "to": "2020-10-27T23:30:59Z"
+        "from": "2020-10-27T23:13:00Z",
+        "to": "2020-11-15T17:00:59Z"
       },
       "validity": [
         {
-          "from": "2020-10-27T13:01:00Z",
-          "to": "2020-10-27T23:30:59Z"
+          "from": "2020-11-13T08:00:00Z",
+          "to": "2020-11-15T17:00:59Z"
         }
       ]
     },
-    "urlText": "08:20 Casino to Sydney XPT alteration.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054591&seqID=1",
-    "content": "Due to an operational issue, this service is replaced by road coaches from Casino to Grafton.<br />At Grafton passengers will join the XPT train for the remainder of their journey.<br /><br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "08:20 Casino to Sydney XPT alteration.",
+    "urlText": "Penrith bus diversions",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054608&seqID=1",
+    "content": "<span>From 7pm Friday 13 November to 4am Monday 16 November,&nbsp;<strong>routes 673, 783 and 784 </strong>bus services will divert and miss some bus stops which will be closed due to roadworks.</span><br /><br /><strong>Closed stops</strong>\n<ul>\n<li><strong>Castlereagh Rd after Peachtree Rd, Penrith (2750452)</strong></li>\n<li><strong>Castlereagh Rd before Thornton Drive (2750451)</strong></li>\n</ul>",
+    "subtitle": "Penrith bus diversions",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "PT Marketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10140139:2750452#10140138:2750451",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76032: :R:",
+          "id": "nsw:20673: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Windsor",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 673",
+          "number": "673",
+          "description": "Penrith to Windsor via Cranebrook",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20783: :H:",
+          "destination": {
+            "name": "Jordan Springs",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 783",
+          "number": "783",
+          "description": "Penrith to Jordan Springs",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20784: :R:",
+          "destination": {
+            "name": "Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 784",
+          "number": "784",
+          "description": "Penrith to Cranebrook (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20673: :R:",
+          "destination": {
+            "name": "Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 673",
+          "number": "673",
+          "description": "Windsor to Penrith via Cranebrook",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20783: :R:",
+          "destination": {
+            "name": "Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 783",
+          "number": "783",
+          "description": "Jordan Springs to Penrith",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10140139",
+          "name": "Castlereagh Rd after Peachtree Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347024:1",
+            "name": "Penrith",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10140138",
+          "name": "Cranebrook Rd before Coreen Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347024:1",
+            "name": "Penrith",
+            "type": "locality"
           }
         }
       ]
@@ -18140,25 +18240,25 @@
   },
   {
     "type": "generalInfo",
-    "id": "6054607",
+    "id": "6054610",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-10-27T22:55:09Z",
-      "lastModification": "2020-10-27T22:55:18Z",
+      "creation": "2020-10-27T23:47:52Z",
+      "lastModification": "2020-10-27T23:48:01Z",
       "availability": {
-        "from": "2020-10-27T22:55:00Z",
-        "to": "2020-10-27T23:00:59Z"
+        "from": "2020-10-27T23:47:00Z",
+        "to": "2020-10-28T00:00:59Z"
       },
       "validity": [
         {
-          "from": "2020-10-27T22:55:00Z",
-          "to": "2020-10-27T23:00:59Z"
+          "from": "2020-10-27T23:47:00Z",
+          "to": "2020-10-28T00:00:59Z"
         }
       ]
     },
     "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054607&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054610&seqID=1",
     "subtitle": "Call centre is currently experiencing high call volumes",
     "properties": {
       "providerCode": "Serco",
