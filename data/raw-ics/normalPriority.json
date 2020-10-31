@@ -20844,11 +20844,11 @@
   {
     "type": "lineInfo",
     "id": "6054718",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-10-31T03:08:53Z",
-      "lastModification": "2020-10-31T03:10:33Z",
+      "lastModification": "2020-10-31T03:24:08Z",
       "availability": {
         "from": "2020-10-31T03:08:00Z",
         "to": "2020-10-31T13:08:59Z"
@@ -20861,12 +20861,12 @@
       ]
     },
     "urlText": "T3 Bankstown Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054718&seqID=1",
-    "content": "Allow plenty of extra travel time in both directions due to track equipment repairs caused by weather conditions at Campsie. Services from Liverpool are running via Lidcombe. Customers should change at Lidcombe for a Bankstown Service. Listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054718&seqID=2",
+    "content": "Allow extra travel time in both directions due to track equipment repairs caused by weather conditions at Campsie earlier. Services from Liverpool are running via Lidcombe. Customers should change at Lidcombe for a Bankstown Service. Listen to announcements and check information displays for service updates.&nbsp;",
     "subtitle": "T3 Bankstown Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow plenty of extra travel time in both directions due to track equipment repairs caused by weather conditions at Campsie. Services from Liverpool are running via Lidcombe. Customers should change at Lidcombe for a Bankstown Service. Listen to announcements and check information displays for service updates.",
+      "speechText": "Allow plenty of extra travel time in both directions due to track equipment repairs caused by weather conditions at Campsie earlier. Services from Liverpool are running via Lidcombe. Customers should change at Lidcombe for a Bankstown Service. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -21018,6 +21018,58 @@
           "operator": {
             "id": "2433",
             "name": "Busways Western Sydney"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6054720",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-10-31T03:23:04Z",
+      "lastModification": "2020-10-31T03:24:40Z",
+      "availability": {
+        "from": "2020-10-31T03:23:00Z",
+        "to": "2020-10-31T06:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-10-31T03:23:00Z",
+          "to": "2020-10-31T06:00:59Z"
+        }
+      ]
+    },
+    "urlText": "08:05 Moree to Sydney XPLORER delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054720&seqID=1",
+    "content": "The Moree to Sydney XPLORER service has incurred a delay due to a freighter in front of this service.<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "08:05 Moree to Sydney XPLORER delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76244: :R:",
+          "destination": {
+            "name": "Werris Creek Station, Werris C",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 244",
+          "number": "244",
+          "description": "Moree to Werris Creek",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
