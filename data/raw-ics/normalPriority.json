@@ -15437,11 +15437,11 @@
   {
     "type": "lineInfo",
     "id": "6054749",
-    "version": 3,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-11-02T04:48:27Z",
-      "lastModification": "2020-11-02T04:57:24Z",
+      "lastModification": "2020-11-02T05:02:01Z",
       "availability": {
         "from": "2020-11-02T04:48:00Z",
         "to": "2020-11-02T14:48:59Z"
@@ -15454,12 +15454,12 @@
       ]
     },
     "urlText": "T3 Bankstown Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054749&seqID=3",
-    "content": "Allow extra travel time due to an emergency services response to a suspected gas leak at Belmore. Listen to announcements and check information displays as train stopping patterns may change.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054749&seqID=6",
+    "content": "Allow extra travel time due to an emergency services response to a suspected gas leak at Belmore. Trains are not currently stopping at Belmore. Listen to announcements and check information displays as train stopping patterns may change at short notice.",
     "subtitle": "T3 Bankstown Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to an emergency services response to a suspected gas leak at Belmore. Listen to announcements and check information displays as train stopping patterns may change.",
+      "speechText": "Allow extra travel time due to an emergency services response to a suspected gas leak at Belmore. Listen to announcements and check information displays as train stopping patterns may change at short notice.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -15501,6 +15501,173 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6054751",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-11-02T05:06:15Z",
+      "lastModification": "2020-11-02T05:08:36Z",
+      "availability": {
+        "from": "2020-11-02T05:06:00Z",
+        "to": "2020-11-02T15:06:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-11-02T05:06:00Z",
+          "to": "2020-11-02T15:06:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in Belmore",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6054751&seqID=1",
+    "content": "Buses are diverting away from Burwood Road at Belmore due to a suspected gas leak between Yangoora Road and Canterbury Road. Up to 15 bus stops are being missed.",
+    "subtitle": "Diversion in Belmore",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are diverting away from Burwood Road at Belmore due to a suspected gas leak between Yangoora Road and Canterbury Road. Up to 15 bus stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74415: :H:",
+          "destination": {
+            "name": "Chiswick Shops, Blackwall Point Rd, Chiswick",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 415",
+          "number": "415",
+          "description": "Campsie to Chiswick",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74415: :R:",
+          "destination": {
+            "name": "Canterbury Boys High School, Hardy St, Ashbury",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 415",
+          "number": "415",
+          "description": "Chiswick to Campsie",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74613:S:H:",
+          "destination": {
+            "name": "Georges River Rd before Burwood Rd, Croydon Park",
+            "type": "stop"
+          },
+          "name": "School buses 613s",
+          "number": "613s",
+          "description": "Christian Bros Lewisham to Georges River & Burwood Rds",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74613:S:R:",
+          "destination": {
+            "name": "Christian Brothers' High School, Denison St, Lewisham",
+            "type": "stop"
+          },
+          "name": "School buses 613s",
+          "number": "613s",
+          "description": "Georges River & Burwood Rds to Christian Bros Lewisham",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74625:S:R:",
+          "destination": {
+            "name": "Burwood Rd at Bridge Rd, Belmore",
+            "type": "stop"
+          },
+          "name": "School buses 625s",
+          "number": "625s",
+          "description": "Clarke St, Earlwood to Belmore Station",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74625:S:H:",
+          "destination": {
+            "name": "Earlwood Shops, Earlwood",
+            "type": "stop"
+          },
+          "name": "School buses 625s",
+          "number": "625s",
+          "description": "Santa Sabina Strathfield to Clarke St, Earlwood",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74630:S:H:",
+          "destination": {
+            "name": "Burwood Rd at Bridge Rd, Belmore",
+            "type": "stop"
+          },
+          "name": "School buses 630s",
+          "number": "630s",
+          "description": "Canterbury Girls High to Belmore Station",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
