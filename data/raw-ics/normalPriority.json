@@ -5113,11 +5113,11 @@
   {
     "type": "stopInfo",
     "id": "6038492",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
-      "creation": "2019-08-16T00:22:00Z",
-      "lastModification": "2020-06-17T04:18:00Z",
+      "creation": "2019-08-16T00:22:22Z",
+      "lastModification": "2020-11-04T03:06:26Z",
       "availability": {
         "from": "2019-08-16T00:22:00Z",
         "to": "2020-11-30T12:59:59Z"
@@ -5130,13 +5130,13 @@
       ]
     },
     "urlText": "Rozelle bus stop temporary closures",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6038492&seqID=4",
-    "content": "From Sunday 18 August until the end of November 2020 the westbound bus stops on <strong>Victoria Rd at Lilyfield Rd (203919)</strong> and at <strong>Hornsey St (203920)</strong> will be closed due to demolition works for the Rozelle Interchange. <br /><br />The alternative stop for both closed stops is on <strong>Victoria Rd before Maney St (203921)</strong>. <br /><br />Bus <strong>route 433</strong>, <strong>501, 502, 504, 506, 507, 508, 515, 518, 520, L37, M50,</strong> <strong>M52</strong> and <strong>Special Event Bus 2</strong> will be impacted. <br /><br />Signs will be in place at closed stops with directions to the alternative stop.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6038492&seqID=5",
+    "content": "From Sunday 18 August until the end of November 2020 the westbound bus stops on <strong>Victoria Rd at Lilyfield Rd (203919)</strong> and at <strong>Hornsey St (203920)</strong> will be closed due to demolition works for the Rozelle Interchange. <br /><br />The alternative stop for both closed stops is on <strong>Victoria Rd before Maney St (203921)</strong>. <br /><br />Bus <strong>route 433</strong>, <strong>501, 502, 504, 506, 507, 515, 518, 520,</strong> <strong>M52</strong> and <strong>Special Event Bus 2</strong> will be impacted. <br /><br />Signs will be in place at closed stops with directions to the alternative stop.",
     "subtitle": "Rozelle bus stop temporary closures",
     "properties": {
       "providerCode": "PT Marketing",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10112613:203919#10112614:203920",
+      "stopIDglobalID": "10112613:203919#10112614:203920#10134434:203921",
       "speechText": "From Sunday 18th August until end of November 20 20 the westbound bus stops on Victoria Road at Lilyfield Road and at Hornsey Street will be closed due to demolition works for the Rozelle Interchange.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
@@ -5170,7 +5170,7 @@
           },
           "name": "Sydney Buses Network 501",
           "number": "501",
-          "description": "PrePay-Only - Central Pitt St to West Ryde via Ultimo & Pyrmont",
+          "description": "Central Pitt St to West Ryde via Ultimo & Pyrmont",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5189,7 +5189,26 @@
           },
           "name": "Sydney Buses Network 502",
           "number": "502",
-          "description": "City Town Hall to Five Dock",
+          "description": "City Town Hall and Drummoyne to Cabarita Wharf",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74503: :R:",
+          "destination": {
+            "name": "Drummoyne",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 503",
+          "number": "503",
+          "description": "City Town Hall to Drummoyne (Loop Service)",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5220,6 +5239,25 @@
           }
         },
         {
+          "id": "nsw:26505: :H:",
+          "destination": {
+            "name": "Woolwich Wharf",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 505",
+          "number": "505",
+          "description": "City Town Hall to Woolwich",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
           "id": "nsw:26506: :H:",
           "destination": {
             "name": "Macquarie University",
@@ -5227,7 +5265,7 @@
           },
           "name": "Sydney Buses Network 506",
           "number": "506",
-          "description": "PrePay-Only - City Domain to Macquarie University via East Ryde",
+          "description": "City Domain to Macquarie University via East Ryde",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5246,7 +5284,7 @@
           },
           "name": "Sydney Buses Network 507",
           "number": "507",
-          "description": "PrePay-Only - City Circular Quay to Macquarie University via Putney",
+          "description": "City Circular Quay to Macquarie University via Putney",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5258,25 +5296,6 @@
           }
         },
         {
-          "id": "nsw:74508: :H:",
-          "destination": {
-            "name": "Drummoyne Victoria Pl",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 508",
-          "number": "508",
-          "description": "City Town Hall to Drummoyne",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
           "id": "nsw:26515: :H:",
           "destination": {
             "name": "Eastwood Station",
@@ -5284,7 +5303,7 @@
           },
           "name": "Sydney Buses Network 515",
           "number": "515",
-          "description": "PrePay-Only - City Circular Quay to Eastwood",
+          "description": "City Circular Quay to Eastwood",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5298,12 +5317,12 @@
         {
           "id": "nsw:26518: :H:",
           "destination": {
-            "name": "Eastwood North Rd",
+            "name": "Macquarie University",
             "type": "stop"
           },
           "name": "Sydney Buses Network 518",
           "number": "518",
-          "description": "PrePay-Only - City Circular Quay to Macquarie University",
+          "description": "City Circular Quay to Macquarie University",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5322,7 +5341,7 @@
           },
           "name": "Sydney Buses Network 520",
           "number": "520",
-          "description": "PrePay-Only - City Circular Quay to Parramatta via West Ryde",
+          "description": "City Circular Quay to Parramatta via West Ryde",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5334,44 +5353,6 @@
           }
         },
         {
-          "id": "nsw:74L37: :H:",
-          "destination": {
-            "name": "Haberfield",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network L37",
-          "number": "L37",
-          "description": "City Town Hall to Haberfield (Limited Stops)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74M50: :R:",
-          "destination": {
-            "name": "Drummoyne",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network M50",
-          "number": "M50",
-          "description": "Opal only - Coogee to Drummoyne",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
           "id": "nsw:26M52: :H:",
           "destination": {
             "name": "Parramatta",
@@ -5379,7 +5360,7 @@
           },
           "name": "Sydney Buses Network M52",
           "number": "M52",
-          "description": "PrePay-Only - City Circular Quay to Parramatta (Limited Stops)",
+          "description": "City Circular Quay to Parramatta (Limited Stops)",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5405,6 +5386,16 @@
         {
           "id": "10112614",
           "name": "Victoria Rd at Hornsey St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95333007:1",
+            "name": "Rozelle",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10134434",
+          "name": "Victoria Rd before Maney St",
           "type": "stop",
           "parent": {
             "id": "placeID:95333007:1",
@@ -5540,11 +5531,11 @@
   {
     "type": "stopInfo",
     "id": "6047711",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-02-27T02:49:00Z",
-      "lastModification": "2020-02-27T02:52:00Z",
+      "creation": "2020-02-27T02:49:27Z",
+      "lastModification": "2020-11-04T03:07:20Z",
       "availability": {
         "from": "2020-02-27T02:49:00Z",
         "to": "2023-02-27T12:59:59Z"
@@ -5557,8 +5548,8 @@
       ]
     },
     "urlText": "Victoria Rd, Rozelle bus stop relocation",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047711&seqID=1",
-    "content": "From Saturday 29 February, the city-bound bus stop on <strong>Victoria Rd opposite Hornsey St (203916)</strong> will be relocated north of Roberts St until the completion of the Rozelle Interchange in 2023.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6047711&seqID=2",
+    "content": "From Saturday 29 February, the city-bound bus stop on <strong>Victoria Rd opposite Hornsey St (203916)</strong> will be relocated to just after Loughlin St until the completion of the Rozelle Interchange in 2023.",
     "subtitle": "Victoria Rd, Rozelle bus stop relocation",
     "properties": {
       "providerCode": "PT Marketing",
@@ -5578,7 +5569,7 @@
           },
           "name": "Sydney Buses Network 501",
           "number": "501",
-          "description": "PrePay-Only - West Ryde to Central Pitt St via Pyrmont & Ultimo",
+          "description": "West Ryde to Central Pitt St via Pyrmont & Ultimo",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5597,7 +5588,7 @@
           },
           "name": "Sydney Buses Network 502",
           "number": "502",
-          "description": "Five Dock to City Town Hall",
+          "description": "Cabarita Wharf to Drummoyne and City Town Hall",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5635,7 +5626,7 @@
           },
           "name": "Sydney Buses Network 505",
           "number": "505",
-          "description": "PrePay-Only - Woolwich to City Town Hall",
+          "description": "Woolwich to City Town Hall",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5654,7 +5645,7 @@
           },
           "name": "Sydney Buses Network 506",
           "number": "506",
-          "description": "PrePay-Only - Macquarie University to City Domain via East Ryde",
+          "description": "Macquarie University to City Domain via East Ryde",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5673,7 +5664,7 @@
           },
           "name": "Sydney Buses Network 507",
           "number": "507",
-          "description": "PrePay-Only - Macquarie University to City Circular Quay via Putney",
+          "description": "Macquarie University to City Circular Quay via Putney",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5685,25 +5676,6 @@
           }
         },
         {
-          "id": "nsw:74508: :R:",
-          "destination": {
-            "name": "City Clarence St",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 508",
-          "number": "508",
-          "description": "Drummoyne to City Town Hall",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
           "id": "nsw:26515: :R:",
           "destination": {
             "name": "City Circular Quay",
@@ -5711,7 +5683,7 @@
           },
           "name": "Sydney Buses Network 515",
           "number": "515",
-          "description": "PrePay-Only - Eastwood to City Circular Quay",
+          "description": "Eastwood to City Circular Quay",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5725,12 +5697,12 @@
         {
           "id": "nsw:26518: :R:",
           "destination": {
-            "name": "City Park St",
+            "name": "City Circular Quay",
             "type": "stop"
           },
           "name": "Sydney Buses Network 518",
           "number": "518",
-          "description": "PrePay-Only - Macquarie University to City Circular Quay",
+          "description": "Macquarie University to City Circular Quay",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5749,7 +5721,7 @@
           },
           "name": "Sydney Buses Network 520",
           "number": "520",
-          "description": "PrePay-Only - Parramatta to City Circular Quay via West Ryde",
+          "description": "Parramatta to City Circular Quay via West Ryde",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -5780,44 +5752,6 @@
           }
         },
         {
-          "id": "nsw:74L37: :R:",
-          "destination": {
-            "name": "City Clarence St",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network L37",
-          "number": "L37",
-          "description": "Haberfield to City Town Hall (Limited Stops)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74M50: :H:",
-          "destination": {
-            "name": "Coogee",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network M50",
-          "number": "M50",
-          "description": "Opal only - Drummoyne to Coogee",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
           "id": "nsw:26M52: :R:",
           "destination": {
             "name": "City Circular Quay",
@@ -5825,7 +5759,7 @@
           },
           "name": "Sydney Buses Network M52",
           "number": "M52",
-          "description": "PrePay-Only - Parramatta to City Circular Quay (Limited Stops)",
+          "description": "Parramatta to City Circular Quay (Limited Stops)",
           "iconId": 5,
           "product": {
             "class": 5,
