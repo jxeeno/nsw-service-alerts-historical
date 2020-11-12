@@ -16884,8 +16884,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-11-11T22:44:43Z",
-      "lastModification": "2020-11-11T22:48:39Z",
+      "creation": "2020-11-11T22:44:00Z",
+      "lastModification": "2020-11-11T22:48:00Z",
       "availability": {
         "from": "2020-11-11T22:44:00Z",
         "to": "2020-11-13T21:00:59Z"
@@ -17245,33 +17245,6 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6055007",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-11-12T00:21:09Z",
-      "lastModification": "2020-11-12T00:21:22Z",
-      "availability": {
-        "from": "2020-11-12T00:21:00Z",
-        "to": "2020-11-12T01:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2020-11-12T00:21:00Z",
-          "to": "2020-11-12T01:00:59Z"
-        }
-      ]
-    },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055007&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
-    "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6055008",
     "version": 1,
@@ -17413,6 +17386,78 @@
           },
           "operator": {
             "id": "2443",
+            "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6055009",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-11-12T01:10:03Z",
+      "lastModification": "2020-11-12T01:14:10Z",
+      "availability": {
+        "from": "2020-11-12T01:10:00Z",
+        "to": "2020-11-12T11:10:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-11-12T01:10:00Z",
+          "to": "2020-11-12T11:10:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion and delays in Caringbah",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055009&seqID=2",
+    "content": "Buses are diverting away from Gannons Road due to wires down at Captain Cook Drive. Buses are using Denman Avenue, Woolooware Road and Captain Cook Drive instead, missing four stops in each direction. Some buses are also delayed as a result.",
+    "subtitle": "Diversion and delays in Caringbah",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Caringbah, buses are diverting away from Gannons Road due to wires down at Captain Cook Drive. Buses are using Denman Avenue, Woolooware Road and Captain Cook Drive instead, missing four stops in each direction. Some buses are also delayed up to 15 minutes as a result.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:32985: :R:",
+          "destination": {
+            "name": "Miranda Interchange, Kiora Rd - Stand 1 to 5, Miranda",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 985",
+          "number": "985",
+          "description": "Cronulla to Miranda via Woolooware Bay",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32985: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 985",
+          "number": "985",
+          "description": "Miranda to Cronulla via Woolooware Bay",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
             "name": "Transdev NSW"
           }
         }
