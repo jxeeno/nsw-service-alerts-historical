@@ -29,3 +29,10 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TFNSW_API_KEY: ${{ secrets.TFNSW_API_KEY }}
+    - run: |
+          cd data
+          git config user.name jxeeno
+          git config user.email ken+github@anytrip.com.au
+          git add .
+          git commit -m "auto(): update feeds"
+          git push
