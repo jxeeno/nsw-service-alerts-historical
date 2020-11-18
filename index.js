@@ -126,6 +126,20 @@ async function run() {
         `data/sydtrains/alerts.json`,
         JSON.stringify(alertFeed, null, 2)
     );
+    
+    const {data: allBuf} = await axios.get('https://api.transport.nsw.gov.au/v1/gtfs/alerts/all', {
+        headers: {
+            Authorization: `apikey ${tfnswApiKey}`
+        },
+        responseType: 'arraybuffer'
+    });
+
+    const allAlertFeed = await decodeGtfsProtobuf(allBuf);
+    delete allAlertFeed.header.timestamp;
+    await updateFile(
+        `data/all/alerts.json`,
+        JSON.stringify(allAlertFeed, null, 2)
+    );
 
     // .filter(a => a.properties.priority != 'veryLow')
     // .filter(a => a.properties.announcementType != 'liftsEscalators')
