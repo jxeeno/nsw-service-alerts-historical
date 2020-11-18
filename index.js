@@ -117,6 +117,7 @@ async function run() {
 
     const allAlertFeed = await decodeGtfsProtobuf(allBuf);
     delete allAlertFeed.header.timestamp;
+    allAlertFeed.entity.sort((a, b) => parseInt(a.id) - parseInt(b.id)); // sort by id for nicer diff
     await updateFile(
         `data/all/alerts.json`,
         JSON.stringify(allAlertFeed, null, 2)
