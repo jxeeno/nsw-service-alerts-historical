@@ -1,5 +1,7 @@
 const github = require('@actions/github');
 const axios = require('axios');
+const fs = require('fs');
+const {join} = require('path');
 const protobuf = require('protobufjs');
 
 const toBase64 = (str) => {
@@ -37,40 +39,14 @@ async function run() {
     const octokit = new github.GitHub(repoToken);
 
     const updateFile = async (path, input) => {
-        let sha;
-        let existingInput;
-        try{
-            const contents = await octokit.repos.getContents({
-                ...COMMON_CREATE_OR_UPDATE_FILE,
-                author: undefined,
-                path,
-                ref: branch
-            });
-
-            if(contents && contents.data && contents.data.sha){
-                sha = contents.data.sha;
-                existingInput = Buffer.from(contents.data.content, "base64").toString();
-            }
-        }catch(e){
-            console.warn('error thrown when fetching contents of '+path);
-            console.error(e.message);
-        }
-        const content = toBase64(input);
+        const existingInput = fs.readFileSync(join('../data', path), 'utf8');
 
         if(input === existingInput){
             console.warn('no change found for '+path)
             return
         }
-
-        await octokit.repos.createOrUpdateFile({
-            ...COMMON_CREATE_OR_UPDATE_FILE,
-            path,
-            message: `auto(): update ${path}`,
-            content,
-            sha,
-            branch
-        });
-
+        
+        fs.writeFileSync(join('../data', path), input);
         console.log(`Saved ${path}`);
     }
 
