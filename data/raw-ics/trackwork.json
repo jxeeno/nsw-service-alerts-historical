@@ -5117,8 +5117,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-11-18T03:15:58Z",
-      "lastModification": "2020-11-18T03:18:12Z",
+      "creation": "2020-11-18T03:15:00Z",
+      "lastModification": "2020-11-18T03:18:00Z",
       "availability": {
         "from": "2020-11-18T03:15:00Z",
         "to": "2020-12-02T14:30:59Z"
@@ -5189,8 +5189,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-11-18T03:18:23Z",
-      "lastModification": "2020-11-18T03:19:44Z",
+      "creation": "2020-11-18T03:18:00Z",
+      "lastModification": "2020-11-18T03:19:00Z",
       "availability": {
         "from": "2020-11-18T03:18:00Z",
         "to": "2020-12-06T15:00:59Z"
@@ -6326,6 +6326,101 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6055233",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-11-18T04:35:08Z",
+      "lastModification": "2020-11-18T04:36:57Z",
+      "availability": {
+        "from": "2020-11-18T04:35:00Z",
+        "to": "2020-12-06T05:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-12-05T21:00:00Z",
+          "to": "2020-12-06T05:00:59Z"
+        }
+      ]
+    },
+    "urlText": "At Helensburgh and Otford, trains towards Wollongong leave from platform 1, not platform 2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055233&seqID=1",
+    "content": "<strong>Sunday 6 December&nbsp;</strong>\n<ul>\n<li><strong>From 8am until 4pm</strong>, at Helensburgh and Otford, trains towards Wollongong leave from platform 1, not platform 2.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
+    "subtitle": "At Helensburgh and Otford, trains towards Wollongong leave from platform 1, not platform 2",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101356:2508161,2508162,250898#10101357:2508171,2508172,2508108,2508117",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Kiama",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101356",
+          "name": "Helensburgh Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95366028:1",
+            "name": "Helensburgh",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101357",
+          "name": "Otford Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95366047:1",
+            "name": "Otford",
+            "type": "locality"
           }
         }
       ]
