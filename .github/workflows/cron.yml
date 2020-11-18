@@ -13,13 +13,19 @@ jobs:
       with:
         ref: master
         fetch-depth: 1
+        path: runenv
+    - uses: actions/checkout@v2
+      with:
+        ref: data
+        fetch-depth: 1
+        path: data
     - uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 12
     - name: Install dependencies
-      run: yarn
+      run: cd runenv && yarn
     - name: Run script
-      run: node index.js
+      run: cd runenv && node index.js
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         TFNSW_API_KEY: ${{ secrets.TFNSW_API_KEY }}
