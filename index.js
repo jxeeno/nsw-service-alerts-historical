@@ -39,11 +39,16 @@ async function run() {
     const octokit = new github.GitHub(repoToken);
 
     const updateFile = async (path, input) => {
-        const existingInput = fs.readFileSync(join('../data', path), 'utf8');
+        const localFilePath = join('../data', path);
+        if(fs.existsSync(localFilePath)){
+            const existingInput = fs.readFileSync(localFilePath, 'utf8');
 
-        if(input === existingInput){
-            console.warn('no change found for '+path)
-            return
+            if(input === existingInput){
+                console.warn('no change found for '+path)
+                return
+            }
+        }else{
+            console.log(`Does not exist yet ${path}`);
         }
         
         fs.writeFileSync(join('../data', path), input);
