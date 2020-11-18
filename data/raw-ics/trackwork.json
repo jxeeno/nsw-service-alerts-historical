@@ -5046,8 +5046,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-11-18T03:11:12Z",
-      "lastModification": "2020-11-18T03:14:42Z",
+      "creation": "2020-11-18T03:11:00Z",
+      "lastModification": "2020-11-18T03:14:00Z",
       "availability": {
         "from": "2020-11-18T03:11:00Z",
         "to": "2020-12-06T15:00:59Z"
@@ -5117,8 +5117,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-11-18T03:15:58Z",
-      "lastModification": "2020-11-18T03:18:12Z",
+      "creation": "2020-11-18T03:15:00Z",
+      "lastModification": "2020-11-18T03:18:00Z",
       "availability": {
         "from": "2020-11-18T03:15:00Z",
         "to": "2020-12-02T14:30:59Z"
@@ -5667,6 +5667,105 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6055222",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-11-18T03:38:40Z",
+      "lastModification": "2020-11-18T03:43:04Z",
+      "availability": {
+        "from": "2020-11-18T03:38:00Z",
+        "to": "2020-12-06T15:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-12-04T15:00:00Z",
+          "to": "2020-12-06T15:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Trackwork between Leppington and Glenfield",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055222&seqID=1",
+    "content": "<strong>Saturday 5 and Sunday 6 December&nbsp;</strong>\n<ul>\n<li>Buses replace trains between Leppington and Glenfield.</li>\n<li>Trains run to the normal timetable between Liverpool and Schofields.</li>\n<li>Early morning and late night trains run between Macarthur and Richmond.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus route<br /></strong><br /><strong>9T2</strong>: Leppington, Edmondson Park then Glenfield and return",
+    "subtitle": "Trackwork between Leppington and Glenfield",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "stopIDglobalID": "10101291#10101447#10101448",
+      "speechText": "Saturday 5 and Sunday 6 December \n\nBuses replace trains between Leppington and Glenfield.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Leppington",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Schofields",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101291",
+          "name": "Glenfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313015:1",
+            "name": "Glenfield",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101447",
+          "name": "Edmondson Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95335011:1",
+            "name": "Edmondson Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101448",
+          "name": "Leppington Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95312012:1",
+            "name": "Leppington",
+            "type": "locality"
           }
         }
       ]
