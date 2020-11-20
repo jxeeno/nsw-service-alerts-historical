@@ -25260,11 +25260,11 @@
   {
     "type": "lineInfo",
     "id": "6055277",
-    "version": 5,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-11-20T02:32:20Z",
-      "lastModification": "2020-11-20T03:05:48Z",
+      "lastModification": "2020-11-20T03:59:02Z",
       "availability": {
         "from": "2020-11-20T02:32:00Z",
         "to": "2020-11-20T12:32:59Z"
@@ -25277,12 +25277,12 @@
       ]
     },
     "urlText": "L1 Dulwich Hill Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055277&seqID=5",
-    "content": "<span>Light Rail services are not running between Dulwich Grove and Dulwich Hill due to track equipment repairs at Dulwich Hill. Light Rail services are running between Central and Lewisham West and between Lewisham West and Dulwich Grove, you may need to change services at Lewisham West. Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;&nbsp;</span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055277&seqID=6",
+    "content": "<span>Light Rail services are not running between Dulwich Grove and Dulwich Hill due to track equipment repairs at Dulwich Hill. Light Rail services are running between Central and Lewisham West and between Lewisham West and Dulwich Grove, you may need to change services at Lewisham West. Buses are replacing services between Dulwich Grove and Dulwich Hill, and supplementing services between Dulwich Grove and Lilyfield. Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;&nbsp;</span>",
     "subtitle": "L1 Dulwich Hill Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Light Rail services are not running between Dulwich Grove and Dulwich Hill due to track equipment repairs at Dulwich Hill. Light Rail services are running between Central and Lewisham West and between Lewisham West and Dulwich Grove, you may need to change services at Lewisham West. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Light Rail services are not running between Dulwich Grove and Dulwich Hill due to track equipment repairs at Dulwich Hill. Light Rail services are running between Central and Lewisham West and between Lewisham West and Dulwich Grove, you may need to change services at Lewisham West. Buses are replacing services between Dulwich Grove and Dulwich Hill, and supplementing services between Dulwich Grove and Lilyfield. Allow extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -25324,6 +25324,58 @@
           "operator": {
             "id": "LR",
             "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6055279",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-11-20T04:02:58Z",
+      "lastModification": "2020-11-20T04:20:06Z",
+      "availability": {
+        "from": "2020-11-20T04:02:00Z",
+        "to": "2020-11-20T14:02:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-11-20T04:02:00Z",
+          "to": "2020-11-20T14:02:59Z"
+        }
+      ]
+    },
+    "urlText": "14:41 Sydney to Casino XPT delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055279&seqID=2",
+    "content": "This service delayed due to operational issue. <br /><br /><span>Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span>Trip Planner</span></a><span>&nbsp;for the latest travel information with real time updates.&nbsp;</span>",
+    "subtitle": "14:41 Sydney to Casino XPT delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76031: :H:",
+          "destination": {
+            "name": "Brisbane (Roma Street) Station, Brisbane",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 31",
+          "number": "31",
+          "description": "Central to Brisbane (Roma Street)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
