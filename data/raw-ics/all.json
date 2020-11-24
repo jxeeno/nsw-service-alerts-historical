@@ -29709,52 +29709,85 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6055433",
+    "type": "stopInfo",
+    "id": "6055434",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2020-11-24T06:12:50Z",
-      "lastModification": "2020-11-24T06:15:15Z",
+      "creation": "2020-11-24T07:43:52Z",
+      "lastModification": "2020-11-24T07:44:07Z",
       "availability": {
-        "from": "2020-11-24T06:12:00Z",
-        "to": "2020-11-24T07:12:59Z"
+        "from": "2020-11-24T07:43:00Z",
+        "to": "2020-11-26T17:43:59Z"
       },
       "validity": [
         {
-          "from": "2020-11-24T06:12:00Z",
-          "to": "2020-11-24T07:12:59Z"
+          "from": "2020-11-24T07:43:00Z",
+          "to": "2020-11-26T17:43:59Z"
         }
       ]
     },
-    "urlText": "15:07 Werris Creek To Moree XPLORER service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055433&seqID=1",
-    "content": "<span>Due to the late arrival of the service from Sydney to Werris Creek, the Werris Creek to Armidale XPLORER service is delayed.<br /><br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>",
-    "subtitle": "15:07 Werris Creek To Moree XPLORER service delay",
+    "urlText": "Revesby lift outage between platforms 3/4 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055434&seqID=1",
+    "content": "The lift between platforms 3/4 and the concourse is temporarily out of service.&nbsp;For assistance ask staff or phone 9563 7760.",
+    "subtitle": "Revesby lift outage between platforms 3/4 and concourse",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101417:2212164,2212163",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76243: :H:",
+          "id": "nsw:020T8: :R:",
           "destination": {
-            "name": "Moree Station, Moree",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 243",
-          "number": "243",
-          "description": "Werris Creek to Moree",
-          "iconId": 3,
+          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101417",
+          "name": "Revesby Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95305020:1",
+            "name": "Revesby",
+            "type": "locality"
           }
         }
       ]
