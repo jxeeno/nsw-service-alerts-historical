@@ -26823,24 +26823,24 @@
   {
     "type": "generalInfo",
     "id": "6055746",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-11-30T21:17:23Z",
-      "lastModification": "2020-11-30T21:17:33Z",
+      "lastModification": "2020-11-30T21:59:59Z",
       "availability": {
         "from": "2020-11-30T21:17:00Z",
-        "to": "2020-11-30T22:00:59Z"
+        "to": "2020-11-30T22:30:59Z"
       },
       "validity": [
         {
           "from": "2020-11-30T21:17:00Z",
-          "to": "2020-11-30T22:00:59Z"
+          "to": "2020-11-30T22:30:59Z"
         }
       ]
     },
     "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055746&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055746&seqID=2",
     "subtitle": "Call centre is currently experiencing high call volumes",
     "properties": {
       "providerCode": "Serco",
@@ -26848,72 +26848,66 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6055747",
+    "type": "stopInfo",
+    "id": "6055748",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2020-11-30T21:29:42Z",
-      "lastModification": "2020-11-30T21:31:21Z",
+      "creation": "2020-11-30T21:56:55Z",
+      "lastModification": "2020-11-30T21:57:23Z",
       "availability": {
-        "from": "2020-11-30T21:29:00Z",
-        "to": "2020-12-01T07:29:59Z"
+        "from": "2020-11-30T21:56:00Z",
+        "to": "2020-12-08T07:56:59Z"
       },
       "validity": [
         {
-          "from": "2020-11-30T21:29:00Z",
-          "to": "2020-12-01T07:29:59Z"
+          "from": "2020-11-30T21:56:00Z",
+          "to": "2020-12-08T07:56:59Z"
         }
       ]
     },
-    "urlText": "Diversion - Hamilton South",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055747&seqID=1",
-    "content": "Buses in both directions are diverting away from Glebe Road between June Street and Chatham Street due to a crash. Three stops are being missed.&nbsp;",
-    "subtitle": "Diversion - Hamilton South",
+    "urlText": "Burwood lift outage between platform 6 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055748&seqID=1",
+    "content": "The lift between platform 6 and the concourse&nbsp;is temporarily out of service. For assistance, ask station staff or phone 9752 8731.",
+    "subtitle": "Burwood lift outage between platform 6 and concourse",
     "properties": {
-      "providerCode": "TMC",
-      "speechText": "In Hamilton South, buses in both directions are diverting away from Glebe Road between June Street and Chatham Street due to a crash. Three stops are being missed.",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101207:213496",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:73014: :H:",
+          "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Alick St opp Spinnakers Leisure Park, Belmont",
+            "name": "Leppington Station",
             "type": "stop"
           },
-          "name": "Hunter Buses Network 14",
-          "number": "14",
-          "description": "Newcastle to Swansea Heads via Kotara, Charlestown & Belmont",
-          "iconId": 15,
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
-        },
+        }
+      ],
+      "stops": [
         {
-          "id": "nsw:73014: :R:",
-          "destination": {
-            "name": "Customs House, Watt St, Newcastle",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 14",
-          "number": "14",
-          "description": "Swansea Heads to Newcastle via Belmont, Charlestown & Kotara",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
+          "id": "10101207",
+          "name": "Burwood Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95311001:1",
+            "name": "Burwood",
+            "type": "locality"
           }
         }
       ]
