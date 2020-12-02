@@ -23160,11 +23160,11 @@
   {
     "type": "lineInfo",
     "id": "6055837",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-02T20:23:16Z",
-      "lastModification": "2020-12-02T20:34:45Z",
+      "lastModification": "2020-12-02T20:39:41Z",
       "availability": {
         "from": "2020-12-02T20:23:00Z",
         "to": "2020-12-03T06:23:59Z"
@@ -23176,10 +23176,10 @@
         }
       ]
     },
-    "urlText": "T2 Inner West & Leppington Line, T3 Bankstown Line and T5 Cumberland Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055837&seqID=3",
+    "urlText": "T2 Inner West & Leppington Line, T3 Bankstown Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055837&seqID=4",
     "content": "Allow extra travel time due to signal equipment repairs at Cabramatta. A frequency of services is being maintained however journey times may be longer. Listen to announcements and check information displays for service updates.&nbsp;",
-    "subtitle": "T2 Inner West & Leppington Line, T3 Bankstown Line and T5 Cumberland Line",
+    "subtitle": "T2 Inner West & Leppington Line, T3 Bankstown Line",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow extra travel time due to signal equipment repairs at Cabramatta. A frequency of services is being maintained however journey times may be longer. Listen to announcements and check information displays for service updates.",
@@ -23216,25 +23216,6 @@
           "name": "Sydney Trains Network T3 Bankstown Line",
           "number": "T3 Bankstown Line",
           "description": "Liverpool or Lidcombe to City via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :R:",
-          "destination": {
-            "name": "Penrith Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -23295,6 +23276,78 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6055839",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-12-02T20:39:44Z",
+      "lastModification": "2020-12-02T20:41:00Z",
+      "availability": {
+        "from": "2020-12-02T20:39:00Z",
+        "to": "2020-12-03T06:39:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-12-02T20:39:00Z",
+          "to": "2020-12-03T06:39:59Z"
+        }
+      ]
+    },
+    "urlText": "T5 Cumberland Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6055839&seqID=1",
+    "content": "Services are not running due to signal equipment repairs at Cabramatta. Use the T1 Western Line or T2 Inner West &amp; Leppington Line instead and change at Granville or Lidcombe to continue your journey.&nbsp;Listen to announcements and check information displays for service updates.",
+    "subtitle": "T5 Cumberland Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Services are not running due to signal equipment repairs at Cabramatta. Use the T1 Western Line or T2 Inner West & Leppington Line instead and change at Granville or Lidcombe to continue your journey. Listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Richmond Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
