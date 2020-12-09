@@ -29901,8 +29901,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-12-09T15:35:20Z",
-      "lastModification": "2020-12-09T18:17:20Z",
+      "creation": "2020-12-09T15:35:00Z",
+      "lastModification": "2020-12-09T18:17:00Z",
       "availability": {
         "from": "2020-12-09T15:35:00Z",
         "to": "2020-12-10T01:35:59Z"
@@ -30107,11 +30107,11 @@
   {
     "type": "lineInfo",
     "id": "6056051",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-09T21:09:13Z",
-      "lastModification": "2020-12-09T21:09:53Z",
+      "lastModification": "2020-12-09T22:27:51Z",
       "availability": {
         "from": "2020-12-09T21:09:00Z",
         "to": "2020-12-10T07:09:59Z"
@@ -30124,12 +30124,12 @@
       ]
     },
     "urlText": "T4 Eastern Suburbs & Illawarra Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056051&seqID=1",
-    "content": "Allow extra travel time due to signal equipment repairs at Edgecliff. Listen to announcements and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056051&seqID=2",
+    "content": "Allow extra travel time due to signal equipment repairs at Edgecliff earlier. Listen to announcements and check information displays for service updates.",
     "subtitle": "T4 Eastern Suburbs & Illawarra Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to signal equipment repairs at Edgecliff. Listen to announcements and check information displays for service updates.",
+      "speechText": "Allow extra travel time due to signal equipment repairs at Edgecliff earlier. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -30177,45 +30177,65 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6056052",
-    "version": 2,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "6056055",
+    "version": 1,
+    "priority": "low",
     "timestamps": {
-      "creation": "2020-12-09T21:28:44Z",
-      "lastModification": "2020-12-09T21:55:34Z",
+      "creation": "2020-12-09T22:30:25Z",
+      "lastModification": "2020-12-09T22:30:49Z",
       "availability": {
-        "from": "2020-12-09T21:28:00Z",
-        "to": "2020-12-10T07:28:59Z"
+        "from": "2020-12-09T22:30:00Z",
+        "to": "2020-12-17T08:30:59Z"
       },
       "validity": [
         {
-          "from": "2020-12-09T21:28:00Z",
-          "to": "2020-12-10T07:28:59Z"
+          "from": "2020-12-09T22:30:00Z",
+          "to": "2020-12-17T08:30:59Z"
         }
       ]
     },
-    "urlText": "T1 Western Line and T5 Cumberland Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056052&seqID=2",
-    "content": "Allow extra travel time due to a train requiring mechanical repairs at Seven Hills earlier. Listen to announcements and check information displays for service updates.",
-    "subtitle": "T1 Western Line and T5 Cumberland Line",
+    "urlText": "Town Hall Station lift outage between platforms 3, 5/6 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056055&seqID=1",
+    "content": "The lift between platforms 3, 5 and 6 and the concourse is temporarily out of service.<br /><br />If you require assistance, please call staff at Town Hall Station on 9379 4110.",
+    "subtitle": "Town Hall Station lift outage between platforms 3, 5/6 and concourse",
     "properties": {
-      "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to a train requiring mechanical repairs at Seven Hills earlier. Listen to announcements and check information displays for service updates.",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101101:2000396,2000395,2000393",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T1:W:R:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Olympic Park Station",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -30227,14 +30247,109 @@
           }
         },
         {
-          "id": "nsw:020T5: :H:",
+          "id": "nsw:020T3: :H:",
           "destination": {
-            "name": "Campbelltown Station",
+            "name": "Lidcombe Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Wyong Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "North Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Gordon to Hornsby via Strathfield",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -30245,7 +30360,269 @@
             "name": "Sydney Trains"
           }
         }
+      ],
+      "stops": [
+        {
+          "id": "10101101",
+          "name": "Town Hall Station",
+          "type": "stop",
+          "parent": {
+            "name": "Sydney",
+            "type": "locality"
+          }
+        }
       ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6056056",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-12-09T22:32:10Z",
+      "lastModification": "2020-12-09T22:32:14Z",
+      "availability": {
+        "from": "2020-12-09T22:32:00Z",
+        "to": "2020-12-10T08:32:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-12-09T22:32:00Z",
+          "to": "2020-12-10T08:32:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays through Clyde and Granville",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056056&seqID=1",
+    "content": "<span>Heavy traffic on Parramatta Road is delaying some buses.</span>",
+    "subtitle": "Some delays through Clyde and Granville",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Clyde and Granville, heavy traffic on Parramatta Road is delaying some buses up to 15 minutes.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38907: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Bankstown to Parramatta via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Parramatta to Bankstown via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38909: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 909",
+          "number": "909",
+          "description": "Bankstown to Parramatta via Birrong & Auburn",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38909: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 909",
+          "number": "909",
+          "description": "Parramatta to Bankstown via Auburn & Birrong",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M91: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Hurstville to Parramatta via Padstow & Chester Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M91: :H:",
+          "destination": {
+            "name": "Westfield Hurstville, Park Rd, Hurstville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Parramatta to Hurstville via Chester Hill & Padstow",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32M92: :H:",
+          "destination": {
+            "name": "Sutherland Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M92",
+          "number": "M92",
+          "description": "Parramatta to Sutherland",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32M92: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M92",
+          "number": "M92",
+          "description": "Sutherland to Parramatta",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38906: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 906",
+          "number": "906",
+          "description": "Fairfield to Parramatta",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38906: :R:",
+          "destination": {
+            "name": "Fairfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 906",
+          "number": "906",
+          "description": "Parramatta to Fairfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "generalInfo",
+    "id": "6056057",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-12-09T22:34:47Z",
+      "lastModification": "2020-12-09T22:34:55Z",
+      "availability": {
+        "from": "2020-12-09T22:34:00Z",
+        "to": "2020-12-09T23:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-12-09T22:34:00Z",
+          "to": "2020-12-09T23:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Call centre is currently experiencing high call volumes",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056057&seqID=1",
+    "subtitle": "Call centre is currently experiencing high call volumes",
+    "properties": {
+      "providerCode": "Serco",
+      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
     }
   }
 ]
