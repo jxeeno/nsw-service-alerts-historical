@@ -14645,11 +14645,11 @@
   {
     "type": "lineInfo",
     "id": "6056192",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-12T20:38:56Z",
-      "lastModification": "2020-12-12T21:32:25Z",
+      "lastModification": "2020-12-13T03:48:47Z",
       "availability": {
         "from": "2020-12-12T20:38:00Z",
         "to": "2020-12-13T10:00:59Z"
@@ -14661,10 +14661,10 @@
         }
       ]
     },
-    "urlText": "08:30 Melbourne to Sydney XPT alteration.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056192&seqID=2",
+    "urlText": "08:30 Melbourne to Sydney XPT alteration and delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056192&seqID=3",
     "content": "Due to an operational issue, this service is replaced by road coaches from Melbourne to Broadmeadows where passengers will join the XPT for the remainder of their journey.&nbsp;<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
-    "subtitle": "08:30 Melbourne to Sydney XPT alteration.",
+    "subtitle": "08:30 Melbourne to Sydney XPT alteration and delay.",
     "properties": {
       "providerCode": "NSWTL",
       "announcementType": "serviceChange",
@@ -14749,11 +14749,11 @@
   {
     "type": "lineInfo",
     "id": "6056197",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-13T02:47:51Z",
-      "lastModification": "2020-12-13T02:48:43Z",
+      "lastModification": "2020-12-13T03:48:17Z",
       "availability": {
         "from": "2020-12-13T02:47:00Z",
         "to": "2020-12-13T09:00:59Z"
@@ -14766,7 +14766,7 @@
       ]
     },
     "urlText": "07:40 Sydney to Melbourne XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056197&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056197&seqID=2",
     "content": "Due to an operational issue this service has incurred a delay.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
     "subtitle": "07:40 Sydney to Melbourne XPT delay.",
     "properties": {
@@ -14801,11 +14801,11 @@
   {
     "type": "lineInfo",
     "id": "6056200",
-    "version": 1,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-13T03:34:47Z",
-      "lastModification": "2020-12-13T03:35:52Z",
+      "lastModification": "2020-12-13T03:42:20Z",
       "availability": {
         "from": "2020-12-13T03:34:00Z",
         "to": "2020-12-13T13:34:59Z"
@@ -14817,13 +14817,13 @@
         }
       ]
     },
-    "urlText": "Some delays in Miranda",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056200&seqID=1",
+    "urlText": "Some delays in Cronulla, Miranda & Sutherland",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056200&seqID=3",
     "content": "Due to heavy traffic some buses are delayed.",
-    "subtitle": "Some delays in Miranda",
+    "subtitle": "Some delays in Cronulla, Miranda & Sutherland",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Due to heavy traffic some buses through Miranda are delayed up to 15 minutes.",
+      "speechText": "Due to heavy traffic some buses through Cronulla, Miranda and Sutherland are delayed up to 15 minutes.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -15275,6 +15275,63 @@
           "name": "Sydney Buses Network 993",
           "number": "993",
           "description": "Miranda to Woronora Heights (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32965: :R:",
+          "destination": {
+            "name": "Padstow Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 965",
+          "number": "965",
+          "description": "Sutherland to Woronora (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32M92: :H:",
+          "destination": {
+            "name": "Sutherland Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M92",
+          "number": "M92",
+          "description": "Parramatta to Sutherland",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32M92: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M92",
+          "number": "M92",
+          "description": "Sutherland to Parramatta",
           "iconId": 5,
           "product": {
             "class": 5,
