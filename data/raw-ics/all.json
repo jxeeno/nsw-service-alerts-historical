@@ -31419,8 +31419,8 @@
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2020-12-15T19:32:48Z",
-      "lastModification": "2020-12-15T19:33:02Z",
+      "creation": "2020-12-15T19:32:00Z",
+      "lastModification": "2020-12-15T19:33:00Z",
       "availability": {
         "from": "2020-12-15T19:32:00Z",
         "to": "2020-12-23T05:32:59Z"
@@ -31707,30 +31707,126 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6056299",
+    "type": "stopInfo",
+    "id": "6056301",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2020-12-15T23:30:17Z",
-      "lastModification": "2020-12-15T23:30:24Z",
+      "creation": "2020-12-15T23:55:23Z",
+      "lastModification": "2020-12-15T23:55:44Z",
       "availability": {
-        "from": "2020-12-15T23:30:00Z",
-        "to": "2020-12-16T00:00:59Z"
+        "from": "2020-12-15T23:55:00Z",
+        "to": "2020-12-23T09:55:59Z"
       },
       "validity": [
         {
-          "from": "2020-12-15T23:30:00Z",
-          "to": "2020-12-16T00:00:59Z"
+          "from": "2020-12-15T23:55:00Z",
+          "to": "2020-12-23T09:55:59Z"
         }
       ]
     },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056299&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
+    "urlText": "Central lift outage between platforms 24/25 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056301&seqID=1",
+    "content": "The lift between platforms 24 &amp; 25 and the Eastern concourse is temporarily out of service. If you require assistance, please see staff or call 9379 1777.",
+    "subtitle": "Central lift outage between platforms 24/25 and concourse",
     "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101100:2000345,2000344",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Kiama",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla via Kogarah",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101100",
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        }
+      ]
     }
   }
 ]
