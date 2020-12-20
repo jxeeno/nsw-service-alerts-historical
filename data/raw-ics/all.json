@@ -40645,11 +40645,11 @@
   {
     "type": "lineInfo",
     "id": "6056520",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-20T21:37:48Z",
-      "lastModification": "2020-12-20T21:40:54Z",
+      "lastModification": "2020-12-20T21:51:28Z",
       "availability": {
         "from": "2020-12-20T21:37:00Z",
         "to": "2020-12-21T07:37:59Z"
@@ -40662,8 +40662,8 @@
       ]
     },
     "urlText": "Diversions in Manly",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056520&seqID=1",
-    "content": "Buses are not stopping at Manly Hospital or North Head Quarantine Station due to heavy traffic as a result of COVID-19 testing at Manly Hospital. Services are diverting via&nbsp;<span>Addison Road, Darley Road, Victoria Parade and East Esplanade. 12 stops missed.&nbsp;&nbsp;</span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056520&seqID=2",
+    "content": "Buses are not servicing Manly Hospital or North Head Quarantine Station due to heavy traffic as a result of COVID-19 testing at Manly Hospital. Services are diverting via&nbsp;<span>Addison Road, Darley Road, Victoria Parade and East Esplanade. 12 stops missed.&nbsp;&nbsp;</span>",
     "subtitle": "Diversions in Manly",
     "properties": {
       "providerCode": "TMC",
@@ -40689,6 +40689,78 @@
           },
           "operator": {
             "id": "2440",
+            "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6056521",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-12-20T21:53:45Z",
+      "lastModification": "2020-12-20T21:55:54Z",
+      "availability": {
+        "from": "2020-12-20T21:53:00Z",
+        "to": "2020-12-21T07:53:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-12-20T21:53:00Z",
+          "to": "2020-12-21T07:53:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversions in North Bondi",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056521&seqID=1",
+    "content": "Buses towards North Bondi are not stopping on Campbell Parade due to heavy traffic as a result of COVID-19 testing at Bondi Beach. Two stops missed.",
+    "subtitle": "Diversions in North Bondi",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Route 3-3-3 and 3-8-0 buses towards North Bondi are not stopping on Campbell Parade due to heavy traffic as a result of COVID-19 testing at Bondi Beach. Two stops missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:31333: :H:",
+          "destination": {
+            "name": "North Bondi Shops, Campbell Pde, North Bondi",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 333",
+          "number": "333",
+          "description": "City Circular Quay to North Bondi via Bondi Junction",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31380: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 380",
+          "number": "380",
+          "description": "Watsons Bay to Bondi Junction via Bondi Beach",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
             "name": "State Transit"
           }
         }
