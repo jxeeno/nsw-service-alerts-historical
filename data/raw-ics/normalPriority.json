@@ -24698,51 +24698,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6056550",
-    "version": 2,
+    "id": "6056552",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-12-21T13:29:00Z",
-      "lastModification": "2020-12-21T13:41:00Z",
+      "creation": "2020-12-21T19:11:11Z",
+      "lastModification": "2020-12-21T19:14:19Z",
       "availability": {
-        "from": "2020-12-21T13:29:00Z",
-        "to": "2020-12-21T18:29:59Z"
+        "from": "2020-12-21T19:11:00Z",
+        "to": "2020-12-22T05:11:59Z"
       },
       "validity": [
         {
-          "from": "2020-12-21T13:29:00Z",
-          "to": "2020-12-21T18:29:59Z"
+          "from": "2020-12-21T19:11:00Z",
+          "to": "2020-12-22T05:11:59Z"
         }
       ]
     },
-    "urlText": "19:50 Melbourne to Sydney XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056550&seqID=2",
-    "content": "This service is delayed due the late arrival of coaches from Melbourne<br /><br /><br />Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "19:50 Melbourne to Sydney XPT delay",
+    "urlText": "Hunter Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056552&seqID=1",
+    "content": "Allow extra travel time due to urgent signal equipment repairs at Warabrook. Buses have been organised to supplement some train services. Listen to announcements and check display boards for latest updates.",
+    "subtitle": "Hunter Line",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to urgent signal equipment repairs at Warabrook. Buses have been organised to supplement some train services.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:76HUN: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Dungog Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :H:",
+          "destination": {
+            "name": "Muswellbrook Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle to Scone or Dungog",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Scone or Dungog to Newcastle",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
