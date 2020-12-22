@@ -40359,52 +40359,85 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6056594",
+    "type": "stopInfo",
+    "id": "6056595",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2020-12-22T19:29:08Z",
-      "lastModification": "2020-12-22T19:30:39Z",
+      "creation": "2020-12-22T20:21:31Z",
+      "lastModification": "2020-12-22T20:21:44Z",
       "availability": {
-        "from": "2020-12-22T19:29:00Z",
-        "to": "2020-12-22T20:29:59Z"
+        "from": "2020-12-22T20:21:00Z",
+        "to": "2020-12-30T06:21:59Z"
       },
       "validity": [
         {
-          "from": "2020-12-22T19:29:00Z",
-          "to": "2020-12-22T20:29:59Z"
+          "from": "2020-12-22T20:21:00Z",
+          "to": "2020-12-30T06:21:59Z"
         }
       ]
     },
-    "urlText": "19:30 Casino to Sydney XPT service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056594&seqID=1",
-    "content": "This service is delayed due to late running coaches for Melbourne.<br /><br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
-    "subtitle": "19:30 Casino to Sydney XPT service delay",
+    "urlText": "Wollongong lift outage - between platform 1 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056595&seqID=1",
+    "content": "The lift between platform 1 and the concourse&nbsp;is temporarily out of service.&nbsp;For assistance, ask staff or phone 4223 5616.",
+    "subtitle": "Wollongong lift outage - between platform 1 and concourse",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101372:2500401",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76034: :R:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Central",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "iconId": 3,
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Kiama",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101372",
+          "name": "Wollongong Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95366063:1",
+            "name": "Wollongong",
+            "type": "locality"
           }
         }
       ]
