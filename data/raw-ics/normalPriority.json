@@ -25553,8 +25553,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-12-25T04:56:51Z",
-      "lastModification": "2020-12-25T04:58:31Z",
+      "creation": "2020-12-25T04:56:00Z",
+      "lastModification": "2020-12-25T04:58:00Z",
       "availability": {
         "from": "2020-12-25T14:00:00Z",
         "to": "2020-12-31T12:59:59Z"
@@ -25798,11 +25798,11 @@
   {
     "type": "lineInfo",
     "id": "6056688",
-    "version": 1,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-26T00:21:08Z",
-      "lastModification": "2020-12-26T00:23:26Z",
+      "lastModification": "2020-12-26T03:34:03Z",
       "availability": {
         "from": "2020-12-26T00:21:00Z",
         "to": "2020-12-26T10:21:59Z"
@@ -25814,13 +25814,13 @@
         }
       ]
     },
-    "urlText": "Some delays in Lidcombe",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056688&seqID=1",
-    "content": "Due to heavy traffic on Parramatta Road as a result of a car crash, some buses are being delayed.",
-    "subtitle": "Some delays in Lidcombe",
+    "urlText": "Some delays in Lidcombe, Auburn, Clyde and Granville",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056688&seqID=3",
+    "content": "Due to heavy traffic on Parramatta Road, some buses are being delayed.",
+    "subtitle": "Some delays in Lidcombe, Auburn, Clyde and Granville",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Lidcombe, some route 9 oh 6, 9 oh 9, M 91 & M 92 buses are being delayed up to 15 minutes due to heavy traffic on Parramatta Road due to a crash at John St.",
+      "speechText": "In Lidcombe, Auburn, Clyde and Granville some buses are delayed up to 15 minutes due to heavy traffic on Parramatta Road.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -25975,6 +25975,44 @@
           },
           "operator": {
             "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Bankstown to Parramatta via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Parramatta to Bankstown via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
             "name": "Transdev NSW"
           }
         }
@@ -26138,6 +26176,58 @@
           "operator": {
             "id": "2444",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6056692",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-12-26T03:18:51Z",
+      "lastModification": "2020-12-26T03:19:59Z",
+      "availability": {
+        "from": "2020-12-26T03:18:00Z",
+        "to": "2020-12-26T07:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-12-26T03:18:00Z",
+          "to": "2020-12-26T07:00:59Z"
+        }
+      ]
+    },
+    "urlText": "07.10 Sydney to Casino XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056692&seqID=1",
+    "content": "This service has been delayed due to an operational issue.<br /><br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "07.10 Sydney to Casino XPT delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
