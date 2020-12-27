@@ -27545,11 +27545,11 @@
   {
     "type": "lineInfo",
     "id": "6056712",
-    "version": 2,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-27T03:39:17Z",
-      "lastModification": "2020-12-27T03:45:00Z",
+      "lastModification": "2020-12-27T04:10:59Z",
       "availability": {
         "from": "2020-12-27T03:39:00Z",
         "to": "2020-12-27T13:39:59Z"
@@ -27562,36 +27562,17 @@
       ]
     },
     "urlText": "Diversion and delays in Casula",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056712&seqID=2",
-    "content": "Buses are diverting away from the Hume Highway due to a car and motorcycle crash at Leacocks Lane. They are using Kurrajong Road and Beech Road instead, missing up to 20 stops. Buses are delayed up to 20 minutes.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056712&seqID=4",
+    "content": "Some buses are diverting away from the Hume Highway due to a car and motorcycle crash at Leacocks Lane. They are using Kurrajong Road and Beech Road instead, missing up to 20 stops, and are delayed up to 20 minutes.",
     "subtitle": "Diversion and delays in Casula",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Casula, route 8-7-0 and 8-7-2 buses are diverting away from the Hume Highway due to a car and motorcycle crash at Leacocks Lane. They are using Kurrajong Road and Beech Road instead, missing up to 20 stops. Buses are delayed up to 20 minutes.",
+      "speechText": "In Casula, route 8-7-0 and 8-7-2 buses travelling towards Campbelltown are diverting away from the Hume Highway due to a car and motorcycle crash at Leacocks Lane. They are using Kurrajong Road and Beech Road instead, missing up to 20 stops, and are delayed up to 20 minutes.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:21870: :R:",
-          "destination": {
-            "name": "Liverpool Interchange, Liverpool",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 870",
-          "number": "870",
-          "description": "Campbelltown to Liverpool",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2434",
-            "name": "Interline Bus Services"
-          }
-        },
         {
           "id": "nsw:21870: :H:",
           "destination": {
@@ -27601,25 +27582,6 @@
           "name": "Sydney Buses Network 870",
           "number": "870",
           "description": "Liverpool to Campbelltown",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2434",
-            "name": "Interline Bus Services"
-          }
-        },
-        {
-          "id": "nsw:21872: :R:",
-          "destination": {
-            "name": "Liverpool Interchange, Liverpool",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 872",
-          "number": "872",
-          "description": "Campbelltown to Liverpool via Macquarie Fields",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -27647,6 +27609,58 @@
           "operator": {
             "id": "2434",
             "name": "Interline Bus Services"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6056716",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2020-12-27T03:58:02Z",
+      "lastModification": "2020-12-27T04:06:49Z",
+      "availability": {
+        "from": "2020-12-27T03:58:00Z",
+        "to": "2021-01-01T13:58:59Z"
+      },
+      "validity": [
+        {
+          "from": "2020-12-27T03:58:00Z",
+          "to": "2021-01-01T13:58:59Z"
+        }
+      ]
+    },
+    "urlText": "12:01 Sydney to Canberra XPLORER service alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056716&seqID=2",
+    "content": "Due to ACT government entry changes, this service will terminate at Queanbeyan. To enter ACT, customers are to complete a declaration form before travel: <a href=\"http://www.covid19.act.gov.au/travel\" target=\"_blank\">www.covid19.act.gov.au/travel</a>&nbsp;and make their own travel arrangements into the ACT. Please contact 13 22 32 if you need to amend your booking.<br /><br /> Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
+    "subtitle": "12:01 Sydney to Canberra XPLORER service alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76633: :H:",
+          "destination": {
+            "name": "Canberra Station, Kingston (ACT)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 633",
+          "number": "633",
+          "description": "Central to Canberra",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
