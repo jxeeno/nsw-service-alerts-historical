@@ -16886,11 +16886,11 @@
   {
     "type": "lineInfo",
     "id": "6056710",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2020-12-27T03:35:19Z",
-      "lastModification": "2021-01-01T02:16:26Z",
+      "lastModification": "2021-01-01T02:27:09Z",
       "availability": {
         "from": "2020-12-27T03:35:00Z",
         "to": "2021-01-01T07:00:59Z"
@@ -16903,7 +16903,7 @@
       ]
     },
     "urlText": "Sydney To Melbourne XPT service alterations.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056710&seqID=3",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056710&seqID=4",
     "content": "Due to interstate operations, XPT services to Melbourne will be a train service until Albury, with a road coach service on to Melbourne. Please contact 13 22 32 if you need to amend your booking. Entry to Victoria may require a Border Crossing Permit before you travel. Find out more and apply online: <a href=\"https://www.service.vic.gov.au/services/border-permit\" target=\"_blank\">www.service.vic.gov.au/services/border-permit</a>. &nbsp;",
     "subtitle": "Sydney To Melbourne XPT service alterations.",
     "properties": {
@@ -16913,25 +16913,6 @@
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:76621: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station (VIC)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
         {
           "id": "nsw:76623: :H:",
           "destination": {
@@ -17272,6 +17253,58 @@
           "name": "Regional Trains and Coaches Network 621",
           "number": "621",
           "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6056814",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-01T02:56:53Z",
+      "lastModification": "2021-01-01T02:59:09Z",
+      "availability": {
+        "from": "2021-01-01T02:56:00Z",
+        "to": "2021-01-01T06:56:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-01-01T02:56:00Z",
+          "to": "2021-01-01T06:56:59Z"
+        }
+      ]
+    },
+    "urlText": "08:20 Casino to Sydney XPT delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056814&seqID=1",
+    "content": "<span>This service is delayed due to speed restriction.&nbsp;</span><br /><br /><span>Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a><span>&nbsp;for the latest travel information with real time updates</span>",
+    "subtitle": "08:20 Casino to Sydney XPT delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
           "iconId": 3,
           "product": {
             "class": 1,
