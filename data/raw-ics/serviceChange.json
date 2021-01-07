@@ -23228,11 +23228,11 @@
   {
     "type": "lineInfo",
     "id": "6056934",
-    "version": 3,
-    "priority": "normal",
+    "version": 8,
+    "priority": "high",
     "timestamps": {
       "creation": "2021-01-07T02:45:02Z",
-      "lastModification": "2021-01-07T03:15:41Z",
+      "lastModification": "2021-01-07T03:43:58Z",
       "availability": {
         "from": "2021-01-07T02:45:00Z",
         "to": "2021-01-07T12:45:59Z"
@@ -23244,13 +23244,13 @@
         }
       ]
     },
-    "urlText": "T1 Western Line, T2 Inner West & Leppington Line, T3 Bankstown Line, T7 Olympic Park Line and Blue Mountains Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056934&seqID=3",
-    "content": "Trains are not running between Strathfield and Parramatta due to a fatality at Lidcombe. Replacement buses are being organised but are not yet on site. Delay your trip or allow plenty of extra travel time. Listen to announcements and check information screens for service updates.",
-    "subtitle": "T1 Western Line, T2 Inner West & Leppington Line, T3 Bankstown Line, T7 Olympic Park Line and Blue Mountains Line",
+    "urlText": "T1 Western Line, T2 Inner West & Leppington Line, T3 Bankstown Line, T7 Olympic Park Line, T9 Northern Line, Central Coast & Newcastle Line and Blue Mountains Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056934&seqID=8",
+    "content": "Trains are not running between Strathfield and Parramatta due to a fatality at Lidcombe. Replacement buses are being organised but are not yet on site. Delay your trip or allow plenty of extra travel time. Also, T9 Northern Line trains and Central Coast &amp; Newcastle Line trains are not running between Strathfield and Central so you may need to change trains to continue your journey. Listen to announcements and check information screens for service updates.",
+    "subtitle": "T1 Western Line, T2 Inner West & Leppington Line, T3 Bankstown Line, T7 Olympic Park Line, T9 Northern Line, Central Coast & Newcastle Line and Blue Mountains Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Trains are not running between Strathfield and Parramatta due to a fatality at Lidcombe. Replacement buses are being organised but are not yet on site. Delay your trip or allow plenty of extra travel time. Listen to announcements and check information screens for service updates.",
+      "speechText": "Trains are not running between Strathfield and Parramatta due to a fatality at Lidcombe. Replacement buses are being organised but are not yet on site. Delay your trip or allow plenty of extra travel time. Also, T9 Northern Line trains and Central Coast & Newcastle Line trains are not running between Strathfield and Central so you may need to change trains to continue your journey. Listen to announcements and check information screens for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -23445,6 +23445,44 @@
             "id": "x0001",
             "name": "Sydney Trains"
           }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
         }
       ]
     }
@@ -23496,6 +23534,78 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6056939",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-07T03:55:01Z",
+      "lastModification": "2021-01-07T03:56:50Z",
+      "availability": {
+        "from": "2021-01-07T03:55:00Z",
+        "to": "2021-01-07T13:55:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-01-07T03:55:00Z",
+          "to": "2021-01-07T13:55:59Z"
+        }
+      ]
+    },
+    "urlText": "T8 Airport & South Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056939&seqID=1",
+    "content": "Allow plenty of extra travel time due to a fatality at Lidcombe. Listen to announcements and check information screens for service updates.",
+    "subtitle": "T8 Airport & South Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow plenty of extra travel time due to a fatality at Lidcombe. Listen to announcements and check information screens for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
