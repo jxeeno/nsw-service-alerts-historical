@@ -31964,51 +31964,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6056992",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-01-08T17:42:27Z",
-      "lastModification": "2021-01-08T17:42:40Z",
-      "availability": {
-        "from": "2021-01-08T17:42:00Z",
-        "to": "2021-01-31T03:42:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-01-08T17:42:00Z",
-          "to": "2021-01-31T03:42:59Z"
-        }
-      ]
-    },
-    "urlText": "Central lift outage between Devonshire Street and concourse",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056992&seqID=1",
-    "content": "The lift between Devonshire Street and the concourse is temporarily out of service. If you require assistance, please ask staff or call 9379 1777.",
-    "subtitle": "Central lift outage between Devonshire Street and concourse",
-    "properties": {
-      "providerCode": "RMC",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101100:201016,2000193,201012,2000344,2000345,2000336,2000337,2000338,2000339,2000340,2000341,2000342,2000343",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "10101100",
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6056993",
     "version": 2,
@@ -32047,6 +32002,58 @@
           "name": "Regional Trains and Coaches Network 224",
           "number": "224",
           "description": "Armidale to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6056994",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-08T22:58:46Z",
+      "lastModification": "2021-01-08T22:59:58Z",
+      "availability": {
+        "from": "2021-01-08T22:58:00Z",
+        "to": "2021-01-08T23:58:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-01-08T22:58:00Z",
+          "to": "2021-01-08T23:58:59Z"
+        }
+      ]
+    },
+    "urlText": "06:55 Canberra to Sydney XPLORER delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056994&seqID=1",
+    "content": "This service is delayed due to operational issues.<br /><br /><br /><em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>",
+    "subtitle": "06:55 Canberra to Sydney XPLORER delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76632: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 632",
+          "number": "632",
+          "description": "Canberra to Central",
           "iconId": 3,
           "product": {
             "class": 1,
