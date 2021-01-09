@@ -19191,51 +19191,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6056994",
+    "id": "6056995",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-01-08T22:58:46Z",
-      "lastModification": "2021-01-08T22:59:58Z",
+      "creation": "2021-01-09T03:10:15Z",
+      "lastModification": "2021-01-09T03:18:26Z",
       "availability": {
-        "from": "2021-01-08T22:58:00Z",
-        "to": "2021-01-08T23:58:59Z"
+        "from": "2021-01-09T03:10:00Z",
+        "to": "2021-01-09T13:10:59Z"
       },
       "validity": [
         {
-          "from": "2021-01-08T22:58:00Z",
-          "to": "2021-01-08T23:58:59Z"
+          "from": "2021-01-09T03:10:00Z",
+          "to": "2021-01-09T13:10:59Z"
         }
       ]
     },
-    "urlText": "06:55 Canberra to Sydney XPLORER delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056994&seqID=1",
-    "content": "This service is delayed due to operational issues.<br /><br /><br /><em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>",
-    "subtitle": "06:55 Canberra to Sydney XPLORER delay",
+    "urlText": "Diversion in Bellevue Hill",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056995&seqID=1",
+    "content": "<span>Route 327 buses are diverting away from&nbsp;Suttie Rd&nbsp;Bellevue Hill due to a tree down. Bus services are using&nbsp;Believue Rd and New South Head Rd instead,&nbsp;missing eight stops.</span>",
+    "subtitle": "Diversion in Bellevue Hill",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Bellevue Hill , Route 3 2 7 buses are diverting away from Suttie Rd due to a tree down. Bus services are using Bellevue Rd and New South Head Rd instead, missing eight stops.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76632: :R:",
+          "id": "nsw:31327: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Edgecliff Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 632",
-          "number": "632",
-          "description": "Canberra to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 327",
+          "number": "327",
+          "description": "Bondi Junction to Edgecliff via Bellevue Rd & Manning Rd",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31327: :H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 327",
+          "number": "327",
+          "description": "Edgecliff to Bondi Junction via Manning Rd & Bellevue Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
           }
         }
       ]
