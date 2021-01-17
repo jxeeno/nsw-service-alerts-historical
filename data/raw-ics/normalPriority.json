@@ -10060,101 +10060,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6056634",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2020-12-23T06:04:00Z",
-      "lastModification": "2020-12-23T06:06:00Z",
-      "availability": {
-        "from": "2020-12-23T06:04:00Z",
-        "to": "2021-01-17T05:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-01-16T21:00:00Z",
-          "to": "2021-01-17T05:00:59Z"
-        }
-      ]
-    },
-    "urlText": "At Otford and Helensburgh, trains towards Central leave from platform 2, not platform 1",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6056634&seqID=1",
-    "content": "<strong>Sunday 17 January&nbsp;</strong>\n<ul>\n<li><strong>From 8am until 4pm</strong>, at Otford and Helensburgh, trains towards Central leave from platform 2, not platform 1.</li>\n</ul>",
-    "subtitle": "At Otford and Helensburgh, trains towards Central leave from platform 2, not platform 1",
-    "properties": {
-      "providerCode": "PTMarketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101357:2508171,2508172#10101356:2508161,2508162",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Kiama",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Waterfall",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10101357",
-          "name": "Otford Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95366047:1",
-            "name": "Otford",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "10101356",
-          "name": "Helensburgh Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95366028:1",
-            "name": "Helensburgh",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6056716",
     "version": 7,
@@ -19634,6 +19539,78 @@
           "operator": {
             "id": "2440",
             "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6057195",
+    "version": 4,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-17T07:42:05Z",
+      "lastModification": "2021-01-17T08:13:45Z",
+      "availability": {
+        "from": "2021-01-17T07:42:00Z",
+        "to": "2021-01-17T13:01:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-01-17T07:42:00Z",
+          "to": "2021-01-17T13:01:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in Cranebrook",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057195&seqID=4",
+    "content": "Due to a Police operation at McHenry Road and Sherringham Road, all 789 services are diverting via Greygums Road and Laycock Street. Seven stops are being missed in&nbsp;both directions.",
+    "subtitle": "Diversion in Cranebrook",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Cranebrook, due to a police operation at McHenry Road and Sherringham Road, all 7 8 9 services are diverting via Greygums Road and Laycock Street. Seven stops are being missed in both directions.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:20789: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 789",
+          "number": "789",
+          "description": "Luddenham to Penrith",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20789: :H:",
+          "destination": {
+            "name": "Adams Rd at The Northern Rd, Luddenham",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 789",
+          "number": "789",
+          "description": "Penrith to Luddenham",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
           }
         }
       ]
