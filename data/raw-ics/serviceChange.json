@@ -24700,51 +24700,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6057222",
-    "version": 1,
+    "id": "6057223",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-01-18T16:26:00Z",
-      "lastModification": "2021-01-18T16:27:00Z",
+      "creation": "2021-01-18T20:50:14Z",
+      "lastModification": "2021-01-18T20:53:58Z",
       "availability": {
-        "from": "2021-01-18T16:26:00Z",
-        "to": "2021-01-18T17:45:59Z"
+        "from": "2021-01-18T20:50:00Z",
+        "to": "2021-01-18T21:50:59Z"
       },
       "validity": [
         {
-          "from": "2021-01-18T16:26:00Z",
-          "to": "2021-01-18T17:45:59Z"
+          "from": "2021-01-18T20:50:00Z",
+          "to": "2021-01-18T21:50:59Z"
         }
       ]
     },
-    "urlText": "20:42 Sydney to Albury XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057222&seqID=1",
-    "content": "This service is delayed due to a track failure at Uranquinty.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
-    "subtitle": "20:42 Sydney to Albury XPT delay",
+    "urlText": "F4 - cancellations",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057223&seqID=2",
+    "content": "The 7:56am Circular Quay to Pyrmont Bay and 8:25am Pyrmont Bay to Circular Quay services have been cancelled due to a vessel breakdown.&nbsp;",
+    "subtitle": "F4 - cancellations",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "The 7:56am Circular Key to Pyrmont Bay and 8:25am Pyrmont Bay to Circular Key services have been cancelled due to a vessel breakdown.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76621: :H:",
+          "id": "nsw:090F4: :H:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
+            "name": "Pyrmont Bay Wharf",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Ferries Network F4 Pyrmont Bay",
+          "number": "F4 Pyrmont Bay",
+          "description": "Circular Quay to Pyrmont Bay",
+          "iconId": 10,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F4: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F4 Pyrmont Bay",
+          "number": "F4 Pyrmont Bay",
+          "description": "Pyrmont Bay to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
           }
         }
       ]
