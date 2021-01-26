@@ -16820,108 +16820,142 @@
   },
   {
     "type": "lineInfo",
-    "id": "6057389",
+    "id": "6057391",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-01-26T00:02:22Z",
-      "lastModification": "2021-01-26T00:04:02Z",
+      "creation": "2021-01-26T00:28:34Z",
+      "lastModification": "2021-01-26T00:31:34Z",
       "availability": {
-        "from": "2021-01-26T00:02:00Z",
-        "to": "2021-01-26T10:02:59Z"
+        "from": "2021-01-26T00:28:00Z",
+        "to": "2021-01-26T10:28:59Z"
       },
       "validity": [
         {
-          "from": "2021-01-26T00:02:00Z",
-          "to": "2021-01-26T10:02:59Z"
+          "from": "2021-01-26T00:28:00Z",
+          "to": "2021-01-26T10:28:59Z"
         }
       ]
     },
-    "urlText": "Bus changes in the Sydney CBD",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057389&seqID=1",
-    "content": "Buses are terminating and commencing their trips on Park Street at Castlereagh Street due to a protest march at The Domain.",
-    "subtitle": "Bus changes in the Sydney CBD",
+    "urlText": "T2 Inner West & Leppington Line and T8 Airport & South Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057391&seqID=1",
+    "content": "Allow extra travel time due to signal equipment repairs at St James. Some citybound T8 Airport &amp; South Line trains may terminate at Central where you can change trains to complete your journey. Listen to announcements and check information displays for service updates.",
+    "subtitle": "T2 Inner West & Leppington Line and T8 Airport & South Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "in the Sydney C-B-D, route 500 x and 5 0 6 buses are terminating and commencing their trips on Park Street at Castlereagh Street due to a protest march at The Domain.",
+      "speechText": "Allow extra travel time due to signal equipment repairs at St James. Some citybound T8 Airport & South Line trains may terminate at Central where you can change trains to complete your journey. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:26500:X:H:",
+          "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "West Ryde Station, Ryedale Rd, West Ryde",
+            "name": "Parramatta Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 500X",
-          "number": "500X",
-          "description": "City Hyde Park to West Ryde (Express Service)",
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6057392",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-26T01:20:37Z",
+      "lastModification": "2021-01-26T01:22:40Z",
+      "availability": {
+        "from": "2021-01-26T01:20:00Z",
+        "to": "2021-01-26T11:20:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-01-26T01:20:00Z",
+          "to": "2021-01-26T11:20:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversions in Clontarf",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057392&seqID=1",
+    "content": "Route 162 buses are unable to access Beatrice Street at Moore Street due to parked cars on both sides of the road. Buses are diverting via Beatrice Street and Ernest Street, missing 14 stops.",
+    "subtitle": "Diversions in Clontarf",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Clontarf, route 1 6 2 buses are unable to access Beatrice Street at Moore Street due to parked cars on both sides of the road. Buses are diverting via Beatrice Street and Ernest Street, missing 14 stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:28162: :H:",
+          "destination": {
+            "name": "Sydney Rd after Kempbridge Ave, Seaforth",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 162",
+          "number": "162",
+          "description": "Manly to Seaforth",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2439",
+            "id": "2440",
             "name": "State Transit"
           }
         },
         {
-          "id": "nsw:26500:X:R:",
+          "id": "nsw:28162: :R:",
           "destination": {
-            "name": "Hyde Park, Park St, Sydney",
+            "name": "Manly Wharf, West Esplanade, Manly",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 500X",
-          "number": "500X",
-          "description": "West Ryde to City Hyde Park (Express Service)",
+          "name": "Sydney Buses Network 162",
+          "number": "162",
+          "description": "Seaforth to Manly",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2439",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:26506: :H:",
-          "destination": {
-            "name": "Macquarie University Campus Interchange, Macquarie Park",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 506",
-          "number": "506",
-          "description": "City Domain to Macquarie University via East Ryde",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2439",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:26506: :R:",
-          "destination": {
-            "name": "Riley St opp Kennedy St, Woolloomooloo",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 506",
-          "number": "506",
-          "description": "Macquarie University to City Domain via East Ryde",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2439",
+            "id": "2440",
             "name": "State Transit"
           }
         }
