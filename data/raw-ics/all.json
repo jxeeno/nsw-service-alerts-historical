@@ -30277,11 +30277,11 @@
   {
     "type": "stopInfo",
     "id": "6057450",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-01-27T05:37:47Z",
-      "lastModification": "2021-01-27T05:41:06Z",
+      "lastModification": "2021-01-27T05:41:16Z",
       "availability": {
         "from": "2021-01-27T05:37:00Z",
         "to": "2021-02-03T19:00:59Z"
@@ -30301,10 +30301,10 @@
         }
       ]
     },
-    "urlText": "O’Connell St temporary bus stop changes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057450&seqID=1",
+    "urlText": "O'Connell St temporary bus stop changes",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057450&seqID=2",
     "content": "Each night from 9pm to 6am from Monday 1 to Friday 3 February 2021, the bus stop <strong>Our Lady of Mercy College, O&rsquo;Connell St (2150152)</strong> will be closed due to Parramatta Light Rail works. <br /><br />The alternative stop will be <strong>Victoria Rd after Villiers St (2150108)</strong>.",
-    "subtitle": "O’Connell St temporary bus stop changes",
+    "subtitle": "O'Connell St temporary bus stop changes",
     "properties": {
       "providerCode": "PTMarketing",
       "appliesTo": "departingArriving",
@@ -30485,6 +30485,95 @@
           "parent": {
             "id": "placeID:95346013:1",
             "name": "Parramatta",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6057451",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-27T05:41:26Z",
+      "lastModification": "2021-01-27T05:43:38Z",
+      "availability": {
+        "from": "2021-01-27T05:41:00Z",
+        "to": "2021-02-08T13:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-08T12:10:00Z",
+          "to": "2021-02-08T13:30:59Z"
+        }
+      ]
+    },
+    "urlText": "Trackwork between Olympic Park and Lidcombe",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057451&seqID=1",
+    "content": "<strong>Monday 8 February</strong>\n<ul>\n<li><strong>From 11.10pm until 12.30am</strong>, buses replace trains between Olympic Park and Lidcombe.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus route</strong><br />40T7: Olympic Park, then Lidcombe and return",
+    "subtitle": "Trackwork between Olympic Park and Lidcombe",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "stopIDglobalID": "10101424#10101218",
+      "speechText": "Monday 8 January\n\n    From 11 10 PM until 12 30 AM, buses replace trains between Olympic Park and Lidcombe.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T7: :R:",
+          "destination": {
+            "name": "Lindfield via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Olympic Park to Lidcombe",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:020T7: :H:",
+          "destination": {
+            "name": "Lidcombe",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Lidcombe to Olympic Park",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101424",
+          "name": "Olympic Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101218",
+          "name": "Lidcombe Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304004:1",
+            "name": "Lidcombe",
             "type": "locality"
           }
         }
