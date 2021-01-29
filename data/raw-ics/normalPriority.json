@@ -17842,11 +17842,11 @@
   {
     "type": "lineInfo",
     "id": "6057517",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-01-28T22:00:06Z",
-      "lastModification": "2021-01-29T00:49:25Z",
+      "lastModification": "2021-01-29T02:19:03Z",
       "availability": {
         "from": "2021-01-28T22:00:00Z",
         "to": "2021-01-29T08:00:59Z"
@@ -17859,12 +17859,12 @@
       ]
     },
     "urlText": "T2 Inner West & Leppington Line, T3 Bankstown Line, T8 Airport & South Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057517&seqID=3",
-    "content": "Allow extra travel time heading away from the City due to a train requiring mechanical repairs at Redfern earlier. Listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057517&seqID=4",
+    "content": "Allow extra travel time heading away from the City due to a train requiring mechanical repairs at Redfern earlier. Buses are being organised to replace trains between Campbelltown and Macarthur but are not yet on site. Listen to announcements and check information displays for service updates.&nbsp;",
     "subtitle": "T2 Inner West & Leppington Line, T3 Bankstown Line, T8 Airport & South Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time heading away from the City due to a train requiring mechanical repairs at Redfern earlier. Listen to announcements and check information displays for service updates.",
+      "speechText": "Allow extra travel time heading away from the City due to a train requiring mechanical repairs at Redfern earlier. Buses are being organised to replace trains between Campbelltown and Macarthur but are not yet on site. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -18702,6 +18702,170 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6057547",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-29T02:25:01Z",
+      "lastModification": "2021-01-29T02:44:57Z",
+      "availability": {
+        "from": "2021-01-29T02:25:00Z",
+        "to": "2021-02-07T02:45:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-05T19:10:00Z",
+          "to": "2021-02-07T02:45:59Z"
+        }
+      ]
+    },
+    "urlText": "Dubbo XPT departing Sydney 60 minutes early.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057547&seqID=3",
+    "content": "Due to track work on the Blue Mountans line, the Sydney to Dubbo XPT will be departing Sydney/Central 60 minutes early.This service will be going via Parramatta and will not be stopping at Strathfield.",
+    "subtitle": "Dubbo XPT departing Sydney 60 minutes early.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "stopIDglobalID": "10101100#10101206#10101229",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76427: :H:",
+          "destination": {
+            "name": "Dubbo",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 427",
+          "number": "427",
+          "description": "Central to Dubbo",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101100",
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101206",
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101229",
+          "name": "Parramatta Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6057548",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-29T02:32:19Z",
+      "lastModification": "2021-01-29T02:44:28Z",
+      "availability": {
+        "from": "2021-01-29T02:32:00Z",
+        "to": "2021-02-07T10:50:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-06T03:00:00Z",
+          "to": "2021-02-07T10:50:59Z"
+        }
+      ]
+    },
+    "urlText": "Dubbo to Sydney XPT delayed arrival in Sydney",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057548&seqID=1",
+    "content": "Due to track work on the Blue Mountains line, The Dubbo to Sydney XPT will be arriving at Sydney/Central 60 minutes later than tabled.This service will be going via Parramatta and will not be stopping at Strathfield.<br /><br /><br />",
+    "subtitle": "Dubbo to Sydney XPT delayed arrival in Sydney",
+    "properties": {
+      "providerCode": "NSWTL",
+      "stopIDglobalID": "10101229#10101206#10101100",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Liverpool",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101229",
+          "name": "Parramatta Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101206",
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101100",
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
           }
         }
       ]
