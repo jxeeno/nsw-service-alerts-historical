@@ -24420,8 +24420,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-01-29T21:24:00Z",
-      "lastModification": "2021-01-29T21:26:00Z",
+      "creation": "2021-01-29T21:24:26Z",
+      "lastModification": "2021-01-29T21:26:57Z",
       "availability": {
         "from": "2021-01-29T21:24:00Z",
         "to": "2021-01-30T07:24:59Z"
@@ -24541,146 +24541,294 @@
   },
   {
     "type": "lineInfo",
-    "id": "6057583",
+    "id": "6057584",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-01-30T00:44:09Z",
-      "lastModification": "2021-01-30T00:47:30Z",
+      "creation": "2021-01-30T01:13:53Z",
+      "lastModification": "2021-01-30T01:21:56Z",
       "availability": {
-        "from": "2021-01-30T00:44:00Z",
-        "to": "2021-01-30T10:44:59Z"
+        "from": "2021-01-30T01:13:00Z",
+        "to": "2021-01-30T11:13:59Z"
       },
       "validity": [
         {
-          "from": "2021-01-30T00:44:00Z",
-          "to": "2021-01-30T10:44:59Z"
+          "from": "2021-01-30T01:13:00Z",
+          "to": "2021-01-30T11:13:59Z"
         }
       ]
     },
-    "urlText": "South Coogee bus diversions",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057583&seqID=1",
-    "content": "Buses are diverting away from Arden St between Oberon St and Malabar Rd due to a truck breakdown. Five bus stops are being missed, with buses using Malabar Rd, Mount St and Oberon St in both directions. Allow extra travel time.",
-    "subtitle": "South Coogee bus diversions",
+    "urlText": "Metro system outage",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057584&seqID=1",
+    "content": "Display boards and automated announcements on Metro platforms are not working due a system outage. Staff at each station are making announcement manually.&nbsp;",
+    "subtitle": "Metro system outage",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Route 353, 376 and 377 buses are diverting away from Arden St between Oberon St and Malabar Rd due to a truck breakdown. Five bus stops are being missed, with buses using Malabar Rd, Mount St and Oberon St in both directions. Allow extra travel time.",
+      "speechText": "Display boards and automated announcements on Metro platforms are not working due a system outage. Staff at each station are making announcement manually.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:31353: :H:",
+          "id": "nsw:0300M: :H:",
           "destination": {
-            "name": "Westfield Eastgardens, Bunnerong Rd, Eastgardens",
+            "name": "Tallawong Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 353",
-          "number": "353",
-          "description": "Bondi Junction to Eastgardens",
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6057585",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-01-30T01:24:36Z",
+      "lastModification": "2021-01-30T01:28:28Z",
+      "availability": {
+        "from": "2021-01-30T01:24:00Z",
+        "to": "2021-01-30T11:24:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-01-30T01:24:00Z",
+          "to": "2021-01-30T11:24:59Z"
+        }
+      ]
+    },
+    "urlText": "Crows Nest delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057585&seqID=1",
+    "content": "Allow extra travel time as buses are delayed up to 20 minutes through Crows Nest due to heavy traffic.",
+    "subtitle": "Crows Nest delays",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Crows Nest,  114, 115, 263, 265 and 267 buses are delayed up to 20 minutes through Crows Nest due to heavy traffic. Allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:28114: :R:",
+          "destination": {
+            "name": "Royal North Shore Hospital, Reserve Rd, St Leonards",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 114",
+          "number": "114",
+          "description": "Balmoral to Royal North Shore Hospital",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2441",
+            "id": "2440",
             "name": "State Transit"
           }
         },
         {
-          "id": "nsw:31353: :R:",
+          "id": "nsw:28114: :H:",
           "destination": {
-            "name": "Bondi Junction Station",
+            "name": "Hunter Park, The Esplanade, Mosman",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 353",
-          "number": "353",
-          "description": "Eastgardens to Bondi Junction",
+          "name": "Sydney Buses Network 114",
+          "number": "114",
+          "description": "Royal North Shore Hospital to Balmoral",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2441",
+            "id": "2440",
             "name": "State Transit"
           }
         },
         {
-          "id": "nsw:31376: :H:",
+          "id": "nsw:26115: :R:",
           "destination": {
-            "name": "Maroubra Beach Set Down Only, Maroubra Beach",
+            "name": "Exchange Square, Bridge St, Sydney",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 376",
-          "number": "376",
-          "description": "Central Railway Square to Maroubra Beach",
+          "name": "Sydney Buses Network 115",
+          "number": "115",
+          "description": "Chatswood to City Bridge St via North Sydney",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2441",
+            "id": "2439",
             "name": "State Transit"
           }
         },
         {
-          "id": "nsw:31376: :R:",
+          "id": "nsw:26115: :H:",
           "destination": {
-            "name": "Railway Square, Sydney",
+            "name": "Chatswood Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 376",
-          "number": "376",
-          "description": "Maroubra Beach to Central Railway Square",
+          "name": "Sydney Buses Network 115",
+          "number": "115",
+          "description": "City Bridge St to Chatswood via North Sydney",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2441",
+            "id": "2439",
             "name": "State Transit"
           }
         },
         {
-          "id": "nsw:31377: :H:",
+          "id": "nsw:28263: :H:",
           "destination": {
-            "name": "Maroubra Beach Set Down Only, Maroubra Beach",
+            "name": "Burlington St, Crows Nest",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 377",
-          "number": "377",
-          "description": "City Circular Quay to Maroubra Beach",
+          "name": "Sydney Buses Network 263",
+          "number": "263",
+          "description": "City Bridge St to Crows Nest via Cremorne",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2441",
+            "id": "2440",
             "name": "State Transit"
           }
         },
         {
-          "id": "nsw:31377: :R:",
+          "id": "nsw:28263: :R:",
           "destination": {
-            "name": "Museum of Sydney, Phillip St, Sydney",
+            "name": "Bridge St at Gresham St, Sydney",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 377",
-          "number": "377",
-          "description": "Maroubra Beach to City Circular Quay",
+          "name": "Sydney Buses Network 263",
+          "number": "263",
+          "description": "Crows Nest to City Bridge St via Cremorne",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2441",
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:26265: :R:",
+          "destination": {
+            "name": "North Sydney Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 265",
+          "number": "265",
+          "description": "Lane Cove to North Sydney via Greenwich",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:26265: :H:",
+          "destination": {
+            "name": "Lane Cove Library, Longueville Rd, Lane Cove",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 265",
+          "number": "265",
+          "description": "North Sydney to Lane Cove via Greenwich",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:26267: :R:",
+          "destination": {
+            "name": "Burlington St, Crows Nest",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 267",
+          "number": "267",
+          "description": "Chatswood to Crows Nest",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:26267: :H:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 267",
+          "number": "267",
+          "description": "Crows Nest to Chatswood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
             "name": "State Transit"
           }
         }
