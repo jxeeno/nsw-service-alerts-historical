@@ -31360,52 +31360,85 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6057757",
+    "type": "stopInfo",
+    "id": "6057758",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-02-03T11:33:00Z",
-      "lastModification": "2021-02-03T11:36:00Z",
+      "creation": "2021-02-03T18:37:21Z",
+      "lastModification": "2021-02-03T18:37:35Z",
       "availability": {
-        "from": "2021-02-03T11:33:00Z",
-        "to": "2021-02-03T17:30:59Z"
+        "from": "2021-02-03T18:37:00Z",
+        "to": "2021-02-18T04:37:59Z"
       },
       "validity": [
         {
-          "from": "2021-02-03T11:33:00Z",
-          "to": "2021-02-03T17:30:59Z"
+          "from": "2021-02-03T18:37:00Z",
+          "to": "2021-02-18T04:37:59Z"
         }
       ]
     },
-    "urlText": "14:41 Sydney to Brisbane XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057757&seqID=1",
-    "content": "This service has incurred a delay due to a customer disturbance at Kempsey.<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "14:41 Sydney to Brisbane XPT delay.",
+    "urlText": "North Wollongong lift outage between platform 1, concourse and Porter St",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057758&seqID=1",
+    "content": "The lift between platform 1, the concourse and&nbsp;Porter Street is temporarily out of service. For assistance, ask staff or phone 4223 5583.",
+    "subtitle": "North Wollongong lift outage between platform 1, concourse and Porter St",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101371:2500391",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76031: :H:",
+          "id": "nsw:02SCO: :H:",
           "destination": {
-            "name": "Brisbane (Roma Street) Station",
+            "name": "Port Kembla",
             "type": "stop"
           },
-          "name": "Regional Trains and 31",
-          "number": "31",
-          "description": "Central to Roma St",
-          "iconId": 3,
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Thirroul",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101371",
+          "name": "North Wollongong Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95366046:1",
+            "name": "North Wollongong",
+            "type": "locality"
           }
         }
       ]
