@@ -18177,11 +18177,11 @@
   {
     "type": "lineInfo",
     "id": "6057831",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-02-05T07:02:12Z",
-      "lastModification": "2021-02-05T07:12:36Z",
+      "lastModification": "2021-02-05T08:04:06Z",
       "availability": {
         "from": "2021-02-05T07:02:00Z",
         "to": "2021-02-05T17:02:59Z"
@@ -18194,12 +18194,12 @@
       ]
     },
     "urlText": "T2 Inner West & Leppington Line, T3 Bankstown Line and T8 Airport & South Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057831&seqID=2",
-    "content": "Allow extra travel time due to signal equipment repairs at Newtown. Listen to announcements and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057831&seqID=3",
+    "content": "Allow extra travel time due to signal equipment repairs and a train requiring mechanical repairs at Newtown. You may need to change trains at Ashfield or Redfern to complete your journey. Listen to announcements and check information displays for service updates.",
     "subtitle": "T2 Inner West & Leppington Line, T3 Bankstown Line and T8 Airport & South Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to signal equipment repairs at Newtown.",
+      "speechText": "Allow extra travel time due to signal equipment repairs and a train requiring mechanical repairs at Newtown. You may need to change trains at Ashfield or Redfern to complete your journey. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -18260,6 +18260,77 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6057832",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-02-05T08:13:19Z",
+      "lastModification": "2021-02-05T08:16:36Z",
+      "availability": {
+        "from": "2021-02-05T08:13:00Z",
+        "to": "2021-02-05T21:13:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-05T08:13:00Z",
+          "to": "2021-02-05T21:13:59Z"
+        }
+      ]
+    },
+    "urlText": "19:50 Melbourne to Sydney XPT service alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057832&seqID=1",
+    "content": "This service has been replaced by coach services for the entire journey due to extreme weather conditions between Seymour and Harden.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "19:50 Melbourne to Sydney XPT service alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
