@@ -28609,7 +28609,7 @@
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-02-10T20:58:46Z",
+      "creation": "2021-02-10T20:58:00Z",
       "lastModification": "2021-02-10T20:59:00Z",
       "availability": {
         "from": "2021-02-10T20:58:00Z",
@@ -28694,8 +28694,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-02-10T21:02:46Z",
-      "lastModification": "2021-02-10T21:09:51Z",
+      "creation": "2021-02-10T21:02:00Z",
+      "lastModification": "2021-02-10T21:09:00Z",
       "availability": {
         "from": "2021-02-10T21:02:00Z",
         "to": "2021-02-11T07:02:59Z"
@@ -28804,8 +28804,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-02-11T00:54:35Z",
-      "lastModification": "2021-02-11T00:59:20Z",
+      "creation": "2021-02-11T00:54:00Z",
+      "lastModification": "2021-02-11T00:59:00Z",
       "availability": {
         "from": "2021-02-11T00:54:00Z",
         "to": "2021-02-11T10:54:59Z"
@@ -28857,8 +28857,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-02-11T01:33:02Z",
-      "lastModification": "2021-02-11T01:35:22Z",
+      "creation": "2021-02-11T01:33:00Z",
+      "lastModification": "2021-02-11T01:35:00Z",
       "availability": {
         "from": "2021-02-11T01:33:00Z",
         "to": "2021-02-11T11:33:59Z"
@@ -29429,6 +29429,110 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6058016",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-02-11T03:48:44Z",
+      "lastModification": "2021-02-11T03:49:08Z",
+      "availability": {
+        "from": "2021-02-11T03:48:00Z",
+        "to": "2021-02-12T13:48:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-11T03:48:00Z",
+          "to": "2021-02-12T13:48:59Z"
+        }
+      ]
+    },
+    "urlText": "St Leonards lift outage between platform 3 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058016&seqID=1",
+    "content": "The lift between platform 3 and the concourse is temporarily out of service. For assistance ask staff or call 9379 1046.",
+    "subtitle": "St Leonards lift outage between platform 3 and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101115:2065153",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Wyong Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Hornsby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Gordon to Hornsby via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101115",
+          "name": "St Leonards Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95362010:1",
+            "name": "St Leonards",
+            "type": "locality"
           }
         }
       ]
