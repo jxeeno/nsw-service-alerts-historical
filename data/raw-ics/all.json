@@ -28995,11 +28995,11 @@
   {
     "type": "lineInfo",
     "id": "6058004",
-    "version": 4,
+    "version": 8,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-02-11T00:14:18Z",
-      "lastModification": "2021-02-11T01:00:50Z",
+      "lastModification": "2021-02-11T01:26:35Z",
       "availability": {
         "from": "2021-02-11T00:14:00Z",
         "to": "2021-02-11T10:14:59Z"
@@ -29012,12 +29012,12 @@
       ]
     },
     "urlText": "Central Coast & Newcastle Line, Blue Mountains Line, South Coast Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058004&seqID=4",
-    "content": "Allow extra travel time due to signal equipment repairs at Central. Some services may divert, terminate early, or depart from different platforms until repairs are complete. Listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058004&seqID=8",
+    "content": "Allow extra travel time due to signal equipment repairs at Central earlier. Listen to announcements and check information displays for service updates as stopping patterns and platforms may change at short notice.&nbsp;",
     "subtitle": "Central Coast & Newcastle Line, Blue Mountains Line, South Coast Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to signal equipment repairs at Central. Some services may divert, terminate early, or depart from different platforms until repairs are complete. Listen to announcements and check information displays for service updates.",
+      "speechText": "Allow extra travel time due to signal equipment repairs at Central earlier. Listen to announcements and check information displays for service updates as stopping patterns and platforms may change at short notice.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -29264,6 +29264,110 @@
           "operator": {
             "id": "2454",
             "name": "Blue Mountains Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6058006",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-02-11T01:24:52Z",
+      "lastModification": "2021-02-11T01:30:12Z",
+      "availability": {
+        "from": "2021-02-11T01:24:00Z",
+        "to": "2021-02-11T06:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-11T01:24:00Z",
+          "to": "2021-02-11T06:00:59Z"
+        }
+      ]
+    },
+    "urlText": "12:01 Canberra to Sydney XPLORER service alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058006&seqID=1",
+    "content": "Due to an operational issue this service will depart from platform 9 at Redfern. Customers will be conveyed by train to redfern then join the XPLORER train to their final destinations.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
+    "subtitle": "12:01 Canberra to Sydney XPLORER service alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76634: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 634",
+          "number": "634",
+          "description": "Canberra to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6058008",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-02-11T01:33:02Z",
+      "lastModification": "2021-02-11T01:35:22Z",
+      "availability": {
+        "from": "2021-02-11T01:33:00Z",
+        "to": "2021-02-11T11:33:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-11T01:33:00Z",
+          "to": "2021-02-11T11:33:59Z"
+        }
+      ]
+    },
+    "urlText": "11:28 Sydney to Grafton XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058008&seqID=1",
+    "content": "This service has been delayed due to a signalling issue.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
+    "subtitle": "11:28 Sydney to Grafton XPT delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 35",
+          "number": "35",
+          "description": "Central to Grafton City",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
