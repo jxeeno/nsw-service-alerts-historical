@@ -21663,11 +21663,11 @@
   {
     "type": "lineInfo",
     "id": "6058004",
-    "version": 2,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-02-11T00:14:18Z",
-      "lastModification": "2021-02-11T00:20:57Z",
+      "lastModification": "2021-02-11T01:00:50Z",
       "availability": {
         "from": "2021-02-11T00:14:00Z",
         "to": "2021-02-11T10:14:59Z"
@@ -21679,13 +21679,13 @@
         }
       ]
     },
-    "urlText": "Central Coast & Newcastle Line, Blue Mountains Line, South Coast Line, Southern Highlands Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058004&seqID=2",
-    "content": "Allow extra travel time due to signal equipment repairs at Central. Some services may depart from different platforms until repairs are complete. Listen to announcements and check information displays for service updates.&nbsp;",
-    "subtitle": "Central Coast & Newcastle Line, Blue Mountains Line, South Coast Line, Southern Highlands Line",
+    "urlText": "Central Coast & Newcastle Line, Blue Mountains Line, South Coast Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058004&seqID=4",
+    "content": "Allow extra travel time due to signal equipment repairs at Central. Some services may divert, terminate early, or depart from different platforms until repairs are complete. Listen to announcements and check information displays for service updates.&nbsp;",
+    "subtitle": "Central Coast & Newcastle Line, Blue Mountains Line, South Coast Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to signal equipment repairs at Central. Some services may depart from different platforms until repairs are complete. Listen to announcements and check information displays for service updates.",
+      "speechText": "Allow extra travel time due to signal equipment repairs at Central. Some services may divert, terminate early, or depart from different platforms until repairs are complete. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -21880,43 +21880,58 @@
             "id": "X000",
             "name": "Intercity Train"
           }
-        },
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6058005",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-02-11T00:54:35Z",
+      "lastModification": "2021-02-11T00:59:20Z",
+      "availability": {
+        "from": "2021-02-11T00:54:00Z",
+        "to": "2021-02-11T10:54:59Z"
+      },
+      "validity": [
         {
-          "id": "nsw:76SHL: :H:",
+          "from": "2021-02-11T00:54:00Z",
+          "to": "2021-02-11T10:54:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in Mount Victoria",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058005&seqID=1",
+    "content": "Buses are unable to access Grandview Road due to tree trimming on Victoria Street. Buses are using Kanimbla Valley Road and the Great Western Highway instead.",
+    "subtitle": "Diversion in Mount Victoria",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Mount Victoria, buses are unable to access Grandview Road due to tree trimming on Victoria Street. Buses are using Kanimbla Valley Road and the Great Western Highway instead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:64698:V:R:",
           "destination": {
-            "name": "Goulburn Station",
+            "name": "Katoomba High School, Martin St, Katoomba",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Southern Highlands Line",
-          "number": "Southern Highlands Line",
-          "description": "Campbelltown to Moss Vale",
-          "iconId": 2,
+          "name": "Blue Mountains Buses Network 698V",
+          "number": "698V",
+          "description": "Katoomba to Mt Victoria (Loop Service)",
+          "iconId": 4,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76SHL: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Southern Highlands Line",
-          "number": "Southern Highlands Line",
-          "description": "Moss Vale to Campbelltown",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
+            "id": "2454",
+            "name": "Blue Mountains Transit"
           }
         }
       ]
