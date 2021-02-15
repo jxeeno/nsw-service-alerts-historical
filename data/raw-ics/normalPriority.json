@@ -11921,11 +11921,11 @@
   {
     "type": "lineInfo",
     "id": "6058141",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-02-15T00:06:00Z",
-      "lastModification": "2021-02-15T00:06:00Z",
+      "creation": "2021-02-15T00:06:33Z",
+      "lastModification": "2021-02-15T05:19:07Z",
       "availability": {
         "from": "2021-02-15T00:06:00Z",
         "to": "2021-02-15T10:06:59Z"
@@ -11937,10 +11937,10 @@
         }
       ]
     },
-    "urlText": "14:15 Dubbo To Sydney XPT service Alteration",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058141&seqID=1",
-    "content": "Due to an operational issue the 14:15 Dubbo to Sydney XPT service is replaced by road coaches between Dubbo and Orange. At Orange customers will the XPT service for the remaider of their journey.",
-    "subtitle": "14:15 Dubbo To Sydney XPT service Alteration",
+    "urlText": "14:15 Dubbo To Sydney XPT service Alteration and Delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058141&seqID=2",
+    "content": "Due to an operational issue the 14:15 Dubbo to Sydney XPT service is replaced by road coaches between Dubbo and Orange. At Orange customers will the XPT service for the remaider of their journey. This service is running behind schedule waiting for the connecting coach services.",
+    "subtitle": "14:15 Dubbo To Sydney XPT service Alteration and Delay",
     "properties": {
       "providerCode": "NSWTL",
       "announcementType": "serviceChange",
@@ -12993,6 +12993,111 @@
           "operator": {
             "id": "2442",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6058159",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-02-15T05:09:23Z",
+      "lastModification": "2021-02-15T05:10:58Z",
+      "availability": {
+        "from": "2021-02-15T05:09:00Z",
+        "to": "2021-02-15T15:09:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-15T05:09:00Z",
+          "to": "2021-02-15T15:09:59Z"
+        }
+      ]
+    },
+    "urlText": "T1 Western Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058159&seqID=1",
+    "content": "Allow extra travel time after earlier signal equipment repairs at Wynyard. Listen to announcements and check information displays for service updates.",
+    "subtitle": "T1 Western Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time after earlier signal equipment repairs at Wynyard. Listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6058161",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-02-15T05:16:48Z",
+      "lastModification": "2021-02-15T05:17:55Z",
+      "availability": {
+        "from": "2021-02-15T05:16:00Z",
+        "to": "2021-02-15T06:16:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-15T05:16:00Z",
+          "to": "2021-02-15T06:16:59Z"
+        }
+      ]
+    },
+    "urlText": "08:40 Armidale / 08:05 Moree to Sydney XPLORER delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058161&seqID=1",
+    "content": "The Armidale / Moree to Sydney XPLORER service has been delayed due to a freight train isssue near Singleton.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
+    "subtitle": "08:40 Armidale / 08:05 Moree to Sydney XPLORER delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76224: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 224",
+          "number": "224",
+          "description": "Armidale to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
