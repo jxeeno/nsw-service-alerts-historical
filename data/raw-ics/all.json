@@ -27057,52 +27057,85 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6058270",
+    "type": "stopInfo",
+    "id": "6058271",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-02-18T14:59:00Z",
-      "lastModification": "2021-02-18T15:02:00Z",
+      "creation": "2021-02-18T17:34:48Z",
+      "lastModification": "2021-02-18T17:34:55Z",
       "availability": {
-        "from": "2021-02-18T14:59:00Z",
-        "to": "2021-02-18T17:15:59Z"
+        "from": "2021-02-18T17:34:00Z",
+        "to": "2021-02-19T03:34:59Z"
       },
       "validity": [
         {
-          "from": "2021-02-18T14:59:00Z",
-          "to": "2021-02-18T17:15:59Z"
+          "from": "2021-02-18T17:34:00Z",
+          "to": "2021-02-19T03:34:59Z"
         }
       ]
     },
-    "urlText": "14:41 Sydney to Brisbane XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058270&seqID=1",
-    "content": "This service has incurred a delay due to a speed restricted freighter in front of the service.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "14:41 Sydney to Brisbane XPT delay.",
+    "urlText": "Mascot lift outage between platform 1 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058271&seqID=1",
+    "content": "The lift between platform 1 and the concourse is temporarily out of service. For assistance ask staff or call 8337 8440.",
+    "subtitle": "Mascot lift outage between platform 1 and concourse",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101330:2020111",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76031: :H:",
+          "id": "nsw:020T8: :R:",
           "destination": {
-            "name": "Brisbane (Roma Street) Station",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 31",
-          "number": "31",
-          "description": "Central to Roma St",
-          "iconId": 3,
+          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101330",
+          "name": "Mascot Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95310008:1",
+            "name": "Mascot",
+            "type": "locality"
           }
         }
       ]
