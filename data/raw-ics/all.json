@@ -24345,78 +24345,6 @@
     }
   },
   {
-    "type": "routeInfo",
-    "id": "6058219",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-02-17T00:42:00Z",
-      "lastModification": "2021-02-17T00:56:00Z",
-      "availability": {
-        "from": "2021-02-17T00:42:00Z",
-        "to": "2021-02-19T02:40:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-02-18T16:25:00Z",
-          "to": "2021-02-19T02:40:59Z"
-        }
-      ]
-    },
-    "urlText": "Cobar temporary Coach stop change",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058219&seqID=1",
-    "content": "On friday 19th february 2021, the Cobar coach stop for picking up/dropping off will be at the Caltex service station on Marshall St, Cobar.",
-    "subtitle": "Cobar temporary Coach stop change",
-    "properties": {
-      "providerCode": "NSWTL",
-      "stopIDglobalID": "10150203#10150125",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76590: :R:",
-          "destination": {
-            "name": "Dubbo",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 590",
-          "number": "590",
-          "description": "Broken Hill Town to Dubbo",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {}
-        }
-      ],
-      "stops": [
-        {
-          "id": "10150203",
-          "name": "Broken Hill Town Coach Stop",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95981001:1",
-            "name": "Broken Hill",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "10150125",
-          "name": "Cobar Coach Stop, Linsley St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95964003:1",
-            "name": "Cobar",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6058225",
     "version": 1,
@@ -27324,6 +27252,109 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6058294",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-02-19T02:54:39Z",
+      "lastModification": "2021-02-19T02:54:52Z",
+      "availability": {
+        "from": "2021-02-19T02:54:00Z",
+        "to": "2021-02-28T12:54:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-02-19T02:54:00Z",
+          "to": "2021-02-28T12:54:59Z"
+        }
+      ]
+    },
+    "urlText": "Sefton lift outage between concourse and Wellington Rd",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058294&seqID=1",
+    "content": "The lift between the concourse and Wellington Street is temporarily out of service. If you require assistance, ask staff or phone 9379 7702.",
+    "subtitle": "Sefton lift outage between concourse and Wellington Rd",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101404:2162202,2162201",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Liverpool Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101404",
+          "name": "Sefton Station",
+          "type": "stop",
+          "parent": {
+            "name": "Sefton",
+            "type": "locality"
           }
         }
       ]
