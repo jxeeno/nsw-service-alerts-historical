@@ -12893,51 +12893,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6058385",
+    "id": "6058386",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-02-22T15:50:00Z",
-      "lastModification": "2021-02-22T15:51:00Z",
+      "creation": "2021-02-22T19:02:49Z",
+      "lastModification": "2021-02-22T19:06:03Z",
       "availability": {
-        "from": "2021-02-22T15:50:00Z",
-        "to": "2021-02-22T18:15:59Z"
+        "from": "2021-02-22T19:02:00Z",
+        "to": "2021-02-23T05:02:59Z"
       },
       "validity": [
         {
-          "from": "2021-02-22T15:50:00Z",
-          "to": "2021-02-22T18:15:59Z"
+          "from": "2021-02-22T19:02:00Z",
+          "to": "2021-02-23T05:02:59Z"
         }
       ]
     },
-    "urlText": "14:41 Sydney to Brisbane XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058385&seqID=1",
-    "content": "This service has incurred a delay due to a failed freighter at Acacia Ridge.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "14:41 Sydney to Brisbane XPT delay.",
+    "urlText": "Diversion - Erskine Park",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058386&seqID=1",
+    "content": "Buses are diverting away from Erskine Park Road due to a crash at Bennett Road. Buses are using Coonawarra Drive and Bennett Road instead, missing four stops.&nbsp;",
+    "subtitle": "Diversion - Erskine Park",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Erskine Park, route 7-7-5 buses are diverting away from Erskine Park Road due to a crash at Bennett Road. Buses are using Coonawarra Drive and Bennett Road instead, missing four stops.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76031: :H:",
+          "id": "nsw:20775: :R:",
           "destination": {
-            "name": "Brisbane (Roma Street) Station",
+            "name": "Penrith Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 31",
-          "number": "31",
-          "description": "Central to Roma St",
-          "iconId": 3,
+          "name": "Sydney Buses Network 775",
+          "number": "775",
+          "description": "Mount Druitt to Penrith via Erskine Park",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20775: :H:",
+          "destination": {
+            "name": "Mount Druitt Station, Mount Druitt",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 775",
+          "number": "775",
+          "description": "Penrith to Mount Druitt via Erskine Park",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
           }
         }
       ]
