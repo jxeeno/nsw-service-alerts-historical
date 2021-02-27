@@ -997,11 +997,11 @@
   {
     "type": "lineInfo",
     "id": "6057967",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-02-10T04:12:00Z",
-      "lastModification": "2021-02-23T04:40:00Z",
+      "creation": "2021-02-10T04:12:30Z",
+      "lastModification": "2021-02-27T01:33:14Z",
       "availability": {
         "from": "2021-02-10T04:12:00Z",
         "to": "2021-02-28T15:00:59Z"
@@ -1014,8 +1014,8 @@
       ]
     },
     "urlText": "Trackwork between Lithgow and Blacktown",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057967&seqID=2",
-    "content": "<strong>Saturday 27 and Sunday 28 February</strong>\n<ul>\n<li>Buses replace trains between Lithgow and Blacktown. Bathurst trains are replaced by buses between Bathurst and Central.</li>\n<li><strong>T1 Western Line</strong> trains run between Blacktown and the City. These trains do not run to the Blue Mountains Line train timetable.</li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times.</li>\n<li>If you are travelling to Airport stations, trackwork on the T8 Airport &amp; South Line will also affect how you travel.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes<br /></strong><br />2BM: Lithgow, express to Bathurst and return<br />6BM: Bathurst, Lithgow, Mt Victoria, Katoomba, Springwood, Penrith, Westmead, Parramatta then Central and return<br />10BM: Lithgow, Rydal, Tarana and Bathurst, the return",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6057967&seqID=3",
+    "content": "<strong>Saturday 27 and Sunday 28 February</strong>\n<ul>\n<li>Buses replace trains between Lithgow and Blacktown. Bathurst trains are replaced by buses between Bathurst and Central.</li>\n<li><strong>T1 Western Line</strong> trains run between Blacktown and the City. These trains do not run to the Blue Mountains Line train timetable.</li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times.</li>\n<li>If you are travelling to Airport stations, trackwork on the T8 Airport &amp; South Line will also affect how you travel.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes<br /></strong><br />Route&nbsp;42BM&nbsp; - Blacktown, Penrith, then all stations to Katoomba and return<br />Route 53BM - Blacktown, Blaxland, Springwood, Katoomba,&nbsp;and then&nbsp;all stations to Lithgow<br />Route 56BM - Blacktown, Blaxland, Springwood, Katoomba,&nbsp;and then&nbsp;all stations to Mount Victoria<br />Route 1ABM - Penrith all to Springwood and return.<br />Route 4BM&nbsp;- Katoomba all to Blaxland, then express to Blacktown and return.",
     "subtitle": "Trackwork between Lithgow and Blacktown",
     "properties": {
       "providerCode": "PTMarketing",
@@ -1102,33 +1102,14 @@
           }
         },
         {
-          "id": "nsw:0110B:M:H:",
-          "destination": {
-            "name": "Bathurst Station",
-            "type": "stop"
-          },
-          "name": "Temporary buses 10BM",
-          "number": "10BM",
-          "description": "Lithgow, then Rydal, Tarana, Bathurst",
-          "iconId": 14,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "700",
-            "name": "train replacement bus operators"
-          }
-        },
-        {
-          "id": "nsw:012BM: :R:",
+          "id": "nsw:0153B:M:H:",
           "destination": {
             "name": "Lithgow Station",
             "type": "stop"
           },
-          "name": "Temporary buses 2BM",
-          "number": "2BM",
-          "description": "Bathurst, then Lithgow",
+          "name": "Temporary buses 53BM",
+          "number": "53BM",
+          "description": "Blacktown, Blaxland, Springwood, Katoomba, then all stations to Lithgow",
           "iconId": 14,
           "product": {
             "class": 5,
@@ -1140,14 +1121,128 @@
           }
         },
         {
-          "id": "nsw:012BM: :H:",
+          "id": "nsw:0153B:M:R:",
           "destination": {
-            "name": "Bathurst Station",
+            "name": "Blacktown Station",
             "type": "stop"
           },
-          "name": "Temporary buses 2BM",
-          "number": "2BM",
-          "description": "Lithgow, then Bathurst",
+          "name": "Temporary buses 53BM",
+          "number": "53BM",
+          "description": "Lithgow, then all stations to Katoomba, Springwood, Blaxland, Blacktown",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0156B:M:H:",
+          "destination": {
+            "name": "Mount Victoria Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 56BM",
+          "number": "56BM",
+          "description": "Blacktown, Blaxland, Springwood, Katoomba, then all stations to Mt Victoria",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0156B:M:R:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 56BM",
+          "number": "56BM",
+          "description": "Mt Victoria, then all stations to Katoomba, Springwood, Blaxland, Blacktown",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:011AB:M:H:",
+          "destination": {
+            "name": "Springwood Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 1ABM",
+          "number": "1ABM",
+          "description": "Penrith, then all stations to Springwood",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:011AB:M:R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 1ABM",
+          "number": "1ABM",
+          "description": "Springwood, then all stations to Penrith",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:014BM: :H:",
+          "destination": {
+            "name": "Katoomba Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 4BM",
+          "number": "4BM",
+          "description": "Blacktown, then Blaxland, then all stations to Katoomba",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:014BM: :R:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 4BM",
+          "number": "4BM",
+          "description": "Katoomba, then all stations to Blaxland, then Blacktown",
           "iconId": 14,
           "product": {
             "class": 5,
