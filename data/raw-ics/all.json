@@ -24026,72 +24026,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6058452",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-02-24T03:54:00Z",
-      "lastModification": "2021-02-24T03:56:00Z",
-      "availability": {
-        "from": "2021-02-24T03:54:00Z",
-        "to": "2021-02-28T19:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-02-26T10:00:00Z",
-          "to": "2021-02-28T19:00:59Z"
-        }
-      ]
-    },
-    "urlText": "Phillip St, temporary bus stop closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058452&seqID=1",
-    "content": "From 9pm Friday 26 February to 6am Monday 1 March, Parramatta Light Rail work will the intersection of Phillip and Church Streets. <br /><br />The bus stop <strong>Phillip St after Church St (2150377)</strong> will be closed and the stop temporarily relocated on George St after Church St.",
-    "subtitle": "Phillip St, temporary bus stop closure",
-    "properties": {
-      "providerCode": "PTMarketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10140094:2150377",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:38900: :R:",
-          "destination": {
-            "name": "Parramatta Ferry Wharf (Phillip St)",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 900",
-          "number": "900",
-          "description": "Parramatta Free Shuttle",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2444",
-            "name": "Transdev NSW"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10140094",
-          "name": "Phillip St after Church St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95346013:1",
-            "name": "Parramatta",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6058475",
     "version": 3,
@@ -25092,11 +25026,11 @@
   {
     "type": "lineInfo",
     "id": "6058599",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-02-28T18:42:54Z",
-      "lastModification": "2021-02-28T18:46:37Z",
+      "lastModification": "2021-02-28T19:37:05Z",
       "availability": {
         "from": "2021-02-28T18:42:00Z",
         "to": "2021-03-01T04:42:59Z"
@@ -25109,12 +25043,12 @@
       ]
     },
     "urlText": "Blue Mountains Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058599&seqID=1",
-    "content": "Allow extra travel time to the City due a train requiring mechanical repairs at Blackheath. Listen to announcements and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058599&seqID=2",
+    "content": "Allow plenty of extra travel time due a train requiring mechanical repairs at Blackheath earlier. Listen to announcements and check information displays for service updates.",
     "subtitle": "Blue Mountains Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time to the City due a train requiring mechanical repairs at Blackheath. Listen to announcements and check information displays for service updates.",
+      "speechText": "Allow plenty of extra travel time due a train requiring mechanical repairs at Blackheath earlier. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -25129,6 +25063,63 @@
           "name": "Intercity Trains Network Blue Mountains Line",
           "number": "Blue Mountains Line",
           "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Lithgow",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
           "iconId": 2,
           "product": {
             "class": 1,
