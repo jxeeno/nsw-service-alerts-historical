@@ -11658,11 +11658,11 @@
   {
     "type": "lineInfo",
     "id": "6058614",
-    "version": 6,
+    "version": 7,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-01T01:13:02Z",
-      "lastModification": "2021-03-01T04:23:49Z",
+      "lastModification": "2021-03-01T05:22:39Z",
       "availability": {
         "from": "2021-03-01T01:13:00Z",
         "to": "2021-03-01T11:13:59Z"
@@ -11675,12 +11675,12 @@
       ]
     },
     "urlText": "Diversions and delays in Edgecliff",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058614&seqID=6",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058614&seqID=7",
     "content": "Buses are diverting away from New South Head Road via local roads due to a crash and wires down at Mona Road. 4 stops are being missed. Some buses may also be delayed. Route 328 services will terminate at Edgecliff, missing the Darling Point Loop.&nbsp;",
     "subtitle": "Diversions and delays in Edgecliff",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Edgecliff, route 200, 3 2 4, 3 2 5 and 3 2 8 are diverting away from New South Head Road via local roads due to a crash and wires down at Mona Road. 4 stops are being missed. Some buses may also be delayed up to 35 minutes. Route 3 2 8 services will terminate at Edgecliff, missing the Darling Point Loop.",
+      "speechText": "In Edgecliff, route 200, 3 2 4, 3 2 5 and 3 2 8 are diverting away from New South Head Road via local roads due to a crash and wires down at Mona Road. 4 stops are being missed. Some buses may also be delayed up to 55 minutes. Route 3 2 8 services will terminate at Edgecliff, missing the Darling Point Loop.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -13490,6 +13490,111 @@
           "operator": {
             "id": "2436",
             "name": "Hillsbus"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6058628",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-01T05:21:07Z",
+      "lastModification": "2021-03-01T05:26:33Z",
+      "availability": {
+        "from": "2021-03-01T05:21:00Z",
+        "to": "2021-04-02T23:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-02T07:00:00Z",
+          "to": "2021-04-02T23:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Maclean bus diversions",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058628&seqID=1",
+    "content": "From 6pm to 10pm Friday 2 and from 7.0am to 10am Saturday 3 April, buses will divert and some stops will be missed due to the Maclean Highland Gathering. <br /><br /><strong>Closed stops</strong>\n<ul>\n<li><strong>McLachlan Park, River St (24633)</strong></li>\n<li><strong>Maclen Civic Hall, River St (24635)</strong></li>\n<li><strong>River St at Taloumbi Lane (246313)</strong></li>\n</ul>",
+    "subtitle": "Maclean bus diversions",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10157077:24633#10159436:24635#10158637:246313",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:07380: :H:",
+          "destination": {
+            "name": "Market Square, Prince St, Grafton",
+            "type": "stop"
+          },
+          "name": "Private bus services 380",
+          "number": "380",
+          "description": "Yamba to Grafton via Maclean",
+          "iconId": 9,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "y",
+            "name": "Busways Grafton"
+          }
+        },
+        {
+          "id": "nsw:07386: :H:",
+          "destination": {
+            "name": "Maclean Coach Stop, Maclean",
+            "type": "stop"
+          },
+          "name": "Private bus services 386",
+          "number": "386",
+          "description": "Maclean to Iluka (Loop Service)",
+          "iconId": 9,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "y",
+            "name": "Busways Grafton"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10157077",
+          "name": "McLachlan Park, River St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95902090:1",
+            "name": "Maclean",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10159436",
+          "name": "Maclean Civic Hall, River St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95902090:1",
+            "name": "Maclean",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10158637",
+          "name": "River St at Taloumbi Lane",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95902090:1",
+            "name": "Maclean",
+            "type": "locality"
           }
         }
       ]
