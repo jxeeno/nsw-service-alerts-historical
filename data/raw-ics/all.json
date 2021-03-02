@@ -25092,11 +25092,11 @@
   {
     "type": "lineInfo",
     "id": "6058662",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-02T11:07:34Z",
-      "lastModification": "2021-03-02T11:09:08Z",
+      "lastModification": "2021-03-02T11:49:57Z",
       "availability": {
         "from": "2021-03-02T11:07:00Z",
         "to": "2021-03-02T21:07:59Z"
@@ -25109,12 +25109,12 @@
       ]
     },
     "urlText": "Central Coast & Newcastle Line delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058662&seqID=1",
-    "content": "The Central Coast &amp; Newcastle is partially closed in both directions between Wyong and Morisset due to a freight train requiring mechanical repairs at Warnervale. Bus companies have been contacted to provide a replacement service however they are yet to arrive. Listen to announcements and check display boards for latest updates.\nAdditionally, buses are replacing trains between Gosford and Wyong due to planned trackwork.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058662&seqID=2",
+    "content": "Buses are replacing trains on the Central Coast &amp; Newcastle Line between Wyong and Morisset due to a freight train requiring mechanical repairs at Warnervale. Listen to announcements and check display boards for latest updates. Additionally, buses are replacing trains between Gosford and Wyong due to planned trackwork.",
     "subtitle": "Central Coast & Newcastle Line delays",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "The Central Coast & Newcastle is partially closed in both directions between Wyong and Morisset due to a freight train requiring mechanical repairs at Warnervale. Bus companies have been contacted to provide a replacement service however they are yet to arrive. Listen to announcements and check display boards for latest updates. \nAdditionally, buses are replacing trains between Gosford and Wyong due to planned trackwork.",
+      "speechText": "Buses are replacing trains on the Central Coast & Newcastle Line between Wyong and Morisset due to a freight train requiring mechanical repairs at Warnervale. Listen to announcements and check display boards for latest updates. Additionally, buses are replacing trains between Gosford and Wyong due to planned trackwork.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -25156,6 +25156,78 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6058663",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-02T11:42:58Z",
+      "lastModification": "2021-03-02T11:44:57Z",
+      "availability": {
+        "from": "2021-03-02T11:42:00Z",
+        "to": "2021-03-02T21:42:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-02T11:42:00Z",
+          "to": "2021-03-02T21:42:59Z"
+        }
+      ]
+    },
+    "urlText": "Port Hacking Rd bus diversions",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058663&seqID=1",
+    "content": "Buses are diverting away from Port Hacking Rd due to wires down at Port Hacking Rd and Vickery Dr. Buses are using Box Rd and missing up to 2 stops in each direction. Passengers are advised to allow additional travel time.",
+    "subtitle": "Port Hacking Rd bus diversions",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are diverting away from Port Hacking Rd due to wires down at Port Hacking Rd and Vickery Dr. Buses are using Box Rd and missing up to 2 stops in each direction. Passengers are advised to allow additional travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:32971: :R:",
+          "destination": {
+            "name": "Hurstville Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 971",
+          "number": "971",
+          "description": "Cronulla to Hurstville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32971: :H:",
+          "destination": {
+            "name": "Miranda Interchange, Urunga Pde, Stand 9, Miranda",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 971",
+          "number": "971",
+          "description": "Hurstville to Cronulla",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
           }
         }
       ]
