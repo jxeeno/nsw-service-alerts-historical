@@ -13880,58 +13880,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6058839",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-03-07T23:14:00Z",
-      "lastModification": "2021-03-07T23:15:00Z",
-      "availability": {
-        "from": "2021-03-07T23:14:00Z",
-        "to": "2021-03-08T01:14:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-03-07T23:14:00Z",
-          "to": "2021-03-08T01:14:59Z"
-        }
-      ]
-    },
-    "urlText": "North Coast Coach Service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058839&seqID=1",
-    "content": "This service is running behind schedule awaiting the arrival of the delayed XPT train.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "North Coast Coach Service delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76165: :H:",
-          "destination": {
-            "name": "Wharf St opp Tweed Heads Visitor Information Centre, Tweed Heads",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 165",
-          "number": "165",
-          "description": "Casino to Tweed Heads",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6058842",
     "version": 4,
     "priority": "normal",
@@ -14016,6 +13964,82 @@
           "operator": {
             "id": "2442",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6058851",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-08T01:25:30Z",
+      "lastModification": "2021-03-08T01:28:14Z",
+      "availability": {
+        "from": "2021-03-08T01:25:00Z",
+        "to": "2021-03-08T11:25:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-08T01:25:00Z",
+          "to": "2021-03-08T11:25:59Z"
+        }
+      ]
+    },
+    "urlText": "Manly temporary bus stop closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6058851&seqID=1",
+    "content": "<p class=\"x_MsoNormal\">North Head Scenic Drive from the roundabout at Entrance Road is closed due to hazard reduction burn.\n<p class=\"x_MsoNormal\"><strong>Route 161</strong> bus services will not stop at <strong>North Head Scenic Dr opp North Head Sanctuary (209577)</strong>.\n<p class=\"x_MsoNormal\">Please use the alternative stop <strong>Quarantine Station, North Head Scenic Dr (209515)</strong>.",
+    "subtitle": "Manly temporary bus stop closure",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10115270:209577#10115229:209515",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:28161: :H:",
+          "destination": {
+            "name": "Manly Whrf Hotel",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 161",
+          "number": "161",
+          "description": "Manly to North Head (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10115270",
+          "name": "North Head Scenic Dr opp North Head Sanctuary",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95337005:1",
+            "name": "Manly",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10115229",
+          "name": "Quarantine Station, North Head Scenic Dr",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95337005:1",
+            "name": "Manly",
+            "type": "locality"
           }
         }
       ]
