@@ -13991,51 +13991,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6059181",
-    "version": 1,
+    "id": "6059182",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-03-15T13:03:00Z",
-      "lastModification": "2021-03-15T13:08:00Z",
+      "creation": "2021-03-15T17:44:51Z",
+      "lastModification": "2021-03-15T17:49:50Z",
       "availability": {
-        "from": "2021-03-15T13:03:00Z",
-        "to": "2021-03-15T16:00:59Z"
+        "from": "2021-03-15T17:44:00Z",
+        "to": "2021-03-16T03:44:59Z"
       },
       "validity": [
         {
-          "from": "2021-03-15T13:03:00Z",
-          "to": "2021-03-15T16:00:59Z"
+          "from": "2021-03-15T17:44:00Z",
+          "to": "2021-03-16T03:44:59Z"
         }
       ]
     },
-    "urlText": "20:42 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059181&seqID=1",
-    "content": "This service has been delayed due to a medical incident at Moss vale&nbsp;<em><span><br /><br />Use the&nbsp;<span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span>&nbsp;for the latest travel information with real time updates.</span></em>",
-    "subtitle": "20:42 Sydney to Melbourne XPT delay",
+    "urlText": "L2 Randwick Line and L3 Kingsford Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059182&seqID=2",
+    "content": "L2 and L3 services are not operating between Randwick/Juniors Kingsford and the City, due to signal equipment repairs at Moore Park. Consider alternative travel options such as local buses, and allow extra travel time.",
+    "subtitle": "L2 Randwick Line and L3 Kingsford Line",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "L2 and L3 light rail services are not operating between Randwick/Juniors Kingsford and the City, due to signal equipment repairs at Moore Park. Consider alternative travel options such as local buses, and allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76621: :H:",
+          "id": "nsw:780L2: :R:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Station (VIC)",
+            "name": "Circular Quay",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 4,
+            "iconId": 4
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Juniors Kingsford to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
           }
         }
       ]
