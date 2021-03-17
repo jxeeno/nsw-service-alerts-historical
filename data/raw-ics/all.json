@@ -32472,24 +32472,24 @@
   {
     "type": "lineInfo",
     "id": "6059280",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-03-17T13:55:00Z",
-      "lastModification": "2021-03-17T14:53:00Z",
+      "creation": "2021-03-17T13:55:44Z",
+      "lastModification": "2021-03-17T18:36:16Z",
       "availability": {
         "from": "2021-03-17T13:55:00Z",
-        "to": "2021-03-17T20:00:59Z"
+        "to": "2021-03-17T20:30:59Z"
       },
       "validity": [
         {
           "from": "2021-03-17T13:55:00Z",
-          "to": "2021-03-17T20:00:59Z"
+          "to": "2021-03-17T20:30:59Z"
         }
       ]
     },
     "urlText": "20:42 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059280&seqID=3",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059280&seqID=4",
     "content": "This service is delayed due to signal issues near Yass Junction.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
     "subtitle": "20:42 Sydney to Melbourne XPT delay",
     "properties": {
@@ -32524,24 +32524,24 @@
   {
     "type": "lineInfo",
     "id": "6059281",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-17T16:17:46Z",
-      "lastModification": "2021-03-17T16:21:22Z",
+      "lastModification": "2021-03-17T18:35:39Z",
       "availability": {
         "from": "2021-03-17T16:17:00Z",
-        "to": "2021-03-17T20:30:59Z"
+        "to": "2021-03-17T21:00:59Z"
       },
       "validity": [
         {
           "from": "2021-03-17T16:17:00Z",
-          "to": "2021-03-17T20:30:59Z"
+          "to": "2021-03-17T21:00:59Z"
         }
       ]
     },
     "urlText": "19:50 Melbourne to Sydney XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059281&seqID=3",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059281&seqID=4",
     "content": "Due to signal issues near Yass Junction, this service has been delayed.<br /><br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>",
     "subtitle": "19:50 Melbourne to Sydney XPT delay",
     "properties": {
@@ -32690,6 +32690,90 @@
           "parent": {
             "id": "placeID:95338008:1",
             "name": "Sydenham",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6059283",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-03-17T18:48:17Z",
+      "lastModification": "2021-03-17T18:48:27Z",
+      "availability": {
+        "from": "2021-03-17T18:48:00Z",
+        "to": "2021-03-25T04:48:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-17T18:48:00Z",
+          "to": "2021-03-25T04:48:59Z"
+        }
+      ]
+    },
+    "urlText": "Riverwood lift outage between platforms 1/2 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059283&seqID=1",
+    "content": "The lift between platforms 1/2 and the concourse is temporarily out of service. For assistance ask staff or phone 9153 8878.",
+    "subtitle": "Riverwood lift outage between platforms 1/2 and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101415:2210322,2210321",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Revesby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101415",
+          "name": "Riverwood Station",
+          "type": "stop",
+          "parent": {
+            "name": "Riverwood",
             "type": "locality"
           }
         }
