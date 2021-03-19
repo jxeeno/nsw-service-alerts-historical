@@ -18939,28 +18939,132 @@
   {
     "type": "generalInfo",
     "id": "6059390",
-    "version": 1,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-19T09:41:15Z",
-      "lastModification": "2021-03-19T09:41:29Z",
+      "lastModification": "2021-03-19T10:19:22Z",
       "availability": {
         "from": "2021-03-19T09:41:00Z",
-        "to": "2021-03-19T10:15:59Z"
+        "to": "2021-03-19T10:45:59Z"
       },
       "validity": [
         {
           "from": "2021-03-19T09:41:00Z",
-          "to": "2021-03-19T10:15:59Z"
+          "to": "2021-03-19T10:45:59Z"
         }
       ]
     },
     "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059390&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059390&seqID=3",
     "subtitle": "Call centre is currently experiencing high call volumes",
     "properties": {
       "providerCode": "Serco",
       "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6059391",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-19T10:13:26Z",
+      "lastModification": "2021-03-19T10:16:15Z",
+      "availability": {
+        "from": "2021-03-19T10:13:00Z",
+        "to": "2021-03-19T20:13:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-19T10:13:00Z",
+          "to": "2021-03-19T20:13:59Z"
+        }
+      ]
+    },
+    "urlText": "19:50 Melbourne to Sydney overnight XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059391&seqID=1",
+    "content": "This service is delayed due to tresspassers in the rail corridoor near Footscray.<br /><br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
+    "subtitle": "19:50 Melbourne to Sydney overnight XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6059392",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-19T10:23:40Z",
+      "lastModification": "2021-03-19T10:28:44Z",
+      "availability": {
+        "from": "2021-03-19T10:23:00Z",
+        "to": "2021-03-19T20:23:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-19T10:23:00Z",
+          "to": "2021-03-19T20:23:59Z"
+        }
+      ]
+    },
+    "urlText": "19:30 Casino to Sydney XPT alteration / cancellation.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059392&seqID=1",
+    "content": "Due to the pacific highway closure between Kempsey and Wauchope, this will be a bus service to Coffs Harbour only. Passengers travelling to Sydney from Casino will travel via the new england Highway. All other passengers are encouraged to re-book to a later time.&nbsp;<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "19:30 Casino to Sydney XPT alteration / cancellation.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
     }
   }
 ]
