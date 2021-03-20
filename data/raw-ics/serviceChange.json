@@ -21497,11 +21497,11 @@
   {
     "type": "lineInfo",
     "id": "6059491",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-20T14:35:31Z",
-      "lastModification": "2021-03-20T14:36:47Z",
+      "lastModification": "2021-03-20T17:35:27Z",
       "availability": {
         "from": "2021-03-20T14:35:00Z",
         "to": "2021-03-20T21:00:59Z"
@@ -21514,8 +21514,8 @@
       ]
     },
     "urlText": "20:35 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059491&seqID=1",
-    "content": "This service is delayed due to imposed speed limits.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059491&seqID=2",
+    "content": "This service is delayed due to mechanical issues.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
     "subtitle": "20:35 Sydney to Melbourne XPT delay",
     "properties": {
       "providerCode": "NSWTL",
@@ -21541,6 +21541,78 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6059492",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-20T17:03:21Z",
+      "lastModification": "2021-03-20T17:12:00Z",
+      "availability": {
+        "from": "2021-03-20T17:03:00Z",
+        "to": "2021-03-21T03:03:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-20T17:03:00Z",
+          "to": "2021-03-21T03:03:59Z"
+        }
+      ]
+    },
+    "urlText": "Central Coast & Newcastle Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059492&seqID=1",
+    "content": "Buses are replacing trains between Newcastle and Morisset due to severe weather conditions causing flooding at Cockle Creek. Allow extra travel time, listen to announcements, and check information displays for service updates.",
+    "subtitle": "Central Coast & Newcastle Line",
+    "properties": {
+      "providerCode": "RMC",
+      "speechText": "On the Central Coast and Newcastle Line. Buses are replacing trains between Newcastle and Morisset due to severe weather conditions causing flooding at Cockle Creek. Allow extra travel time, listen to announcements, and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
