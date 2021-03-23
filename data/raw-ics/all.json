@@ -28561,11 +28561,11 @@
   {
     "type": "lineInfo",
     "id": "6059600",
-    "version": 3,
+    "version": 4,
     "priority": "high",
     "timestamps": {
-      "creation": "2021-03-21T19:38:00Z",
-      "lastModification": "2021-03-22T01:37:00Z",
+      "creation": "2021-03-21T19:38:54Z",
+      "lastModification": "2021-03-23T19:03:15Z",
       "availability": {
         "from": "2021-03-21T19:38:00Z",
         "to": "2021-03-26T05:38:59Z"
@@ -28578,12 +28578,12 @@
       ]
     },
     "urlText": "F3 Parramatta River",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059600&seqID=3",
-    "content": "Buses are replacing ferries between Meadowbank, Rydalmere and Parramatta all day today due to the weir overflowing at Parramatta and strong currents at Rydalmere. Check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059600&seqID=4",
+    "content": "Ferries are not running past Abbotsford due to heavy fog. Additionally, Buses continue to replace ferries between Meadowbank, Rydalmere and Parramatta all day today due to the weir overflowing at Parramatta and strong currents at Rydalmere. Check information displays for service updates.",
     "subtitle": "F3 Parramatta River",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing ferries between Meadowbank, Rydalmere and Parramatta all day today due to the weir overflowing at Parramatta and strong currents at Rydalmere. Check information displays for service updates.",
+      "speechText": "Ferries are not running past Abbotsford due to heavy fog. Additionally, Buses continue to replace ferries between Meadowbank, Rydalmere and Parramatta all day today due to the weir overflowing at Parramatta and strong currents at Rydalmere. Check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -39556,6 +39556,150 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6059747",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-23T19:05:04Z",
+      "lastModification": "2021-03-23T19:05:55Z",
+      "availability": {
+        "from": "2021-03-23T19:05:00Z",
+        "to": "2021-03-24T05:05:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-23T19:05:00Z",
+          "to": "2021-03-24T05:05:59Z"
+        }
+      ]
+    },
+    "urlText": "Newcastle Light Rail",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059747&seqID=1",
+    "content": "Allow extra travel time due to a light rail vehicle requiring mechanical repairs. Allow extra travel time and check information displays for service updates.&nbsp;",
+    "subtitle": "Newcastle Light Rail",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to a light rail vehicle requiring mechanical repairs. Allow extra travel time and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:78NLR: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Beach to Newcastle Interchange",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:78NLR: :H:",
+          "destination": {
+            "name": "Newcastle Beach Light Rail, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Interchange to Newcastle Beach",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6059748",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-23T19:06:06Z",
+      "lastModification": "2021-03-23T19:07:41Z",
+      "availability": {
+        "from": "2021-03-23T19:06:00Z",
+        "to": "2021-03-24T05:06:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-23T19:06:00Z",
+          "to": "2021-03-24T05:06:59Z"
+        }
+      ]
+    },
+    "urlText": "Stockton Ferries",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059748&seqID=1",
+    "content": "Buses are replacing the Stockton Ferry due to heavy fog. Listen to announcements and check information displays for service updates.&nbsp;",
+    "subtitle": "Stockton Ferries",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are replacing the Stockton Ferry due to heavy fog. Listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:73Stk:n:H:",
+          "destination": {
+            "name": "Stockton Wharf, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Ferries Stkn Stockton Ferry",
+          "number": "Stkn Stockton Ferry",
+          "description": "Newcastle to Stockton Ferry",
+          "iconId": 11,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73Stk:n:R:",
+          "destination": {
+            "name": "Queens Wharf, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Ferries Stkn Stockton Ferry",
+          "number": "Stkn Stockton Ferry",
+          "description": "Stockton to Newcastle Ferry",
+          "iconId": 11,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
           }
         }
       ]
