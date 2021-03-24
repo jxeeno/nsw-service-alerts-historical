@@ -22085,11 +22085,11 @@
   {
     "type": "generalInfo",
     "id": "6059792",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-24T20:43:24Z",
-      "lastModification": "2021-03-24T21:26:02Z",
+      "lastModification": "2021-03-24T21:48:37Z",
       "availability": {
         "from": "2021-03-24T20:43:00Z",
         "to": "2021-03-24T23:30:59Z"
@@ -22102,11 +22102,11 @@
       ]
     },
     "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059792&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059792&seqID=3",
     "subtitle": "Call centre is currently experiencing high call volumes",
     "properties": {
       "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "additionalContent": "Due to the current weather we are currently experiencing a high volume of calls. Road disruption information is available on live traffic new south wales by downloading the app or visiting live traffic dot com. For trip planning, including the current status of trains, buses, ferries and Metro, visit transport new south wales dot info or download the opal travel app."
     }
   },
   {
@@ -22312,6 +22312,192 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6059800",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-24T21:51:14Z",
+      "lastModification": "2021-03-24T21:52:50Z",
+      "availability": {
+        "from": "2021-03-24T21:51:00Z",
+        "to": "2021-03-25T07:51:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-24T21:51:00Z",
+          "to": "2021-03-25T07:51:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays in Bondi Junction",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059800&seqID=1",
+    "content": "Due to heavy traffic on&nbsp;<span>Old South Head Road and Victoria Road,</span> some buses are delayed.&nbsp;",
+    "subtitle": "Some delays in Bondi Junction",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Bondi Junction, some buses are delayed up to 20 minutes due to heavy traffic.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:31327: :R:",
+          "destination": {
+            "name": "Edgecliff Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 327",
+          "number": "327",
+          "description": "Bondi Junction to Edgecliff via Bellevue Rd & Manning Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31327: :H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 327",
+          "number": "327",
+          "description": "Edgecliff to Bondi Junction via Manning Rd & Bellevue Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31379: :H:",
+          "destination": {
+            "name": "North Bondi Shops, Campbell Pde, North Bondi",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 379",
+          "number": "379",
+          "description": "Bronte to North Bondi",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31379: :R:",
+          "destination": {
+            "name": "Bronte Beach Terminus, Bronte Rd, Bronte",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 379",
+          "number": "379",
+          "description": "North Bondi to Bronte",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31386: :H:",
+          "destination": {
+            "name": "New South Head Rd opp Old South Hd Rd, Vaucluse",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 386",
+          "number": "386",
+          "description": "Bondi Junction to Vaucluse via New South Head Rd & Old South Head Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31386: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 386",
+          "number": "386",
+          "description": "Vaucluse to Bondi Junction via New South Head Rd & Old South Head Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31387: :H:",
+          "destination": {
+            "name": "Old South Head Rd near South Head Cemetery, Vaucluse",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 387",
+          "number": "387",
+          "description": "Bondi Junction to South Head Cemetery",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31387: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 387",
+          "number": "387",
+          "description": "South Head Cemetery to Bondi Junction",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
           }
         }
       ]
