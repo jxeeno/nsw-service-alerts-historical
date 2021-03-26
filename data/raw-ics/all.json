@@ -19581,8 +19581,8 @@
     "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-03-10T05:15:39Z",
-      "lastModification": "2021-03-26T05:40:39Z",
+      "creation": "2021-03-10T05:15:00Z",
+      "lastModification": "2021-03-26T05:40:00Z",
       "availability": {
         "from": "2021-03-10T05:15:00Z",
         "to": "2021-03-28T15:00:59Z"
@@ -34862,58 +34862,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6059862",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-03-26T02:03:00Z",
-      "lastModification": "2021-03-26T02:06:00Z",
-      "availability": {
-        "from": "2021-03-26T02:03:00Z",
-        "to": "2021-03-26T07:40:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-03-26T02:03:00Z",
-          "to": "2021-03-26T07:40:59Z"
-        }
-      ]
-    },
-    "urlText": "07:40 Sydney To Melbourne XPT Service Delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059862&seqID=1",
-    "content": "Due to an infastructure issue near Harden the 07:40 Sydney To Melbourne XPT service is delayed.<br /><br /><br /><br /><br /><br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "07:40 Sydney To Melbourne XPT Service Delay",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station (VIC)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6059869",
     "version": 1,
     "priority": "normal",
@@ -35408,30 +35356,88 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6059873",
+    "type": "stopInfo",
+    "id": "6059874",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-03-26T07:36:18Z",
-      "lastModification": "2021-03-26T07:36:26Z",
+      "creation": "2021-03-26T08:00:12Z",
+      "lastModification": "2021-03-26T08:00:20Z",
       "availability": {
-        "from": "2021-03-26T07:36:00Z",
-        "to": "2021-03-26T08:00:59Z"
+        "from": "2021-03-26T08:00:00Z",
+        "to": "2021-03-26T18:00:59Z"
       },
       "validity": [
         {
-          "from": "2021-03-26T07:36:00Z",
-          "to": "2021-03-26T08:00:59Z"
+          "from": "2021-03-26T08:00:00Z",
+          "to": "2021-03-26T18:00:59Z"
         }
       ]
     },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059873&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
+    "urlText": "Kogarah lift outage - between concourse and Station street",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059874&seqID=1",
+    "content": "The lift between the concourse and Station street is temporarily out of service.&nbsp;For assistance, please ask staff or call 9563 7273.",
+    "subtitle": "Kogarah lift outage - between concourse and Station street",
     "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101336:2217194,2217193,2217192,2217191",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Waterfall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101336",
+          "name": "Kogarah Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95351010:1",
+            "name": "Kogarah",
+            "type": "locality"
+          }
+        }
+      ]
     }
   }
 ]
