@@ -16011,8 +16011,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-03-27T22:37:23Z",
-      "lastModification": "2021-03-27T22:40:17Z",
+      "creation": "2021-03-27T22:37:00Z",
+      "lastModification": "2021-03-27T22:40:00Z",
       "availability": {
         "from": "2021-03-27T22:37:00Z",
         "to": "2021-03-28T09:30:59Z"
@@ -16060,11 +16060,11 @@
   {
     "type": "lineInfo",
     "id": "6059922",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-27T23:53:25Z",
-      "lastModification": "2021-03-28T00:35:03Z",
+      "lastModification": "2021-03-28T01:11:19Z",
       "availability": {
         "from": "2021-03-27T23:53:00Z",
         "to": "2021-03-28T09:53:59Z"
@@ -16077,12 +16077,12 @@
       ]
     },
     "urlText": "T2 Inner West & Leppington Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059922&seqID=4",
-    "content": "Buses are replacing some trains between Central and Ashfield due to a fatality at Lewisham. Passengers are advised to allow extra time, listen to announcements and check information displays. Also, passengers are able to catch an L1 Light Rail service between Central and Lewisham as an alternative.&nbsp;<br /><br /><br />",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059922&seqID=5",
+    "content": "Allow extra time due to a fatality at Lewisham. Listen to announcements and check information displays as stoppnig patterns may change.&nbsp;<br /><br /><br />",
     "subtitle": "T2 Inner West & Leppington Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing some trains between Central and Ashfield due to a fatality at Lewisham. Passengers are advised to allow extra time, listen to announcements and check information displays. Also, passengers are able to catch an L1 Light Rail service between Central and Lewisham as an alternative.",
+      "speechText": "Allow extra time due to a fatality at Lewisham. Listen to announcements and check information displays as stoppnig patterns may change.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -16124,6 +16124,85 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "generalInfo",
+    "id": "6059926",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-28T00:58:46Z",
+      "lastModification": "2021-03-28T00:58:59Z",
+      "availability": {
+        "from": "2021-03-28T00:58:00Z",
+        "to": "2021-03-28T01:58:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-28T00:58:00Z",
+          "to": "2021-03-28T01:58:59Z"
+        }
+      ]
+    },
+    "urlText": "Call centre is currently experiencing high call volumes",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059926&seqID=1",
+    "subtitle": "Call centre is currently experiencing high call volumes",
+    "properties": {
+      "providerCode": "Serco",
+      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6059927",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-28T01:07:56Z",
+      "lastModification": "2021-03-28T01:11:06Z",
+      "availability": {
+        "from": "2021-03-28T01:07:00Z",
+        "to": "2021-03-28T04:07:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-28T01:07:00Z",
+          "to": "2021-03-28T04:07:59Z"
+        }
+      ]
+    },
+    "urlText": "07:10 Griffith to Sydney XPLORER delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6059927&seqID=1",
+    "content": "This service is delayed due to operational issues.&nbsp;&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
+    "subtitle": "07:10 Griffith to Sydney XPLORER delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76642: :R:",
+          "destination": {
+            "name": "Goulburn Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 642",
+          "number": "642",
+          "description": "Griffith to Goulburn",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
