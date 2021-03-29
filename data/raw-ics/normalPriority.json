@@ -13199,33 +13199,6 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6060003",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-03-29T21:19:09Z",
-      "lastModification": "2021-03-29T21:19:30Z",
-      "availability": {
-        "from": "2021-03-29T21:19:00Z",
-        "to": "2021-03-29T22:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-03-29T21:19:00Z",
-          "to": "2021-03-29T22:00:59Z"
-        }
-      ]
-    },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060003&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
-    "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6060004",
     "version": 2,
@@ -13349,6 +13322,78 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060005",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-03-29T22:17:55Z",
+      "lastModification": "2021-03-29T22:19:05Z",
+      "availability": {
+        "from": "2021-03-29T22:17:00Z",
+        "to": "2021-03-30T08:17:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-03-29T22:17:00Z",
+          "to": "2021-03-30T08:17:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays through Greenacre",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060005&seqID=1",
+    "content": "Due to heavy traffic caused by a multi-vehicle crash on Roberts Road, some buses are delayed.&nbsp;",
+    "subtitle": "Some delays through Greenacre",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Through Greenacre, some buses are delayed up to 15 minutes due to heavy traffic caused by a multi-vehicle crash on Roberts Road.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38914: :R:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 914",
+          "number": "914",
+          "description": "Greenacre to Strathfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38914: :H:",
+          "destination": {
+            "name": "Greenacre Shops, Waterloo Rd, Greenacre",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 914",
+          "number": "914",
+          "description": "Strathfield to Greenacre",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
