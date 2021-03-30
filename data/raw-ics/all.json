@@ -26350,8 +26350,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-03-29T20:07:05Z",
-      "lastModification": "2021-03-29T20:09:54Z",
+      "creation": "2021-03-29T20:07:00Z",
+      "lastModification": "2021-03-29T20:09:00Z",
       "availability": {
         "from": "2021-03-29T20:07:00Z",
         "to": "2021-04-01T06:07:59Z"
@@ -26402,8 +26402,8 @@
     "version": 4,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-03-29T20:50:46Z",
-      "lastModification": "2021-03-29T21:47:52Z",
+      "creation": "2021-03-29T20:50:00Z",
+      "lastModification": "2021-03-29T21:47:00Z",
       "availability": {
         "from": "2021-03-29T20:50:00Z",
         "to": "2021-03-30T06:50:59Z"
@@ -26512,8 +26512,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-03-29T21:50:30Z",
-      "lastModification": "2021-03-29T21:52:46Z",
+      "creation": "2021-03-29T21:50:00Z",
+      "lastModification": "2021-03-29T21:52:00Z",
       "availability": {
         "from": "2021-03-29T21:50:00Z",
         "to": "2021-03-30T07:50:59Z"
@@ -26636,72 +26636,198 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6060005",
+    "type": "stopInfo",
+    "id": "6060008",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-03-29T22:17:55Z",
-      "lastModification": "2021-03-29T22:19:05Z",
+      "creation": "2021-03-30T00:45:42Z",
+      "lastModification": "2021-03-30T00:46:02Z",
       "availability": {
-        "from": "2021-03-29T22:17:00Z",
-        "to": "2021-03-30T08:17:59Z"
+        "from": "2021-03-30T00:45:00Z",
+        "to": "2021-04-30T11:45:59Z"
       },
       "validity": [
         {
-          "from": "2021-03-29T22:17:00Z",
-          "to": "2021-03-30T08:17:59Z"
+          "from": "2021-03-30T00:45:00Z",
+          "to": "2021-04-30T11:45:59Z"
         }
       ]
     },
-    "urlText": "Some delays through Greenacre",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060005&seqID=1",
-    "content": "Due to heavy traffic caused by a multi-vehicle crash on Roberts Road, some buses are delayed.&nbsp;",
-    "subtitle": "Some delays through Greenacre",
+    "urlText": "Chatswood lift outage between platforms 1/2 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060008&seqID=1",
+    "content": "The lift between the concourse and platforms 1/2 is temporarily out of service. If you require assistance, ask staff or call 9379 3311.",
+    "subtitle": "Chatswood lift outage between platforms 1/2 and concourse",
     "properties": {
-      "providerCode": "TMC",
-      "speechText": "Through Greenacre, some buses are delayed up to 15 minutes due to heavy traffic caused by a multi-vehicle crash on Roberts Road.",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101117:2067142,2067141",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:38914: :R:",
+          "id": "nsw:02CCN: :R:",
           "destination": {
-            "name": "Strathfield Station",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 914",
-          "number": "914",
-          "description": "Greenacre to Strathfield",
-          "iconId": 5,
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2444",
-            "name": "Transdev NSW"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         },
         {
-          "id": "nsw:38914: :H:",
+          "id": "nsw:02CCN: :H:",
           "destination": {
-            "name": "Greenacre Shops, Waterloo Rd, Greenacre",
+            "name": "Wyong Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 914",
-          "number": "914",
-          "description": "Strathfield to Greenacre",
-          "iconId": 5,
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2444",
-            "name": "Transdev NSW"
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Lindfield",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101117",
+          "name": "Chatswood Station",
+          "type": "stop",
+          "parent": {
+            "name": "Chatswood",
+            "type": "locality"
           }
         }
       ]
