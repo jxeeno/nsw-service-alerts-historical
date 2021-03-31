@@ -21028,11 +21028,11 @@
   {
     "type": "stopInfo",
     "id": "6060051",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-31T05:09:35Z",
-      "lastModification": "2021-03-31T05:19:50Z",
+      "lastModification": "2021-03-31T06:22:20Z",
       "availability": {
         "from": "2021-03-31T05:09:00Z",
         "to": "2021-04-18T16:00:59Z"
@@ -21044,10 +21044,10 @@
         }
       ]
     },
-    "urlText": "Bondi Junction bus stop changes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060051&seqID=1",
+    "urlText": "Bondi Junction Interchange temporary bus stop changes",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060051&seqID=2",
     "content": "Due to construction work at Bondi Junction interchange, there will be temporary bus stop changes from Tuesday 6 April to Monday 19 April 2021.<br /><br /><strong>From 2am Tuesday 6 April to 2am Saturday 10 April and from 2am Monday 12 April to 2am Saturday 17 April:</strong>\n<ul>\n<li>Bus stop Bondi Junction Station, Stand A (Stop ID 202269) will close. The 333 routes towards North Bondi will use bus stop Bondi Junction Station Stand B (Stop ID202249).</li>\n<li>Please note Bondi Junction Station, Stand A (Stop ID 202269) will be open for the 333 services on weekends.</li>\n</ul>\n<strong>From 2am Tuesday 6 April to 2am Monday 19 April:</strong>\n<ul>\n<li>Bus route 389 towards Bondi Junction Station will not stop at Bondi Junction Station, Grafton St, Stand G (Stop ID 202267). All customers will be dropped off at Bondi Junction Station, Grafton St, Stand S (Stop ID 202212).</li>\n<li><span>The 389 bus route towards Pyrmont will not use bus stop Bondi Junction Station, Grafton St, Stand R (Stop ID 202281). The alternative stop will be Bondi Junction Station, Grafton St, Stand T (Stop ID 202213).</span></li>\n</ul>",
-    "subtitle": "Bondi Junction bus stop changes",
+    "subtitle": "Bondi Junction Interchange temporary bus stop changes",
     "properties": {
       "providerCode": "PTMarketing",
       "appliesTo": "departingArriving",
@@ -21307,11 +21307,11 @@
   {
     "type": "lineInfo",
     "id": "6060055",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-03-31T05:51:24Z",
-      "lastModification": "2021-03-31T05:55:05Z",
+      "lastModification": "2021-03-31T06:34:49Z",
       "availability": {
         "from": "2021-03-31T05:51:00Z",
         "to": "2021-03-31T15:51:59Z"
@@ -21323,13 +21323,13 @@
         }
       ]
     },
-    "urlText": "Diversion in Greenacre",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060055&seqID=1",
-    "content": "Buses are diverting away from Waterloo Road at Tennyson Road due to a burst water main. They are using Cardigan Road, Noble Avenue and Shellcote Road instead, missing up to two stops.",
-    "subtitle": "Diversion in Greenacre",
+    "urlText": "Diversion and delays in Greenacre",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060055&seqID=2",
+    "content": "A burst water main on Waterloo Road at Tennyson Road is delaying some services. Buses are diverting via local streets.",
+    "subtitle": "Diversion and delays in Greenacre",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Greenacre, route 9-4-1 buses are diverting away from Waterloo Road at Tennyson Road due to a burst water main. They are using Cardigan Road, Noble Avenue and Shellcote Road instead, missing up to two stops.",
+      "speechText": "In Greenacre, route 9-1-3, 9-4-1 and M-90 buses are diverting away from Waterloo Road at Tennyson Road due to a burst water main. They are using local streets instead and are delayed up to 15 minutes.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -21371,6 +21371,82 @@
           "operator": {
             "id": "2437",
             "name": "Punchbowl Bus Company"
+          }
+        },
+        {
+          "id": "nsw:38913: :H:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 913",
+          "number": "913",
+          "description": "Bankstown to Strathfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38913: :R:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 913",
+          "number": "913",
+          "description": "Strathfield to Bankstown",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M90: :H:",
+          "destination": {
+            "name": "Liverpool Interchange, Liverpool",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Burwood to Liverpool",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M90: :R:",
+          "destination": {
+            "name": "Westfield Burwood, Victoria St, Burwood",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Liverpool to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
