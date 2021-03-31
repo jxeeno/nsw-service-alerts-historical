@@ -13771,58 +13771,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6060063",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-03-31T16:33:42Z",
-      "lastModification": "2021-03-31T16:34:59Z",
-      "availability": {
-        "from": "2021-03-31T16:33:00Z",
-        "to": "2021-03-31T21:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-03-31T16:33:00Z",
-          "to": "2021-03-31T21:00:59Z"
-        }
-      ]
-    },
-    "urlText": "20:35 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060063&seqID=1",
-    "content": "This service is delayed due to a slow freight service.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
-    "subtitle": "20:35 Sydney to Melbourne XPT delay",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76621: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6060064",
     "version": 1,
     "priority": "normal",
@@ -14194,30 +14142,113 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6060067",
+    "type": "lineInfo",
+    "id": "6060069",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-03-31T20:43:10Z",
-      "lastModification": "2021-03-31T20:43:20Z",
+      "creation": "2021-03-31T21:08:23Z",
+      "lastModification": "2021-03-31T21:09:00Z",
       "availability": {
-        "from": "2021-03-31T20:43:00Z",
-        "to": "2021-03-31T21:00:59Z"
+        "from": "2021-03-31T21:08:00Z",
+        "to": "2021-04-01T07:08:59Z"
       },
       "validity": [
         {
-          "from": "2021-03-31T20:43:00Z",
-          "to": "2021-03-31T21:00:59Z"
+          "from": "2021-03-31T21:08:00Z",
+          "to": "2021-04-01T07:08:59Z"
         }
       ]
     },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060067&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
+    "urlText": "Diversion in Wallsend",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060069&seqID=1",
+    "content": "Buses are diverting away from Douglas Street via Cowper Street, Cameron Street, Longworth Avenue and Newcastle Road due to a motorcycle and car crash near Davis Avenue. Five stops are being missed.",
+    "subtitle": "Diversion in Wallsend",
     "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "providerCode": "TMC",
+      "speechText": "In Wallsend, buses are diverting away from Douglas Street via Cowper Street, Cameron Street, Longworth Avenue and Newcastle Road due to a motorcycle and car crash near Davis Avenue. Five stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:73024: :H:",
+          "destination": {
+            "name": "Wallsend District Library, Bunn St, Wallsend",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 24",
+          "number": "24",
+          "description": "Marketown to Wallsend via Mayfield",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73024: :R:",
+          "destination": {
+            "name": "Marketown Shopping Centre, Steel St, Newcastle West",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 24",
+          "number": "24",
+          "description": "Wallsend to Marketown via Mayfield",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73835: :H:",
+          "destination": {
+            "name": "Wallsend District Library, Bunn St, Wallsend",
+            "type": "stop"
+          },
+          "name": "School buses 835",
+          "number": "835",
+          "description": "St. Pius X High, Adamstown to Wallsend",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73835: :R:",
+          "destination": {
+            "name": "Lexington Pde near Kotara High, Adamstown Heights",
+            "type": "stop"
+          },
+          "name": "School buses 835",
+          "number": "835",
+          "description": "Wallsend to Kotara High School",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        }
+      ]
     }
   }
 ]
