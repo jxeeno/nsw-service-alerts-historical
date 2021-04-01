@@ -13876,58 +13876,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6060084",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-01T04:52:17Z",
-      "lastModification": "2021-04-01T05:00:14Z",
-      "availability": {
-        "from": "2021-04-01T04:52:00Z",
-        "to": "2021-04-01T06:52:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-01T04:52:00Z",
-          "to": "2021-04-01T06:52:59Z"
-        }
-      ]
-    },
-    "urlText": "08:40 Armidale to Sydney Xplorer service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060084&seqID=1",
-    "content": "This service has experienced a delay near Newcastle due to an operational.\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri; font-size: medium;\">Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span style=\"color: #0563c1; font-family: Times New Roman; font-size: medium;\">Trip Planner</span></a><span style=\"font-family: Calibri; font-size: medium;\">&nbsp;for the latest travel information with real time updates.&nbsp;</span>",
-    "subtitle": "08:40 Armidale to Sydney Xplorer service delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76224: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 224",
-          "number": "224",
-          "description": "Armidale to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6060085",
     "version": 1,
     "priority": "normal",
@@ -14003,6 +13951,78 @@
     "properties": {
       "providerCode": "Serco",
       "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060089",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-01T06:53:18Z",
+      "lastModification": "2021-04-01T06:54:48Z",
+      "availability": {
+        "from": "2021-04-01T06:53:00Z",
+        "to": "2021-04-01T16:53:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-01T06:53:00Z",
+          "to": "2021-04-01T16:53:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays in Pyrmont",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060089&seqID=1",
+    "content": "Due to heavy traffic on Bank Street, Miller Street and Harris Street, some buses are being delayed.",
+    "subtitle": "Some delays in Pyrmont",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Pyrmont, some route 5 oh 1 buses are delayed up to 20 minutes due to heavy traffic on Bank, Miller and Harris Streets.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:26501: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 501",
+          "number": "501",
+          "description": "Central Pitt St to Parramatta via Victoria Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:26501: :R:",
+          "destination": {
+            "name": "Pitt St at Barlow St, Haymarket",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 501",
+          "number": "501",
+          "description": "Parramatta to Central Pitt St via Victoria Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        }
+      ]
     }
   }
 ]
