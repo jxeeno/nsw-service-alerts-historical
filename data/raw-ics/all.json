@@ -28898,30 +28898,87 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6060156",
+    "type": "stopInfo",
+    "id": "6060157",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-04-03T03:19:52Z",
-      "lastModification": "2021-04-03T03:20:08Z",
+      "creation": "2021-04-03T03:46:03Z",
+      "lastModification": "2021-04-03T03:46:19Z",
       "availability": {
-        "from": "2021-04-03T03:19:00Z",
-        "to": "2021-04-03T03:45:59Z"
+        "from": "2021-04-03T03:46:00Z",
+        "to": "2021-04-29T14:46:59Z"
       },
       "validity": [
         {
-          "from": "2021-04-03T03:19:00Z",
-          "to": "2021-04-03T03:45:59Z"
+          "from": "2021-04-03T03:46:00Z",
+          "to": "2021-04-29T14:46:59Z"
         }
       ]
     },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060156&seqID=1",
-    "subtitle": "Call centre is currently experiencing high call volumes",
+    "urlText": "Rockdale lift outage between platforms 4/5 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060157&seqID=1",
+    "content": "The lift between platforms 4/5 and the concourse is temporarily out of service. For assistance, ask staff or call 9563 7574.",
+    "subtitle": "Rockdale lift outage between platforms 4/5 and concourse",
     "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101335:2216175,2216174",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101335",
+          "name": "Rockdale Station",
+          "type": "stop",
+          "parent": {
+            "name": "Rockdale",
+            "type": "locality"
+          }
+        }
+      ]
     }
   }
 ]
