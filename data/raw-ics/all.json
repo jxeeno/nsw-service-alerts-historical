@@ -27874,52 +27874,85 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6060215",
+    "type": "stopInfo",
+    "id": "6060218",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-04-04T13:01:00Z",
-      "lastModification": "2021-04-04T13:02:00Z",
+      "creation": "2021-04-04T22:22:32Z",
+      "lastModification": "2021-04-04T22:22:47Z",
       "availability": {
-        "from": "2021-04-04T13:01:00Z",
-        "to": "2021-04-04T22:00:59Z"
+        "from": "2021-04-04T22:22:00Z",
+        "to": "2021-04-05T08:22:59Z"
       },
       "validity": [
         {
-          "from": "2021-04-04T13:01:00Z",
-          "to": "2021-04-04T22:00:59Z"
+          "from": "2021-04-04T22:22:00Z",
+          "to": "2021-04-05T08:22:59Z"
         }
       ]
     },
-    "urlText": "19:30 Casino to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060215&seqID=1",
-    "content": "This service has been delayed due to ARTC speed restrictions.&nbsp;<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
-    "subtitle": "19:30 Casino to Sydney XPT delay.",
+    "urlText": "Summer Hill lift outage between the subway and Grosvenor St",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060218&seqID=1",
+    "content": "The lift between the subway and Grosvenor Street is temporarily out of service. For assistance, ask staff or call 9752 8489.",
+    "subtitle": "Summer Hill lift outage between the subway and Grosvenor St",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101210:213053,213052,213051",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76034: :R:",
+          "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Homebush Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "iconId": 3,
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "City Circle via Town Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101210",
+          "name": "Summer Hill Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95303002:1",
+            "name": "Summer Hill",
+            "type": "locality"
           }
         }
       ]
