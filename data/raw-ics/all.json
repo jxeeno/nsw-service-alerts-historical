@@ -28467,11 +28467,11 @@
   {
     "type": "lineInfo",
     "id": "6060225",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-04-05T01:58:08Z",
-      "lastModification": "2021-04-05T02:10:36Z",
+      "lastModification": "2021-04-05T02:38:25Z",
       "availability": {
         "from": "2021-04-05T01:58:00Z",
         "to": "2021-04-05T11:58:59Z"
@@ -28483,10 +28483,10 @@
         }
       ]
     },
-    "urlText": "T1 North Shore Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060225&seqID=2",
+    "urlText": "T1 North Shore & Western Line and T9 Northern Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060225&seqID=3",
     "content": "Allow extra travel time due to signal equipment repairs at Lindfield. Stopping patterns may change so listen to announcements and check information displays for service updates.&nbsp;",
-    "subtitle": "T1 North Shore Line",
+    "subtitle": "T1 North Shore & Western Line and T9 Northern Line",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow extra travel time due to signal equipment repairs at Lindfield. Stopping patterns may change so listen to announcements and check information displays for service updates.",
@@ -28523,6 +28523,44 @@
           "name": "Sydney Trains Network T1 North Shore & Western Line",
           "number": "T1 North Shore & Western Line",
           "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Hornsby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -28583,6 +28621,129 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6060228",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-04-05T02:52:11Z",
+      "lastModification": "2021-04-05T02:52:25Z",
+      "availability": {
+        "from": "2021-04-05T02:52:00Z",
+        "to": "2021-04-12T12:52:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-05T02:52:00Z",
+          "to": "2021-04-12T12:52:59Z"
+        }
+      ]
+    },
+    "urlText": "Guildford lift outage between platform 1, concourse and Military Rd",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060228&seqID=1",
+    "content": "The lift between platform 1, the concourse and Military Road is temporarily out of service. For assistance ask staff or call&nbsp;9848 9287.",
+    "subtitle": "Guildford lift outage between platform 1, concourse and Military Rd",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101283:2161251",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Leppington",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Richmond",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101283",
+          "name": "Guildford Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95324003:1",
+            "name": "Guildford",
+            "type": "locality"
           }
         }
       ]
