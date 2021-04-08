@@ -30173,72 +30173,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6060366",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-04-08T02:06:46Z",
-      "lastModification": "2021-04-08T02:06:56Z",
-      "availability": {
-        "from": "2021-04-08T02:06:00Z",
-        "to": "2021-04-15T12:06:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-08T02:06:00Z",
-          "to": "2021-04-15T12:06:59Z"
-        }
-      ]
-    },
-    "urlText": "Summer Hill lift outage between platform 1/2 and subway",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060366&seqID=1",
-    "content": "The lift between platform 1/2 and the subway is temporarily out of service. For assistance, ask staff or call 9752 8489.",
-    "subtitle": "Summer Hill lift outage between platform 1/2 and subway",
-    "properties": {
-      "providerCode": "RMC",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101210:213052,213051",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "City Circle via Town Hall",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10101210",
-          "name": "Summer Hill Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95303002:1",
-            "name": "Summer Hill",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6060371",
     "version": 1,
@@ -30389,6 +30323,58 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060374",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-08T06:10:45Z",
+      "lastModification": "2021-04-08T06:12:04Z",
+      "availability": {
+        "from": "2021-04-08T06:10:00Z",
+        "to": "2021-04-08T07:10:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-08T06:10:00Z",
+          "to": "2021-04-08T07:10:59Z"
+        }
+      ]
+    },
+    "urlText": "North West Coach Delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060374&seqID=1",
+    "content": "This service is running behind schedule due to the late arrival of XPT train service into Grafton.<br /><br /><br /> <em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp; &nbsp;",
+    "subtitle": "North West Coach Delays",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76141: :H:",
+          "destination": {
+            "name": "Moree Town Coach Stop, Moree",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 141",
+          "number": "141",
+          "description": "Grafton to Moree Town",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
