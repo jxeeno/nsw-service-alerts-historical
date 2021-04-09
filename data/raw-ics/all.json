@@ -29582,11 +29582,11 @@
   {
     "type": "lineInfo",
     "id": "6060393",
-    "version": 16,
+    "version": 17,
     "priority": "high",
     "timestamps": {
       "creation": "2021-04-08T19:08:35Z",
-      "lastModification": "2021-04-09T03:15:52Z",
+      "lastModification": "2021-04-09T03:33:47Z",
       "availability": {
         "from": "2021-04-08T19:08:00Z",
         "to": "2021-04-09T05:08:59Z"
@@ -29598,56 +29598,18 @@
         }
       ]
     },
-    "urlText": "T2 Inner West & Leppington, T3 Bankstown and T8 Airport & South Lines",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060393&seqID=16",
-    "content": "Allow extra travel time due to a person injured by a train at Granville earlier. Buses may supplement some services. Listen to announcements and check information displays as stopping patterns may change at short notice.",
-    "subtitle": "T2 Inner West & Leppington, T3 Bankstown and T8 Airport & South Lines",
+    "urlText": "T3 Bankstown Line and T8 Airport & South Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060393&seqID=17",
+    "content": "Allow extra travel time due to a person injured by a train at Granville earlier. Listen to announcements and check information displays as stopping patterns may change at short notice.",
+    "subtitle": "T3 Bankstown Line and T8 Airport & South Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to a person injured by a train at Granville earlier. Buses may supplement some services. Listen to announcements and check information displays as stopping patterns may change at short notice.",
+      "speechText": "Allow extra travel time due to a person injured by a train at Granville earlier. Listen to announcements and check information displays as stopping patterns may change at short notice.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
         {
           "id": "nsw:020T8: :H:",
           "destination": {
@@ -30600,6 +30562,370 @@
           "parent": {
             "id": "placeID:95356003:1",
             "name": "Strathfield",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6060422",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-09T03:22:04Z",
+      "lastModification": "2021-04-09T03:29:22Z",
+      "availability": {
+        "from": "2021-04-09T03:22:00Z",
+        "to": "2021-04-24T16:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-23T16:00:00Z",
+          "to": "2021-04-24T16:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Buses replace trains between Lidcombe and Strathfield",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060422&seqID=1",
+    "content": "<strong>Saturday 24 April</strong>\n<ul>\n<li>Buses replace trains between Lidcombe and Strathfield.</li>\n<li>Trains run to a changed timetable between:\n<ul>\n<li>Leppington and Lidcombe via Granville, then continue to Olympic Park</li>\n<li>Leppington and Richmond via the <strong>T5 Cumberland Line</strong></li>\n<li>Liverpool or Lidcombe and the City via the <strong>T3 Bankstown Line</strong> (limited stops and all-stations)</li>\n<li>Glenfield and the City via the <strong>T8 Airport &amp; South Line</strong></li>\n<li>Strathfield and the City (limited stops and all-stations)</li>\n<li>Ashfield and the City, then Lindfield (limited stops)</li>\n</ul>\n</li>\n<li>If you are travelling to the City from <strong>T2 Leppington Line</strong> stations, you can change at Glenfield for a <strong>T8 Airport &amp; South Line s</strong>ervice, or at Liverpool or Lidcombe for a <strong>T3 Bankstown Line</strong> service.</li>\n<li>If you are travelling to Flemington, Homebush or Strathfield please change at Lidcombe for a bus.</li>\n<li>Trackwork buses do not leave from Olympic Park.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br />67T1 Lidcombe, then Flemington, Homebush, Strathfield and return <br />68T1 Lidcombe, then Strathfield and return",
+    "subtitle": "Buses replace trains between Lidcombe and Strathfield",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "stopIDglobalID": "10101206#10101216#10101217#10101218",
+      "speechText": "Saturday 24 April\n\nBuses replace trains between Lidcombe and Strathfield.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "City Circle via Town Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Leppington via Granville",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101206",
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101216",
+          "name": "Homebush Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356001:1",
+            "name": "Homebush",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101217",
+          "name": "Flemington Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356002:1",
+            "name": "Homebush West",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101218",
+          "name": "Lidcombe Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304004:1",
+            "name": "Lidcombe",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6060425",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-09T03:29:57Z",
+      "lastModification": "2021-04-09T03:32:43Z",
+      "availability": {
+        "from": "2021-04-09T03:29:00Z",
+        "to": "2021-04-22T16:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-19T12:20:00Z",
+          "to": "2021-04-19T16:00:59Z"
+        },
+        {
+          "from": "2021-04-20T12:20:00Z",
+          "to": "2021-04-20T16:00:59Z"
+        },
+        {
+          "from": "2021-04-21T12:20:00Z",
+          "to": "2021-04-21T16:00:59Z"
+        },
+        {
+          "from": "2021-04-22T12:20:00Z",
+          "to": "2021-04-22T16:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Buses replace trains between Bankstown and Sydenham",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060425&seqID=1",
+    "content": "<strong>Monday 19 to Thursday 22 April<br />Nightly from 10.20pm until 2am</strong>\n<ul>\n<li>Buses replace trains between Bankstown and Sydenham.</li>\n<li>Trains run to a changed timetable between Liverpool or Lidcombe and Bankstown.</li>\n<li><strong>T4 Illawarra Line</strong> trains run between Sydenham and the City, making extra stops at St Peters and Erskineville.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br />10T3 Bankstown then all stations to Sydenham and return<br />12T3 Bankstown then all stations Canterbury, then Sydenham and return",
+    "subtitle": "Buses replace trains between Bankstown and Sydenham",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "stopIDglobalID": "10101326#10101392#10101393#10101394#10101395#10101396#10101397#10101398#10101399#10101400#10101401",
+      "speechText": "Monday 19 to Thursday 22 April\nNightly from 10 20 P M until 2 A M \n\nBuses replace trains between Bankstown and Sydenham.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "City Circle via Town Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Liverpool via Bankstown",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0110T:3:H:",
+          "destination": {
+            "name": "Bankstown",
+            "type": "stop"
+          },
+          "name": "Temporary buses 10T3",
+          "number": "10T3",
+          "description": "Sydenham, then all stations to Bankstown",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0110T:3:R:",
+          "destination": {
+            "name": "Sydenham",
+            "type": "stop"
+          },
+          "name": "Temporary buses 10T3",
+          "number": "10T3",
+          "description": "Bankstown, then all stations to Sydenham",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0112T:3:H:",
+          "destination": {
+            "name": "Bankstown",
+            "type": "stop"
+          },
+          "name": "Temporary buses 12T3",
+          "number": "12T3",
+          "description": "Sydenham, Canterbury, then all stations to Bankstown",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0112T:3:R:",
+          "destination": {
+            "name": "Sydenham",
+            "type": "stop"
+          },
+          "name": "Temporary buses 12T3",
+          "number": "12T3",
+          "description": "Bankstown, then all stations to Canterbury, Sydenham",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101326",
+          "name": "Sydenham Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338008:1",
+            "name": "Sydenham",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101392",
+          "name": "Marrickville Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338005:1",
+            "name": "Marrickville",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101393",
+          "name": "Dulwich Hill Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338001:1",
+            "name": "Dulwich Hill",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101394",
+          "name": "Hurlstone Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338003:1",
+            "name": "Hurlstone Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101395",
+          "name": "Canterbury Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315006:1",
+            "name": "Canterbury",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101396",
+          "name": "Campsie Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315005:1",
+            "name": "Campsie",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101397",
+          "name": "Belmore Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315003:1",
+            "name": "Belmore",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101398",
+          "name": "Lakemba Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315011:1",
+            "name": "Lakemba",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101399",
+          "name": "Wiley Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315014:1",
+            "name": "Wiley Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101400",
+          "name": "Punchbowl Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315021:1",
+            "name": "Punchbowl",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "10101401",
+          "name": "Bankstown Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95305001:1",
+            "name": "Bankstown",
             "type": "locality"
           }
         }
