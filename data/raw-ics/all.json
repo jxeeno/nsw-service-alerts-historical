@@ -29742,78 +29742,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6060399",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-08T21:15:41Z",
-      "lastModification": "2021-04-08T21:19:28Z",
-      "availability": {
-        "from": "2021-04-08T21:15:00Z",
-        "to": "2021-04-09T07:30:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-08T21:15:00Z",
-          "to": "2021-04-09T07:30:59Z"
-        }
-      ]
-    },
-    "urlText": "Diversions in Pelican",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060399&seqID=2",
-    "content": "Buses are diverting away from Piriwal Street via Turea Street and Ninang Street due to roadworks. Two stops missed.",
-    "subtitle": "Diversions in Pelican",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "At Pelican, Route 29 buses are diverting away from Piriwal Street via Turea Street and Ninang Street due to roadworks. Two stops missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:73029: :H:",
-          "destination": {
-            "name": "Alick St opp Spinnakers Leisure Park, Belmont",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 29",
-          "number": "29",
-          "description": "Glendale to Swansea North via Cardiff & Belmont",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        },
-        {
-          "id": "nsw:73029: :R:",
-          "destination": {
-            "name": "Stockland Glendale, Glendale",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 29",
-          "number": "29",
-          "description": "Swansea North to Glendale via Belmont & Cardiff",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6060400",
     "version": 1,
     "priority": "normal",
@@ -31468,6 +31396,72 @@
           "operator": {
             "id": "2440",
             "name": "State Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6060449",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-04-09T07:39:55Z",
+      "lastModification": "2021-04-09T07:40:07Z",
+      "availability": {
+        "from": "2021-04-09T07:39:00Z",
+        "to": "2021-04-15T17:39:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-09T07:39:00Z",
+          "to": "2021-04-15T17:39:59Z"
+        }
+      ]
+    },
+    "urlText": "Berowra lift outage (no. 2) between platform 3 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060449&seqID=1",
+    "content": "The lift between platforms 3 and the concourse is temporarily out of service. If you require assistance, ask staff or phone 9847 8496.",
+    "subtitle": "Berowra lift outage (no. 2) between platform 3 and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101131:208173",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101131",
+          "name": "Berowra Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325004:1",
+            "name": "Berowra",
+            "type": "locality"
           }
         }
       ]
