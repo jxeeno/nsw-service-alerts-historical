@@ -13937,8 +13937,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-04-11T15:08:00Z",
-      "lastModification": "2021-04-11T17:34:00Z",
+      "creation": "2021-04-11T15:08:02Z",
+      "lastModification": "2021-04-11T17:34:30Z",
       "availability": {
         "from": "2021-04-11T15:08:00Z",
         "to": "2021-04-11T21:00:59Z"
@@ -13985,27 +13985,27 @@
   },
   {
     "type": "lineInfo",
-    "id": "6060540",
-    "version": 3,
+    "id": "6060542",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-04-11T17:02:00Z",
-      "lastModification": "2021-04-11T17:35:00Z",
+      "creation": "2021-04-11T20:10:34Z",
+      "lastModification": "2021-04-11T20:12:22Z",
       "availability": {
-        "from": "2021-04-11T17:02:00Z",
-        "to": "2021-04-11T20:00:59Z"
+        "from": "2021-04-11T20:10:00Z",
+        "to": "2021-04-11T22:10:59Z"
       },
       "validity": [
         {
-          "from": "2021-04-11T17:02:00Z",
-          "to": "2021-04-11T20:00:59Z"
+          "from": "2021-04-11T20:10:00Z",
+          "to": "2021-04-11T22:10:59Z"
         }
       ]
     },
-    "urlText": "20:42 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060540&seqID=3",
-    "content": "This service is delayed due to an operational issue.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
-    "subtitle": "20:42 Sydney to Melbourne XPT delay",
+    "urlText": "19:30 Casino to Sydney XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060542&seqID=1",
+    "content": "This service has been delayed due to temporary track speed restrictions.&nbsp;<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "19:30 Casino to Sydney XPT delay.",
     "properties": {
       "providerCode": "NSWTL",
       "announcementType": "serviceChange",
@@ -14014,14 +14014,14 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76621: :H:",
+          "id": "nsw:76034: :R:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
+          "name": "Regional Trains and 34",
+          "number": "34",
+          "description": "Casino to Central",
           "iconId": 3,
           "product": {
             "class": 1,
@@ -14030,6 +14030,116 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060544",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-11T20:21:23Z",
+      "lastModification": "2021-04-11T20:25:39Z",
+      "availability": {
+        "from": "2021-04-11T20:21:00Z",
+        "to": "2021-04-12T06:21:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-11T20:21:00Z",
+          "to": "2021-04-12T06:21:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays through Yagoona",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060544&seqID=3",
+    "content": "Due to a crash and intermittent road closures on the Hume Highway near Yagoona Station, some eastbound buses are delayed.&nbsp;",
+    "subtitle": "Some delays through Yagoona",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "At Yagoona, some eastbound buses are delayed up to 25 minutes due to a crash and intermittent road closures on the Hume Highway near Yagoona Station.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38907: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Bankstown to Parramatta via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Parramatta to Bankstown via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M91: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Hurstville to Parramatta via Padstow & Chester Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M91: :H:",
+          "destination": {
+            "name": "Westfield Hurstville, Park Rd, Hurstville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Parramatta to Hurstville via Chester Hill & Padstow",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
