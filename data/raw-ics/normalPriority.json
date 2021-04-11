@@ -14058,11 +14058,11 @@
   {
     "type": "lineInfo",
     "id": "6060550",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-04-11T23:07:19Z",
-      "lastModification": "2021-04-11T23:09:57Z",
+      "lastModification": "2021-04-11T23:28:04Z",
       "availability": {
         "from": "2021-04-11T23:07:00Z",
         "to": "2021-04-12T09:07:59Z"
@@ -14075,7 +14075,7 @@
       ]
     },
     "urlText": "T2 Inner West & Leppington Line, T3 Bankstown Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060550&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060550&seqID=2",
     "content": "Allow extra travel time due to a train requiring mechanical repairs at Mascot earlier. Listen to announcements and check information displays as stopping patterns may change",
     "subtitle": "T2 Inner West & Leppington Line, T3 Bankstown Line",
     "properties": {
@@ -14087,25 +14087,6 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
           "id": "nsw:020T2: :R:",
           "destination": {
             "name": "Olympic Park Station",
@@ -14114,25 +14095,6 @@
           "name": "Sydney Trains Network T2 Inner West & Leppington Line",
           "number": "T2 Inner West & Leppington Line",
           "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Penrith Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -14190,6 +14152,58 @@
     "properties": {
       "providerCode": "Serco",
       "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060552",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-11T23:25:28Z",
+      "lastModification": "2021-04-11T23:26:33Z",
+      "availability": {
+        "from": "2021-04-11T23:25:00Z",
+        "to": "2021-04-12T11:25:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-11T23:25:00Z",
+          "to": "2021-04-12T11:25:59Z"
+        }
+      ]
+    },
+    "urlText": "14:15 Dubbo to Sydney XPT service alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060552&seqID=1",
+    "content": "This service has been replaced by coach services for the entire journey, due to operational issues.&nbsp;<br /><br /> <em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates.</em>",
+    "subtitle": "14:15 Dubbo to Sydney XPT service alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
     }
   }
 ]
