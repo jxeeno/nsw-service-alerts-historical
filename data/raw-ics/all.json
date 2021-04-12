@@ -28846,58 +28846,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6060546",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-11T20:51:38Z",
-      "lastModification": "2021-04-12T06:14:48Z",
-      "availability": {
-        "from": "2021-04-11T20:51:00Z",
-        "to": "2021-04-12T10:51:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-11T20:51:00Z",
-          "to": "2021-04-12T10:51:59Z"
-        }
-      ]
-    },
-    "urlText": "05:55 Brisbane to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060546&seqID=2",
-    "content": "This service is delayed due to the late arrival of the XPT from Sydney.<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "05:55 Brisbane to Sydney XPT delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 32",
-          "number": "32",
-          "description": "Roma St to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6060552",
     "version": 2,
     "priority": "normal",
@@ -29409,52 +29357,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6060585",
-    "version": 2,
+    "id": "6060586",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-04-12T10:12:10Z",
-      "lastModification": "2021-04-12T10:22:13Z",
+      "creation": "2021-04-12T10:51:42Z",
+      "lastModification": "2021-04-12T10:55:34Z",
       "availability": {
-        "from": "2021-04-12T10:12:00Z",
-        "to": "2021-04-12T11:30:59Z"
+        "from": "2021-04-12T10:51:00Z",
+        "to": "2021-04-12T13:51:59Z"
       },
       "validity": [
         {
-          "from": "2021-04-12T10:12:00Z",
-          "to": "2021-04-12T11:30:59Z"
+          "from": "2021-04-12T10:51:00Z",
+          "to": "2021-04-12T13:51:59Z"
         }
       ]
     },
-    "urlText": "Diversion in Prospect",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060585&seqID=2",
-    "content": "Buses are diverting away from Blacktown Road due to a burst water main near Metella Road. They are using Prospect Highway, Great Western Highway and Clunies Ross Street instead.",
-    "subtitle": "Diversion in Prospect",
+    "urlText": "Southern Highlands Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060586&seqID=1",
+    "content": "Allow extra travel time due to an issue with a freight train at Yerrinbool. Buses are supplementing trains between Campbetown and Moss Vale. Listen to announcements and check information displays for service updates.",
+    "subtitle": "Southern Highlands Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Prospect - route 800 buses are diverting away from Blacktown Road due to a burst water main near Metella Road. They are using Prospect Highway, Great Western Highway and Clunies Ross Street instead.",
+      "speechText": "Allow extra travel time due to an issue with a freight train at Yerrinbool. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:22800: :R:",
+          "id": "nsw:76SHL: :H:",
           "destination": {
-            "name": "Fairfield Station",
+            "name": "Goulburn Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 800",
-          "number": "800",
-          "description": "Blacktown to Fairfield via Wetherill Park",
-          "iconId": 5,
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Campbelltown to Moss Vale",
+          "iconId": 2,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2435",
-            "name": "Transit Systems"
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76SHL: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Moss Vale to Campbelltown",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
