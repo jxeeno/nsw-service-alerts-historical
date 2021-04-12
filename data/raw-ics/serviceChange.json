@@ -22287,58 +22287,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6060552",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-11T23:25:00Z",
-      "lastModification": "2021-04-12T06:14:00Z",
-      "availability": {
-        "from": "2021-04-11T23:25:00Z",
-        "to": "2021-04-12T11:25:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-11T23:25:00Z",
-          "to": "2021-04-12T11:25:59Z"
-        }
-      ]
-    },
-    "urlText": "14:15 Dubbo to Sydney XPT service alteration.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060552&seqID=2",
-    "content": "This service has been replaced by coach services for the entire journey, due to operational issues.&nbsp;<br /><br /> <em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates.</em>",
-    "subtitle": "14:15 Dubbo to Sydney XPT service alteration.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76428: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 428",
-          "number": "428",
-          "description": "Dubbo to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6060562",
     "version": 1,
@@ -22713,6 +22661,59 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060588",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-12T12:36:19Z",
+      "lastModification": "2021-04-12T12:50:15Z",
+      "availability": {
+        "from": "2021-04-12T12:36:00Z",
+        "to": "2021-04-16T19:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-12T12:36:00Z",
+          "to": "2021-04-16T19:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Penrith Diversions",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060588&seqID=1",
+    "content": "Buses are diverting away from Station Street due to roadworks between Jamison Road and Derby Street. These roadworks in Penrith are expected to closed Station Street between 8pm and 5am Monday to Friday this week. Three stops are being missed.",
+    "subtitle": "Penrith Diversions",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Penrith, Route 7 9 7 buses are diverting away from  Station Street due to roadworks between Jamison Road and Derby Street. Three stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:20797: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 797",
+          "number": "797",
+          "description": "Penrith to Glenmore Park (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
           }
         }
       ]
