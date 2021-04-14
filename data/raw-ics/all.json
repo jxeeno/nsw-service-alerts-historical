@@ -31289,78 +31289,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6060666",
-    "version": 10,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-14T03:53:43Z",
-      "lastModification": "2021-04-14T07:20:55Z",
-      "availability": {
-        "from": "2021-04-14T03:53:00Z",
-        "to": "2021-04-14T13:53:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-14T03:53:00Z",
-          "to": "2021-04-14T13:53:59Z"
-        }
-      ]
-    },
-    "urlText": "T1 North Shore Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060666&seqID=10",
-    "content": "Allow extra travel time due to signal equipment repairs at Auburn earlier. Listen to announcements and check information displays as train stopping patterns may change.",
-    "subtitle": "T1 North Shore Line",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to signal equipment repairs at Auburn earlier. Listen to announcements and check information displays as train stopping patterns may change.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:N:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:N:H:",
-          "destination": {
-            "name": "Berowra Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6060668",
     "version": 1,
     "priority": "normal",
@@ -34692,6 +34620,91 @@
           "operator": {
             "id": "2442",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6060700",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-04-14T08:02:45Z",
+      "lastModification": "2021-04-14T08:03:01Z",
+      "availability": {
+        "from": "2021-04-14T08:02:00Z",
+        "to": "2021-04-20T18:02:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-14T08:02:00Z",
+          "to": "2021-04-20T18:02:59Z"
+        }
+      ]
+    },
+    "urlText": "Carlton lift outage between concourse and Railway Parade",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060700&seqID=1",
+    "content": "The lift between the concourse and Railway Parade is temporarily out of service. For assistance, ask staff or call 9563 7612.",
+    "subtitle": "Carlton lift outage between concourse and Railway Parade",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101337:221894,221893,221892,221891",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101337",
+          "name": "Carlton Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95329002:1",
+            "name": "Carlton",
+            "type": "locality"
           }
         }
       ]
