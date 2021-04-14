@@ -24372,8 +24372,8 @@
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-04-13T20:00:04Z",
-      "lastModification": "2021-04-13T20:00:18Z",
+      "creation": "2021-04-13T20:00:00Z",
+      "lastModification": "2021-04-13T20:00:00Z",
       "availability": {
         "from": "2021-04-13T20:00:00Z",
         "to": "2021-04-30T06:00:59Z"
@@ -24654,11 +24654,11 @@
   {
     "type": "lineInfo",
     "id": "6060654",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-04-14T00:15:01Z",
-      "lastModification": "2021-04-14T00:15:22Z",
+      "lastModification": "2021-04-14T06:13:15Z",
       "availability": {
         "from": "2021-04-14T00:15:00Z",
         "to": "2021-04-14T10:15:59Z"
@@ -24671,7 +24671,7 @@
       ]
     },
     "urlText": "F2 Taronga Zoo and F3 Parramatta River ferries",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060654&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060654&seqID=2",
     "content": "Ferries are reaching capacity so allow plenty of extra travel time or make alternative arrangements.&nbsp;",
     "subtitle": "F2 Taronga Zoo and F3 Parramatta River ferries",
     "properties": {
@@ -24683,14 +24683,14 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:090F2: :H:",
+          "id": "nsw:090F2: :R:",
           "destination": {
-            "name": "Mosman Bay Wharf, Mosman",
+            "name": "Circular Quay",
             "type": "stop"
           },
           "name": "Sydney Ferries Network F2 Taronga Zoo",
           "number": "F2 Taronga Zoo",
-          "description": "Circular Quay to Taronga Zoo",
+          "description": "Taronga Zoo to Circular Quay",
           "iconId": 10,
           "product": {
             "class": 9,
@@ -24702,14 +24702,14 @@
           }
         },
         {
-          "id": "nsw:090F3: :R:",
+          "id": "nsw:090F3: :H:",
           "destination": {
-            "name": "Circular Quay",
+            "name": "Parramatta Wharf, Parramatta",
             "type": "stop"
           },
           "name": "Sydney Ferries Network F3 Parramatta River",
           "number": "F3 Parramatta River",
-          "description": "Parramatta River to Circular Quay",
+          "description": "Circular Quay to Parramatta River",
           "iconId": 10,
           "product": {
             "class": 9,
@@ -25733,6 +25733,58 @@
             "id": "placeID:95907066:1",
             "name": "Port Macquarie",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060695",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-14T06:01:34Z",
+      "lastModification": "2021-04-14T06:05:00Z",
+      "availability": {
+        "from": "2021-04-14T06:01:00Z",
+        "to": "2021-04-14T12:01:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-14T06:01:00Z",
+          "to": "2021-04-14T12:01:59Z"
+        }
+      ]
+    },
+    "urlText": "15:30 Lithgow to Nyngan coach service delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060695&seqID=1",
+    "content": "This service is delayed due to a police operation at Lithgow.<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "15:30 Lithgow to Nyngan coach service delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76569: :H:",
+          "destination": {
+            "name": "Nyngan Coach Stop, Nyngan",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 569",
+          "number": "569",
+          "description": "Lithgow to Nyngan",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
