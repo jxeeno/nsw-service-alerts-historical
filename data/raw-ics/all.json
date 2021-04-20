@@ -24503,8 +24503,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-04-09T03:29:00Z",
-      "lastModification": "2021-04-20T02:33:00Z",
+      "creation": "2021-04-09T03:29:57Z",
+      "lastModification": "2021-04-20T02:33:02Z",
       "availability": {
         "from": "2021-04-09T03:29:00Z",
         "to": "2021-04-22T16:00:59Z"
@@ -25022,8 +25022,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-04-09T03:42:00Z",
-      "lastModification": "2021-04-20T02:34:00Z",
+      "creation": "2021-04-09T03:42:12Z",
+      "lastModification": "2021-04-20T02:34:39Z",
       "availability": {
         "from": "2021-04-09T03:42:00Z",
         "to": "2021-04-24T16:00:59Z"
@@ -35201,6 +35201,150 @@
             "id": "placeID:95308005:1",
             "name": "Blacktown",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6060890",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-20T23:28:29Z",
+      "lastModification": "2021-04-20T23:32:00Z",
+      "availability": {
+        "from": "2021-04-20T23:28:00Z",
+        "to": "2021-04-24T11:20:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-24T04:00:00Z",
+          "to": "2021-04-24T11:20:59Z"
+        }
+      ]
+    },
+    "urlText": "Track work, XPT late arrival to Sydney.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060890&seqID=1",
+    "content": "<span>&nbsp;Due to planned trackwork, the XPT will not stop at Strathfield and will arrive into Sydney at the later time of 2114. Customers for Strathfield will need to alight at Parramatta for an Intercity replacement bus connection.</span>",
+    "subtitle": "Track work, XPT late arrival to Sydney.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "stopIDglobalID": "214810#215020#213510#200060",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Central",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "214810",
+          "name": "Blacktown Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308005:1",
+            "name": "Blacktown",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "215020",
+          "name": "Parramatta Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "213510",
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "200060",
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060891",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-20T23:32:05Z",
+      "lastModification": "2021-04-20T23:33:03Z",
+      "availability": {
+        "from": "2021-04-20T23:32:00Z",
+        "to": "2021-04-21T11:32:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-20T23:32:00Z",
+          "to": "2021-04-21T11:32:59Z"
+        }
+      ]
+    },
+    "urlText": "08:30 Melbourne to Sydney XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060891&seqID=1",
+    "content": "This service has been delayed due to failed freight train service near Broadmeadows.&nbsp;<br /><br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "08:30 Melbourne to Sydney XPT delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
