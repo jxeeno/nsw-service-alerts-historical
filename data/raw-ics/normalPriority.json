@@ -17789,11 +17789,11 @@
   {
     "type": "lineInfo",
     "id": "6060862",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-04-20T06:22:50Z",
-      "lastModification": "2021-04-20T06:27:48Z",
+      "lastModification": "2021-04-20T23:45:53Z",
       "availability": {
         "from": "2021-04-20T06:22:00Z",
         "to": "2021-05-07T16:00:59Z"
@@ -17806,7 +17806,7 @@
       ]
     },
     "urlText": "Trackwork may affect your travel",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060862&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060862&seqID=3",
     "content": "<strong>Friday 7 May</strong><br /><strong>From 10pm until 2am</strong>\n<ul>\n<li>The all-stations Homebush trains run between Strathfield and the City only.</li>\n<li>Leppington trains make an extra stop at Homebush.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
     "subtitle": "Trackwork may affect your travel",
     "properties": {
@@ -17818,14 +17818,14 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T3: :H:",
+          "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Penrith Station",
+            "name": "Parramatta Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -17837,14 +17837,14 @@
           }
         },
         {
-          "id": "nsw:020T3: :R:",
+          "id": "nsw:020T2: :R:",
           "destination": {
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -19734,6 +19734,210 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6060892",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-20T23:39:32Z",
+      "lastModification": "2021-04-20T23:43:28Z",
+      "availability": {
+        "from": "2021-04-20T23:39:00Z",
+        "to": "2021-04-30T04:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-26T21:00:00Z",
+          "to": "2021-04-30T04:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Partial track work Coach replacement",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060892&seqID=1",
+    "content": "<span>Due to planned trackwork , this service will be replaced by a road coach between Orange and Dubbo.</span>",
+    "subtitle": "Partial track work Coach replacement",
+    "properties": {
+      "providerCode": "NSWTL",
+      "stopIDglobalID": "28001#28201#28202#28311#28301",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76427: :H:",
+          "destination": {
+            "name": "Dubbo",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 427",
+          "number": "427",
+          "description": "Central to Dubbo",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "28001",
+          "name": "Orange Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95397005:1",
+            "name": "Orange",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28201",
+          "name": "Stuart Town Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972030:1",
+            "name": "Stuart Town",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28202",
+          "name": "Wellington Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972034:1",
+            "name": "Wellington",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28311",
+          "name": "Geurie Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972014:1",
+            "name": "Geurie",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28301",
+          "name": "Dubbo Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95966013:1",
+            "name": "Dubbo",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6060893",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-20T23:43:33Z",
+      "lastModification": "2021-04-20T23:52:13Z",
+      "availability": {
+        "from": "2021-04-20T23:43:00Z",
+        "to": "2021-04-30T11:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-27T03:30:00Z",
+          "to": "2021-04-30T11:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Partial track work coach replacement",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060893&seqID=1",
+    "content": "<span>Due to planned track work this service will be replaced by a Road coach between Dubbo and Orange.This Road coach service will be departing 45 minutes earlier than scheduled time to form on time train connection.</span>",
+    "subtitle": "Partial track work coach replacement",
+    "properties": {
+      "providerCode": "NSWTL",
+      "stopIDglobalID": "28301#28311#28202#28201#28001",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Central",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "28301",
+          "name": "Dubbo Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95966013:1",
+            "name": "Dubbo",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28311",
+          "name": "Geurie Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972014:1",
+            "name": "Geurie",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28202",
+          "name": "Wellington Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972034:1",
+            "name": "Wellington",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28201",
+          "name": "Stuart Town Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972030:1",
+            "name": "Stuart Town",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28001",
+          "name": "Orange Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95397005:1",
+            "name": "Orange",
+            "type": "locality"
           }
         }
       ]
