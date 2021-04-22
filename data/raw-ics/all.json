@@ -36075,33 +36075,6 @@
     }
   },
   {
-    "type": "generalInfo",
-    "id": "6060956",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-22T06:13:14Z",
-      "lastModification": "2021-04-22T06:59:19Z",
-      "availability": {
-        "from": "2021-04-22T06:13:00Z",
-        "to": "2021-04-22T07:30:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-22T06:13:00Z",
-          "to": "2021-04-22T07:30:59Z"
-        }
-      ]
-    },
-    "urlText": "Call centre is currently experiencing high call volumes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060956&seqID=2",
-    "subtitle": "Call centre is currently experiencing high call volumes",
-    "properties": {
-      "providerCode": "Serco",
-      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6060957",
     "version": 1,
@@ -36217,6 +36190,167 @@
           "type": "stop",
           "parent": {
             "name": "North Sydney",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6060958",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-04-22T07:35:40Z",
+      "lastModification": "2021-04-22T07:36:01Z",
+      "availability": {
+        "from": "2021-04-22T07:35:00Z",
+        "to": "2021-04-29T17:35:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-22T07:35:00Z",
+          "to": "2021-04-29T17:35:59Z"
+        }
+      ]
+    },
+    "urlText": "Gordon lift outage between platform 2/3 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060958&seqID=1",
+    "content": "The lift between the concourse and platforms 2 &amp; 3 is temporarily out of service. For assistance, ask staff or call 9847 8458.",
+    "subtitle": "Gordon lift outage between platform 2/3 and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101121:207263,207262",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Wyong Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to Gordon via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Gordon to Hornsby via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101121",
+          "name": "Gordon Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95330003:1",
+            "name": "Gordon",
             "type": "locality"
           }
         }
