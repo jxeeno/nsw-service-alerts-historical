@@ -34508,11 +34508,11 @@
   {
     "type": "stopInfo",
     "id": "6060964",
-    "version": 1,
+    "version": 2,
     "priority": "low",
     "timestamps": {
       "creation": "2021-04-22T22:14:40Z",
-      "lastModification": "2021-04-22T22:14:53Z",
+      "lastModification": "2021-04-23T02:27:29Z",
       "availability": {
         "from": "2021-04-22T22:14:00Z",
         "to": "2021-04-30T08:14:59Z"
@@ -34525,13 +34525,13 @@
       ]
     },
     "urlText": "Hazelbrook lift outage between platforms 1 & 2 and Railway Parade",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060964&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060964&seqID=2",
     "content": "The lift between the concourse and platforms 1 &amp; 2 is temporarily out of service. If you require assistance, please ask staff or call 4780 3913.",
     "subtitle": "Hazelbrook lift outage between platforms 1 & 2 and Railway Parade",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101263:277941,277942,277928,277935",
+      "stopIDglobalID": "277910:277941,277942,277928,277935",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -34540,7 +34540,7 @@
         {
           "id": "nsw:02BMT: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Central",
             "type": "stop"
           },
           "name": "Intercity Trains Network Blue Mountains Line",
@@ -34559,7 +34559,7 @@
         {
           "id": "nsw:02BMT: :H:",
           "destination": {
-            "name": "Mount Victoria Station",
+            "name": "Mount Victoria",
             "type": "stop"
           },
           "name": "Intercity Trains Network Blue Mountains Line",
@@ -34578,10 +34578,11 @@
       ],
       "stops": [
         {
-          "id": "10101263",
+          "id": "277910",
           "name": "Hazelbrook Station",
           "type": "stop",
           "parent": {
+            "id": "placeID:95309011:1",
             "name": "Hazelbrook",
             "type": "locality"
           }
@@ -35469,6 +35470,191 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6060974",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-23T02:27:31Z",
+      "lastModification": "2021-04-23T02:34:10Z",
+      "availability": {
+        "from": "2021-04-23T02:27:00Z",
+        "to": "2021-04-30T13:59:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-23T02:27:00Z",
+          "to": "2021-04-30T14:00:00Z"
+        }
+      ]
+    },
+    "urlText": "School services divert due to road closures",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060974&seqID=1",
+    "content": "Some school bus services have been diverted and will run via local streets following the damage to roads in the Windsor and Wilberforce areas, due to recent floods. Check signage in place at stops.&nbsp;<br /><br />",
+    "subtitle": "School services divert due to road closures",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:40500:5:R:",
+          "destination": {
+            "name": "Campbelltown Public School, Dumaresq St, Campbelltown",
+            "type": "stop"
+          },
+          "name": "School buses 5005",
+          "number": "5005",
+          "description": "Leumeah Station to Campbelltown PS",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2446",
+            "name": "Busabout"
+          }
+        },
+        {
+          "id": "nsw:20500:5:R:",
+          "destination": {
+            "name": "Windsor Interchange - Stand A, Windsor",
+            "type": "stop"
+          },
+          "name": "School buses 5005",
+          "number": "5005",
+          "description": "Wilberforce PS to Windsor Station",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:40500:6:R:",
+          "destination": {
+            "name": "Chamberlain St opp Campbelltown Performing Arts High School, Campbelltown",
+            "type": "stop"
+          },
+          "name": "School buses 5006",
+          "number": "5006",
+          "description": "Airds HS to Campbelltown HS",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2446",
+            "name": "Busabout"
+          }
+        },
+        {
+          "id": "nsw:20500:6:R:",
+          "destination": {
+            "name": "Windsor Public School, Dight St, Windsor",
+            "type": "stop"
+          },
+          "name": "School buses 5006",
+          "number": "5006",
+          "description": "Windsor Station to Windsor PS",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:40553:9:H:",
+          "destination": {
+            "name": "Macarthur Square, Kellicar Rd, Campbelltown",
+            "type": "stop"
+          },
+          "name": "School buses 5539",
+          "number": "5539",
+          "description": "Broughton Anglican College to Macarthur Square",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2446",
+            "name": "Busabout"
+          }
+        },
+        {
+          "id": "nsw:20553:9:H:",
+          "destination": {
+            "name": "Kurmond Rd at Spinks Rd, North Richmond",
+            "type": "stop"
+          },
+          "name": "School buses 5539",
+          "number": "5539",
+          "description": "Richmond HS to Kurmond Rd at Spinks Rd via Windsor Station & Glossodia",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20554:4:H:",
+          "destination": {
+            "name": "Kable St opp Union Lane, Windsor",
+            "type": "stop"
+          },
+          "name": "School buses 5544",
+          "number": "5544",
+          "description": "Glossodia PS to Windsor Marketplace",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:40554:4:H:",
+          "destination": {
+            "name": "Waminda Ave before Broughton St, Campbelltown",
+            "type": "stop"
+          },
+          "name": "School buses 5544",
+          "number": "5544",
+          "description": "Leumeah PS to Waminda Ave",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2446",
+            "name": "Busabout"
           }
         }
       ]
