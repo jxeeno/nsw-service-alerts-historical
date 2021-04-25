@@ -22051,8 +22051,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-04-25T06:47:00Z",
-      "lastModification": "2021-04-25T07:45:00Z",
+      "creation": "2021-04-25T06:47:46Z",
+      "lastModification": "2021-04-25T07:45:31Z",
       "availability": {
         "from": "2021-04-25T06:47:00Z",
         "to": "2021-04-25T22:00:59Z"
@@ -22099,51 +22099,356 @@
   },
   {
     "type": "lineInfo",
-    "id": "6061047",
-    "version": 1,
+    "id": "6061049",
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-04-25T08:55:39Z",
-      "lastModification": "2021-04-25T08:57:20Z",
+      "creation": "2021-04-25T09:22:36Z",
+      "lastModification": "2021-04-25T09:33:38Z",
       "availability": {
-        "from": "2021-04-25T08:55:00Z",
-        "to": "2021-04-25T09:30:59Z"
+        "from": "2021-04-25T09:22:00Z",
+        "to": "2021-04-25T19:22:59Z"
       },
       "validity": [
         {
-          "from": "2021-04-25T08:55:00Z",
-          "to": "2021-04-25T09:30:59Z"
+          "from": "2021-04-25T09:22:00Z",
+          "to": "2021-04-25T19:22:59Z"
         }
       ]
     },
-    "urlText": "07:40 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061047&seqID=1",
-    "content": "<span>This service has been delayed due to an operational issue.</span><br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time update</em></span>",
-    "subtitle": "07:40 Sydney to Melbourne XPT delay",
+    "urlText": "Newcastle buses diverting from King St",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061049&seqID=3",
+    "content": "Due to a building fire, a section of King St is closed, and buses are diverting off King St, from Stewart Ave to Steel St, missing 2 stops in each direction. Allow extra travel time.",
+    "subtitle": "Newcastle buses diverting from King St",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Due to a building fire, buses 11, 12, 13, 22, 24, 26, 28, 47 and 55 N are diverting buses are diverting off King Street, from Stewart Avenue to Steel Street, missing 2 stops in each direction. Allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76623: :H:",
+          "id": "nsw:73011: :R:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Station (VIC)",
+            "name": "Customs House, Watt St, Newcastle",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Hunter Buses Network 11",
+          "number": "11",
+          "description": "Charlestown to Newcastle via Jesmond",
+          "iconId": 15,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73011: :H:",
+          "destination": {
+            "name": "Charlestown Square, Pearson St, Stand F, Charlestown",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 11",
+          "number": "11",
+          "description": "Newcastle to Charlestown via Jesmond",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73012: :R:",
+          "destination": {
+            "name": "Watkins St near John Pde, Merewether",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 12",
+          "number": "12",
+          "description": "Maryland to Merewether Beach via Wallsend and Newcastle Interchange",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73012: :H:",
+          "destination": {
+            "name": "Maryland Shopping Centre Boundary Rd, Maryland",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 12",
+          "number": "12",
+          "description": "Merewether Beach to Maryland via Wallsend and Newcastle Interchange",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73013: :R:",
+          "destination": {
+            "name": "Customs House, Watt St, Newcastle",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 13",
+          "number": "13",
+          "description": "Glendale to Newcastle via Cardiff & John Hunter Hospital",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73013: :H:",
+          "destination": {
+            "name": "Stockland Glendale, Glendale",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 13",
+          "number": "13",
+          "description": "Newcastle to Glendale via John Hunter Hospital & Cardiff",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73022: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 22",
+          "number": "22",
+          "description": "Charlestown to Newcastle West via Merewether",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73022: :H:",
+          "destination": {
+            "name": "Charlestown Square, Frederick St, Stand D, Charlestown",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 22",
+          "number": "22",
+          "description": "Newcastle West to Charlestown via Merewether",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73024: :H:",
+          "destination": {
+            "name": "Wallsend District Library, Bunn St, Wallsend",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 24",
+          "number": "24",
+          "description": "Marketown to Wallsend via Mayfield",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73024: :R:",
+          "destination": {
+            "name": "Marketown Shopping Centre, Steel St, Newcastle West",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 24",
+          "number": "24",
+          "description": "Wallsend to Marketown via Mayfield",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73026: :H:",
+          "destination": {
+            "name": "Callaghan College Wallsend Campus, Macquarie St, Wallsend",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 26",
+          "number": "26",
+          "description": "Newcastle West to Wallsend via Newcastle Interchange & Kotara",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73026: :R:",
+          "destination": {
+            "name": "King St at National Park St, Newcastle West",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 26",
+          "number": "26",
+          "description": "Wallsend to Newcastle West via Kotara & Newcastle Interchange",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73028: :R:",
+          "destination": {
+            "name": "King St at National Park St, Newcastle West",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 28",
+          "number": "28",
+          "description": "Mount Hutton to Newcastle West via Broadmeadow & Newcastle Interchange",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73028: :H:",
+          "destination": {
+            "name": "Wilsons Rd opp Lake Macquarie Fair, Mount Hutton",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 28",
+          "number": "28",
+          "description": "Newcastle West to Mount Hutton via Newcastle Interchange & Broadmeadow",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73047: :R:",
+          "destination": {
+            "name": "Marketown Shopping Centre, Steel St, Newcastle West",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 47",
+          "number": "47",
+          "description": "Jesmond to Marketown via Warabrook",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73047: :H:",
+          "destination": {
+            "name": "Stockland Jesmond Shopping Centre, Blue Gum Rd, Jesmond",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 47",
+          "number": "47",
+          "description": "Marketown to Jesmond via Warabrook",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:7355N: :H:",
+          "destination": {
+            "name": "Fullerton St opp Booth St, Stockton",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 55N",
+          "number": "55N",
+          "description": "Newcastle to Stockton",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
           }
         }
       ]
