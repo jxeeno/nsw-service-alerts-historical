@@ -5569,11 +5569,11 @@
   {
     "type": "stopInfo",
     "id": "6050007",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2020-05-19T01:05:00Z",
-      "lastModification": "2020-05-19T01:12:00Z",
+      "creation": "2020-05-19T01:05:21Z",
+      "lastModification": "2021-04-26T05:15:52Z",
       "availability": {
         "from": "2020-05-19T01:05:00Z",
         "to": "2021-07-17T08:00:59Z"
@@ -5586,13 +5586,13 @@
       ]
     },
     "urlText": "Padstow Heights temporary stop closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050007&seqID=1",
-    "content": "<div>From Wednesday&nbsp;27 May 2020 to Saturday 17 July 2021, from 7am to 6pm Monday to Friday and 7am to 1pm on Saturdays, the bus stop <strong>Walter Skelton Village, Hall Cres St, Padstow Heights (221136) </strong>will be closed due to construction works. <strong>Route M91</strong> bus services will run from a temporary bus stop on Dilke Road. </div>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6050007&seqID=2",
+    "content": "<div>From Wednesday&nbsp;27 May 2020 to Saturday 17 July 2021, from 7am to 6pm Monday to Friday and 7am to 1pm on Saturdays, the bus stop <strong>Walter Skelton Village, Hall Cres St, Padstow Heights (221136) </strong>will be closed due to construction works. <strong>Route M91</strong> bus services will run from a temporary bus stop on Dilke Road.</div>",
     "subtitle": "Padstow Heights temporary stop closure",
     "properties": {
       "providerCode": "PT Marketing",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10122927:221136",
+      "stopIDglobalID": "G221136:221136",
       "speechText": "From Wednesday 27th May 20 20 to Saturday 17th July 20 21, from 7 a m to 6 p m Monday to Friday and 7 a m to 1 p m on Saturdays, the bus stop Walter Skelton Village, Hall Cres St, Padstow Heights (221136) will be closed due to construction works. Route M 91 bus services will run from a temporary bus stop on Dilke Road.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
@@ -5621,7 +5621,7 @@
       ],
       "stops": [
         {
-          "id": "10122927",
+          "id": "G221136",
           "name": "Walter Skelton Village, Hall Cres",
           "type": "stop",
           "parent": {
@@ -17326,6 +17326,154 @@
           },
           "operator": {
             "id": "2443",
+            "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061073",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-26T05:15:06Z",
+      "lastModification": "2021-04-26T05:17:36Z",
+      "availability": {
+        "from": "2021-04-26T05:15:00Z",
+        "to": "2021-04-26T15:15:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-26T05:15:00Z",
+          "to": "2021-04-26T15:15:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays in Bankstown",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061073&seqID=1",
+    "content": "Due to heavy traffic on Chapel Road and through Bankstown City Plaza, some bus services are delayed.",
+    "subtitle": "Some delays in Bankstown",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Bankstown, some buses are delayed up to 15 minutes due to heavy traffic on Chapel Road and through Bankstown City Plaza.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38M90: :H:",
+          "destination": {
+            "name": "Liverpool Interchange, Liverpool",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Burwood to Liverpool",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M90: :R:",
+          "destination": {
+            "name": "Westfield Burwood, Victoria St, Burwood",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Liverpool to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M91: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Hurstville to Parramatta via Padstow & Chester Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M91: :H:",
+          "destination": {
+            "name": "Westfield Hurstville, Park Rd, Hurstville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Parramatta to Hurstville via Chester Hill & Padstow",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32M92: :H:",
+          "destination": {
+            "name": "Sutherland Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M92",
+          "number": "M92",
+          "description": "Parramatta to Sutherland",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32M92: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M92",
+          "number": "M92",
+          "description": "Sutherland to Parramatta",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
             "name": "Transdev NSW"
           }
         }
