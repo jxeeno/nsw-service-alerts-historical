@@ -5714,11 +5714,11 @@
   {
     "type": "stopInfo",
     "id": "6000031",
-    "version": 1,
+    "version": 2,
     "priority": "veryLow",
     "timestamps": {
-      "creation": "2016-11-22T04:00:00Z",
-      "lastModification": "2016-11-22T04:01:00Z",
+      "creation": "2016-11-22T04:00:30Z",
+      "lastModification": "2021-04-27T01:13:43Z",
       "availability": {
         "from": "2016-11-22T04:00:00Z",
         "to": "2026-11-22T14:00:59Z"
@@ -5731,25 +5731,44 @@
       ]
     },
     "urlText": "Bikes permitted with fees",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6000031&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6000031&seqID=2",
     "content": "Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.",
     "subtitle": "Bikes permitted with fees",
     "properties": {
       "providerCode": "Serco",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10103013:2256433#10103008:2251245#10103009:2251300#10103011:2251302#10103016:2257303#10102053:22302#10144054:22301#10103010:2251301",
+      "stopIDglobalID": "2256225:2256433#225113:2251245#225114:2251300#225116:2251302#2257281:2257303#2230193:22302#2230194:22301#225115:2251301",
       "announcementType": "serviceChange"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:52Emp:B:R:",
+          "id": "nsw:04Emp:B:H:",
           "destination": {
             "name": "Empire Bay Wharf, Empire Bay",
             "type": "stop"
           },
-          "name": "Private ferry and fa Woy Woy to Empire Bay Ferry",
-          "number": "Woy Woy to Empire Bay Ferry",
+          "name": "Private ferry and fast ferry services EmpB Woy Woy to Empire Bay Ferry",
+          "number": "EmpB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          }
+        },
+        {
+          "id": "nsw:04Emp:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EmpB Woy Woy to Empire Bay Ferry",
+          "number": "EmpB Woy Woy to Empire Bay Ferry",
           "description": "Empire Bay to Woy Woy",
           "iconId": 12,
           "product": {
@@ -5762,32 +5781,13 @@
           }
         },
         {
-          "id": "nsw:52Ett:l:R:",
+          "id": "nsw:04Bun:C:R:",
           "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
+            "name": "Cronulla",
             "type": "stop"
           },
-          "name": "Private ferry and fa Woy Woy to Ettalong Ferry",
-          "number": "Woy Woy to Ettalong Ferry",
-          "description": "Woy Woy to Ettalong via Saratoga & Hardys Bay",
-          "iconId": 12,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          }
-        },
-        {
-          "id": "nsw:49Bun:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fa Bundeena Ferry",
-          "number": "Bundeena Ferry",
+          "name": "Private ferry and fast ferry services BunC Bundeena Ferry",
+          "number": "BunC Bundeena Ferry",
           "description": "Bundeena to Cronulla",
           "iconId": 12,
           "product": {
@@ -5800,13 +5800,13 @@
           }
         },
         {
-          "id": "nsw:49Cro:B:H:",
+          "id": "nsw:04Bun:C:H:",
           "destination": {
-            "name": "Bundeena Wharf, Bundeena",
+            "name": "Bundeena",
             "type": "stop"
           },
-          "name": "Private ferry and fa Bundeena Ferry",
-          "number": "Bundeena Ferry",
+          "name": "Private ferry and fast ferry services BunC Bundeena Ferry",
+          "number": "BunC Bundeena Ferry",
           "description": "Cronulla to Bundeena",
           "iconId": 12,
           "product": {
@@ -5821,7 +5821,7 @@
       ],
       "stops": [
         {
-          "id": "10103013",
+          "id": "2256225",
           "name": "Woy Woy Wharf",
           "type": "stop",
           "parent": {
@@ -5831,26 +5831,18 @@
           }
         },
         {
-          "id": "10103008",
+          "id": "225113",
           "name": "Saratoga Veterans Hall Wharf",
           "type": "stop",
           "parent": {
+            "id": "placeID:95320058:1",
             "name": "Saratoga",
             "type": "locality"
           }
         },
         {
-          "id": "10103009",
+          "id": "225114",
           "name": "Davistown, Central RSL Wharf",
-          "type": "stop",
-          "parent": {
-            "name": "Davistown",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "10103011",
-          "name": "Davistown, Pine Av Wharf",
           "type": "stop",
           "parent": {
             "id": "placeID:95320014:1",
@@ -5859,37 +5851,51 @@
           }
         },
         {
-          "id": "10103016",
+          "id": "225116",
+          "name": "Davistown, Pine Ave Wharf",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95320014:1",
+            "name": "Davistown",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "2257281",
           "name": "Empire Bay Wharf",
           "type": "stop",
           "parent": {
+            "id": "placeID:95320016:1",
             "name": "Empire Bay",
             "type": "locality"
           }
         },
         {
-          "id": "10102053",
+          "id": "2230193",
           "name": "Bundeena Wharf",
           "type": "stop",
           "parent": {
+            "id": "placeID:95357005:1",
             "name": "Bundeena",
             "type": "locality"
           }
         },
         {
-          "id": "10144054",
+          "id": "2230194",
           "name": "Cronulla Wharf",
           "type": "stop",
           "parent": {
+            "id": "placeID:95357010:1",
             "name": "Cronulla",
             "type": "locality"
           }
         },
         {
-          "id": "10103010",
+          "id": "225115",
           "name": "Davistown, Lintern St Wharf",
           "type": "stop",
           "parent": {
+            "id": "placeID:95320014:1",
             "name": "Davistown",
             "type": "locality"
           }
