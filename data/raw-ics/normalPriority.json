@@ -16883,11 +16883,11 @@
   {
     "type": "lineInfo",
     "id": "6061117",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-04-27T07:31:25Z",
-      "lastModification": "2021-04-27T07:48:40Z",
+      "lastModification": "2021-04-27T07:53:05Z",
       "availability": {
         "from": "2021-04-27T07:31:00Z",
         "to": "2021-04-27T17:31:59Z"
@@ -16900,12 +16900,12 @@
       ]
     },
     "urlText": "South Coast Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061117&seqID=2",
-    "content": "Trains are not running between Unanderra and Dapto due to a fatality at Kembla Grange. Replacement buses are being organised but are not on site. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061117&seqID=3",
+    "content": "Buses are replacing trains between Unanderra and Dapto due to a fatality at Kembla Grange. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
     "subtitle": "South Coast Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Trains are not running between Unanderra and Dapto due to a fatality at Kembla Grange. Replacement buses are being organised but are not on site. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Buses are replacing trains between Unanderra and Dapto due to a fatality at Kembla Grange. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -16985,6 +16985,58 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061118",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-27T07:56:23Z",
+      "lastModification": "2021-04-27T07:57:46Z",
+      "availability": {
+        "from": "2021-04-27T07:56:00Z",
+        "to": "2021-04-27T10:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-27T07:56:00Z",
+          "to": "2021-04-27T10:00:59Z"
+        }
+      ]
+    },
+    "urlText": "08:30 Melbourne to Sydney XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061118&seqID=1",
+    "content": "This service has been delayed due to an operational issue.<br /><br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "08:30 Melbourne to Sydney XPT delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
