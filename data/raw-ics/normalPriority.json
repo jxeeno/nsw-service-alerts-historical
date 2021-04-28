@@ -16903,11 +16903,11 @@
   {
     "type": "lineInfo",
     "id": "6061134",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-04-28T01:48:18Z",
-      "lastModification": "2021-04-28T02:06:52Z",
+      "lastModification": "2021-04-28T02:43:08Z",
       "availability": {
         "from": "2021-04-28T01:48:00Z",
         "to": "2021-04-28T11:48:59Z"
@@ -16920,12 +16920,12 @@
       ]
     },
     "urlText": "T1 North Shore Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061134&seqID=2",
-    "content": "Trains are running again from Wynyard to North Sydney after a person was injured by a train at Wynyard earlier. Allow extra travel time, listen to announcements and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061134&seqID=3",
+    "content": "Allow extra travel time after a person was injured by a train at Wynyard earlier. Listen to announcements and check information displays for service updates.",
     "subtitle": "T1 North Shore Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Trains are running again from Wynyard to North Sydney after a person was injured by a train at Wynyard earlier. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Allow extra travel time after a person was injured by a train at Wynyard earlier. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -16948,6 +16948,58 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061135",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-28T02:37:08Z",
+      "lastModification": "2021-04-28T02:37:29Z",
+      "availability": {
+        "from": "2021-04-28T02:37:00Z",
+        "to": "2021-04-28T06:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-28T02:37:00Z",
+          "to": "2021-04-28T06:00:59Z"
+        }
+      ]
+    },
+    "urlText": "05:15 Grafton to Sydney XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061135&seqID=1",
+    "content": "This service is delayed due to an operational issue.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "05:15 Grafton to Sydney XPT delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76036: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 36",
+          "number": "36",
+          "description": "Grafton to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
