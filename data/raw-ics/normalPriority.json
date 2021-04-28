@@ -12525,103 +12525,6 @@
   },
   {
     "type": "stopInfo",
-    "id": "6060722",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-15T06:00:00Z",
-      "lastModification": "2021-04-26T04:17:00Z",
-      "availability": {
-        "from": "2021-04-15T06:00:00Z",
-        "to": "2021-04-28T19:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-27T11:00:00Z",
-          "to": "2021-04-28T19:00:59Z"
-        }
-      ]
-    },
-    "urlText": "Balmain Rd and Lilyfield Rd, bus stop closures",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060722&seqID=2",
-    "content": "From 9pm Tuesday 27 April to 5am Thursday 29 April 2021, WestConnex work will see&nbsp;<strong>route 347</strong>towards City QVB, miss the following two bus stops.\n<ul>\n<li><strong>Balmain Rd opp Eric St (204096)</strong> <br />The alternative stop will be <strong>Balmain Rd opp Orange Grove Plaza (204049)</strong>.</li>\n<li><strong>Lilyfield Rd at Edward St (204053)</strong> <br />The alternative stop will be <strong>Lilyfield Rd at Trevor St (204054)</strong>.</li>\n</ul>",
-    "subtitle": "Balmain Rd and Lilyfield Rd, bus stop closures",
-    "properties": {
-      "providerCode": "PTMarketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G204096:204096#G204049:204049#G204053:204053#G204054:204054",
-      "speechText": "From 9 PM Tuesday 27 April to 5 AM Thursday 29 April 2021, WestConnex work will see route 437 towards City QVB, miss two bus stops.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74437: :R:",
-          "destination": {
-            "name": "City QVB",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 437",
-          "number": "437",
-          "description": "Five Dock to City QVB via City West Link",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "G204096",
-          "name": "Balmain Rd at Eric St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333006:1",
-            "name": "Lilyfield",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G204049",
-          "name": "Balmain Rd opp Orange Grove Plaza",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333006:1",
-            "name": "Lilyfield",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G204053",
-          "name": "Lilyfield Rd at Edward St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333006:1",
-            "name": "Lilyfield",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G204054",
-          "name": "Lilyfield Rd at Trevor St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333006:1",
-            "name": "Lilyfield",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
     "id": "6060857",
     "version": 2,
     "priority": "normal",
@@ -16445,6 +16348,58 @@
           "operator": {
             "id": "2444",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061144",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-28T19:24:19Z",
+      "lastModification": "2021-04-28T19:25:00Z",
+      "availability": {
+        "from": "2021-04-28T19:24:00Z",
+        "to": "2021-04-28T21:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-28T19:24:00Z",
+          "to": "2021-04-28T21:30:59Z"
+        }
+      ]
+    },
+    "urlText": "19:50 Melbourne to Sydney XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061144&seqID=1",
+    "content": "This service has been delayed due to an operational issue.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "19:50 Melbourne to Sydney XPT delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
