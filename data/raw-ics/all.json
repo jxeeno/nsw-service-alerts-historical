@@ -32895,58 +32895,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6061213",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-29T15:53:00Z",
-      "lastModification": "2021-04-29T15:53:00Z",
-      "availability": {
-        "from": "2021-04-29T15:53:00Z",
-        "to": "2021-04-29T20:45:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-29T15:53:00Z",
-          "to": "2021-04-29T20:45:59Z"
-        }
-      ]
-    },
-    "urlText": "19:30 Casino to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061213&seqID=1",
-    "content": "This service has been delayed due to operational issues.&nbsp;<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
-    "subtitle": "19:30 Casino to Sydney XPT delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76034: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6061214",
     "version": 1,
     "priority": "normal",
@@ -32992,6 +32940,91 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6061216",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-04-29T21:29:50Z",
+      "lastModification": "2021-04-29T21:30:13Z",
+      "availability": {
+        "from": "2021-04-29T21:29:00Z",
+        "to": "2021-05-07T07:29:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-29T21:29:00Z",
+          "to": "2021-05-07T07:29:59Z"
+        }
+      ]
+    },
+    "urlText": "Gymea lift outage - between platforms 1/2 and Gymea Bay Road",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061216&seqID=1",
+    "content": "The lift between the concourse and platforms 1 &amp; 2 is temporarily out of service. For assistance, ask staff or call 9522 1288.",
+    "subtitle": "Gymea lift outage - between platforms 1/2 and Gymea Bay Road",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101347:2227102,2227101",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Kogarah",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101347",
+          "name": "Gymea Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95357014:1",
+            "name": "Gymea",
+            "type": "locality"
           }
         }
       ]
