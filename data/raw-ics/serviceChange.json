@@ -23238,11 +23238,11 @@
   {
     "type": "lineInfo",
     "id": "6061169",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-04-29T00:35:20Z",
-      "lastModification": "2021-04-29T00:36:48Z",
+      "lastModification": "2021-04-29T00:48:16Z",
       "availability": {
         "from": "2021-04-29T00:35:00Z",
         "to": "2021-04-29T10:35:59Z"
@@ -23255,12 +23255,12 @@
       ]
     },
     "urlText": "L2 Randwick Line and L3 Kingsford Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061169&seqID=1",
-    "content": "Services are not running between Town Hall and Circular Quay due to a vehicle on the track on George Street. Services continue to run between Town Hall and Juniors Kingsford, and between Town Hall and Randwick. Consider catching a train instead. Allow extra time and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061169&seqID=2",
+    "content": "Services are running again between Town Hall and Circular Quay following a vehicle on the track on George Street earlier. Allow extra time and check information displays for service updates.",
     "subtitle": "L2 Randwick Line and L3 Kingsford Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Services are not running between Town Hall and Circular Quay due to a vehicle on the track on George Street. Services continue to run between Town Hall and Juniors Kingsford, and between Town Hall and Randwick. Consider catching a train instead. Allow extra time and check information displays for service updates.",
+      "speechText": "Services are running again between Town Hall and Circular Quay following a vehicle on the track on George Street earlier. Allow extra time and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -23444,6 +23444,72 @@
           "parent": {
             "id": "placeID:95346013:1",
             "name": "Parramatta",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6061171",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-29T00:50:17Z",
+      "lastModification": "2021-04-29T00:53:07Z",
+      "availability": {
+        "from": "2021-04-29T00:50:00Z",
+        "to": "2021-05-08T15:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-08T07:00:00Z",
+          "to": "2021-05-08T15:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Rockdale bus diversions for special event",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061171&seqID=1",
+    "content": "From 5pm Saturday 8 May until 1am Sunday 9 May <strong>route 452</strong> services will be diverting and using different stops while roads are closed for the Ramadan at Bayside event in Rockdale.<br /><br />Services towards Rockdale will divert via Frederick St and miss the stop on Walz St. Services towards Beverly Hills will run as normal but may experience delays while roads are closed.<br /><br />Check signs at bus stops and allow extra travel time.<strong><br /><br />Closed stops:</strong>\n<ul>\n<li><strong>St Josephs Primary School, Walz St (221619)</strong></li>\n</ul>",
+    "subtitle": "Rockdale bus diversions for special event",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G221619:221619",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:32452: :R:",
+          "destination": {
+            "name": "Rockdale Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 452",
+          "number": "452",
+          "description": "Beverly Hills to Rockdale",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G221619",
+          "name": "St Josephs Primary School, Walz St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95351015:1",
+            "name": "Rockdale",
             "type": "locality"
           }
         }
