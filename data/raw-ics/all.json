@@ -25040,108 +25040,6 @@
   },
   {
     "type": "routeInfo",
-    "id": "6060892",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-04-20T23:39:00Z",
-      "lastModification": "2021-04-20T23:43:00Z",
-      "availability": {
-        "from": "2021-04-20T23:39:00Z",
-        "to": "2021-04-30T04:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-04-26T21:00:00Z",
-          "to": "2021-04-30T04:00:59Z"
-        }
-      ]
-    },
-    "urlText": "Partial track work Coach replacement",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6060892&seqID=1",
-    "content": "<span>Due to planned trackwork , this service will be replaced by a road coach between Orange and Dubbo.</span>",
-    "subtitle": "Partial track work Coach replacement",
-    "properties": {
-      "providerCode": "NSWTL",
-      "stopIDglobalID": "28001#28201#28202#28311#28301",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76427: :H:",
-          "destination": {
-            "name": "Dubbo",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 427",
-          "number": "427",
-          "description": "Central to Dubbo",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {}
-        }
-      ],
-      "stops": [
-        {
-          "id": "28001",
-          "name": "Orange Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95397005:1",
-            "name": "Orange",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28201",
-          "name": "Stuart Town Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95972030:1",
-            "name": "Stuart Town",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28202",
-          "name": "Wellington Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95972034:1",
-            "name": "Wellington",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28311",
-          "name": "Geurie Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95972014:1",
-            "name": "Geurie",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28301",
-          "name": "Dubbo Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95966013:1",
-            "name": "Dubbo",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "routeInfo",
     "id": "6060893",
     "version": 2,
     "priority": "normal",
@@ -32759,6 +32657,78 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061229",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-04-30T03:51:26Z",
+      "lastModification": "2021-04-30T04:07:57Z",
+      "availability": {
+        "from": "2021-04-30T03:51:00Z",
+        "to": "2021-04-30T13:51:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-04-30T03:51:00Z",
+          "to": "2021-04-30T13:51:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversions in Budgewoi and San Remo",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061229&seqID=2",
+    "content": "Buses are diverting away from the Central Coast Highway between Girraween Street and Wills Road due to a crash. Route 90 buses are starting and ending their trips at Girraween Street, missing nine stops. Route 92 buses are starting and ending their trips at Northlakes Public School, missing ten stops.",
+    "subtitle": "Diversions in Budgewoi and San Remo",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Budgewoi and San Remo, buses are diverting away from the Central Coast Highway between Girraween Street and Wills Road due to a crash. Route 90 buses are starting and ending their trips at Girraween Street, missing nine stops. Route 92 buses are starting and ending their trips at Northlakes Public School, missing ten stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:61090: :R:",
+          "destination": {
+            "name": "Lake Haven Shopping Centre, Lake Haven",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 90",
+          "number": "90",
+          "description": "LakeHaven to Toukley & Budgewoi (Loop Service)",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        },
+        {
+          "id": "nsw:61092: :R:",
+          "destination": {
+            "name": "Lake Haven Shopping Centre, Lake Haven",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 92",
+          "number": "92",
+          "description": "Lake Haven to Budgewoi & Toukley (Loop Service)",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
           }
         }
       ]
