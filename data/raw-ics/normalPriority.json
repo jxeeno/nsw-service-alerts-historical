@@ -13034,11 +13034,11 @@
   {
     "type": "lineInfo",
     "id": "6061290",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-02T20:48:52Z",
-      "lastModification": "2021-05-02T20:50:24Z",
+      "lastModification": "2021-05-02T21:46:56Z",
       "availability": {
         "from": "2021-05-02T20:48:00Z",
         "to": "2021-05-03T06:48:59Z"
@@ -13051,12 +13051,12 @@
       ]
     },
     "urlText": "F3 Parramatta River",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061290&seqID=1",
-    "content": "Allow extra travel time due to heavy fog at various locations on the Parramatta River. Check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061290&seqID=2",
+    "content": "<span>F3 Parramatta River ferries are not running due to heavy fog. Make alternative travel arrangements. Allow extra travel time and check information displays for service updates.&nbsp;</span>",
     "subtitle": "F3 Parramatta River",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to heavy fog at various locations on the Parramatta River. Check information displays for service updates.",
+      "speechText": "F-3 Parramatta River ferries are not running due to heavy fog. Make alternative travel arrangements. Allow extra travel time and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -13203,6 +13203,116 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061295",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-02T21:38:05Z",
+      "lastModification": "2021-05-02T21:46:18Z",
+      "availability": {
+        "from": "2021-05-02T21:38:00Z",
+        "to": "2021-05-03T07:38:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-02T21:38:00Z",
+          "to": "2021-05-03T07:38:59Z"
+        }
+      ]
+    },
+    "urlText": "T1 North Shore & Western Line, T2 Inner West & Leppington Line and T9 Northern Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061295&seqID=2",
+    "content": "Allow extra travel time due to a train requiring mechanical repairs at Redfern earlier. Listen to announcements and check information displays for service updates.&nbsp;",
+    "subtitle": "T1 North Shore & Western Line, T2 Inner West & Leppington Line and T9 Northern Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to a train requiring mechanical repairs at Redfern earlier. Listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
