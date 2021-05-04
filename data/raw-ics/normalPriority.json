@@ -15399,51 +15399,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6061355",
+    "id": "6061356",
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-04T09:45:00Z",
-      "lastModification": "2021-05-04T09:48:00Z",
+      "creation": "2021-05-04T19:06:52Z",
+      "lastModification": "2021-05-04T19:14:15Z",
       "availability": {
-        "from": "2021-05-04T09:45:00Z",
-        "to": "2021-05-04T19:00:59Z"
+        "from": "2021-05-04T19:06:00Z",
+        "to": "2021-05-05T05:06:59Z"
       },
       "validity": [
         {
-          "from": "2021-05-04T09:45:00Z",
-          "to": "2021-05-04T19:00:59Z"
+          "from": "2021-05-04T19:06:00Z",
+          "to": "2021-05-05T05:06:59Z"
         }
       ]
     },
-    "urlText": "14:41 Sydney to Brisbane XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061355&seqID=2",
-    "content": "This service has been delayed due to an earlier failed freighter in the Maitland area.<br /><br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "14:41 Sydney to Brisbane XPT delay.",
+    "urlText": "South Coast Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061356&seqID=2",
+    "content": "No trains are running between Dapto and Albion Park due to signal equipment repairs at Dapto. Bus companies have been contacted to operate a replacement service but are not yet on site. Allow extra travel time, listen to announcements and check information displays for service updates.",
+    "subtitle": "South Coast Line",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "No trains are running between Dapto and Albion Park due to signal equipment repairs at Dapto. Bus companies have been contacted to operate a replacement service but are not yet on site.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76031: :H:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Brisbane (Roma Street) Station",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 31",
-          "number": "31",
-          "description": "Central to Roma St",
-          "iconId": 3,
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
