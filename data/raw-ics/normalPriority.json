@@ -15751,52 +15751,302 @@
   },
   {
     "type": "lineInfo",
-    "id": "6061367",
-    "version": 3,
+    "id": "6061369",
+    "version": 7,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-05T00:45:43Z",
-      "lastModification": "2021-05-05T01:05:41Z",
+      "creation": "2021-05-05T01:39:27Z",
+      "lastModification": "2021-05-05T02:11:48Z",
       "availability": {
-        "from": "2021-05-05T00:45:00Z",
-        "to": "2021-05-05T10:45:59Z"
+        "from": "2021-05-05T01:39:00Z",
+        "to": "2021-05-05T11:39:59Z"
       },
       "validity": [
         {
-          "from": "2021-05-05T00:45:00Z",
-          "to": "2021-05-05T10:45:59Z"
+          "from": "2021-05-05T01:39:00Z",
+          "to": "2021-05-05T11:39:59Z"
         }
       ]
     },
-    "urlText": "T1 North Shore Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061367&seqID=3",
-    "content": "Allow extra travel time away from the city due to a police operation at Town Hall. Listen to announcements and check information displays for service updates as stopping patterns may change at short notice.&nbsp;",
-    "subtitle": "T1 North Shore Line",
+    "urlText": "Central Coast & Newcastle Line, South Coast Line and Blue Mountains Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061369&seqID=7",
+    "content": "Allow plenty of extra travel time or consider delaying your trip due to a police operation at Town Hall. No trains are currently running between Central and North Sydney.&nbsp;<br /><br />As a result:<br /><br />On the Central Coast &amp; Newcastle Line, trains are starting and ending their trips at Hornsby.<br />On the South Coast Line, trains are starting and ending their trips at Sutherland.<br />On the Blue Mountains Line, trains are starting and ending their trips at Penrith.&nbsp;<br /><br />Listen to announcements and check information displays for service updates as stopping patterns may change.&nbsp;",
+    "subtitle": "Central Coast & Newcastle Line, South Coast Line and Blue Mountains Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time away from the city due to a police operation at Town Hall. Listen to announcements and check information displays for service updates as stopping patterns may change at short notice.",
+      "speechText": "Allow plenty of extra travel time or consider delaying your trip due to a police operation at Town Hall. No trains are currently running between Central and North Sydney. \n\nAs a result:\n\nOn the Central Coast & Newcastle Line, trains are starting and ending their trips at Hornsby.\nOn the South Coast Line, trains are starting and ending their trips at Sutherland.\nOn the Blue Mountains Line, trains are starting and ending their trips at Penrith. \n\nListen to announcements and check information displays for service updates as stopping patterns may change.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T1:N:H:",
+          "id": "nsw:02CCN: :H:",
           "destination": {
-            "name": "Berowra Station",
+            "name": "Newcastle Interchange",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "iconId": 1,
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76BMT: :R:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Lithgow",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SCO: :R:",
+          "destination": {
+            "name": "Kiama Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry to Kiama",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SCO: :H:",
+          "destination": {
+            "name": "Bomaderry Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Kiama to Bomaderry",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "generalInfo",
+    "id": "6061370",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-05T01:48:22Z",
+      "lastModification": "2021-05-05T01:48:28Z",
+      "availability": {
+        "from": "2021-05-05T01:48:00Z",
+        "to": "2021-05-05T02:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-05T01:48:00Z",
+          "to": "2021-05-05T02:30:59Z"
+        }
+      ]
+    },
+    "urlText": "Call centre is currently experiencing high call volumes",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061370&seqID=1",
+    "subtitle": "Call centre is currently experiencing high call volumes",
+    "properties": {
+      "providerCode": "Serco",
+      "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061371",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-05T01:50:44Z",
+      "lastModification": "2021-05-05T01:52:37Z",
+      "availability": {
+        "from": "2021-05-05T01:50:00Z",
+        "to": "2021-05-05T13:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-05T01:50:00Z",
+          "to": "2021-05-05T13:00:59Z"
+        }
+      ]
+    },
+    "urlText": "11:41 Sydney to Grafton XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061371&seqID=1",
+    "content": "This service is delayed due to an operational issue.<br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
+    "subtitle": "11:41 Sydney to Grafton XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 35",
+          "number": "35",
+          "description": "Central to Grafton",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
