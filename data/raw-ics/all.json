@@ -30763,11 +30763,11 @@
   {
     "type": "lineInfo",
     "id": "6061431",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-06T05:20:57Z",
-      "lastModification": "2021-05-06T05:28:00Z",
+      "lastModification": "2021-05-06T05:30:49Z",
       "availability": {
         "from": "2021-05-06T05:20:00Z",
         "to": "2021-05-06T15:20:59Z"
@@ -30780,12 +30780,12 @@
       ]
     },
     "urlText": "Diversion in Epping",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061431&seqID=1",
-    "content": "Buses are diverting away from a crash at Midson Road and Boronia Avenue. They are using Carlingford Road instead, missing five stops.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061431&seqID=2",
+    "content": "Buses are diverting away from Midson Road at Boronia Avenue due to a car crash. They are using Carlingford Road instead, missing five stops.&nbsp;",
     "subtitle": "Diversion in Epping",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Epping, route 5-5-0 and school buses are diverting away from a crash at Midson Road and Boronia Avenue. They are using Carlingford Road instead, missing five stops.",
+      "speechText": "In Epping, route 5-5-0 and school buses are diverting away from Midson Road at Boronia Avenue due to a car crash. They are using Carlingford Road instead, missing five stops.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -31254,6 +31254,110 @@
             "id": "placeID:95313007:1",
             "name": "Campbelltown",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061433",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-06T05:30:14Z",
+      "lastModification": "2021-05-06T05:32:19Z",
+      "availability": {
+        "from": "2021-05-06T05:30:00Z",
+        "to": "2021-05-06T22:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-06T05:30:00Z",
+          "to": "2021-05-06T22:30:59Z"
+        }
+      ]
+    },
+    "urlText": "19:50 Melbourne to Sydney XPT Alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061433&seqID=1",
+    "content": "Due to an operational issue this service is replaced by road coaches from Melbourne to Albury. At Albury passengers will join the XPT for the remainder of their journey.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "19:50 Melbourne to Sydney XPT Alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061435",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-06T05:32:39Z",
+      "lastModification": "2021-05-06T05:34:35Z",
+      "availability": {
+        "from": "2021-05-06T05:32:00Z",
+        "to": "2021-05-06T12:32:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-06T05:32:00Z",
+          "to": "2021-05-06T12:32:59Z"
+        }
+      ]
+    },
+    "urlText": "07:40 Sydney to Melbourne XPT alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061435&seqID=1",
+    "content": "This service will terminate at Albury where passengers will join road coaches for the remainder of their journey.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
+    "subtitle": "07:40 Sydney to Melbourne XPT alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Sta",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
