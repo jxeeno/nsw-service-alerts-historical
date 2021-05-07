@@ -29842,91 +29842,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6061483",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-05-07T05:08:45Z",
-      "lastModification": "2021-05-07T05:09:00Z",
-      "availability": {
-        "from": "2021-05-07T05:08:00Z",
-        "to": "2021-05-13T15:08:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-05-07T05:08:00Z",
-          "to": "2021-05-13T15:08:59Z"
-        }
-      ]
-    },
-    "urlText": "Kogarah lift outage - between platforms 2/3 and concourse",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061483&seqID=1",
-    "content": "The lift between the concourse and platforms 2 &amp; 3 is temporarily out of service.&nbsp;For assistance, please ask staff or call 9563 7273.",
-    "subtitle": "Kogarah lift outage - between platforms 2/3 and concourse",
-    "properties": {
-      "providerCode": "RMC",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101336:2217193,2217192",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T4: :R:",
-          "destination": {
-            "name": "Bondi Junction via Central",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Waterfall or Cronulla to Bondi Junction",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :H:",
-          "destination": {
-            "name": "Waterfall",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10101336",
-          "name": "Kogarah Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95351010:1",
-            "name": "Kogarah",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6061492",
     "version": 3,
@@ -30531,6 +30446,97 @@
           "operator": {
             "id": "2435",
             "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061499",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-07T09:56:42Z",
+      "lastModification": "2021-05-07T09:58:53Z",
+      "availability": {
+        "from": "2021-05-07T09:56:00Z",
+        "to": "2021-05-07T19:56:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-07T09:56:00Z",
+          "to": "2021-05-07T19:56:59Z"
+        }
+      ]
+    },
+    "urlText": "Southern Highlands Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061499&seqID=1",
+    "content": "Allow extra travel time due to signal repairs between Picton and Douglas Park. Listen to announcements and check information displays for service updates.",
+    "subtitle": "Southern Highlands Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to signal repairs between Picton and Douglas Park. Listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76SHL: :H:",
+          "destination": {
+            "name": "Goulburn Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Campbelltown to Moss Vale",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02SHL: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Goulburn to Campbelltown and Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SHL: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Moss Vale to Campbelltown",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
