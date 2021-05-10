@@ -1303,45 +1303,83 @@
   },
   {
     "type": "stopInfo",
-    "id": "6061582",
+    "id": "6061585",
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-05-10T05:54:57Z",
-      "lastModification": "2021-05-10T05:55:07Z",
+      "creation": "2021-05-10T06:52:33Z",
+      "lastModification": "2021-05-10T06:52:46Z",
       "availability": {
-        "from": "2021-05-10T05:54:00Z",
-        "to": "2021-05-16T15:54:59Z"
+        "from": "2021-05-10T06:52:00Z",
+        "to": "2021-05-16T16:52:59Z"
       },
       "validity": [
         {
-          "from": "2021-05-10T05:54:00Z",
-          "to": "2021-05-16T15:54:59Z"
+          "from": "2021-05-10T06:52:00Z",
+          "to": "2021-05-16T16:52:59Z"
         }
       ]
     },
-    "urlText": "St James lift outage between platforms 1/2 and concourse",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061582&seqID=1",
-    "content": "The lift between platforms 1 and 2 and the concourse is temporarily out of service.<br /><br />If you require assistance, please call staff at St James Station on 9224 4751.<br /><br />&nbsp;This lift is expected to be back in service by __________.",
-    "subtitle": "St James lift outage between platforms 1/2 and concourse",
+    "urlText": "Emu Plains lift outage between platform 2 to footbridge",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061585&seqID=1",
+    "content": "The lift between platform 2 and the footbridge is temporarily out of service. For assistance, ask staff or call 4780 3817.",
+    "subtitle": "Emu Plains lift outage between platform 2 to footbridge",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101105:2000382,2000381",
+      "stopIDglobalID": "10101253:2750492",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T2: :R:",
+          "id": "nsw:02BMT: :R:",
           "destination": {
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
+          "name": "Intercity Trains Net Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:020T1:C:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "Emu Plains to City, Richmond to City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -1353,52 +1391,14 @@
           }
         },
         {
-          "id": "nsw:020T2: :H:",
+          "id": "nsw:020T1:W:R:",
           "destination": {
-            "name": "Leppington Station",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T8: :H:",
-          "destination": {
-            "name": "Glenfield Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
+          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "Emu Plains or Richmond to City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -1412,11 +1412,12 @@
       ],
       "stops": [
         {
-          "id": "10101105",
-          "name": "St James Station",
+          "id": "10101253",
+          "name": "Emu Plains Station",
           "type": "stop",
           "parent": {
-            "name": "Sydney",
+            "id": "placeID:95347009:1",
+            "name": "Emu Plains",
             "type": "locality"
           }
         }
