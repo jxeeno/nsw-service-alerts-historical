@@ -14883,11 +14883,11 @@
   {
     "type": "lineInfo",
     "id": "6061581",
-    "version": 7,
+    "version": 8,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-10T05:49:33Z",
-      "lastModification": "2021-05-10T07:24:38Z",
+      "lastModification": "2021-05-10T07:36:04Z",
       "availability": {
         "from": "2021-05-10T05:49:00Z",
         "to": "2021-05-10T15:49:59Z"
@@ -14900,7 +14900,7 @@
       ]
     },
     "urlText": "T1 Western Line, T1 North Shore Line, T2 Inner West & Leppington, T5 Cumberland Line, Blue Mountains Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061581&seqID=7",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061581&seqID=8",
     "content": "Delay your trip or allow plenty of extra travel time due to a trespasser on the tracks between Westmead and Parramatta. Trains are currently stopped in the area while emergency services are on site. Listen to announcements and check information displays as train stopping patterns may change.&nbsp;",
     "subtitle": "T1 Western Line, T1 North Shore Line, T2 Inner West & Leppington, T5 Cumberland Line, Blue Mountains Line",
     "properties": {
@@ -15119,6 +15119,25 @@
             "id": "X0000",
             "name": "NSW Trains"
           }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
         }
       ]
     }
@@ -15148,6 +15167,154 @@
     "properties": {
       "providerCode": "Serco",
       "additionalContent": "We are currently experiencing a high volume of calls. For trip planning, timetables, ticket and map information you can visit our website at www.transportnsw.info"
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061592",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-10T07:32:00Z",
+      "lastModification": "2021-05-10T07:34:31Z",
+      "availability": {
+        "from": "2021-05-10T07:32:00Z",
+        "to": "2021-05-10T17:32:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-10T07:32:00Z",
+          "to": "2021-05-10T17:32:59Z"
+        }
+      ]
+    },
+    "urlText": "Some delays in Parramatta",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061592&seqID=1",
+    "content": "Due to a police operation on O'Connell Street at Parramatta Station, some buses are being delayed.",
+    "subtitle": "Some delays in Parramatta",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Parramatta, some route 9 oh 6, 9 oh 7 and 9 oh 9 buses are delayed up to 15 minutes due to a police operation on O'Connell Street near Parramatta Station.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38906: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 906",
+          "number": "906",
+          "description": "Fairfield to Parramatta",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38906: :R:",
+          "destination": {
+            "name": "Fairfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 906",
+          "number": "906",
+          "description": "Parramatta to Fairfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Bankstown to Parramatta via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38907: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 907",
+          "number": "907",
+          "description": "Parramatta to Bankstown via Bass Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38909: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 909",
+          "number": "909",
+          "description": "Bankstown to Parramatta via Birrong & Auburn",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38909: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 909",
+          "number": "909",
+          "description": "Parramatta to Bankstown via Auburn & Birrong",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        }
+      ]
     }
   }
 ]
