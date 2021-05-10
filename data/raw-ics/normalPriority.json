@@ -14111,58 +14111,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6061551",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-05-09T16:28:00Z",
-      "lastModification": "2021-05-09T16:38:00Z",
-      "availability": {
-        "from": "2021-05-09T16:28:00Z",
-        "to": "2021-05-10T02:28:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-05-09T16:28:00Z",
-          "to": "2021-05-10T02:28:59Z"
-        }
-      ]
-    },
-    "urlText": "19:50 Melbourne to Sydney XPT Alteration and Delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061551&seqID=1",
-    "content": "<span>This service has terminated at Albury due to mechanical issues. At Albury passengers will join road coaches for the remainder of their journey.</span>&nbsp;There are significant delays.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "19:50 Melbourne to Sydney XPT Alteration and Delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6061561",
     "version": 2,
     "priority": "normal",
@@ -14232,6 +14180,135 @@
           "operator": {
             "id": "3000",
             "name": "Newcastle Transport"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6061570",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-10T02:37:04Z",
+      "lastModification": "2021-05-10T02:39:05Z",
+      "availability": {
+        "from": "2021-05-10T02:37:00Z",
+        "to": "2021-05-29T22:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-28T10:00:00Z",
+          "to": "2021-05-28T22:00:59Z"
+        },
+        {
+          "from": "2021-05-29T10:00:00Z",
+          "to": "2021-05-29T22:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Penrith bus diversions",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061570&seqID=1",
+    "content": "From 8pm to 8am on Friday 28 and Saturday 29 May, Jamison Road will be closed and<strong> route 770</strong> bus services will miss some stops due to roadworks.<br /><br /><strong>Closed stops</strong>\n<ul>\n<li><strong>Jamison Road after Parker Street (2747346)</strong></li>\n<li><strong>Jamison Road before Parker Street (274774)</strong></li>\n<li><strong>Jamison Road opp Gladys Street (274768)</strong></li>\n<li><strong>Jamison Road at Gladys Street (274773)</strong></li>\n<li><strong>Jamison Road opp Stapley Street (274769)</strong></li>\n<li><strong>Jamison Road at Stapley Street (274772)</strong></li>\n</ul>\n<br /><br />",
+    "subtitle": "Penrith bus diversions",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G2747346:2747346#G274774:274774#G274768:274768,274773#G274769:274769#G274772:274772",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:20770: :H:",
+          "destination": {
+            "name": "Mount Druitt",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 770",
+          "number": "770",
+          "description": "Penrith to Mount Druitt via St Marys",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20770: :R:",
+          "destination": {
+            "name": "Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 770",
+          "number": "770",
+          "description": "Mount Druitt to Penrith via St Marys",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G2747346",
+          "name": "Jamison Rd after Parker St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347014:1",
+            "name": "Kingswood (2747)",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G274774",
+          "name": "Jamison Rd before Parker St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347014:1",
+            "name": "Kingswood (2747)",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G274768",
+          "name": "Jamison Rd near Gladys St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347014:1",
+            "name": "Kingswood (2747)",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G274769",
+          "name": "Jamison Rd opp Stapley St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347014:1",
+            "name": "Kingswood (2747)",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G274772",
+          "name": "Jamison Rd at Stapley St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347014:1",
+            "name": "Kingswood (2747)",
+            "type": "locality"
           }
         }
       ]
