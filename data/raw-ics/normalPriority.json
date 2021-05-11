@@ -16111,51 +16111,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6061645",
+    "id": "6061649",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-11T14:23:00Z",
-      "lastModification": "2021-05-11T14:24:00Z",
+      "creation": "2021-05-11T21:24:06Z",
+      "lastModification": "2021-05-11T21:26:28Z",
       "availability": {
-        "from": "2021-05-11T14:23:00Z",
-        "to": "2021-05-11T21:23:59Z"
+        "from": "2021-05-11T21:24:00Z",
+        "to": "2021-05-12T07:24:59Z"
       },
       "validity": [
         {
-          "from": "2021-05-11T14:23:00Z",
-          "to": "2021-05-11T21:23:59Z"
+          "from": "2021-05-11T21:24:00Z",
+          "to": "2021-05-12T07:24:59Z"
         }
       ]
     },
-    "urlText": "19:50 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061645&seqID=1",
-    "content": "This service has been delayed due to a freight train witn a mechanical issue near Seymour.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "19:50 Melbourne to Sydney XPT delay.",
+    "urlText": "Some delays in Fairfield",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061649&seqID=1",
+    "content": "Heavy traffic on The Horsley Drive caused by a police operation on Fairfield Street is delaying some buses in the area.&nbsp;",
+    "subtitle": "Some delays in Fairfield",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Fairfield, Heavy traffic on The Horsley Drive caused by a police operation on Fairfield Street is delaying some buses up to 20 minutes.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:38904: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Liverpool Interchange, Liverpool",
             "type": "stop"
           },
-          "name": "Regional Trains and 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 904",
+          "number": "904",
+          "description": "Fairfield to Liverpool",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38904: :H:",
+          "destination": {
+            "name": "Fairfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 904",
+          "number": "904",
+          "description": "Liverpool to Fairfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38905: :R:",
+          "destination": {
+            "name": "Fairfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 905",
+          "number": "905",
+          "description": "Bankstown to Fairfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38905: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 905",
+          "number": "905",
+          "description": "Fairfield to Bankstown",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
