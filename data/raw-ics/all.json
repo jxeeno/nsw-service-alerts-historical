@@ -28470,11 +28470,11 @@
   {
     "type": "lineInfo",
     "id": "6061695",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-13T01:41:19Z",
-      "lastModification": "2021-05-13T04:09:26Z",
+      "lastModification": "2021-05-13T04:25:53Z",
       "availability": {
         "from": "2021-05-13T01:41:00Z",
         "to": "2021-05-13T11:41:59Z"
@@ -28486,10 +28486,10 @@
         }
       ]
     },
-    "urlText": "T1 North Shore & Western Line and T9 Northern Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061695&seqID=4",
+    "urlText": "T1 Western Line and T9 Northern Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061695&seqID=5",
     "content": "Allow extra travel time due to signal equipment repairs at Wynyard earlier. Listen to announcements and check information displays for service updates.&nbsp;",
-    "subtitle": "T1 North Shore & Western Line and T9 Northern Line",
+    "subtitle": "T1 Western Line and T9 Northern Line",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow extra travel time due to signal equipment repairs at Wynyard earlier. Listen to announcements and check information displays for service updates.",
@@ -28498,25 +28498,6 @@
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:020T1:N:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
         {
           "id": "nsw:020T1:W:H:",
           "destination": {
@@ -28564,6 +28545,25 @@
           "name": "Sydney Trains Network T9 Northern Line",
           "number": "T9 Northern Line",
           "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -29895,6 +29895,143 @@
           "parent": {
             "name": "Holsworthy",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6061709",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-13T04:15:37Z",
+      "lastModification": "2021-05-13T04:23:37Z",
+      "availability": {
+        "from": "2021-05-13T04:15:00Z",
+        "to": "2021-05-14T07:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-13T21:00:00Z",
+          "to": "2021-05-14T07:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Cromer bus diversion",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061709&seqID=1",
+    "content": "From 7am to 5pm on Friday 14 May the route 178 will need to start and end at the bus stop in <strong>Truman Ave opposite Truman Shop (2099209)</strong>.",
+    "subtitle": "Cromer bus diversion",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G2099209:2099209",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:28178: :H:",
+          "destination": {
+            "name": "Cromer Hts",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 178",
+          "number": "178",
+          "description": "Warringah Mall to Cromer Heights",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G2099209",
+          "name": "Truman Ave opp Truman Ave Shops",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95360007:1",
+            "name": "Cromer",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061710",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-13T04:24:03Z",
+      "lastModification": "2021-05-13T04:27:13Z",
+      "availability": {
+        "from": "2021-05-13T04:24:00Z",
+        "to": "2021-05-20T18:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-20T09:00:00Z",
+          "to": "2021-05-20T18:30:59Z"
+        }
+      ]
+    },
+    "urlText": "Buses replace light rail services",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061710&seqID=1",
+    "content": "From 7pm Thursday 20 until 4.30am on Friday 21 May 2021, Newcastle light rail services will not run due to maintenance works.<br /><br />Buses will replace the light rail from 7pm until end of services at 1am, with bus routes 11 and 13 also running along Hunter and King streets.<br /><br />Visit <a href=\"http://www.newcastletransport.info\">newcastletransport.info</a> for more information.",
+    "subtitle": "Buses replace light rail services",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:78NLR: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Beach to Newcastle Interchange",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:78NLR: :H:",
+          "destination": {
+            "name": "Newcastle Beach Light Rail, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Interchange to Newcastle Beach",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
           }
         }
       ]
