@@ -21134,11 +21134,11 @@
   {
     "type": "stopInfo",
     "id": "6061700",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-13T02:18:41Z",
-      "lastModification": "2021-05-13T02:25:16Z",
+      "lastModification": "2021-05-13T06:20:55Z",
       "availability": {
         "from": "2021-05-13T02:18:00Z",
         "to": "2021-05-21T05:00:59Z"
@@ -21159,71 +21159,21 @@
       ]
     },
     "urlText": "Foley St, temporary bus stop closures",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061700&seqID=1",
-    "content": "<strong>Between 9am to 3pm each day from Wednesday 19 to Friday 21 May 2021</strong>, the following bus stop closures will be in place due to the Mona Vale Rd upgrade works:&nbsp;\n<ul>\n<li>Bus stop <strong>Pittwater Memorial Bowling Club, Foley St (210354)</strong> will be closed. The alternative bus stop will be&nbsp;Mona Vale Rd opposite&nbsp;<strong>Pittwater Memorial Bowling Club (210396)</strong>&nbsp;for the 185 and 185X towards the City Wynyard.&nbsp;</li>\n<li>Bus stop&nbsp;<strong>Foley St opposite Pittwater Memorial Bowling Club (210391)</strong> will be closed. The alternative bus stop will be&nbsp;<strong>Mona Vale Rd before Foley St (210387)</strong> for the 185 and 185X towards Mona Vale.&nbsp;</li>\n</ul>\n<p class=\"x_MsoListParagraph\">&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061700&seqID=2",
+    "content": "<strong>Between 9am to 3pm each day from Wednesday 19 to Friday 21 May 2021</strong>, the following bus stop closures will be in place due to the Mona Vale Rd upgrade works:&nbsp;\n<ul>\n<li>Bus stop <strong>Pittwater Memorial Bowling Club, Foley St (210354)</strong> will be closed. The alternative bus stop will be&nbsp;Mona Vale Rd opposite <strong>Warriewood Rd after Harris St (210244)</strong>&nbsp;for the 185 towards the City Wynyard.&nbsp;</li>\n<li>Bus stop&nbsp;<strong>Foley St opposite Pittwater Memorial Bowling Club (210391)</strong> will be closed. The alternative bus stop will be <strong>Warriewood Rd after Vineyard St (210212)</strong> for the 185 towards Mona Vale.&nbsp;</li>\n</ul>\n<p class=\"x_MsoListParagraph\">&nbsp;",
     "subtitle": "Foley St, temporary bus stop closures",
     "properties": {
       "providerCode": "PTMarketing",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "G210354:210354#G2103101:210396#G210391:210391#G210387:210387",
+      "stopIDglobalID": "G210354:210354#G210391:210391#G210244:210244#G210212:210212",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
-      "lines": [
-        {
-          "id": "nsw:28185: :H:",
-          "destination": {
-            "name": "Mona Vale",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 185",
-          "number": "185",
-          "description": "Narrabeen to Mona Vale via Warriewood Valley",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2440",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:28185: :R:",
-          "destination": {
-            "name": "Narrabeen",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 185",
-          "number": "185",
-          "description": "Mona Vale to Narrabeen via Warriewood Valley",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2440",
-            "name": "State Transit"
-          }
-        }
-      ],
       "stops": [
         {
           "id": "G210354",
           "name": "Pittwater Memorial Bowling Club, Foley St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95348010:1",
-            "name": "Mona Vale",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G2103101",
-          "name": "Mona Vale Rd near Foley St",
           "type": "stop",
           "parent": {
             "id": "placeID:95348010:1",
@@ -21242,12 +21192,22 @@
           }
         },
         {
-          "id": "G210387",
-          "name": "Mona Vale Rd before Foley St",
+          "id": "G210244",
+          "name": "Warriewood Rd after Harris St",
           "type": "stop",
           "parent": {
-            "id": "placeID:95348010:1",
-            "name": "Mona Vale",
+            "id": "placeID:95348017:1",
+            "name": "Warriewood",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G210212",
+          "name": "Warriewood Rd after Vineyard St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95348017:1",
+            "name": "Warriewood",
             "type": "locality"
           }
         }
