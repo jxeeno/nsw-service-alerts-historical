@@ -27954,77 +27954,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6061738",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-05-14T02:49:00Z",
-      "lastModification": "2021-05-14T02:51:00Z",
-      "availability": {
-        "from": "2021-05-14T02:49:00Z",
-        "to": "2021-05-14T08:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-05-14T02:49:00Z",
-          "to": "2021-05-14T08:00:59Z"
-        }
-      ]
-    },
-    "urlText": "09:30 Sydney to Armidale and Moree XPLORER service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061738&seqID=1",
-    "content": "These services are delayed due to an operational issue.<br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;\n<br /><br />",
-    "subtitle": "09:30 Sydney to Armidale and Moree XPLORER service delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76223: :H:",
-          "destination": {
-            "name": "Armidale Station, Armidale",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 223",
-          "number": "223",
-          "description": "Central to Armidale",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76243: :H:",
-          "destination": {
-            "name": "Narrabri Station, Narrabri",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 243",
-          "number": "243",
-          "description": "Werris Creek to Narrabri",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6061739",
     "version": 1,
@@ -28140,6 +28069,91 @@
           "type": "stop",
           "parent": {
             "name": "Sydney",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6061753",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-05-14T08:47:33Z",
+      "lastModification": "2021-05-14T08:47:43Z",
+      "availability": {
+        "from": "2021-05-14T08:47:00Z",
+        "to": "2021-05-14T18:47:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-14T08:47:00Z",
+          "to": "2021-05-14T18:47:59Z"
+        }
+      ]
+    },
+    "urlText": "Leumeah lift outage between platform 2, O'Sullivan Rd and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061753&seqID=1",
+    "content": "The lift between the concourse, platform 2 and O'Sullivan Road is temporarily out of service. For assistance, ask staff or call 4629 0847.&nbsp;",
+    "subtitle": "Leumeah lift outage between platform 2, O'Sullivan Rd and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101295:2560702",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101295",
+          "name": "Leumeah Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313019:1",
+            "name": "Leumeah",
             "type": "locality"
           }
         }
