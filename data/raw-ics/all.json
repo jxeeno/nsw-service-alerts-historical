@@ -106,26 +106,26 @@
   {
     "type": "lineInfo",
     "id": "6061791",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-15T21:37:30Z",
-      "lastModification": "2021-05-15T21:38:49Z",
+      "lastModification": "2021-05-16T03:18:29Z",
       "availability": {
         "from": "2021-05-15T21:37:00Z",
-        "to": "2021-05-16T09:30:59Z"
+        "to": "2021-05-16T12:00:59Z"
       },
       "validity": [
         {
           "from": "2021-05-15T21:37:00Z",
-          "to": "2021-05-16T09:30:59Z"
+          "to": "2021-05-16T12:00:59Z"
         }
       ]
     },
-    "urlText": "07:40 Sydney to Melbourne XPT service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061791&seqID=1",
-    "content": "This service is delayed due to a mechanical issue.<br /><br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "07:40 Sydney to Melbourne XPT service delay.",
+    "urlText": "07:40 Sydney to Melbourne XPT service delay and alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061791&seqID=2",
+    "content": "Due to a mechanical issue and a significant delay, this service will terminate at Albury. Customers will be transferred to a road coach service at Albury for the remainder of their journey.<br /><br /><br /> Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
+    "subtitle": "07:40 Sydney to Melbourne XPT service delay and alteration.",
     "properties": {
       "providerCode": "NSWTL",
       "announcementType": "serviceChange",
@@ -561,11 +561,11 @@
   {
     "type": "lineInfo",
     "id": "6061797",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-16T02:58:13Z",
-      "lastModification": "2021-05-16T03:16:19Z",
+      "lastModification": "2021-05-16T03:26:12Z",
       "availability": {
         "from": "2021-05-16T02:58:00Z",
         "to": "2021-05-16T12:58:59Z"
@@ -578,8 +578,8 @@
       ]
     },
     "urlText": "T8 Airport & South Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061797&seqID=3",
-    "content": "Trains are travelling via Sydenham and not stopping at Green Square, Mascot, Domestic Airport, International Airport or Wolli Creek due to a police operation at Domestic Airport.&nbsp;<br /><br />Passengers wishing to travel to these stations are advised to delay their trip until replacement buses are operating. Replacement buses will operate between Central and Turrella once on site.<br /><br />Passengers already travelling should allow plenty of extra travel time, listen to station announcements and check information displays for updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061797&seqID=4",
+    "content": "Trains are travelling via Sydenham and not stopping at Green Square, Mascot, Domestic Airport, International Airport or Wolli Creek due to a police operation at Domestic Airport.&nbsp;<br /><br />Passengers wishing to travel to these stations are advised to delay their trip until replacement buses are operating.&nbsp;<br /><br />Passengers already travelling should allow plenty of extra travel time, listen to station announcements and check information displays for updates.",
     "subtitle": "T8 Airport & South Line",
     "properties": {
       "providerCode": "TMC",
@@ -625,6 +625,58 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6061798",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-16T03:18:38Z",
+      "lastModification": "2021-05-16T03:21:21Z",
+      "availability": {
+        "from": "2021-05-16T03:18:00Z",
+        "to": "2021-05-16T13:55:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-16T03:18:00Z",
+          "to": "2021-05-16T13:55:59Z"
+        }
+      ]
+    },
+    "urlText": "19:50 Melbourne to Sydney overnight XPT service alteration.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061798&seqID=1",
+    "content": "Due to an earlier mechanical issue, this service has been replaced by a road coach service between Melbourne and Albury. Customers will join the XPT train at Albury for the remainder of their journey.<br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
+    "subtitle": "19:50 Melbourne to Sydney overnight XPT service alteration.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
