@@ -3769,11 +3769,11 @@
   {
     "type": "stopInfo",
     "id": "6061885",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-18T04:48:00Z",
-      "lastModification": "2021-05-18T04:49:00Z",
+      "creation": "2021-05-18T04:48:13Z",
+      "lastModification": "2021-05-19T05:09:48Z",
       "availability": {
         "from": "2021-05-18T04:48:00Z",
         "to": "2021-05-31T15:30:59Z"
@@ -3786,13 +3786,13 @@
       ]
     },
     "urlText": "City Circle trains run to a changed timetable, in one direction only",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061885&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061885&seqID=2",
     "content": "<strong>Monday 31 May</strong>\n<ul>\n<li><strong>From 10pm until 11.55pm</strong>, trains run in one direction only, from Central first stop Museum.</li>\n<li><strong>From 11.55pm until 1.30am</strong>, trains run in one direction only, from Central first stop Town Hall.</li>\n<li>Some City Circle trains run to a changed timetable and leave from different platforms.</li>\n<li>Some trains start or end at Central. You may need to change trains to continue your journey.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
     "subtitle": "City Circle trains run to a changed timetable, in one direction only",
     "properties": {
       "providerCode": "PTMarketing",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101100:2000343,2000342,2000341,2000340,2000339,2000338,2000337,2000336#10101101:2000396,2000395,2000394,2000393,2000392,2000391#10101105:2000382,2000381#10101104:2000372,2000371#10101103:2000352,2000351#10101102:2000406,2000405,2000404,2000403",
+      "stopIDglobalID": "200060:2000336,2000337,2000338,2000339,2000340,2000341,2000342,2000343#200070:2000391,2000392,2000393,2000394,2000395,2000396#200050:2000381,2000382#200040:2000371,2000372#200020:2000351,2000352#200080:2000403,2000404,2000405,2000406",
       "speechText": "Monday 31 May\n\n    From 10 PM until 11 55 PM, trains run in one direction only, from Central first stop Museum.\n    From 11 55 PM until 1 30 AM, trains run in one direction only, from Central first stop Town Hall.",
       "announcementType": "trackwork",
       "publishToAreas": "1"
@@ -3802,50 +3802,12 @@
         {
           "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Leppington Station",
+            "name": "Parramatta via Strathfield",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
           "number": "T2 Inner West & Leppington Line",
           "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T8: :H:",
-          "destination": {
-            "name": "Macarthur Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -3862,9 +3824,28 @@
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
           "number": "T2 Inner West & Leppington Line",
           "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "City Circle via Town Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -3881,9 +3862,28 @@
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T3 Bankstown Line",
+          "name": "Sydney Trains Network T3 Bankstown Line",
           "number": "T3 Bankstown Line",
           "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "City Circle via Town Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -3900,7 +3900,7 @@
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T8 Airport & South Line",
+          "name": "Sydney Trains Network T8 Airport & South Line",
           "number": "T8 Airport & South Line",
           "description": "Macarthur to City via Airport or Sydenham",
           "iconId": 1,
@@ -3916,7 +3916,7 @@
       ],
       "stops": [
         {
-          "id": "10101100",
+          "id": "200060",
           "name": "Central Station",
           "type": "stop",
           "parent": {
@@ -3926,27 +3926,25 @@
           }
         },
         {
-          "id": "10101101",
+          "id": "200070",
           "name": "Town Hall Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95301001:1",
             "name": "Sydney",
             "type": "locality"
           }
         },
         {
-          "id": "10101105",
+          "id": "200050",
           "name": "St James Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95301001:1",
             "name": "Sydney",
             "type": "locality"
           }
         },
         {
-          "id": "10101104",
+          "id": "200040",
           "name": "Museum Station",
           "type": "stop",
           "parent": {
@@ -3956,17 +3954,16 @@
           }
         },
         {
-          "id": "10101103",
-          "name": "Circular Quay Station",
+          "id": "200020",
+          "name": "Circular Quay",
           "type": "stop",
           "parent": {
-            "id": "placeID:95301001:1",
             "name": "Sydney",
             "type": "locality"
           }
         },
         {
-          "id": "10101102",
+          "id": "200080",
           "name": "Wynyard Station",
           "type": "stop",
           "parent": {
