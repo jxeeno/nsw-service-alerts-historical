@@ -23126,58 +23126,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6061968",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-05-20T05:11:11Z",
-      "lastModification": "2021-05-20T05:13:08Z",
-      "availability": {
-        "from": "2021-05-20T05:11:00Z",
-        "to": "2021-05-20T09:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-05-20T05:11:00Z",
-          "to": "2021-05-20T09:00:59Z"
-        }
-      ]
-    },
-    "urlText": "07:40 Sydney to Melbourne XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061968&seqID=1",
-    "content": "This service is delayed due to speed restrictions imposed by the ARTC at Junee.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
-    "subtitle": "07:40 Sydney to Melbourne XPT delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6061971",
     "version": 1,
@@ -23824,11 +23772,11 @@
   {
     "type": "lineInfo",
     "id": "6061978",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-20T08:31:12Z",
-      "lastModification": "2021-05-20T08:52:40Z",
+      "lastModification": "2021-05-20T09:13:22Z",
       "availability": {
         "from": "2021-05-20T08:31:00Z",
         "to": "2021-05-20T18:31:59Z"
@@ -23840,10 +23788,10 @@
         }
       ]
     },
-    "urlText": "T1 Western Line and T5 Cumberland Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061978&seqID=2",
+    "urlText": "T1 Western Line, T1 North Shore Line and T5 Cumberland Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061978&seqID=3",
     "content": "Allow extra travel time due to track equipment repairs at Granville earlier. Listen to announcements and check information displays for service updates.",
-    "subtitle": "T1 Western Line and T5 Cumberland Line",
+    "subtitle": "T1 Western Line, T1 North Shore Line and T5 Cumberland Line",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow extra travel time due to track equipment repairs at Granville earlier. Listen to announcements and check information displays for service updates.",
@@ -23918,6 +23866,44 @@
           "name": "Sydney Trains Network T5 Cumberland Line",
           "number": "T5 Cumberland Line",
           "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
           "iconId": 1,
           "product": {
             "class": 1,
