@@ -28104,11 +28104,11 @@
   {
     "type": "lineInfo",
     "id": "6061944",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-20T02:07:13Z",
-      "lastModification": "2021-05-20T02:11:54Z",
+      "lastModification": "2021-05-20T02:59:57Z",
       "availability": {
         "from": "2021-05-20T02:07:00Z",
         "to": "2021-05-20T12:07:59Z"
@@ -28121,12 +28121,12 @@
       ]
     },
     "urlText": "South Coast Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061944&seqID=1",
-    "content": "Trains are not running between Bomadery and Kiama due to track equipment repairs at Berry. Replacement buses are being organised but are not on site. Make alternative arrangements or allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061944&seqID=2",
+    "content": "Trains have resumed between Bomadery and Kiama after track equipment repairs at Berry earlier. Allow extra travel time, listen to announcements and check information displays as services return to normal.",
     "subtitle": "South Coast Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Trains are not running between Bomadery and Kiama due to track equipment repairs at Berry. Replacement buses are being organised but are not on site. Make alternative arrangements or allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Trains have resumed between Bomadery and Kiama after track equipment repairs at Berry earlier. Allow extra travel time, listen to announcements and check information displays as services return to normal.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -29945,6 +29945,91 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6061962",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-05-20T02:51:41Z",
+      "lastModification": "2021-05-20T02:51:57Z",
+      "availability": {
+        "from": "2021-05-20T02:51:00Z",
+        "to": "2021-06-30T12:51:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-20T02:51:00Z",
+          "to": "2021-06-30T12:51:59Z"
+        }
+      ]
+    },
+    "urlText": "Carlton lift outage between concourse and Railway Parade",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061962&seqID=1",
+    "content": "The lift between the concourse and Railway Parade is temporarily out of service. For assistance, ask staff or call 9563 7612.",
+    "subtitle": "Carlton lift outage between concourse and Railway Parade",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101337:221894,221893,221892,221891",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101337",
+          "name": "Carlton Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95329002:1",
+            "name": "Carlton",
+            "type": "locality"
           }
         }
       ]
