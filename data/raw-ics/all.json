@@ -27716,52 +27716,85 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6062060",
+    "type": "stopInfo",
+    "id": "6062063",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-05-22T23:39:24Z",
-      "lastModification": "2021-05-22T23:42:10Z",
+      "creation": "2021-05-23T03:15:46Z",
+      "lastModification": "2021-05-23T03:16:06Z",
       "availability": {
-        "from": "2021-05-22T23:39:00Z",
-        "to": "2021-05-23T03:00:59Z"
+        "from": "2021-05-23T03:15:00Z",
+        "to": "2021-06-06T13:15:59Z"
       },
       "validity": [
         {
-          "from": "2021-05-22T23:39:00Z",
-          "to": "2021-05-23T03:00:59Z"
+          "from": "2021-05-23T03:15:00Z",
+          "to": "2021-06-06T13:15:59Z"
         }
       ]
     },
-    "urlText": "07:05 Sydney To Canberra XPLORER Service Delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062060&seqID=1",
-    "content": "<span>Due to possible track damage inspection near Tarago the&nbsp;</span>07:05 Sydney to Canberra XPLORER service is delayed.<br /><br /><br /><br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "07:05 Sydney To Canberra XPLORER Service Delay",
+    "urlText": "Summer Hill lift outage between the subway and Grosvenor St",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062063&seqID=1",
+    "content": "The lift between the subway and Grosvenor Street is temporarily out of service. For assistance, ask staff or call 9752 8489.",
+    "subtitle": "Summer Hill lift outage between the subway and Grosvenor St",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101210:213053,213052,213051",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76631: :H:",
+          "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Canberra Station, Kingston (ACT)",
+            "name": "Homebush Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 631",
-          "number": "631",
-          "description": "Central to Canberra",
-          "iconId": 3,
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "City Circle via Town Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101210",
+          "name": "Summer Hill Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95303002:1",
+            "name": "Summer Hill",
+            "type": "locality"
           }
         }
       ]
