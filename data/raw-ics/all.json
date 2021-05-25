@@ -22085,8 +22085,8 @@
     "version": 4,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-05-17T06:35:25Z",
-      "lastModification": "2021-05-25T05:33:19Z",
+      "creation": "2021-05-17T06:35:00Z",
+      "lastModification": "2021-05-25T05:33:00Z",
       "availability": {
         "from": "2021-05-21T14:01:00Z",
         "to": "2021-05-30T17:59:59Z"
@@ -25387,8 +25387,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-24T23:18:10Z",
-      "lastModification": "2021-05-24T23:19:55Z",
+      "creation": "2021-05-24T23:18:00Z",
+      "lastModification": "2021-05-24T23:19:00Z",
       "availability": {
         "from": "2021-05-24T23:18:00Z",
         "to": "2021-05-26T04:15:59Z"
@@ -25535,8 +25535,8 @@
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-24T23:20:08Z",
-      "lastModification": "2021-05-24T23:21:39Z",
+      "creation": "2021-05-24T23:20:00Z",
+      "lastModification": "2021-05-24T23:21:00Z",
       "availability": {
         "from": "2021-05-24T23:20:00Z",
         "to": "2021-05-29T02:45:59Z"
@@ -25683,8 +25683,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-25T06:50:19Z",
-      "lastModification": "2021-05-25T08:48:38Z",
+      "creation": "2021-05-25T06:50:00Z",
+      "lastModification": "2021-05-25T08:48:00Z",
       "availability": {
         "from": "2021-05-25T06:50:00Z",
         "to": "2021-05-25T12:30:59Z"
@@ -25730,45 +25730,84 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6062122",
-    "version": 4,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "6062123",
+    "version": 1,
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-05-25T10:45:43Z",
-      "lastModification": "2021-05-25T10:52:40Z",
+      "creation": "2021-05-25T11:13:06Z",
+      "lastModification": "2021-05-25T11:13:21Z",
       "availability": {
-        "from": "2021-05-25T10:45:00Z",
-        "to": "2021-05-25T11:10:59Z"
+        "from": "2021-05-25T11:13:00Z",
+        "to": "2021-05-27T21:13:59Z"
       },
       "validity": [
         {
-          "from": "2021-05-25T10:45:00Z",
-          "to": "2021-05-25T11:10:59Z"
+          "from": "2021-05-25T11:13:00Z",
+          "to": "2021-05-27T21:13:59Z"
         }
       ]
     },
-    "urlText": "T3 Bankstown Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062122&seqID=4",
-    "content": "Allow plenty of extra travel time on outbound services due to an earlier train requiring mechanical repairs at Circular Quay. Listen to announcements and check information displays for service updates.",
-    "subtitle": "T3 Bankstown Line",
+    "urlText": "Martin Place lift outage between concourse and Phillip St",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062123&seqID=1",
+    "content": "The lift between the station concourse, gallery level and Martin Place is temporarily out of service.<br /><br />If you require assistance, please call staff at Martin Place Station on&nbsp;9379 4858.<br /><br />This lift is expected to be back in service by __________.",
+    "subtitle": "Martin Place lift outage between concourse and Phillip St",
     "properties": {
-      "providerCode": "TMC",
-      "speechText": "On T 3 Bankstown Line, allow plenty of extra travel time on outbound services due to an earlier train requiring mechanical repairs at Circular Quay. Listen to announcements and check information displays for service updates.",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101106:2000362,2000361",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T3: :H:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Bankstown Station",
+            "name": "Bondi Junction",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Kiama",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -25777,6 +25816,36 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101106",
+          "name": "Martin Place Station",
+          "type": "stop",
+          "parent": {
+            "name": "Sydney",
+            "type": "locality"
           }
         }
       ]
