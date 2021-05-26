@@ -13174,51 +13174,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6062161",
-    "version": 2,
+    "id": "6062166",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-26T08:30:00Z",
-      "lastModification": "2021-05-26T09:48:00Z",
+      "creation": "2021-05-26T19:51:41Z",
+      "lastModification": "2021-05-26T19:51:48Z",
       "availability": {
-        "from": "2021-05-26T08:30:00Z",
-        "to": "2021-05-26T19:25:59Z"
+        "from": "2021-05-26T19:51:00Z",
+        "to": "2021-05-27T05:51:59Z"
       },
       "validity": [
         {
-          "from": "2021-05-26T08:30:00Z",
-          "to": "2021-05-26T19:25:59Z"
+          "from": "2021-05-26T19:51:00Z",
+          "to": "2021-05-27T05:51:59Z"
         }
       ]
     },
-    "urlText": "14:41 Sydney to Brisbane XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062161&seqID=2",
-    "content": "This service has incurred a delay due to a track circuit failure at Melinga.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "14:41 Sydney to Brisbane XPT delay.",
+    "urlText": "Diversion in Padstow",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062166&seqID=1",
+    "content": "<p style=\"text-align: left;\">Buses are diverting away from Alma Road at Chamberlain Road due to roadwork. They're using Alfords Point Road instead and missing up to four stops.",
+    "subtitle": "Diversion in Padstow",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Padstow, route 9 2 7 and M 91 buses are diverting away from Alma Road at Chamberlain Road due to roadwork. They're using Alfords Point Road instead and missing up to four stops.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76031: :H:",
+          "id": "nsw:32927: :R:",
           "destination": {
-            "name": "Brisbane (Roma Street) Station",
+            "name": "Padstow Station",
             "type": "stop"
           },
-          "name": "Regional Trains and 31",
-          "number": "31",
-          "description": "Central to Roma St",
-          "iconId": 3,
+          "name": "Sydney Buses Network 927",
+          "number": "927",
+          "description": "One Tree Point to Padstow",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32927: :H:",
+          "destination": {
+            "name": "Padstow Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 927",
+          "number": "927",
+          "description": "Padstow to One Tree Point",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M91: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Hurstville to Parramatta via Padstow & Chester Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38M91: :H:",
+          "destination": {
+            "name": "Westfield Hurstville, Park Rd, Hurstville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Parramatta to Hurstville via Chester Hill & Padstow",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
           }
         }
       ]
