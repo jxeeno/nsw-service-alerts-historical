@@ -21124,24 +21124,24 @@
   {
     "type": "lineInfo",
     "id": "6062209",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-27T03:04:49Z",
-      "lastModification": "2021-05-27T03:09:37Z",
+      "lastModification": "2021-05-27T04:13:49Z",
       "availability": {
         "from": "2021-05-27T03:04:00Z",
-        "to": "2021-05-27T05:00:59Z"
+        "to": "2021-05-27T09:00:59Z"
       },
       "validity": [
         {
           "from": "2021-05-27T03:04:00Z",
-          "to": "2021-05-27T05:00:59Z"
+          "to": "2021-05-27T09:00:59Z"
         }
       ]
     },
     "urlText": "07:40 Sydney to Melbourne XPT service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062209&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062209&seqID=2",
     "content": "Due to known ARTC speed operating procedures around Wingello this service has been delayed.<br /><br /> Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;\n<div>&nbsp;</div>",
     "subtitle": "07:40 Sydney to Melbourne XPT service delay",
     "properties": {
@@ -21741,6 +21741,429 @@
           "parent": {
             "id": "placeID:95315006:1",
             "name": "Canterbury",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062220",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-27T04:02:17Z",
+      "lastModification": "2021-05-27T04:09:18Z",
+      "availability": {
+        "from": "2021-05-27T04:02:00Z",
+        "to": "2021-06-12T20:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-11T17:00:00Z",
+          "to": "2021-06-11T20:00:59Z"
+        },
+        {
+          "from": "2021-06-12T17:00:00Z",
+          "to": "2021-06-12T20:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Wynyard Station, temporary bus stop closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062220&seqID=1",
+    "content": "From 3am to 6am on Saturday 12 June and Sunday 13 June 2021, Crane works on the Sydney Harbour Bridge will result in the following bus stop closures and diversions for bus services heading southbound on the bridge:\n<ul>\n<li>Bus stop <strong>Wynyard Station, York St, Stand M (200035)</strong> will be closed and missed by the <strong>607X</strong> and <strong>607N</strong> services towards the City QVB. The<strong> 607X</strong> and <strong>607N</strong> will use the Sydney Harbour Tunnel instead of the Sydney Harbour Bridge and end at the <strong>QVB, York St, Stand E (2000136)</strong> as per usual.</li>\n<li>Bus stop <strong>Wynyard Station, York St, Stand K (200033)</strong> will be closed and missed by the <strong>N90</strong> and <strong>N92</strong> services towards the City Town Hall. The <strong>N90</strong> and <strong>N92</strong> will use the Sydney Harbour Tunnel instead of the Sydney Harbour Bridge and end at <strong>Town Hall Station, Park St, Stand K (2000252)</strong>.</li>\n</ul>\nCustomers on the above services who need to get back to Wynyard Station can catch the <strong>BN1</strong> service from bus stop <strong>QVB, Stand B (200042)</strong> to <strong>Wynyard Station, Carrington St, Stand B (200023)</strong> or they can walk from York St/Park St towards Wynyard Station.",
+    "subtitle": "Wynyard Station, temporary bus stop closure",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "200080:200023,200033,200035#2000171:200042,2000136#200070:2000252",
+      "speechText": "From 3 AM to 6 AM on Saturday 12 June and Sunday 13 June, Crane works on the Sydney Harbour Bridge will result in bus stop closures and diversions for bus services heading southbound on the bridge",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:28BN1: :H:",
+          "destination": {
+            "name": "Mona Vale",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network BN1",
+          "number": "BN1",
+          "description": "B-Line City QVB to Mona Vale (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:26N90: :R:",
+          "destination": {
+            "name": "City Park St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N90",
+          "number": "N90",
+          "description": "Hornsby to City Town Hall via Chatswood (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:23N92: :R:",
+          "destination": {
+            "name": "Town Hall, Park St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N92",
+          "number": "N92",
+          "description": "Tallawong to City Town Hall (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:28BN1: :R:",
+          "destination": {
+            "name": "City QVB",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network BN1",
+          "number": "BN1",
+          "description": "B-Line Mona Vale to City QVB (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:23607:N:R:",
+          "destination": {
+            "name": "QVB York St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 607N",
+          "number": "607N",
+          "description": "Tallawong Station to City QVB via North West Twy & M2 Mwy (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:23607:X:R:",
+          "destination": {
+            "name": "QVB York St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 607X",
+          "number": "607X",
+          "description": "Bella Vista Station to City QVB (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:26N90: :H:",
+          "destination": {
+            "name": "Hornsby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N90",
+          "number": "N90",
+          "description": "City Town Hall to Hornsby via Chatswood (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2439",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:23N92: :H:",
+          "destination": {
+            "name": "Tallawong",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N92",
+          "number": "N92",
+          "description": "City Town Hall to Tallawong (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200080",
+          "name": "Wynyard Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "2000171",
+          "name": "QVB",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "200070",
+          "name": "Town Hall Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062221",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-27T04:09:30Z",
+      "lastModification": "2021-05-27T04:11:32Z",
+      "availability": {
+        "from": "2021-05-27T04:09:00Z",
+        "to": "2021-06-27T18:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-13T18:00:00Z",
+          "to": "2021-06-27T18:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Qantas Drive, permanent bus stop relocation",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062221&seqID=1",
+    "content": "From 4am Monday 21 June 2021, works for Sydney Gateway will result in the permanent relocation of bus stop <strong>Qantas Dr opp Jet Base (202070)</strong> approximately 136 metres west of its existing location.",
+    "subtitle": "Qantas Drive, permanent bus stop relocation",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G202070:202070",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:31400: :H:",
+          "destination": {
+            "name": "Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 400",
+          "number": "400",
+          "description": "Sydney Airport to Bondi Junction via Eastgardens",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31400: :R:",
+          "destination": {
+            "name": "International Airport",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 400",
+          "number": "400",
+          "description": "Bondi Junction to Sydney Airport via Eastgardens",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:74420: :R:",
+          "destination": {
+            "name": "Burwood",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 420",
+          "number": "420",
+          "description": "Eastgardens to Burwood via Sydney Airport & Rockdale",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74420: :H:",
+          "destination": {
+            "name": "Eastgardens",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 420",
+          "number": "420",
+          "description": "Burwood to Eastgardens via Rockdale & Sydney Airport",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74420:N:R:",
+          "destination": {
+            "name": "Burwood",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 420N",
+          "number": "420N",
+          "description": "Eastgardens to Burwood via Sydney Airport & Rockdale (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74420:N:H:",
+          "destination": {
+            "name": "Eastgardens",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 420N",
+          "number": "420N",
+          "description": "Burwood to Eastgardens via Rockdale & Sydney Airport (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:24N20: :R:",
+          "destination": {
+            "name": "Park Near Pitt St",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N20",
+          "number": "N20",
+          "description": "Riverwood to City Town Hall via Airport (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2437",
+            "name": "Punchbowl Bus Company"
+          }
+        },
+        {
+          "id": "nsw:24N20: :H:",
+          "destination": {
+            "name": "Riverwood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N20",
+          "number": "N20",
+          "description": "City Town Hall to Riverwood via Airport (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2437",
+            "name": "Punchbowl Bus Company"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G202070",
+          "name": "Jet Base, Qantas Dr",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95310008:1",
+            "name": "Mascot",
             "type": "locality"
           }
         }
