@@ -22676,11 +22676,11 @@
   {
     "type": "routeInfo",
     "id": "6061887",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-05-18T04:56:00Z",
-      "lastModification": "2021-05-18T04:58:00Z",
+      "creation": "2021-05-18T04:56:55Z",
+      "lastModification": "2021-05-27T03:59:04Z",
       "availability": {
         "from": "2021-05-18T04:56:00Z",
         "to": "2021-06-04T16:00:59Z"
@@ -22693,8 +22693,8 @@
       ]
     },
     "urlText": "T1 North Shore Line: Trackwork between Wynyard and North Sydney",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061887&seqID=1",
-    "content": "<strong>Friday 4 June</strong>\n<ul>\n<li><strong>From 11pm until 2am</strong>, buses replace trains between Wynyard and North Sydney.</li>\n<li>Trains run between North Sydney and Hornsby or Berowra, some to a changed timetable.</li>\n<li>If you are travelling from the City to stations north of Chatswood an express bus will also run between Wynyard and Chatswood.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br />19T1: Wynyard, Milsons Point, North Sydney and return<br />78T1: Wynyard, then express to Chatswood and return",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061887&seqID=2",
+    "content": "<strong>Friday 4 June</strong>\n<ul>\n<li><strong>From 11pm until 2am</strong>, buses replace trains between Wynyard and North Sydney.</li>\n<li>Trains run between North Sydney and Hornsby or Berowra, some to a changed timetable.</li>\n<li>If you are travelling from the City to stations north of Chatswood an express bus will also run between Wynyard and Chatswood.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br /><a href=\"https://transportnsw.info/routes/details/temporary-buses/19t1/0119T-1\">19T1: Wynyard, Milsons Point, North Sydney and return</a><br />78T1: Wynyard, then express to Chatswood and return",
     "subtitle": "T1 North Shore Line: Trackwork between Wynyard and North Sydney",
     "properties": {
       "providerCode": "PTMarketing",
@@ -22706,9 +22706,25 @@
     "affected": {
       "lines": [
         {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Penrith via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
           "id": "nsw:020T1:N:H:",
           "destination": {
-            "name": "Berowra via Gordon",
+            "name": "Gordon via Lindfield",
             "type": "stop"
           },
           "name": "Sydney Trains Network T1 North Shore & Western Line",
@@ -22722,18 +22738,34 @@
           "operator": {}
         },
         {
-          "id": "nsw:020T1:N:R:",
+          "id": "nsw:0119T:1:R:",
           "destination": {
-            "name": "Blacktown via Central",
+            "name": "Wynyard Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "iconId": 1,
+          "name": "Temporary buses 19T1",
+          "number": "19T1",
+          "description": "North Sydney, Milsons Point then Wynyard",
+          "iconId": 14,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0119T:1:H:",
+          "destination": {
+            "name": "North Sydney Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 19T1",
+          "number": "19T1",
+          "description": "Wynyard, Milsons Point then North Sydney",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
           },
           "operator": {}
         }
@@ -28187,129 +28219,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6062193",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-05-27T01:24:25Z",
-      "lastModification": "2021-05-27T01:24:37Z",
-      "availability": {
-        "from": "2021-05-27T01:24:00Z",
-        "to": "2021-05-31T11:24:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-05-27T01:24:00Z",
-          "to": "2021-05-31T11:24:59Z"
-        }
-      ]
-    },
-    "urlText": "Seven Hills lift outage between carpark and bus terminal",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062193&seqID=1",
-    "content": "The lift between the car park and bus terminal is temporarily out of service. If you require assistance, ask staff or phone 9851 7554.",
-    "subtitle": "Seven Hills lift outage between carpark and bus terminal",
-    "properties": {
-      "providerCode": "RMC",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101234:2147424,2147423,2147422,2147421",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Penrith Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :H:",
-          "destination": {
-            "name": "Schofields",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :R:",
-          "destination": {
-            "name": "Liverpool",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "10101234",
-          "name": "Seven Hills Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308035:1",
-            "name": "Seven Hills",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6062194",
     "version": 1,
@@ -29678,6 +29587,703 @@
           "parent": {
             "id": "placeID:95325004:1",
             "name": "Berowra",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062212",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-27T03:44:39Z",
+      "lastModification": "2021-05-27T03:48:02Z",
+      "availability": {
+        "from": "2021-05-27T03:44:00Z",
+        "to": "2021-05-30T05:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-30T03:00:00Z",
+          "to": "2021-05-30T05:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Service changes due to Police Operation",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062212&seqID=1",
+    "content": "Light rail services will be impacted while a Police operation is underway and road closures are in place in the Sydney CBD and around Central Station for a planned march on <strong>Sunday 30 May</strong>.\n<strong>Between 1pm and 3pm approximately</strong>:\n<ul>\n<li><strong>L1 Dulwich Hill Line</strong> services will only run between <strong>Convention </strong>and <strong>Dulwich Hill</strong>. Please use alternative transport or consider walking to travel between Central and Convention.</li>\n<li><strong>L2 Randwick Line</strong> and <strong>L3 Kingsford Line </strong>services will only run between <strong>Central Chalmers Street</strong> and <strong>Randwick</strong> or <strong>Juniors Kingsford</strong>. Please use nearby trains or consider walking to travel between Central and Circular Quay.</li>\n</ul>\nPlease note that impact times may changes at the direction of NSW Police.<br /><br />Check indicators boards, listen to announcements and follow the direction of staff and Police on site.<br /><br />Allow extra travel time and plan your trip using the <strong><a href=\"http://www.transportnsw.info/trip\">Trip Planner</a></strong>",
+    "subtitle": "Service changes due to Police Operation",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "speechText": "Light rail services will be impacted while a Police operation is underway and road closures are in place in the Sydney CBD and around Central Station for a planned march on Sunday 30 May.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill Light Rail",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L1: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Dulwich Hill to Central",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :H:",
+          "destination": {
+            "name": "Randwick Light Rail, Randwick",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :H:",
+          "destination": {
+            "name": "Juniors Kingsford Light Rail, Kingsford",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Circular Quay to Juniors Kingsford",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Juniors Kingsford to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062213",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-27T03:48:01Z",
+      "lastModification": "2021-05-27T03:52:04Z",
+      "availability": {
+        "from": "2021-05-27T03:48:00Z",
+        "to": "2021-05-27T13:48:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-27T03:48:00Z",
+          "to": "2021-05-27T13:48:59Z"
+        }
+      ]
+    },
+    "urlText": "Stockton Ferry",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062213&seqID=2",
+    "content": "The 1.50pm Newcastle to Stockton and the 2pm Stockton to Newcastle services are cancelled due to a medical emergency at Stockton Wharf. Catch the 2.20pm Newcastle to Stockton or the 2.30pm Stockton to Newcastle service instead.",
+    "subtitle": "Stockton Ferry",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "The 1 50 p m Newcastle to Stockton and the 2 p m Stockton to Newcastle services are cancelled due to a medical emergency at Stockton Wharf. Catch the 2 20 p m Newcastle to Stockton or the 2 30 p m Stockton to Newcastle service instead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:73Stk:n:H:",
+          "destination": {
+            "name": "Stockton Wharf, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Ferries Stkn Stockton Ferry",
+          "number": "Stkn Stockton Ferry",
+          "description": "Newcastle to Stockton Ferry",
+          "iconId": 11,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73Stk:n:R:",
+          "destination": {
+            "name": "Queens Wharf, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Ferries Stkn Stockton Ferry",
+          "number": "Stkn Stockton Ferry",
+          "description": "Stockton to Newcastle Ferry",
+          "iconId": 11,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062214",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-27T03:49:53Z",
+      "lastModification": "2021-05-27T03:53:13Z",
+      "availability": {
+        "from": "2021-05-27T03:49:00Z",
+        "to": "2021-05-30T19:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-28T10:00:00Z",
+          "to": "2021-05-30T19:00:59Z"
+        }
+      ]
+    },
+    "urlText": "George St, Parramatta, temporary bus stop closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062214&seqID=1",
+    "content": "From 8pm Friday 28 May to 5am Monday 31 May 2021, Parramatta Light Rail work will result in the following bus stop closures:\n<ul>\n<li>Bus stop <strong>George St at Church St (2150105)</strong> will be closed. <br />The alternative bus stop will be bus stop <strong>George Street before Barrack Lane (215104)</strong> for the 900 Parramatta Free Shuttle.</li>\n<li>Bus stop <strong>Parramatta Stadium, O&rsquo;Connell St (2150381)</strong> will be closed. <br />The alternative bus stop will be <strong>Parramatta Leagues Club, O&rsquo;Connell St (2150150)</strong> for the 900 Parramatta Free Shuttle.</li>\n</ul>",
+    "subtitle": "George St, Parramatta, temporary bus stop closure",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G2150105:2150105#G2150104:2150104#G2150381:2150381#G2150150:2150150",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38900: :R:",
+          "destination": {
+            "name": "Parramatta Ferry Wharf (Phillip St)",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 900",
+          "number": "900",
+          "description": "Parramatta Free Shuttle",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G2150105",
+          "name": "George St at Church St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2150104",
+          "name": "George St before Barrack Lane",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2150381",
+          "name": "Parramatta Stadium, O'Connell St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2150150",
+          "name": "Parramatta Leagues Club, O'Connell St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062216",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-27T03:53:19Z",
+      "lastModification": "2021-05-27T03:56:11Z",
+      "availability": {
+        "from": "2021-05-27T03:53:00Z",
+        "to": "2021-05-30T19:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-28T10:00:00Z",
+          "to": "2021-05-30T19:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Darcy Rd, temporary bus stop closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062216&seqID=1",
+    "content": "From 8pm Friday 28 May to 5am Monday 31 May 2021, bus stop <strong>Darcy Rd after Hawkesbury Rd (214518)</strong> will be temporarily closed due to Parramatta Light Rail work. <br /><br />The alternative stop will be the <strong>Westmead Hospital T-way (2145560)</strong> for the <strong>705</strong> and <strong>711</strong> heading towards Blacktown.",
+    "subtitle": "Darcy Rd, temporary bus stop closure",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G214518:214518#G2145560:2145560",
+      "speechText": "From 8 PM Friday 28 May to 5 AM Monday 31 May, bus stop Darcy Road after Hawkesbury Road will be temporarily closed due to Parramatta Light Rail work.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:23705: :H:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 705",
+          "number": "705",
+          "description": "Parramatta to Blacktown via Seven Hills",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:23711: :H:",
+          "destination": {
+            "name": "Westpoint Blacktown",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 711",
+          "number": "711",
+          "description": "Parramatta to Blacktown via Wentworthville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:23705: :R:",
+          "destination": {
+            "name": "Parramatta Stn",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 705",
+          "number": "705",
+          "description": "Blacktown to Parramatta via Seven Hills",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:23711: :R:",
+          "destination": {
+            "name": "Parramatta Stn",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 711",
+          "number": "711",
+          "description": "Blacktown to Parramatta via Wentworthville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G214518",
+          "name": "Darcy Rd after Hawkesbury Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346020:1",
+            "name": "Westmead",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2145560",
+          "name": "Westmead Hospital, North West Twy",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346020:1",
+            "name": "Westmead",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062217",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-27T03:56:22Z",
+      "lastModification": "2021-05-27T03:58:57Z",
+      "availability": {
+        "from": "2021-05-27T03:56:00Z",
+        "to": "2021-05-30T19:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-28T10:00:00Z",
+          "to": "2021-05-30T19:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Canterbury Rd, temporary bus stop closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062217&seqID=1",
+    "content": "From 8pm to 5am each night between Friday 28 May and Sunday 30 May 2021, Sydney Metro work will result in the closure of bus stop <strong>Canterbury Station, Canterbury Rd, Stand E (219321)</strong>. <br /><br />The bus stop will be relocated 30 metres west of its existing location affecting the following services:\n<ul>\n<li><strong>445 &ndash; Balmain</strong></li>\n<li><strong>491 &ndash; Five Dock</strong></li>\n<li><strong>N30 and N40 &ndash; Town Hall</strong></li>\n</ul>",
+    "subtitle": "Canterbury Rd, temporary bus stop closure",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "219320:219321",
+      "speechText": "From 8 PM to 5 AM each night between Friday 28 May and Sunday 30 May, Sydney Metro work will result in the closure of bus stop Canterbury Station, Canterbury Road, Stand E",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74445: :R:",
+          "destination": {
+            "name": "Balmain",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 445",
+          "number": "445",
+          "description": "Campsie to Balmain via Leichhardt Marketplace",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74491: :R:",
+          "destination": {
+            "name": "Five Dock",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 491",
+          "number": "491",
+          "description": "Hurstville to Five Dock",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:38N30: :R:",
+          "destination": {
+            "name": "Town Hall Station, Park St, Stand K",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N30",
+          "number": "N30",
+          "description": "Macarthur to City Town Hall (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:38N40: :R:",
+          "destination": {
+            "name": "Town Hall Station, Park St, Stand K",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N40",
+          "number": "N40",
+          "description": "East Hills to City Town Hall (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2444",
+            "name": "Transdev NSW"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "219320",
+          "name": "Canterbury Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315006:1",
+            "name": "Canterbury",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062218",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-05-27T03:58:20Z",
+      "lastModification": "2021-05-27T03:58:33Z",
+      "availability": {
+        "from": "2021-05-27T03:58:00Z",
+        "to": "2021-06-03T13:58:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-27T03:58:00Z",
+          "to": "2021-06-03T13:58:59Z"
+        }
+      ]
+    },
+    "urlText": "West Ryde lift outage between the station entrance and Ryedale Rd",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062218&seqID=1",
+    "content": "The lift between the station enterance and Ryedale Road is temporarily out of service. If you require assistance, ask staff or phone 9752 8465.",
+    "subtitle": "West Ryde lift outage between the station entrance and Ryedale Rd",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101201:2114193,2114192,2114191",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:E:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "Epping to City via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:E:H:",
+          "destination": {
+            "name": "Epping Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Epping via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to Gordon via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Hornsby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Gordon to Hornsby via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101201",
+          "name": "West Ryde Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95352014:1",
+            "name": "West Ryde",
             "type": "locality"
           }
         }
