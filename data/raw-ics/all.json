@@ -27871,11 +27871,11 @@
   {
     "type": "lineInfo",
     "id": "6062375",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-05-30T17:05:52Z",
-      "lastModification": "2021-05-30T19:34:26Z",
+      "lastModification": "2021-05-30T19:47:05Z",
       "availability": {
         "from": "2021-05-30T17:05:00Z",
         "to": "2021-05-31T03:05:59Z"
@@ -27888,12 +27888,12 @@
       ]
     },
     "urlText": "Metro North West Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062375&seqID=4",
-    "content": "Buses are replacing Metro services between Macquarie Park and Chatswood in both directions due to urgent infrastructure repairs.&nbsp; Passengers should change at Chatswood or Epping for a T1 North Shore or T9 Northern Line service. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.&nbsp;&nbsp;<br /><br />",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062375&seqID=5",
+    "content": "Buses are replacing Metro services between Macquarie Park and Chatswood in both directions due to urgent infrastructure repairs at North Ryde. Change at Chatswood or Epping for a T1 North Shore or T9 Northern Line service to complete your trip. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.&nbsp;&nbsp;<br /><br />",
     "subtitle": "Metro North West Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Buses are replacing Metro services between Macquarie Park and Chatswood in both directions due to urgent infrastructure repairs.  Passengers should change at Chatswood or Epping for a T1 North Shore or T9 Northern Line service. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Buses are replacing Metro services between Macquarie Park and Chatswood in both directions due to urgent infrastructure repairs at North Ryde. Passengers should change at Chatswood or Epping for a T1 North Shore or T9 Northern Line service to complete your trip. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -28007,6 +28007,78 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062379",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-05-30T19:50:50Z",
+      "lastModification": "2021-05-30T19:52:54Z",
+      "availability": {
+        "from": "2021-05-30T19:50:00Z",
+        "to": "2021-05-31T05:50:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-05-30T19:50:00Z",
+          "to": "2021-05-31T05:50:59Z"
+        }
+      ]
+    },
+    "urlText": "F1 Manly Ferries",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062379&seqID=1",
+    "content": "Buses are replacing the following ferries between Circular Quay and Manly due to the large swell:<br /><br />\nThe 6:35am Manly to Circular Quay\nThe 7:15am Circular Quay to Manly\nThe 8:00am Manly to Circular Quay\nThe 8:40am Circular Quay to Manly\nThe 9:20am Manly to Circular Quay\n<br />Allow extra travel time and check information displays for service updates.",
+    "subtitle": "F1 Manly Ferries",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Buses are replacing some ferries between Manly and Circular Quay due to the large swell. Allow extra travel time and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F1: :H:",
+          "destination": {
+            "name": "Manly Wharf, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Circular Quay to Manly",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F1: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Manly to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
           }
         }
       ]
