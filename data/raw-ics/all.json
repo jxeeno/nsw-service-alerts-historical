@@ -28807,24 +28807,24 @@
   {
     "type": "lineInfo",
     "id": "6062438",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-06-01T16:03:00Z",
-      "lastModification": "2021-06-01T20:48:56Z",
+      "lastModification": "2021-06-01T22:04:29Z",
       "availability": {
         "from": "2021-06-01T16:03:00Z",
-        "to": "2021-06-01T22:20:59Z"
+        "to": "2021-06-01T23:20:59Z"
       },
       "validity": [
         {
           "from": "2021-06-01T16:03:00Z",
-          "to": "2021-06-01T22:20:59Z"
+          "to": "2021-06-01T23:20:59Z"
         }
       ]
     },
     "urlText": "19:50 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062438&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062438&seqID=3",
     "content": "This service has been delayed due to the late arrival of train replacement coaches from Melbourne to Albury .&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
     "subtitle": "19:50 Melbourne to Sydney XPT delay.",
     "properties": {
@@ -28859,11 +28859,11 @@
   {
     "type": "lineInfo",
     "id": "6062439",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-06-01T20:58:28Z",
-      "lastModification": "2021-06-01T20:59:50Z",
+      "lastModification": "2021-06-01T22:04:49Z",
       "availability": {
         "from": "2021-06-01T20:58:00Z",
         "to": "2021-06-02T06:58:59Z"
@@ -28876,12 +28876,12 @@
       ]
     },
     "urlText": "South Coast Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062439&seqID=1",
-    "content": "Allow extra travel time due to a train requiring mechanical repairs at Wombarra. Listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062439&seqID=2",
+    "content": "Allow plenty of extra travel time due to a train requiring mechanical repairs at Wombarra. Listen to announcements and check information displays for service updates.&nbsp;",
     "subtitle": "South Coast Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to a train requiring mechanical repairs at Wombarra. Listen to announcements and check information displays for service updates.",
+      "speechText": "Allow plenty of extra travel time due to a train requiring mechanical repairs at Wombarra. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -28967,53 +28967,161 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6062440",
+    "type": "stopInfo",
+    "id": "6062441",
     "version": 1,
-    "priority": "normal",
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-06-01T21:16:02Z",
-      "lastModification": "2021-06-01T21:17:35Z",
+      "creation": "2021-06-01T22:13:28Z",
+      "lastModification": "2021-06-01T22:13:44Z",
       "availability": {
-        "from": "2021-06-01T21:16:00Z",
-        "to": "2021-06-02T07:16:59Z"
+        "from": "2021-06-01T22:13:00Z",
+        "to": "2021-06-16T08:13:59Z"
       },
       "validity": [
         {
-          "from": "2021-06-01T21:16:00Z",
-          "to": "2021-06-02T07:16:59Z"
+          "from": "2021-06-01T22:13:00Z",
+          "to": "2021-06-16T08:13:59Z"
         }
       ]
     },
-    "urlText": "7:53am Glendale to Newcastle service cancelled",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062440&seqID=1",
-    "content": "The 7:53am Glendale to Newcastle service is cancelled. Catch the 8:08am service instead.",
-    "subtitle": "7:53am Glendale to Newcastle service cancelled",
+    "urlText": "Warwick Farm lift outage between platform 2 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062441&seqID=1",
+    "content": "The lift between platfrom 2 and concourse is temporarily out of service. If you require assistance, ask staff or phone 9602 8060.",
+    "subtitle": "Warwick Farm lift outage between platform 2 and concourse",
     "properties": {
-      "providerCode": "TMC",
-      "speechText": "At Glendale, the 7:53am Route 13 Glendale to Newcastle service is cancelled. Catch the 8:08am service instead.",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101288:2170832",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:73013: :R:",
+          "id": "nsw:020T2: :R:",
           "destination": {
-            "name": "Customs House, Watt St, Newcastle",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Hunter Buses Network 13",
-          "number": "13",
-          "description": "Glendale to Newcastle via Cardiff & John Hunter Hospital",
-          "iconId": 15,
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Liverpool Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Leppington",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Richmond",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101288",
+          "name": "Warwick Farm Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95335031:1",
+            "name": "Warwick Farm",
+            "type": "locality"
           }
         }
       ]
