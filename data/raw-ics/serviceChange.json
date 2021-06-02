@@ -19350,11 +19350,11 @@
   {
     "type": "stopInfo",
     "id": "6062421",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-06-01T04:55:00Z",
-      "lastModification": "2021-06-01T04:59:00Z",
+      "creation": "2021-06-01T04:55:12Z",
+      "lastModification": "2021-06-02T07:19:28Z",
       "availability": {
         "from": "2021-06-01T04:55:00Z",
         "to": "2021-07-31T13:59:59Z"
@@ -19367,7 +19367,7 @@
       ]
     },
     "urlText": "Mosman bus diversions",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062421&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062421&seqID=2",
     "content": "From 1 June, <strong>route 249</strong> bus services towards Wynyard will start from stop <strong>Pindari Ave opp Euryalus St (2088202)</strong> until further notice. <strong><br /><br />Missed stops</strong>\n<ul>\n<li class=\"x_MsoNormal\"><strong><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif;\">Pindari Ave near Beauty Pt Rd (<span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif;\">2088210</span>)</span></strong></li>\n<li class=\"x_MsoNormal\"><strong><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif;\">Beauty Point Rd at Marsala St (<span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif;\">2088209</span>)</span></strong></li>\n<li class=\"x_MsoNormal\"><span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif;\"><strong>Pearl Bay Ave at Moss Lane (<span style=\"font-size: 11.0pt; font-family: 'Calibri',sans-serif;\">2088208)</span></strong></span></li>\n</ul>",
     "subtitle": "Mosman bus diversions",
     "properties": {
@@ -19761,11 +19761,11 @@
   {
     "type": "lineInfo",
     "id": "6062453",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-06-02T05:50:05Z",
-      "lastModification": "2021-06-02T06:27:46Z",
+      "lastModification": "2021-06-02T07:16:13Z",
       "availability": {
         "from": "2021-06-02T05:50:00Z",
         "to": "2021-06-02T15:50:59Z"
@@ -19778,7 +19778,7 @@
       ]
     },
     "urlText": "Central Coast & Newcastle Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062453&seqID=3",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062453&seqID=4",
     "content": "Allow extra travel time due to a freight train with mechanical problems at Wondabyne earlier. Listen to announcements and check information displays for service updates.",
     "subtitle": "Central Coast & Newcastle Line",
     "properties": {
@@ -19798,6 +19798,25 @@
           "name": "Intercity Trains Network Central Coast & Newcastle Line",
           "number": "Central Coast & Newcastle Line",
           "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
           "iconId": 2,
           "product": {
             "class": 1,
@@ -19858,6 +19877,59 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062455",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-02T07:27:39Z",
+      "lastModification": "2021-06-02T07:28:34Z",
+      "availability": {
+        "from": "2021-06-02T07:27:00Z",
+        "to": "2021-06-02T17:27:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-02T07:27:00Z",
+          "to": "2021-06-02T17:27:59Z"
+        }
+      ]
+    },
+    "urlText": "F3 Parramatta River",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062455&seqID=1",
+    "content": "The 5:40pm Circular Quay to Sydney Olympic Park ferry has been cancelled due to a mechanical problem. The next ferry leaves Circular Quay at 5:55pm.",
+    "subtitle": "F3 Parramatta River",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "The 5:40pm Circular Quay to Sydney Olympic Park ferry has been cancelled due to a mechanical problem. The next ferry leaves Circular Quay at 5:55pm.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Parramatta Wharf, Parramatta",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Parramatta River",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "112",
+            "name": "Sydney Ferries"
           }
         }
       ]
