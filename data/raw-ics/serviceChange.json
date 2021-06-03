@@ -20362,11 +20362,11 @@
   {
     "type": "lineInfo",
     "id": "6062533",
-    "version": 2,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-06-03T21:52:09Z",
-      "lastModification": "2021-06-03T22:05:41Z",
+      "lastModification": "2021-06-03T22:48:29Z",
       "availability": {
         "from": "2021-06-03T21:52:00Z",
         "to": "2021-06-04T07:52:59Z"
@@ -20379,12 +20379,12 @@
       ]
     },
     "urlText": "Metro North West Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062533&seqID=2",
-    "content": "Metro services are operating at a reduced frequency between Macquarie Park and Chatswood due to a train requiring mechanical repairs at North Ryde. Buses are being organised to supplement services, but are not yet on site. Change at Macquarie Park to continue your journey, or change at Epping to catch a T9 Northern Line train. Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062533&seqID=6",
+    "content": "<span>Buses are supplementing Metro services between Macquarie Park and Chatswood due to a train requiring mechanical repairs at North Ryde.&nbsp;</span>A shuttle train&nbsp;is running back and forth between these stations. If you're travelling towards the city you can also consider changing&nbsp;at Epping for a T9 Northern line train. Allow extra travel time, listen to announcements and check information displays for service updates.",
     "subtitle": "Metro North West Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Metro services are operating at a reduced frequency between Macquarie Park and Chatswood due to a train requiring mechanical repairs at North Ryde. Buses are being organised to supplement services, but are not yet on site. Change at Macquarie Park to continue your journey, or change at Epping to catch a T9 Northern Line train. Allow extra travel time, listen to announcements and check information displays for service updates",
+      "speechText": "Buses are supplementing Metro services between Macquarie Park and Chatswood due to a train requiring mechanical repairs at North Ryde. A shuttle train is running back and forth between these stations. If you're travelling towards the city you can also consider changing at Epping for a T9 Northern line train. Allow extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -20426,6 +20426,116 @@
           "operator": {
             "id": "SMNW",
             "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062534",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-03T22:35:43Z",
+      "lastModification": "2021-06-03T22:36:36Z",
+      "availability": {
+        "from": "2021-06-03T22:35:00Z",
+        "to": "2021-06-04T08:35:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-03T22:35:00Z",
+          "to": "2021-06-04T08:35:59Z"
+        }
+      ]
+    },
+    "urlText": "T4 Eastern Suburb & Illawarra Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062534&seqID=1",
+    "content": "Allow extra travel time due to a train requiring mechanical repairs at Bondi Junction. Listen to announcements and check information displays for service updates.&nbsp;",
+    "subtitle": "T4 Eastern Suburb & Illawarra Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow extra travel time due to a train requiring mechanical repairs at Bondi Junction. Listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
