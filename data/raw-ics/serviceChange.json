@@ -19497,58 +19497,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6062466",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-06-02T20:24:11Z",
-      "lastModification": "2021-06-02T20:30:22Z",
-      "availability": {
-        "from": "2021-06-02T20:24:00Z",
-        "to": "2021-06-03T06:24:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-06-02T20:24:00Z",
-          "to": "2021-06-03T06:24:59Z"
-        }
-      ]
-    },
-    "urlText": "07:12 Sydney to Canberra Xplorer service delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062466&seqID=1",
-    "content": "This service has experienced a delay due to a mechanical issue and will be late leaving Sydney.\n&nbsp;\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri; font-size: medium;\">Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span style=\"color: #0563c1; font-family: Times New Roman; font-size: medium;\">Trip Planner</span></a><span style=\"font-family: Calibri; font-size: medium;\">&nbsp;for the latest travel information with real time updates.&nbsp;</span>",
-    "subtitle": "07:12 Sydney to Canberra Xplorer service delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76631: :H:",
-          "destination": {
-            "name": "Canberra Station, Kingston (ACT)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 631",
-          "number": "631",
-          "description": "Central to Canberra",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6062469",
     "version": 1,
     "priority": "normal",
@@ -20590,6 +20538,240 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062489",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-03T04:15:16Z",
+      "lastModification": "2021-06-03T04:24:06Z",
+      "availability": {
+        "from": "2021-06-03T04:15:00Z",
+        "to": "2021-06-07T19:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-07T11:00:00Z",
+          "to": "2021-06-07T19:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Milsons Point bus diversions",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062489&seqID=1",
+    "content": "From 9pm Monday 7 to 5am Tuesday 8 June, <strong>route 230</strong> bus services wil divert and miss some stops while Lavendar St is closed for roadworks. <strong><br /><br />Closed stops</strong>\n<ul>\n<li><strong>Miller St before Blue St (206024)</strong></li>\n<li><strong>Blues Point Rd before Lavender St (206031)</strong></li>\n<li><strong>Lavender St opp Cliff St (206058)</strong></li>\n<li><strong>Milsons Point Station, Alfred St Sth (206123)</strong></li>\n</ul>\nPlease use the alternative stop <strong>Miller St before Pacific Hwy (206085)</strong>.",
+    "subtitle": "Milsons Point bus diversions",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G206024:206024#G206031:206031#G206058:206058#206110:206123#G206085:206085",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:28230: :R:",
+          "destination": {
+            "name": "Milsons Point",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 230",
+          "number": "230",
+          "description": "Mosman Wharf to Milsons Point via North Sydney",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G206024",
+          "name": "Miller St before Blue St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343010:1",
+            "name": "North Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G206031",
+          "name": "Blues Point Rd before Lavender St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343010:1",
+            "name": "North Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G206058",
+          "name": "Lavender St opp Cliff St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343006:1",
+            "name": "Lavender Bay",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "206110",
+          "name": "Milsons Point Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343008:1",
+            "name": "Milsons Point",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G206085",
+          "name": "Miller St before Pacific Hwy",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343010:1",
+            "name": "North Sydney",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062490",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-03T04:18:43Z",
+      "lastModification": "2021-06-03T04:20:24Z",
+      "availability": {
+        "from": "2021-06-03T04:18:00Z",
+        "to": "2021-06-03T12:18:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-03T04:18:00Z",
+          "to": "2021-06-03T12:18:59Z"
+        }
+      ]
+    },
+    "urlText": "West Coach service delays",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062490&seqID=1",
+    "content": "These services are delayed awaiting the arrival of the Sydney to Dubbo XPT service.<br /><br /><br /> Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
+    "subtitle": "West Coach service delays",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76511: :H:",
+          "destination": {
+            "name": "Bourke Coach Stop, Bourke",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 511",
+          "number": "511",
+          "description": "Dubbo to Bourke",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76513: :H:",
+          "destination": {
+            "name": "Lightning Ridge Coach Stop, Morilla St, Lightning Ridge",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 513",
+          "number": "513",
+          "description": "Dubbo to Lightning Ridge",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76589: :H:",
+          "destination": {
+            "name": "Broken Hill Town Coach Stop, Broken Hill",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 589",
+          "number": "589",
+          "description": "Dubbo to Broken Hill Town",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76521: :H:",
+          "destination": {
+            "name": "Parkes Station, Parkes",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 521",
+          "number": "521",
+          "description": "Orange to Parkes",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76573: :H:",
+          "destination": {
+            "name": "Baradine Coach Stop, Baradine",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 573",
+          "number": "573",
+          "description": "Lithgow to Baradine",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
