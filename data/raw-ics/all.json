@@ -27701,11 +27701,11 @@
   {
     "type": "stopInfo",
     "id": "6062562",
-    "version": 1,
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-06-04T22:44:00Z",
-      "lastModification": "2021-06-04T22:44:00Z",
+      "creation": "2021-06-04T22:44:28Z",
+      "lastModification": "2021-06-06T23:41:08Z",
       "availability": {
         "from": "2021-06-04T22:44:00Z",
         "to": "2021-06-26T08:44:59Z"
@@ -27718,44 +27718,25 @@
       ]
     },
     "urlText": "Lidcombe lift outage between concourse and Railway St",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062562&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062562&seqID=2",
     "content": "The lift between the concourse and Railway street is temporarily out of service.&nbsp; If you require assistance, please ask staff or call 9752 8432.",
     "subtitle": "Lidcombe lift outage between concourse and Railway St",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101218:2141316,2141315,2141314,2141313,2141312,2141311",
+      "stopIDglobalID": "214110:2141316,2141311,2141312,2141313,2141314,2141315",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T7: :H:",
-          "destination": {
-            "name": "Blacktown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T7 Olympic Park Line",
-          "number": "T7 Olympic Park Line",
-          "description": "Lidcombe to Olympic Park",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
           "id": "nsw:020T7: :R:",
           "destination": {
             "name": "Olympic Park",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T7 Olympic Park Line",
+          "name": "Sydney Trains Network T7 Olympic Park Line",
           "number": "T7 Olympic Park Line",
           "description": "Olympic Park to Lidcombe",
           "iconId": 1,
@@ -27769,33 +27750,52 @@
           }
         },
         {
-          "id": "nsw:02BMT: :H:",
+          "id": "nsw:020T7: :H:",
           "destination": {
-            "name": "Lithgow Station",
+            "name": "Lidcombe",
             "type": "stop"
           },
-          "name": "Intercity Trains Net Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Lidcombe to Olympic Park",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "X0000",
-            "name": "NSW TrainLink"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
         {
-          "id": "nsw:020T1:C:H:",
+          "id": "nsw:020T1:W:R:",
           "destination": {
-            "name": "Penrith Station",
+            "name": "Lindfield via Central",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "City to Emu Plains, City to Richmond",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "City Circle via Town Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -27809,11 +27809,11 @@
         {
           "id": "nsw:020T1:W:H:",
           "destination": {
-            "name": "Penrith Station",
+            "name": "Emu Plains via Parramatta",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
           "description": "City to Emu Plains or Richmond",
           "iconId": 1,
           "product": {
@@ -27828,10 +27828,10 @@
         {
           "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Leppington Station",
+            "name": "Leppington via Granville",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
           "number": "T2 Inner West & Leppington Line",
           "description": "City to Parramatta or Leppington",
           "iconId": 1,
@@ -27850,7 +27850,7 @@
             "name": "Bankstown",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T3 Bankstown Line",
+          "name": "Sydney Trains Network T3 Bankstown Line",
           "number": "T3 Bankstown Line",
           "description": "City to Liverpool or Lidcombe via Bankstown",
           "iconId": 1,
@@ -27866,107 +27866,12 @@
         {
           "id": "nsw:020T3: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Sydenham via Bankstown",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T3 Bankstown Line",
+          "name": "Sydney Trains Network T3 Bankstown Line",
           "number": "T3 Bankstown Line",
           "description": "Liverpool or Lidcombe to City via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:C:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "Emu Plains to City, Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "City Circle via Town Hall",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T6: :H:",
-          "destination": {
-            "name": "Carlingford",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T6 Carlingford Line",
-          "number": "T6 Carlingford Line",
-          "description": "Clyde to Carlingford",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T6: :R:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T6 Carlingford Line",
-          "number": "T6 Carlingford Line",
-          "description": "Carlingford to Clyde",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -27980,7 +27885,7 @@
       ],
       "stops": [
         {
-          "id": "10101218",
+          "id": "214110",
           "name": "Lidcombe Station",
           "type": "stop",
           "parent": {
@@ -27995,11 +27900,11 @@
   {
     "type": "stopInfo",
     "id": "6062570",
-    "version": 1,
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-06-05T03:59:00Z",
-      "lastModification": "2021-06-05T03:59:00Z",
+      "creation": "2021-06-05T03:59:27Z",
+      "lastModification": "2021-06-06T23:39:52Z",
       "availability": {
         "from": "2021-06-05T03:59:00Z",
         "to": "2021-06-12T13:59:59Z"
@@ -28012,13 +27917,13 @@
       ]
     },
     "urlText": "Parramatta lift outage between platform 1 and western concourse",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062570&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062570&seqID=2",
     "content": "The lift between platform 1 and the western concourse is temporarily out of service. If you require assistance, ask staff or phone 9848 9450",
     "subtitle": "Parramatta lift outage between platform 1 and western concourse",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101229:2150411",
+      "stopIDglobalID": "215020:2150411",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -28027,10 +27932,10 @@
         {
           "id": "nsw:02BMT: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Central",
             "type": "stop"
           },
-          "name": "Intercity Trains Net Blue Mountains Line",
+          "name": "Intercity Trains Network Blue Mountains Line",
           "number": "Blue Mountains Line",
           "description": "Bathurst to Central",
           "iconId": 2,
@@ -28040,56 +27945,18 @@
           },
           "operator": {
             "id": "X0000",
-            "name": "NSW TrainLink"
-          }
-        },
-        {
-          "id": "nsw:020T1:C:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "Emu Plains to City, Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+            "name": "NSW Trains"
           }
         },
         {
           "id": "nsw:020T1:W:R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Lindfield via Central",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
           "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T7: :R:",
-          "destination": {
-            "name": "Olympic Park",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T7 Olympic Park Line",
-          "number": "T7 Olympic Park Line",
-          "description": "Olympic Park to Lidcombe",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -28103,7 +27970,7 @@
       ],
       "stops": [
         {
-          "id": "10101229",
+          "id": "215020",
           "name": "Parramatta Station",
           "type": "stop",
           "parent": {
@@ -28118,11 +27985,11 @@
   {
     "type": "stopInfo",
     "id": "6062608",
-    "version": 1,
+    "version": 2,
     "priority": "low",
     "timestamps": {
       "creation": "2021-06-06T20:55:37Z",
-      "lastModification": "2021-06-06T20:55:49Z",
+      "lastModification": "2021-06-06T23:42:09Z",
       "availability": {
         "from": "2021-06-06T20:55:00Z",
         "to": "2021-06-14T06:55:59Z"
@@ -28135,13 +28002,13 @@
       ]
     },
     "urlText": "Berowra lift outage between platform 1/2 and concourse",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062608&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062608&seqID=2",
     "content": "The lift between platforms 1/2 and the concourse is temporarily out of service. If you require assistance, ask staff or phone 9847 8496.",
     "subtitle": "Berowra lift outage between platform 1/2 and concourse",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101131:208172,208171",
+      "stopIDglobalID": "208110:208171,208172",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -28150,10 +28017,10 @@
         {
           "id": "nsw:02CCN: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Central via Strathfield",
             "type": "stop"
           },
-          "name": "Intercity Trains Net Central Coast & Newcastle Line",
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
           "number": "Central Coast & Newcastle Line",
           "description": "Newcastle to Central via Strathfield or Gordon",
           "iconId": 2,
@@ -28163,16 +28030,16 @@
           },
           "operator": {
             "id": "X0000",
-            "name": "NSW TrainLink"
+            "name": "NSW Trains"
           }
         },
         {
           "id": "nsw:02CCN: :H:",
           "destination": {
-            "name": "Wyong Station",
+            "name": "Newcastle Interchange",
             "type": "stop"
           },
-          "name": "Intercity Trains Net Central Coast & Newcastle Line",
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
           "number": "Central Coast & Newcastle Line",
           "description": "Central to Newcastle via Strathfield or Gordon",
           "iconId": 2,
@@ -28182,37 +28049,18 @@
           },
           "operator": {
             "id": "X0000",
-            "name": "NSW TrainLink"
+            "name": "NSW Trains"
           }
         },
         {
           "id": "nsw:020T1:N:R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Richmond via Gordon",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "Berowra to City via Gordon, Hornsby to City via Macquarie University",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:A:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "Berowra to City via Gordon, Hornsby to City via Macquarie University",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -28229,28 +28077,9 @@
             "name": "Berowra Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "City to Berowra via Gordon, City to Hornsby via Macquarie University",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:A:H:",
-          "destination": {
-            "name": "Berowra Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Networ T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "City to Berowra via Gordon, City to Hornsby via Macquarie University",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -28264,7 +28093,7 @@
       ],
       "stops": [
         {
-          "id": "10101131",
+          "id": "208110",
           "name": "Berowra Station",
           "type": "stop",
           "parent": {
@@ -28571,6 +28400,116 @@
           "operator": {
             "id": "2442",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062611",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-06T23:43:24Z",
+      "lastModification": "2021-06-06T23:44:02Z",
+      "availability": {
+        "from": "2021-06-06T23:43:00Z",
+        "to": "2021-06-07T09:43:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-06T23:43:00Z",
+          "to": "2021-06-07T09:43:59Z"
+        }
+      ]
+    },
+    "urlText": "Hunter Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062611&seqID=1",
+    "content": "Allow plenty of extra travel time due to power supply repairs at Sandgate. Listen to announcements and check information displays for service updates.&nbsp;",
+    "subtitle": "Hunter Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Allow plenty of extra travel time due to power supply repairs at Sandgate. Listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76HUN: :H:",
+          "destination": {
+            "name": "Dungog Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :H:",
+          "destination": {
+            "name": "Singleton Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle to Scone or Dungog",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Scone or Dungog to Newcastle",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
