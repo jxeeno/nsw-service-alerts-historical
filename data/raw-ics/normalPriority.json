@@ -14458,112 +14458,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6062489",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-06-03T04:15:00Z",
-      "lastModification": "2021-06-04T02:50:00Z",
-      "availability": {
-        "from": "2021-06-03T04:15:00Z",
-        "to": "2021-06-07T19:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-06-07T11:00:00Z",
-          "to": "2021-06-07T19:00:59Z"
-        }
-      ]
-    },
-    "urlText": "Milsons Point bus diversions",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062489&seqID=2",
-    "content": "From 9pm Monday 7 to 5am Tuesday 8 June, <strong>route 230</strong> bus services wil divert and miss some stops while Lavendar St is closed for roadworks. <strong><br /><br />Closed stops</strong>\n<ul>\n<li><strong>Miller St before Blue St (206024)</strong></li>\n<li><strong>Blues Point Rd before Lavender St (206031)</strong></li>\n<li><strong>Lavender St opp Cliff St (206058)</strong></li>\n<li><strong>Milsons Point Station, Alfred St Sth (206123)</strong></li>\n</ul>\nPlease use the alternative stop <strong>Miller St before Pacific Hwy (206085)</strong>.",
-    "subtitle": "Milsons Point bus diversions",
-    "properties": {
-      "providerCode": "PTMarketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G206024:206024#G206031:206031#G206058:206058#206110:206123#G206085:206085",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:28230: :R:",
-          "destination": {
-            "name": "Milsons Point",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 230",
-          "number": "230",
-          "description": "Mosman Wharf to Milsons Point via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2440",
-            "name": "State Transit"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "G206024",
-          "name": "Miller St before Blue St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343010:1",
-            "name": "North Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G206031",
-          "name": "Blues Point Rd before Lavender St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343010:1",
-            "name": "North Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G206058",
-          "name": "Lavender St opp Cliff St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343006:1",
-            "name": "Lavender Bay",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "206110",
-          "name": "Milsons Point Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343008:1",
-            "name": "Milsons Point",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G206085",
-          "name": "Miller St before Pacific Hwy",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343010:1",
-            "name": "North Sydney",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "routeInfo",
     "id": "6062491",
     "version": 4,
@@ -17752,6 +17646,78 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062646",
+    "version": 4,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-07T20:51:46Z",
+      "lastModification": "2021-06-07T21:01:16Z",
+      "availability": {
+        "from": "2021-06-07T20:51:00Z",
+        "to": "2021-06-08T06:51:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-07T20:51:00Z",
+          "to": "2021-06-08T06:51:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion - Gosford",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062646&seqID=4",
+    "content": "Due to a police operation, buses in both directions are diverting away from Henry Parry Drive via Manns Road. Six stops are being missed. School route buses will continue along Masons Parade and Manns Street and then resume their normal route at Erina Street, missing three stops.&nbsp;",
+    "subtitle": "Diversion - Gosford",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Due to a police operation, buses in both directions are diverting away from Henry Parry Drive via Manns Road. Six stops are being missed. School route buses will continue along Masons Parade and Manns Street and then resume their normal route at Erina Street, missing three stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:62042: :H:",
+          "destination": {
+            "name": "Gosford Station",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 42",
+          "number": "42",
+          "description": "Point Frederick to Gosford",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2453",
+            "name": "Red Bus Service"
+          }
+        },
+        {
+          "id": "nsw:62S71:3:R:",
+          "destination": {
+            "name": "Gosford Public School, Faunce St, Gosford",
+            "type": "stop"
+          },
+          "name": "School buses S713",
+          "number": "S713",
+          "description": "Barralong Rd to Gosford PS via Springfield",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2453",
+            "name": "Red Bus Service"
           }
         }
       ]
