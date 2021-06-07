@@ -28408,11 +28408,11 @@
   {
     "type": "lineInfo",
     "id": "6062611",
-    "version": 1,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-06-06T23:43:24Z",
-      "lastModification": "2021-06-06T23:44:02Z",
+      "lastModification": "2021-06-07T00:02:07Z",
       "availability": {
         "from": "2021-06-06T23:43:00Z",
         "to": "2021-06-07T09:43:59Z"
@@ -28425,12 +28425,12 @@
       ]
     },
     "urlText": "Hunter Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062611&seqID=1",
-    "content": "Allow plenty of extra travel time due to power supply repairs at Sandgate. Listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062611&seqID=3",
+    "content": "<span>No trains are running between Newcastle Interchange and Maitland in both directions due to power supply repairs at Sandgate. Bus companies are being contacted to operate a replacement service, but there is no forecast for when the buses will arrive. Consider alternative travel arrangements or allow plenty of extra travel time, listen to announcements and check information displays for service updates.</span>",
     "subtitle": "Hunter Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow plenty of extra travel time due to power supply repairs at Sandgate. Listen to announcements and check information displays for service updates.",
+      "speechText": "No trains are running between Newcastle Interchange and Maitland in both directions due to power supply repairs at Sandgate. Bus companies are being contacted to operate a replacement service, but there is no forecast for when the buses will arrive. Consider alternative travel arrangements or allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -28510,6 +28510,58 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062612",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-07T00:04:15Z",
+      "lastModification": "2021-06-07T00:05:29Z",
+      "availability": {
+        "from": "2021-06-07T00:04:00Z",
+        "to": "2021-06-07T09:04:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-07T00:04:00Z",
+          "to": "2021-06-07T09:04:59Z"
+        }
+      ]
+    },
+    "urlText": "07:09 Sydney to Casino XPT service delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062612&seqID=1",
+    "content": "This service is delayed due to a mechanical problem near Maitland.<br /><br /> Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
+    "subtitle": "07:09 Sydney to Casino XPT service delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
