@@ -19641,11 +19641,11 @@
   {
     "type": "lineInfo",
     "id": "6062648",
-    "version": 2,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-06-07T22:07:00Z",
-      "lastModification": "2021-06-07T23:44:00Z",
+      "creation": "2021-06-07T22:07:06Z",
+      "lastModification": "2021-06-08T03:23:32Z",
       "availability": {
         "from": "2021-06-07T22:07:00Z",
         "to": "2021-06-08T08:07:59Z"
@@ -19657,13 +19657,13 @@
         }
       ]
     },
-    "urlText": "Diversion - Grantham Farm",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062648&seqID=2",
-    "content": "Due to road works, buses are diverting away from Edmund Street via Foxall Street and Sheila Street. One stop is being missed in each direction.&nbsp;",
-    "subtitle": "Diversion - Grantham Farm",
+    "urlText": "Diversion in Riverstone",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062648&seqID=4",
+    "content": "Buses are diverting away from Edmund Street via Foxall Street and Sheila Street due to road works. One stop is being missed in each direction.&nbsp;",
+    "subtitle": "Diversion in Riverstone",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Grantham Farm, due to road works, buses are diverting away from Edmund Street via Foxall Street and Sheila Street. One stop is being missed in each direction.",
+      "speechText": "In Riverstone, buses are diverting away from Edmund Street via Foxall Street and Sheila Street due to road works. One stop is being missed in each direction.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -19777,6 +19777,110 @@
           "operator": {
             "id": "2444",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062664",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-08T03:21:08Z",
+      "lastModification": "2021-06-08T03:23:24Z",
+      "availability": {
+        "from": "2021-06-08T03:21:00Z",
+        "to": "2021-06-08T06:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-08T03:21:00Z",
+          "to": "2021-06-08T06:00:59Z"
+        }
+      ]
+    },
+    "urlText": "07:40 Sydney to Melbourne XPT delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062664&seqID=1",
+    "content": "This service is delayed by a police operation at Goulburn.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
+    "subtitle": "07:40 Sydney to Melbourne XPT delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Sta",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062665",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-08T03:23:36Z",
+      "lastModification": "2021-06-08T03:25:24Z",
+      "availability": {
+        "from": "2021-06-08T03:23:00Z",
+        "to": "2021-06-08T10:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-08T03:23:00Z",
+          "to": "2021-06-08T10:00:59Z"
+        }
+      ]
+    },
+    "urlText": "08:30 Melbourne to Sydney XPT delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062665&seqID=1",
+    "content": "This service has been delayed due to late connecting coaches.&nbsp;<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "08:30 Melbourne to Sydney XPT delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
