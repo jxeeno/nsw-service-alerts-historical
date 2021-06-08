@@ -30240,58 +30240,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6062664",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-06-08T03:21:08Z",
-      "lastModification": "2021-06-08T03:23:24Z",
-      "availability": {
-        "from": "2021-06-08T03:21:00Z",
-        "to": "2021-06-08T06:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-06-08T03:21:00Z",
-          "to": "2021-06-08T06:00:59Z"
-        }
-      ]
-    },
-    "urlText": "07:40 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062664&seqID=1",
-    "content": "This service is delayed by a police operation at Goulburn.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
-    "subtitle": "07:40 Sydney to Melbourne XPT delay",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6062665",
     "version": 1,
     "priority": "normal",
@@ -30747,6 +30695,72 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062668",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-06-08T06:13:22Z",
+      "lastModification": "2021-06-08T06:13:37Z",
+      "availability": {
+        "from": "2021-06-08T06:13:00Z",
+        "to": "2021-06-14T16:13:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-08T06:13:00Z",
+          "to": "2021-06-14T16:13:59Z"
+        }
+      ]
+    },
+    "urlText": "Berowra lift outage between platform 3 and concourse.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062668&seqID=1",
+    "content": "The lift between platforms 3 and the concourse is temporarily out of service. If you require assistance, ask staff or phone 9847 8496.",
+    "subtitle": "Berowra lift outage between platform 3 and concourse.",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101131:208173",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101131",
+          "name": "Berowra Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325004:1",
+            "name": "Berowra",
+            "type": "locality"
           }
         }
       ]
