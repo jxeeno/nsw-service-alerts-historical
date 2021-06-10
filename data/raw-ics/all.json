@@ -29146,8 +29146,8 @@
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-06-10T19:48:45Z",
-      "lastModification": "2021-06-10T20:04:25Z",
+      "creation": "2021-06-10T19:48:00Z",
+      "lastModification": "2021-06-10T20:04:00Z",
       "availability": {
         "from": "2021-06-10T19:48:00Z",
         "to": "2021-06-11T05:48:59Z"
@@ -29215,11 +29215,11 @@
   {
     "type": "lineInfo",
     "id": "6062740",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-06-10T20:00:44Z",
-      "lastModification": "2021-06-10T20:02:09Z",
+      "lastModification": "2021-06-10T21:20:25Z",
       "availability": {
         "from": "2021-06-10T20:00:00Z",
         "to": "2021-06-11T06:00:59Z"
@@ -29231,10 +29231,10 @@
         }
       ]
     },
-    "urlText": "T1 North Shore Line, T2 Inner West & Leppington Line, T3 Bankstown Line and T8 Airport & South Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062740&seqID=1",
+    "urlText": "T2 Inner West & Leppington Line, T3 Bankstown Line and T8 Airport & South Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062740&seqID=2",
     "content": "Allow extra travel time away from the city due to track equipment repairs at Central earlier. Listen to announcements and check information displays for service updates as stopping patterns may change at short notice.&nbsp;",
-    "subtitle": "T1 North Shore Line, T2 Inner West & Leppington Line, T3 Bankstown Line and T8 Airport & South Line",
+    "subtitle": "T2 Inner West & Leppington Line, T3 Bankstown Line and T8 Airport & South Line",
     "properties": {
       "providerCode": "TMC",
       "speechText": "Allow extra travel time away from the city due to track equipment repairs at Central earlier. Listen to announcements and check information displays for service updates as stopping patterns may change at short notice.",
@@ -29243,25 +29243,6 @@
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:020T1:N:H:",
-          "destination": {
-            "name": "Berowra Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
         {
           "id": "nsw:020T2: :H:",
           "destination": {
@@ -29427,6 +29408,90 @@
           "operator": {
             "id": "112",
             "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6062742",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-06-10T21:23:24Z",
+      "lastModification": "2021-06-10T21:23:48Z",
+      "availability": {
+        "from": "2021-06-10T21:23:00Z",
+        "to": "2021-06-18T07:23:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-10T21:23:00Z",
+          "to": "2021-06-18T07:23:59Z"
+        }
+      ]
+    },
+    "urlText": "Rockdale lift outage - between concourse and Princes Highway",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062742&seqID=1",
+    "content": "The lift between the concourse and Princes Highway is temporarily out of service. For assistance, ask staff or call 9563 7574.",
+    "subtitle": "Rockdale lift outage - between concourse and Princes Highway",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101335:2216175,2216174,2216173,2216172",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101335",
+          "name": "Rockdale Station",
+          "type": "stop",
+          "parent": {
+            "name": "Rockdale",
+            "type": "locality"
           }
         }
       ]
