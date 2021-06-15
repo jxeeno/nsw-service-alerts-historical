@@ -26968,11 +26968,11 @@
   {
     "type": "stopInfo",
     "id": "6062823",
-    "version": 1,
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-06-13T03:23:00Z",
-      "lastModification": "2021-06-13T03:23:00Z",
+      "creation": "2021-06-13T03:23:13Z",
+      "lastModification": "2021-06-15T04:38:21Z",
       "availability": {
         "from": "2021-06-13T03:23:00Z",
         "to": "2021-06-18T13:23:59Z"
@@ -26985,13 +26985,13 @@
       ]
     },
     "urlText": "Hornsby lift outage between platform 4/5 and concourse",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062823&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062823&seqID=2",
     "content": "The lift between the concourse and platforms 4 &amp; 5 is temporarily out of service. If you require assistance, ask staff or call 9847 8428.",
     "subtitle": "Hornsby lift outage between platform 4/5 and concourse",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101127:2077305,2077304",
+      "stopIDglobalID": "207720:2077304,2077305",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -27000,7 +27000,7 @@
         {
           "id": "nsw:76031: :H:",
           "destination": {
-            "name": "Brisbane (Roma Street) Station, Brisbane",
+            "name": "Casino",
             "type": "stop"
           },
           "name": "Regional Trains and Coaches Network 31",
@@ -27076,7 +27076,7 @@
         {
           "id": "nsw:02CCN: :H:",
           "destination": {
-            "name": "Newcastle Interchange",
+            "name": "Wyong",
             "type": "stop"
           },
           "name": "Intercity Trains Network Central Coast & Newcastle Line",
@@ -27093,33 +27093,14 @@
           }
         },
         {
-          "id": "nsw:020T1:N:H:",
+          "id": "nsw:020T9: :R:",
           "destination": {
-            "name": "Berowra Station",
+            "name": "Central via Strathfield",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "City to Berowra via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:N:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
-          "description": "Berowra to City via Gordon",
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -27138,7 +27119,7 @@
           },
           "name": "Sydney Trains Network T9 Northern Line",
           "number": "T9 Northern Line",
-          "description": "Gordon to Hornsby via Strathfield",
+          "description": "North Shore to Hornsby via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -27152,7 +27133,7 @@
       ],
       "stops": [
         {
-          "id": "10101127",
+          "id": "207720",
           "name": "Hornsby Station",
           "type": "stop",
           "parent": {
@@ -27769,6 +27750,115 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6062864",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-15T04:48:01Z",
+      "lastModification": "2021-06-15T04:49:16Z",
+      "availability": {
+        "from": "2021-06-15T04:48:00Z",
+        "to": "2021-06-26T23:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-26T14:01:00Z",
+          "to": "2021-06-26T23:30:59Z"
+        }
+      ]
+    },
+    "urlText": "Service changes for SMH Half Marathon",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062864&seqID=1",
+    "content": "From first service until 9.30am light rail services will not run between Circular Quay and Town Hall due to road closures in place for the SMH Half Marathon event.<br /><br />L2 and L3 line services continue to run regularly between Randwick or Juniors Kingsford and Town Hall.<br /><br />Catch trains or continue on-foot to travel between Town Hall and Circular Quay during this time.<br /><br />Visit the <a href=\"https://transportnsw.info/smh-half-marathon\">SMH Half Marathon event page</a> for more transport details.",
+    "subtitle": "Service changes for SMH Half Marathon",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L2: :H:",
+          "destination": {
+            "name": "Randwick Light Rail, Randwick",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :H:",
+          "destination": {
+            "name": "Juniors Kingsford Light Rail, Kingsford",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Circular Quay to Juniors Kingsford",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Juniors Kingsford to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
           }
         }
       ]
