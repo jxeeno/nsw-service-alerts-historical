@@ -16054,58 +16054,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6063027",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-06-20T20:06:04Z",
-      "lastModification": "2021-06-20T20:06:34Z",
-      "availability": {
-        "from": "2021-06-20T20:06:00Z",
-        "to": "2021-06-21T06:06:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-06-20T20:06:00Z",
-          "to": "2021-06-21T06:06:59Z"
-        }
-      ]
-    },
-    "urlText": "05:15 Grafton to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063027&seqID=1",
-    "content": "This service is delayed due to a mechanical issue at Grafton.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "05:15 Grafton to Sydney XPT delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76036: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 36",
-          "number": "36",
-          "description": "Grafton to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6063035",
     "version": 1,
     "priority": "normal",
@@ -16152,6 +16100,78 @@
           "operator": {
             "id": "2448",
             "name": "Hunter Valley Buses"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6063047",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-06-21T06:23:51Z",
+      "lastModification": "2021-06-21T06:25:58Z",
+      "availability": {
+        "from": "2021-06-21T06:23:00Z",
+        "to": "2021-06-21T16:23:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-06-21T06:23:00Z",
+          "to": "2021-06-21T16:23:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in Merrylands West",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063047&seqID=1",
+    "content": "Buses are diverting away from Sherwood Road due to a crash involving a car and pedestrian near Paton Street. Buses are using Kenyons Road, Fowler Road, Merrylands Road and Centenary Road instead, missing two stops.",
+    "subtitle": "Diversion in Merrylands West",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Merrylands West, Route T 80 buses are diverting away from Sherwood Road due to a crash involving a car and pedestrian near Paton Street. Buses are using Kenyons Road, Fowler Road, Merrylands Road and Centenary Road instead, missing two stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:22T80: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network T80",
+          "number": "T80",
+          "description": "Liverpool to Parramatta via T-way",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2435",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:22T80: :H:",
+          "destination": {
+            "name": "Liverpool Interchange, Liverpool",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network T80",
+          "number": "T80",
+          "description": "Parramatta to Liverpool via T-way",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2435",
+            "name": "Transit Systems"
           }
         }
       ]
