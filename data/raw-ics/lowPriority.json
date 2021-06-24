@@ -1347,11 +1347,11 @@
   {
     "type": "stopInfo",
     "id": "6063168",
-    "version": 1,
+    "version": 2,
     "priority": "low",
     "timestamps": {
       "creation": "2021-06-24T02:16:34Z",
-      "lastModification": "2021-06-24T02:16:51Z",
+      "lastModification": "2021-06-24T05:44:14Z",
       "availability": {
         "from": "2021-06-24T02:16:00Z",
         "to": "2021-07-08T12:16:59Z"
@@ -1364,13 +1364,13 @@
       ]
     },
     "urlText": "North Sydney lift outage between platforms 3/4, concourse and mezzanine level",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063168&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063168&seqID=2",
     "content": "The lift between platforms 3/4, concourse and mezzanine level is temporarily out of service. If you require assistance, ask staff or phone 9379 4432.",
     "subtitle": "North Sydney lift outage between platforms 3/4, concourse and mezzanine level",
     "properties": {
       "providerCode": "RMC",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "10101112:2060104,2060103",
+      "stopIDglobalID": "206010:2060103,2060104",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -1379,7 +1379,7 @@
         {
           "id": "nsw:02CCN: :H:",
           "destination": {
-            "name": "Wyong Station",
+            "name": "Wyong via Gordon",
             "type": "stop"
           },
           "name": "Intercity Trains Network Central Coast & Newcastle Line",
@@ -1398,11 +1398,11 @@
         {
           "id": "nsw:020T1:N:R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Emu Plains via Central",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
           "description": "Berowra to City via Gordon",
           "iconId": 1,
           "product": {
@@ -1417,11 +1417,11 @@
         {
           "id": "nsw:020T1:N:H:",
           "destination": {
-            "name": "Lindfield",
+            "name": "Hornsby via Gordon",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
-          "number": "T1 North Shore, Northern & Western Line",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
           "description": "City to Berowra via Gordon",
           "iconId": 1,
           "product": {
@@ -1436,12 +1436,12 @@
         {
           "id": "nsw:020T9: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Hornsby via Central",
             "type": "stop"
           },
           "name": "Sydney Trains Network T9 Northern Line",
           "number": "T9 Northern Line",
-          "description": "Hornsby to Gordon via Strathfield",
+          "description": "Hornsby to North Shore via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -1455,12 +1455,12 @@
         {
           "id": "nsw:020T9: :H:",
           "destination": {
-            "name": "Gordon",
+            "name": "Gordon via Lindfield",
             "type": "stop"
           },
           "name": "Sydney Trains Network T9 Northern Line",
           "number": "T9 Northern Line",
-          "description": "Gordon to Hornsby via Strathfield",
+          "description": "North Shore to Hornsby via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -1474,10 +1474,11 @@
       ],
       "stops": [
         {
-          "id": "10101112",
+          "id": "206010",
           "name": "North Sydney Station",
           "type": "stop",
           "parent": {
+            "id": "placeID:95343010:1",
             "name": "North Sydney",
             "type": "locality"
           }
