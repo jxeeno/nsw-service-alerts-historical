@@ -28464,11 +28464,11 @@
   {
     "type": "stopInfo",
     "id": "6063182",
-    "version": 2,
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-06-24T04:41:00Z",
-      "lastModification": "2021-06-24T06:29:00Z",
+      "creation": "2021-06-24T04:41:39Z",
+      "lastModification": "2021-06-25T00:48:33Z",
       "availability": {
         "from": "2021-06-24T04:41:00Z",
         "to": "2021-06-29T14:41:59Z"
@@ -28481,8 +28481,8 @@
       ]
     },
     "urlText": "St Marys lift outage between concourse and Queen St",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063182&seqID=2",
-    "content": "The lift between the concourse and Queen Street is temporarily out of service. If you require assistance, ask staff or phone 9851 7462.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063182&seqID=3",
+    "content": "The lift between the concourse and Queen Street is temporarily out of service. If you require assistance, ask staff or phone&nbsp;9851 7525.",
     "subtitle": "St Marys lift outage between concourse and Queen St",
     "properties": {
       "providerCode": "RMC",
@@ -28547,52 +28547,66 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6063193",
-    "version": 2,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "6063196",
+    "version": 1,
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-06-24T19:02:31Z",
-      "lastModification": "2021-06-24T19:47:14Z",
+      "creation": "2021-06-25T01:11:19Z",
+      "lastModification": "2021-06-25T01:11:45Z",
       "availability": {
-        "from": "2021-06-24T19:02:00Z",
-        "to": "2021-06-24T22:00:59Z"
+        "from": "2021-06-25T01:11:00Z",
+        "to": "2021-07-09T11:11:59Z"
       },
       "validity": [
         {
-          "from": "2021-06-24T19:02:00Z",
-          "to": "2021-06-24T22:00:59Z"
+          "from": "2021-06-25T01:11:00Z",
+          "to": "2021-07-09T11:11:59Z"
         }
       ]
     },
-    "urlText": "19:50 Melbourne to Sydney XPT service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063193&seqID=2",
-    "content": "Due to a potential broken rail at Wingello, this service has been delayed.<br /><br /><span>Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a><span>&nbsp;for the latest travel information with real time updates.&nbsp;</span>",
-    "subtitle": "19:50 Melbourne to Sydney XPT service delay",
+    "urlText": "Thirroul lift outage - between platform 1 and Railway Pde",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063196&seqID=1",
+    "content": "The lift between platform 1 and&nbsp;Railway Parade&nbsp;is temporarily out of service.&nbsp;For assistance, ask staff or phone 4223 5576.",
+    "subtitle": "Thirroul lift outage - between platform 1 and Railway Pde",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101364:2515141",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Central",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101364",
+          "name": "Thirroul Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95366057:1",
+            "name": "Thirroul",
+            "type": "locality"
           }
         }
       ]
