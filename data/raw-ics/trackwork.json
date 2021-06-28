@@ -2539,11 +2539,11 @@
   {
     "type": "lineInfo",
     "id": "6062778",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-06-11T03:45:00Z",
-      "lastModification": "2021-06-16T00:26:00Z",
+      "creation": "2021-06-11T03:45:54Z",
+      "lastModification": "2021-06-28T06:35:25Z",
       "availability": {
         "from": "2021-06-11T03:45:00Z",
         "to": "2021-06-29T16:00:59Z"
@@ -2560,7 +2560,7 @@
       ]
     },
     "urlText": "Trackwork may affect your travel",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062778&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6062778&seqID=3",
     "content": "<strong>Monday 28 and Tuesday 29 June</strong>\n<ul>\n<li><strong>Nightly from 10.30pm until 2am</strong>, some trains run to a changed timetable via the <strong>T1 North Shore Line</strong>, making extra stops at Chatswood, North Sydney, Wynyard and Town Hall.</li>\n<li>Buses replace <strong>T9 Northern Line</strong> trains between Epping and Strathfield.</li>\n<li>Limited stop buses run from Strathfield to Hornsby to connect with <strong>Central Coast &amp; Newcastle Line</strong> trains at Hornsby.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus route</strong><br />86T9: Strathfield, then Eastwood, Epping, Hornsby and return<br />90T9: Strathfield, Epping, then express to Hornsby and return",
     "subtitle": "Trackwork may affect your travel",
     "properties": {
@@ -2607,6 +2607,63 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:0186T:9:R:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 86T9",
+          "number": "86T9",
+          "description": "Hornsby, then Epping, Eastwood, Strathfield",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0186T:9:H:",
+          "destination": {
+            "name": "Hornsby Station, George St, Hornsby",
+            "type": "stop"
+          },
+          "name": "Temporary buses 86T9",
+          "number": "86T9",
+          "description": "Strathfield, then Eastwood, Epping, Hornsby",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0190T:9:H:",
+          "destination": {
+            "name": "Hornsby Station, George St, Hornsby",
+            "type": "stop"
+          },
+          "name": "Temporary buses 90T9",
+          "number": "90T9",
+          "description": "Strathfield, then Epping, Hornsby",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
           }
         }
       ]
@@ -3548,11 +3605,11 @@
   {
     "type": "routeInfo",
     "id": "6063126",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-06-23T04:15:00Z",
-      "lastModification": "2021-06-23T04:24:00Z",
+      "creation": "2021-06-23T04:15:21Z",
+      "lastModification": "2021-06-28T06:37:12Z",
       "availability": {
         "from": "2021-06-23T04:15:00Z",
         "to": "2021-07-09T16:00:59Z"
@@ -3565,7 +3622,7 @@
       ]
     },
     "urlText": "Trackwork between Wynyard and North Sydney",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063126&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063126&seqID=3",
     "content": "<strong>Friday 9 July</strong>\n<ul>\n<li><strong>From 10.55pm until 2am</strong>, buses replace trains between Wynyard and North Sydney.</li>\n<li>Trains run between North Sydney and Hornsby or Berowra, some to a changed timetable.</li>\n<li>If you are travelling to stations north of Chatswood an express bus will also run from Wynyard to Chatswood.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br /><strong>18T1: </strong>North Sydney, then Wynyard and return<br /><strong>19T1: </strong>Wynyard, Milsons Point, North Sydney and return<br /><strong>75T1: </strong>Wynyard, express to Chatswood",
     "subtitle": "Trackwork between Wynyard and North Sydney",
     "properties": {
@@ -3578,9 +3635,25 @@
     "affected": {
       "lines": [
         {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Penrith via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
           "id": "nsw:020T1:N:H:",
           "destination": {
-            "name": "Berowra via Gordon",
+            "name": "Lindfield",
             "type": "stop"
           },
           "name": "Sydney Trains Network T1 North Shore & Western Line",
@@ -3594,18 +3667,66 @@
           "operator": {}
         },
         {
-          "id": "nsw:020T1:N:R:",
+          "id": "nsw:0118T:1:R:",
           "destination": {
-            "name": "Richmond via Central",
+            "name": "Wynyard",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "iconId": 1,
+          "name": "Temporary buses 18T1",
+          "number": "18T1",
+          "description": "North Sydney, then Wynyard",
+          "iconId": 14,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0118T:1:H:",
+          "destination": {
+            "name": "North Sydney",
+            "type": "stop"
+          },
+          "name": "Temporary buses 18T1",
+          "number": "18T1",
+          "description": "Wynyard, then North Sydney",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0119T:1:R:",
+          "destination": {
+            "name": "Wynyard Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 19T1",
+          "number": "19T1",
+          "description": "North Sydney, Milsons Point then Wynyard",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0119T:1:H:",
+          "destination": {
+            "name": "North Sydney Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 19T1",
+          "number": "19T1",
+          "description": "Wynyard, Milsons Point then North Sydney",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
           },
           "operator": {}
         }
@@ -3647,11 +3768,11 @@
   {
     "type": "routeInfo",
     "id": "6063128",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-06-23T04:20:00Z",
-      "lastModification": "2021-06-23T04:24:00Z",
+      "creation": "2021-06-23T04:20:01Z",
+      "lastModification": "2021-06-28T06:38:14Z",
       "availability": {
         "from": "2021-06-23T04:20:00Z",
         "to": "2021-07-11T16:00:59Z"
@@ -3664,7 +3785,7 @@
       ]
     },
     "urlText": "Trackwork between Gordon and Wynyard",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063128&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063128&seqID=3",
     "content": "<strong>Saturday 10 and Sunday 11 July</strong>\n<ul>\n<li>Buses replace trains between Gordon and Wynyard.</li>\n<li>Trains run between Hornsby and Gordon, some to a changed timetable.</li>\n<li><strong>T9 Northern Line</strong> trains run to a changed timetable between Berowra or Hornsby and Central, platforms 1-12, via Strathfield.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br />20T1: Wynyard to Milsons Point and return<br />21T1: Chatswood, then all stations to Wynyard and return<br />22T1: Chatswood, then all stations to St Leonards, then North Sydney, Wynyard and return<br />75T1: Chatswood, then express to Wynyard and return&nbsp; <br />77T1: Gordon, Lindfield, Roseville, Chatswood, then express to Wynyard and return<br />78T1: Gordon, then all stations to Chatswood then Wynyard and return",
     "subtitle": "Trackwork between Gordon and Wynyard",
     "properties": {
@@ -3705,6 +3826,166 @@
           "product": {
             "class": 1,
             "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0120T:1:R:",
+          "destination": {
+            "name": "Wynyard",
+            "type": "stop"
+          },
+          "name": "Temporary buses 20T1",
+          "number": "20T1",
+          "description": "Milsons Point, then Wynyard",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0120T:1:H:",
+          "destination": {
+            "name": "Milsons Point",
+            "type": "stop"
+          },
+          "name": "Temporary buses 20T1",
+          "number": "20T1",
+          "description": "Wynyard, then Milsons Point",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0121T:1:R:",
+          "destination": {
+            "name": "Wynyard",
+            "type": "stop"
+          },
+          "name": "Temporary buses 21T1",
+          "number": "21T1",
+          "description": "Chatswood, then all stations to Wynyard",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0121T:1:H:",
+          "destination": {
+            "name": "Chatswood",
+            "type": "stop"
+          },
+          "name": "Temporary buses 21T1",
+          "number": "21T1",
+          "description": "Wynyard, then all stations to Chatswood",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0122T:1:R:",
+          "destination": {
+            "name": "Wynyard",
+            "type": "stop"
+          },
+          "name": "Temporary buses 22T1",
+          "number": "22T1",
+          "description": "Chatswood, then Artarmon, St Leonards, North Sydney, Wynyard",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0122T:1:H:",
+          "destination": {
+            "name": "Chatswood",
+            "type": "stop"
+          },
+          "name": "Temporary buses 22T1",
+          "number": "22T1",
+          "description": "Wynyard, then North Sydney, St Leonards, Artarmon, Chatswood",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0175T:1:R:",
+          "destination": {
+            "name": "Wynyard",
+            "type": "stop"
+          },
+          "name": "Temporary buses 75T1",
+          "number": "75T1",
+          "description": "Chatswood, then Wynyard",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0175T:1:H:",
+          "destination": {
+            "name": "Chatswood",
+            "type": "stop"
+          },
+          "name": "Temporary buses 75T1",
+          "number": "75T1",
+          "description": "Wynyard, then Chatswood",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0177T:1:R:",
+          "destination": {
+            "name": "Wynyard",
+            "type": "stop"
+          },
+          "name": "Temporary buses 77T1",
+          "number": "77T1",
+          "description": "Gordon, Lindfield, Roseville, Chatswood, then Wynyard",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:0177T:1:H:",
+          "destination": {
+            "name": "Gordon",
+            "type": "stop"
+          },
+          "name": "Temporary buses 77T1",
+          "number": "77T1",
+          "description": "Wynyard, then Chatswood, Roseville, Lindfield, Gordon",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
           },
           "operator": {}
         }
