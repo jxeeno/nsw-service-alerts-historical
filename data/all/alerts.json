@@ -8160,14 +8160,6 @@
         ],
         "informed_entity": [
           {
-            "agency_id": "700",
-            "route_id": "1-1SC-sj2-1"
-          },
-          {
-            "agency_id": "700",
-            "route_id": "1-5SC-sj2-2"
-          },
-          {
             "agency_id": "X000",
             "route_id": "4T.T.SCO"
           },
@@ -9785,7 +9777,7 @@
         "description_text": {
           "translation": [
             {
-              "text": "Due to power supply issues affecting rail infrastructure between Campbelltown and Minto, some services in both directions will experience delays. Stopping patterns and platforms may still change at short notice, please listen to announcements, check information screens and transport apps before boarding services.",
+              "text": "Due to power supply issues affecting rail infrastructure between Campbelltown and Minto earlier, some services in both directions will experience delays. Stopping patterns and platforms may still change at short notice, please listen to announcements, check information screens and transport apps before boarding services.",
               "language": "en"
             }
           ]
@@ -9823,7 +9815,7 @@
         "description_text": {
           "translation": [
             {
-              "text": "due to a train requiring mechanical repairs between Linden and Faulconbridge earlier. Please allow up to 15 minutes additional travel time.",
+              "text": "due to a train requiring mechanical repairs between Linden and Faulconbridge earlier. Please allow up to 10 minutes additional travel time.",
               "language": "en"
             }
           ]
@@ -9910,6 +9902,13 @@
       "id": "283060",
       "alert": {
         "informed_entity": [
+          {
+            "trip": {
+              "trip_id": "754C.424.130.64.A.8.65886461",
+              "start_date": "20210702",
+              "route_id": "APS_2a"
+            }
+          },
           {
             "trip": {
               "trip_id": "771C.424.130.124.K.8.65885705",
@@ -10095,6 +10094,59 @@
             {
               "text": "Due to power supply issues affecting rail infrastructure between Campbelltown and Minto earlier. Please allow additional travel time, listen to announcements, check information screens and transport apps before boarding services.",
               "language": "en"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "283064",
+      "alert": {
+        "active_period": [
+          {
+            "start": {
+              "low": 1625176560,
+              "high": 0,
+              "unsigned": true
+            },
+            "end": {
+              "low": 1625212619,
+              "high": 0,
+              "unsigned": true
+            }
+          }
+        ],
+        "informed_entity": [
+          {
+            "agency_id": "SF",
+            "route_id": "9-F2-sj2-1"
+          }
+        ],
+        "url": {
+          "translation": [
+            {
+              "text": "https://www.transportnsw.info/alerts#/6063404",
+              "language": "en"
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "text": "F2 Taronga Zoo",
+              "language": "en"
+            }
+          ]
+        },
+        "description_text": {
+          "translation": [
+            {
+              "text": "Allow extra travel time due to heavy fog. Check information displays for service updates.",
+              "language": "en"
+            },
+            {
+              "text": "Allow extra travel time due to heavy fog. Check information displays for service updates.&nbsp;",
+              "language": "en/html"
             }
           ]
         }
