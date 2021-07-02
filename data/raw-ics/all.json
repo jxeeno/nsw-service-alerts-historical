@@ -23418,58 +23418,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6063153",
-    "version": 7,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-06-23T11:54:00Z",
-      "lastModification": "2021-06-29T20:36:00Z",
-      "availability": {
-        "from": "2021-07-01T14:01:00Z",
-        "to": "2021-07-08T22:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-07-01T14:01:00Z",
-          "to": "2021-07-08T22:00:59Z"
-        }
-      ]
-    },
-    "urlText": "14:41 Sydney to Brisbane XPT alterations",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063153&seqID=7",
-    "content": "Due to Queensland Border Covid restrictions, this service is replaced by coaches from Casino to Brisbane.<br /> <br /> Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "14:41 Sydney to Brisbane XPT alterations",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76031: :H:",
-          "destination": {
-            "name": "Brisbane (Roma Street) Station, Brisbane",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6063171",
     "version": 2,
@@ -28917,6 +28865,129 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6063410",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-07-02T03:21:27Z",
+      "lastModification": "2021-07-02T03:21:43Z",
+      "availability": {
+        "from": "2021-07-02T03:21:00Z",
+        "to": "2021-07-09T13:21:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-07-02T03:21:00Z",
+          "to": "2021-07-09T13:21:59Z"
+        }
+      ]
+    },
+    "urlText": "Rhodes lift outage between platform 2/3 and concourse.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063410&seqID=1",
+    "content": "The lift between platform 2/3 and the concourse is temporarily out of service. For assistance ask staff or call&nbsp; 9752 8467.",
+    "subtitle": "Rhodes lift outage between platform 2/3 and concourse.",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101203:213893,213892",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:E:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "Epping to City via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:E:H:",
+          "destination": {
+            "name": "Epping Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Epping via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to Gordon via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Hornsby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Gordon to Hornsby via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101203",
+          "name": "Rhodes Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95314013:1",
+            "name": "Rhodes",
+            "type": "locality"
           }
         }
       ]
