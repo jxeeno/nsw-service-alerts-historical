@@ -27035,24 +27035,24 @@
   {
     "type": "lineInfo",
     "id": "6063469",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-07-05T22:56:21Z",
-      "lastModification": "2021-07-05T22:59:05Z",
+      "lastModification": "2021-07-05T23:02:38Z",
       "availability": {
         "from": "2021-07-05T22:56:00Z",
-        "to": "2021-07-06T14:00:59Z"
+        "to": "2021-07-06T16:00:59Z"
       },
       "validity": [
         {
           "from": "2021-07-06T09:45:00Z",
-          "to": "2021-07-06T14:00:59Z"
+          "to": "2021-07-06T16:00:59Z"
         }
       ]
     },
     "urlText": "Metro North West Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063469&seqID=1",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063469&seqID=2",
     "content": "From 7:45pm, buses are replacing metro services in both directions between Castle Hill and Tallawong due to track equipment repairs. Allow extra travel time, listen to announcements and check information displays for service updates.",
     "subtitle": "Metro North West Line",
     "properties": {
@@ -27099,6 +27099,128 @@
           "operator": {
             "id": "SMNW",
             "name": "Sydney Metro"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6063470",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-07-05T23:05:01Z",
+      "lastModification": "2021-07-05T23:08:28Z",
+      "availability": {
+        "from": "2021-07-05T23:05:00Z",
+        "to": "2021-07-27T09:05:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-07-05T23:05:00Z",
+          "to": "2021-07-27T09:05:59Z"
+        }
+      ]
+    },
+    "urlText": "Mortdale lift outage - between concourse and Railway Pde",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063470&seqID=1",
+    "content": "The lift between the concourse and Railway Parade is temporarily out of service.&nbsp;For assistance, ask staff or phone 9563 7585.",
+    "subtitle": "Mortdale lift outage - between concourse and Railway Pde",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "10101341:2223292,2223291",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction via Wolli Creek",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Net South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Banksia",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "10101341",
+          "name": "Mortdale Station",
+          "type": "stop",
+          "parent": {
+            "name": "Mortdale",
+            "type": "locality"
           }
         }
       ]
