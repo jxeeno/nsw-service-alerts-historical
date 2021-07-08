@@ -30177,11 +30177,11 @@
   {
     "type": "lineInfo",
     "id": "6063554",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-07-08T17:27:56Z",
-      "lastModification": "2021-07-08T19:21:42Z",
+      "lastModification": "2021-07-08T19:31:37Z",
       "availability": {
         "from": "2021-07-08T17:27:00Z",
         "to": "2021-07-08T21:00:59Z"
@@ -30194,7 +30194,7 @@
       ]
     },
     "urlText": "Southern Highlands Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063554&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063554&seqID=3",
     "content": "The 6:19am Campbelltown to Moss Vale train has been cancelled due to an operational issue. Catch the next service at 6:49am.&nbsp;<br />Allow extra travel time, listen to announcements and check information displays for service updates. <br /><br />",
     "subtitle": "Southern Highlands Line",
     "properties": {
@@ -30223,24 +30223,77 @@
             "id": "X000",
             "name": "Intercity Train"
           }
-        },
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6063555",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-07-08T19:21:53Z",
+      "lastModification": "2021-07-08T19:30:13Z",
+      "availability": {
+        "from": "2021-07-08T19:21:00Z",
+        "to": "2021-07-09T05:21:59Z"
+      },
+      "validity": [
         {
-          "id": "nsw:76SHL: :R:",
+          "from": "2021-07-08T19:21:00Z",
+          "to": "2021-07-09T05:21:59Z"
+        }
+      ]
+    },
+    "urlText": "L2 Randwick Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063555&seqID=1",
+    "content": "Services are running at a reduced frequency due to a tram requiring mechanical repairs at Wynyard. Allow extra travel time, listen to announcements and check information displays for service updates",
+    "subtitle": "L2 Randwick Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Services are running at a reduced frequency due to a tram requiring mechanical repairs at Wynyard.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L2: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Randwick Light Rail, Randwick",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Southern Highlands Line",
-          "number": "Southern Highlands Line",
-          "description": "Moss Vale to Campbelltown",
-          "iconId": 2,
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 4,
+            "iconId": 4
           },
           "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
           }
         }
       ]
