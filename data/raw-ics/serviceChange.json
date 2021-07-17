@@ -1,51 +1,71 @@
 [
   {
     "type": "lineInfo",
-    "id": "6063737",
+    "id": "6063739",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-07-17T04:53:07Z",
-      "lastModification": "2021-07-17T04:55:21Z",
+      "creation": "2021-07-17T07:32:13Z",
+      "lastModification": "2021-07-17T07:38:00Z",
       "availability": {
-        "from": "2021-07-17T04:53:00Z",
-        "to": "2021-07-17T06:30:59Z"
+        "from": "2021-07-17T07:32:00Z",
+        "to": "2021-07-17T17:32:59Z"
       },
       "validity": [
         {
-          "from": "2021-07-17T04:53:00Z",
-          "to": "2021-07-17T06:30:59Z"
+          "from": "2021-07-17T07:32:00Z",
+          "to": "2021-07-17T17:32:59Z"
         }
       ]
     },
-    "urlText": "11:55 Canberra to Sydney XPLORER service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063737&seqID=1",
-    "content": "Due to a mechanical issue, this train service has been delayed.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><span>&nbsp;</span>",
-    "subtitle": "11:55 Canberra to Sydney XPLORER service delay",
+    "urlText": "Diversion in the Sydney CBD",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063739&seqID=1",
+    "content": "Route 304 buses are diverting away from Goulburn Street via Elizabeth Street and Campbell Street due to a building fire. Two stops are being missed.&nbsp;",
+    "subtitle": "Diversion in the Sydney CBD",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In the Sydney CBD, Route 3 0 4 buses are diverting away from Goulburn Street via Elizabeth Street and Campbell Street due to a building fire. Two stops are being missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76634: :R:",
+          "id": "nsw:31304: :H:",
           "destination": {
-            "name": "Strathfield Station",
+            "name": "Kimberley Gr after Rosebery Ave, Rosebery",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 634",
-          "number": "634",
-          "description": "Canberra to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 304",
+          "number": "304",
+          "description": "City Circular Quay to Rosebery via Zetland",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31304: :R:",
+          "destination": {
+            "name": "Museum of Sydney, Phillip St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 304",
+          "number": "304",
+          "description": "Rosebery to City Circular Quay via Zetland",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
           }
         }
       ]
