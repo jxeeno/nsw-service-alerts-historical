@@ -49620,11 +49620,11 @@
   {
     "type": "lineInfo",
     "id": "6063801",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-07-20T22:03:12Z",
-      "lastModification": "2021-07-20T22:11:43Z",
+      "lastModification": "2021-07-20T22:46:20Z",
       "availability": {
         "from": "2021-07-20T22:03:00Z",
         "to": "2021-07-21T04:03:59Z"
@@ -49637,8 +49637,8 @@
       ]
     },
     "urlText": "07.19 Sydney to Dubbo XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063801&seqID=1",
-    "content": "This service is delayed, due to Covid testing requirements at Sydney terminal. Please note, passengers travelling to and from Orange are asked to rebook, due to NSW Health restrictions.<br /><br /><br /> <em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063801&seqID=2",
+    "content": "This service is delayed, due to Covid testing requirements at Sydney terminal. Please note, passengers travelling to and from Orange or Blayney are asked to rebook, due to NSW Health restrictions.<br /><br /><br /> <em>Use the&nbsp;</em><a href=\"https://transportnsw.info/trip#/\"><em>Trip Planner</em></a><em>&nbsp;for the latest travel information with real time updates NSW TrainLink</em>&nbsp;",
     "subtitle": "07.19 Sydney to Dubbo XPT delay.",
     "properties": {
       "providerCode": "NSWTL",
@@ -49664,6 +49664,91 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6063802",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-07-20T22:46:07Z",
+      "lastModification": "2021-07-20T22:46:24Z",
+      "availability": {
+        "from": "2021-07-20T22:46:00Z",
+        "to": "2021-07-28T08:46:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-07-20T22:46:00Z",
+          "to": "2021-07-28T08:46:59Z"
+        }
+      ]
+    },
+    "urlText": "Woolooware lift outage - between The Kingsway and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063802&seqID=1",
+    "content": "The lift between The Kingsway and the concourse is temporarily out of service.&nbsp;For assistance, ask staff or phone 9522 1265.",
+    "subtitle": "Woolooware lift outage - between The Kingsway and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "223010:2230222,2230221",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Kogarah",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "223010",
+          "name": "Woolooware Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95357037:1",
+            "name": "Woolooware",
+            "type": "locality"
           }
         }
       ]
