@@ -49037,11 +49037,11 @@
   {
     "type": "lineInfo",
     "id": "6063797",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-07-20T00:43:00Z",
-      "lastModification": "2021-07-20T00:44:00Z",
+      "creation": "2021-07-20T00:43:41Z",
+      "lastModification": "2021-07-21T21:51:34Z",
       "availability": {
         "from": "2021-07-20T00:43:00Z",
         "to": "2021-07-22T09:30:59Z"
@@ -49054,12 +49054,12 @@
       ]
     },
     "urlText": "Palm Beach ferries",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063797&seqID=1",
-    "content": "Ferries will be diverting to Patonga on Wednesday 21 July and Thursday 22 July due to forecast strong winds and rough swell. More information can be found <a href=\"https://www.fantasea.com.au/palm-beach-ferries/services/\">here</a>.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063797&seqID=2",
+    "content": "Ferries will be diverting to Patonga on Thursday 22 July due to forecast strong winds and rough swell. More information can be found <a href=\"https://www.fantasea.com.au/palm-beach-ferries/services/\">here</a>.&nbsp;",
     "subtitle": "Palm Beach ferries",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Ferries are diverting to Patonga on Wednesday 21 July and Thursday 22 July due to forecast strong winds and rough swell.",
+      "speechText": "Ferries are diverting to Patonga on Thursday 22 July due to forecast strong winds and rough swell.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -50296,58 +50296,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6063836",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-07-21T19:39:22Z",
-      "lastModification": "2021-07-21T19:39:58Z",
-      "availability": {
-        "from": "2021-07-21T19:39:00Z",
-        "to": "2021-07-21T21:30:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-07-21T19:39:00Z",
-          "to": "2021-07-21T21:30:59Z"
-        }
-      ]
-    },
-    "urlText": "19:50 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063836&seqID=1",
-    "content": "This service has been delayed due to speed restrictions.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "19:50 Melbourne to Sydney XPT delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6063837",
     "version": 2,
     "priority": "normal",
@@ -50445,6 +50393,110 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6063839",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-07-21T21:50:13Z",
+      "lastModification": "2021-07-21T21:50:21Z",
+      "availability": {
+        "from": "2021-07-21T21:50:00Z",
+        "to": "2021-07-29T07:50:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-07-21T21:50:00Z",
+          "to": "2021-07-29T07:50:59Z"
+        }
+      ]
+    },
+    "urlText": "St Leonards lift outage (no.1) between platform 2 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063839&seqID=1",
+    "content": "The lift between platform 2 and the concourse is temporarily out of service. For assistance ask staff or call 9379 1046.",
+    "subtitle": "St Leonards lift outage (no.1) between platform 2 and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "206520:2065152",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to Gordon via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "206520",
+          "name": "St Leonards Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95362010:1",
+            "name": "St Leonards",
+            "type": "locality"
           }
         }
       ]
