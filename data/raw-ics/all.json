@@ -23506,11 +23506,11 @@
   {
     "type": "lineInfo",
     "id": "6063679",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-07-15T01:12:00Z",
-      "lastModification": "2021-07-19T02:59:00Z",
+      "creation": "2021-07-15T01:12:49Z",
+      "lastModification": "2021-07-21T23:29:06Z",
       "availability": {
         "from": "2021-07-15T01:12:00Z",
         "to": "2021-08-01T16:00:59Z"
@@ -23523,8 +23523,8 @@
       ]
     },
     "urlText": "Trackwork between Ashfield and Central",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063679&seqID=2",
-    "content": "<strong>Saturday 31 July and Sunday 1 August</strong>\n<ul>\n<li>Buses replace trains between Ashfield and Central.</li>\n<li>Leppington trains run between Leppington and Ashfield only, making extra stops at all stations between Homebush and Ashfield.</li>\n<li>Express and limited stop trains continue to run between Strathfield and Central.</li>\n<li>Change at Strathfield for express trains to Central.</li>\n<li>Change at Ashfield for all-stations buses between Ashfield and Central.</li>\n<li>Trackwork on the City Circle may also affect how you travel.</li>\n</ul>\n<ul>\n<li><strong>From 11pm Saturday until 5am Sunday</strong>, buses replace all trains between Strathfield or Ashfield and Central.</li>\n<li>If you are travelling to the City change at Lidcombe for trains via Bankstown or change at Strathfield for a bus.</li>\n<li>Express buses leave from Strathfield, and all-stations buses leave from Ashfield.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes </strong><br />50T2: Lewisham, then Petersham, Stanmore, Central and return<br />51T2: Ashfield, then Summer Hill, Newtown, Central and return<br />52T2: Ashfield, then all stations to Central (Bypass Macdonaldtown) and return<br />55T2: Macdonaldtown, then Redfern and return <strong>Saturday night / Sunday morning</strong><br />45T2: Ashfield, Summer Hill, then express to Newtown, Macdonaldtown, then Central and return<br />46T2: Ashfield, all stations to Central and return<br />50T2: Lewisham, Petersham, Stanmore, then express to Central and return<br />40T2: Strathfield, then express to Central and return (Saturday night / Sunday morning only)",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063679&seqID=3",
+    "content": "<strong>Saturday 31 July and Sunday 1 August</strong>\n<ul>\n<li>Buses replace trains between Ashfield and Central.</li>\n<li>Leppington trains run between Leppington and Ashfield only, making extra stops at all stations between Homebush and Ashfield.</li>\n<li>Express and limited stop trains continue to run between Strathfield and Central.</li>\n<li>Change at Strathfield for express trains to Central.</li>\n<li>Change at Ashfield for all-stations buses between Ashfield and Central.</li>\n<li>Trackwork on the City Circle may also affect how you travel.</li>\n</ul>\n<ul>\n<li><strong>From 11pm Saturday until 5am Sunday</strong>, buses replace all trains between Strathfield or Ashfield and Central.</li>\n<li>If you are travelling to the City change at Lidcombe for trains via Bankstown or change at Strathfield for a bus.</li>\n<li>Express buses leave from Strathfield, and all-stations buses leave from Ashfield.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes </strong><br />45T2: Ashfield, Summer Hill, then express to Newtown, Macdonaldtown, then Central and return<br />46T2: Ashfield, all stations to Central and return<br />50T2: Lewisham, Petersham, Stanmore, then express to Central and return<br />40T2: Strathfield, then express to Central and return (Saturday night / Sunday morning only)",
     "subtitle": "Trackwork between Ashfield and Central",
     "properties": {
       "providerCode": "PTMarketing",
@@ -23611,44 +23611,6 @@
           }
         },
         {
-          "id": "nsw:0150T:2:H:",
-          "destination": {
-            "name": "Railway Pde opp Lewisham Station, Lewisham",
-            "type": "stop"
-          },
-          "name": "Temporary buses 50T2",
-          "number": "50T2",
-          "description": "Central, then Stanmore, Petersham, Lewisham",
-          "iconId": 14,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "700",
-            "name": "train replacement bus operators"
-          }
-        },
-        {
-          "id": "nsw:0150T:2:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Temporary buses 50T2",
-          "number": "50T2",
-          "description": "Lewisham, then Petersham, Stanmore, Central",
-          "iconId": 14,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "700",
-            "name": "train replacement bus operators"
-          }
-        },
-        {
           "id": "nsw:020T2: :H:",
           "destination": {
             "name": "Parramatta Station",
@@ -23684,6 +23646,63 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:0150T:2:H:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 50T2",
+          "number": "50T2",
+          "description": "Central, then Stanmore, Petersham, then Lewisham and return (Loop Service)",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0140T:2:H:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 40T2",
+          "number": "40T2",
+          "description": "Central, then Strathfield",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
+          }
+        },
+        {
+          "id": "nsw:0140T:2:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Temporary buses 40T2",
+          "number": "40T2",
+          "description": "Strathfield, then Central",
+          "iconId": 14,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "700",
+            "name": "train replacement bus operators"
           }
         }
       ]
