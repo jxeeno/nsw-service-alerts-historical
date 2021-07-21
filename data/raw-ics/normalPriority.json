@@ -38311,58 +38311,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6063816",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-07-21T04:28:31Z",
-      "lastModification": "2021-07-21T04:29:46Z",
-      "availability": {
-        "from": "2021-07-21T04:28:00Z",
-        "to": "2021-07-21T10:28:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-07-21T04:28:00Z",
-          "to": "2021-07-21T10:28:59Z"
-        }
-      ]
-    },
-    "urlText": "08:30 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063816&seqID=1",
-    "content": "This service has been delayed at Junee due to a gas leak near Cootamundra.&nbsp;<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
-    "subtitle": "08:30 Melbourne to Sydney XPT delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6063819",
     "version": 1,
     "priority": "normal",
@@ -38540,11 +38488,11 @@
   {
     "type": "lineInfo",
     "id": "6063827",
-    "version": 3,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-07-21T10:00:35Z",
-      "lastModification": "2021-07-21T10:26:22Z",
+      "lastModification": "2021-07-21T10:42:55Z",
       "availability": {
         "from": "2021-07-21T10:00:00Z",
         "to": "2021-07-21T20:00:59Z"
@@ -38557,12 +38505,12 @@
       ]
     },
     "urlText": "Diversion in Sydney",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063827&seqID=3",
-    "content": "Buses are diverting away from York St due to a building fire, just past Market Street. The stops outside the QVB are being missed. Customers can join buses on York St before Market St or on Druitt St before Sussex St.&nbsp;&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063827&seqID=5",
+    "content": "Buses are diverting away from York St due to a building fire, just past Market Street. The stops outside the QVB are being missed. Customers can join routes 110 &amp; 120 on York St before Market St and routes 437, 441 &amp; 442 services on Druitt St before Sussex St.&nbsp; Route 320 services will divert from York St into King St then Castlereagh St.&nbsp; Routes 311, 324 and 325 will divert from York St into King St then Elizabeth St.&nbsp;&nbsp;",
     "subtitle": "Diversion in Sydney",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "In Sydney, buses are diverting away from York St due to a building fire, just past Market Street. The stops outside the QVB are being missed. Customers can join buses on York Street, before Market Street or on Druitt Street before Sussex Street.",
+      "speechText": "In Sydney, buses are diverting away from York Street due to a building fire, just past Market Street. The stops outside the QVB are being missed. Customers can join routes 1  1 0 and 1 2 0 on York Street before Market Street and routes 4 3 7, 4 4 1 and 4 4 2 services on Druitt Street before Sussex Street.  Route 3 2 0 services will divert from York Street into King Street then Castlereagh Street.  Routes 3 1 1, 3 2 4 and 3 2 5 will divert from York Street into King Street then Elizabeth Street.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -38680,6 +38628,63 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:31311: :H:",
+          "destination": {
+            "name": "Railway Square, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 311",
+          "number": "311",
+          "description": "City Millers Point to Central Railway Square via Darlinghurst & Potts Point",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31324: :H:",
+          "destination": {
+            "name": "Robertson Park, Military Rd, Watsons Bay",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 324",
+          "number": "324",
+          "description": "City Walsh Bay to Watsons Bay via Old South Head Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31325: :H:",
+          "destination": {
+            "name": "Robertson Park, Military Rd, Watsons Bay",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 325",
+          "number": "325",
+          "description": "City Walsh Bay to Watsons Bay via Vaucluse Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
           }
         }
       ]
