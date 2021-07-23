@@ -7353,11 +7353,11 @@
   {
     "type": "lineInfo",
     "id": "6063911",
-    "version": 2,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-07-23T05:33:32Z",
-      "lastModification": "2021-07-23T05:39:06Z",
+      "lastModification": "2021-07-23T05:44:09Z",
       "availability": {
         "from": "2021-07-23T05:33:00Z",
         "to": "2021-07-25T18:00:59Z"
@@ -7369,10 +7369,10 @@
         }
       ]
     },
-    "urlText": "Road coach replacement",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063911&seqID=2",
+    "urlText": "Train service replaced by road coach",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063911&seqID=4",
     "content": "<span>Due to planned track work and QLD border covid 19 restrictions, this service will be replaced by a road coach for the entire journey from Sydney to Casino.&nbsp;</span>",
-    "subtitle": "Road coach replacement",
+    "subtitle": "Train service replaced by road coach",
     "properties": {
       "providerCode": "NSWTL",
       "announcementType": "trackwork",
@@ -7389,6 +7389,77 @@
           "name": "Regional Trains and Coaches Network 33",
           "number": "33",
           "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76031: :H:",
+          "destination": {
+            "name": "Brisbane (Roma Street) Station, Brisbane",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 31",
+          "number": "31",
+          "description": "Central to Brisbane (Roma Street)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6063912",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-07-23T05:41:13Z",
+      "lastModification": "2021-07-23T05:43:38Z",
+      "availability": {
+        "from": "2021-07-23T05:41:00Z",
+        "to": "2021-07-25T21:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-07-23T19:00:00Z",
+          "to": "2021-07-25T21:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Train service replaced by road coach",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063912&seqID=1",
+    "content": "<span>Due to planned track work and QLD border covid 19 restrictions, This service will be replaced by a road coach for the entire journey from Casino to Sydney.</span>",
+    "subtitle": "Train service replaced by road coach",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
           "iconId": 3,
           "product": {
             "class": 1,
