@@ -53303,25 +53303,25 @@
   {
     "type": "lineInfo",
     "id": "6063905",
-    "version": 1,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-07-23T05:22:05Z",
-      "lastModification": "2021-07-23T05:24:19Z",
+      "lastModification": "2021-07-23T05:26:28Z",
       "availability": {
         "from": "2021-07-23T05:22:00Z",
         "to": "2021-07-25T08:10:59Z"
       },
       "validity": [
         {
-          "from": "2021-07-23T23:30:00Z",
+          "from": "2021-07-23T22:00:00Z",
           "to": "2021-07-25T08:10:59Z"
         }
       ]
     },
     "urlText": "Train service replaced by road coaches",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063905&seqID=1",
-    "content": "<span>Due to planned ARTC Inland Rail Project work , this service has been replaced by road coaches for the entire journey.&nbsp;</span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063905&seqID=3",
+    "content": "<span>Due to planned ARTC Inland Rail Project work , this service has been replaced by road coaches for the entire journey in both directions</span>",
     "subtitle": "Train service replaced by road coaches",
     "properties": {
       "providerCode": "NSWTL",
@@ -53330,25 +53330,6 @@
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:76223: :H:",
-          "destination": {
-            "name": "Armidale Station, Armidale",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 223",
-          "number": "223",
-          "description": "Central to Armidale",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
         {
           "id": "nsw:76243: :H:",
           "destination": {
@@ -53366,6 +53347,207 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76244: :R:",
+          "destination": {
+            "name": "Werris Creek Station, Werris Creek",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 244",
+          "number": "244",
+          "description": "Narrabri to Werris Creek",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6063907",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-07-23T05:26:31Z",
+      "lastModification": "2021-07-23T05:28:45Z",
+      "availability": {
+        "from": "2021-07-23T05:26:00Z",
+        "to": "2021-07-25T08:10:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-07-23T22:00:00Z",
+          "to": "2021-07-25T08:10:59Z"
+        }
+      ]
+    },
+    "urlText": "Partial road coach replacement",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063907&seqID=1",
+    "content": "<span>Due to planned track work, this service will be replaced by a road coach between Sydney and Muswellbrook. The Xplorer train service will be commencing at Muswellbrook for the remainder of the journey.</span>",
+    "subtitle": "Partial road coach replacement",
+    "properties": {
+      "providerCode": "NSWTL",
+      "stopIDglobalID": "200060#233310",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76223: :H:",
+          "destination": {
+            "name": "Armidale",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 223",
+          "number": "223",
+          "description": "Central to Armidale",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "200060",
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "233310",
+          "name": "Muswellbrook Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95341021:1",
+            "name": "Muswellbrook",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6063908",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-07-23T05:27:21Z",
+      "lastModification": "2021-07-23T05:28:23Z",
+      "availability": {
+        "from": "2021-07-23T05:27:00Z",
+        "to": "2021-07-23T15:27:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-07-23T05:27:00Z",
+          "to": "2021-07-23T15:27:59Z"
+        }
+      ]
+    },
+    "urlText": "Hunter Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063908&seqID=1",
+    "content": "Trains are not running between Maitland and Singleton due to track equipment repairs at Singleton. Replacement buses are being organised but are not on site. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
+    "subtitle": "Hunter Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Trains are not running between Maitland and Singleton due to track equipment repairs at Singleton. Replacement buses are being organised but are not on site. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76HUN: :H:",
+          "destination": {
+            "name": "Dungog Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :H:",
+          "destination": {
+            "name": "Singleton Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle to Scone or Dungog",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Scone or Dungog to Newcastle",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
