@@ -17542,24 +17542,24 @@
   {
     "type": "lineInfo",
     "id": "6063609",
-    "version": 4,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-07-11T09:51:00Z",
-      "lastModification": "2021-07-14T23:47:00Z",
+      "creation": "2021-07-11T09:51:48Z",
+      "lastModification": "2021-07-29T01:14:31Z",
       "availability": {
         "from": "2021-07-11T09:51:00Z",
-        "to": "2021-07-29T19:51:59Z"
+        "to": "2021-08-28T21:45:59Z"
       },
       "validity": [
         {
           "from": "2021-07-11T09:51:00Z",
-          "to": "2021-07-29T19:51:59Z"
+          "to": "2021-08-28T21:45:59Z"
         }
       ]
     },
     "urlText": "Sydney to Melbourne XPT alteration.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063609&seqID=4",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063609&seqID=5",
     "content": "<p class=\"xxmsonormal\"><strong>Due to border closure the Melbourne XPT services will terminate at Albury. No service will be provided betweeen Albury and Melbourne.</strong> <br /><br /><br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
     "subtitle": "Sydney to Melbourne XPT alteration.",
     "properties": {
@@ -41982,6 +41982,125 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "6063984",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-07-29T00:51:04Z",
+      "lastModification": "2021-07-29T00:52:53Z",
+      "availability": {
+        "from": "2021-07-29T00:51:00Z",
+        "to": "2021-08-10T15:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-08-10T13:50:00Z",
+          "to": "2021-08-10T15:30:59Z"
+        }
+      ]
+    },
+    "urlText": "T1 North Shore Line: Trackwork between North Sydney and Central",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063984&seqID=1",
+    "content": "<strong>Tuesday 10 August</strong>\n<ul>\n<li><strong>From 11.50pm until 1.30am</strong>, buses replace trains between North Sydney and Central.</li>\n<li>Trains run between Berowra and North Sydney only.</li>\n<li>Buses also replace City Circle trains between Circular Quay and Central via St James.</li>\n<li><strong>T1 Western</strong> and <strong>T9 Northern Line</strong> trains start and end at Central, platforms 1-12.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus routes</strong><br />2T1: North Sydney, all stations to Central and return<br />2AT1: North Sydney, Wynyard, Town Hall, Central and return",
+    "subtitle": "T1 North Shore Line: Trackwork between North Sydney and Central",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "stopIDglobalID": "206010#206110#200080#200070#200060",
+      "speechText": "Tuesday 10 August\n\n    From 11 50 PM until 1 30 AM, buses replace trains between North Sydney and Central.\n    Trains run between Berowra and North Sydney only.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Richmond via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Hornsby via Gordon",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {}
+        }
+      ],
+      "stops": [
+        {
+          "id": "206010",
+          "name": "North Sydney Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343010:1",
+            "name": "North Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "206110",
+          "name": "Milsons Point Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343008:1",
+            "name": "Milsons Point",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "200080",
+          "name": "Wynyard Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "200070",
+          "name": "Town Hall Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "200060",
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
           }
         }
       ]
