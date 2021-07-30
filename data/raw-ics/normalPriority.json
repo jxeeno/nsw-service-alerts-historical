@@ -36610,11 +36610,11 @@
   {
     "type": "lineInfo",
     "id": "6064031",
-    "version": 3,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-07-30T05:50:16Z",
-      "lastModification": "2021-07-30T07:56:17Z",
+      "lastModification": "2021-07-30T08:10:41Z",
       "availability": {
         "from": "2021-07-30T05:50:00Z",
         "to": "2021-07-30T15:50:59Z"
@@ -36627,12 +36627,12 @@
       ]
     },
     "urlText": "Central Coast & Newcastle Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064031&seqID=3",
-    "content": "Allow extra travel time due to mechanical problems with a freight train at Wyee. Listen to announcements and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064031&seqID=4",
+    "content": "Allow extra travel time due to mechanical problems with a freight train at Wyee earlier. Listen to announcements and check information displays for service updates.",
     "subtitle": "Central Coast & Newcastle Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Allow extra travel time due to mechanical problems with a freight train at Wyee. Listen to announcements and check information displays for service updates.",
+      "speechText": "Allow extra travel time due to mechanical problems with a freight train at Wyee earlier. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -37025,6 +37025,116 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6064039",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-07-30T08:06:08Z",
+      "lastModification": "2021-07-30T08:10:54Z",
+      "availability": {
+        "from": "2021-07-30T08:06:00Z",
+        "to": "2021-07-30T18:06:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-07-30T08:06:00Z",
+          "to": "2021-07-30T18:06:59Z"
+        }
+      ]
+    },
+    "urlText": "Hunter Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064039&seqID=2",
+    "content": "Trains are not running between Maitland and Scone as well as between Maitland and Dungog due to a freight train with mechanical problems at Wyee earlier. Replacement buses are being organised but are not on site. Delay your trip or allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
+    "subtitle": "Hunter Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "Trains are not running between Maitland and Scone as well as between Maitland and Dungog due to a freight train with mechanical problems at Wyee earlier. Replacement buses are being organised but are not on site. Delay your trip or allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76HUN: :H:",
+          "destination": {
+            "name": "Dungog Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :H:",
+          "destination": {
+            "name": "Singleton Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle to Scone or Dungog",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Scone or Dungog to Newcastle",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
