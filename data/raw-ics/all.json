@@ -25816,51 +25816,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6064074",
-    "version": 1,
+    "id": "6064076",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-08-01T09:49:40Z",
-      "lastModification": "2021-08-01T09:50:52Z",
+      "creation": "2021-08-01T12:26:15Z",
+      "lastModification": "2021-08-01T12:32:15Z",
       "availability": {
-        "from": "2021-08-01T09:49:00Z",
-        "to": "2021-08-01T12:05:59Z"
+        "from": "2021-08-01T12:26:00Z",
+        "to": "2021-08-01T15:00:59Z"
       },
       "validity": [
         {
-          "from": "2021-08-01T09:49:00Z",
-          "to": "2021-08-01T12:05:59Z"
+          "from": "2021-08-01T12:26:00Z",
+          "to": "2021-08-01T15:00:59Z"
         }
       ]
     },
-    "urlText": "17:36 Sydney to Canberra XPLORER service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064074&seqID=1",
-    "content": "This service has been delayed crossing the late running Canberra to Sydney XPLORER train at Moss Vale.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><span>&nbsp;</span>",
-    "subtitle": "17:36 Sydney to Canberra XPLORER service delay",
+    "urlText": "Diversions in Cammeray",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064076&seqID=2",
+    "content": "Buses are diverting away from Miller Street due to a crash, missing one stop in each direction.",
+    "subtitle": "Diversions in Cammeray",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "In Cammeray, Buses are diverting away from Miller Street due to a crash, missing one stop in each direction.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76635: :H:",
+          "id": "nsw:39194: :H:",
           "destination": {
-            "name": "Canberra Station, Kingston (ACT)",
+            "name": "Woodbury Rd before Mona Vale Rd, St Ives",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 635",
-          "number": "635",
-          "description": "Central to Canberra",
-          "iconId": 3,
+          "name": "Sydney Buses Network 194",
+          "number": "194",
+          "description": "City QVB to St Ives",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2445",
+            "name": "Forest Coach Lines"
+          }
+        },
+        {
+          "id": "nsw:39194: :R:",
+          "destination": {
+            "name": "QVB, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 194",
+          "number": "194",
+          "description": "St Ives to City QVB",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2445",
+            "name": "Forest Coach Lines"
           }
         }
       ]
