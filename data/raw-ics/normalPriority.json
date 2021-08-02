@@ -12172,11 +12172,11 @@
   {
     "type": "lineInfo",
     "id": "6064092",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-08-02T19:18:06Z",
-      "lastModification": "2021-08-02T19:21:37Z",
+      "lastModification": "2021-08-02T19:49:51Z",
       "availability": {
         "from": "2021-08-02T19:18:00Z",
         "to": "2021-08-03T05:18:59Z"
@@ -12189,12 +12189,12 @@
       ]
     },
     "urlText": "Southern Highlands Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064092&seqID=1",
-    "content": "Trains are not running between Campbelltown and Moss Vale due to a train with mechanical problems at Moss Vale. Replacement buses are being organised but are not on site. Delay your trip until the buses arrive or allow plenty of extra travel time. Listen to announcements and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064092&seqID=2",
+    "content": "Buses are replacing some trains between Campbelltown and Moss Vale due to a train requiring mechanical repairs. Allow extra travel time, listen to announcements and check information displays for service updates.",
     "subtitle": "Southern Highlands Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Trains are not running between Campbelltown and Moss Vale due to a train with mechanical problems at Moss Vale. Replacement buses are being organised but are not on site. Delay your trip until the buses arrive or allow plenty of extra travel time. Listen to announcements and check information displays for service updates.",
+      "speechText": "Buses are replacing some trains between Campbelltown and Moss Vale due to a train requiring mechanical repairs. Allow extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -12236,6 +12236,58 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6064093",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-08-02T19:36:14Z",
+      "lastModification": "2021-08-02T19:43:10Z",
+      "availability": {
+        "from": "2021-08-02T19:36:00Z",
+        "to": "2021-08-03T06:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-08-02T19:36:00Z",
+          "to": "2021-08-03T06:00:59Z"
+        }
+      ]
+    },
+    "urlText": "05:15 Grafton to Sydney XPT alteration",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064093&seqID=1",
+    "content": "Due to operational issues, this service is a road coach for the entire journey.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
+    "subtitle": "05:15 Grafton to Sydney XPT alteration",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76036: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 36",
+          "number": "36",
+          "description": "Grafton to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
