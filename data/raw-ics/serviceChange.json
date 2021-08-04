@@ -18936,11 +18936,11 @@
   {
     "type": "lineInfo",
     "id": "6064119",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-08-04T07:38:40Z",
-      "lastModification": "2021-08-04T07:43:37Z",
+      "lastModification": "2021-08-04T08:10:18Z",
       "availability": {
         "from": "2021-08-04T07:38:00Z",
         "to": "2021-08-04T17:38:59Z"
@@ -18953,12 +18953,12 @@
       ]
     },
     "urlText": "T1 Western Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064119&seqID=1",
-    "content": "Trains are not running between Mulgrave and Richmond due to urgent track equipment repairs at Clarendon. Replacement buses are being organised but are not yet on site.&nbsp;<span lang=\"EN-US\">Allow extra travel time, listen to announcements and check information displays for service updates.</span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064119&seqID=2",
+    "content": "Buses are replacing trains between Mulgrave and Richmond due to urgent track equipment repairs at Clarendon. <span lang=\"EN-US\">Allow extra travel time, listen to announcements and check information displays for service updates.</span>",
     "subtitle": "T1 Western Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Trains are not running between Mulgrave and Richmond due to urgent track equipment repairs at Clarendon. Replacement buses are being organised but are not yet on site. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Buses are replacing trains between Mulgrave and Richmond due to urgent track equipment repairs at Clarendon. Allow extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -19000,6 +19000,58 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6064121",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-08-04T08:09:03Z",
+      "lastModification": "2021-08-04T08:10:55Z",
+      "availability": {
+        "from": "2021-08-04T08:09:00Z",
+        "to": "2021-08-04T09:09:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-08-04T08:09:00Z",
+          "to": "2021-08-04T09:09:59Z"
+        }
+      ]
+    },
+    "urlText": "09:30 Sydney to Armidale XPLORER delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064121&seqID=1",
+    "content": "The Sydney to Armidale XPLORER service has incurred a delay due to a police incident near Armidale. Passengers to arrive Armidale by coach at approximately 19:00.<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
+    "subtitle": "09:30 Sydney to Armidale XPLORER delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76223: :H:",
+          "destination": {
+            "name": "Armidale Station, Armidale",
+            "type": "stop"
+          },
+          "name": "Regional Trains and 223",
+          "number": "223",
+          "description": "Central to Armidale",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
