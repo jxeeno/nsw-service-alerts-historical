@@ -25078,52 +25078,123 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6064170",
-    "version": 2,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "6064171",
+    "version": 1,
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-08-07T11:14:26Z",
-      "lastModification": "2021-08-07T11:15:53Z",
+      "creation": "2021-08-07T23:32:50Z",
+      "lastModification": "2021-08-07T23:33:03Z",
       "availability": {
-        "from": "2021-08-07T11:14:00Z",
-        "to": "2021-08-07T18:00:59Z"
+        "from": "2021-08-07T23:32:00Z",
+        "to": "2021-08-31T09:32:59Z"
       },
       "validity": [
         {
-          "from": "2021-08-07T11:14:00Z",
-          "to": "2021-08-07T18:00:59Z"
+          "from": "2021-08-07T23:32:00Z",
+          "to": "2021-08-31T09:32:59Z"
         }
       ]
     },
-    "urlText": "20:42 Sydney to Melbourne XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064170&seqID=2",
-    "content": "This service is delayed due to an operational issue.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em><br />&nbsp;",
-    "subtitle": "20:42 Sydney to Melbourne XPT delay",
+    "urlText": "Rhodes lift outage between concourse, platform 1 and Blaxland Road",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064171&seqID=1",
+    "content": "The lift between the concourse, platform 1 and Blaxland Road is temporarily out of service. For assistance ask staff or call&nbsp; 9752 8467",
+    "subtitle": "Rhodes lift outage between concourse, platform 1 and Blaxland Road",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "213820:213891",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76621: :H:",
+          "id": "nsw:020T1:E:R:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Sta",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "Epping to City via Strathfield",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:E:H:",
+          "destination": {
+            "name": "Epping Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Epping via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to Gordon via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Hornsby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Gordon to Hornsby via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "213820",
+          "name": "Rhodes Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95314013:1",
+            "name": "Rhodes",
+            "type": "locality"
           }
         }
       ]
