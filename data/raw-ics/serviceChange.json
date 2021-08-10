@@ -18529,104 +18529,199 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6064187",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-08-09T19:38:05Z",
-      "lastModification": "2021-08-09T19:39:33Z",
-      "availability": {
-        "from": "2021-08-09T19:38:00Z",
-        "to": "2021-08-09T21:20:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-08-09T19:38:00Z",
-          "to": "2021-08-09T21:20:59Z"
-        }
-      ]
-    },
-    "urlText": "19:50 Melbourne to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064187&seqID=2",
-    "content": "This service has been delayed due to temporary speed restrictions.&nbsp;<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "19:50 Melbourne to Sydney XPT delay.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "6064190",
+    "type": "stopInfo",
+    "id": "6064192",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-08-09T21:00:06Z",
-      "lastModification": "2021-08-09T21:01:36Z",
+      "creation": "2021-08-10T00:06:42Z",
+      "lastModification": "2021-08-10T00:10:25Z",
       "availability": {
-        "from": "2021-08-09T21:00:00Z",
-        "to": "2021-08-09T23:00:59Z"
+        "from": "2021-08-10T00:06:00Z",
+        "to": "2021-10-01T21:00:59Z"
       },
       "validity": [
         {
-          "from": "2021-08-09T21:00:00Z",
-          "to": "2021-08-09T23:00:59Z"
+          "from": "2021-08-22T08:00:00Z",
+          "to": "2021-10-01T21:00:59Z"
         }
       ]
     },
-    "urlText": "North West Coach Delays",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064190&seqID=1",
-    "content": "This service is running behind schedule due to mechanical issue. Due to this delay connection to the XPL will be made at Uralla.<br /><br /><br /> <em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp; &nbsp;",
-    "subtitle": "North West Coach Delays",
+    "urlText": "Charmhaven temporary stop closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064192&seqID=1",
+    "content": "From 6pm Sunday 22 August until 7am Saturday 2 October, bus stop <strong>Pacific Hwy at Norah Ave (226384)</strong> will be temporarily closed while roadworks take place.",
+    "subtitle": "Charmhaven temporary stop closure",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G226384:226384",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76338: :R:",
+          "id": "nsw:61090: :R:",
           "destination": {
-            "name": "Armidale Station, Armidale",
+            "name": "Lake Haven",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 338",
-          "number": "338",
-          "description": "Inverell to Armidale",
-          "iconId": 7,
+          "name": "Central Coast Buses Network 90",
+          "number": "90",
+          "description": "LakeHaven to Toukley & Budgewoi (Loop Service)",
+          "iconId": 6,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        },
+        {
+          "id": "nsw:61094: :H:",
+          "destination": {
+            "name": "Tuggerah",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 94",
+          "number": "94",
+          "description": "Budgewoi to Tuggerah via San Remo & Wyong",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        },
+        {
+          "id": "nsw:61095: :R:",
+          "destination": {
+            "name": "Lake Haven",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 95",
+          "number": "95",
+          "description": "Morisset to Lake Haven via Mannering Park & Gwandalan",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        },
+        {
+          "id": "nsw:6195X: :R:",
+          "destination": {
+            "name": "Lake Haven",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 95X",
+          "number": "95X",
+          "description": "Wyee to Lake Haven via Gwandalan",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        },
+        {
+          "id": "nsw:61097: :R:",
+          "destination": {
+            "name": "Lake Haven",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 97",
+          "number": "97",
+          "description": "Lake Haven to Wyee and Mannering Park (Loop Service)",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        },
+        {
+          "id": "nsw:61098: :R:",
+          "destination": {
+            "name": "Lake Haven",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 98",
+          "number": "98",
+          "description": "Lake Haven to Chain Valley Bay via Blue Haven (Loop Service)",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        },
+        {
+          "id": "nsw:69098: :R:",
+          "destination": {
+            "name": "Lake Haven Centre, St",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 98",
+          "number": "98",
+          "description": "Lake Haven to Chain Valley Bay via Blue Haven (Loop Service)",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2457",
+            "name": "Hunter Valley Buses"
+          }
+        },
+        {
+          "id": "nsw:61099: :R:",
+          "destination": {
+            "name": "Lake Haven",
+            "type": "stop"
+          },
+          "name": "Central Coast Buses Network 99",
+          "number": "99",
+          "description": "Charlestown to Lake Haven via Swansea, Gwandalan & Blue Haven",
+          "iconId": 6,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2452",
+            "name": "Busways Central Coast"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G226384",
+          "name": "Pacific Hwy at Norah Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95367013:1",
+            "name": "Charmhaven",
+            "type": "locality"
           }
         }
       ]
