@@ -26627,51 +26627,109 @@
   },
   {
     "type": "lineInfo",
-    "id": "6064240",
-    "version": 2,
+    "id": "6064242",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-08-11T18:07:19Z",
-      "lastModification": "2021-08-11T20:36:44Z",
+      "creation": "2021-08-11T21:47:40Z",
+      "lastModification": "2021-08-11T21:51:14Z",
       "availability": {
-        "from": "2021-08-11T18:07:00Z",
-        "to": "2021-08-11T21:30:59Z"
+        "from": "2021-08-11T21:47:00Z",
+        "to": "2021-08-12T07:47:59Z"
       },
       "validity": [
         {
-          "from": "2021-08-11T18:07:00Z",
-          "to": "2021-08-11T21:30:59Z"
+          "from": "2021-08-11T21:47:00Z",
+          "to": "2021-08-12T07:47:59Z"
         }
       ]
     },
-    "urlText": "19:50 Melbourne to Sydney XPT service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064240&seqID=2",
-    "content": "<span>This service has been delayed due speed restrictions.<br /><br />Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a><span>&nbsp;for the latest travel information with real time updates.</span>",
-    "subtitle": "19:50 Melbourne to Sydney XPT service delay",
+    "urlText": "Diversions at Carlton",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064242&seqID=1",
+    "content": "Buses are diverting away from Princes Highway via Railway Parade and Jubilee Avenue due to a crash between Park Street and Lower West Street. Up to 21 stops are being missed.",
+    "subtitle": "Diversions at Carlton",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "At Carlton, Route 947 and 958 buses are diverting away from Princes Highway via Railway Parade and Jubilee Avenue due to a crash between Park Street and Lower West Street. Up to 21 stops are being missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76622: :R:",
+          "id": "nsw:32947: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Kogarah Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 947",
+          "number": "947",
+          "description": "Hurstville to Kogarah via Dolls Pt",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32947: :R:",
+          "destination": {
+            "name": "Hurstville Interchange, Cross St, Hurstville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 947",
+          "number": "947",
+          "description": "Kogarah to Hurstville via Dolls Pt",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32958: :H:",
+          "destination": {
+            "name": "Rockdale Plaza, Rockdale Plaza Dr, Stand B, Rockdale",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 958",
+          "number": "958",
+          "description": "Hurstville to Kogarah via Carss Park",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32958: :R:",
+          "destination": {
+            "name": "Sylvania High School Bellingara Rd, Sylvania",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 958",
+          "number": "958",
+          "description": "Kogarah to Hurstville via Carss Park",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
           }
         }
       ]
