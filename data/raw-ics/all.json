@@ -26538,11 +26538,11 @@
   {
     "type": "lineInfo",
     "id": "6064317",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-08-17T02:11:39Z",
-      "lastModification": "2021-08-17T02:17:06Z",
+      "lastModification": "2021-08-17T03:25:16Z",
       "availability": {
         "from": "2021-08-17T02:11:00Z",
         "to": "2021-08-17T12:11:59Z"
@@ -26555,12 +26555,12 @@
       ]
     },
     "urlText": "Hunter Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064317&seqID=2",
-    "content": "Trains are not running between Thornton and Telarah due to an issue with a freight train at Maitland. Replacement buses have been organised and are expected to start running shortly. Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064317&seqID=3",
+    "content": "Buses are replacing trains between Thornton and Telarah due to an issue with a freight train at Maitland. Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
     "subtitle": "Hunter Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "Trains are not running between Thornton and Telarah due to an issue with a freight train at Maitland. Replacement buses have been organised and are expected to start running shortly. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Buses are replacing trains between Thornton and Telarah due to an issue with a freight train at Maitland. Allow extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -26640,6 +26640,91 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6064318",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-08-17T03:23:19Z",
+      "lastModification": "2021-08-17T03:23:33Z",
+      "availability": {
+        "from": "2021-08-17T03:23:00Z",
+        "to": "2021-08-24T13:23:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-08-17T03:23:00Z",
+          "to": "2021-08-24T13:23:59Z"
+        }
+      ]
+    },
+    "urlText": "Carlton lift outage - between platforms 3/4 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064318&seqID=1",
+    "content": "The lift between platforms 3/4 and the concourse is temporarily out of service. For assistance, ask staff or call 9563 7612.",
+    "subtitle": "Carlton lift outage - between platforms 3/4 and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "221810:221894,221893",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction via Central",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Networ T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "221810",
+          "name": "Carlton Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95329002:1",
+            "name": "Carlton",
+            "type": "locality"
           }
         }
       ]
