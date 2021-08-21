@@ -27507,11 +27507,11 @@
   {
     "type": "lineInfo",
     "id": "6064395",
-    "version": 2,
+    "version": 3,
     "priority": "high",
     "timestamps": {
       "creation": "2021-08-20T23:54:44Z",
-      "lastModification": "2021-08-21T00:12:31Z",
+      "lastModification": "2021-08-21T02:38:06Z",
       "availability": {
         "from": "2021-08-20T23:54:00Z",
         "to": "2021-08-21T09:54:59Z"
@@ -27524,12 +27524,12 @@
       ]
     },
     "urlText": "L1 Dulwich Line, L2 Randwick Line and L3 Kingsford Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064395&seqID=2",
-    "content": "L1 Light Rail services are not running between Convention and Central and L2/L3 Light Rail services are not running between Central and Circular Quay due to a police operation.&nbsp;<span>Make alternative arrangements, allow extra travel time and check information displays for service updates.</span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064395&seqID=3",
+    "content": "No light rail services are running on the L2 Randwick Line or L3 Kingsford Line due to a police operation. Also, L1 Light Rail services are not running between Convention and Central.&nbsp;<span>Make alternative arrangements, allow extra travel time and check information displays for service updates.</span>",
     "subtitle": "L1 Dulwich Line, L2 Randwick Line and L3 Kingsford Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "L1 Light Rail services are not running between Convention and Central and L2/L3 Light Rail services are not running between Central and Circular Quay due to a police operation. Make alternative arrangements, allow extra travel time and check information displays for service updates.",
+      "speechText": "No light rail services are running on the L2 Randwick Line or L3 Kingsford Line due to a police operation. Also, L1 Light Rail services are not running between Convention and Central. Make alternative arrangements, allow extra travel time and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -27647,6 +27647,78 @@
           "operator": {
             "id": "SLR",
             "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6064396",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-08-21T02:40:18Z",
+      "lastModification": "2021-08-21T02:42:20Z",
+      "availability": {
+        "from": "2021-08-21T02:40:00Z",
+        "to": "2021-08-21T12:40:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-08-21T02:40:00Z",
+          "to": "2021-08-21T12:40:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in Glebe",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064396&seqID=1",
+    "content": "Route 370 buses are diverting away from Parramatta Road due to a Police Operation at City Road. They are using The Crescent, Ross Street, Parramatta Road and Missenden Road instead, missing 18 stops.&nbsp;",
+    "subtitle": "Diversion in Glebe",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Glebe, route 3 70 buses are diverting away from Parramatta Road due to a Police Operation at City Road. They are using The Crescent, Ross Street, Parramatta Road and Missenden Road instead, missing 18 stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:31370: :H:",
+          "destination": {
+            "name": "Lords Rd at Flood St, Leichhardt",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 370",
+          "number": "370",
+          "description": "Coogee to Leichhardt Marketplace",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:31370: :R:",
+          "destination": {
+            "name": "Arden St near Dolphin St, Coogee",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 370",
+          "number": "370",
+          "description": "Leichhardt Marketplace to Coogee",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2441",
+            "name": "State Transit"
           }
         }
       ]
