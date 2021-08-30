@@ -30973,105 +30973,104 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6064524",
-    "version": 2,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "6064527",
+    "version": 1,
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-08-30T07:31:48Z",
-      "lastModification": "2021-08-30T09:09:09Z",
+      "creation": "2021-08-30T11:25:26Z",
+      "lastModification": "2021-08-30T11:25:47Z",
       "availability": {
-        "from": "2021-08-30T07:31:00Z",
-        "to": "2021-08-30T11:00:59Z"
+        "from": "2021-08-30T11:25:00Z",
+        "to": "2021-09-05T21:25:59Z"
       },
       "validity": [
         {
-          "from": "2021-08-30T07:31:00Z",
-          "to": "2021-08-30T11:00:59Z"
+          "from": "2021-08-30T11:25:00Z",
+          "to": "2021-09-05T21:25:59Z"
         }
       ]
     },
-    "urlText": "11:55 Albury to Sydney XPT delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064524&seqID=2",
-    "content": "<span>This service has been delayed due to a mechanical issue.<br /><br />Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a><span>&nbsp;for the latest travel information with real time updates.&nbsp;</span>",
-    "subtitle": "11:55 Albury to Sydney XPT delay",
+    "urlText": "St Leonards lift outage between platform 3 and concourse.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064527&seqID=1",
+    "content": "The lift between platform 3 and the concourse is temporarily out of service. For assistance ask staff or call 9379 1046.",
+    "subtitle": "St Leonards lift outage between platform 3 and concourse.",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "206520:2065153",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76624: :R:",
+          "id": "nsw:02CCN: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Wyong Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "6064525",
-    "version": 3,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-08-30T07:38:59Z",
-      "lastModification": "2021-08-30T07:43:23Z",
-      "availability": {
-        "from": "2021-08-30T07:38:00Z",
-        "to": "2021-08-30T09:30:59Z"
-      },
-      "validity": [
+        },
         {
-          "from": "2021-08-30T07:38:00Z",
-          "to": "2021-08-30T09:30:59Z"
-        }
-      ]
-    },
-    "urlText": "F3 Parramatta River",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064525&seqID=3",
-    "content": "The 5:07pm Circular Quay to Parramatta ferry has been cancelled due to mechanical issues. The next service is the 5:48pm ferry from Barangaroo to Sydney Olympic Park instead. The next ferry to Rydalmere and Parramatta leaves Barangaroo at 6:18pm.&nbsp;",
-    "subtitle": "F3 Parramatta River",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "The 5:07pm Circular Quay to Parramatta ferry has been cancelled due to mechanical issues. The next service is the 5:48pm ferry from Barangaroo to Sydney Olympic Park instead. The next ferry to Rydalmere and Parramatta leaves Barangaroo at 6:18pm.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F3: :H:",
+          "id": "nsw:020T1:N:H:",
           "destination": {
-            "name": "Parramatta Wharf, Parramatta",
+            "name": "Hornsby Station",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Circular Quay to Parramatta River",
-          "iconId": 10,
+          "name": "Sydney Trains Network T1 North Shore, Northern & Western Line",
+          "number": "T1 North Shore, Northern & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "112",
-            "name": "Sydney Ferries"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Gordon to Hornsby via Strathfield",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "206520",
+          "name": "St Leonards Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95362010:1",
+            "name": "St Leonards",
+            "type": "locality"
           }
         }
       ]
