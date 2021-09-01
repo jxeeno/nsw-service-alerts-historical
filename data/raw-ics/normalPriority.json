@@ -19995,11 +19995,11 @@
   {
     "type": "stopBlocking",
     "id": "6064579",
-    "version": 5,
+    "version": 6,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-09-01T23:14:57Z",
-      "lastModification": "2021-09-01T23:33:59Z",
+      "lastModification": "2021-09-01T23:53:13Z",
       "availability": {
         "from": "2021-09-01T23:14:00Z",
         "to": "2021-09-16T09:14:59Z"
@@ -20012,12 +20012,98 @@
       ]
     },
     "urlText": "Pyrmont Bridge Rd near Layton St temporary bus stop closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064579&seqID=5",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064579&seqID=6",
     "content": "Buses are not stopping at Pyrmont Bridge Road near Layton Street due to a police operation.&nbsp;",
     "subtitle": "Pyrmont Bridge Rd near Layton St temporary bus stop closure",
     "properties": {
       "providerCode": "TMC",
       "stopIDglobalID": "G205012",
+      "speechText": "At Camperdown, buses are not stopping at Pyrmont Bridge Road near Layton Street, due to a police operation.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74470: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 470",
+          "number": "470",
+          "description": "Lilyfield to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74470: :H:",
+          "destination": {
+            "name": "Lilyfield Rd at Edward St, Lilyfield",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 470",
+          "number": "470",
+          "description": "City Martin Place to Lilyfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G205012",
+          "name": "Pyrmont Bridge Rd near Layton St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301006:1",
+            "name": "Camperdown",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6064581",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-09-01T23:54:46Z",
+      "lastModification": "2021-09-01T23:56:33Z",
+      "availability": {
+        "from": "2021-09-01T23:54:00Z",
+        "to": "2021-09-02T09:54:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-09-01T23:54:00Z",
+          "to": "2021-09-02T09:54:59Z"
+        }
+      ]
+    },
+    "urlText": "Pyrmont Bridge Rd near Layton St temporary bus stop closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064581&seqID=1",
+    "content": "Buses are not stopping at Pyrmont Bridge Road near Layton Street due to a police operation.&nbsp;",
+    "subtitle": "Pyrmont Bridge Rd near Layton St temporary bus stop closure",
+    "properties": {
+      "providerCode": "TMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G205012:205012,205015",
       "speechText": "At Camperdown, buses are not stopping at Pyrmont Bridge Road near Layton Street, due to a police operation.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
