@@ -19993,85 +19993,13 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6064577",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-09-01T22:17:19Z",
-      "lastModification": "2021-09-01T22:17:51Z",
-      "availability": {
-        "from": "2021-09-01T22:17:00Z",
-        "to": "2021-09-02T08:17:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-09-01T22:17:00Z",
-          "to": "2021-09-02T08:17:59Z"
-        }
-      ]
-    },
-    "urlText": "L1 Dulwich Hill Line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064577&seqID=1",
-    "content": "Services are running at a reduced frequency due to a tram requiring mechanical repairs at Central, and at Arlington. Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
-    "subtitle": "L1 Dulwich Hill Line",
-    "properties": {
-      "providerCode": "TMC",
-      "speechText": "L1 Dullitch Hill services are running at a reduced frequency due to a tram requiring mechanical repairs at Central, and at Arlington. Allow extra travel time, listen to announcements and check information displays for service updates.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:780L1: :H:",
-          "destination": {
-            "name": "Dulwich Hill Light Rail",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
-          "number": "L1 Dulwich Hill Line",
-          "description": "Central to Dulwich Hill",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "LR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L1: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
-          "number": "L1 Dulwich Hill Line",
-          "description": "Dulwich Hill to Central",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "LR",
-            "name": "Sydney Light Rail"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopBlocking",
     "id": "6064579",
-    "version": 3,
+    "version": 5,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-09-01T23:14:57Z",
-      "lastModification": "2021-09-01T23:20:16Z",
+      "lastModification": "2021-09-01T23:33:59Z",
       "availability": {
         "from": "2021-09-01T23:14:00Z",
         "to": "2021-09-16T09:14:59Z"
@@ -20084,17 +20012,57 @@
       ]
     },
     "urlText": "Pyrmont Bridge Rd near Layton St temporary bus stop closure",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064579&seqID=3",
-    "content": "Route 470 buses are not stopping at Pyrmont Bridge Road near Layton Street for 14 days, due to a police operation.&nbsp;",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064579&seqID=5",
+    "content": "Buses are not stopping at Pyrmont Bridge Road near Layton Street due to a police operation.&nbsp;",
     "subtitle": "Pyrmont Bridge Rd near Layton St temporary bus stop closure",
     "properties": {
       "providerCode": "TMC",
       "stopIDglobalID": "G205012",
-      "speechText": "At Camperdown, Route 470 buses are not stopping at Pyrmont Bridge Road near Layton Street for 14 days, due to a police operation.",
+      "speechText": "At Camperdown, buses are not stopping at Pyrmont Bridge Road near Layton Street, due to a police operation.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
+      "lines": [
+        {
+          "id": "nsw:74470: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 470",
+          "number": "470",
+          "description": "Lilyfield to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74470: :H:",
+          "destination": {
+            "name": "Lilyfield Rd at Edward St, Lilyfield",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 470",
+          "number": "470",
+          "description": "City Martin Place to Lilyfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
       "stops": [
         {
           "id": "G205012",
