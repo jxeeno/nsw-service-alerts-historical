@@ -29691,11 +29691,11 @@
   {
     "type": "lineInfo",
     "id": "6064732",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-09-12T07:33:45Z",
-      "lastModification": "2021-09-12T07:55:40Z",
+      "lastModification": "2021-09-12T08:38:33Z",
       "availability": {
         "from": "2021-09-12T07:33:00Z",
         "to": "2021-09-12T17:33:59Z"
@@ -29708,7 +29708,7 @@
       ]
     },
     "urlText": "T4 Eastern Suburbs & Illawarra line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064732&seqID=2",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064732&seqID=3",
     "content": "Trains are not stopping at Central due to an operational issue. Customers need to change at Town Hall to continue their journey. Please l<span>isten to announcements and check information displays for service updates.</span>",
     "subtitle": "T4 Eastern Suburbs & Illawarra line",
     "properties": {
@@ -29736,6 +29736,110 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6064733",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-09-12T08:33:49Z",
+      "lastModification": "2021-09-12T08:34:08Z",
+      "availability": {
+        "from": "2021-09-12T08:33:00Z",
+        "to": "2021-09-29T18:33:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-09-12T08:33:00Z",
+          "to": "2021-09-29T18:33:59Z"
+        }
+      ]
+    },
+    "urlText": "Macarthur lift outage between concourse and bus interchange",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064733&seqID=1",
+    "content": "The lift between concourse and the bus interchange is temporarily out of service. For assistance ask staff or call 4629 0800.",
+    "subtitle": "Macarthur lift outage between concourse and bus interchange",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "256030:2560713,2560712,2560711",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "256030",
+          "name": "Macarthur Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313007:1",
+            "name": "Campbelltown",
+            "type": "locality"
           }
         }
       ]
