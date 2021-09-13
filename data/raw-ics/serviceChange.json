@@ -22820,51 +22820,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6064749",
-    "version": 1,
+    "id": "6064750",
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-09-13T16:31:00Z",
-      "lastModification": "2021-09-13T16:31:00Z",
+      "creation": "2021-09-13T19:40:38Z",
+      "lastModification": "2021-09-13T19:51:07Z",
       "availability": {
-        "from": "2021-09-13T16:31:00Z",
-        "to": "2021-09-13T19:00:59Z"
+        "from": "2021-09-13T19:40:00Z",
+        "to": "2021-09-14T05:40:59Z"
       },
       "validity": [
         {
-          "from": "2021-09-13T16:31:00Z",
-          "to": "2021-09-13T19:00:59Z"
+          "from": "2021-09-13T19:40:00Z",
+          "to": "2021-09-14T05:40:59Z"
         }
       ]
     },
-    "urlText": "14:41 Sydney to Brisbane XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064749&seqID=1",
-    "content": "This service has incurred a delay due to a customer disturbance at Kempsey with police in attendance.<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
-    "subtitle": "14:41 Sydney to Brisbane XPT delay.",
+    "urlText": "Diversions at Palm Beach",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064750&seqID=3",
+    "content": "Buses are starting and ending their trips at Careel Head Road due to fallen wires on Barrenjoey Road near Surf Road blocking access to Palm Beach Terminus. Up to 14 stops are being missed.",
+    "subtitle": "Diversions at Palm Beach",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "At Palm Beach, Route 199 buses are starting and ending their trips at Careel Head Road due to fallen wires on Barrenjoey Road near Surf Road blocking access to Palm Beach Terminus. Up to 14 stops are being missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76031: :H:",
+          "id": "nsw:28199: :H:",
           "destination": {
-            "name": "Brisbane (Roma Street) Station, Brisbane",
+            "name": "Ocean Pl at Ocean Rd, Palm Beach",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Casino",
-          "iconId": 3,
+          "name": "Sydney Buses Network 199",
+          "number": "199",
+          "description": "Manly to Palm Beach via Dee Why & Mona Vale",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2440",
+            "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:28199: :R:",
+          "destination": {
+            "name": "Manly Wharf, West Esplanade, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 199",
+          "number": "199",
+          "description": "Palm Beach to Manly via Mona Vale & Dee Why",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2440",
+            "name": "State Transit"
           }
         }
       ]
