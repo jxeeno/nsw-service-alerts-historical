@@ -10444,72 +10444,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6064486",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-08-27T00:59:00Z",
-      "lastModification": "2021-09-09T06:39:00Z",
-      "availability": {
-        "from": "2021-08-27T00:59:00Z",
-        "to": "2021-09-17T19:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-09-05T20:00:00Z",
-          "to": "2021-09-17T19:00:59Z"
-        }
-      ]
-    },
-    "urlText": "Phillip St, temporary bus stop closures",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064486&seqID=2",
-    "content": "From 6am Monday 6 5am Saturday 18 September, work for Parramatta Light Rail will result in the closure of bus<br />stop <strong>Phillip St after Church St (2150377)</strong>. <br /><br />The alternative, temporary bus stop will be on George St after Church St and affect the <strong>900 Parramatta Free Shuttle</strong>.",
-    "subtitle": "Phillip St, temporary bus stop closures",
-    "properties": {
-      "providerCode": "PTMarketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G2150377:2150377",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:38900: :R:",
-          "destination": {
-            "name": "Parramatta Wharf, Phillip St, Parramatta",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 900",
-          "number": "900",
-          "description": "Parramatta Free Shuttle",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2444",
-            "name": "Transdev NSW"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "G2150377",
-          "name": "Phillip St after Church St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95346013:1",
-            "name": "Parramatta",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6064513",
     "version": 2,
@@ -18406,6 +18340,78 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6064807",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-09-17T20:54:30Z",
+      "lastModification": "2021-09-17T20:59:43Z",
+      "availability": {
+        "from": "2021-09-17T20:54:00Z",
+        "to": "2021-09-18T06:54:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-09-17T20:54:00Z",
+          "to": "2021-09-18T06:54:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversions in Darlinghurst",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064807&seqID=1",
+    "content": "Buses are&nbsp; diverting away from Young Street due to a crane working. <br />Buses to Bondi Junction are using Park Street, College Street, Liverpool Street, Bourke Street, Burton Street, then as timetabled. <br />Buses to The Star are using Stanley Street, Crown Street, William Street, then as timetabled.<br />Up to three stops are being missed in each direction.",
+    "subtitle": "Diversions in Darlinghurst",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Darlinghurst, route 3 8 9 buses are  diverting away from Young Street due to a crane working.\nBuses to Bondi Junction are using Park Street, College Street, Liverpool Street, Bourke Street, Burton Street, then as timetabled.\nBuses to The Star are using Stanley Street, Crown Street, William Street, then as timetabled.\nUp to three stops are being missed in each direction.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74389: :R:",
+          "destination": {
+            "name": "The Star, Pirrama Rd, Pyrmont",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 389",
+          "number": "389",
+          "description": "Bondi Junction to Pyrmont",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74389: :H:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 389",
+          "number": "389",
+          "description": "Pyrmont to Bondi Junction",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
