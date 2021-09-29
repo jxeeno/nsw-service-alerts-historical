@@ -16859,58 +16859,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6063879",
-    "version": 9,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-07-22T20:50:00Z",
-      "lastModification": "2021-08-30T16:41:00Z",
-      "availability": {
-        "from": "2021-08-22T18:50:00Z",
-        "to": "2021-09-29T19:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-08-22T18:50:00Z",
-          "to": "2021-09-29T19:00:59Z"
-        }
-      ]
-    },
-    "urlText": "14:41 Sydney to Brisbane XPT alteration",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6063879&seqID=9",
-    "content": "NSW TrainLink advises from 23rd July Queensland has declared all of NSW a hotspot. NSW TrainLink XPT rail service will terminate at Casino. At Casino, intending passengers can rebook to the Tweed Heads service to the border where they can make own arrangements for ongoing travel to Brisbane or Surfers Paradise, in line with public health orders.<br /><br /> Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "14:41 Sydney to Brisbane XPT alteration",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76031: :H:",
-          "destination": {
-            "name": "Brisbane (Roma Street) Station, Brisbane",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6064017",
     "version": 2,
     "priority": "normal",
@@ -29861,71 +29809,151 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6065013",
-    "version": 2,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "6065014",
+    "version": 1,
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-09-29T18:07:11Z",
-      "lastModification": "2021-09-29T18:23:51Z",
+      "creation": "2021-09-29T21:59:29Z",
+      "lastModification": "2021-09-29T21:59:57Z",
       "availability": {
-        "from": "2021-09-29T18:07:00Z",
-        "to": "2021-09-29T20:30:59Z"
+        "from": "2021-09-29T21:59:00Z",
+        "to": "2021-10-31T06:59:59Z"
       },
       "validity": [
         {
-          "from": "2021-09-29T18:07:00Z",
-          "to": "2021-09-29T20:30:59Z"
+          "from": "2021-09-29T21:59:00Z",
+          "to": "2021-10-31T06:59:59Z"
         }
       ]
     },
-    "urlText": "Casino to Tweed Heads Coach delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065013&seqID=2",
-    "content": "<br />This service is delayed due to a road diversion casued by a road accident.&nbsp;<br /><br />Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "Casino to Tweed Heads Coach delay",
+    "urlText": "Thirroul lift outage - between platform 1 and Railway Pde",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065014&seqID=1",
+    "content": "The lift between platform 1 and&nbsp;Railway Parade&nbsp;is temporarily out of service.&nbsp;For assistance, ask staff or phone 4223 5576.",
+    "subtitle": "Thirroul lift outage - between platform 1 and Railway Pde",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "251550:2515141",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76161: :H:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Wharf St opp Tweed Heads Visitor Information Centre, Tweed Heads",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 161",
-          "number": "161",
-          "description": "Casino to Tweed Heads",
-          "iconId": 7,
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "251550",
+          "name": "Thirroul Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95366057:1",
+            "name": "Thirroul",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6065015",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-09-29T22:13:47Z",
+      "lastModification": "2021-09-29T22:14:04Z",
+      "availability": {
+        "from": "2021-09-29T22:13:00Z",
+        "to": "2021-10-31T07:13:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-09-29T22:13:00Z",
+          "to": "2021-10-31T07:13:59Z"
+        }
+      ]
+    },
+    "urlText": "Regents Park lift outage between platforms 1/2 and Amy St",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065015&seqID=1",
+    "content": "The lift between platforms 1/2 and Amy Street is temporarily out of service. If you require assistance, ask staff or phone&nbsp;9752 8815.",
+    "subtitle": "Regents Park lift outage between platforms 1/2 and Amy St",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "214310:214392,214391",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
         {
-          "id": "nsw:76163: :H:",
+          "id": "nsw:020T3: :H:",
           "destination": {
-            "name": "Surfers Paradise Coach Transit Centre, Surfers Paradise (QLD)",
+            "name": "Liverpool Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 163",
-          "number": "163",
-          "description": "Casino to Chinderah",
-          "iconId": 7,
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "214310",
+          "name": "Regents Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304006:1",
+            "name": "Regents Park",
+            "type": "locality"
           }
         }
       ]
