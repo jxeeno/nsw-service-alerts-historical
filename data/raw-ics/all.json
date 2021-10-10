@@ -24680,58 +24680,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6065084",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-10-05T12:21:00Z",
-      "lastModification": "2021-10-06T11:05:00Z",
-      "availability": {
-        "from": "2021-10-05T12:21:00Z",
-        "to": "2021-10-10T06:21:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-10-05T12:21:00Z",
-          "to": "2021-10-10T06:21:59Z"
-        }
-      ]
-    },
-    "urlText": "05:15 Grafton to Sydney XPT cancellation.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065084&seqID=2",
-    "content": "Due to Covid restrictions this service has been cancelled, consider alternative travel options. Stay at home and avoid non-essential travel. The first 05:15 Grafton to Sydney XPT service will be on the Monday 11th October. <br /><br />Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;&nbsp;&nbsp; <br /><br /><br />",
-    "subtitle": "05:15 Grafton to Sydney XPT cancellation.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76036: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 36",
-          "number": "36",
-          "description": "Grafton to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6065085",
     "version": 1,
     "priority": "normal",
@@ -29444,6 +29392,129 @@
           "name": "Sydney Trains Network T8 Airport & South Line",
           "number": "T8 Airport & South Line",
           "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "220510",
+          "name": "Wolli Creek Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95351019:1",
+            "name": "Wolli Creek",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6065177",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-10-10T05:33:36Z",
+      "lastModification": "2021-10-10T05:33:47Z",
+      "availability": {
+        "from": "2021-10-10T05:33:00Z",
+        "to": "2021-10-16T15:33:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-10T05:33:00Z",
+          "to": "2021-10-16T15:33:59Z"
+        }
+      ]
+    },
+    "urlText": "Wolli Creek lift outage between platforms 3/4 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065177&seqID=1",
+    "content": "The lift between platforms 3/4 and the concourse is temporarily out of service. For assistance, ask station staff or call&nbsp;9563 7986.",
+    "subtitle": "Wolli Creek lift outage between platforms 3/4 and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "220510:2205114,2205113",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
           "iconId": 1,
           "product": {
             "class": 1,
