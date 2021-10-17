@@ -14903,11 +14903,11 @@
   {
     "type": "lineInfo",
     "id": "6065362",
-    "version": 1,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-10-17T21:03:18Z",
-      "lastModification": "2021-10-17T21:07:03Z",
+      "lastModification": "2021-10-17T21:21:06Z",
       "availability": {
         "from": "2021-10-17T21:03:00Z",
         "to": "2021-10-18T07:03:59Z"
@@ -14920,36 +14920,17 @@
       ]
     },
     "urlText": "Diversions at Alexandria",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065362&seqID=1",
-    "content": "Route 370 buses are diverting away from Mitchell Road due to a crash at Coulson Street. Services towards Coogee are using&nbsp;<span lang=\"EN-US\">Sydney Park Road, Euston Road, Maddox Street, and Mitchell Road, missing two stops. Services towards Leichhardt are using&nbsp;<span lang=\"EN-US\">Mitchell Road, Coulson Street, Concord Street, and King Street, missing one stop.</span></span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065362&seqID=4",
+    "content": "Buses are diverting away from Mitchell Road due to a police operation at Coulson Street. Route 370 and 308 services towards Coogee are using&nbsp;<span lang=\"EN-US\">Sydney Park Road, Euston Road, Maddox Street, and Mitchell Road, missing two stops.&nbsp;<span lang=\"EN-US\"><br /></span></span>",
     "subtitle": "Diversions at Alexandria",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "At Alexandria, Route 370 buses are diverting away from Mitchell Road due to a crash at Coulson Street. Services towards Coogee are using Sydney Park Road, Euston Road, Maddox Street, and Mitchell Road, missing two stops. Services towards Leichhardt are using Mitchell Road, Coulson Street, Concord Street, and King Street, missing one stop.",
+      "speechText": "At Alexandria, buses are diverting away from Mitchell Road due to a police operation at Coulson Street. Services towards Coogee are using Sydney Park Road, Euston Road, Maddox Street, and Mitchell Road, missing two stops.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:31370: :H:",
-          "destination": {
-            "name": "Lords Rd at Flood St, Leichhardt",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 370",
-          "number": "370",
-          "description": "Coogee to Leichhardt Marketplace",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        },
         {
           "id": "nsw:31370: :R:",
           "destination": {
@@ -14967,6 +14948,77 @@
           "operator": {
             "id": "2441",
             "name": "State Transit"
+          }
+        },
+        {
+          "id": "nsw:74308: :R:",
+          "destination": {
+            "name": "Marrickville Metro, Smidmore St, Marrickville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 308",
+          "number": "308",
+          "description": "Marrickville Metro to Central Eddy Ave via Redfern (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6065364",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-10-17T21:20:06Z",
+      "lastModification": "2021-10-17T21:22:24Z",
+      "availability": {
+        "from": "2021-10-17T21:20:00Z",
+        "to": "2021-10-18T04:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-17T21:20:00Z",
+          "to": "2021-10-18T04:00:59Z"
+        }
+      ]
+    },
+    "urlText": "07:40 Sydney to Melbourne XPT service delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065364&seqID=2",
+    "content": "<span>Due to an operational issue, this service was delayed leaving Sydney.<br /><br />Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a><span>&nbsp;for the latest travel information with real time updates.&nbsp;</span>",
+    "subtitle": "07:40 Sydney to Melbourne XPT service delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station (VIC)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Albury",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
