@@ -15140,58 +15140,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6065369",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-10-18T01:45:24Z",
-      "lastModification": "2021-10-18T01:46:44Z",
-      "availability": {
-        "from": "2021-10-18T01:45:00Z",
-        "to": "2021-10-18T05:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-10-18T01:45:00Z",
-          "to": "2021-10-18T05:00:59Z"
-        }
-      ]
-    },
-    "urlText": "12:01 Sydney to Canberra XPLORER service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065369&seqID=1",
-    "content": "<span>This service has incurred a delay due to public health order checks at Sydney Terminal.</span><br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span>&nbsp;for the latest travel information with real time updates.</em></span>",
-    "subtitle": "12:01 Sydney to Canberra XPLORER service delay",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76633: :H:",
-          "destination": {
-            "name": "Canberra Station, Kingston (ACT)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 633",
-          "number": "633",
-          "description": "Central to Canberra",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6065373",
     "version": 1,
     "priority": "normal",
@@ -15237,6 +15185,78 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6065378",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-10-18T05:13:19Z",
+      "lastModification": "2021-10-18T05:16:03Z",
+      "availability": {
+        "from": "2021-10-18T05:13:00Z",
+        "to": "2021-10-18T15:13:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-18T05:13:00Z",
+          "to": "2021-10-18T15:13:59Z"
+        }
+      ]
+    },
+    "urlText": "South Coast Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065378&seqID=1",
+    "content": "A bus is replacing the 4.12pm Bomaderry to Kiama train due to a freight train with mechanical problems at Kiama.&nbsp;Allow extra travel time, listen to announcements and check information displays for service updates.&nbsp;",
+    "subtitle": "South Coast Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "A bus is replacing the 4.12pm Bomaderry to Kiama train due to a freight train with mechanical problems at Kiama. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76SCO: :R:",
+          "destination": {
+            "name": "Kiama Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry to Kiama",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
