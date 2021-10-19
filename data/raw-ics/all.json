@@ -27442,11 +27442,11 @@
   {
     "type": "lineInfo",
     "id": "6065394",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-10-18T22:36:23Z",
-      "lastModification": "2021-10-18T22:41:23Z",
+      "lastModification": "2021-10-19T03:42:52Z",
       "availability": {
         "from": "2021-10-18T22:36:00Z",
         "to": "2021-10-19T09:36:59Z"
@@ -27459,8 +27459,8 @@
       ]
     },
     "urlText": "07:09 CLK33 Sydney to Casino XPT Service Delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065394&seqID=1",
-    "content": "This service has experienced a&nbsp;delay due to an operational issue at Sydney. NSW TrainLink would like to apologize for any inconvenience. &nbsp;\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri; font-size: medium;\">Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span style=\"color: #0563c1; font-family: Times New Roman; font-size: medium;\">Trip Planner</span></a><span style=\"font-family: Calibri; font-size: medium;\">&nbsp;for the latest travel information with real time updates.&nbsp;</span>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065394&seqID=2",
+    "content": "This service is delayed due to health order compliance checks in Sydney. Due to this delay an optional SUPPLEMENTARY coach service is operating between Broadmeadow and Grafton, running close to time.&nbsp;&nbsp;\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri; font-size: medium;\">Use the&nbsp;</span><a href=\"https://transportnsw.info/trip#/\"><span style=\"color: #0563c1; font-family: Times New Roman; font-size: medium;\">Trip Planner</span></a><span style=\"font-family: Calibri; font-size: medium;\">&nbsp;for the latest travel information with real time updates.&nbsp;</span>",
     "subtitle": "07:09 CLK33 Sydney to Casino XPT Service Delay.",
     "properties": {
       "providerCode": "NSWTL",
@@ -28614,6 +28614,233 @@
           "parent": {
             "id": "placeID:95301001:1",
             "name": "Sydney",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6065405",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-10-19T03:36:50Z",
+      "lastModification": "2021-10-19T03:44:59Z",
+      "availability": {
+        "from": "2021-10-19T03:36:00Z",
+        "to": "2021-11-02T19:50:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-28T20:00:00Z",
+          "to": "2021-11-02T19:50:59Z"
+        }
+      ]
+    },
+    "urlText": "Road coach replacement Sydney to Casino XPT",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065405&seqID=2",
+    "content": "<span>Due to planned track work 30th October to 2nd November, this service will be replaced by road coaches for the entire journey in both directions.</span>",
+    "subtitle": "Road coach replacement Sydney to Casino XPT",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6065406",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-10-19T03:46:47Z",
+      "lastModification": "2021-10-19T03:50:02Z",
+      "availability": {
+        "from": "2021-10-19T03:46:00Z",
+        "to": "2021-10-31T11:20:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-29T18:10:00Z",
+          "to": "2021-10-31T11:20:59Z"
+        }
+      ]
+    },
+    "urlText": "Road coach replacement Sydney to Grafton XPT",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065406&seqID=1",
+    "content": "<span>Due to planned track work 30 to 31st October, this service will be replaced by road coaches for the entire journey in both directions.</span>",
+    "subtitle": "Road coach replacement Sydney to Grafton XPT",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 35",
+          "number": "35",
+          "description": "Central to Grafton",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76036: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 36",
+          "number": "36",
+          "description": "Grafton to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6065407",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-10-19T03:47:55Z",
+      "lastModification": "2021-10-19T03:48:06Z",
+      "availability": {
+        "from": "2021-10-19T03:47:00Z",
+        "to": "2021-10-30T13:47:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-19T03:47:00Z",
+          "to": "2021-10-30T13:47:59Z"
+        }
+      ]
+    },
+    "urlText": "Belmore lift outage - between platforms 1/2 and Burwood Rd",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065407&seqID=1",
+    "content": "The lift between platforms 1/2&nbsp;and Burwood Road is temporarily out of service. For assistance, ask staff or call 9563 7578.",
+    "subtitle": "Belmore lift outage - between platforms 1/2 and Burwood Rd",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "219210:219282,219281",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "219210",
+          "name": "Belmore Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315003:1",
+            "name": "Belmore",
             "type": "locality"
           }
         }
