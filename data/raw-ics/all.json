@@ -29425,11 +29425,11 @@
   {
     "type": "lineInfo",
     "id": "6065445",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-10-20T17:24:07Z",
-      "lastModification": "2021-10-20T17:27:23Z",
+      "lastModification": "2021-10-20T18:23:46Z",
       "availability": {
         "from": "2021-10-20T17:24:00Z",
         "to": "2021-10-21T03:24:59Z"
@@ -29441,13 +29441,13 @@
         }
       ]
     },
-    "urlText": "Southern Highlands line",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065445&seqID=1",
-    "content": "<span>No trains are running between Moss Vale and Campbelltown&nbsp;</span>due to an incident on the rail corridor. Replacement buses are being organised but are not yet on site.&nbsp;Listen to announcements, check indicator boards and allow extra travel time.\n<span><br />&nbsp;</span>",
-    "subtitle": "Southern Highlands line",
+    "urlText": "Southern Highlands Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065445&seqID=2",
+    "content": "<span>No trains are running between Moss Vale and Campbelltown&nbsp;</span>due to an issue with a freight train at Moss Vale. Replacement buses are being organised but are not yet on site. Allow plenty of extra travel time, listen to announcements and check information displays for service updates. <span><br />&nbsp;</span>",
+    "subtitle": "Southern Highlands Line",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "No trains are running between Moss Vale and Campbelltown due to an incident on the rail corridor. Replacement buses are being organised but are not yet on site. Listen to announcements, check indicator boards and allow extra travel time.",
+      "speechText": "No trains are running between Moss Vale and Campbelltown due to an issue with a freight train at Moss Vale. Replacement buses are being organised but are not yet on site. Allow plenty of extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -29489,6 +29489,110 @@
           "operator": {
             "id": "X000",
             "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6065446",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-10-20T18:27:06Z",
+      "lastModification": "2021-10-20T18:27:35Z",
+      "availability": {
+        "from": "2021-10-20T18:27:00Z",
+        "to": "2021-10-21T00:45:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-20T18:27:00Z",
+          "to": "2021-10-21T00:45:59Z"
+        }
+      ]
+    },
+    "urlText": "07:12 Sydney to Canberra XPLORER delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065446&seqID=1",
+    "content": "This service has been delayed due to an operational issue.&nbsp;<br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
+    "subtitle": "07:12 Sydney to Canberra XPLORER delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76631: :H:",
+          "destination": {
+            "name": "Canberra Station, Kingston (ACT)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 631",
+          "number": "631",
+          "description": "Central to Canberra",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6065447",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-10-20T18:27:48Z",
+      "lastModification": "2021-10-20T18:28:32Z",
+      "availability": {
+        "from": "2021-10-20T18:27:00Z",
+        "to": "2021-10-21T00:15:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-20T18:27:00Z",
+          "to": "2021-10-21T00:15:59Z"
+        }
+      ]
+    },
+    "urlText": "06:55 Canberra to Sydney XPLORER delay.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065447&seqID=1",
+    "content": "This service has been delayed due to an operational issue.&nbsp;<br /><br /><br /> <span class=\"travel-alert-content\"><em><span>Use the <span><a href=\"https://transportnsw.info/trip#/\">Trip Planner</a></span> for the latest travel information with real time updates.</span></em></span> &nbsp;",
+    "subtitle": "06:55 Canberra to Sydney XPLORER delay.",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76632: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 632",
+          "number": "632",
+          "description": "Canberra to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
