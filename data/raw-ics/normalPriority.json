@@ -15783,11 +15783,11 @@
   {
     "type": "lineInfo",
     "id": "6065530",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-10-23T22:13:34Z",
-      "lastModification": "2021-10-23T22:18:46Z",
+      "lastModification": "2021-10-23T23:29:01Z",
       "availability": {
         "from": "2021-10-23T22:13:00Z",
         "to": "2021-10-24T08:13:59Z"
@@ -15799,13 +15799,13 @@
         }
       ]
     },
-    "urlText": "F3 Ferry Parramatta to Circular Quay Cancellation",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065530&seqID=1",
-    "content": "The 9:28am and 11:28am Parramatta to Circular Quay services are cancelled for today. Passengers are advised to make alternative travel arrangements and allow extra travel time.&nbsp;<br />Ferries are also reaching capacity at Sydney Olympic Park and may be required to miss some stops. Please listen to announcements.",
-    "subtitle": "F3 Ferry Parramatta to Circular Quay Cancellation",
+    "urlText": "F3 Parramatta River",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065530&seqID=2",
+    "content": "The 9:28am and 11:28am Parramatta to Circular Quay services are cancelled. Make alternative travel arrangements and allow extra travel time.&nbsp;<br /><br />Ferries are also reaching capacity at Sydney Olympic Park and may miss some stops. Please listen to announcements.",
+    "subtitle": "F3 Parramatta River",
     "properties": {
       "providerCode": "TMC",
-      "speechText": "The 9 28 A M and 11 28 A M Parramatta to Circular Quay services are cancelled for today. Passengers are advised to make alternative travel arrangements and allow extra travel time. Ferries are also reaching capacity at Sydney Olympic Park and may be required to miss some stops. Please listen to announcements.",
+      "speechText": "The 9 28 A M and 11 28 A M Parramatta to Circular Quay services are cancelled.  Ferries are also reaching capacity at Sydney Olympic Park and may miss some stops.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -15847,6 +15847,154 @@
           "operator": {
             "id": "112",
             "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6065531",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-10-23T23:22:13Z",
+      "lastModification": "2021-10-23T23:24:31Z",
+      "availability": {
+        "from": "2021-10-23T23:22:00Z",
+        "to": "2021-10-24T09:22:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-23T23:22:00Z",
+          "to": "2021-10-24T09:22:59Z"
+        }
+      ]
+    },
+    "urlText": "Diversion in Belrose",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065531&seqID=1",
+    "content": "Some buses are diverting off Forest Way due to a two car crash. Four Bus stops are being missed.",
+    "subtitle": "Diversion in Belrose",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "In Belrose Some buses are diverting off Forest Way due to a two car crash. Four Bus stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:39193: :H:",
+          "destination": {
+            "name": "Warringah Mall, Green St, Brookvale",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 193",
+          "number": "193",
+          "description": "Austlink to Warringah Mall via Frenchs Forest",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2445",
+            "name": "Forest Coach Lines"
+          }
+        },
+        {
+          "id": "nsw:39193: :R:",
+          "destination": {
+            "name": "Austlink Narabang Way near Minna Cl, Belrose",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 193",
+          "number": "193",
+          "description": "Warringah Mall to Austlink via Frenchs Forest",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2445",
+            "name": "Forest Coach Lines"
+          }
+        },
+        {
+          "id": "nsw:39270: :H:",
+          "destination": {
+            "name": "Myoora Rd near Booralie Rd, Terrey Hills",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 270",
+          "number": "270",
+          "description": "City QVB to Terrey Hills",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2445",
+            "name": "Forest Coach Lines"
+          }
+        },
+        {
+          "id": "nsw:39270: :R:",
+          "destination": {
+            "name": "QVB, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 270",
+          "number": "270",
+          "description": "Terrey Hills to City QVB",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2445",
+            "name": "Forest Coach Lines"
+          }
+        },
+        {
+          "id": "nsw:39284: :H:",
+          "destination": {
+            "name": "Wyong Rd near Birramal Rd, Duffys Forest",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 284",
+          "number": "284",
+          "description": "Chatswood to Terrey Hills & Duffys Forest",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2445",
+            "name": "Forest Coach Lines"
+          }
+        },
+        {
+          "id": "nsw:39284: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 284",
+          "number": "284",
+          "description": "Duffys Forest to Terrey Hills & Chatswood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2445",
+            "name": "Forest Coach Lines"
           }
         }
       ]
