@@ -9310,91 +9310,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "6065115",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-10-05T22:25:00Z",
-      "lastModification": "2021-10-05T22:26:00Z",
-      "availability": {
-        "from": "2021-10-05T22:25:00Z",
-        "to": "2021-10-23T05:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-10-22T21:00:00Z",
-          "to": "2021-10-23T05:00:59Z"
-        }
-      ]
-    },
-    "urlText": "At Stanwell Park, trains towards Central leave from platform 2, not platform 1",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065115&seqID=1",
-    "content": "<strong>Saturday 23 October</strong>\n<ul>\n<li><strong>From 8am until 4pm</strong>, at Stanwell Park, trains towards Central leave from platform 2, not platform 1.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>",
-    "subtitle": "At Stanwell Park, trains towards Central leave from platform 2, not platform 1",
-    "properties": {
-      "providerCode": "PTMarketing",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "250840:2508181,2508182",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "250840",
-          "name": "Stanwell Park Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95366054:1",
-            "name": "Stanwell Park",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "routeInfo",
     "id": "6065116",
     "version": 1,
@@ -17387,6 +17302,58 @@
           "operator": {
             "id": "2442",
             "name": "Transdev NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6065518",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-10-23T04:56:42Z",
+      "lastModification": "2021-10-23T05:03:13Z",
+      "availability": {
+        "from": "2021-10-23T04:56:00Z",
+        "to": "2021-10-23T06:56:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-23T04:56:00Z",
+          "to": "2021-10-23T06:56:59Z"
+        }
+      ]
+    },
+    "urlText": "09:33 Sydney to Moree XPLORER service delay",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065518&seqID=1",
+    "content": "Due to a mechanical issue, this service has incurred a delay.<br /><br />Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;&nbsp;<em>&nbsp;</em>",
+    "subtitle": "09:33 Sydney to Moree XPLORER service delay",
+    "properties": {
+      "providerCode": "NSWTL",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76243: :H:",
+          "destination": {
+            "name": "Moree Station, Moree",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 243",
+          "number": "243",
+          "description": "Werris Creek to Narrabri",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
