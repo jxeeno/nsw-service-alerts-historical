@@ -27750,52 +27750,85 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6065528",
-    "version": 2,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "6065529",
+    "version": 1,
+    "priority": "low",
     "timestamps": {
-      "creation": "2021-10-23T14:06:46Z",
-      "lastModification": "2021-10-23T17:58:50Z",
+      "creation": "2021-10-23T21:32:25Z",
+      "lastModification": "2021-10-23T21:32:44Z",
       "availability": {
-        "from": "2021-10-23T14:06:00Z",
-        "to": "2021-10-23T20:45:59Z"
+        "from": "2021-10-23T21:32:00Z",
+        "to": "2021-11-07T07:32:59Z"
       },
       "validity": [
         {
-          "from": "2021-10-23T14:06:00Z",
-          "to": "2021-10-23T20:45:59Z"
+          "from": "2021-10-23T21:32:00Z",
+          "to": "2021-11-07T07:32:59Z"
         }
       ]
     },
-    "urlText": "19:30 Casino to Sydney XPT delay.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065528&seqID=2",
-    "content": "This service is delayed due to an operational issue at Taree.<br /><br /><span class=\"travel-alert-content\"><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em></span>&nbsp;&nbsp;",
-    "subtitle": "19:30 Casino to Sydney XPT delay.",
+    "urlText": "Warabrook lift outage between platforms 1/2 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065529&seqID=1",
+    "content": "The lift between platforms 1/2 and the concourse is temporarily out of service.&nbsp;For assistance ask staff or call 4968 1487.",
+    "subtitle": "Warabrook lift outage between platforms 1/2 and concourse",
     "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "230420:2304302,2304301",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76034: :R:",
+          "id": "nsw:02HUN: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Newcastle Interchange",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "iconId": 3,
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Scone or Dungog to Newcastle",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :H:",
+          "destination": {
+            "name": "Singleton Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle to Scone or Dungog",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "230420",
+          "name": "Warabrook Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95342051:1",
+            "name": "Warabrook",
+            "type": "locality"
           }
         }
       ]
