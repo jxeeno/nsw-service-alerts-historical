@@ -28992,58 +28992,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6065599",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-10-26T08:24:00Z",
-      "lastModification": "2021-10-26T08:29:00Z",
-      "availability": {
-        "from": "2021-10-26T08:24:00Z",
-        "to": "2021-10-26T20:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-10-26T08:24:00Z",
-          "to": "2021-10-26T20:00:59Z"
-        }
-      ]
-    },
-    "urlText": "19:30 Casino to Sydney XPT service alteration.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065599&seqID=1",
-    "content": "Due to a freight train with mechanical problems blocking the rail line between Casino and Grafton, this service has been replaced by a road coach service for the entire journey.<br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "19:30 Casino to Sydney XPT service alteration.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76034: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6065601",
     "version": 1,
@@ -29236,6 +29184,91 @@
           "parent": {
             "id": "placeID:95362004:1",
             "name": "Chatswood",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6065603",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-10-26T20:59:39Z",
+      "lastModification": "2021-10-26T20:59:54Z",
+      "availability": {
+        "from": "2021-10-26T20:59:00Z",
+        "to": "2021-11-30T06:59:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-10-26T20:59:00Z",
+          "to": "2021-11-30T06:59:59Z"
+        }
+      ]
+    },
+    "urlText": "North Strathfield lift outage between Platforms 1/2 and Concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065603&seqID=1",
+    "content": "The lift between the Platforms 1 and 2 and the concourse is temporarily out of service. If you require assistance, please ask staff or phone 9752 8462",
+    "subtitle": "North Strathfield lift outage between Platforms 1/2 and Concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "213710:2137171,2137172",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "213710",
+          "name": "North Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95314012:1",
+            "name": "North Strathfield",
             "type": "locality"
           }
         }
