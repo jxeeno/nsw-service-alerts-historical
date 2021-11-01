@@ -25725,58 +25725,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "6065704",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-11-01T03:18:29Z",
-      "lastModification": "2021-11-01T03:22:06Z",
-      "availability": {
-        "from": "2021-11-01T03:18:00Z",
-        "to": "2021-11-01T05:00:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-01T03:18:00Z",
-          "to": "2021-11-01T05:00:59Z"
-        }
-      ]
-    },
-    "urlText": "07:40 Sydney to Melbourne XPT service delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065704&seqID=1",
-    "content": "This service has incurred a delay due to power car issues.<br /><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>",
-    "subtitle": "07:40 Sydney to Melbourne XPT service delay",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station (VIC)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "6065705",
     "version": 1,
     "priority": "normal",
@@ -25822,6 +25770,91 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6065706",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-01T05:25:26Z",
+      "lastModification": "2021-11-01T05:28:43Z",
+      "availability": {
+        "from": "2021-11-01T05:25:00Z",
+        "to": "2021-11-30T12:59:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-01T05:25:00Z",
+          "to": "2021-11-30T13:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Merewether temporary stop changes",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065706&seqID=1",
+    "content": "The bus stop at Morgan St at Ridge St is temporarily closed due to construction work.<br /><br /> For <strong>outbound route 21 </strong>and<strong> 22 </strong>services, please use the bus stop at <strong>Morgan St before Caldwell St</strong>, a 140m walk towards the roundabout.<br /><br /> Visit <a href=\"https://newcastletransport.info\">newcastletransport.info</a> for more information.",
+    "subtitle": "Merewether temporary stop changes",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G229168:229168",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:73021: :H:",
+          "destination": {
+            "name": "Broadmeadow Station",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 21",
+          "number": "21",
+          "description": "Newcastle to Broadmeadow via Merewether",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73022: :H:",
+          "destination": {
+            "name": "Charlestown Square, Frederick St, Stand D, Charlestown",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 22",
+          "number": "22",
+          "description": "Newcastle West to Charlestown via Merewether",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G229168",
+          "name": "Morgan St at Ridge St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95342033:1",
+            "name": "Merewether",
+            "type": "locality"
           }
         }
       ]
