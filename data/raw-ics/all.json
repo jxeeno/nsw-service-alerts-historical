@@ -15971,58 +15971,39 @@
   {
     "type": "stopInfo",
     "id": "6061164",
-    "version": 2,
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-04-29T00:09:00Z",
-      "lastModification": "2021-05-20T04:18:00Z",
+      "creation": "2021-04-29T00:09:34Z",
+      "lastModification": "2021-11-03T05:38:03Z",
       "availability": {
         "from": "2021-04-29T00:09:00Z",
-        "to": "2021-11-04T18:00:59Z"
+        "to": "2022-11-04T18:00:59Z"
       },
       "validity": [
         {
           "from": "2021-05-09T11:00:00Z",
-          "to": "2021-11-04T18:00:59Z"
+          "to": "2022-11-04T18:00:59Z"
         }
       ]
     },
     "urlText": "Mascot Station, temporary bus stop closures",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061164&seqID=2",
-    "content": "From 9pm Friday 9 May to 5am Sunday 5 November 2021, work at Mascot will result in the following closures:&nbsp;\n<ul>\n<li>Bus stop <strong>Mascot Station, Bourke St Stand C (202084)</strong> will be closed. The alternative stop will be <strong>Bourke St after Church St (202051)</strong> for the <strong>357</strong> towards Bondi Junction.</li>\n<li>Bus stop <strong>Mascot Station, Bourke St, Stand D (202085)</strong> will be closed. The alternative stop will be <strong>Bourke St before Church St (202054)</strong> for the <strong>305</strong> heading towards Mascot Stamford Hotel, the<strong> 307</strong> towards Port Botany and the <strong>418</strong> towards Burwood.</li>\n</ul>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6061164&seqID=3",
+    "content": "From 9pm Friday 9 May to November 2022, work at Mascot will result in the following closures:&nbsp;\n<ul>\n<li>Bus stop <strong>Mascot Station, Bourke St Stand C (202084)</strong> will be closed. The alternative stop will be <strong>Bourke St after Church St (202051)</strong> for the <strong>357</strong> towards Bondi Junction.</li>\n<li>Bus stop <strong>Mascot Station, Bourke St, Stand D (202085)</strong> will be closed. The alternative stop will be <strong>Bourke St before Church St (202054)</strong> for the <strong>305</strong> heading towards Mascot Stamford Hotel, the<strong> 307</strong> towards Port Botany and the <strong>418</strong> towards Burwood.</li>\n</ul>",
     "subtitle": "Mascot Station, temporary bus stop closures",
     "properties": {
       "providerCode": "PTMarketing",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "G202084:202084#G202085:202085",
+      "stopIDglobalID": "G202084:202084#G202085:202085#G202051:202051#G202054:202054",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:74305: :R:",
-          "destination": {
-            "name": "Gibbons St - Redfern Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 305",
-          "number": "305",
-          "description": "Mascot Stamford Hotel to Redfern",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
           "id": "nsw:31307: :R:",
           "destination": {
-            "name": "Mascot Station",
+            "name": "Mascot Station, Bourke St, Stand C, Mascot",
             "type": "stop"
           },
           "name": "Sydney Buses Network 307",
@@ -16039,14 +16020,14 @@
           }
         },
         {
-          "id": "nsw:31357: :R:",
+          "id": "nsw:31307: :H:",
           "destination": {
-            "name": "Bondi Junction",
+            "name": "Port Botany Terminus, Matraville",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 357",
-          "number": "357",
-          "description": "Mascot to Bondi Junction via Kingsford & Randwick",
+          "name": "Sydney Buses Network 307",
+          "number": "307",
+          "description": "Mascot to Port Botany Depot",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -16058,9 +16039,28 @@
           }
         },
         {
+          "id": "nsw:74305: :R:",
+          "destination": {
+            "name": "Redfern Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 305",
+          "number": "305",
+          "description": "Mascot Stamford Hotel to Redfern",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
           "id": "nsw:74418: :H:",
           "destination": {
-            "name": "Kingsford",
+            "name": "Dacey Gardens, Bunnerong Rd, Daceyville",
             "type": "stop"
           },
           "name": "Sydney Buses Network 418",
@@ -16079,7 +16079,7 @@
         {
           "id": "nsw:74305: :H:",
           "destination": {
-            "name": "Stamford Hotel",
+            "name": "O'Riordan St opp Stamford Plaza, Mascot",
             "type": "stop"
           },
           "name": "Sydney Buses Network 305",
@@ -16096,47 +16096,9 @@
           }
         },
         {
-          "id": "nsw:31307: :H:",
-          "destination": {
-            "name": "Port Botany Depot",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 307",
-          "number": "307",
-          "description": "Mascot to Port Botany Depot",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        },
-        {
-          "id": "nsw:31357: :H:",
-          "destination": {
-            "name": "Mascot Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 357",
-          "number": "357",
-          "description": "Bondi Junction to Mascot via Randwick & Kingsford",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2441",
-            "name": "State Transit"
-          }
-        },
-        {
           "id": "nsw:74418: :R:",
           "destination": {
-            "name": "Burwood",
+            "name": "Westfield Burwood, Victoria St, Burwood",
             "type": "stop"
           },
           "name": "Sydney Buses Network 418",
@@ -16167,6 +16129,26 @@
         {
           "id": "G202085",
           "name": "Mascot Station, Bourke St, Stand D",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95310008:1",
+            "name": "Mascot",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G202051",
+          "name": "Bourke St at Church Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95310008:1",
+            "name": "Mascot",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G202054",
+          "name": "Bourke St before Church Ave",
           "type": "stop",
           "parent": {
             "id": "placeID:95310008:1",
@@ -18708,11 +18690,11 @@
   {
     "type": "stopInfo",
     "id": "6065410",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-10-19T04:01:00Z",
-      "lastModification": "2021-10-19T04:15:00Z",
+      "creation": "2021-10-19T04:01:40Z",
+      "lastModification": "2021-11-03T05:42:24Z",
       "availability": {
         "from": "2021-10-19T04:01:00Z",
         "to": "2021-11-22T12:59:59Z"
@@ -18725,8 +18707,8 @@
       ]
     },
     "urlText": "St Mary and Doonside stop changes",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065410&seqID=1",
-    "content": "From Monday 15 November there will be permanent bus stop changes for <strong>route N70</strong> due to St Marys Metro Station construction work. <strong>Bus stop changes</strong>\n<ul>\n<li><strong>N70</strong> towards Blacktown will no longer use <strong>Cross St opp Coghlan Cres, Doonside (276760)</strong> and instead use <strong>Doonside Station, School Pde, Doonside (2767130)</strong></li>\n<li><strong>N70</strong> towards Rooty Hill will no longer use <strong>Doonside Station, Cross St, Doonside (2767106)</strong> and instead use <strong>Doonside Public School, Doonside Rd, Doonside (276772)</strong></li>\n<li><strong>N70</strong> St Marys towards Werrington will no longer use <strong>Station St opp St Marys Station, North St Marys (2760215)</strong> and instead use <strong>St Marys Station, Station St, North St Marys (276039)</strong></li>\n</ul>",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065410&seqID=2",
+    "content": "From Monday 15 November there will be permanent bus stop changes for <strong>route N70</strong> due to St Marys Metro Station construction work. <strong><br /><br />Bus stop changes</strong>\n<ul>\n<li><strong>N70</strong> towards Blacktown will no longer use <strong>Cross St opp Coghlan Cres, Doonside (276760)</strong> and instead use <strong>Doonside Station, School Pde, Doonside (2767130)</strong></li>\n<li><strong>N70</strong> towards Rooty Hill will no longer use <strong>Doonside Station, Cross St, Doonside (2767106)</strong> and instead use <strong>Doonside Public School, Doonside Rd, Doonside (276772)</strong></li>\n<li><strong>N70</strong> St Marys towards Werrington will no longer use <strong>Station St opp St Marys Station, North St Marys (2760215)</strong> and instead use <strong>St Marys Station, Station St, North St Marys (276039)</strong></li>\n</ul>",
     "subtitle": "St Mary and Doonside stop changes",
     "properties": {
       "providerCode": "PTMarketing",
@@ -26524,6 +26506,139 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6065762",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-03T05:38:36Z",
+      "lastModification": "2021-11-03T05:41:49Z",
+      "availability": {
+        "from": "2021-11-03T05:38:00Z",
+        "to": "2021-11-07T19:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-05T09:00:00Z",
+          "to": "2021-11-07T19:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Darcy Rd, temporary bus stop closure",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065762&seqID=1",
+    "content": "F<span style=\"font-family: 'Arial',sans-serif;\">rom 8pm Friday 5 November to 6am Monday 8 November 2021, </span><span style=\"font-family: 'Arial',sans-serif;\">Parramatta Light Rail work will result in the closure of bus stop <strong>Darcy Rd after Hawkesbury Rd (214518)</strong> and affect the <strong>705</strong> and <strong>711</strong> routes towards Blacktown.</span><span style=\"font-family: 'Arial',sans-serif;\"><br /><br />The alternative stop will be <strong>Westmead Hospital, North West T-way (2145560)</strong>.</span>",
+    "subtitle": "Darcy Rd, temporary bus stop closure",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G214518:214518#G2145560:2145560",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:23705: :H:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 705",
+          "number": "705",
+          "description": "Parramatta to Blacktown via Seven Hills",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:23711: :H:",
+          "destination": {
+            "name": "Westpoint Bus Interchange, Blacktown",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 711",
+          "number": "711",
+          "description": "Parramatta to Blacktown via Wentworthville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:23705: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 705",
+          "number": "705",
+          "description": "Blacktown to Parramatta via Seven Hills",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        },
+        {
+          "id": "nsw:23711: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 711",
+          "number": "711",
+          "description": "Blacktown to Parramatta via Wentworthville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2436",
+            "name": "Hillsbus"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G214518",
+          "name": "Darcy Rd after Hawkesbury Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346020:1",
+            "name": "Westmead",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2145560",
+          "name": "Westmead Hospital, North West Twy",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346020:1",
+            "name": "Westmead",
+            "type": "locality"
           }
         }
       ]
