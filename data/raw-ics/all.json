@@ -17557,58 +17557,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "6064810",
-    "version": 5,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-09-17T22:53:50Z",
-      "lastModification": "2021-11-06T21:28:33Z",
-      "availability": {
-        "from": "2021-10-15T21:53:00Z",
-        "to": "2021-11-07T07:53:59Z"
-      },
-      "validity": [
-        {
-          "from": "2021-10-15T21:53:00Z",
-          "to": "2021-11-07T07:53:59Z"
-        }
-      ]
-    },
-    "urlText": "Melbourne to Sydney XPT alteration.",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6064810&seqID=5",
-    "content": "<span>Due to the Victorian border closure, the Melbourne to Sydney XPT services will commence at Albury. Passengers travelling from Victorian locations will need to make their own arrangements to Albury, in line with public health orders.<br /><span>NSW TrainLink will resume rail services to and from Melbourne from Sunday 7th November at 19:30.</span><br /><br /></span><br /><em>Use the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.</em>&nbsp;",
-    "subtitle": "Melbourne to Sydney XPT alteration.",
-    "properties": {
-      "providerCode": "NSWTL",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "6064831",
     "version": 3,
@@ -26946,6 +26894,72 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "6065858",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-07T08:19:02Z",
+      "lastModification": "2021-11-07T08:19:17Z",
+      "availability": {
+        "from": "2021-11-07T08:19:00Z",
+        "to": "2021-11-29T18:19:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-07T08:19:00Z",
+          "to": "2021-11-29T18:19:59Z"
+        }
+      ]
+    },
+    "urlText": "Berowra lift outage between platform 3 and concourse",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065858&seqID=1",
+    "content": "The lift between platforms 3 and the concourse is temporarily out of service. If you require assistance, ask staff or phone 9847 8496.",
+    "subtitle": "Berowra lift outage between platform 3 and concourse",
+    "properties": {
+      "providerCode": "RMC",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "208110:208173",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "208110",
+          "name": "Berowra Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325004:1",
+            "name": "Berowra",
+            "type": "locality"
           }
         }
       ]
