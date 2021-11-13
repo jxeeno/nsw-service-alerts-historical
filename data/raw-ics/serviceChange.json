@@ -21109,11 +21109,11 @@
   {
     "type": "lineInfo",
     "id": "6066058",
-    "version": 2,
+    "version": 4,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-11-13T19:54:17Z",
-      "lastModification": "2021-11-13T23:20:57Z",
+      "lastModification": "2021-11-13T23:52:54Z",
       "availability": {
         "from": "2021-11-13T19:54:00Z",
         "to": "2021-11-14T05:54:59Z"
@@ -21126,8 +21126,8 @@
       ]
     },
     "urlText": "F3 Parramatta Ferry cancellations",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6066058&seqID=2",
-    "content": "The following ferry services have been cancelled due to a staffing issue:\n<ul>\n<li>9:38am Sydney Olympic Park to Circular Quay</li>\n<li>3:12pm Barangaroo to Meadowbank</li>\n<li>4:12pm Barangaroo to Meadowbank</li>\n</ul>\nPlease make alternative arrangements or allow extra travel time and check information displays for service updates.",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6066058&seqID=4",
+    "content": "The following ferry services have been cancelled due to a staffing issue:\n<ul>\n<li>3:12pm Barangaroo to Meadowbank</li>\n<li>4:12pm Barangaroo to Meadowbank</li>\n</ul>\nPlease make alternative arrangements or allow extra travel time and check information displays for service updates.",
     "subtitle": "F3 Parramatta Ferry cancellations",
     "properties": {
       "providerCode": "TMC",
@@ -21298,6 +21298,78 @@
           "operator": {
             "id": "2508",
             "name": "Keolis Downer Northern Beaches"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6066062",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-13T23:50:15Z",
+      "lastModification": "2021-11-13T23:51:41Z",
+      "availability": {
+        "from": "2021-11-13T23:50:00Z",
+        "to": "2021-11-14T09:50:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-13T23:50:00Z",
+          "to": "2021-11-14T09:50:59Z"
+        }
+      ]
+    },
+    "urlText": "Blue Mountains Line",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6066062&seqID=1",
+    "content": "Allow additional travel time from the city due to a slow moving freight train at Linden. Listen to announcements and check information display boards for updates.",
+    "subtitle": "Blue Mountains Line",
+    "properties": {
+      "providerCode": "TMC",
+      "speechText": "on the blue mountains line Allow additional travel time from the city due to a slow moving freight train at Linden.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
