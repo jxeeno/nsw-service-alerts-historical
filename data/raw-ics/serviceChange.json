@@ -21108,51 +21108,71 @@
   },
   {
     "type": "lineInfo",
-    "id": "6066063",
+    "id": "6066068",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-11-14T00:01:40Z",
-      "lastModification": "2021-11-14T00:04:03Z",
+      "creation": "2021-11-14T09:48:59Z",
+      "lastModification": "2021-11-14T09:55:59Z",
       "availability": {
-        "from": "2021-11-14T00:01:00Z",
-        "to": "2021-11-14T08:00:59Z"
+        "from": "2021-11-14T09:48:00Z",
+        "to": "2021-11-14T19:48:59Z"
       },
       "validity": [
         {
-          "from": "2021-11-14T00:01:00Z",
-          "to": "2021-11-14T08:00:59Z"
+          "from": "2021-11-14T09:48:00Z",
+          "to": "2021-11-14T19:48:59Z"
         }
       ]
     },
-    "urlText": "07:40 Sydney To Melbourne XPT Service Delay",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6066063&seqID=1",
-    "content": "Due to mechanical issues near near Goulburn the 07:40 Sydney to Melbourne XPT service is delayed.<br /><br /><br /><br /><br />\nUse the&nbsp;<a href=\"https://transportnsw.info/trip#/\">Trip Planner</a>&nbsp;for the latest travel information with real time updates.&nbsp;",
-    "subtitle": "07:40 Sydney To Melbourne XPT Service Delay",
+    "urlText": "Hunter Line buses replacing trains",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6066068&seqID=1",
+    "content": "Allow extra travel time on Monday morning as the following train services will be replaced by buses due to operational issues:\n05:30 Maitland to Dungog<br />06:48&nbsp; Dungog to Maitland<br />08:50&nbsp; Maitland to Muswellbrook<br />10:09&nbsp; Muswellbrook to Maitland\n<br /><br />",
+    "subtitle": "Hunter Line buses replacing trains",
     "properties": {
-      "providerCode": "NSWTL",
+      "providerCode": "TMC",
+      "speechText": "Buses are replacing trains for the following services on the Hunter line due to operations issues. \n5 30 a m Maitland to Dungog\n6 48 a m  Dungog to Maitland\n8 50 am  Maitland to Muswellbrook\n10 O 9 a m Muswellbrook to Maitland\nAllow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76623: :H:",
+          "id": "nsw:76HUN: :H:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Station (VIC)",
+            "name": "Dungog Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         }
       ]
