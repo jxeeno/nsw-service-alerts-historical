@@ -20479,11 +20479,11 @@
   {
     "type": "lineInfo",
     "id": "6065935",
-    "version": 1,
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2021-11-09T23:49:00Z",
-      "lastModification": "2021-11-09T23:51:00Z",
+      "creation": "2021-11-09T23:49:45Z",
+      "lastModification": "2021-11-22T01:15:42Z",
       "availability": {
         "from": "2021-11-09T23:49:00Z",
         "to": "2021-11-25T16:00:59Z"
@@ -20495,13 +20495,13 @@
         }
       ]
     },
-    "urlText": "Buses replace the 00:52 Lidcombe to Bankstown service",
-    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065935&seqID=1",
-    "content": "<strong>Friday 26 November</strong>\n<ul>\n<li>Buses replace the 00:52 Lidcombe to Bankstown service.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus route</strong><br />8T3: Lidcombe, then all stations to Bankstown and return",
-    "subtitle": "Buses replace the 00:52 Lidcombe to Bankstown service",
+    "urlText": "Buses replace some trains",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6065935&seqID=2",
+    "content": "<strong>Friday 26 November</strong>\n<ul>\n<li>Buses replace the 00:30 Central to Liverpool service from Sydenham to Liverpool, and the 00:52 Lidcombe to Bankstown service, from Lidcombe to Bankstown.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date information.</li>\n</ul>\n<strong>Bus route</strong><br />8T3: Lidcombe, then all stations to Bankstown<br />17T3: Sydenham all stations to Liverpool via Bankstown",
+    "subtitle": "Buses replace some trains",
     "properties": {
       "providerCode": "PTMarketing",
-      "speechText": "Friday 26 November\n\n    Buses replace the 12 52 AM Lidcombe to Bankstown service.",
+      "speechText": "Friday 26 November\nBuses replace the 12 30 AM Central to Liverpool service from Sydenham to Liverpool, and the 12 52 AM Lidcombe to Bankstown service, from Lidcombe to Bankstown.",
       "announcementType": "trackwork",
       "publishToAreas": "1"
     },
@@ -20510,7 +20510,7 @@
         {
           "id": "nsw:020T3: :H:",
           "destination": {
-            "name": "Bankstown Station",
+            "name": "Macarthur Station",
             "type": "stop"
           },
           "name": "Sydney Trains Network T3 Bankstown Line",
@@ -33068,6 +33068,160 @@
             "id": "placeID:95318011:1",
             "name": "Fairfield",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6066267",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-22T01:23:06Z",
+      "lastModification": "2021-11-22T01:26:42Z",
+      "availability": {
+        "from": "2021-11-22T01:23:00Z",
+        "to": "2021-12-02T14:30:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-29T11:00:00Z",
+          "to": "2021-11-29T14:30:59Z"
+        },
+        {
+          "from": "2021-11-30T11:00:00Z",
+          "to": "2021-11-30T14:30:59Z"
+        },
+        {
+          "from": "2021-12-01T11:00:00Z",
+          "to": "2021-12-01T14:30:59Z"
+        },
+        {
+          "from": "2021-12-02T11:00:00Z",
+          "to": "2021-12-02T14:30:59Z"
+        }
+      ]
+    },
+    "urlText": "Trackwork on the T1 North Shore Line may affect how you travel",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6066267&seqID=2",
+    "content": "<strong>Monday 29 November to Thursday 2 December</strong>\n<ul>\n<li><strong>Nightly from 10pm until 1.30am</strong>, no trackwork on the Metro, but trackwork on the <a href=\"https://transportnsw.info/alerts/details#/6066124\"><strong>T1 North Shore Line</strong></a> may affect how you travel.</li>\n<li>If travelling to the City change at Epping for a <strong>T9 Northern Line</strong> train direct to the City via Strathfield.</li>\n</ul>",
+    "subtitle": "Trackwork on the T1 North Shore Line may affect how you travel",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "6066268",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-22T01:24:56Z",
+      "lastModification": "2021-11-22T01:25:57Z",
+      "availability": {
+        "from": "2021-11-22T01:24:00Z",
+        "to": "2021-12-05T15:00:59Z"
+      },
+      "validity": [
+        {
+          "from": "2021-12-03T15:00:00Z",
+          "to": "2021-12-05T15:00:59Z"
+        }
+      ]
+    },
+    "urlText": "Metro services run between Tallawong and Bella Vista, and between Bella Vista and Chatswood only",
+    "url": "http://localhost:8085/ics/XSLT_CM_SHOWADDINFO_REQUEST?infoID=6066268&seqID=1",
+    "content": "<p class=\"x_MsoNormal\"><strong>Saturday 4 and Sunday 5 November</strong>\n<ul>\n<li>Metro services run between Tallawong and Bella Vista, and between Bella Vista and Chatswood only.</li>\n<li>Please change at Bella Vista to continue your journey.</li>\n</ul>",
+    "subtitle": "Metro services run between Tallawong and Bella Vista, and between Bella Vista and Chatswood only",
+    "properties": {
+      "providerCode": "PTMarketing",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
           }
         }
       ]
