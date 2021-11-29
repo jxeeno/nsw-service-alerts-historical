@@ -14295,60 +14295,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-474",
-    "version": 5,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-28T21:41:00Z",
-      "lastModification": "2021-11-28T21:42:00Z",
-      "availability": {
-        "from": "2021-11-28T21:36:00Z",
-        "to": "2021-11-29T00:36:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-28T21:36:00Z",
-          "to": "2021-11-29T00:36:00Z"
-        }
-      ]
-    },
-    "urlText": "Train service delays between Canberra Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-474",
-    "content": "There are delays on route 632 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Canberra Station and Central Station",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Train service delays between Canberra Station and Central Station",
-      "speechText": "There are delays on route 632 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76632: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 632",
-          "number": "632",
-          "description": "Canberra to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-433",
     "version": 233377,
     "priority": "normal",
@@ -15791,6 +15737,132 @@
     }
   },
   {
+    "type": "routeInfo",
+    "id": "ems-459",
+    "version": 769,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-28T01:56:00Z",
+      "lastModification": "2021-11-28T02:09:00Z",
+      "availability": {
+        "from": "2021-11-28T01:00:00Z",
+        "to": "2021-12-05T02:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-12-03T01:00:00Z",
+          "to": "2021-12-05T02:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Sydney to Dubbo XPT partial road coach replacement",
+    "url": "https://transportnsw.info/alerts/details#/ems-459",
+    "content": "<div>Due to planned track work,the XPT service has been replaced by a road coach between Orange and Dubbo in both directions.</div>",
+    "subtitle": "Sydney to Dubbo XPT partial road coach replacement",
+    "properties": {
+      "providerCode": "TfNSW",
+      "stopIDglobalID": "28001#28201#28202#28311#28301",
+      "smsText": "Sydney to Dubbo XPT partial road coach replacement",
+      "speechText": "Due to planned track work,the XPT service has been replaced by a road coach between Orange and Dubbo in both directions",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76427: :H:",
+          "destination": {
+            "name": "Dubbo Station, Dubbo",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 427",
+          "number": "427",
+          "description": "Central to Dubbo",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "28001",
+          "name": "Orange Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95397005:1",
+            "name": "Orange",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28201",
+          "name": "Stuart Town Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972030:1",
+            "name": "Stuart Town",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28202",
+          "name": "Wellington Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972034:1",
+            "name": "Wellington",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28311",
+          "name": "Geurie Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95972014:1",
+            "name": "Geurie",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28301",
+          "name": "Dubbo Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95966013:1",
+            "name": "Dubbo",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-469",
     "version": 59,
@@ -16159,132 +16231,6 @@
           "parent": {
             "id": "placeID:95361003:1",
             "name": "Bondi Junction",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "routeInfo",
-    "id": "ems-459",
-    "version": 769,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-11-28T01:56:00Z",
-      "lastModification": "2021-11-28T02:09:00Z",
-      "availability": {
-        "from": "2021-11-28T01:00:00Z",
-        "to": "2021-12-05T02:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-12-03T01:00:00Z",
-          "to": "2021-12-05T02:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Sydney to Dubbo XPT partial road coach replacement",
-    "url": "https://transportnsw.info/alerts/details#/ems-459",
-    "content": "<div>Due to planned track work,the XPT service has been replaced by a road coach between Orange and Dubbo in both directions.</div>",
-    "subtitle": "Sydney to Dubbo XPT partial road coach replacement",
-    "properties": {
-      "providerCode": "TfNSW",
-      "stopIDglobalID": "28001#28201#28202#28311#28301",
-      "smsText": "Sydney to Dubbo XPT partial road coach replacement",
-      "speechText": "Due to planned track work,the XPT service has been replaced by a road coach between Orange and Dubbo in both directions",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76427: :H:",
-          "destination": {
-            "name": "Dubbo Station, Dubbo",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 427",
-          "number": "427",
-          "description": "Central to Dubbo",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76428: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 428",
-          "number": "428",
-          "description": "Dubbo to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "28001",
-          "name": "Orange Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95397005:1",
-            "name": "Orange",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28201",
-          "name": "Stuart Town Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95972030:1",
-            "name": "Stuart Town",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28202",
-          "name": "Wellington Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95972034:1",
-            "name": "Wellington",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28311",
-          "name": "Geurie Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95972014:1",
-            "name": "Geurie",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28301",
-          "name": "Dubbo Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95966013:1",
-            "name": "Dubbo",
             "type": "locality"
           }
         }
@@ -18175,6 +18121,98 @@
           "operator": {
             "id": "2433",
             "name": "Busways Western Sydney"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-484",
+    "version": 357,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-29T00:40:00Z",
+      "lastModification": "2021-11-29T00:46:00Z",
+      "availability": {
+        "from": "2021-11-29T00:36:00Z",
+        "to": "2021-11-29T03:06:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-29T00:36:00Z",
+          "to": "2021-11-29T03:06:00Z"
+        }
+      ]
+    },
+    "urlText": "Diversion at Jannali",
+    "url": "https://transportnsw.info/alerts/details#/ems-484",
+    "content": "<div>Buses are diverting away from George River Road due to fallen wires. One stop being missed.&nbsp;</div>",
+    "subtitle": "Diversion at Jannali",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Diversion at Jannali",
+      "speechText": "Route 9-6-7 and 9-6-8 buses are diverting away from George River Road due to fallen wires. One stop being missed. ",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:32967: :R:",
+          "destination": {
+            "name": "Jannali High School, Sutherland Rd, Jannali",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 967",
+          "number": "967",
+          "description": "Como West to Miranda via Oyster Bay",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32967: :H:",
+          "destination": {
+            "name": "Burunda St opp Girraween Ave, Como",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 967",
+          "number": "967",
+          "description": "Miranda to Como West via Oyster Bay",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
+          }
+        },
+        {
+          "id": "nsw:32968: :H:",
+          "destination": {
+            "name": "Sutherland Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 968",
+          "number": "968",
+          "description": "Miranda to Bonnet Bay via Kareela",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2442",
+            "name": "Transdev NSW"
           }
         }
       ]
@@ -24902,6 +24940,207 @@
   },
   {
     "type": "stopInfo",
+    "id": "ems-483",
+    "version": 27,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-29T00:37:00Z",
+      "lastModification": "2021-11-29T00:37:00Z",
+      "availability": {
+        "from": "2021-11-22T03:27:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-29T00:37:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Minto Station not available between platform 1, the footbridge and Somerset Street.",
+    "url": "https://transportnsw.info/alerts/details#/ems-483",
+    "content": "The lift between platform 1, the footbridge and Somerset Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0842.",
+    "subtitle": "Lift at Minto Station not available between platform 1, the footbridge and Somerset Street.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "256610:2566241",
+      "smsText": "Lift at Minto Station not available between platform 1, the footbridge and Somerset Street.",
+      "speechText": "The lift between platform 1, the footbridge and Somerset Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0842.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "256610",
+          "name": "Minto Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313024:1",
+            "name": "Minto",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "e0b472dc543d8f1e06b8847e4aa5a014d567094d",
     "version": 821023,
     "priority": "normal",
@@ -27682,6 +27921,79 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-482",
+    "version": 328,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-11-29T00:30:00Z",
+      "lastModification": "2021-11-29T00:35:00Z",
+      "availability": {
+        "from": "2021-11-08T12:55:00Z",
+        "to": "2021-12-06T14:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-12-06T14:29:00Z",
+          "to": "2021-12-06T14:30:00Z"
+        }
+      ]
+    },
+    "urlText": "Trackwork between Epping and Strathfield",
+    "url": "https://transportnsw.info/alerts/details#/ems-482",
+    "content": "<div><strong>Tuesday 7 December</strong></div>\n<ul>\n<li><strong>From 11.55pm until 1.30am</strong>, buses replace trains between Epping and Strathfield.</li>\n<li>Trains run to a changed timetable between Hornsby and Epping and between Strathfield and the City.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information.</li>\n</ul>\n<div><strong>Bus routes</strong><br />78T9: Strathfield, express to, Epping and return</div>\n<div>80T9: Strathfield, then all stations to Epping and return</div>\n<div>85T9: West Ryde, Denistone, Eastwood Mini Bus Shuttle</div>\n<div>90T9: Strathfield, express to, Epping then express to Hornsby</div>\n<div>&nbsp;</div>",
+    "subtitle": "Trackwork between Epping and Strathfield",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Trackwork between Epping and Strathfield",
+      "speechText": "Tuesday 7 December\nFrom 11.55pm until 1.30am, buses replace trains between Epping and Strathfield.\nTrains run to a changed timetable between Hornsby and Epping and between Strathfield and the City.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
