@@ -13755,13 +13755,13 @@
     }
   },
   {
-    "type": "lineInfo",
+    "type": "stopInfo",
     "id": "ems-445",
-    "version": 379091,
+    "version": 379246,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-11-26T10:14:00Z",
-      "lastModification": "2021-11-30T19:33:00Z",
+      "lastModification": "2021-11-30T19:35:00Z",
       "availability": {
         "from": "2021-11-26T10:14:00Z",
         "to": "2500-12-31T00:00:00Z"
@@ -13779,6 +13779,8 @@
     "subtitle": "NSW TrainLink coach services will not pick up or set down at Forbes.",
     "properties": {
       "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G28711#G28041",
       "smsText": "NSW TrainLink coach services will not pick up or set down at Forbes.",
       "speechText": "Due to local flooding, NSW TrainLink coach services will not be setting down or picking up passengers at Forbes, Canowindra, Cudal or Eugowra.",
       "announcementType": "serviceChange",
@@ -13936,6 +13938,28 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G28711",
+          "name": "Forbes Coach Stop",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95395011:1",
+            "name": "Forbes",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G28041",
+          "name": "Canowindra Coach Stop",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95393012:1",
+            "name": "Canowindra",
+            "type": "locality"
           }
         }
       ]
