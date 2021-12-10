@@ -15817,11 +15817,11 @@
   {
     "type": "lineInfo",
     "id": "ems-780",
-    "version": 171,
+    "version": 1568,
     "priority": "normal",
     "timestamps": {
       "creation": "2021-12-10T03:54:00Z",
-      "lastModification": "2021-12-10T03:57:00Z",
+      "lastModification": "2021-12-10T04:20:00Z",
       "availability": {
         "from": "2021-12-10T03:53:00Z",
         "to": "2500-12-31T00:00:00Z"
@@ -15835,12 +15835,12 @@
     },
     "urlText": "L3 Kingsford Line",
     "url": "https://transportnsw.info/alerts/details#/ems-780",
-    "content": "<div>Light Rail services are not running between Moore Park and Juniors Kingsford due to a person injured by a tram. Make alternative arrangements, allow extra travel time and check information displays for service updates. Services are still running between Moore Park and Circular Quay.</div>",
+    "content": "<div>Light Rail services are running again between Moore Park and Juniors Kingsford after a person was injured by a tram. Allow extra travel time and check information displays for service updates.&nbsp;</div>",
     "subtitle": "L3 Kingsford Line",
     "properties": {
       "providerCode": "TfNSW",
       "smsText": "L3 Kingsford Line",
-      "speechText": "L 3 Light Rail services are not running between Moore Park and Juniors Kingsford due to a person injured by a tram. Make alternative arrangements, allow extra travel time and check information displays for service updates. Services are still running between Moore Park and Circular Quay.",
+      "speechText": "L 3 Light Rail services are running again between Moore Park and Juniors Kingsford after a person was injured by a tram. Allow extra travel time and check information displays for service updates. ",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -19704,6 +19704,93 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-781",
+    "version": 130,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-12-10T04:14:00Z",
+      "lastModification": "2021-12-10T04:16:00Z",
+      "availability": {
+        "from": "2021-12-03T07:04:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-12-10T04:14:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Petersham Station not available between footbridge and Terminus Street.",
+    "url": "https://transportnsw.info/alerts/details#/ems-781",
+    "content": "The lift between footbridge and Terminus Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426.",
+    "subtitle": "Lift at Petersham Station not available between footbridge and Terminus Street.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "204910",
+      "smsText": "Lift at Petersham Station not available between footbridge and Terminus Street.",
+      "speechText": "The lift between footbridge and Terminus Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "204910",
+          "name": "Petersham Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338006:1",
+            "name": "Petersham",
+            "type": "locality"
           }
         }
       ]
