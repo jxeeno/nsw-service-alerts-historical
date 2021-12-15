@@ -10822,48 +10822,6 @@
       }
     },
     {
-      "id": "295758",
-      "alert": {
-        "informed_entity": [
-          {
-            "trip": {
-              "trip_id": "104B.1708.102.32.A.8.69171880",
-              "start_time": "08:06:01",
-              "start_date": "20211216",
-              "route_id": "NSN_1a",
-              "direction_id": 0
-            }
-          }
-        ],
-        "cause": 1,
-        "effect": 1,
-        "url": {
-          "translation": [
-            {
-              "text": "https://transportnsw.info/alerts#/train",
-              "language": "en"
-            }
-          ]
-        },
-        "header_text": {
-          "translation": [
-            {
-              "text": "Cancelled",
-              "language": "en"
-            }
-          ]
-        },
-        "description_text": {
-          "translation": [
-            {
-              "text": "due to urgent train repairs at Hornsby.",
-              "language": "en"
-            }
-          ]
-        }
-      }
-    },
-    {
       "id": "295760",
       "alert": {
         "active_period": [
@@ -11066,25 +11024,33 @@
       }
     },
     {
-      "id": "295764",
+      "id": "295765",
       "alert": {
-        "informed_entity": [
+        "active_period": [
           {
-            "trip": {
-              "trip_id": "164D.1708.102.32.A.8.69176825",
-              "start_time": "08:00:01",
-              "start_date": "20211216",
-              "route_id": "NSN_1a",
-              "direction_id": 0
+            "start": {
+              "low": 1639605180,
+              "high": 0,
+              "unsigned": true
             }
           }
         ],
+        "informed_entity": [
+          {
+            "agency_id": "2508",
+            "route_id": "2508_180"
+          },
+          {
+            "agency_id": "2508",
+            "route_id": "2508_180X"
+          }
+        ],
         "cause": 1,
-        "effect": 6,
+        "effect": 8,
         "url": {
           "translation": [
             {
-              "text": "https://transportnsw.info/alerts#/train",
+              "text": "https://www.transportnsw.info/alerts#/ems-922",
               "language": "en"
             }
           ]
@@ -11092,7 +11058,7 @@
         "header_text": {
           "translation": [
             {
-              "text": "Added Stops",
+              "text": "Delays in Dee Why",
               "language": "en"
             }
           ]
@@ -11100,8 +11066,12 @@
         "description_text": {
           "translation": [
             {
-              "text": "Hornsby, Waitara, Turramurra due to urgent train repairs at Hornsby.",
+              "text": "Some buses are delayed due to heavy traffic caused by Covid testing along Campbell Avenue and South Creek Road.",
               "language": "en"
+            },
+            {
+              "text": "<div>Some buses are delayed due to heavy traffic caused by Covid testing along Campbell Avenue and South Creek Road.</div>",
+              "language": "en/html"
             }
           ]
         }
