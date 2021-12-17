@@ -15700,6 +15700,73 @@
     }
   },
   {
+    "type": "routeInfo",
+    "id": "ems-1002",
+    "version": 82,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2021-12-17T10:31:00Z",
+      "lastModification": "2021-12-17T10:32:00Z",
+      "availability": {
+        "from": "2021-12-17T10:28:00Z",
+        "to": "2021-12-17T22:28:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-12-17T10:28:00Z",
+          "to": "2021-12-17T22:28:00Z"
+        }
+      ]
+    },
+    "urlText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-1002",
+    "content": "There are delays on route 622 train services due to urgent signal repairs. \n<div>Track failure at Donnybrook near Broadmeadows Victoria.</div>\n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
+    "properties": {
+      "providerCode": "TfNSW",
+      "stopIDglobalID": "20030",
+      "smsText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
+      "speechText": "There are delays on route 622 train services due to urgent signal repairs. \nTrack failure at Donnybrook near Broadmeadows Victoria.\n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "20030",
+          "name": "Broadmeadows Station (VIC)",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95101001:95101001",
+            "name": "Victoria",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-197",
     "version": 93718,
@@ -15767,73 +15834,6 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "routeInfo",
-    "id": "ems-1002",
-    "version": 82,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2021-12-17T10:31:00Z",
-      "lastModification": "2021-12-17T10:32:00Z",
-      "availability": {
-        "from": "2021-12-17T10:28:00Z",
-        "to": "2021-12-17T22:28:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-12-17T10:28:00Z",
-          "to": "2021-12-17T22:28:00Z"
-        }
-      ]
-    },
-    "urlText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-1002",
-    "content": "There are delays on route 622 train services due to urgent signal repairs. \n<div>Track failure at Donnybrook near Broadmeadows Victoria.</div>\n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-    "properties": {
-      "providerCode": "TfNSW",
-      "stopIDglobalID": "20030",
-      "smsText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-      "speechText": "There are delays on route 622 train services due to urgent signal repairs. \nTrack failure at Donnybrook near Broadmeadows Victoria.\n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "20030",
-          "name": "Broadmeadows Station (VIC)",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95101001:95101001",
-            "name": "Victoria",
-            "type": "locality"
           }
         }
       ]
