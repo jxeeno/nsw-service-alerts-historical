@@ -10130,11 +10130,11 @@
   {
     "type": "lineInfo",
     "id": "ems-20040",
-    "version": 1,
+    "version": 1400,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-07-29T19:44:00Z",
-      "lastModification": "2023-07-29T19:44:00Z",
+      "lastModification": "2023-07-29T20:07:00Z",
       "availability": {
         "from": "2023-07-29T19:35:00Z",
         "to": "2023-07-30T19:35:00Z"
@@ -10159,6 +10159,44 @@
     },
     "affected": {
       "lines": [
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
         {
           "id": "nsw:2901A: :R:",
           "destination": {
@@ -11974,6 +12012,93 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "b4b63e176a4afbdc9601230d707aee449645d3b1",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-07-29T20:13:00Z",
+      "lastModification": "2023-07-29T20:13:00Z",
+      "availability": {
+        "from": "2023-07-29T20:13:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-07-29T20:13:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Station Update - Cowan",
+    "url": "https://transportnsw.info/alerts/details#/b4b63e176a4afbdc9601230d707aee449645d3b1",
+    "content": "All trains will arrive and depart in both directions of travel on Platform 1 at Cowan until 11.05am on July 29, 2023.",
+    "subtitle": "Station Update - Cowan",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "208120",
+      "smsText": "Station Update - Cowan",
+      "speechText": "All trains will arrive and depart in both directions of travel on Platform 1 at Cowan until 11.05am on July 29, 2023.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "208120",
+          "name": "Cowan Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325013:1",
+            "name": "Cowan",
+            "type": "locality"
           }
         }
       ]
