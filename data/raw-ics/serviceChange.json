@@ -12481,6 +12481,131 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "5d881fbee1d71c0bce242e394b9389102534e86f",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-08-07T21:19:00Z",
+      "lastModification": "2023-08-07T21:19:00Z",
+      "availability": {
+        "from": "2023-08-07T21:19:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-08-07T21:19:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Station Update - Denistone",
+    "url": "https://transportnsw.info/alerts/details#/5d881fbee1d71c0bce242e394b9389102534e86f",
+    "content": "Due to power supply issues affecting station infrastructure there is currently no power at Denistone station. Station indicator boards are currently not available and Opal machines are also affected. Please contact OPAL via transportnsw.info/Opal for ticketing related issues.",
+    "subtitle": "Station Update - Denistone",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "211410",
+      "smsText": "Station Update - Denistone",
+      "speechText": "Due to power supply issues affecting station infrastructure there is currently no power at Denistone station. Station indicator boards are currently not available and Opal machines are also affected. Please contact OPAL via transportnsw.info/Opal for ticketing related issues.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "211410",
+          "name": "Denistone Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95352001:1",
+            "name": "Denistone",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-14727",
     "version": 8664198,
@@ -19007,60 +19132,6 @@
             "id": "placeID:95308053:1",
             "name": "Grantham Farm",
             "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-20396",
-    "version": 36811,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-08-07T11:01:00Z",
-      "lastModification": "2023-08-07T21:15:00Z",
-      "availability": {
-        "from": "2023-08-07T11:00:00Z",
-        "to": "2023-08-07T21:20:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-08-07T11:00:00Z",
-          "to": "2023-08-07T21:20:00Z"
-        }
-      ]
-    },
-    "urlText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-20396",
-    "content": "There are delays on route 622 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-      "speechText": "There are delays on route 622 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
           }
         }
       ]
