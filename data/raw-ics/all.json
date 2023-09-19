@@ -12377,6 +12377,60 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-22183",
+    "version": 4,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-19T02:35:00Z",
+      "lastModification": "2023-09-19T02:35:00Z",
+      "availability": {
+        "from": "2023-09-19T02:33:00Z",
+        "to": "2023-09-19T05:33:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-19T02:33:00Z",
+          "to": "2023-09-19T05:33:00Z"
+        }
+      ]
+    },
+    "urlText": "Coach service delays at Orange Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-22183",
+    "content": "There are delays on route 521 coach services due to mechanical repairs. \n<div>This service is delayed due to the late arrival of the connecting XPT service from Sydney.</div> Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at Orange Station",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Coach service delays at Orange Station",
+      "speechText": "There are delays on route 521 coach services due to mechanical repairs. \nThis service is delayed due to the late arrival of the connecting XPT service from Sydney. Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76521: :H:",
+          "destination": {
+            "name": "Parkes Station, Parkes",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 521",
+          "number": "521",
+          "description": "Orange to Parkes",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-21400",
     "version": 1,
     "priority": "normal",
@@ -13555,6 +13609,126 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-22169",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-18T22:47:00Z",
+      "lastModification": "2023-09-18T22:48:00Z",
+      "availability": {
+        "from": "2023-09-12T00:37:00Z",
+        "to": "2502-10-27T02:37:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-18T21:47:00Z",
+          "to": "2502-10-27T02:37:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Oatley Station not available between the footbridge and Mulga Road",
+    "url": "https://transportnsw.info/alerts/details#/ems-22169",
+    "content": "The lift between the footbridge and Mulga Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1246.",
+    "subtitle": "Lift at Oatley Station not available between the footbridge and Mulga Road",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "222320",
+      "smsText": "Lift at Oatley Station not available between the footbridge and Mulga Road",
+      "speechText": "The lift at Oatley Station between the footbridge and Mulga Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1246.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "222320",
+          "name": "Oatley Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-21666",
     "version": 1,
@@ -14544,126 +14718,6 @@
             "id": "2434",
             "name": "Interline Bus Services"
           }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-22169",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-09-18T22:47:00Z",
-      "lastModification": "2023-09-18T22:48:00Z",
-      "availability": {
-        "from": "2023-09-12T00:37:00Z",
-        "to": "2502-10-27T02:37:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-18T21:47:00Z",
-          "to": "2502-10-27T02:37:00Z"
-        }
-      ]
-    },
-    "urlText": "Lift at Oatley Station not available between the footbridge and Mulga Road",
-    "url": "https://transportnsw.info/alerts/details#/ems-22169",
-    "content": "The lift between the footbridge and Mulga Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1246.",
-    "subtitle": "Lift at Oatley Station not available between the footbridge and Mulga Road",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "222320",
-      "smsText": "Lift at Oatley Station not available between the footbridge and Mulga Road",
-      "speechText": "The lift at Oatley Station between the footbridge and Mulga Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1246.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :H:",
-          "destination": {
-            "name": "Cronulla Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Waterfall or Cronulla to Bondi Junction",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "222320",
-          "name": "Oatley Station",
-          "type": "stop"
         }
       ]
     }
@@ -21643,6 +21697,202 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-22010",
+    "version": 4,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-14T05:54:00Z",
+      "lastModification": "2023-09-14T05:54:00Z",
+      "availability": {
+        "from": "2023-09-07T07:44:00Z",
+        "to": "2502-10-22T09:44:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-14T04:54:00Z",
+          "to": "2502-10-22T09:44:00Z"
+        }
+      ]
+    },
+    "urlText": "Escalator at Parramatta Station not available between western concourse and platform 4",
+    "url": "https://transportnsw.info/alerts/details#/ems-22010",
+    "content": "The escalator between western concourse and platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
+    "subtitle": "Escalator at Parramatta Station not available between western concourse and platform 4",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "215020:2150414",
+      "smsText": "Escalator at Parramatta Station not available between western concourse and platform 4",
+      "speechText": "The escalator at Parramatta Station between western concourse and platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Richmond Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Rhodes Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "215020",
+          "name": "Parramatta Station, Platform 4",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-21885",
     "version": 4802,
@@ -22659,33 +22909,33 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-22010",
-    "version": 4,
+    "id": "ems-22011",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-09-14T05:54:00Z",
-      "lastModification": "2023-09-14T05:54:00Z",
+      "creation": "2023-09-14T06:01:00Z",
+      "lastModification": "2023-09-14T06:01:00Z",
       "availability": {
-        "from": "2023-09-07T07:44:00Z",
-        "to": "2502-10-22T09:44:00Z"
+        "from": "2023-09-07T07:51:00Z",
+        "to": "2502-10-22T09:51:00Z"
       },
       "validity": [
         {
-          "from": "2023-09-14T04:54:00Z",
-          "to": "2502-10-22T09:44:00Z"
+          "from": "2023-09-14T05:01:00Z",
+          "to": "2502-10-22T09:51:00Z"
         }
       ]
     },
-    "urlText": "Escalator at Parramatta Station not available between western concourse and platform 4",
-    "url": "https://transportnsw.info/alerts/details#/ems-22010",
-    "content": "The escalator between western concourse and platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
-    "subtitle": "Escalator at Parramatta Station not available between western concourse and platform 4",
+    "urlText": "Escalator at Parramatta Station not available between western concourse and platforms 1",
+    "url": "https://transportnsw.info/alerts/details#/ems-22011",
+    "content": "The escalator between western concourse and platforms 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
+    "subtitle": "Escalator at Parramatta Station not available between western concourse and platforms 1",
     "properties": {
       "providerCode": "TfNSW",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "215020:2150414",
-      "smsText": "Escalator at Parramatta Station not available between western concourse and platform 4",
-      "speechText": "The escalator at Parramatta Station between western concourse and platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
+      "stopIDglobalID": "215020:2150411",
+      "smsText": "Escalator at Parramatta Station not available between western concourse and platforms 1",
+      "speechText": "The escalator at Parramatta Station between western concourse and platforms 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -22847,7 +23097,7 @@
       "stops": [
         {
           "id": "215020",
-          "name": "Parramatta Station, Platform 4",
+          "name": "Parramatta Station, Platform 1",
           "type": "stop"
         }
       ]
@@ -23289,202 +23539,6 @@
             "name": "Turrella",
             "type": "locality"
           }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-22011",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-09-14T06:01:00Z",
-      "lastModification": "2023-09-14T06:01:00Z",
-      "availability": {
-        "from": "2023-09-07T07:51:00Z",
-        "to": "2502-10-22T09:51:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-14T05:01:00Z",
-          "to": "2502-10-22T09:51:00Z"
-        }
-      ]
-    },
-    "urlText": "Escalator at Parramatta Station not available between western concourse and platforms 1",
-    "url": "https://transportnsw.info/alerts/details#/ems-22011",
-    "content": "The escalator between western concourse and platforms 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
-    "subtitle": "Escalator at Parramatta Station not available between western concourse and platforms 1",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "215020:2150411",
-      "smsText": "Escalator at Parramatta Station not available between western concourse and platforms 1",
-      "speechText": "The escalator at Parramatta Station between western concourse and platforms 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Lithgow Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Richmond Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Rhodes Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :R:",
-          "destination": {
-            "name": "Penrith Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :H:",
-          "destination": {
-            "name": "Campbelltown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "215020",
-          "name": "Parramatta Station, Platform 1",
-          "type": "stop"
         }
       ]
     }
