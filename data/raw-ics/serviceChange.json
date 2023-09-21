@@ -3253,6 +3253,60 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-22326",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-20T23:16:00Z",
+      "lastModification": "2023-09-20T23:16:00Z",
+      "availability": {
+        "from": "2023-09-20T23:14:00Z",
+        "to": "2023-09-21T11:14:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-20T23:14:00Z",
+          "to": "2023-09-21T11:14:00Z"
+        }
+      ]
+    },
+    "urlText": "CLK624 Melbourne to Sydney XPT service delay.",
+    "url": "https://transportnsw.info/alerts/details#/ems-22326",
+    "content": "<div>CLK624 Melbourne to Sydney XPT is delayed due to the late arrival of the overnight Sydney to Melbourne XPT at Melbourne.</div>",
+    "subtitle": "CLK624 Melbourne to Sydney XPT service delay.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "CLK624 Melbourne to Sydney XPT service delay.",
+      "speechText": "CLK624 Melbourne to Sydney XPT is delayed due to the late arrival of the overnight Sydney to Melbourne XPT at Melbourne.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-21274",
     "version": 830,
     "priority": "normal",
@@ -3306,54 +3360,160 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-22326",
-    "version": 3,
+    "type": "stopInfo",
+    "id": "ems-17685",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-09-20T23:16:00Z",
-      "lastModification": "2023-09-20T23:16:00Z",
+      "creation": "2023-05-30T04:09:00Z",
+      "lastModification": "2023-05-30T04:09:00Z",
       "availability": {
-        "from": "2023-09-20T23:14:00Z",
-        "to": "2023-09-21T11:14:00Z"
+        "from": "2023-05-29T14:00:00Z",
+        "to": "2023-11-13T12:59:00Z"
       },
       "validity": [
         {
-          "from": "2023-09-20T23:14:00Z",
-          "to": "2023-09-21T11:14:00Z"
+          "from": "2023-06-12T14:00:00Z",
+          "to": "2023-11-13T13:00:00Z"
         }
       ]
     },
-    "urlText": "CLK624 Melbourne to Sydney XPT service delay.",
-    "url": "https://transportnsw.info/alerts/details#/ems-22326",
-    "content": "<div>CLK624 Melbourne to Sydney XPT is delayed due to the late arrival of the overnight Sydney to Melbourne XPT at Melbourne.</div>",
-    "subtitle": "CLK624 Melbourne to Sydney XPT service delay.",
+    "urlText": "Double Bay wharf temporary closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-17685",
+    "content": "<div>\n<div>The F7 Double Bay ferry service will not stop at Double Bay Wharf from Tuesday 13 June, while the wharf is upgraded.</div>\n<div>&nbsp;</div>\n<div>The closure will continue for approximately six months until November 2023.</div>\n<div>&nbsp;</div>\n<div>Alternative transport options include nearby buses, trains at Edgecliff Station and ferries from Darling Point Wharf.</div>\n<div>&nbsp;</div>\n</div>",
+    "subtitle": "Double Bay wharf temporary closure",
     "properties": {
       "providerCode": "TfNSW",
-      "smsText": "CLK624 Melbourne to Sydney XPT service delay.",
-      "speechText": "CLK624 Melbourne to Sydney XPT is delayed due to the late arrival of the overnight Sydney to Melbourne XPT at Melbourne.",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "202823",
+      "smsText": "Double Bay wharf temporary closure",
+      "speechText": "The F7 Double Bay ferry service will not stop at Double Bay Wharf from Tuesday 13 June, while the wharf is upgraded.",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76624: :R:",
+          "id": "nsw:090F7: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Double Bay Wharf, Double Bay",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Ferries Network F7 Double Bay",
+          "number": "F7 Double Bay",
+          "description": "Circular Quay to Double Bay",
+          "iconId": 10,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F7: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F7 Double Bay",
+          "number": "F7 Double Bay",
+          "description": "Double Bay to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "202823",
+          "name": "Double Bay Wharf",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95365003:1",
+            "name": "Double Bay",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-22006",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-14T05:15:00Z",
+      "lastModification": "2023-09-14T05:15:00Z",
+      "availability": {
+        "from": "2023-09-13T16:00:00Z",
+        "to": "2023-11-27T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-10-15T15:00:00Z",
+          "to": "2023-11-27T13:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Edmund St, Riverstone bus diversions",
+    "url": "https://transportnsw.info/alerts/details#/ems-22006",
+    "content": "<div>From Monday 16 October to Monday 27 November, route 746 bus services will divert due to roadworks, two stops will be missed.</div>\n<div>&nbsp;</div>\n<div><strong>Closed stops</strong></div>\n<ul>\n<li><strong>Edmund St after Crown St (2765342)</strong></li>\n<li><strong>Edmund St before Crown St (2765341)</strong></li>\n</ul>",
+    "subtitle": "Edmund St, Riverstone bus diversions",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Edmund St, Riverstone bus diversions",
+      "speechText": "From Monday 16 October to Monday 27 November, route 7-4-6 bus services will divert due to roadworks, two stops will be missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:20746: :H:",
+          "destination": {
+            "name": "Riverstone Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 746",
+          "number": "746",
+          "description": "Rouse Hill to Riverstone",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        },
+        {
+          "id": "nsw:20746: :R:",
+          "destination": {
+            "name": "Rouse Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 746",
+          "number": "746",
+          "description": "Riverstone to Rouse Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
           }
         }
       ]
@@ -4605,166 +4765,6 @@
           "operator": {
             "id": "5658",
             "name": "Conroy's Bus Service"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-17685",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-05-30T04:09:00Z",
-      "lastModification": "2023-05-30T04:09:00Z",
-      "availability": {
-        "from": "2023-05-29T14:00:00Z",
-        "to": "2023-11-13T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-06-12T14:00:00Z",
-          "to": "2023-11-13T13:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Double Bay wharf temporary closure",
-    "url": "https://transportnsw.info/alerts/details#/ems-17685",
-    "content": "<div>\n<div>The F7 Double Bay ferry service will not stop at Double Bay Wharf from Tuesday 13 June, while the wharf is upgraded.</div>\n<div>&nbsp;</div>\n<div>The closure will continue for approximately six months until November 2023.</div>\n<div>&nbsp;</div>\n<div>Alternative transport options include nearby buses, trains at Edgecliff Station and ferries from Darling Point Wharf.</div>\n<div>&nbsp;</div>\n</div>",
-    "subtitle": "Double Bay wharf temporary closure",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "202823",
-      "smsText": "Double Bay wharf temporary closure",
-      "speechText": "The F7 Double Bay ferry service will not stop at Double Bay Wharf from Tuesday 13 June, while the wharf is upgraded.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F7: :H:",
-          "destination": {
-            "name": "Double Bay Wharf, Double Bay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F7 Double Bay",
-          "number": "F7 Double Bay",
-          "description": "Circular Quay to Double Bay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F7: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F7 Double Bay",
-          "number": "F7 Double Bay",
-          "description": "Double Bay to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "202823",
-          "name": "Double Bay Wharf",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95365003:1",
-            "name": "Double Bay",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-22006",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-09-14T05:15:00Z",
-      "lastModification": "2023-09-14T05:15:00Z",
-      "availability": {
-        "from": "2023-09-13T16:00:00Z",
-        "to": "2023-11-27T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-10-15T15:00:00Z",
-          "to": "2023-11-27T13:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Edmund St, Riverstone bus diversions",
-    "url": "https://transportnsw.info/alerts/details#/ems-22006",
-    "content": "<div>From Monday 16 October to Monday 27 November, route 746 bus services will divert due to roadworks, two stops will be missed.</div>\n<div>&nbsp;</div>\n<div><strong>Closed stops</strong></div>\n<ul>\n<li><strong>Edmund St after Crown St (2765342)</strong></li>\n<li><strong>Edmund St before Crown St (2765341)</strong></li>\n</ul>",
-    "subtitle": "Edmund St, Riverstone bus diversions",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Edmund St, Riverstone bus diversions",
-      "speechText": "From Monday 16 October to Monday 27 November, route 7-4-6 bus services will divert due to roadworks, two stops will be missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:20746: :H:",
-          "destination": {
-            "name": "Riverstone Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 746",
-          "number": "746",
-          "description": "Rouse Hill to Riverstone",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2433",
-            "name": "Busways Western Sydney"
-          }
-        },
-        {
-          "id": "nsw:20746: :R:",
-          "destination": {
-            "name": "Rouse Hill Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 746",
-          "number": "746",
-          "description": "Riverstone to Rouse Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2433",
-            "name": "Busways Western Sydney"
           }
         }
       ]
@@ -11307,151 +11307,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-15678",
-    "version": 10714502,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-04-06T01:13:00Z",
-      "lastModification": "2023-08-08T01:28:00Z",
-      "availability": {
-        "from": "2023-04-06T01:00:00Z",
-        "to": "2025-04-26T17:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-04-26T17:00:00Z",
-          "to": "2025-04-26T17:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Henry Lawson Drive bus stop relocation",
-    "url": "https://transportnsw.info/alerts/details#/ems-15678",
-    "content": "<div><strong>3am Thursday 27 April 2023 to 3am Sunday 27 April 2025</strong><br />Construction work as part of the Henry Lawson Dr upgrade will result in the following bus stop relocation:&nbsp;</div>\n<ul>\n<li><strong>Milperra Rd after Henry Lawson Dr</strong>&nbsp;(<strong>221443</strong>) <strong>will relocate</strong>. <br />The alternative stop will be <strong>90m east</strong> of its current location for the following services:&nbsp;<br />M90 -Burwood&nbsp;<br />N30 -Town Hall</li>\n</ul>",
-    "subtitle": "Henry Lawson Drive bus stop relocation",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Henry Lawson Drive bus stop relocation",
-      "speechText": "3am Thursday 27 April 2023 to 3am Sunday 27 April 2025\nConstruction work as part of the Henry Lawson Dr upgrade will result in the following bus stop relocation: \nMilperra Rd after Henry Lawson Dr (221443) will relocate. \nThe alternative stop will be 90m east of its current location for the following services: \nM90 -Burwood \nN30 -Town Hall",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:13M90: :R:",
-          "destination": {
-            "name": "Westfield Burwood, Victoria St, Burwood",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network M90",
-          "number": "M90",
-          "description": "Liverpool to Burwood",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13N30: :H:",
-          "destination": {
-            "name": "Macarthur Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N30",
-          "number": "N30",
-          "description": "City Town Hall to Macarthur (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
-      "availability": {
-        "from": "2021-11-19T03:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T03:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "iconId": 12,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          }
-        },
-        {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "iconId": 12,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-21751",
     "version": 59663,
     "priority": "normal",
@@ -11629,6 +11484,151 @@
           "operator": {
             "id": "2507",
             "name": "Busways North West"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-15678",
+    "version": 10714502,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-04-06T01:13:00Z",
+      "lastModification": "2023-08-08T01:28:00Z",
+      "availability": {
+        "from": "2023-04-06T01:00:00Z",
+        "to": "2025-04-26T17:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-04-26T17:00:00Z",
+          "to": "2025-04-26T17:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Henry Lawson Drive bus stop relocation",
+    "url": "https://transportnsw.info/alerts/details#/ems-15678",
+    "content": "<div><strong>3am Thursday 27 April 2023 to 3am Sunday 27 April 2025</strong><br />Construction work as part of the Henry Lawson Dr upgrade will result in the following bus stop relocation:&nbsp;</div>\n<ul>\n<li><strong>Milperra Rd after Henry Lawson Dr</strong>&nbsp;(<strong>221443</strong>) <strong>will relocate</strong>. <br />The alternative stop will be <strong>90m east</strong> of its current location for the following services:&nbsp;<br />M90 -Burwood&nbsp;<br />N30 -Town Hall</li>\n</ul>",
+    "subtitle": "Henry Lawson Drive bus stop relocation",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Henry Lawson Drive bus stop relocation",
+      "speechText": "3am Thursday 27 April 2023 to 3am Sunday 27 April 2025\nConstruction work as part of the Henry Lawson Dr upgrade will result in the following bus stop relocation: \nMilperra Rd after Henry Lawson Dr (221443) will relocate. \nThe alternative stop will be 90m east of its current location for the following services: \nM90 -Burwood \nN30 -Town Hall",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:13M90: :R:",
+          "destination": {
+            "name": "Westfield Burwood, Victoria St, Burwood",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M90",
+          "number": "M90",
+          "description": "Liverpool to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:13N30: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N30",
+          "number": "N30",
+          "description": "City Town Hall to Macarthur (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
+      "availability": {
+        "from": "2021-11-19T03:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T03:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          }
+        },
+        {
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
           }
         }
       ]
@@ -11885,6 +11885,135 @@
           "operator": {
             "id": "2434",
             "name": "Interline Bus Services"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-22278",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-20T05:01:00Z",
+      "lastModification": "2023-09-20T05:01:00Z",
+      "availability": {
+        "from": "2023-09-20T04:00:00Z",
+        "to": "2023-10-16T07:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-10-01T20:00:00Z",
+          "to": "2023-10-02T07:00:00Z"
+        },
+        {
+          "from": "2023-10-02T20:00:00Z",
+          "to": "2023-10-03T07:00:00Z"
+        },
+        {
+          "from": "2023-10-03T20:00:00Z",
+          "to": "2023-10-04T07:00:00Z"
+        },
+        {
+          "from": "2023-10-04T20:00:00Z",
+          "to": "2023-10-05T07:00:00Z"
+        },
+        {
+          "from": "2023-10-05T20:00:00Z",
+          "to": "2023-10-06T07:00:00Z"
+        },
+        {
+          "from": "2023-10-06T20:00:00Z",
+          "to": "2023-10-07T07:00:00Z"
+        },
+        {
+          "from": "2023-10-07T20:00:00Z",
+          "to": "2023-10-08T07:00:00Z"
+        },
+        {
+          "from": "2023-10-08T20:00:00Z",
+          "to": "2023-10-09T07:00:00Z"
+        },
+        {
+          "from": "2023-10-09T20:00:00Z",
+          "to": "2023-10-10T07:00:00Z"
+        },
+        {
+          "from": "2023-10-10T20:00:00Z",
+          "to": "2023-10-11T07:00:00Z"
+        },
+        {
+          "from": "2023-10-11T20:00:00Z",
+          "to": "2023-10-12T07:00:00Z"
+        },
+        {
+          "from": "2023-10-12T20:00:00Z",
+          "to": "2023-10-13T07:00:00Z"
+        },
+        {
+          "from": "2023-10-13T20:00:00Z",
+          "to": "2023-10-14T07:00:00Z"
+        },
+        {
+          "from": "2023-10-14T20:00:00Z",
+          "to": "2023-10-15T07:00:00Z"
+        },
+        {
+          "from": "2023-10-15T20:00:00Z",
+          "to": "2023-10-16T07:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Homer St, Earlwood, temporary bus stop closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-22278",
+    "content": "<div>\n<div><strong>From 7am to 6pm each day from Monday 2 October to Monday 16 October 2023</strong></div>\n<div>&nbsp;</div>\n<div>M6 stage 1 work will result in the bus stop Homer St at Hood Ave (2206121) being closed. A temporary bus stop will be available 90m east, just past Glenwood Ave for the following services:</div>\n<ul>\n<li>412 &ndash; Martin Place</li>\n<li>446 &ndash; Roselands</li>\n</ul>\n</div>",
+    "subtitle": "Homer St, Earlwood, temporary bus stop closure",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Homer St, Earlwood, temporary bus stop closure",
+      "speechText": "From 7am to 6pm each day from Monday 2 October to Monday 16 October 2023 \nM6 stage 1 work will result in the bus stop Homer Street at Hood Avenue being closed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74412: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 412",
+          "number": "412",
+          "description": "Campsie to City Martin Place via Earlwood & Dulwich Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:31446: :H:",
+          "destination": {
+            "name": "Kensington St at Wicks Ln, Kogarah",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 446",
+          "number": "446",
+          "description": "Roselands to St George Hospital",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2510",
+            "name": "U-Go Mobility"
           }
         }
       ]
@@ -12963,135 +13092,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-22278",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-09-20T05:01:00Z",
-      "lastModification": "2023-09-20T05:01:00Z",
-      "availability": {
-        "from": "2023-09-20T04:00:00Z",
-        "to": "2023-10-16T07:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-10-01T20:00:00Z",
-          "to": "2023-10-02T07:00:00Z"
-        },
-        {
-          "from": "2023-10-02T20:00:00Z",
-          "to": "2023-10-03T07:00:00Z"
-        },
-        {
-          "from": "2023-10-03T20:00:00Z",
-          "to": "2023-10-04T07:00:00Z"
-        },
-        {
-          "from": "2023-10-04T20:00:00Z",
-          "to": "2023-10-05T07:00:00Z"
-        },
-        {
-          "from": "2023-10-05T20:00:00Z",
-          "to": "2023-10-06T07:00:00Z"
-        },
-        {
-          "from": "2023-10-06T20:00:00Z",
-          "to": "2023-10-07T07:00:00Z"
-        },
-        {
-          "from": "2023-10-07T20:00:00Z",
-          "to": "2023-10-08T07:00:00Z"
-        },
-        {
-          "from": "2023-10-08T20:00:00Z",
-          "to": "2023-10-09T07:00:00Z"
-        },
-        {
-          "from": "2023-10-09T20:00:00Z",
-          "to": "2023-10-10T07:00:00Z"
-        },
-        {
-          "from": "2023-10-10T20:00:00Z",
-          "to": "2023-10-11T07:00:00Z"
-        },
-        {
-          "from": "2023-10-11T20:00:00Z",
-          "to": "2023-10-12T07:00:00Z"
-        },
-        {
-          "from": "2023-10-12T20:00:00Z",
-          "to": "2023-10-13T07:00:00Z"
-        },
-        {
-          "from": "2023-10-13T20:00:00Z",
-          "to": "2023-10-14T07:00:00Z"
-        },
-        {
-          "from": "2023-10-14T20:00:00Z",
-          "to": "2023-10-15T07:00:00Z"
-        },
-        {
-          "from": "2023-10-15T20:00:00Z",
-          "to": "2023-10-16T07:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Homer St, Earlwood, temporary bus stop closure",
-    "url": "https://transportnsw.info/alerts/details#/ems-22278",
-    "content": "<div>\n<div><strong>From 7am to 6pm each day from Monday 2 October to Monday 16 October 2023</strong></div>\n<div>&nbsp;</div>\n<div>M6 stage 1 work will result in the bus stop Homer St at Hood Ave (2206121) being closed. A temporary bus stop will be available 90m east, just past Glenwood Ave for the following services:</div>\n<ul>\n<li>412 &ndash; Martin Place</li>\n<li>446 &ndash; Roselands</li>\n</ul>\n</div>",
-    "subtitle": "Homer St, Earlwood, temporary bus stop closure",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Homer St, Earlwood, temporary bus stop closure",
-      "speechText": "From 7am to 6pm each day from Monday 2 October to Monday 16 October 2023 \nM6 stage 1 work will result in the bus stop Homer Street at Hood Avenue being closed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74412: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 412",
-          "number": "412",
-          "description": "Campsie to City Martin Place via Earlwood & Dulwich Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:31446: :H:",
-          "destination": {
-            "name": "Kensington St at Wicks Ln, Kogarah",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 446",
-          "number": "446",
-          "description": "Roselands to St George Hospital",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-192",
     "version": 18775876,
     "priority": "veryLow",
@@ -13589,6 +13589,152 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-22338",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-21T02:52:00Z",
+      "lastModification": "2023-09-21T02:52:00Z",
+      "availability": {
+        "from": "2023-09-21T02:52:00Z",
+        "to": "2023-09-21T08:52:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-21T02:52:00Z",
+          "to": "2023-09-21T08:52:00Z"
+        }
+      ]
+    },
+    "urlText": "Train service delays between Moss Vale Station and Melbourne (Southern Cross) Station (VIC)",
+    "url": "https://transportnsw.info/alerts/details#/ems-22338",
+    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Moss Vale Station and Melbourne (Southern Cross) Station (VIC)",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays between Moss Vale Station and Melbourne (Southern Cross) Station (VIC)",
+      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station (VIC)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-22032",
+    "version": 242943,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-15T04:55:00Z",
+      "lastModification": "2023-09-18T00:24:00Z",
+      "availability": {
+        "from": "2023-09-14T15:00:00Z",
+        "to": "2023-11-06T12:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-24T15:00:00Z",
+          "to": "2023-11-06T12:00:00Z"
+        }
+      ]
+    },
+    "urlText": "High St, Hunters Hill bus stop closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-22032",
+    "content": "<div>From Monday 25 September to Monday 6 November, the bus stop High St at Park Rd (211067) will be closed due to roadworks.</div>\n<div>&nbsp;</div>\n<div>Please use the alternative stops at High St opp Farnell St (2110106) or Park Rd before Princess St (211064).</div>",
+    "subtitle": "High St, Hunters Hill bus stop closure",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "High St, Hunters Hill bus stop closure",
+      "speechText": "From Monday 25 September to Monday 6 November, the bus stop High Street at Park Road will be closed due to roadworks.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:27252: :R:",
+          "destination": {
+            "name": "King Street Wharf, King St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 252",
+          "number": "252",
+          "description": "Gladesville to City King Street Wharf via North Sydney",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:27536: :R:",
+          "destination": {
+            "name": "Railway St at Help St, Chatswood",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 536",
+          "number": "536",
+          "description": "Gladesville to Chatswood via Hunters Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:27538: :R:",
+          "destination": {
+            "name": "Woolwich Wharf, Woolwich",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 538",
+          "number": "538",
+          "description": "Gladesville to Woolwich",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-16258",
     "version": 9488408,
@@ -13903,98 +14049,6 @@
             "id": "placeID:95307011:1",
             "name": "Kellyville",
             "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-22032",
-    "version": 242943,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-09-15T04:55:00Z",
-      "lastModification": "2023-09-18T00:24:00Z",
-      "availability": {
-        "from": "2023-09-14T15:00:00Z",
-        "to": "2023-11-06T12:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-24T15:00:00Z",
-          "to": "2023-11-06T12:00:00Z"
-        }
-      ]
-    },
-    "urlText": "High St, Hunters Hill bus stop closure",
-    "url": "https://transportnsw.info/alerts/details#/ems-22032",
-    "content": "<div>From Monday 25 September to Monday 6 November, the bus stop High St at Park Rd (211067) will be closed due to roadworks.</div>\n<div>&nbsp;</div>\n<div>Please use the alternative stops at High St opp Farnell St (2110106) or Park Rd before Princess St (211064).</div>",
-    "subtitle": "High St, Hunters Hill bus stop closure",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "High St, Hunters Hill bus stop closure",
-      "speechText": "From Monday 25 September to Monday 6 November, the bus stop High Street at Park Road will be closed due to roadworks.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:27252: :R:",
-          "destination": {
-            "name": "King Street Wharf, King St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 252",
-          "number": "252",
-          "description": "Gladesville to City King Street Wharf via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:27536: :R:",
-          "destination": {
-            "name": "Railway St at Help St, Chatswood",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 536",
-          "number": "536",
-          "description": "Gladesville to Chatswood via Hunters Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:27538: :R:",
-          "destination": {
-            "name": "Woolwich Wharf, Woolwich",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 538",
-          "number": "538",
-          "description": "Gladesville to Woolwich",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
           }
         }
       ]
@@ -17098,60 +17152,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-22338",
-    "version": 3,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-09-21T02:52:00Z",
-      "lastModification": "2023-09-21T02:52:00Z",
-      "availability": {
-        "from": "2023-09-21T02:52:00Z",
-        "to": "2023-09-21T08:52:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-21T02:52:00Z",
-          "to": "2023-09-21T08:52:00Z"
-        }
-      ]
-    },
-    "urlText": "Train service delays between Moss Vale Station and Melbourne (Southern Cross) Station (VIC)",
-    "url": "https://transportnsw.info/alerts/details#/ems-22338",
-    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Moss Vale Station and Melbourne (Southern Cross) Station (VIC)",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Train service delays between Moss Vale Station and Melbourne (Southern Cross) Station (VIC)",
-      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station (VIC)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "ems-157",
     "version": 46920607,
@@ -17536,60 +17536,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-21980",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-09-13T06:00:00Z",
-      "lastModification": "2023-09-13T06:00:00Z",
-      "availability": {
-        "from": "2023-09-13T05:00:00Z",
-        "to": "2023-09-25T19:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-25T12:00:00Z",
-          "to": "2023-09-25T19:00:00Z"
-        }
-      ]
-    },
-    "urlText": "William St, Earlwood, temporary bus stop closures",
-    "url": "https://transportnsw.info/alerts/details#/ems-21980",
-    "content": "<div>\n<div>From 10pm Monday 25 September to 5am Tuesday 26 September 2023, M6 stage 1 work will result in the following temporary bus stop closures:</div>\n<ul>\n<li>Bus stop William St at Westfield St (220698) will be temporarily closed as a result of M6 Stage 1 construction work. The alternative stop will be William St opp Main St, (220697) for the following service:\n<ul>\n<li>423 &ndash; Martin Place</li>\n</ul>\n</li>\n<li>Bus stop William St opp Westfield St (2206115) will be temporarily closed as a result of M6 Stage 1 construction work. The alternative stop will be William St at Main St, (2206116) for the following services:\n<ul>\n<li>423 &ndash; Kingsgrove</li>\n</ul>\n</li>\n</ul>\n<div>&nbsp;</div>\n</div>",
-    "subtitle": "William St, Earlwood, temporary bus stop closures",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "William St, Earlwood, temporary bus stop closures",
-      "speechText": "From 10 PM Monday 25 September to 5 AM Tuesday 26 September 20 23, M6 stage 1 work will result in temporary bus stop closures:",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74423: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 423",
-          "number": "423",
-          "description": "Kingsgrove to City Martin Place",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-22328",
     "version": 4176,
     "priority": "normal",
@@ -17637,6 +17583,60 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-21980",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-13T06:00:00Z",
+      "lastModification": "2023-09-13T06:00:00Z",
+      "availability": {
+        "from": "2023-09-13T05:00:00Z",
+        "to": "2023-09-25T19:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-25T12:00:00Z",
+          "to": "2023-09-25T19:00:00Z"
+        }
+      ]
+    },
+    "urlText": "William St, Earlwood, temporary bus stop closures",
+    "url": "https://transportnsw.info/alerts/details#/ems-21980",
+    "content": "<div>\n<div>From 10pm Monday 25 September to 5am Tuesday 26 September 2023, M6 stage 1 work will result in the following temporary bus stop closures:</div>\n<ul>\n<li>Bus stop William St at Westfield St (220698) will be temporarily closed as a result of M6 Stage 1 construction work. The alternative stop will be William St opp Main St, (220697) for the following service:\n<ul>\n<li>423 &ndash; Martin Place</li>\n</ul>\n</li>\n<li>Bus stop William St opp Westfield St (2206115) will be temporarily closed as a result of M6 Stage 1 construction work. The alternative stop will be William St at Main St, (2206116) for the following services:\n<ul>\n<li>423 &ndash; Kingsgrove</li>\n</ul>\n</li>\n</ul>\n<div>&nbsp;</div>\n</div>",
+    "subtitle": "William St, Earlwood, temporary bus stop closures",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "William St, Earlwood, temporary bus stop closures",
+      "speechText": "From 10 PM Monday 25 September to 5 AM Tuesday 26 September 20 23, M6 stage 1 work will result in temporary bus stop closures:",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74423: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 423",
+          "number": "423",
+          "description": "Kingsgrove to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
@@ -18033,60 +18033,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-17881",
-    "version": 1546689,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-06-05T09:19:00Z",
-      "lastModification": "2023-06-23T06:57:00Z",
-      "availability": {
-        "from": "2023-06-05T09:17:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-06-05T09:17:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Palm Beach ferry diversion due to navigational restrictions",
-    "url": "https://transportnsw.info/alerts/details#/ems-17881",
-    "content": "<div>Ferries are diverting to Patonga. A free shuttle bus is running between Ettalong and Patonga wharves from 5:30am until 9:30am and from 3:30pm until 6:30pm Monday to Friday, and at different times throughout the weekend. The shuttle bus leaves about 35 minutes before the ferry leaves Patonga Wharf. Please be aware that Patonga Wharf is not wheelchair accessible. Plan ahead. More information can be found <a href=\"https://transportnsw.info/news/2023/shuttle-bus-temporarily-replacing-ettalong-wagstaffe-ferry-services\">here</a>.</div>",
-    "subtitle": "Palm Beach ferry diversion due to navigational restrictions",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Palm Beach ferry diversion due to navigational restrictions",
-      "speechText": "Palm Beach Ferries are diverting to Patonga. A free shuttle bus is running between Ettalong and Patonga wharves from 5:30am until 9:30am and from 3:30pm until 6:30pm Monday to Friday, and at different times throughout the weekend. The shuttle bus leaves about 35 minutes before the ferry leaves Patonga Wharf. Please be aware that Patonga Wharf is not wheelchair accessible. Plan ahead.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "iconId": 12,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-22342",
     "version": 4003,
     "priority": "normal",
@@ -18134,6 +18080,60 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-17881",
+    "version": 1546689,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-06-05T09:19:00Z",
+      "lastModification": "2023-06-23T06:57:00Z",
+      "availability": {
+        "from": "2023-06-05T09:17:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-06-05T09:17:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Palm Beach ferry diversion due to navigational restrictions",
+    "url": "https://transportnsw.info/alerts/details#/ems-17881",
+    "content": "<div>Ferries are diverting to Patonga. A free shuttle bus is running between Ettalong and Patonga wharves from 5:30am until 9:30am and from 3:30pm until 6:30pm Monday to Friday, and at different times throughout the weekend. The shuttle bus leaves about 35 minutes before the ferry leaves Patonga Wharf. Please be aware that Patonga Wharf is not wheelchair accessible. Plan ahead. More information can be found <a href=\"https://transportnsw.info/news/2023/shuttle-bus-temporarily-replacing-ettalong-wagstaffe-ferry-services\">here</a>.</div>",
+    "subtitle": "Palm Beach ferry diversion due to navigational restrictions",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Palm Beach ferry diversion due to navigational restrictions",
+      "speechText": "Palm Beach Ferries are diverting to Patonga. A free shuttle bus is running between Ettalong and Patonga wharves from 5:30am until 9:30am and from 3:30pm until 6:30pm Monday to Friday, and at different times throughout the weekend. The shuttle bus leaves about 35 minutes before the ferry leaves Patonga Wharf. Please be aware that Patonga Wharf is not wheelchair accessible. Plan ahead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
           }
         }
       ]
@@ -21737,6 +21737,100 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-21978",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-09-13T05:52:00Z",
+      "lastModification": "2023-09-13T05:52:00Z",
+      "availability": {
+        "from": "2023-09-13T05:00:00Z",
+        "to": "2023-10-07T02:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-24T21:00:00Z",
+          "to": "2023-09-25T08:00:00Z"
+        },
+        {
+          "from": "2023-09-25T21:00:00Z",
+          "to": "2023-09-26T08:00:00Z"
+        },
+        {
+          "from": "2023-09-26T21:00:00Z",
+          "to": "2023-09-27T08:00:00Z"
+        },
+        {
+          "from": "2023-09-27T21:00:00Z",
+          "to": "2023-09-28T08:00:00Z"
+        },
+        {
+          "from": "2023-09-28T21:00:00Z",
+          "to": "2023-09-29T08:00:00Z"
+        },
+        {
+          "from": "2023-09-29T22:00:00Z",
+          "to": "2023-09-30T03:00:00Z"
+        },
+        {
+          "from": "2023-10-02T20:00:00Z",
+          "to": "2023-10-03T07:00:00Z"
+        },
+        {
+          "from": "2023-10-03T20:00:00Z",
+          "to": "2023-10-04T07:00:00Z"
+        },
+        {
+          "from": "2023-10-04T20:00:00Z",
+          "to": "2023-10-05T07:00:00Z"
+        },
+        {
+          "from": "2023-10-05T20:00:00Z",
+          "to": "2023-10-06T07:00:00Z"
+        },
+        {
+          "from": "2023-10-06T21:00:00Z",
+          "to": "2023-10-07T02:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Solander Dr, St Clair, temporary bus stop closures",
+    "url": "https://transportnsw.info/alerts/details#/ems-21978",
+    "content": "<div>\n<div><strong>7am to 6pm Monday 25 September 2023</strong></div>\n<div><strong>7am to 6pm Tuesday 26 September 2023</strong></div>\n<div><strong>7am to 6pm Wednesday 27 September 2023</strong></div>\n<div><strong>7am to 6pm Thursday 28 September 2023</strong></div>\n<div><strong>7am to 6pm Friday 29 September 2023</strong></div>\n<div><strong>8am to 1pm Saturday 30 September 2023</strong></div>\n<div><strong>7am to 6pm Tuesday 3 October 2023</strong></div>\n<div><strong>7am to 6pm Wednesday 4 October 2023</strong></div>\n<div><strong>7am to 6pm Thursday 5 October 2023</strong></div>\n<div><strong>8am to 1pm Saturday 7 October 2023&nbsp;</strong></div>\n<div>&nbsp;</div>\n<div>Sydney Metro work will result in the following bus stop closures:</div>\n<ul>\n<li>Bus stop Solander Dr After Madison Cct (2759192) will close. A temporary bus stop will be available approximately 100m south of the current stop for the following service:\n<ul>\n<li>776 &ndash; Mount Druitt</li>\n</ul>\n</li>\n<li>Bus stop Solander Dr after Naoli Pl (275986) will close. A temporary bus stop will be available on Solander Dr before Mamre Rd for the following service:\n<ul>\n<li>776 &ndash; Penrith &nbsp;</li>\n</ul>\n</li>\n</ul>\n</div>",
+    "subtitle": "Solander Dr, St Clair, temporary bus stop closures",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Solander Dr, St Clair, temporary bus stop closures",
+      "speechText": "Each day on \nMonday 25 September 2023\nTuesday 26 September 2023\nWednesday 27 September 2023\nThursday 28 September 2023\nFriday 29 September 2023\nSaturday 30 September 2023\nTuesday 3 October 2023\nWednesday 4 October 2023\nThursday 5 October 2023\nSaturday 7 October 2023 \nSydney Metro work will result in the bus stop closures.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:20776: :H:",
+          "destination": {
+            "name": "Mount Druitt Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 776",
+          "number": "776",
+          "description": "Penrith to Mount Druitt via St Clair",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2433",
+            "name": "Busways Western Sydney"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-160",
     "version": 19019037,
     "priority": "veryLow",
@@ -22334,100 +22428,6 @@
           "operator": {
             "id": "306",
             "name": "Manly Fast Ferry"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-21978",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-09-13T05:52:00Z",
-      "lastModification": "2023-09-13T05:52:00Z",
-      "availability": {
-        "from": "2023-09-13T05:00:00Z",
-        "to": "2023-10-07T02:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-24T21:00:00Z",
-          "to": "2023-09-25T08:00:00Z"
-        },
-        {
-          "from": "2023-09-25T21:00:00Z",
-          "to": "2023-09-26T08:00:00Z"
-        },
-        {
-          "from": "2023-09-26T21:00:00Z",
-          "to": "2023-09-27T08:00:00Z"
-        },
-        {
-          "from": "2023-09-27T21:00:00Z",
-          "to": "2023-09-28T08:00:00Z"
-        },
-        {
-          "from": "2023-09-28T21:00:00Z",
-          "to": "2023-09-29T08:00:00Z"
-        },
-        {
-          "from": "2023-09-29T22:00:00Z",
-          "to": "2023-09-30T03:00:00Z"
-        },
-        {
-          "from": "2023-10-02T20:00:00Z",
-          "to": "2023-10-03T07:00:00Z"
-        },
-        {
-          "from": "2023-10-03T20:00:00Z",
-          "to": "2023-10-04T07:00:00Z"
-        },
-        {
-          "from": "2023-10-04T20:00:00Z",
-          "to": "2023-10-05T07:00:00Z"
-        },
-        {
-          "from": "2023-10-05T20:00:00Z",
-          "to": "2023-10-06T07:00:00Z"
-        },
-        {
-          "from": "2023-10-06T21:00:00Z",
-          "to": "2023-10-07T02:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Solander Dr, St Clair, temporary bus stop closures",
-    "url": "https://transportnsw.info/alerts/details#/ems-21978",
-    "content": "<div>\n<div><strong>7am to 6pm Monday 25 September 2023</strong></div>\n<div><strong>7am to 6pm Tuesday 26 September 2023</strong></div>\n<div><strong>7am to 6pm Wednesday 27 September 2023</strong></div>\n<div><strong>7am to 6pm Thursday 28 September 2023</strong></div>\n<div><strong>7am to 6pm Friday 29 September 2023</strong></div>\n<div><strong>8am to 1pm Saturday 30 September 2023</strong></div>\n<div><strong>7am to 6pm Tuesday 3 October 2023</strong></div>\n<div><strong>7am to 6pm Wednesday 4 October 2023</strong></div>\n<div><strong>7am to 6pm Thursday 5 October 2023</strong></div>\n<div><strong>8am to 1pm Saturday 7 October 2023&nbsp;</strong></div>\n<div>&nbsp;</div>\n<div>Sydney Metro work will result in the following bus stop closures:</div>\n<ul>\n<li>Bus stop Solander Dr After Madison Cct (2759192) will close. A temporary bus stop will be available approximately 100m south of the current stop for the following service:\n<ul>\n<li>776 &ndash; Mount Druitt</li>\n</ul>\n</li>\n<li>Bus stop Solander Dr after Naoli Pl (275986) will close. A temporary bus stop will be available on Solander Dr before Mamre Rd for the following service:\n<ul>\n<li>776 &ndash; Penrith &nbsp;</li>\n</ul>\n</li>\n</ul>\n</div>",
-    "subtitle": "Solander Dr, St Clair, temporary bus stop closures",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Solander Dr, St Clair, temporary bus stop closures",
-      "speechText": "Each day on \nMonday 25 September 2023\nTuesday 26 September 2023\nWednesday 27 September 2023\nThursday 28 September 2023\nFriday 29 September 2023\nSaturday 30 September 2023\nTuesday 3 October 2023\nWednesday 4 October 2023\nThursday 5 October 2023\nSaturday 7 October 2023 \nSydney Metro work will result in the bus stop closures.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:20776: :H:",
-          "destination": {
-            "name": "Mount Druitt Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 776",
-          "number": "776",
-          "description": "Penrith to Mount Druitt via St Clair",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2433",
-            "name": "Busways Western Sydney"
           }
         }
       ]
