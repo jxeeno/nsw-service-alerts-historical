@@ -762,32 +762,29 @@
   {
     "type": "stopInfo",
     "id": "ems-22737",
-    "version": 2,
+    "version": 10092,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-10-01T03:36:00Z",
-      "lastModification": "2023-10-01T03:36:00Z",
+      "lastModification": "2023-10-01T06:24:00Z",
       "availability": {
         "from": "2023-09-24T06:26:00Z",
-        "to": "2502-11-08T07:27:00Z"
+        "to": "2023-10-01T06:34:00Z"
       },
       "validity": [
         {
           "from": "2023-10-01T03:36:00Z",
-          "to": "2502-11-08T07:27:00Z"
+          "to": "2023-10-01T06:24:00Z"
         }
       ]
     },
-    "urlText": "Lift at Epping Station not available between the footbridge and Beecroft Road",
+    "urlText": "",
     "url": "https://transportnsw.info/alerts/details#/ems-22737",
-    "content": "The lift between the footbridge and Beecroft Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
-    "subtitle": "Lift at Epping Station not available between the footbridge and Beecroft Road",
+    "subtitle": "",
     "properties": {
       "providerCode": "TfNSW",
       "appliesTo": "departingArriving",
       "stopIDglobalID": "212110",
-      "smsText": "Lift at Epping Station not available between the footbridge and Beecroft Road",
-      "speechText": "The lift at Epping Station between the footbridge and Beecroft Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -1611,6 +1608,73 @@
   },
   {
     "type": "stopInfo",
+    "id": "ems-22042",
+    "version": 549,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2023-09-15T09:32:00Z",
+      "lastModification": "2023-09-15T09:42:00Z",
+      "availability": {
+        "from": "2023-09-15T09:31:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-15T09:31:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "L1 Pyrmont Bay lift is out of service",
+    "url": "https://transportnsw.info/alerts/details#/ems-22042",
+    "content": "<div>Lift 7 at Pyrmont Bay&rsquo;s light rail stop heading towards Dulwich Hill is out of service until further notice. Do not use if the doors open.</div>",
+    "subtitle": "L1 Pyrmont Bay lift is out of service",
+    "properties": {
+      "providerCode": "TfNSW",
+      "stopIDglobalID": "200946",
+      "smsText": "L1 Pyrmont Bay lift is out of service",
+      "speechText": "Lift 7 at Pyrmont Bay’s light rail stop heading towards Dulwich Hill is out of service until further notice. Do not use if the doors open.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill Light Rail",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200946",
+          "name": "Pyrmont Bay Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "ems-20678",
     "version": 3,
     "priority": "normal",
@@ -1896,73 +1960,6 @@
           "id": "200070",
           "name": "Town Hall Station, Platform 5",
           "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-22042",
-    "version": 549,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2023-09-15T09:32:00Z",
-      "lastModification": "2023-09-15T09:42:00Z",
-      "availability": {
-        "from": "2023-09-15T09:31:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-15T09:31:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ]
-    },
-    "urlText": "L1 Pyrmont Bay lift is out of service",
-    "url": "https://transportnsw.info/alerts/details#/ems-22042",
-    "content": "<div>Lift 7 at Pyrmont Bay&rsquo;s light rail stop heading towards Dulwich Hill is out of service until further notice. Do not use if the doors open.</div>",
-    "subtitle": "L1 Pyrmont Bay lift is out of service",
-    "properties": {
-      "providerCode": "TfNSW",
-      "stopIDglobalID": "200946",
-      "smsText": "L1 Pyrmont Bay lift is out of service",
-      "speechText": "Lift 7 at Pyrmont Bay’s light rail stop heading towards Dulwich Hill is out of service until further notice. Do not use if the doors open.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:780L1: :H:",
-          "destination": {
-            "name": "Dulwich Hill Light Rail",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
-          "number": "L1 Dulwich Hill Line",
-          "description": "Central to Dulwich Hill",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "LR",
-            "name": "Sydney Light Rail"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "200946",
-          "name": "Pyrmont Bay Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          }
         }
       ]
     }
