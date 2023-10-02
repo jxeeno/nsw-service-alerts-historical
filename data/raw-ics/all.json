@@ -23499,11 +23499,11 @@
   {
     "type": "lineInfo",
     "id": "ems-22760",
-    "version": 1,
+    "version": 288,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-10-02T05:52:00Z",
-      "lastModification": "2023-10-02T05:52:00Z",
+      "lastModification": "2023-10-02T05:57:00Z",
       "availability": {
         "from": "2023-10-02T05:48:00Z",
         "to": "2023-10-02T06:48:00Z"
@@ -23517,7 +23517,7 @@
     },
     "urlText": "Diversion in Seaforth",
     "url": "https://transportnsw.info/alerts/details#/ems-22760",
-    "content": "<div>Buses are diverting away from part of Frenchs Forest Road in Seaforth due to a car and motorcycle crash.</div>\n<ul>\n<li>Buses are using Judith Street, Manning Street, Bardoo Avenue and Bangaroo Street.</li>\n<li>Seven bus stops are being missed in each direction.</li>\n</ul>",
+    "content": "<div>Buses are diverting away from part of Frenchs Forest Road in Seaforth due to a car and motorcycle crash.</div>\n<ul>\n<li>Route 141 buses are using Judith Street, Manning Street, Bardoo Avenue and Bangaroo Street.</li>\n<li>Route 172x buses are using Baringa Avenue, Fromelles Avenue, Lister Avenue and Clontarf Street.</li>\n<li>Up to seven bus stops are being missed in each direction.</li>\n</ul>",
     "subtitle": "Diversion in Seaforth",
     "properties": {
       "providerCode": "TfNSW",
@@ -23528,6 +23528,25 @@
     },
     "affected": {
       "lines": [
+        {
+          "id": "nsw:37141: :H:",
+          "destination": {
+            "name": "Austlink Narabang Way near Minna Cl, Belrose",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 141",
+          "number": "141",
+          "description": "Manly to Austlink via Seaforth & Frenchs Forest",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2514",
+            "name": "CDC NSW"
+          }
+        },
         {
           "id": "nsw:37141: :R:",
           "destination": {
@@ -23548,22 +23567,41 @@
           }
         },
         {
-          "id": "nsw:37141: :H:",
+          "id": "nsw:29172:X:H:",
           "destination": {
-            "name": "Austlink Narabang Way near Minna Cl, Belrose",
+            "name": "Seaforth Oval, Wakehurst Pkwy, Seaforth",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 141",
-          "number": "141",
-          "description": "Manly to Austlink via Seaforth & Frenchs Forest",
+          "name": "Sydney Buses Network 172X",
+          "number": "172X",
+          "description": "City Wynyard to Warringah Mall via North Balgowlah (Express Service)",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2514",
-            "name": "CDC NSW"
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29172:X:R:",
+          "destination": {
+            "name": "Wynyard Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 172X",
+          "number": "172X",
+          "description": "Warringah Mall to City Wynyard via North Balgowlah (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
           }
         }
       ]
