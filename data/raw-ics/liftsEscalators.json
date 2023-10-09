@@ -205,47 +205,85 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-23048",
+    "id": "ems-23071",
     "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-10-09T04:50:00Z",
-      "lastModification": "2023-10-09T04:50:00Z",
+      "creation": "2023-10-09T19:39:00Z",
+      "lastModification": "2023-10-09T19:40:00Z",
       "availability": {
-        "from": "2023-10-02T07:40:00Z",
-        "to": "2502-11-16T08:41:00Z"
+        "from": "2022-03-05T21:37:00Z",
+        "to": "2502-11-16T11:30:00Z"
       },
       "validity": [
         {
-          "from": "2023-10-09T04:50:00Z",
-          "to": "2502-11-16T08:41:00Z"
+          "from": "2023-10-08T20:39:00Z",
+          "to": "2502-11-16T11:30:00Z"
         }
       ]
     },
-    "urlText": "Lift at Kingswood Station not available between the concourse and platform 2",
-    "url": "https://transportnsw.info/alerts/details#/ems-23048",
-    "content": "The lift between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
-    "subtitle": "Lift at Kingswood Station not available between the concourse and platform 2",
+    "urlText": "Lift at Pymble Station not available between Concourse and Platforms 1 & 2",
+    "url": "https://transportnsw.info/alerts/details#/ems-23071",
+    "content": "The lift between Concourse and Platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8581.",
+    "subtitle": "Lift at Pymble Station not available between Concourse and Platforms 1 & 2",
     "properties": {
       "providerCode": "TfNSW",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "274720:2747362",
-      "smsText": "Lift at Kingswood Station not available between the concourse and platform 2",
-      "speechText": "The lift at Kingswood Station between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
+      "stopIDglobalID": "207310:2073161,2073162",
+      "smsText": "Lift at Pymble Station not available between Concourse and Platforms 1 & 2",
+      "speechText": "The lift at Pymble Station between Concourse and Platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8581.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T1:W:H:",
+          "id": "nsw:02CCN: :H:",
           "destination": {
-            "name": "Richmond Station",
+            "name": "Newcastle Interchange",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -257,14 +295,14 @@
           }
         },
         {
-          "id": "nsw:020T1:W:R:",
+          "id": "nsw:020T9: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Gordon Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -274,12 +312,50 @@
             "id": "x0001",
             "name": "Sydney Trains"
           }
+        },
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
         }
       ],
       "stops": [
         {
-          "id": "274720",
-          "name": "Kingswood Station, Platform 2",
+          "id": "207310",
+          "name": "Pymble Station, Platform 1",
           "type": "stop"
         }
       ]
@@ -438,6 +514,88 @@
         {
           "id": "206910",
           "name": "Roseville Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-23048",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-10-09T04:50:00Z",
+      "lastModification": "2023-10-09T04:50:00Z",
+      "availability": {
+        "from": "2023-10-02T07:40:00Z",
+        "to": "2502-11-16T08:41:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-10-09T04:50:00Z",
+          "to": "2502-11-16T08:41:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Kingswood Station not available between the concourse and platform 2",
+    "url": "https://transportnsw.info/alerts/details#/ems-23048",
+    "content": "The lift between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
+    "subtitle": "Lift at Kingswood Station not available between the concourse and platform 2",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "274720:2747362",
+      "smsText": "Lift at Kingswood Station not available between the concourse and platform 2",
+      "speechText": "The lift at Kingswood Station between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Richmond Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "274720",
+          "name": "Kingswood Station, Platform 2",
           "type": "stop"
         }
       ]
@@ -1146,92 +1304,6 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-22290",
-    "version": 182,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2023-09-20T06:37:00Z",
-      "lastModification": "2023-09-20T06:41:00Z",
-      "availability": {
-        "from": "2023-09-20T06:28:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-20T06:28:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Lifts unavailable at Macquarie University",
-    "url": "https://transportnsw.info/alerts/details#/ems-22290",
-    "content": "<div>The lifts are not operating at Macquarie University.</div>\n<div>* Catch a bus to/from Macquarie Park instead</div>",
-    "subtitle": "Lifts unavailable at Macquarie University",
-    "properties": {
-      "providerCode": "TfNSW",
-      "stopIDglobalID": "211310",
-      "smsText": "Lifts unavailable at Macquarie University",
-      "speechText": "The lifts are not operating at Macquarie University. Catch a bus to/from Macquarie Park instead.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:0300M: :H:",
-          "destination": {
-            "name": "Tallawong Station",
-            "type": "stop"
-          },
-          "name": "Sydney Metro Network M Metro North West Line",
-          "number": "M Metro North West Line",
-          "description": "Chatswood to Tallawong",
-          "iconId": 24,
-          "product": {
-            "class": 2,
-            "iconId": 2
-          },
-          "operator": {
-            "id": "SMNW",
-            "name": "Sydney Metro"
-          }
-        },
-        {
-          "id": "nsw:0300M: :R:",
-          "destination": {
-            "name": "Chatswood Station",
-            "type": "stop"
-          },
-          "name": "Sydney Metro Network M Metro North West Line",
-          "number": "M Metro North West Line",
-          "description": "Tallawong to Chatswood",
-          "iconId": 24,
-          "product": {
-            "class": 2,
-            "iconId": 2
-          },
-          "operator": {
-            "id": "SMNW",
-            "name": "Sydney Metro"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "211310",
-          "name": "Macquarie University Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95352007:1",
-            "name": "Macquarie Park",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
     "id": "ems-22455",
     "version": 3,
     "priority": "normal",
@@ -1384,6 +1456,92 @@
           "id": "220510",
           "name": "Wolli Creek Station",
           "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-22290",
+    "version": 182,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2023-09-20T06:37:00Z",
+      "lastModification": "2023-09-20T06:41:00Z",
+      "availability": {
+        "from": "2023-09-20T06:28:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-20T06:28:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Lifts unavailable at Macquarie University",
+    "url": "https://transportnsw.info/alerts/details#/ems-22290",
+    "content": "<div>The lifts are not operating at Macquarie University.</div>\n<div>* Catch a bus to/from Macquarie Park instead</div>",
+    "subtitle": "Lifts unavailable at Macquarie University",
+    "properties": {
+      "providerCode": "TfNSW",
+      "stopIDglobalID": "211310",
+      "smsText": "Lifts unavailable at Macquarie University",
+      "speechText": "The lifts are not operating at Macquarie University. Catch a bus to/from Macquarie Park instead.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "211310",
+          "name": "Macquarie University Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95352007:1",
+            "name": "Macquarie Park",
+            "type": "locality"
+          }
         }
       ]
     }
