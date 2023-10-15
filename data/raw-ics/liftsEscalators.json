@@ -1,6 +1,52 @@
 [
   {
     "type": "stopInfo",
+    "id": "ems-22476",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2023-09-25T11:46:00Z",
+      "lastModification": "2023-09-25T11:46:00Z",
+      "availability": {
+        "from": "2023-09-25T11:40:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-09-25T11:40:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ]
+    },
+    "urlText": "Leichhardt lift out of service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-22476",
+    "content": "<div>The lift at&nbsp;Leichhardt North light rail stop is out of service. Do not use if the doors open.</div>",
+    "subtitle": "Leichhardt lift out of service.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "stopIDglobalID": "204090",
+      "smsText": "Leichhardt lift out of service.",
+      "speechText": "The lift at Leichhardt North light rail stop is out of service. Do not use if the doors open.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "204090",
+          "name": "Leichhardt North Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95333006:1",
+            "name": "Lilyfield",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "ems-23358",
     "version": 3,
     "priority": "normal",
@@ -153,52 +199,6 @@
           "id": "214810",
           "name": "Blacktown Station",
           "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-22476",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2023-09-25T11:46:00Z",
-      "lastModification": "2023-09-25T11:46:00Z",
-      "availability": {
-        "from": "2023-09-25T11:40:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-09-25T11:40:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ]
-    },
-    "urlText": "Leichhardt lift out of service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-22476",
-    "content": "<div>The lift at&nbsp;Leichhardt North light rail stop is out of service. Do not use if the doors open.</div>",
-    "subtitle": "Leichhardt lift out of service.",
-    "properties": {
-      "providerCode": "TfNSW",
-      "stopIDglobalID": "204090",
-      "smsText": "Leichhardt lift out of service.",
-      "speechText": "The lift at Leichhardt North light rail stop is out of service. Do not use if the doors open.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "204090",
-          "name": "Leichhardt North Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333006:1",
-            "name": "Lilyfield",
-            "type": "locality"
-          }
         }
       ]
     }
@@ -842,6 +842,88 @@
         {
           "id": "276310",
           "name": "Quakers Hill Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-23370",
+    "version": 33,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-10-15T12:23:00Z",
+      "lastModification": "2023-10-15T12:24:00Z",
+      "availability": {
+        "from": "2023-10-08T15:13:00Z",
+        "to": "2502-11-22T16:14:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-10-15T12:23:00Z",
+          "to": "2502-11-22T16:14:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Mascot Station not available between the concourse and platform 1",
+    "url": "https://transportnsw.info/alerts/details#/ems-23370",
+    "content": "The lift between the concourse and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8440.",
+    "subtitle": "Lift at Mascot Station not available between the concourse and platform 1",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "202010:2020111",
+      "smsText": "Lift at Mascot Station not available between the concourse and platform 1",
+      "speechText": "The lift at Mascot Station between the concourse and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8440.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "202010",
+          "name": "Mascot Station, Platform 1",
           "type": "stop"
         }
       ]
