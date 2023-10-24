@@ -16645,11 +16645,11 @@
   {
     "type": "lineInfo",
     "id": "ems-23774",
-    "version": 1,
+    "version": 573,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-10-23T23:50:00Z",
-      "lastModification": "2023-10-23T23:50:00Z",
+      "lastModification": "2023-10-24T00:00:00Z",
       "availability": {
         "from": "2023-10-23T23:47:00Z",
         "to": "2023-10-24T00:47:00Z"
@@ -16663,12 +16663,12 @@
     },
     "urlText": "Services not running between Town Hall and Circular Quay",
     "url": "https://transportnsw.info/alerts/details#/ems-23774",
-    "content": "<div>Services are not running between Town Hall and Circular Quay due to a broken down tram at Town Hall.</div>\n<ul>\n<li>Catch a train instead.</li>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates.</li>\n<li>Services continue to run between Central and Town Hall</li>\n</ul>",
+    "content": "<div>Services are not running between Town Hall and Circular Quay due to a broken down tram at Town Hall.</div>\n<ul>\n<li>Catch a train instead.</li>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates.</li>\n<li>Services continue to run between Town Hall, Randwick and Juniors Kingsford</li>\n</ul>",
     "subtitle": "Services not running between Town Hall and Circular Quay",
     "properties": {
       "providerCode": "TfNSW",
       "smsText": "Services not running between Town Hall and Circular Quay",
-      "speechText": "Services are not running between Town Hall and Circular Quay due to a broken down tram at Town Hall.\nCatch a train instead.\nAllow extra travel time, listen to announcements and check information displays for service updates.\nServices continue to run between Central and Town Hall",
+      "speechText": "Services are not running between Town Hall and Circular Quay due to a broken down tram at Town Hall.\nCatch a train instead.\nAllow extra travel time, listen to announcements and check information displays for service updates.\nServices continue to run between Town Hall, Randwick and Juniors Kingsford",
       "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
@@ -16747,6 +16747,44 @@
           },
           "operator": {
             "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill Light Rail",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L1: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Dulwich Hill to Central",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
             "name": "Sydney Light Rail"
           }
         }
@@ -21311,88 +21349,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-23757",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-10-23T20:57:00Z",
-      "lastModification": "2023-10-23T20:57:00Z",
-      "availability": {
-        "from": "2023-10-16T23:47:00Z",
-        "to": "2502-12-01T00:48:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-10-23T20:57:00Z",
-          "to": "2502-12-01T00:48:00Z"
-        }
-      ]
-    },
-    "urlText": "Lift at Fairy Meadow Station not available between the footbridge and platform 1",
-    "url": "https://transportnsw.info/alerts/details#/ems-23757",
-    "content": "The lift between the footbridge and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5582.",
-    "subtitle": "Lift at Fairy Meadow Station not available between the footbridge and platform 1",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "251910:2519131",
-      "smsText": "Lift at Fairy Meadow Station not available between the footbridge and platform 1",
-      "speechText": "The lift at Fairy Meadow Station between the footbridge and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5582.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "251910",
-          "name": "Fairy Meadow Station, Platform 1",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-23137",
     "version": 693848,
@@ -22894,6 +22850,88 @@
             "id": "x0001",
             "name": "Sydney Trains"
           }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-23757",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-10-23T20:57:00Z",
+      "lastModification": "2023-10-23T20:57:00Z",
+      "availability": {
+        "from": "2023-10-16T23:47:00Z",
+        "to": "2502-12-01T00:48:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-10-23T20:57:00Z",
+          "to": "2502-12-01T00:48:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Fairy Meadow Station not available between the footbridge and platform 1",
+    "url": "https://transportnsw.info/alerts/details#/ems-23757",
+    "content": "The lift between the footbridge and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5582.",
+    "subtitle": "Lift at Fairy Meadow Station not available between the footbridge and platform 1",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "251910:2519131",
+      "smsText": "Lift at Fairy Meadow Station not available between the footbridge and platform 1",
+      "speechText": "The lift at Fairy Meadow Station between the footbridge and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5582.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "251910",
+          "name": "Fairy Meadow Station, Platform 1",
+          "type": "stop"
         }
       ]
     }
