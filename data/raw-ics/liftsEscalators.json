@@ -602,11 +602,11 @@
   {
     "type": "stopInfo",
     "id": "ems-24316",
-    "version": 437,
+    "version": 905,
     "priority": "low",
     "timestamps": {
       "creation": "2023-11-06T22:17:00Z",
-      "lastModification": "2023-11-06T22:24:00Z",
+      "lastModification": "2023-11-06T22:32:00Z",
       "availability": {
         "from": "2023-11-06T20:00:00Z",
         "to": "2023-11-16T06:00:00Z"
@@ -626,16 +626,16 @@
         }
       ]
     },
-    "urlText": "Lift at Banksia Station not available between Underpass, Platform 1 and Railway St\n\n.",
+    "urlText": "Lift 1 and 3 unavailable at Banksia Station",
     "url": "https://transportnsw.info/alerts/details#/ems-24316",
-    "content": "The lift between Underpass, Platform 1 and Railway St is temporarily out of service.\n\n<br/><div>Staff will be available on site to assist anyone with mobility issues, prams or luggage.</div>\n<div>We apologise for any inconvenience.</div>",
-    "subtitle": "Lift at Banksia Station not available between Underpass, Platform 1 and Railway St\n\n.",
+    "content": "<div>Staff will be available on site to assist anyone with mobility issues, prams or luggage.</div>\n<div>We apologise for any inconvenience.</div>",
+    "subtitle": "Lift 1 and 3 unavailable at Banksia Station",
     "properties": {
       "providerCode": "TfNSW",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "221610:2216161",
-      "smsText": "Lift at Banksia Station not available between Underpass, Platform 1 and Railway St\n\n.",
-      "speechText": "The lift at Banksia Station between Underpass, Platform 1 and Railway St is temporarily out of service.\n\n\n\nStaff will be available on site to assist anyone with mobility issues, prams or luggage.\nWe apologise for any inconvenience.",
+      "stopIDglobalID": "221610",
+      "smsText": "Lift 1 and 3 unavailable at Banksia Station",
+      "speechText": "Staff will be available on site to assist anyone with mobility issues, prams or luggage.\nWe apologise for any inconvenience.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -721,8 +721,13 @@
       "stops": [
         {
           "id": "221610",
-          "name": "Banksia Station, Platform 1",
-          "type": "stop"
+          "name": "Banksia Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95351002:1",
+            "name": "Banksia",
+            "type": "locality"
+          }
         }
       ]
     }
@@ -1342,88 +1347,6 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-24312",
-    "version": 5,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-06T19:40:00Z",
-      "lastModification": "2023-11-06T19:41:00Z",
-      "availability": {
-        "from": "2023-10-20T07:24:00Z",
-        "to": "2502-12-04T08:26:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-06T19:40:00Z",
-          "to": "2502-12-04T08:26:00Z"
-        }
-      ]
-    },
-    "urlText": "Lift at Beresfield Station not available between the concourse and Addison Street",
-    "url": "https://transportnsw.info/alerts/details#/ems-24312",
-    "content": "The lift between the concourse and Addison Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9944.",
-    "subtitle": "Lift at Beresfield Station not available between the concourse and Addison Street",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "232230",
-      "smsText": "Lift at Beresfield Station not available between the concourse and Addison Street",
-      "speechText": "The lift at Beresfield Station between the concourse and Addison Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9944.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76HUN: :R:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Telarah to Newcastle Interchange",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76HUN: :H:",
-          "destination": {
-            "name": "Dungog Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Newcastle Interchange to Telarah",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "232230",
-          "name": "Beresfield Station",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
     "id": "ems-24221",
     "version": 5,
     "priority": "normal",
@@ -1575,6 +1498,88 @@
         {
           "id": "214810",
           "name": "Blacktown Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-24312",
+    "version": 5,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-06T19:40:00Z",
+      "lastModification": "2023-11-06T19:41:00Z",
+      "availability": {
+        "from": "2023-10-20T07:24:00Z",
+        "to": "2502-12-04T08:26:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-06T19:40:00Z",
+          "to": "2502-12-04T08:26:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Beresfield Station not available between the concourse and Addison Street",
+    "url": "https://transportnsw.info/alerts/details#/ems-24312",
+    "content": "The lift between the concourse and Addison Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9944.",
+    "subtitle": "Lift at Beresfield Station not available between the concourse and Addison Street",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "232230",
+      "smsText": "Lift at Beresfield Station not available between the concourse and Addison Street",
+      "speechText": "The lift at Beresfield Station between the concourse and Addison Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9944.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :H:",
+          "destination": {
+            "name": "Dungog Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "232230",
+          "name": "Beresfield Station",
           "type": "stop"
         }
       ]

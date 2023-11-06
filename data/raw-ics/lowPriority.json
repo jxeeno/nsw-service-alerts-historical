@@ -294,11 +294,11 @@
   {
     "type": "stopInfo",
     "id": "ems-24316",
-    "version": 437,
+    "version": 905,
     "priority": "low",
     "timestamps": {
       "creation": "2023-11-06T22:17:00Z",
-      "lastModification": "2023-11-06T22:24:00Z",
+      "lastModification": "2023-11-06T22:32:00Z",
       "availability": {
         "from": "2023-11-06T20:00:00Z",
         "to": "2023-11-16T06:00:00Z"
@@ -318,16 +318,16 @@
         }
       ]
     },
-    "urlText": "Lift at Banksia Station not available between Underpass, Platform 1 and Railway St\n\n.",
+    "urlText": "Lift 1 and 3 unavailable at Banksia Station",
     "url": "https://transportnsw.info/alerts/details#/ems-24316",
-    "content": "The lift between Underpass, Platform 1 and Railway St is temporarily out of service.\n\n<br/><div>Staff will be available on site to assist anyone with mobility issues, prams or luggage.</div>\n<div>We apologise for any inconvenience.</div>",
-    "subtitle": "Lift at Banksia Station not available between Underpass, Platform 1 and Railway St\n\n.",
+    "content": "<div>Staff will be available on site to assist anyone with mobility issues, prams or luggage.</div>\n<div>We apologise for any inconvenience.</div>",
+    "subtitle": "Lift 1 and 3 unavailable at Banksia Station",
     "properties": {
       "providerCode": "TfNSW",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "221610:2216161",
-      "smsText": "Lift at Banksia Station not available between Underpass, Platform 1 and Railway St\n\n.",
-      "speechText": "The lift at Banksia Station between Underpass, Platform 1 and Railway St is temporarily out of service.\n\n\n\nStaff will be available on site to assist anyone with mobility issues, prams or luggage.\nWe apologise for any inconvenience.",
+      "stopIDglobalID": "221610",
+      "smsText": "Lift 1 and 3 unavailable at Banksia Station",
+      "speechText": "Staff will be available on site to assist anyone with mobility issues, prams or luggage.\nWe apologise for any inconvenience.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -413,8 +413,13 @@
       "stops": [
         {
           "id": "221610",
-          "name": "Banksia Station, Platform 1",
-          "type": "stop"
+          "name": "Banksia Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95351002:1",
+            "name": "Banksia",
+            "type": "locality"
+          }
         }
       ]
     }
