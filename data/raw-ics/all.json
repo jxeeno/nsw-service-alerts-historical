@@ -5529,6 +5529,93 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-17685",
+    "version": 15119665,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-05-30T04:09:00Z",
+      "lastModification": "2023-11-21T04:04:00Z",
+      "availability": {
+        "from": "2023-05-29T14:00:00Z",
+        "to": "2023-12-08T13:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-06-12T14:00:00Z",
+          "to": "2023-12-08T13:59:00Z"
+        }
+      ]
+    },
+    "urlText": "Double Bay wharf temporary closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-17685",
+    "content": "<div>\n<div>The F7 Double Bay ferry service will not stop at Double Bay Wharf from Tuesday 13 June, while the wharf is upgraded.</div>\n<div>&nbsp;</div>\n<div>The closure will continue for approximately six months.</div>\n<div>&nbsp;</div>\n<div>Alternative transport options include nearby buses, trains at Edgecliff Station and ferries from Darling Point Wharf.</div>\n<div>&nbsp;</div>\n</div>",
+    "subtitle": "Double Bay wharf temporary closure",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "202823",
+      "smsText": "Double Bay wharf temporary closure",
+      "speechText": "The F7 Double Bay ferry service will not stop at Double Bay Wharf from Tuesday 13 June, while the wharf is upgraded.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F7: :H:",
+          "destination": {
+            "name": "Double Bay Wharf, Double Bay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F7 Double Bay",
+          "number": "F7 Double Bay",
+          "description": "Circular Quay to Darling Point",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F7: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F7 Double Bay",
+          "number": "F7 Double Bay",
+          "description": "Darling Point to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "202823",
+          "name": "Double Bay Wharf",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95365003:1",
+            "name": "Double Bay",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "routeInfo",
     "id": "ems-23579",
     "version": 342,
@@ -7564,87 +7651,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-24578",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-14T04:17:00Z",
-      "lastModification": "2023-11-14T04:17:00Z",
-      "availability": {
-        "from": "2023-11-14T04:00:00Z",
-        "to": "2023-11-30T14:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-28T10:45:00Z",
-          "to": "2023-11-28T14:30:00Z"
-        },
-        {
-          "from": "2023-11-29T10:45:00Z",
-          "to": "2023-11-29T14:30:00Z"
-        },
-        {
-          "from": "2023-11-30T10:45:00Z",
-          "to": "2023-11-30T14:30:00Z"
-        }
-      ]
-    },
-    "urlText": "T1 North Shore Line: Buses replace trains between Hornsby and Central",
-    "url": "https://transportnsw.info/alerts/details#/ems-24578",
-    "content": "<div>\n<div><strong>Tuesday 28 to Thursday 30 November</strong></div>\n<ul>\n<li><strong>Nightly from 9.45pm to 1.30am</strong>, buses replace trains between Hornsby and Central.</li>\n<li>Trains run between Berowra and Hornsby, some to a changed timetable.</li>\n<li>T1 Western and T9 Northern Line trains start and end at Central, platforms 1-12.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>12T1 Chatswood, then all stations to Central and return</div>\n<div>15T1 Chatswood, then Artarmon, St Leonards, North Sydney, Wynyard, Town Hall and return</div>\n<div>16T1 Hornsby, then all stations to Chatswood, then Wynyard, Town Hall, Central and return</div>\n</div>",
-    "subtitle": "T1 North Shore Line: Buses replace trains between Hornsby and Central",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "T1 North Shore Line: Buses replace trains between Hornsby and Central",
-      "speechText": "Tuesday 28 to Thursday 30 November Nightly from 9 45 PM to 1 30 AM, buses replace trains between Hornsby and Central.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:N:H:",
-          "destination": {
-            "name": "Berowra Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:N:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-24641",
     "version": 1,
     "priority": "normal",
@@ -8728,86 +8734,54 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-24853",
-    "version": 2,
+    "type": "lineInfo",
+    "id": "ems-24578",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-11-21T01:17:00Z",
-      "lastModification": "2023-11-21T01:18:00Z",
+      "creation": "2023-11-14T04:17:00Z",
+      "lastModification": "2023-11-14T04:17:00Z",
       "availability": {
-        "from": "2023-11-14T04:07:00Z",
-        "to": "2502-12-29T05:07:00Z"
+        "from": "2023-11-14T04:00:00Z",
+        "to": "2023-11-30T14:30:00Z"
       },
       "validity": [
         {
-          "from": "2023-11-21T01:17:00Z",
-          "to": "2502-12-29T05:07:00Z"
+          "from": "2023-11-28T10:45:00Z",
+          "to": "2023-11-28T14:30:00Z"
+        },
+        {
+          "from": "2023-11-29T10:45:00Z",
+          "to": "2023-11-29T14:30:00Z"
+        },
+        {
+          "from": "2023-11-30T10:45:00Z",
+          "to": "2023-11-30T14:30:00Z"
         }
       ]
     },
-    "urlText": "Lift at Oatley Station not available between the footbridge and Oatley Parade",
-    "url": "https://transportnsw.info/alerts/details#/ems-24853",
-    "content": "The lift between the footbridge and Oatley Parade is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1246.",
-    "subtitle": "Lift at Oatley Station not available between the footbridge and Oatley Parade",
+    "urlText": "T1 North Shore Line: Buses replace trains between Hornsby and Central",
+    "url": "https://transportnsw.info/alerts/details#/ems-24578",
+    "content": "<div>\n<div><strong>Tuesday 28 to Thursday 30 November</strong></div>\n<ul>\n<li><strong>Nightly from 9.45pm to 1.30am</strong>, buses replace trains between Hornsby and Central.</li>\n<li>Trains run between Berowra and Hornsby, some to a changed timetable.</li>\n<li>T1 Western and T9 Northern Line trains start and end at Central, platforms 1-12.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>12T1 Chatswood, then all stations to Central and return</div>\n<div>15T1 Chatswood, then Artarmon, St Leonards, North Sydney, Wynyard, Town Hall and return</div>\n<div>16T1 Hornsby, then all stations to Chatswood, then Wynyard, Town Hall, Central and return</div>\n</div>",
+    "subtitle": "T1 North Shore Line: Buses replace trains between Hornsby and Central",
     "properties": {
       "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "222320",
-      "smsText": "Lift at Oatley Station not available between the footbridge and Oatley Parade",
-      "speechText": "The lift at Oatley Station between the footbridge and Oatley Parade is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1246.",
-      "announcementType": "liftsEscalators",
+      "smsText": "T1 North Shore Line: Buses replace trains between Hornsby and Central",
+      "speechText": "Tuesday 28 to Thursday 30 November Nightly from 9 45 PM to 1 30 AM, buses replace trains between Hornsby and Central.",
+      "announcementType": "trackwork",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:02SCO: :H:",
+          "id": "nsw:020T1:N:H:",
           "destination": {
-            "name": "Port Kembla Station",
+            "name": "Berowra Station",
             "type": "stop"
           },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Waterfall or Cronulla to Bondi Junction",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -8819,14 +8793,14 @@
           }
         },
         {
-          "id": "nsw:020T4: :H:",
+          "id": "nsw:020T1:N:R:",
           "destination": {
-            "name": "Cronulla Station",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -8836,13 +8810,6 @@
             "id": "x0001",
             "name": "Sydney Trains"
           }
-        }
-      ],
-      "stops": [
-        {
-          "id": "222320",
-          "name": "Oatley Station",
-          "type": "stop"
         }
       ]
     }
@@ -8935,6 +8902,123 @@
             "id": "2509",
             "name": "Transdev John Holland Buses"
           }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-24853",
+    "version": 10607,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-21T01:17:00Z",
+      "lastModification": "2023-11-21T04:14:00Z",
+      "availability": {
+        "from": "2023-11-14T04:07:00Z",
+        "to": "2023-11-21T04:24:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-21T01:17:00Z",
+          "to": "2023-11-21T04:14:00Z"
+        }
+      ]
+    },
+    "urlText": "",
+    "url": "https://transportnsw.info/alerts/details#/ems-24853",
+    "subtitle": "",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "222320",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "222320",
+          "name": "Oatley Station",
+          "type": "stop"
         }
       ]
     }
@@ -11703,88 +11787,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-24821",
-    "version": 3,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-20T06:19:00Z",
-      "lastModification": "2023-11-20T06:19:00Z",
-      "availability": {
-        "from": "2023-11-19T07:19:00Z",
-        "to": "2502-12-27T22:10:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-19T07:19:00Z",
-          "to": "2502-12-27T22:10:00Z"
-        }
-      ]
-    },
-    "urlText": "Lift at Mount Druitt Station not available between the concourse and the carpark",
-    "url": "https://transportnsw.info/alerts/details#/ems-24821",
-    "content": "The lift between the concourse and the carpark is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
-    "subtitle": "Lift at Mount Druitt Station not available between the concourse and the carpark",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "277010",
-      "smsText": "Lift at Mount Druitt Station not available between the concourse and the carpark",
-      "speechText": "The lift at Mount Druitt Station between the concourse and the carpark is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Emu Plains Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "277010",
-          "name": "Mount Druitt Station",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-24344",
     "version": 1,
@@ -12096,6 +12098,85 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-24821",
+    "version": 78795,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-20T06:19:00Z",
+      "lastModification": "2023-11-21T04:12:00Z",
+      "availability": {
+        "from": "2023-11-19T07:19:00Z",
+        "to": "2023-11-21T04:22:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-19T07:19:00Z",
+          "to": "2023-11-21T04:12:00Z"
+        }
+      ]
+    },
+    "urlText": "",
+    "url": "https://transportnsw.info/alerts/details#/ems-24821",
+    "subtitle": "",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "277010",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "277010",
+          "name": "Mount Druitt Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-24650",
     "version": 1,
@@ -12329,88 +12410,6 @@
             "id": "2510",
             "name": "U-Go Mobility"
           }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-24832",
-    "version": 22,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-20T16:30:00Z",
-      "lastModification": "2023-11-20T16:30:00Z",
-      "availability": {
-        "from": "2023-11-13T19:20:00Z",
-        "to": "2502-12-28T20:21:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-20T16:30:00Z",
-          "to": "2502-12-28T20:21:00Z"
-        }
-      ]
-    },
-    "urlText": "Lift at Kingswood Station not available between the concourse and platform 2",
-    "url": "https://transportnsw.info/alerts/details#/ems-24832",
-    "content": "The lift between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
-    "subtitle": "Lift at Kingswood Station not available between the concourse and platform 2",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "274720:2747362",
-      "smsText": "Lift at Kingswood Station not available between the concourse and platform 2",
-      "speechText": "The lift at Kingswood Station between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Emu Plains Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "274720",
-          "name": "Kingswood Station, Platform 2",
-          "type": "stop"
         }
       ]
     }
@@ -12794,6 +12793,85 @@
             "id": "x0001",
             "name": "Sydney Trains"
           }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-24832",
+    "version": 42060,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-20T16:30:00Z",
+      "lastModification": "2023-11-21T04:11:00Z",
+      "availability": {
+        "from": "2023-11-13T19:20:00Z",
+        "to": "2023-11-21T04:21:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-20T16:30:00Z",
+          "to": "2023-11-21T04:11:00Z"
+        }
+      ]
+    },
+    "urlText": "",
+    "url": "https://transportnsw.info/alerts/details#/ems-24832",
+    "subtitle": "",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "274720:2747362",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "274720",
+          "name": "Kingswood Station, Platform 2",
+          "type": "stop"
         }
       ]
     }
@@ -13524,106 +13602,6 @@
           "operator": {
             "id": "2503",
             "name": "Transit Systems NSW"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-24573",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-14T04:03:00Z",
-      "lastModification": "2023-11-14T04:03:00Z",
-      "availability": {
-        "from": "2023-11-14T03:00:00Z",
-        "to": "2023-11-30T14:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-28T10:40:00Z",
-          "to": "2023-11-28T14:30:00Z"
-        },
-        {
-          "from": "2023-11-29T10:40:00Z",
-          "to": "2023-11-29T14:30:00Z"
-        },
-        {
-          "from": "2023-11-30T10:40:00Z",
-          "to": "2023-11-30T14:30:00Z"
-        }
-      ]
-    },
-    "urlText": "City Circle: Trains run in one direction only, from Central first stop Museum",
-    "url": "https://transportnsw.info/alerts/details#/ems-24573",
-    "content": "<div>\n<div><strong>Tuesday 28 to Thursday 30 November &nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, trains run in one direction only, from Central first stop Museum.</li>\n<li>Some trains may start or end at Central, run to a changed timetable or leave from different platforms.</li>\n<li>You may need to change trains to continue your journey.</li>\n<li>The light rail runs in both directions between Circular Quay, Wynyard, Town Hall and Central.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-    "subtitle": "City Circle: Trains run in one direction only, from Central first stop Museum",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "City Circle: Trains run in one direction only, from Central first stop Museum",
-      "speechText": "Tuesday 28 to Thursday 30 November Nightly from 9 40 PM to 1 30 AM, trains run in one direction only, from Central first stop Museum.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Macarthur Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T8: :H:",
-          "destination": {
-            "name": "Macarthur Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
           }
         }
       ]
@@ -17249,6 +17227,106 @@
           "operator": {
             "id": "2507",
             "name": "Busways North West"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-24573",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-14T04:03:00Z",
+      "lastModification": "2023-11-14T04:03:00Z",
+      "availability": {
+        "from": "2023-11-14T03:00:00Z",
+        "to": "2023-11-30T14:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-28T10:40:00Z",
+          "to": "2023-11-28T14:30:00Z"
+        },
+        {
+          "from": "2023-11-29T10:40:00Z",
+          "to": "2023-11-29T14:30:00Z"
+        },
+        {
+          "from": "2023-11-30T10:40:00Z",
+          "to": "2023-11-30T14:30:00Z"
+        }
+      ]
+    },
+    "urlText": "City Circle: Trains run in one direction only, from Central first stop Museum",
+    "url": "https://transportnsw.info/alerts/details#/ems-24573",
+    "content": "<div>\n<div><strong>Tuesday 28 to Thursday 30 November &nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, trains run in one direction only, from Central first stop Museum.</li>\n<li>Some trains may start or end at Central, run to a changed timetable or leave from different platforms.</li>\n<li>You may need to change trains to continue your journey.</li>\n<li>The light rail runs in both directions between Circular Quay, Wynyard, Town Hall and Central.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+    "subtitle": "City Circle: Trains run in one direction only, from Central first stop Museum",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "City Circle: Trains run in one direction only, from Central first stop Museum",
+      "speechText": "Tuesday 28 to Thursday 30 November Nightly from 9 40 PM to 1 30 AM, trains run in one direction only, from Central first stop Museum.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
@@ -20968,79 +21046,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-24595",
-    "version": 786,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-14T10:10:00Z",
-      "lastModification": "2023-11-14T10:23:00Z",
-      "availability": {
-        "from": "2023-11-14T10:00:00Z",
-        "to": "2023-11-29T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-14T10:00:00Z",
-          "to": "2023-11-29T13:00:00Z"
-        }
-      ]
-    },
-    "urlText": "WN15 Sydney to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
-    "url": "https://transportnsw.info/alerts/details#/ems-24595",
-    "content": "<div>Effective immediately Wednesday's afternoon Sydney to Lithgow WN15 service will depart at 3.05pm, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.</div>",
-    "subtitle": "WN15 Sydney to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "WN15 Sydney to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
-      "speechText": "Effective immediately Wednesday's afternoon Sydney to Lithgow WN15 service will depart at 3.05pm, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Lithgow Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-24571",
     "version": 1,
     "priority": "normal",
@@ -21611,6 +21616,79 @@
           "id": "222020",
           "name": "Allawah Station",
           "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-24595",
+    "version": 786,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-14T10:10:00Z",
+      "lastModification": "2023-11-14T10:23:00Z",
+      "availability": {
+        "from": "2023-11-14T10:00:00Z",
+        "to": "2023-11-29T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-14T10:00:00Z",
+          "to": "2023-11-29T13:00:00Z"
+        }
+      ]
+    },
+    "urlText": "WN15 Sydney to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+    "url": "https://transportnsw.info/alerts/details#/ems-24595",
+    "content": "<div>Effective immediately Wednesday's afternoon Sydney to Lithgow WN15 service will depart at 3.05pm, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.</div>",
+    "subtitle": "WN15 Sydney to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "WN15 Sydney to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+      "speechText": "Effective immediately Wednesday's afternoon Sydney to Lithgow WN15 service will depart at 3.05pm, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
         }
       ]
     }
@@ -22429,79 +22507,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-24597",
-    "version": 661,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-14T10:12:00Z",
-      "lastModification": "2023-11-14T10:23:00Z",
-      "availability": {
-        "from": "2023-11-14T10:00:00Z",
-        "to": "2023-11-29T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-14T10:00:00Z",
-          "to": "2023-11-29T13:00:00Z"
-        }
-      ]
-    },
-    "urlText": "WN16 Bathurst to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
-    "url": "https://transportnsw.info/alerts/details#/ems-24597",
-    "content": "<div>Effective immediately Wednesday's evening Bathurst to Lithgow WN16 service will depart at 7.25pm, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.</div>",
-    "subtitle": "WN16 Bathurst to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "WN16 Bathurst to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
-      "speechText": "Effective immediately Wednesday's evening Bathurst to Lithgow WN16 service will depart at 7.25pm, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Lithgow Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "routeInfo",
     "id": "ems-23577",
     "version": 473,
@@ -22972,6 +22977,79 @@
           "operator": {
             "id": "LR",
             "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-24597",
+    "version": 661,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-14T10:12:00Z",
+      "lastModification": "2023-11-14T10:23:00Z",
+      "availability": {
+        "from": "2023-11-14T10:00:00Z",
+        "to": "2023-11-29T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-14T10:00:00Z",
+          "to": "2023-11-29T13:00:00Z"
+        }
+      ]
+    },
+    "urlText": "WN16 Bathurst to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+    "url": "https://transportnsw.info/alerts/details#/ems-24597",
+    "content": "<div>Effective immediately Wednesday's evening Bathurst to Lithgow WN16 service will depart at 7.25pm, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.</div>",
+    "subtitle": "WN16 Bathurst to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "WN16 Bathurst to Lithgow service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+      "speechText": "Effective immediately Wednesday's evening Bathurst to Lithgow WN16 service will depart at 7.25pm, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
@@ -23709,79 +23787,6 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-24591",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-14T10:03:00Z",
-      "lastModification": "2023-11-14T10:03:00Z",
-      "availability": {
-        "from": "2023-11-14T09:00:00Z",
-        "to": "2023-11-29T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-14T09:00:00Z",
-          "to": "2023-11-29T13:00:00Z"
-        }
-      ]
-    },
-    "urlText": "WN13 Lithgow to Bathurst service alteration for 15th Nov, 22nd Nov, 29th Nov.",
-    "url": "https://transportnsw.info/alerts/details#/ems-24591",
-    "content": "<div>Effective immediately Wednesday's early morning Lithgow to Bathurst service will depart at 5.38am, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.</div>",
-    "subtitle": "WN13 Lithgow to Bathurst service alteration for 15th Nov, 22nd Nov, 29th Nov.",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "WN13 Lithgow to Bathurst service alteration for 15th Nov, 22nd Nov, 29th Nov.",
-      "speechText": "Effective immediately Wednesday's early morning Lithgow to Bathurst service will depart at 5.38am, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Lithgow Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
           }
         }
       ]
@@ -26835,72 +26840,72 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-24626",
-    "version": 65,
+    "id": "ems-24591",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-11-15T01:20:00Z",
-      "lastModification": "2023-11-15T01:21:00Z",
+      "creation": "2023-11-14T10:03:00Z",
+      "lastModification": "2023-11-14T10:03:00Z",
       "availability": {
-        "from": "2023-11-15T01:00:00Z",
-        "to": "2023-11-29T14:30:00Z"
+        "from": "2023-11-14T09:00:00Z",
+        "to": "2023-11-29T12:59:00Z"
       },
       "validity": [
         {
-          "from": "2023-11-29T12:00:00Z",
-          "to": "2023-11-29T14:30:00Z"
+          "from": "2023-11-14T09:00:00Z",
+          "to": "2023-11-29T13:00:00Z"
         }
       ]
     },
-    "urlText": "T2 Inner West Line: Buses replace trains between Strathfield and Ashfield",
-    "url": "https://transportnsw.info/alerts/details#/ems-24626",
-    "content": "<div>\n<div><strong>Wednesday 29 November</strong> &nbsp;</div>\n<ul>\n<li><strong>From 11pm to 1.30am</strong>, buses replace Inner West trains between Strathfield and Ashfield.</li>\n<li>Trains run between Ashfield and the City Circle, some to a changed timetable.</li>\n<li>Leppington trains continue to run but will not stop at Ashfield.</li>\n<li>Most T1 Western Line trains make extra stops at Homebush and Burwood.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus route</strong></div>\n<div>43T2 Strathfield, then all stations to Ashfield and return</div>\n</div>",
-    "subtitle": "T2 Inner West Line: Buses replace trains between Strathfield and Ashfield",
+    "urlText": "WN13 Lithgow to Bathurst service alteration for 15th Nov, 22nd Nov, 29th Nov.",
+    "url": "https://transportnsw.info/alerts/details#/ems-24591",
+    "content": "<div>Effective immediately Wednesday's early morning Lithgow to Bathurst service will depart at 5.38am, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.</div>",
+    "subtitle": "WN13 Lithgow to Bathurst service alteration for 15th Nov, 22nd Nov, 29th Nov.",
     "properties": {
       "providerCode": "TfNSW",
-      "smsText": "T2 Inner West Line: Buses replace trains between Strathfield and Ashfield",
-      "speechText": "Wednesday 29 November From 11 PM to 1 30 AM, buses replace Inner West trains between Strathfield and Ashfield.",
-      "announcementType": "trackwork",
+      "smsText": "WN13 Lithgow to Bathurst service alteration for 15th Nov, 22nd Nov, 29th Nov.",
+      "speechText": "Effective immediately Wednesday's early morning Lithgow to Bathurst service will depart at 5.38am, running earlier than the normal timetable. This change will be in effect until 27 March 2024. Plan ahead.",
+      "announcementType": "serviceChange",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T2: :H:",
+          "id": "nsw:02BMT: :H:",
           "destination": {
-            "name": "Parramatta Station",
+            "name": "Lithgow Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         },
         {
-          "id": "nsw:020T2: :R:",
+          "id": "nsw:02BMT: :R:",
           "destination": {
-            "name": "Olympic Park Station",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
@@ -28277,72 +28282,72 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-24593",
-    "version": 1001,
+    "id": "ems-24626",
+    "version": 65,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-11-14T10:08:00Z",
-      "lastModification": "2023-11-14T10:24:00Z",
+      "creation": "2023-11-15T01:20:00Z",
+      "lastModification": "2023-11-15T01:21:00Z",
       "availability": {
-        "from": "2023-11-14T10:00:00Z",
-        "to": "2023-11-29T12:59:00Z"
+        "from": "2023-11-15T01:00:00Z",
+        "to": "2023-11-29T14:30:00Z"
       },
       "validity": [
         {
-          "from": "2023-11-14T10:00:00Z",
-          "to": "2023-11-29T13:00:00Z"
+          "from": "2023-11-29T12:00:00Z",
+          "to": "2023-11-29T14:30:00Z"
         }
       ]
     },
-    "urlText": "WN14 Bathurst to Sydney service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
-    "url": "https://transportnsw.info/alerts/details#/ems-24593",
-    "content": "<div>Effective immediately Wednesday's Bathurst to Sydney WN14 service will run earlier to into Sydney. Passenger joining from stops within Greater Sydney should check for up-to-date real time. This change will be in effect until 27 March 2024. Plan ahead.</div>",
-    "subtitle": "WN14 Bathurst to Sydney service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+    "urlText": "T2 Inner West Line: Buses replace trains between Strathfield and Ashfield",
+    "url": "https://transportnsw.info/alerts/details#/ems-24626",
+    "content": "<div>\n<div><strong>Wednesday 29 November</strong> &nbsp;</div>\n<ul>\n<li><strong>From 11pm to 1.30am</strong>, buses replace Inner West trains between Strathfield and Ashfield.</li>\n<li>Trains run between Ashfield and the City Circle, some to a changed timetable.</li>\n<li>Leppington trains continue to run but will not stop at Ashfield.</li>\n<li>Most T1 Western Line trains make extra stops at Homebush and Burwood.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus route</strong></div>\n<div>43T2 Strathfield, then all stations to Ashfield and return</div>\n</div>",
+    "subtitle": "T2 Inner West Line: Buses replace trains between Strathfield and Ashfield",
     "properties": {
       "providerCode": "TfNSW",
-      "smsText": "WN14 Bathurst to Sydney service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
-      "speechText": "Effective immediately Wednesday's Bathurst to Sydney WN14 service will run earlier to into Sydney. Passenger joining from stops within Greater Sydney should check for up-to-date real time. This change will be in effect until 27 March 2024. Plan ahead.",
-      "announcementType": "serviceChange",
+      "smsText": "T2 Inner West Line: Buses replace trains between Strathfield and Ashfield",
+      "speechText": "Wednesday 29 November From 11 PM to 1 30 AM, buses replace Inner West trains between Strathfield and Ashfield.",
+      "announcementType": "trackwork",
       "publishToAreas": "1"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:02BMT: :R:",
+          "id": "nsw:020T2: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Parramatta Station",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
         {
-          "id": "nsw:02BMT: :H:",
+          "id": "nsw:020T2: :R:",
           "destination": {
-            "name": "Lithgow Station",
+            "name": "Olympic Park Station",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
@@ -29227,34 +29232,307 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-24350",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-07T03:14:00Z",
+      "lastModification": "2023-11-07T03:14:00Z",
+      "availability": {
+        "from": "2023-11-07T03:00:00Z",
+        "to": "2023-11-26T14:20:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-26T10:55:00Z",
+          "to": "2023-11-26T14:20:00Z"
+        }
+      ]
+    },
+    "urlText": "Buses replace trains between Newcastle Interchange and Telarah",
+    "url": "https://transportnsw.info/alerts/details#/ems-24350",
+    "content": "<div><strong>Sunday 26 November</strong> </div>\n<ul>\n<li><strong>From 9.55pm to 1.20am</strong>, buses replace trains from Newcastle Interchange to Telarah.<br /><br /></li>\n<li><strong>From 11pm to 12.10am</strong>, buses replace trains from Telarah to Newcastle Interchange.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />1HU Telarah, all stations to Newcastle Interchange and return<br />7HU Warabrook Station to University Shuttle</div>",
+    "subtitle": "Buses replace trains between Newcastle Interchange and Telarah",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Buses replace trains between Newcastle Interchange and Telarah",
+      "speechText": "Sunday 26 November\nFrom 9:55PM to 1:20AM, buses replace trains from Newcastle Interchange to Telarah.\nFrom 11PM to 12:10AM, buses replace trains from Telarah to Newcastle Interchange.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :H:",
+          "destination": {
+            "name": "Dungog Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Scone or Dungog to Newcastle",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02HUN: :H:",
+          "destination": {
+            "name": "Telarah Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle to Scone or Dungog",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-24323",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-07T00:58:00Z",
+      "lastModification": "2023-11-07T00:58:00Z",
+      "availability": {
+        "from": "2023-11-06T15:00:00Z",
+        "to": "2023-11-26T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-24T15:00:00Z",
+          "to": "2023-11-26T15:00:00Z"
+        }
+      ]
+    },
+    "urlText": "City Circle: Trackwork may affect how you travel",
+    "url": "https://transportnsw.info/alerts/details#/ems-24323",
+    "content": "<div><strong>Saturday 25 and Sunday 26 November</strong> </div>\n<ul>\n<li>Trains will not run to Museum, St James or Circular Quay.</li>\n<li>T1 North Shore &amp; Western and T9 Northern Line trains continue to run between Central, Town Hall and Wynyard.</li>\n<li>T4 Eastern Suburbs Line trains continue to run between Central, Town Hall, Martin Place and Kings Cross.</li>\n<li>The light rail runs between Central and Circular Quay.</li>\n<li>If you are travelling to:\n<ul>\n<li>Circular Quay, change at Wynyard for the light rail or walk</li>\n<li>Museum or St James, change at Central or Town Hall for local buses or walk</li>\n</ul>\n</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>. </li>\n</ul>",
+    "subtitle": "City Circle: Trackwork may affect how you travel",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "City Circle: Trackwork may affect how you travel",
+      "speechText": "Saturday 25 and Sunday 26 November\nTrains will not run to Museum, St James or Circular Quay.\nT1 North Shore & Western and T9 Northern Line trains continue to run between Central, Town Hall and Wynyard.\nT4 Eastern Suburbs Line trains continue to run between Central, Town Hall, Martin Place and Kings Cross.\nThe light rail runs between Central and Circular Quay.\nIf you are travelling to:Circular Quay, change at Wynyard for the light rail or walk\nMuseum or St James, change at Central or Town Hall for local buses or walk",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Lidcombe Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-24593",
+    "version": 1001,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-14T10:08:00Z",
+      "lastModification": "2023-11-14T10:24:00Z",
+      "availability": {
+        "from": "2023-11-14T10:00:00Z",
+        "to": "2023-11-29T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-14T10:00:00Z",
+          "to": "2023-11-29T13:00:00Z"
+        }
+      ]
+    },
+    "urlText": "WN14 Bathurst to Sydney service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+    "url": "https://transportnsw.info/alerts/details#/ems-24593",
+    "content": "<div>Effective immediately Wednesday's Bathurst to Sydney WN14 service will run earlier to into Sydney. Passenger joining from stops within Greater Sydney should check for up-to-date real time. This change will be in effect until 27 March 2024. Plan ahead.</div>",
+    "subtitle": "WN14 Bathurst to Sydney service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "WN14 Bathurst to Sydney service alteration for Wednesday 15th Nov, 22nd Nov, 29 Nov.",
+      "speechText": "Effective immediately Wednesday's Bathurst to Sydney WN14 service will run earlier to into Sydney. Passenger joining from stops within Greater Sydney should check for up-to-date real time. This change will be in effect until 27 March 2024. Plan ahead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-24816",
-    "version": 3,
+    "version": 85043,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-11-20T04:31:00Z",
-      "lastModification": "2023-11-20T04:31:00Z",
+      "lastModification": "2023-11-21T04:08:00Z",
       "availability": {
         "from": "2023-11-13T07:20:00Z",
-        "to": "2502-12-28T08:21:00Z"
+        "to": "2023-11-21T04:18:00Z"
       },
       "validity": [
         {
           "from": "2023-11-20T04:31:00Z",
-          "to": "2502-12-28T08:21:00Z"
+          "to": "2023-11-21T04:08:00Z"
         }
       ]
     },
-    "urlText": "Lift at Strathfield Station not available between platforms 7/8 and the concourse",
+    "urlText": "",
     "url": "https://transportnsw.info/alerts/details#/ems-24816",
-    "content": "The lift between platforms 7/8 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
-    "subtitle": "Lift at Strathfield Station not available between platforms 7/8 and the concourse",
+    "subtitle": "",
     "properties": {
       "providerCode": "TfNSW",
       "appliesTo": "departingArriving",
       "stopIDglobalID": "213510:2135237,2135238",
-      "smsText": "Lift at Strathfield Station not available between platforms 7/8 and the concourse",
-      "speechText": "The lift at Strathfield Station between platforms 7/8 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1"
     },
@@ -29494,209 +29772,6 @@
           "id": "213510",
           "name": "Strathfield Station, Platform 7",
           "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-24350",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-07T03:14:00Z",
-      "lastModification": "2023-11-07T03:14:00Z",
-      "availability": {
-        "from": "2023-11-07T03:00:00Z",
-        "to": "2023-11-26T14:20:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-26T10:55:00Z",
-          "to": "2023-11-26T14:20:00Z"
-        }
-      ]
-    },
-    "urlText": "Buses replace trains between Newcastle Interchange and Telarah",
-    "url": "https://transportnsw.info/alerts/details#/ems-24350",
-    "content": "<div><strong>Sunday 26 November</strong> </div>\n<ul>\n<li><strong>From 9.55pm to 1.20am</strong>, buses replace trains from Newcastle Interchange to Telarah.<br /><br /></li>\n<li><strong>From 11pm to 12.10am</strong>, buses replace trains from Telarah to Newcastle Interchange.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />1HU Telarah, all stations to Newcastle Interchange and return<br />7HU Warabrook Station to University Shuttle</div>",
-    "subtitle": "Buses replace trains between Newcastle Interchange and Telarah",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Buses replace trains between Newcastle Interchange and Telarah",
-      "speechText": "Sunday 26 November\nFrom 9:55PM to 1:20AM, buses replace trains from Newcastle Interchange to Telarah.\nFrom 11PM to 12:10AM, buses replace trains from Telarah to Newcastle Interchange.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76HUN: :R:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Telarah to Newcastle Interchange",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76HUN: :H:",
-          "destination": {
-            "name": "Dungog Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Newcastle Interchange to Telarah",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:02HUN: :R:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Scone or Dungog to Newcastle",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02HUN: :H:",
-          "destination": {
-            "name": "Telarah Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Newcastle to Scone or Dungog",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-24323",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-07T00:58:00Z",
-      "lastModification": "2023-11-07T00:58:00Z",
-      "availability": {
-        "from": "2023-11-06T15:00:00Z",
-        "to": "2023-11-26T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-24T15:00:00Z",
-          "to": "2023-11-26T15:00:00Z"
-        }
-      ]
-    },
-    "urlText": "City Circle: Trackwork may affect how you travel",
-    "url": "https://transportnsw.info/alerts/details#/ems-24323",
-    "content": "<div><strong>Saturday 25 and Sunday 26 November</strong> </div>\n<ul>\n<li>Trains will not run to Museum, St James or Circular Quay.</li>\n<li>T1 North Shore &amp; Western and T9 Northern Line trains continue to run between Central, Town Hall and Wynyard.</li>\n<li>T4 Eastern Suburbs Line trains continue to run between Central, Town Hall, Martin Place and Kings Cross.</li>\n<li>The light rail runs between Central and Circular Quay.</li>\n<li>If you are travelling to:\n<ul>\n<li>Circular Quay, change at Wynyard for the light rail or walk</li>\n<li>Museum or St James, change at Central or Town Hall for local buses or walk</li>\n</ul>\n</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>. </li>\n</ul>",
-    "subtitle": "City Circle: Trackwork may affect how you travel",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "City Circle: Trackwork may affect how you travel",
-      "speechText": "Saturday 25 and Sunday 26 November\nTrains will not run to Museum, St James or Circular Quay.\nT1 North Shore & Western and T9 Northern Line trains continue to run between Central, Town Hall and Wynyard.\nT4 Eastern Suburbs Line trains continue to run between Central, Town Hall, Martin Place and Kings Cross.\nThe light rail runs between Central and Circular Quay.\nIf you are travelling to:Circular Quay, change at Wynyard for the light rail or walk\nMuseum or St James, change at Central or Town Hall for local buses or walk",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T8: :H:",
-          "destination": {
-            "name": "Leppington Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
         }
       ]
     }
