@@ -1371,11 +1371,11 @@
   {
     "type": "lineInfo",
     "id": "ems-25034",
-    "version": 13,
+    "version": 1161,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-11-24T09:04:00Z",
-      "lastModification": "2023-11-24T09:04:00Z",
+      "lastModification": "2023-11-24T09:23:00Z",
       "availability": {
         "from": "2023-11-24T09:01:00Z",
         "to": "2500-12-31T00:00:00Z"
@@ -1401,14 +1401,14 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:13817: :H:",
+          "id": "nsw:13817: :R:",
           "destination": {
-            "name": "Cabramatta Station",
+            "name": "Fairfield Station",
             "type": "stop"
           },
           "name": "Sydney Buses Network 817",
           "number": "817",
-          "description": "Fairfield to Cabramatta via Edensor Park",
+          "description": "Cabramatta to Fairfield via Edensor Park",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -1420,14 +1420,14 @@
           }
         },
         {
-          "id": "nsw:13817: :R:",
+          "id": "nsw:13817: :H:",
           "destination": {
-            "name": "Fairfield Station",
+            "name": "Cabramatta Station",
             "type": "stop"
           },
           "name": "Sydney Buses Network 817",
           "number": "817",
-          "description": "Cabramatta to Fairfield via Edensor Park",
+          "description": "Fairfield to Cabramatta via Edensor Park",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -10177,60 +10177,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-24977",
-    "version": 17143,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-23T19:54:00Z",
-      "lastModification": "2023-11-24T00:40:00Z",
-      "availability": {
-        "from": "2023-11-23T19:53:00Z",
-        "to": "2023-11-24T09:33:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-23T19:53:00Z",
-          "to": "2023-11-24T09:33:00Z"
-        }
-      ]
-    },
-    "urlText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-24977",
-    "content": "There are delays on route 32 train services due to an earlier customer disturbance. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Brisbane (Roma Street) Station and Central Station",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
-      "speechText": "There are delays on route 32 train services due to an earlier customer disturbance. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-24319",
     "version": 1,
     "priority": "normal",
@@ -10597,93 +10543,6 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "routeInfo",
-    "id": "ems-24990",
-    "version": 655,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-24T01:56:00Z",
-      "lastModification": "2023-11-24T02:07:00Z",
-      "availability": {
-        "from": "2023-11-24T01:00:00Z",
-        "to": "2024-01-05T17:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-12-23T03:30:00Z",
-          "to": "2024-01-05T17:30:00Z"
-        }
-      ]
-    },
-    "urlText": "23rd December to 5th January inclusive- CLK 31 Sydney to Brisbane XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-24990",
-    "content": "<div>Due to planned trackwork, CLK31 Brisbane XPT will terminate at Casino. Customers to board awaiting coaches on Canterbury Street, Casino to travel remainder of the journey.</div>",
-    "subtitle": "23rd December to 5th January inclusive- CLK 31 Sydney to Brisbane XPT service.",
-    "properties": {
-      "providerCode": "TfNSW",
-      "stopIDglobalID": "24701#24741#G40002",
-      "smsText": "23rd December to 5th January inclusive- CLK 31 Sydney to Brisbane XPT service.",
-      "speechText": "Due to planned trackwork, CLK31 Brisbane XPT will terminate at Casino. Customers to board awaiting coaches on Canterbury Street, Casino to travel remainder of the journey.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76031: :H:",
-          "destination": {
-            "name": "Brisbane (Roma Street) Station, Brisbane",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "24701",
-          "name": "Casino Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95935006:1",
-            "name": "Casino",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "24741",
-          "name": "Kyogle Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95933046:1",
-            "name": "Kyogle",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G40002",
-          "name": "Brisbane (Roma Street) Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95401001:95401001",
-            "name": "Queensland",
-            "type": "locality"
           }
         }
       ]
@@ -13174,6 +13033,147 @@
           "operator": {
             "id": "2433",
             "name": "Busways Western Sydney"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-24977",
+    "version": 17143,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-23T19:54:00Z",
+      "lastModification": "2023-11-24T00:40:00Z",
+      "availability": {
+        "from": "2023-11-23T19:53:00Z",
+        "to": "2023-11-24T09:33:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-23T19:53:00Z",
+          "to": "2023-11-24T09:33:00Z"
+        }
+      ]
+    },
+    "urlText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-24977",
+    "content": "There are delays on route 32 train services due to an earlier customer disturbance. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+      "speechText": "There are delays on route 32 train services due to an earlier customer disturbance. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "ems-24990",
+    "version": 655,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-24T01:56:00Z",
+      "lastModification": "2023-11-24T02:07:00Z",
+      "availability": {
+        "from": "2023-11-24T01:00:00Z",
+        "to": "2024-01-05T17:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-12-23T03:30:00Z",
+          "to": "2024-01-05T17:30:00Z"
+        }
+      ]
+    },
+    "urlText": "23rd December to 5th January inclusive- CLK 31 Sydney to Brisbane XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-24990",
+    "content": "<div>Due to planned trackwork, CLK31 Brisbane XPT will terminate at Casino. Customers to board awaiting coaches on Canterbury Street, Casino to travel remainder of the journey.</div>",
+    "subtitle": "23rd December to 5th January inclusive- CLK 31 Sydney to Brisbane XPT service.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "stopIDglobalID": "24701#24741#G40002",
+      "smsText": "23rd December to 5th January inclusive- CLK 31 Sydney to Brisbane XPT service.",
+      "speechText": "Due to planned trackwork, CLK31 Brisbane XPT will terminate at Casino. Customers to board awaiting coaches on Canterbury Street, Casino to travel remainder of the journey.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76031: :H:",
+          "destination": {
+            "name": "Brisbane (Roma Street) Station, Brisbane",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 31",
+          "number": "31",
+          "description": "Central to Brisbane (Roma Street)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "24701",
+          "name": "Casino Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95935006:1",
+            "name": "Casino",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "24741",
+          "name": "Kyogle Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95933046:1",
+            "name": "Kyogle",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G40002",
+          "name": "Brisbane (Roma Street) Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95401001:95401001",
+            "name": "Queensland",
+            "type": "locality"
           }
         }
       ]
@@ -16853,6 +16853,259 @@
   },
   {
     "type": "stopInfo",
+    "id": "ems-24795",
+    "version": 10,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-19T18:35:00Z",
+      "lastModification": "2023-11-19T18:35:00Z",
+      "availability": {
+        "from": "2023-11-12T21:24:00Z",
+        "to": "2502-12-27T22:25:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-19T18:35:00Z",
+          "to": "2502-12-27T22:25:00Z"
+        }
+      ]
+    },
+    "urlText": "Escalator at Wynyard Station not available between York Street and the concourse",
+    "url": "https://transportnsw.info/alerts/details#/ems-24795",
+    "content": "The escalator between York Street and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+    "subtitle": "Escalator at Wynyard Station not available between York Street and the concourse",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "200080",
+      "smsText": "Escalator at Wynyard Station not available between York Street and the concourse",
+      "speechText": "The escalator at Wynyard Station between York Street and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200080",
+          "name": "Wynyard Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "cec018eab0edc00cde6bf2d3b4f96167efba2916",
     "version": 1,
     "priority": "normal",
@@ -18117,259 +18370,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-24795",
-    "version": 10,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-19T18:35:00Z",
-      "lastModification": "2023-11-19T18:35:00Z",
-      "availability": {
-        "from": "2023-11-12T21:24:00Z",
-        "to": "2502-12-27T22:25:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-19T18:35:00Z",
-          "to": "2502-12-27T22:25:00Z"
-        }
-      ]
-    },
-    "urlText": "Escalator at Wynyard Station not available between York Street and the concourse",
-    "url": "https://transportnsw.info/alerts/details#/ems-24795",
-    "content": "The escalator between York Street and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
-    "subtitle": "Escalator at Wynyard Station not available between York Street and the concourse",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "200080",
-      "smsText": "Escalator at Wynyard Station not available between York Street and the concourse",
-      "speechText": "The escalator at Wynyard Station between York Street and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:N:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:N:H:",
-          "destination": {
-            "name": "Berowra Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Macarthur Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :H:",
-          "destination": {
-            "name": "Cronulla Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T8: :H:",
-          "destination": {
-            "name": "Macarthur Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T9: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "Hornsby to North Shore via City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T9: :H:",
-          "destination": {
-            "name": "Gordon Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "North Shore to Hornsby via City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "200080",
-          "name": "Wynyard Station",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-20573",
     "version": 7181333,
@@ -19084,123 +19084,6 @@
   },
   {
     "type": "routeInfo",
-    "id": "ems-24994",
-    "version": 65,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-24T02:07:00Z",
-      "lastModification": "2023-11-24T02:08:00Z",
-      "availability": {
-        "from": "2023-11-24T02:00:00Z",
-        "to": "2024-01-07T04:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-01-07T02:00:00Z",
-          "to": "2024-01-07T04:00:00Z"
-        }
-      ]
-    },
-    "urlText": "7th January- CLK 31 Sydney to Brisbane XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-24994",
-    "content": "<div>Due to planned trackwork, this train service will be replaced by a road coach from Sydney/Central to Broadmeadow. On arrival at Broadmeadow please join awaiting XPT train service for the remainder of the journey.</div>",
-    "subtitle": "7th January- CLK 31 Sydney to Brisbane XPT service.",
-    "properties": {
-      "providerCode": "TfNSW",
-      "stopIDglobalID": "200060#213510#207720#225920#228330#229210",
-      "smsText": "7th January- CLK 31 Sydney to Brisbane XPT service.",
-      "speechText": "Due to planned trackwork, this train service will be replaced by a road coach from Sydney/Central to Broadmeadow. On arrival at Broadmeadow please join awaiting XPT train service for the remainder of the journey.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76031: :H:",
-          "destination": {
-            "name": "Brisbane (Roma Street) Station, Brisbane",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "200060",
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "213510",
-          "name": "Strathfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95356003:1",
-            "name": "Strathfield",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "207720",
-          "name": "Hornsby Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95325020:1",
-            "name": "Hornsby",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "225920",
-          "name": "Wyong Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95367074:1",
-            "name": "Wyong",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "228330",
-          "name": "Fassifern Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95331036:1",
-            "name": "Fassifern",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "229210",
-          "name": "Broadmeadow Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95342007:1",
-            "name": "Broadmeadow",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "routeInfo",
     "id": "ems-24945",
     "version": 172,
     "priority": "normal",
@@ -19380,6 +19263,123 @@
           "parent": {
             "id": "placeID:95397005:1",
             "name": "Orange",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "ems-24994",
+    "version": 65,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-24T02:07:00Z",
+      "lastModification": "2023-11-24T02:08:00Z",
+      "availability": {
+        "from": "2023-11-24T02:00:00Z",
+        "to": "2024-01-07T04:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-01-07T02:00:00Z",
+          "to": "2024-01-07T04:00:00Z"
+        }
+      ]
+    },
+    "urlText": "7th January- CLK 31 Sydney to Brisbane XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-24994",
+    "content": "<div>Due to planned trackwork, this train service will be replaced by a road coach from Sydney/Central to Broadmeadow. On arrival at Broadmeadow please join awaiting XPT train service for the remainder of the journey.</div>",
+    "subtitle": "7th January- CLK 31 Sydney to Brisbane XPT service.",
+    "properties": {
+      "providerCode": "TfNSW",
+      "stopIDglobalID": "200060#213510#207720#225920#228330#229210",
+      "smsText": "7th January- CLK 31 Sydney to Brisbane XPT service.",
+      "speechText": "Due to planned trackwork, this train service will be replaced by a road coach from Sydney/Central to Broadmeadow. On arrival at Broadmeadow please join awaiting XPT train service for the remainder of the journey.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76031: :H:",
+          "destination": {
+            "name": "Brisbane (Roma Street) Station, Brisbane",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 31",
+          "number": "31",
+          "description": "Central to Brisbane (Roma Street)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200060",
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "213510",
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "207720",
+          "name": "Hornsby Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325020:1",
+            "name": "Hornsby",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "225920",
+          "name": "Wyong Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95367074:1",
+            "name": "Wyong",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "228330",
+          "name": "Fassifern Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95331036:1",
+            "name": "Fassifern",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "229210",
+          "name": "Broadmeadow Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95342007:1",
+            "name": "Broadmeadow",
             "type": "locality"
           }
         }
@@ -20040,6 +20040,164 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-24997",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-24T02:17:00Z",
+      "lastModification": "2023-11-24T02:17:00Z",
+      "availability": {
+        "from": "2023-11-17T05:05:00Z",
+        "to": "2503-01-01T06:08:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-24T02:17:00Z",
+          "to": "2503-01-01T06:08:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Blacktown Station not available between platforms 1/2 and the concourse",
+    "url": "https://transportnsw.info/alerts/details#/ems-24997",
+    "content": "The lift between platforms 1/2 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
+    "subtitle": "Lift at Blacktown Station not available between platforms 1/2 and the concourse",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "214810:2148531,2148532",
+      "smsText": "Lift at Blacktown Station not available between platforms 1/2 and the concourse",
+      "speechText": "The lift at Blacktown Station between platforms 1/2 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Richmond Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Liverpool Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "214810",
+          "name": "Blacktown Station, Platform 1",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "d02c107401c835afa17da77d441c61fba67126f4",
     "version": 36305,
@@ -20565,164 +20723,6 @@
             "id": "x0001",
             "name": "Sydney Trains"
           }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-24997",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-24T02:17:00Z",
-      "lastModification": "2023-11-24T02:17:00Z",
-      "availability": {
-        "from": "2023-11-17T05:05:00Z",
-        "to": "2503-01-01T06:08:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-24T02:17:00Z",
-          "to": "2503-01-01T06:08:00Z"
-        }
-      ]
-    },
-    "urlText": "Lift at Blacktown Station not available between platforms 1/2 and the concourse",
-    "url": "https://transportnsw.info/alerts/details#/ems-24997",
-    "content": "The lift between platforms 1/2 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
-    "subtitle": "Lift at Blacktown Station not available between platforms 1/2 and the concourse",
-    "properties": {
-      "providerCode": "TfNSW",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "214810:2148531,2148532",
-      "smsText": "Lift at Blacktown Station not available between platforms 1/2 and the concourse",
-      "speechText": "The lift at Blacktown Station between platforms 1/2 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Lithgow Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Emu Plains Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :H:",
-          "destination": {
-            "name": "Richmond Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :R:",
-          "destination": {
-            "name": "Liverpool Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "214810",
-          "name": "Blacktown Station, Platform 1",
-          "type": "stop"
         }
       ]
     }

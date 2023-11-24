@@ -4643,11 +4643,11 @@
   {
     "type": "lineInfo",
     "id": "ems-25034",
-    "version": 13,
+    "version": 1161,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-11-24T09:04:00Z",
-      "lastModification": "2023-11-24T09:04:00Z",
+      "lastModification": "2023-11-24T09:23:00Z",
       "availability": {
         "from": "2023-11-24T09:01:00Z",
         "to": "2500-12-31T00:00:00Z"
@@ -4673,14 +4673,14 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:13817: :H:",
+          "id": "nsw:13817: :R:",
           "destination": {
-            "name": "Cabramatta Station",
+            "name": "Fairfield Station",
             "type": "stop"
           },
           "name": "Sydney Buses Network 817",
           "number": "817",
-          "description": "Fairfield to Cabramatta via Edensor Park",
+          "description": "Cabramatta to Fairfield via Edensor Park",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -4692,14 +4692,14 @@
           }
         },
         {
-          "id": "nsw:13817: :R:",
+          "id": "nsw:13817: :H:",
           "destination": {
-            "name": "Fairfield Station",
+            "name": "Cabramatta Station",
             "type": "stop"
           },
           "name": "Sydney Buses Network 817",
           "number": "817",
-          "description": "Cabramatta to Fairfield via Edensor Park",
+          "description": "Fairfield to Cabramatta via Edensor Park",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -10828,60 +10828,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-24977",
-    "version": 17143,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2023-11-23T19:54:00Z",
-      "lastModification": "2023-11-24T00:40:00Z",
-      "availability": {
-        "from": "2023-11-23T19:53:00Z",
-        "to": "2023-11-24T09:33:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-11-23T19:53:00Z",
-          "to": "2023-11-24T09:33:00Z"
-        }
-      ]
-    },
-    "urlText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-24977",
-    "content": "There are delays on route 32 train services due to an earlier customer disturbance. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Brisbane (Roma Street) Station and Central Station",
-    "properties": {
-      "providerCode": "TfNSW",
-      "smsText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
-      "speechText": "There are delays on route 32 train services due to an earlier customer disturbance. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-24319",
     "version": 1,
     "priority": "normal",
@@ -14673,6 +14619,60 @@
           "operator": {
             "id": "2433",
             "name": "Busways Western Sydney"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-24977",
+    "version": 17143,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-23T19:54:00Z",
+      "lastModification": "2023-11-24T00:40:00Z",
+      "availability": {
+        "from": "2023-11-23T19:53:00Z",
+        "to": "2023-11-24T09:33:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-23T19:53:00Z",
+          "to": "2023-11-24T09:33:00Z"
+        }
+      ]
+    },
+    "urlText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-24977",
+    "content": "There are delays on route 32 train services due to an earlier customer disturbance. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+      "speechText": "There are delays on route 32 train services due to an earlier customer disturbance. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
