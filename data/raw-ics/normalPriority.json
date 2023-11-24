@@ -8832,6 +8832,107 @@
   },
   {
     "type": "stopInfo",
+    "id": "ems-25033",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-24T08:14:00Z",
+      "lastModification": "2023-11-24T08:14:00Z",
+      "availability": {
+        "from": "2023-11-17T11:04:00Z",
+        "to": "2503-01-01T12:05:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-24T08:14:00Z",
+          "to": "2503-01-01T12:05:00Z"
+        }
+      ]
+    },
+    "urlText": "Lift at Kogarah Station not available between the concourse and Station Street",
+    "url": "https://transportnsw.info/alerts/details#/ems-25033",
+    "content": "The lift between the concourse and Station Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7273.",
+    "subtitle": "Lift at Kogarah Station not available between the concourse and Station Street",
+    "properties": {
+      "providerCode": "TfNSW",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "221710",
+      "smsText": "Lift at Kogarah Station not available between the concourse and Station Street",
+      "speechText": "The lift at Kogarah Station between the concourse and Station Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7273.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "221710",
+          "name": "Kogarah Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "ems-24940",
     "version": 3,
     "priority": "normal",
@@ -10351,6 +10452,60 @@
           "operator": {
             "id": "2502",
             "name": "Transit Systems NSW SW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-25032",
+    "version": 7,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-11-24T08:11:00Z",
+      "lastModification": "2023-11-24T08:11:00Z",
+      "availability": {
+        "from": "2023-11-24T08:10:00Z",
+        "to": "2023-11-24T09:10:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-11-24T08:10:00Z",
+          "to": "2023-11-24T09:10:00Z"
+        }
+      ]
+    },
+    "urlText": "Coach service delays at Burren Junction Coach Stop",
+    "url": "https://transportnsw.info/alerts/details#/ems-25032",
+    "content": "There are delays on route 336 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at Burren Junction Coach Stop",
+    "properties": {
+      "providerCode": "TfNSW",
+      "smsText": "Coach service delays at Burren Junction Coach Stop",
+      "speechText": "There are delays on route 336 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76336: :R:",
+          "destination": {
+            "name": "Narrabri Station, Narrabri",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 336",
+          "number": "336",
+          "description": "Burren Junction to Narrabri",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
