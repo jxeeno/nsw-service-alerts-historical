@@ -1235,39 +1235,77 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-25940",
-    "version": 4,
+    "id": "ems-25952",
+    "version": 6,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-12-14T06:34:00Z",
-      "lastModification": "2023-12-14T06:34:00Z",
+      "creation": "2023-12-14T08:23:00Z",
+      "lastModification": "2023-12-14T08:23:00Z",
       "availability": {
-        "from": "2023-12-07T09:24:00Z",
-        "to": "2503-01-21T10:25:00Z"
+        "from": "2023-12-07T11:12:00Z",
+        "to": "2503-01-21T12:13:00Z"
       },
       "validity": [
         {
-          "from": "2023-12-14T06:34:00Z",
-          "to": "2503-01-21T10:25:00Z"
+          "from": "2023-12-14T08:23:00Z",
+          "to": "2503-01-21T12:13:00Z"
         }
       ],
-      "expiration": "2503-01-21T10:25:59Z"
+      "expiration": "2503-01-21T12:13:59Z"
     },
-    "urlText": "Lift at North Wollongong Station not available between platform 2, the concourse and street level",
-    "url": "https://transportnsw.info/alerts/details#/ems-25940",
-    "content": "The lift between platform 2, the concourse and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5583.",
-    "subtitle": "Lift at North Wollongong Station not available between platform 2, the concourse and street level",
+    "urlText": "Lift at Town Hall Station not available between George Street and the concourse",
+    "url": "https://transportnsw.info/alerts/details#/ems-25952",
+    "content": "The lift between George Street and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+    "subtitle": "Lift at Town Hall Station not available between George Street and the concourse",
     "properties": {
-      "smsText": "Lift at North Wollongong Station not available between platform 2, the concourse and street level",
-      "speechText": "The lift at North Wollongong Station between platform 2, the concourse and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5583.",
+      "smsText": "Lift at Town Hall Station not available between George Street and the concourse",
+      "speechText": "The lift at Town Hall Station between George Street and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "250010:2500392",
+      "stopIDglobalID": "200070",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
         {
           "id": "nsw:02SCO: :R:",
           "destination": {
@@ -1305,13 +1343,184 @@
             "id": "X0000",
             "name": "NSW Trains"
           }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
         }
       ],
       "stops": [
         {
-          "id": "250010",
+          "id": "200070",
           "isGlobalId": true,
-          "name": "North Wollongong Station, Platform 2",
+          "name": "Town Hall Station",
           "type": "stop"
         }
       ]
