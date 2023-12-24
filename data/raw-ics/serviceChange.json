@@ -7238,11 +7238,11 @@
   {
     "type": "lineInfo",
     "id": "ems-26513",
-    "version": 1,
+    "version": 788,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-12-24T07:10:00Z",
-      "lastModification": "2023-12-24T07:10:00Z",
+      "lastModification": "2023-12-24T07:23:00Z",
       "availability": {
         "from": "2023-12-24T06:59:00Z",
         "to": "2023-12-24T09:59:00Z"
@@ -7257,11 +7257,11 @@
     },
     "urlText": "Light Rail services terminating early.",
     "url": "https://transportnsw.info/alerts/details#/ems-26513",
-    "content": "<div>Services are not running between Royal Randwick Racecourse and Randwick, as well as between Moore Park and Juniors Kingsford due to flooding.</div>\n<ul>\n<li>Catch a train instead where available.</li>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates.</li>\n</ul>",
+    "content": "<div>Services are not running between Moore Park and Juniors Kingsford due to flooding.</div>\n<ul>\n<li>Catch a train instead where available.</li>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates.</li>\n</ul>",
     "subtitle": "Light Rail services terminating early.",
     "properties": {
       "smsText": "Light Rail services terminating early.",
-      "speechText": "L2 services are not running between Royal Randwick Racecourse and Randwick, and L3 services are not running between Moore Park and Juniors Kingsford due to flooding. Catch a train where available. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "L3 services are not running between Moore Park and Juniors Kingsford due to flooding. Catch a train where available. Allow extra travel time, listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -15642,6 +15642,61 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-26517",
+    "version": 335,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-12-24T07:12:00Z",
+      "lastModification": "2023-12-24T07:18:00Z",
+      "availability": {
+        "from": "2023-12-24T06:52:00Z",
+        "to": "2023-12-24T21:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-12-24T06:52:00Z",
+          "to": "2023-12-24T21:00:00Z"
+        }
+      ],
+      "expiration": "2023-12-24T21:00:59Z"
+    },
+    "urlText": "CLK34 Casino to Sydney XPT Alteration and Delay",
+    "url": "https://transportnsw.info/alerts/details#/ems-26517",
+    "content": "<div>Due to the late running day service, passengers will travel by road coach from Casino to Grafton. At Grafton passengers will transfer to the XPT train for the remainder of their journey.&nbsp;</div>",
+    "subtitle": "CLK34 Casino to Sydney XPT Alteration and Delay",
+    "properties": {
+      "smsText": "CLK34 Casino to Sydney XPT Alteration and Delay",
+      "speechText": "Due to the late running day service, passengers will travel by road coach from Casino to Grafton. At Grafton passengers will transfer to the XPT train for the remainder of their journey.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-25901",
     "version": 1,
@@ -20819,6 +20874,61 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-26515",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-12-24T07:15:00Z",
+      "lastModification": "2023-12-24T07:15:00Z",
+      "availability": {
+        "from": "2023-12-24T07:11:00Z",
+        "to": "2023-12-24T10:11:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-12-24T07:11:00Z",
+          "to": "2023-12-24T10:11:00Z"
+        }
+      ],
+      "expiration": "2023-12-24T10:11:59Z"
+    },
+    "urlText": "Diversions in Mascot.",
+    "url": "https://transportnsw.info/alerts/details#/ems-26515",
+    "content": "<div>Buses are terminating services early due to flooding on O'Riordan Street between Robey Street and Joyce Drive. Catch a train between Domestic Station and Mascot Station as an alternative.</div>",
+    "subtitle": "Diversions in Mascot.",
+    "properties": {
+      "smsText": "Diversions in Mascot.",
+      "speechText": "In Mascot buses are terminating services early due to flooding on O'Riordan Street between Robey Street and Joyce Drive. Catch a train between Domestic Station and Mascot Station as an alternative.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74420: :H:",
+          "destination": {
+            "name": "Mascot Station, Coward St, Stand B, Mascot",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 420",
+          "number": "420",
+          "description": "Burwood to Mascot Station",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
