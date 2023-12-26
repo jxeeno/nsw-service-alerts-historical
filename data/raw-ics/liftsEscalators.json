@@ -207,48 +207,67 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-26553",
-    "version": 3,
+    "id": "ems-26585",
+    "version": 4,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-12-25T04:02:00Z",
-      "lastModification": "2023-12-25T04:02:00Z",
+      "creation": "2023-12-26T04:31:00Z",
+      "lastModification": "2023-12-26T04:31:00Z",
       "availability": {
-        "from": "2023-04-09T15:22:00Z",
-        "to": "2503-01-31T19:52:00Z"
+        "from": "2022-04-03T17:45:00Z",
+        "to": "2503-02-01T20:21:00Z"
       },
       "validity": [
         {
-          "from": "2023-12-24T05:02:00Z",
-          "to": "2503-01-31T19:52:00Z"
+          "from": "2023-12-25T05:31:00Z",
+          "to": "2503-02-01T20:21:00Z"
         }
       ],
-      "expiration": "2503-01-31T19:52:59Z"
+      "expiration": "2503-02-01T20:21:59Z"
     },
-    "urlText": "Lift at Wollstonecraft Station not available between the concourse to platform 1",
-    "url": "https://transportnsw.info/alerts/details#/ems-26553",
-    "content": "The lift between the concourse to platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183.",
-    "subtitle": "Lift at Wollstonecraft Station not available between the concourse to platform 1",
+    "urlText": "Lift at Strathfield Station not available between the concourse and Everton Road",
+    "url": "https://transportnsw.info/alerts/details#/ems-26585",
+    "content": "The lift between the concourse and Everton Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
+    "subtitle": "Lift at Strathfield Station not available between the concourse and Everton Road",
     "properties": {
-      "smsText": "Lift at Wollstonecraft Station not available between the concourse to platform 1",
-      "speechText": "The lift at Wollstonecraft Station between the concourse to platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183.",
+      "smsText": "Lift at Strathfield Station not available between the concourse and Everton Road",
+      "speechText": "The lift at Strathfield Station between the concourse and Everton Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "206510:2065161",
+      "stopIDglobalID": "213510",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:02CCN: :R:",
+          "id": "nsw:02BMT: :R:",
           "destination": {
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
           "iconId": 2,
           "product": {
             "class": 1,
@@ -279,14 +298,33 @@
           }
         },
         {
-          "id": "nsw:020T1:N:R:",
+          "id": "nsw:02CCN: :R:",
           "destination": {
             "name": "Central Station",
             "type": "stop"
           },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
           "name": "Sydney Trains Network T1 North Shore & Western Line",
           "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
+          "description": "Emu Plains or Richmond to City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -298,14 +336,90 @@
           }
         },
         {
-          "id": "nsw:020T1:N:H:",
+          "id": "nsw:020T1:W:H:",
           "destination": {
-            "name": "Berowra Station",
+            "name": "Emu Plains Station",
             "type": "stop"
           },
           "name": "Sydney Trains Network T1 North Shore & Western Line",
           "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T7: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Olympic Park to Lidcombe",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T7: :H:",
+          "destination": {
+            "name": "Lidcombe Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Lidcombe to Olympic Park",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -357,9 +471,9 @@
       ],
       "stops": [
         {
-          "id": "206510",
+          "id": "213510",
           "isGlobalId": true,
-          "name": "Wollstonecraft Station, Platform 1",
+          "name": "Strathfield Station",
           "type": "stop"
         }
       ]
@@ -367,77 +481,207 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-26552",
-    "version": 1,
+    "id": "ems-26603",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2023-12-25T04:01:00Z",
-      "lastModification": "2023-12-25T04:01:00Z",
+      "creation": "2023-12-26T19:50:00Z",
+      "lastModification": "2023-12-26T19:50:00Z",
       "availability": {
-        "from": "2023-12-18T06:51:00Z",
-        "to": "2503-02-01T07:52:00Z"
+        "from": "2023-12-09T07:34:00Z",
+        "to": "2503-01-23T08:36:00Z"
       },
       "validity": [
         {
-          "from": "2023-12-25T04:01:00Z",
-          "to": "2503-02-01T07:52:00Z"
+          "from": "2023-12-26T19:50:00Z",
+          "to": "2503-01-23T08:36:00Z"
         }
       ],
-      "expiration": "2503-02-01T07:52:59Z"
+      "expiration": "2503-01-23T08:36:59Z"
     },
-    "urlText": "Lift at Blacktown Station not available between the concourse and platforms 6/7",
-    "url": "https://transportnsw.info/alerts/details#/ems-26552",
-    "content": "The lift between the concourse and platforms 6/7 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
-    "subtitle": "Lift at Blacktown Station not available between the concourse and platforms 6/7",
+    "urlText": "Lift at Beresfield Station not available between the concourse and Addison Street",
+    "url": "https://transportnsw.info/alerts/details#/ems-26603",
+    "content": "The lift between the concourse and Addison Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9944.",
+    "subtitle": "Lift at Beresfield Station not available between the concourse and Addison Street",
     "properties": {
-      "smsText": "Lift at Blacktown Station not available between the concourse and platforms 6/7",
-      "speechText": "The lift at Blacktown Station between the concourse and platforms 6/7 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
+      "smsText": "Lift at Beresfield Station not available between the concourse and Addison Street",
+      "speechText": "The lift at Beresfield Station between the concourse and Addison Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9944.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "214810:2148536,2148537",
+      "stopIDglobalID": "232230",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:02BMT: :R:",
+          "id": "nsw:76HUN: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Newcastle Interchange",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
           "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
+            "id": "X000",
+            "name": "Intercity Train"
           }
         },
         {
-          "id": "nsw:02BMT: :H:",
+          "id": "nsw:76HUN: :H:",
           "destination": {
-            "name": "Lithgow Station",
+            "name": "Dungog Station",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
           "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "232230",
+          "isGlobalId": true,
+          "name": "Beresfield Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-26602",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-12-26T19:44:00Z",
+      "lastModification": "2023-12-26T19:44:00Z",
+      "availability": {
+        "from": "2023-12-19T22:33:00Z",
+        "to": "2503-02-02T23:34:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-12-26T19:44:00Z",
+          "to": "2503-02-02T23:34:00Z"
+        }
+      ],
+      "expiration": "2503-02-02T23:34:59Z"
+    },
+    "urlText": "Lift at St Marys Station not available between the concourse and Queen Street",
+    "url": "https://transportnsw.info/alerts/details#/ems-26602",
+    "content": "The lift between the concourse and Queen Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525.",
+    "subtitle": "Lift at St Marys Station not available between the concourse and Queen Street",
+    "properties": {
+      "smsText": "Lift at St Marys Station not available between the concourse and Queen Street",
+      "speechText": "The lift at St Marys Station between the concourse and Queen Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "276010",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "276010",
+          "isGlobalId": true,
+          "name": "St Marys Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-26601",
+    "version": 4,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-12-26T19:23:00Z",
+      "lastModification": "2023-12-26T19:24:00Z",
+      "availability": {
+        "from": "2023-12-19T22:13:00Z",
+        "to": "2503-02-02T23:14:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-12-26T19:23:00Z",
+          "to": "2503-02-02T23:14:00Z"
+        }
+      ],
+      "expiration": "2503-02-02T23:14:59Z"
+    },
+    "urlText": "Lift at Marayong Station not available between the concourse and Railway Parade",
+    "url": "https://transportnsw.info/alerts/details#/ems-26601",
+    "content": "The lift between the concourse and Railway Parade is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241.",
+    "subtitle": "Lift at Marayong Station not available between the concourse and Railway Parade",
+    "properties": {
+      "smsText": "Lift at Marayong Station not available between the concourse and Railway Parade",
+      "speechText": "The lift at Marayong Station between the concourse and Railway Parade is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "214820",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
         {
           "id": "nsw:020T1:W:R:",
           "destination": {
@@ -517,9 +761,93 @@
       ],
       "stops": [
         {
-          "id": "214810",
+          "id": "214820",
           "isGlobalId": true,
-          "name": "Blacktown Station, Platform 6",
+          "name": "Marayong Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-26600",
+    "version": 169,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-12-26T18:39:00Z",
+      "lastModification": "2023-12-26T18:42:00Z",
+      "availability": {
+        "from": "2023-12-19T21:29:00Z",
+        "to": "2503-02-02T22:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-12-26T18:39:00Z",
+          "to": "2503-02-02T22:30:00Z"
+        }
+      ],
+      "expiration": "2503-02-02T22:30:59Z"
+    },
+    "urlText": "Lift at Leura Station not available between the concourse and platforms 1 & 2",
+    "url": "https://transportnsw.info/alerts/details#/ems-26600",
+    "content": "The lift between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3933.",
+    "subtitle": "Lift at Leura Station not available between the concourse and platforms 1 & 2",
+    "properties": {
+      "smsText": "Lift at Leura Station not available between the concourse and platforms 1 & 2",
+      "speechText": "The lift at Leura Station between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3933.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "278010:2780211,2780212",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "278010",
+          "isGlobalId": true,
+          "name": "Leura Station, Platform 1",
           "type": "stop"
         }
       ]
@@ -726,6 +1054,166 @@
           "id": "251610",
           "isGlobalId": true,
           "name": "Bulli Station, Platform 1",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-26581",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2023-12-26T00:12:00Z",
+      "lastModification": "2023-12-26T00:12:00Z",
+      "availability": {
+        "from": "2023-12-19T03:02:00Z",
+        "to": "2503-02-02T04:03:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-12-26T00:12:00Z",
+          "to": "2503-02-02T04:03:00Z"
+        }
+      ],
+      "expiration": "2503-02-02T04:03:59Z"
+    },
+    "urlText": "Lift at Museum Station not available between the concourse and Liverpool",
+    "url": "https://transportnsw.info/alerts/details#/ems-26581",
+    "content": "The lift between the concourse and Liverpool is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1396.",
+    "subtitle": "Lift at Museum Station not available between the concourse and Liverpool",
+    "properties": {
+      "smsText": "Lift at Museum Station not available between the concourse and Liverpool",
+      "speechText": "The lift at Museum Station between the concourse and Liverpool is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1396.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "200040",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Lidcombe Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200040",
+          "isGlobalId": true,
+          "name": "Museum Station",
           "type": "stop"
         }
       ]
