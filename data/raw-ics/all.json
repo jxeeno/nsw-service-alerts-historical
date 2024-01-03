@@ -5087,11 +5087,11 @@
   {
     "type": "lineInfo",
     "id": "ems-26885",
-    "version": 6,
+    "version": 7778,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-01-03T12:11:00Z",
-      "lastModification": "2024-01-03T12:11:00Z",
+      "lastModification": "2024-01-03T14:21:00Z",
       "availability": {
         "from": "2024-01-03T12:09:00Z",
         "to": "2024-01-03T22:09:00Z"
@@ -5104,13 +5104,13 @@
       ],
       "expiration": "2024-01-03T22:09:59Z"
     },
-    "urlText": "Train service delays at Moss Vale Station",
+    "urlText": "Train service changes between Albury Station and",
     "url": "https://transportnsw.info/alerts/details#/ems-26885",
-    "content": "There are delays on route 621 train services due to temporary speed restrictions. \n<div>This service is delayed due to restrictive rail speeds.</div> Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Moss Vale Station",
+    "content": "There are changes on route 621 train services due to severe storm. \n<div>Due to a black weather alert this service will terminate at Albury. At Albury passengers will join road coaches for the remainder of their journey.</div> Plan ahead and allow extra travel time.",
+    "subtitle": "Train service changes between Albury Station and",
     "properties": {
-      "smsText": "Train service delays at Moss Vale Station",
-      "speechText": "There are delays on route 621 train services due to temporary speed restrictions. \nThis service is delayed due to restrictive rail speeds. Plan ahead and allow extra travel time.",
+      "smsText": "Train service changes between Albury Station and",
+      "speechText": "There are changes on route 621 train services due to severe storm. \nDue to a black weather alert this service will terminate at Albury. At Albury passengers will join road coaches for the remainder of their journey. Plan ahead and allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -5126,6 +5126,61 @@
           "name": "Regional Trains and Coaches Network 621",
           "number": "621",
           "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-26884",
+    "version": 8,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-01-03T12:08:00Z",
+      "lastModification": "2024-01-03T12:08:00Z",
+      "availability": {
+        "from": "2024-01-03T12:05:00Z",
+        "to": "2024-01-03T22:05:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-01-03T12:05:00Z",
+          "to": "2024-01-03T22:05:00Z"
+        }
+      ],
+      "expiration": "2024-01-03T22:05:59Z"
+    },
+    "urlText": "Train service delays at Wangaratta Station (VIC)",
+    "url": "https://transportnsw.info/alerts/details#/ems-26884",
+    "content": "There are delays on route 622 train services due to severe storm. \n<div>This service is delayed due to a black weather alert near Wangaratta.</div> Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Wangaratta Station (VIC)",
+    "properties": {
+      "smsText": "Train service delays at Wangaratta Station (VIC)",
+      "speechText": "There are delays on route 622 train services due to severe storm. \nThis service is delayed due to a black weather alert near Wangaratta. Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
           "iconId": 3,
           "product": {
             "class": 1,
@@ -7055,61 +7110,6 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-26884",
-    "version": 8,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-01-03T12:08:00Z",
-      "lastModification": "2024-01-03T12:08:00Z",
-      "availability": {
-        "from": "2024-01-03T12:05:00Z",
-        "to": "2024-01-03T22:05:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-01-03T12:05:00Z",
-          "to": "2024-01-03T22:05:00Z"
-        }
-      ],
-      "expiration": "2024-01-03T22:05:59Z"
-    },
-    "urlText": "Train service delays at Wangaratta Station (VIC)",
-    "url": "https://transportnsw.info/alerts/details#/ems-26884",
-    "content": "There are delays on route 622 train services due to severe storm. \n<div>This service is delayed due to a black weather alert near Wangaratta.</div> Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Wangaratta Station (VIC)",
-    "properties": {
-      "smsText": "Train service delays at Wangaratta Station (VIC)",
-      "speechText": "There are delays on route 622 train services due to severe storm. \nThis service is delayed due to a black weather alert near Wangaratta. Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
           }
         }
       ]
