@@ -12901,61 +12901,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-27009",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-01-06T07:23:00Z",
-      "lastModification": "2024-01-06T07:23:00Z",
-      "availability": {
-        "from": "2024-01-06T07:21:00Z",
-        "to": "2024-01-06T10:21:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-01-06T07:21:00Z",
-          "to": "2024-01-06T10:21:00Z"
-        }
-      ],
-      "expiration": "2024-01-06T10:21:59Z"
-    },
-    "urlText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-27009",
-    "content": "There are delays on route 624 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-    "properties": {
-      "smsText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-      "speechText": "There are delays on route 624 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-18910",
     "version": 18,
     "priority": "normal",
@@ -14065,18 +14010,18 @@
   {
     "type": "lineInfo",
     "id": "37b2772459bced45d3144894231926f1c56798fc",
-    "version": 61951,
+    "version": 74551,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-01-05T13:42:00Z",
-      "lastModification": "2024-01-06T06:55:00Z",
+      "lastModification": "2024-01-06T10:25:00Z",
       "availability": {
-        "from": "2024-01-06T06:55:00Z",
+        "from": "2024-01-06T10:25:00Z",
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-01-06T06:55:00Z",
+          "from": "2024-01-06T10:25:00Z",
           "to": "2500-12-31T00:00:00Z"
         }
       ],
@@ -14084,11 +14029,11 @@
     },
     "urlText": "Special Events - Saturday 6 January",
     "url": "https://transportnsw.info/alerts/details#/37b2772459bced45d3144894231926f1c56798fc",
-    "content": "United Cup Sydney: Ken Rosewall Arena, Sydney Olympic Park\nDay sessions start from 10:30\nNight sessions start from 17:30\n- Valid pre-purchased tickets include travel on Sydney Trains, Sydney Bus, Sydney Metro and Light Rail services.\n- Trains run regularly to Lidcombe where you can head to Platform Zero for a direct train to Olympic Park, running every 10 minutes.\n\nA-League Men: Western Sydney Wanderers v Central Coast Mariners - CommBank Stadium, Parramatta\n17:30 to 19:30\n- The closest station to the stadium is Parramatta on T1 Western Line. It is approximately 15 minute walk from the station.\n- Valid pre-purchased tickets include travel on Sydney Trains, Sydney Bus, Sydney Metro and Light Rail services.\n\nFor details, please visit : https://transportnsw.info/events/2024/01",
+    "content": "United Cup Sydney: Ken Rosewall Arena, Sydney Olympic Park\nDay sessions start from 10:30\nNight sessions start from 17:30\n- Valid pre-purchased tickets include travel on Sydney Trains, Sydney Bus, Sydney Metro and Light Rail services.\n- Trains run regularly to Lidcombe where you can head to Platform Zero for a direct train to Olympic Park, running every 10 minutes.\n\nFor details, please visit : https://transportnsw.info/events/2024/01",
     "subtitle": "Special Events - Saturday 6 January",
     "properties": {
       "smsText": "Special Events - Saturday 6 January",
-      "speechText": "United Cup Sydney: Ken Rosewall Arena, Sydney Olympic Park\nDay sessions start from 10:30\nNight sessions start from 17:30\n- Valid pre-purchased tickets include travel on Sydney Trains, Sydney Bus, Sydney Metro and Light Rail services.\n- Trains run regularly to Lidcombe where you can head to Platform Zero for a direct train to Olympic Park, running every 10 minutes.\n\nA-League Men: Western Sydney Wanderers v Central Coast Mariners - CommBank Stadium, Parramatta\n17:30 to 19:30\n- The closest station to the stadium is Parramatta on T1 Western Line. It is approximately 15 minute walk from the station.\n- Valid pre-purchased tickets include travel on Sydney Trains, Sydney Bus, Sydney Metro and Light Rail services.\n\nFor details, please visit : https://transportnsw.info/events/2024/01",
+      "speechText": "United Cup Sydney: Ken Rosewall Arena, Sydney Olympic Park\nDay sessions start from 10:30\nNight sessions start from 17:30\n- Valid pre-purchased tickets include travel on Sydney Trains, Sydney Bus, Sydney Metro and Light Rail services.\n- Trains run regularly to Lidcombe where you can head to Platform Zero for a direct train to Olympic Park, running every 10 minutes.\n\nFor details, please visit : https://transportnsw.info/events/2024/01",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -14105,6 +14050,25 @@
           "name": "Sydney Trains Network T8 Airport & South Line",
           "number": "T8 Airport & South Line",
           "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -14135,14 +14099,14 @@
           }
         },
         {
-          "id": "nsw:020T3: :R:",
+          "id": "nsw:020T5: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Campbelltown Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -14170,25 +14134,6 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :R:",
-          "destination": {
-            "name": "Campbelltown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
           }
         },
         {
@@ -14249,14 +14194,14 @@
           }
         },
         {
-          "id": "nsw:020T9: :R:",
+          "id": "nsw:020T7: :R:",
           "destination": {
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "Hornsby to North Shore via City",
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Olympic Park to Lidcombe",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -14268,14 +14213,14 @@
           }
         },
         {
-          "id": "nsw:020T7: :R:",
+          "id": "nsw:020T9: :R:",
           "destination": {
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T7 Olympic Park Line",
-          "number": "T7 Olympic Park Line",
-          "description": "Olympic Park to Lidcombe",
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -14458,6 +14403,25 @@
           }
         },
         {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
           "id": "nsw:020T1:N:H:",
           "destination": {
             "name": "Berowra Station",
@@ -14477,14 +14441,14 @@
           }
         },
         {
-          "id": "nsw:020T9: :H:",
+          "id": "nsw:020T7: :H:",
           "destination": {
-            "name": "Gordon Station",
+            "name": "Lidcombe Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "North Shore to Hornsby via City",
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Lidcombe to Olympic Park",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -14512,25 +14476,6 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T7: :H:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T7 Olympic Park Line",
-          "number": "T7 Olympic Park Line",
-          "description": "Lidcombe to Olympic Park",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
           }
         },
         {
@@ -25407,6 +25352,166 @@
             "name": "Broken Hill",
             "type": "locality"
           }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-27011",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-01-06T10:19:00Z",
+      "lastModification": "2024-01-06T10:19:00Z",
+      "availability": {
+        "from": "2023-12-30T13:09:00Z",
+        "to": "2503-02-13T14:10:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-01-06T10:19:00Z",
+          "to": "2503-02-13T14:10:00Z"
+        }
+      ],
+      "expiration": "2503-02-13T14:10:59Z"
+    },
+    "urlText": "Lift at Gordon Station not available between the concourse and platform 2 & 3",
+    "url": "https://transportnsw.info/alerts/details#/ems-27011",
+    "content": "The lift between the concourse and platform 2 & 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
+    "subtitle": "Lift at Gordon Station not available between the concourse and platform 2 & 3",
+    "properties": {
+      "smsText": "Lift at Gordon Station not available between the concourse and platform 2 & 3",
+      "speechText": "The lift at Gordon Station between the concourse and platform 2 & 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "207210:207262,207263",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "207210",
+          "isGlobalId": true,
+          "name": "Gordon Station, Platform 2",
+          "type": "stop"
         }
       ]
     }
