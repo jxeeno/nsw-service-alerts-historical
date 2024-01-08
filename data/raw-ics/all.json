@@ -15607,6 +15607,94 @@
   },
   {
     "type": "stopInfo",
+    "id": "ems-27045",
+    "version": 94,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-01-08T03:30:00Z",
+      "lastModification": "2024-01-08T03:31:00Z",
+      "availability": {
+        "from": "2024-01-08T03:28:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-01-08T03:28:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "L1 Marion lift out of service",
+    "url": "https://transportnsw.info/alerts/details#/ems-27045",
+    "content": "<div>\n<div>The lift at Marion light rail stop on the L1 Dulwich Hill Line is temporarilly out of service until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use if the doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or, use alternative light rail stops (Taverners Hill or Hawthorne or Taverners Hill), due to no alternative lift available at this stop.<br />&nbsp;</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform or&nbsp;call 131 500</li>\n</ul>\n</div>",
+    "subtitle": "L1 Marion lift out of service",
+    "properties": {
+      "smsText": "L1 Marion lift out of service",
+      "speechText": "The lift at Marion light rail stop on the L1 Dulwich Hill Line is temporarilly out of service until further notice.\n \nFor your safety, do not use if the doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr, use alternative light rail stops (Taverners Hill or Hawthorne or Taverners Hill), due to no alternative lift available at this stop.\n \nFor urgent assistance:\nUse the Help Point if on the platform or call 131 500",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "stopIDglobalID": "204092",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L1: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Dulwich Hill to Central",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "204092",
+          "isGlobalId": true,
+          "name": "Marion Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95333005:1",
+            "name": "Leichhardt",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "ems-10794",
     "version": 5441,
     "priority": "normal",
@@ -31659,99 +31747,6 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-27036",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-01-07T21:55:00Z",
-      "lastModification": "2024-01-07T21:55:00Z",
-      "availability": {
-        "from": "2024-01-07T21:42:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-01-07T21:42:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Broken Hill cancellations and delays",
-    "url": "https://transportnsw.info/alerts/details#/ems-27036",
-    "content": "<div>Due to flooding on the Cobb Highway and Barrier Highway,</div>\n<ul>\n<li>Route 594 buses between Broken Hill and Merindee have been cancelled.</li>\n<li>Route 595 services between Broken Hill and Wilcania are delayed&nbsp;around two hours.</li>\n</ul>",
-    "subtitle": "Broken Hill cancellations and delays",
-    "properties": {
-      "smsText": "Broken Hill cancellations and delays",
-      "speechText": "Due to flooding on the Cobb Highway and Barrier Highway, \nRoute 594 buses between Broken Hill and Merindee have been cancelled. \nRoute 595 services between Broken Hill and Wilcania are delayed around two hours.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:08594: :R:",
-          "destination": {
-            "name": "Alma Oval, Wilson St, Broken Hill",
-            "type": "stop"
-          },
-          "name": "Private bus services 594",
-          "number": "594",
-          "description": "Menindee to Broken Hill",
-          "iconId": 9,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B024",
-            "name": "CDC Broken Hill"
-          }
-        },
-        {
-          "id": "nsw:08595: :H:",
-          "destination": {
-            "name": "Wilcannia RTC, Reid St, Wilcannia",
-            "type": "stop"
-          },
-          "name": "Private bus services 595",
-          "number": "595",
-          "description": "Broken Hill to Wilcannia",
-          "iconId": 9,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B024",
-            "name": "CDC Broken Hill"
-          }
-        },
-        {
-          "id": "nsw:08595: :R:",
-          "destination": {
-            "name": "Alma Oval, Wilson St, Broken Hill",
-            "type": "stop"
-          },
-          "name": "Private bus services 595",
-          "number": "595",
-          "description": "Wilcannia to Broken Hill",
-          "iconId": 9,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B024",
-            "name": "CDC Broken Hill"
           }
         }
       ]
