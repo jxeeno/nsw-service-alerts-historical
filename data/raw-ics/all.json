@@ -26313,6 +26313,86 @@
     }
   },
   {
+    "type": "routeInfo",
+    "id": "ems-27930",
+    "version": 9,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-01-25T07:00:00Z",
+      "lastModification": "2024-01-25T07:00:00Z",
+      "availability": {
+        "from": "2024-01-25T06:53:00Z",
+        "to": "2024-01-25T11:53:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-01-25T06:53:00Z",
+          "to": "2024-01-25T11:53:00Z"
+        }
+      ],
+      "expiration": "2024-01-25T11:53:59Z"
+    },
+    "urlText": "Coaches replace train at Casino Station.",
+    "url": "https://transportnsw.info/alerts/details#/ems-27930",
+    "content": "Coaches replace train between Casino Station and Central Station due to extreme heat.\nServices on route 34 are replaced by coach services between Casino Station and Central Station.\nService replaced by coach between Casino and Grafton\nPlan ahead and allow extra travel time.",
+    "subtitle": "Coaches replace train at Casino Station.",
+    "properties": {
+      "smsText": "Coaches replace train at Casino Station.",
+      "speechText": "Coaches replace train between Casino Station and Central Station due to extreme heat.\nServices on route 34 are replaced by coach services between Casino Station and Central Station.\nService replaced by coach between Casino and Grafton\nPlan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "stopIDglobalID": "24601#24701",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "24601",
+          "isGlobalId": true,
+          "name": "Grafton Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95902122:1",
+            "name": "South Grafton",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "24701",
+          "isGlobalId": true,
+          "name": "Casino Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95935006:1",
+            "name": "Casino",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-26371",
     "version": 90,
@@ -27505,6 +27585,61 @@
             "id": "placeID:95981001:1",
             "name": "Broken Hill",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-27931",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-01-25T07:05:00Z",
+      "lastModification": "2024-01-25T07:05:00Z",
+      "availability": {
+        "from": "2024-01-25T07:03:00Z",
+        "to": "2024-01-25T12:03:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-01-25T07:03:00Z",
+          "to": "2024-01-25T12:03:00Z"
+        }
+      ],
+      "expiration": "2024-01-25T12:03:59Z"
+    },
+    "urlText": "Train service delays between Central Station and Grafton Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-27931",
+    "content": "There are delays on route 35 train services due to extreme heat. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Central Station and Grafton Station",
+    "properties": {
+      "smsText": "Train service delays between Central Station and Grafton Station",
+      "speechText": "There are delays on route 35 train services due to extreme heat. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 35",
+          "number": "35",
+          "description": "Central to Grafton",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
