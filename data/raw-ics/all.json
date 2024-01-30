@@ -3520,90 +3520,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-27986",
-    "version": 29092,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-01-26T19:24:00Z",
-      "lastModification": "2024-01-27T03:29:00Z",
-      "availability": {
-        "from": "2024-01-19T22:14:00Z",
-        "to": "2503-03-05T23:15:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-01-26T19:24:00Z",
-          "to": "2503-03-05T23:15:00Z"
-        }
-      ],
-      "expiration": "2503-03-05T23:15:59Z"
-    },
-    "urlText": "Lift at Eastwood Station not available between the concourse and platforms 1 & 2",
-    "url": "https://transportnsw.info/alerts/details#/ems-27986",
-    "content": "The lift between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8493.",
-    "subtitle": "Lift at Eastwood Station not available between the concourse and platforms 1 & 2",
-    "properties": {
-      "smsText": "Lift at Eastwood Station not available between the concourse and platforms 1 & 2",
-      "speechText": "The lift at Eastwood Station between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8493.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "212210:2122231,2122232",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T9: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "Hornsby to North Shore via City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T9: :H:",
-          "destination": {
-            "name": "Gordon Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "North Shore to Hornsby via City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "212210",
-          "isGlobalId": true,
-          "name": "Eastwood Station, Platform 1",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "0c2eac5707e0771e29fdcffe3528af2418d8c9ec",
     "version": 1,
@@ -26022,6 +25938,80 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-28102",
+    "version": 223,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-01-30T00:02:00Z",
+      "lastModification": "2024-01-30T00:05:00Z",
+      "availability": {
+        "from": "2024-01-29T15:00:00Z",
+        "to": "2024-02-18T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-02-16T15:00:00Z",
+          "to": "2024-02-18T15:00:00Z"
+        }
+      ],
+      "expiration": "2024-02-18T15:00:59Z"
+    },
+    "urlText": "Buses replace metro between Tallawong and Chatswood",
+    "url": "https://transportnsw.info/alerts/details#/ems-28102",
+    "content": "<div>\n<div><strong>Saturday 17 and Sunday 18 February</strong></div>\n<ul>\n<li>Buses replace metro between Tallawong and Chatswood.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>10M Epping, then all stations to Chatswood and return</div>\n<div>11M Tallawong, then all stations to Chatswood and return</div>\n<div>12M Tallawong, then all stations to Epping, then North Ryde, Chatswood and return</div>\n</div>",
+    "subtitle": "Buses replace metro between Tallawong and Chatswood",
+    "properties": {
+      "smsText": "Buses replace metro between Tallawong and Chatswood",
+      "speechText": "Saturday 17 and Sunday 18 February Buses replace metro between Tallawong and Chatswood.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
           }
         }
       ]
