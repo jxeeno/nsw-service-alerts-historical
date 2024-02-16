@@ -565,48 +565,86 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-28919",
-    "version": 2,
+    "id": "ems-28928",
+    "version": 3,
     "priority": "normal",
     "timestamps": {
-      "creation": "2024-02-16T02:49:00Z",
-      "lastModification": "2024-02-16T02:49:00Z",
+      "creation": "2024-02-16T20:03:00Z",
+      "lastModification": "2024-02-16T20:03:00Z",
       "availability": {
-        "from": "2024-02-09T05:39:00Z",
-        "to": "2503-03-26T06:40:00Z"
+        "from": "2024-02-09T22:53:00Z",
+        "to": "2503-03-26T23:54:00Z"
       },
       "validity": [
         {
-          "from": "2024-02-16T02:49:00Z",
-          "to": "2503-03-26T06:40:00Z"
+          "from": "2024-02-16T20:03:00Z",
+          "to": "2503-03-26T23:54:00Z"
         }
       ],
-      "expiration": "2503-03-26T06:40:59Z"
+      "expiration": "2503-03-26T23:54:59Z"
     },
-    "urlText": "Lift at Campsie Station not available between the concourse and platform 1",
-    "url": "https://transportnsw.info/alerts/details#/ems-28919",
-    "content": "The lift between the concourse and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7440.",
-    "subtitle": "Lift at Campsie Station not available between the concourse and platform 1",
+    "urlText": "Lift at Martin Place Station not available between platforms 1 and 2 and the concourse",
+    "url": "https://transportnsw.info/alerts/details#/ems-28928",
+    "content": "The lift between platforms 1 and 2 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+    "subtitle": "Lift at Martin Place Station not available between platforms 1 and 2 and the concourse",
     "properties": {
-      "smsText": "Lift at Campsie Station not available between the concourse and platform 1",
-      "speechText": "The lift at Campsie Station between the concourse and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7440.",
+      "smsText": "Lift at Martin Place Station not available between platforms 1 and 2 and the concourse",
+      "speechText": "The lift at Martin Place Station between platforms 1 and 2 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "219410:2194111",
+      "stopIDglobalID": "200030:2000361,2000362",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T3: :R:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Campbelltown Station",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -618,14 +656,14 @@
           }
         },
         {
-          "id": "nsw:020T3: :H:",
+          "id": "nsw:020T4: :H:",
           "destination": {
-            "name": "Lidcombe Station",
+            "name": "Cronulla Station",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -639,9 +677,9 @@
       ],
       "stops": [
         {
-          "id": "219410",
+          "id": "200030",
           "isGlobalId": true,
-          "name": "Campsie Station, Platform 1",
+          "name": "Martin Place Station, Platform 1",
           "type": "stop"
         }
       ]
@@ -726,6 +764,90 @@
           "id": "277010",
           "isGlobalId": true,
           "name": "Mount Druitt Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-28919",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-02-16T02:49:00Z",
+      "lastModification": "2024-02-16T02:49:00Z",
+      "availability": {
+        "from": "2024-02-09T05:39:00Z",
+        "to": "2503-03-26T06:40:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-02-16T02:49:00Z",
+          "to": "2503-03-26T06:40:00Z"
+        }
+      ],
+      "expiration": "2503-03-26T06:40:59Z"
+    },
+    "urlText": "Lift at Campsie Station not available between the concourse and platform 1",
+    "url": "https://transportnsw.info/alerts/details#/ems-28919",
+    "content": "The lift between the concourse and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7440.",
+    "subtitle": "Lift at Campsie Station not available between the concourse and platform 1",
+    "properties": {
+      "smsText": "Lift at Campsie Station not available between the concourse and platform 1",
+      "speechText": "The lift at Campsie Station between the concourse and platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7440.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "219410:2194111",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Lidcombe Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "219410",
+          "isGlobalId": true,
+          "name": "Campsie Station, Platform 1",
           "type": "stop"
         }
       ]
