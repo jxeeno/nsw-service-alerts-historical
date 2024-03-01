@@ -2192,6 +2192,128 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-29671",
+    "version": 11,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-01T01:17:00Z",
+      "lastModification": "2024-03-01T01:17:00Z",
+      "availability": {
+        "from": "2024-02-23T04:07:00Z",
+        "to": "2503-04-09T04:08:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-01T01:17:00Z",
+          "to": "2503-04-09T04:08:00Z"
+        }
+      ],
+      "expiration": "2503-04-09T04:08:59Z"
+    },
+    "urlText": "Lift at Kings Cross Station not available between the concourse and platforms 1 & 2",
+    "url": "https://transportnsw.info/alerts/details#/ems-29671",
+    "content": "The lift between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204.",
+    "subtitle": "Lift at Kings Cross Station not available between the concourse and platforms 1 & 2",
+    "properties": {
+      "smsText": "Lift at Kings Cross Station not available between the concourse and platforms 1 & 2",
+      "speechText": "The lift at Kings Cross Station between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "201110:201171,201172",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "201110",
+          "isGlobalId": true,
+          "name": "Kings Cross Station, Platform 1",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-29175",
     "version": 659604,
@@ -3656,6 +3778,61 @@
           "isGlobalId": true,
           "name": "Parramatta Station",
           "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-29670",
+    "version": 6,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-01T01:15:00Z",
+      "lastModification": "2024-03-01T01:15:00Z",
+      "availability": {
+        "from": "2024-03-01T01:14:00Z",
+        "to": "2024-03-01T08:14:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-01T01:14:00Z",
+          "to": "2024-03-01T08:14:00Z"
+        }
+      ],
+      "expiration": "2024-03-01T08:14:59Z"
+    },
+    "urlText": "Train service delays between Goulburn Station and Albury Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-29670",
+    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Goulburn Station and Albury Station",
+    "properties": {
+      "smsText": "Train service delays between Goulburn Station and Albury Station",
+      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station (VIC)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
         }
       ]
     }
@@ -5687,90 +5864,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-29634",
-    "version": 15,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-02-29T08:23:00Z",
-      "lastModification": "2024-02-29T08:23:00Z",
-      "availability": {
-        "from": "2024-02-22T11:13:00Z",
-        "to": "2503-04-08T11:14:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-02-29T08:23:00Z",
-          "to": "2503-04-08T11:14:00Z"
-        }
-      ],
-      "expiration": "2503-04-08T11:14:59Z"
-    },
-    "urlText": "Lift at Katoomba Station not available between the concourse and platforms 1 & 2",
-    "url": "https://transportnsw.info/alerts/details#/ems-29634",
-    "content": "The lift between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4782 1902.",
-    "subtitle": "Lift at Katoomba Station not available between the concourse and platforms 1 & 2",
-    "properties": {
-      "smsText": "Lift at Katoomba Station not available between the concourse and platforms 1 & 2",
-      "speechText": "The lift at Katoomba Station between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4782 1902.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "278020:2780201,2780202",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Lithgow Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "278020",
-          "isGlobalId": true,
-          "name": "Katoomba Station, Platform 1",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-29667",
     "version": 1,
@@ -5972,6 +6065,61 @@
           "operator": {
             "id": "2436",
             "name": "Hillsbus"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-29647",
+    "version": 32245,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-02-29T16:26:00Z",
+      "lastModification": "2024-03-01T01:23:00Z",
+      "availability": {
+        "from": "2024-02-29T16:26:00Z",
+        "to": "2024-03-01T09:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-02-29T16:26:00Z",
+          "to": "2024-03-01T09:59:00Z"
+        }
+      ],
+      "expiration": "2024-03-01T09:59:59Z"
+    },
+    "urlText": "Newcastle Light Rail",
+    "url": "https://transportnsw.info/alerts/details#/ems-29647",
+    "content": "<div>Light Rail services are running at a reduced frequency.</div>\n<ul>\n<li>Allow extra travel time&nbsp;and check information displays for service updates.&nbsp;</li>\n</ul>",
+    "subtitle": "Newcastle Light Rail",
+    "properties": {
+      "smsText": "Newcastle Light Rail",
+      "speechText": "Light Rail services are running at a reduced frequency. Allow extra travel time and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:78NLR: :H:",
+          "destination": {
+            "name": "Newcastle Beach Light Rail, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Interchange to Newcastle Beach",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
           }
         }
       ]
@@ -22785,6 +22933,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-29669",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-01T01:04:00Z",
+      "lastModification": "2024-03-01T01:05:00Z",
+      "availability": {
+        "from": "2024-03-01T00:59:00Z",
+        "to": "2024-03-01T05:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-01T00:59:00Z",
+          "to": "2024-03-01T05:59:00Z"
+        }
+      ],
+      "expiration": "2024-03-01T05:59:59Z"
+    },
+    "urlText": "Train service delays at Quirindi Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-29669",
+    "content": "There are delays on route 224 train services due to infrastructure repairs. \n<div>This service is delayed due to a track circuit failure.</div> Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Quirindi Station",
+    "properties": {
+      "smsText": "Train service delays at Quirindi Station",
+      "speechText": "There are delays on route 224 train services due to infrastructure repairs. \nThis service is delayed due to a track circuit failure. Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76224: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 224",
+          "number": "224",
+          "description": "Armidale to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-28731",
     "version": 108,
     "priority": "normal",
@@ -24480,30 +24683,27 @@
   {
     "type": "stopInfo",
     "id": "ems-29651",
-    "version": 26,
+    "version": 25365,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-02-29T18:24:00Z",
-      "lastModification": "2024-02-29T18:25:00Z",
+      "lastModification": "2024-03-01T01:27:00Z",
       "availability": {
         "from": "2024-02-22T21:14:00Z",
-        "to": "2503-04-08T21:15:00Z"
+        "to": "2024-03-01T01:37:00Z"
       },
       "validity": [
         {
           "from": "2024-02-29T18:24:00Z",
-          "to": "2503-04-08T21:15:00Z"
+          "to": "2024-03-01T01:27:00Z"
         }
       ],
-      "expiration": "2503-04-08T21:15:59Z"
+      "expiration": "2024-03-01T01:27:59Z"
     },
-    "urlText": "Lift at Ingleburn Station not available between the concourse and Stanley Rd",
+    "urlText": "",
     "url": "https://transportnsw.info/alerts/details#/ems-29651",
-    "content": "The lift between the concourse and Stanley Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845.",
-    "subtitle": "Lift at Ingleburn Station not available between the concourse and Stanley Rd",
+    "subtitle": "",
     "properties": {
-      "smsText": "Lift at Ingleburn Station not available between the concourse and Stanley Rd",
-      "speechText": "The lift at Ingleburn Station between the concourse and Stanley Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -26123,80 +26323,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-28723",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-02-12T04:39:00Z",
-      "lastModification": "2024-02-12T04:39:00Z",
-      "availability": {
-        "from": "2024-02-11T15:00:00Z",
-        "to": "2024-03-03T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-03-01T15:00:00Z",
-          "to": "2024-03-03T15:00:00Z"
-        }
-      ],
-      "expiration": "2024-03-03T15:00:59Z"
-    },
-    "urlText": "Buses replace trains between Cronulla and Sutherland, and some trains between Waterfall and Hurstville",
-    "url": "https://transportnsw.info/alerts/details#/ems-28723",
-    "content": "<div><strong>Saturday 2 and Sunday 3 March</strong> </div>\n<ul>\n<li>Buses replace trains between Cronulla and Sutherland.</li>\n<li>Trains run between Waterfall, Sutherland and Bondi Junction, some to a changed timetable.<br /><br /></li>\n<li><strong>Saturday from 11.30pm to 2.20am</strong>, buses also replace trains between Waterfall, Cronulla and Hurstville.</li>\n<li>Trains run between Hurstville and Bondi Junction, some to a changed timetable.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />33T4 Cronulla, then all stations to Sutherland and return<br />41T4 Waterfall, all stations to Sutherland, then express to Hurstville and return<br />42T4 Hurstville, then Sutherland, then all stations to Cronulla and return <br />43T4 Hurstville, then all stations to Sutherland and return and return </div>",
-    "subtitle": "Buses replace trains between Cronulla and Sutherland, and some trains between Waterfall and Hurstville",
-    "properties": {
-      "smsText": "Buses replace trains between Cronulla and Sutherland, and some trains between Waterfall and Hurstville",
-      "speechText": "Saturday 2 and Sunday 3 March\nBuses replace trains between Cronulla and Sutherland.\nTrains run between Waterfall, Sutherland and Bondi Junction, some to a changed timetable.\nSaturday from 11:30PM to 2:20AM, buses also replace trains between Waterfall, Cronulla and Hurstville.\nTrains run between Hurstville and Bondi Junction, some to a changed timetable.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T4: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Waterfall or Cronulla to Bondi Junction",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :H:",
-          "destination": {
-            "name": "Cronulla Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-28719",
     "version": 1,
     "priority": "normal",
@@ -26256,6 +26382,80 @@
           "name": "Sydney Trains Network T3 Bankstown Line",
           "number": "T3 Bankstown Line",
           "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-28723",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-02-12T04:39:00Z",
+      "lastModification": "2024-02-12T04:39:00Z",
+      "availability": {
+        "from": "2024-02-11T15:00:00Z",
+        "to": "2024-03-03T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-01T15:00:00Z",
+          "to": "2024-03-03T15:00:00Z"
+        }
+      ],
+      "expiration": "2024-03-03T15:00:59Z"
+    },
+    "urlText": "Buses replace trains between Cronulla and Sutherland, and some trains between Waterfall and Hurstville",
+    "url": "https://transportnsw.info/alerts/details#/ems-28723",
+    "content": "<div><strong>Saturday 2 and Sunday 3 March</strong> </div>\n<ul>\n<li>Buses replace trains between Cronulla and Sutherland.</li>\n<li>Trains run between Waterfall, Sutherland and Bondi Junction, some to a changed timetable.<br /><br /></li>\n<li><strong>Saturday from 11.30pm to 2.20am</strong>, buses also replace trains between Waterfall, Cronulla and Hurstville.</li>\n<li>Trains run between Hurstville and Bondi Junction, some to a changed timetable.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />33T4 Cronulla, then all stations to Sutherland and return<br />41T4 Waterfall, all stations to Sutherland, then express to Hurstville and return<br />42T4 Hurstville, then Sutherland, then all stations to Cronulla and return <br />43T4 Hurstville, then all stations to Sutherland and return and return </div>",
+    "subtitle": "Buses replace trains between Cronulla and Sutherland, and some trains between Waterfall and Hurstville",
+    "properties": {
+      "smsText": "Buses replace trains between Cronulla and Sutherland, and some trains between Waterfall and Hurstville",
+      "speechText": "Saturday 2 and Sunday 3 March\nBuses replace trains between Cronulla and Sutherland.\nTrains run between Waterfall, Sutherland and Bondi Junction, some to a changed timetable.\nSaturday from 11:30PM to 2:20AM, buses also replace trains between Waterfall, Cronulla and Hurstville.\nTrains run between Hurstville and Bondi Junction, some to a changed timetable.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
           "iconId": 1,
           "product": {
             "class": 1,
