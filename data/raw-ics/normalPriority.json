@@ -4040,6 +4040,61 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-29715",
+    "version": 28,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-02T04:09:00Z",
+      "lastModification": "2024-03-02T04:10:00Z",
+      "availability": {
+        "from": "2024-03-02T04:09:00Z",
+        "to": "2024-03-02T10:09:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-02T04:09:00Z",
+          "to": "2024-03-02T10:09:00Z"
+        }
+      ],
+      "expiration": "2024-03-02T10:09:59Z"
+    },
+    "urlText": "Train service delays between Dubbo Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-29715",
+    "content": "There are delays on route 428 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Dubbo Station and Central Station",
+    "properties": {
+      "smsText": "Train service delays between Dubbo Station and Central Station",
+      "speechText": "There are delays on route 428 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "routeInfo",
     "id": "ems-28779",
     "version": 85,
@@ -12768,80 +12823,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-29194",
-    "version": 653128,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-02-21T00:17:00Z",
-      "lastModification": "2024-02-28T13:42:00Z",
-      "availability": {
-        "from": "2024-02-21T00:00:00Z",
-        "to": "2024-03-08T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-03-08T11:00:00Z",
-          "to": "2024-03-08T15:00:00Z"
-        }
-      ],
-      "expiration": "2024-03-08T15:00:59Z"
-    },
-    "urlText": "T2 Inner West Line trains will not run. T1 and T9 trains make extra stops at some stations between Homebush and Central",
-    "url": "https://transportnsw.info/alerts/details#/ems-29194",
-    "content": "<div><strong>Friday 8 March</strong> </div>\n<ul>\n<li><strong>From 10pm to 2am</strong>, Inner West trains will not run. T1 Western and T9 Northern Line trains make extra stops at some stations between Homebush and Central.</li>\n<li>You may need to change trains to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "T2 Inner West Line trains will not run. T1 and T9 trains make extra stops at some stations between Homebush and Central",
-    "properties": {
-      "smsText": "T2 Inner West Line trains will not run. T1 and T9 trains make extra stops at some stations between Homebush and Central",
-      "speechText": "Friday 8 March\nFrom 10PM to 2AM, Inner West trains will not run. T1 Western and T9 Northern Line trains make extra stops at some stations between Homebush and Central.\nYou may need to change trains to continue your journey.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-29210",
     "version": 652078,
     "priority": "normal",
@@ -12901,6 +12882,80 @@
           "name": "Sydney Trains Network T9 Northern Line",
           "number": "T9 Northern Line",
           "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-29194",
+    "version": 653128,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-02-21T00:17:00Z",
+      "lastModification": "2024-02-28T13:42:00Z",
+      "availability": {
+        "from": "2024-02-21T00:00:00Z",
+        "to": "2024-03-08T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-08T11:00:00Z",
+          "to": "2024-03-08T15:00:00Z"
+        }
+      ],
+      "expiration": "2024-03-08T15:00:59Z"
+    },
+    "urlText": "T2 Inner West Line trains will not run. T1 and T9 trains make extra stops at some stations between Homebush and Central",
+    "url": "https://transportnsw.info/alerts/details#/ems-29194",
+    "content": "<div><strong>Friday 8 March</strong> </div>\n<ul>\n<li><strong>From 10pm to 2am</strong>, Inner West trains will not run. T1 Western and T9 Northern Line trains make extra stops at some stations between Homebush and Central.</li>\n<li>You may need to change trains to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "T2 Inner West Line trains will not run. T1 and T9 trains make extra stops at some stations between Homebush and Central",
+    "properties": {
+      "smsText": "T2 Inner West Line trains will not run. T1 and T9 trains make extra stops at some stations between Homebush and Central",
+      "speechText": "Friday 8 March\nFrom 10PM to 2AM, Inner West trains will not run. T1 Western and T9 Northern Line trains make extra stops at some stations between Homebush and Central.\nYou may need to change trains to continue your journey.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
           "iconId": 1,
           "product": {
             "class": 1,
@@ -19510,80 +19565,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-29709",
-    "version": 369,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-03-01T22:23:00Z",
-      "lastModification": "2024-03-01T22:29:00Z",
-      "availability": {
-        "from": "2024-03-01T22:15:00Z",
-        "to": "2024-03-02T06:15:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-03-01T22:15:00Z",
-          "to": "2024-03-02T06:15:00Z"
-        }
-      ],
-      "expiration": "2024-03-02T06:15:59Z"
-    },
-    "urlText": "Diversions in Monterey",
-    "url": "https://transportnsw.info/alerts/details#/ems-29709",
-    "content": "<div>Buses are Diverting away from O'Connell street near President Avenue in Monterey due to roadworks.</div>\n<ul>\n<li>Buses from Kogarah are using Grand Parade, Barton Street and Chuter Avenue.</li>\n<li>Buses from Hurstville are using Banks Road, Grand Parade and President Avenue.</li>\n<li>2 stops are being missed with minor delays.</li>\n</ul>",
-    "subtitle": "Diversions in Monterey",
-    "properties": {
-      "smsText": "Diversions in Monterey",
-      "speechText": "Buses are Diverting away from O'Connell street near President Avenue in Monterey due to roadworks.\nBuses from Kogarah are using Grand Parade, Barton Street and Chuter Avenue.\nBuses from Hurstville are using Banks Road, Grand Parade and President Avenue.\n2 stops are being missed with minor delays.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:31947: :H:",
-          "destination": {
-            "name": "Kogarah Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 947",
-          "number": "947",
-          "description": "Hurstville to Kogarah via Dolls Point",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
-          }
-        },
-        {
-          "id": "nsw:31947: :R:",
-          "destination": {
-            "name": "Hurstville Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 947",
-          "number": "947",
-          "description": "Kogarah to Hurstville via Dolls Point",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-28741",
     "version": 1,
     "priority": "normal",
@@ -20575,31 +20556,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-29708",
-    "version": 8,
+    "id": "ems-29709",
+    "version": 369,
     "priority": "normal",
     "timestamps": {
-      "creation": "2024-03-01T21:42:00Z",
-      "lastModification": "2024-03-01T21:42:00Z",
+      "creation": "2024-03-01T22:23:00Z",
+      "lastModification": "2024-03-01T22:29:00Z",
       "availability": {
-        "from": "2024-03-01T21:41:00Z",
-        "to": "2024-03-02T09:41:00Z"
+        "from": "2024-03-01T22:15:00Z",
+        "to": "2024-03-02T06:15:00Z"
       },
       "validity": [
         {
-          "from": "2024-03-01T21:41:00Z",
-          "to": "2024-03-02T09:41:00Z"
+          "from": "2024-03-01T22:15:00Z",
+          "to": "2024-03-02T06:15:00Z"
         }
       ],
-      "expiration": "2024-03-02T09:41:59Z"
+      "expiration": "2024-03-02T06:15:59Z"
     },
-    "urlText": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
-    "url": "https://transportnsw.info/alerts/details#/ems-29708",
-    "content": "There are delays on route 624 train services due to temporary speed restrictions. \n<div>The Melbourne to Sydney XPT service is delayed due to the late arrival of the overnight XPT from Sydney.&nbsp;</div> Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
+    "urlText": "Diversions in Monterey",
+    "url": "https://transportnsw.info/alerts/details#/ems-29709",
+    "content": "<div>Buses are Diverting away from O'Connell street near President Avenue in Monterey due to roadworks.</div>\n<ul>\n<li>Buses from Kogarah are using Grand Parade, Barton Street and Chuter Avenue.</li>\n<li>Buses from Hurstville are using Banks Road, Grand Parade and President Avenue.</li>\n<li>2 stops are being missed with minor delays.</li>\n</ul>",
+    "subtitle": "Diversions in Monterey",
     "properties": {
-      "smsText": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
-      "speechText": "There are delays on route 624 train services due to temporary speed restrictions. \nThe Melbourne to Sydney XPT service is delayed due to the late arrival of the overnight XPT from Sydney. Plan ahead and allow extra travel time.",
+      "smsText": "Diversions in Monterey",
+      "speechText": "Buses are Diverting away from O'Connell street near President Avenue in Monterey due to roadworks.\nBuses from Kogarah are using Grand Parade, Barton Street and Chuter Avenue.\nBuses from Hurstville are using Banks Road, Grand Parade and President Avenue.\n2 stops are being missed with minor delays.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -20607,22 +20588,41 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76624: :R:",
+          "id": "nsw:31947: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Kogarah Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 947",
+          "number": "947",
+          "description": "Hurstville to Kogarah via Dolls Point",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "2510",
+            "name": "U-Go Mobility"
+          }
+        },
+        {
+          "id": "nsw:31947: :R:",
+          "destination": {
+            "name": "Hurstville Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 947",
+          "number": "947",
+          "description": "Kogarah to Hurstville via Dolls Point",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2510",
+            "name": "U-Go Mobility"
           }
         }
       ]
@@ -21433,6 +21433,61 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-29708",
+    "version": 8,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-01T21:42:00Z",
+      "lastModification": "2024-03-01T21:42:00Z",
+      "availability": {
+        "from": "2024-03-01T21:41:00Z",
+        "to": "2024-03-02T09:41:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-01T21:41:00Z",
+          "to": "2024-03-02T09:41:00Z"
+        }
+      ],
+      "expiration": "2024-03-02T09:41:59Z"
+    },
+    "urlText": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
+    "url": "https://transportnsw.info/alerts/details#/ems-29708",
+    "content": "There are delays on route 624 train services due to temporary speed restrictions. \n<div>The Melbourne to Sydney XPT service is delayed due to the late arrival of the overnight XPT from Sydney.&nbsp;</div> Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
+    "properties": {
+      "smsText": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
+      "speechText": "There are delays on route 624 train services due to temporary speed restrictions. \nThe Melbourne to Sydney XPT service is delayed due to the late arrival of the overnight XPT from Sydney. Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
@@ -29840,90 +29895,6 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-29615",
-    "version": 4,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-02-29T03:05:00Z",
-      "lastModification": "2024-02-29T03:05:00Z",
-      "availability": {
-        "from": "2023-11-29T14:17:00Z",
-        "to": "2503-04-07T17:56:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-02-29T03:05:00Z",
-          "to": "2503-04-07T17:56:00Z"
-        }
-      ],
-      "expiration": "2503-04-07T17:56:59Z"
-    },
-    "urlText": "Lift at Hurlstone Park Station not available between Concourse and Platform 2",
-    "url": "https://transportnsw.info/alerts/details#/ems-29615",
-    "content": "The lift between Concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7544.",
-    "subtitle": "Lift at Hurlstone Park Station not available between Concourse and Platform 2",
-    "properties": {
-      "smsText": "Lift at Hurlstone Park Station not available between Concourse and Platform 2",
-      "speechText": "The lift at Hurlstone Park Station between Concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7544.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "219310:2193122",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T3: :R:",
-          "destination": {
-            "name": "Campbelltown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "Liverpool or Lidcombe to City via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "219310",
-          "isGlobalId": true,
-          "name": "Hurlstone Park Station, Platform 2",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
     "id": "ems-29591",
     "version": 9168,
     "priority": "normal",
@@ -30083,20 +30054,104 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-29615",
+    "version": 4,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-02-29T03:05:00Z",
+      "lastModification": "2024-02-29T03:05:00Z",
+      "availability": {
+        "from": "2023-11-29T14:17:00Z",
+        "to": "2503-04-07T17:56:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-02-29T03:05:00Z",
+          "to": "2503-04-07T17:56:00Z"
+        }
+      ],
+      "expiration": "2503-04-07T17:56:59Z"
+    },
+    "urlText": "Lift at Hurlstone Park Station not available between Concourse and Platform 2",
+    "url": "https://transportnsw.info/alerts/details#/ems-29615",
+    "content": "The lift between Concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7544.",
+    "subtitle": "Lift at Hurlstone Park Station not available between Concourse and Platform 2",
+    "properties": {
+      "smsText": "Lift at Hurlstone Park Station not available between Concourse and Platform 2",
+      "speechText": "The lift at Hurlstone Park Station between Concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7544.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "219310:2193122",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Lidcombe Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "219310",
+          "isGlobalId": true,
+          "name": "Hurlstone Park Station, Platform 2",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "b9a4d844060589598a7b6692e20b538b5d752601",
-    "version": 2099,
+    "version": 3899,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-03-02T03:04:00Z",
-      "lastModification": "2024-03-02T03:39:00Z",
+      "lastModification": "2024-03-02T04:09:00Z",
       "availability": {
-        "from": "2024-03-02T03:39:00Z",
+        "from": "2024-03-02T04:09:00Z",
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-03-02T03:39:00Z",
+          "from": "2024-03-02T04:09:00Z",
           "to": "2500-12-31T00:00:00Z"
         }
       ],
@@ -30104,11 +30159,11 @@
     },
     "urlText": "Airport & South Line",
     "url": "https://transportnsw.info/alerts/details#/b9a4d844060589598a7b6692e20b538b5d752601",
-    "content": "Buses replace trains from Glenfield to Revesby in that direction only due to an object near the overhead at Panania. We have arranged replacement buses to run from Glenfield to Revesby in that direction. Trains from the City are not impacted and continue to run as timetabled. Trains to the City from Macarthur will instead run via Liverpool and Strathfield. Other trains may run late and may have changed stops. For service updates, please check transport apps, information screens and listen to announcements.",
+    "content": "Buses replace trains from Glenfield to Revesby in that direction only due to an object near the overhead at Panania. Limited buses are replacing trains from Glenfield to Revesby in that direction. Trains from the City are not impacted and continue to run as timetabled. Trains to the City from Macarthur will instead run via Liverpool and Strathfield. Other trains may run late and may have changed stops. For service updates, please check transport apps, information screens and listen to announcements.",
     "subtitle": "Airport & South Line",
     "properties": {
       "smsText": "Airport & South Line",
-      "speechText": "Buses replace trains from Glenfield to Revesby in that direction only due to an object near the overhead at Panania. We have arranged replacement buses to run from Glenfield to Revesby in that direction. Trains from the City are not impacted and continue to run as timetabled. Trains to the City from Macarthur will instead run via Liverpool and Strathfield. Other trains may run late and may have changed stops. For service updates, please check transport apps, information screens and listen to announcements.",
+      "speechText": "Buses replace trains from Glenfield to Revesby in that direction only due to an object near the overhead at Panania. Limited buses are replacing trains from Glenfield to Revesby in that direction. Trains from the City are not impacted and continue to run as timetabled. Trains to the City from Macarthur will instead run via Liverpool and Strathfield. Other trains may run late and may have changed stops. For service updates, please check transport apps, information screens and listen to announcements.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
