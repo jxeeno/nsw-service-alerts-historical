@@ -8914,11 +8914,11 @@
   {
     "type": "lineInfo",
     "id": "ems-29794",
-    "version": 1,
+    "version": 3636,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-03-03T21:12:00Z",
-      "lastModification": "2024-03-03T21:12:00Z",
+      "lastModification": "2024-03-03T22:13:00Z",
       "availability": {
         "from": "2024-03-03T21:11:00Z",
         "to": "2500-12-31T00:00:00Z"
@@ -8933,11 +8933,11 @@
     },
     "urlText": "Some services cancelled",
     "url": "https://transportnsw.info/alerts/details#/ems-29794",
-    "content": "<div>\n<div>The 8:10am Circular Quay to Manly and the 8:40am Manly to Circular Quay ferries have been cancelled due to the large swell.</div>\n<ul>\n<li>The next service from Circular Quay to Manly is due at 8:30am</li>\n<li>The next service from Manly to Circular Quay is due at 9am</li>\n<li>Listen to announcements and check information displays for service updates</li>\n</ul>\n</div>",
+    "content": "<div>\n<div>The 9:10am Circular Quay to Manly and the 9:40am Manly to Circular Quay ferries have been cancelled due to the large swell.</div>\n<ul>\n<li>The next service from Circular Quay to Manly is due at 9:30am</li>\n<li>The next service from Manly to Circular Quay is due at 10am</li>\n<li>Listen to announcements and check information displays for service updates</li>\n</ul>\n</div>",
     "subtitle": "Some services cancelled",
     "properties": {
       "smsText": "Some services cancelled",
-      "speechText": "The 8:10am Circular Quay to Manly and the 8:40am Manly to Circular Quay ferries have been cancelled due to the large swell. The next service from Circular Quay to Manly is due at 8:30am and the next service from Manly to Circular Quay is due at 9am. Listen to announcements and check information displays for service updates.",
+      "speechText": "The 9:10am Circular Quay to Manly and the 9:40am Manly to Circular Quay ferries have been cancelled due to the large swell. The next service from Circular Quay to Manly is due at 9:30am and the next service from Manly to Circular Quay is due at 10am. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -43356,6 +43356,90 @@
             "id": "X0000",
             "name": "NSW Trains"
           }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-29799",
+    "version": 5,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-03T22:17:00Z",
+      "lastModification": "2024-03-03T22:17:00Z",
+      "availability": {
+        "from": "2024-02-15T09:36:00Z",
+        "to": "2503-04-01T09:41:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-03T22:17:00Z",
+          "to": "2503-04-01T09:41:00Z"
+        }
+      ],
+      "expiration": "2503-04-01T09:41:59Z"
+    },
+    "urlText": "Lift at Victoria Street Station not available between the concourse and Victoria Street",
+    "url": "https://transportnsw.info/alerts/details#/ems-29799",
+    "content": "The lift between the concourse and Victoria Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9240.",
+    "subtitle": "Lift at Victoria Street Station not available between the concourse and Victoria Street",
+    "properties": {
+      "smsText": "Lift at Victoria Street Station not available between the concourse and Victoria Street",
+      "speechText": "The lift at Victoria Street Station between the concourse and Victoria Street is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9240.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "232320",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Newcastle Interchange",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :H:",
+          "destination": {
+            "name": "Dungog Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Newcastle Interchange to Telarah",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "232320",
+          "isGlobalId": true,
+          "name": "Victoria Street Station",
+          "type": "stop"
         }
       ]
     }
