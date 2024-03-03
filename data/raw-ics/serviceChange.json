@@ -11539,11 +11539,11 @@
   {
     "type": "stopInfo",
     "id": "ems-26374",
-    "version": 44,
+    "version": 6370792,
     "priority": "normal",
     "timestamps": {
       "creation": "2023-12-21T04:19:00Z",
-      "lastModification": "2023-12-21T04:20:00Z",
+      "lastModification": "2024-03-03T21:59:00Z",
       "availability": {
         "from": "2024-01-22T04:00:00Z",
         "to": "2500-12-31T00:00:00Z"
@@ -11558,11 +11558,11 @@
     },
     "urlText": "Minor timetable changes from February 2024",
     "url": "https://transportnsw.info/alerts/details#/ems-26374",
-    "content": "<div>Starting February 3, 2024, a few adjustments will be made to some train services on the Southern Highlands Line.</div>\n<div>&nbsp;</div>\n<div><strong>At Douglas Park station:</strong></div>\n<ul>\n<li>The 6:27pm train from Douglas Park to Moss Vale will leave one minute earlier at 6:26 pm.</li>\n</ul>\n<div><strong>At Bargo Station:</strong></div>\n<ul>\n<li>The 7:19pm train from Bargo to Goulburn will leave one minute earlier at 7:18 pm.</li>\n</ul>\n<div>For updates, use the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> or use a <a href=\"https://transportnsw.info/apps\">travel app</a>.</div>",
+    "content": "<div>Starting February 3, 2024, a few adjustments will be made to some train services on the Southern Highlands Line.</div>\n<div>&nbsp;</div>\n<div><strong>At Douglas Park station:</strong></div>\n<ul>\n<li>The 4:27pm train from Douglas Park to Moss Vale will leave one minute earlier at 4:26 pm.</li>\n</ul>\n<div><strong>At Bargo Station:</strong></div>\n<ul>\n<li>The 7:19pm train from Bargo to Goulburn will leave one minute earlier at 7:18 pm.</li>\n</ul>\n<div>For updates, use the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> or use a <a href=\"https://transportnsw.info/apps\">travel app</a>.</div>",
     "subtitle": "Minor timetable changes from February 2024",
     "properties": {
       "smsText": "Minor timetable changes from February 2024",
-      "speechText": "Starting February 3, 2024, a few adjustments will be made to some train services on the Southern Highlands Line.\n At Douglas Park station, the 6:27pm train from Douglas Park to Moss Vale will leave one minute earlier at 6:26 pm.\nAt Bargo Station, the 7:19pm train from Bargo to Goulburn will leave one minute earlier at 7:18 pm.",
+      "speechText": "Starting February 3, 2024, a few adjustments will be made to some train services on the Southern Highlands Line.\n At Douglas Park station, the 4:27pm train from Douglas Park to Moss Vale will leave one minute earlier at 4:26 pm.\nAt Bargo Station, the 7:19pm train from Bargo to Goulburn will leave one minute earlier at 7:18 pm.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -11572,14 +11572,14 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76SHL: :H:",
+          "id": "nsw:76SHL: :R:",
           "destination": {
-            "name": "Goulburn Station",
+            "name": "Central Station",
             "type": "stop"
           },
           "name": "Intercity Trains Network Southern Highlands Line",
           "number": "Southern Highlands Line",
-          "description": "Campbelltown to Moss Vale",
+          "description": "Moss Vale to Campbelltown",
           "iconId": 2,
           "product": {
             "class": 1,
@@ -11591,14 +11591,14 @@
           }
         },
         {
-          "id": "nsw:76SHL: :R:",
+          "id": "nsw:76SHL: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Goulburn Station",
             "type": "stop"
           },
           "name": "Intercity Trains Network Southern Highlands Line",
           "number": "Southern Highlands Line",
-          "description": "Moss Vale to Campbelltown",
+          "description": "Campbelltown to Moss Vale",
           "iconId": 2,
           "product": {
             "class": 1,
@@ -29241,6 +29241,61 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-29798",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-03T22:01:00Z",
+      "lastModification": "2024-03-03T22:01:00Z",
+      "availability": {
+        "from": "2024-03-03T21:59:00Z",
+        "to": "2024-03-04T05:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-03T21:59:00Z",
+          "to": "2024-03-04T05:59:00Z"
+        }
+      ],
+      "expiration": "2024-03-04T05:59:59Z"
+    },
+    "urlText": "Train service delays at Casino Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-29798",
+    "content": "There are delays on route 32 train services due to a customer requiring urgent medical treatment. \n<div>This service is delayed due to a passenger medical issue.</div> Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Casino Station",
+    "properties": {
+      "smsText": "Train service delays at Casino Station",
+      "speechText": "There are delays on route 32 train services due to a customer requiring urgent medical treatment. \nThis service is delayed due to a passenger medical issue. Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
