@@ -4882,6 +4882,106 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-30177",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-11T23:12:00Z",
+      "lastModification": "2024-03-11T23:12:00Z",
+      "availability": {
+        "from": "2024-03-11T23:00:00Z",
+        "to": "2024-03-17T01:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-16T23:30:00Z",
+          "to": "2024-03-17T01:00:00Z"
+        }
+      ],
+      "expiration": "2024-03-17T01:00:59Z"
+    },
+    "urlText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+    "url": "https://transportnsw.info/alerts/details#/ems-30177",
+    "content": "<ul>\n<li><strong>From 10.30am to 12pm midday,</strong> route <strong>263</strong>&nbsp;buses will start and end trips at Wynyard instead of Bridge St&nbsp; due to road closures in place for the St Patrick&rsquo;s Day Parade.</li>\n<li>Buses to the city will end trips at Wynyard Station, York St, Stand N. Buses leaving the city will start trips from Wynyard Station, York Street, Stand L.</li>\n<li>Check signs at stops and allow extra travel time.</li>\n</ul>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge Street (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>",
+    "subtitle": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+    "properties": {
+      "smsText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+      "speechText": "From 10:30AM to 12PM midday, route 263 buses will start and end trips at Wynyard instead of Bridge St  due to road closures in place for the St Patrick’s Day Parade.\nBuses to the city will end trips at Wynyard Station, York St, Stand N. Buses leaving the city will start trips from Wynyard Station, York Street, Stand L.\nCheck signs at stops and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G2000417#G200096",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:29263: :H:",
+          "destination": {
+            "name": "Crows Nest, Burlington St, Crows Nest",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 263",
+          "number": "263",
+          "description": "City Bridge St to Crows Nest via Cremorne",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29263: :R:",
+          "destination": {
+            "name": "Bridge St at Gresham St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 263",
+          "number": "263",
+          "description": "Crows Nest to City Bridge St via Cremorne",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G2000417",
+          "isGlobalId": true,
+          "name": "Burns Philp Building, Bridge St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200096",
+          "isGlobalId": true,
+          "name": "Bridge St at Gresham St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-29687",
     "version": 326269,
@@ -14592,6 +14692,61 @@
           "isGlobalId": true,
           "name": "Toongabbie Station",
           "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-30179",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-11T23:19:00Z",
+      "lastModification": "2024-03-11T23:19:00Z",
+      "availability": {
+        "from": "2024-03-11T23:18:00Z",
+        "to": "2024-03-12T00:18:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-11T23:18:00Z",
+          "to": "2024-03-12T00:18:00Z"
+        }
+      ],
+      "expiration": "2024-03-12T00:18:59Z"
+    },
+    "urlText": "Coach service delays at West Wyalong Coach Stop",
+    "url": "https://transportnsw.info/alerts/details#/ems-30179",
+    "content": "There are delays on route 722 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at West Wyalong Coach Stop",
+    "properties": {
+      "smsText": "Coach service delays at West Wyalong Coach Stop",
+      "speechText": "There are delays on route 722 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76722: :R:",
+          "destination": {
+            "name": "Wagga Wagga Station, Turvey Park",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 722",
+          "number": "722",
+          "description": "Condobolin Town to Wagga Wagga",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
         }
       ]
     }
