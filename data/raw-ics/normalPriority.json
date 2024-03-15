@@ -5020,56 +5020,199 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-30389",
-    "version": 44,
+    "type": "stopInfo",
+    "id": "ems-30392",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2024-03-15T10:33:00Z",
-      "lastModification": "2024-03-15T10:33:00Z",
+      "creation": "2024-03-15T12:03:00Z",
+      "lastModification": "2024-03-15T12:03:00Z",
       "availability": {
-        "from": "2024-03-15T10:32:00Z",
-        "to": "2024-03-15T12:02:00Z"
+        "from": "2024-03-08T14:53:00Z",
+        "to": "2503-04-23T14:54:00Z"
       },
       "validity": [
         {
-          "from": "2024-03-15T10:32:00Z",
-          "to": "2024-03-15T12:02:00Z"
+          "from": "2024-03-15T12:03:00Z",
+          "to": "2503-04-23T14:54:00Z"
         }
       ],
-      "expiration": "2024-03-15T12:02:59Z"
+      "expiration": "2503-04-23T14:54:59Z"
     },
-    "urlText": "Train service delays between Moss Vale Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-30389",
-    "content": "There are delays on route 636 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Moss Vale Station and Central Station",
+    "urlText": "Lift at Chatswood Station not available between the concourse and platforms 3/4",
+    "url": "https://transportnsw.info/alerts/details#/ems-30392",
+    "content": "The lift between the concourse and platforms 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311.",
+    "subtitle": "Lift at Chatswood Station not available between the concourse and platforms 3/4",
     "properties": {
-      "smsText": "Train service delays between Moss Vale Station and Central Station",
-      "speechText": "There are delays on route 636 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
+      "smsText": "Lift at Chatswood Station not available between the concourse and platforms 3/4",
+      "speechText": "The lift at Chatswood Station between the concourse and platforms 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311.",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "206710:2067143,2067144",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76636: :R:",
+          "id": "nsw:02CCN: :R:",
           "destination": {
             "name": "Central Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 636",
-          "number": "636",
-          "description": "Canberra to Central",
-          "iconId": 3,
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
           "product": {
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:0300M: :R:",
+          "destination": {
+            "name": "Chatswood Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Tallawong to Chatswood",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:0300M: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M Metro North West Line",
+          "number": "M Metro North West Line",
+          "description": "Chatswood to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "206710",
+          "isGlobalId": true,
+          "name": "Chatswood Station, Platform 3",
+          "type": "stop"
         }
       ]
     }
@@ -10691,174 +10834,6 @@
     }
   },
   {
-    "type": "routeInfo",
-    "id": "ems-30378",
-    "version": 60,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-03-15T04:15:00Z",
-      "lastModification": "2024-03-15T04:16:00Z",
-      "availability": {
-        "from": "2024-03-15T03:00:00Z",
-        "to": "2024-04-13T11:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-13T04:00:00Z",
-          "to": "2024-04-13T11:30:00Z"
-        }
-      ],
-      "expiration": "2024-04-13T11:30:59Z"
-    },
-    "urlText": "13th April- CLK 428 Dubbo to Sydney XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-30378",
-    "content": "<div>Due to planned trackwork , the Dubbo to Sydney train service will be replaced by road coaches between Bathurst and Sydney. On arrival at Bathurst transfer to the awaiting road coaches for the remainder of the journey.&nbsp;</div>",
-    "subtitle": "13th April- CLK 428 Dubbo to Sydney XPT service.",
-    "properties": {
-      "smsText": "13th April- CLK 428 Dubbo to Sydney XPT service.",
-      "speechText": "Due to planned trackwork , the Dubbo to Sydney train service will be replaced by road coaches between Bathurst and Sydney. On arrival at Bathurst transfer to the awaiting road coaches for the remainder of the journey.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "stopIDglobalID": "200060#213510#215020#214810#275010#278020#279010#2790128#27871#279538",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76428: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 428",
-          "number": "428",
-          "description": "Dubbo to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "200060",
-          "isGlobalId": true,
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "213510",
-          "isGlobalId": true,
-          "name": "Strathfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95356003:1",
-            "name": "Strathfield",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "215020",
-          "isGlobalId": true,
-          "name": "Parramatta Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95346013:1",
-            "name": "Parramatta",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "214810",
-          "isGlobalId": true,
-          "name": "Blacktown Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308005:1",
-            "name": "Blacktown",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "275010",
-          "isGlobalId": true,
-          "name": "Penrith Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95347024:1",
-            "name": "Penrith",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "278020",
-          "isGlobalId": true,
-          "name": "Katoomba Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95309012:1",
-            "name": "Katoomba",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "279010",
-          "isGlobalId": true,
-          "name": "Lithgow Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95334014:1",
-            "name": "Lithgow",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "2790128",
-          "isGlobalId": true,
-          "name": "Rydal Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95334024:1",
-            "name": "Rydal",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "27871",
-          "isGlobalId": true,
-          "name": "Tarana Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95334031:1",
-            "name": "Tarana",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "279538",
-          "isGlobalId": true,
-          "name": "Bathurst Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95306002:1",
-            "name": "Bathurst",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-24682",
     "version": 10037520,
@@ -11323,6 +11298,174 @@
           "operator": {
             "id": "SF",
             "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "ems-30378",
+    "version": 60,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-15T04:15:00Z",
+      "lastModification": "2024-03-15T04:16:00Z",
+      "availability": {
+        "from": "2024-03-15T03:00:00Z",
+        "to": "2024-04-13T11:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-13T04:00:00Z",
+          "to": "2024-04-13T11:30:00Z"
+        }
+      ],
+      "expiration": "2024-04-13T11:30:59Z"
+    },
+    "urlText": "13th April- CLK 428 Dubbo to Sydney XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-30378",
+    "content": "<div>Due to planned trackwork , the Dubbo to Sydney train service will be replaced by road coaches between Bathurst and Sydney. On arrival at Bathurst transfer to the awaiting road coaches for the remainder of the journey.&nbsp;</div>",
+    "subtitle": "13th April- CLK 428 Dubbo to Sydney XPT service.",
+    "properties": {
+      "smsText": "13th April- CLK 428 Dubbo to Sydney XPT service.",
+      "speechText": "Due to planned trackwork , the Dubbo to Sydney train service will be replaced by road coaches between Bathurst and Sydney. On arrival at Bathurst transfer to the awaiting road coaches for the remainder of the journey.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "stopIDglobalID": "200060#213510#215020#214810#275010#278020#279010#2790128#27871#279538",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200060",
+          "isGlobalId": true,
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "213510",
+          "isGlobalId": true,
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "215020",
+          "isGlobalId": true,
+          "name": "Parramatta Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "214810",
+          "isGlobalId": true,
+          "name": "Blacktown Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308005:1",
+            "name": "Blacktown",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "275010",
+          "isGlobalId": true,
+          "name": "Penrith Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347024:1",
+            "name": "Penrith",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "278020",
+          "isGlobalId": true,
+          "name": "Katoomba Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95309012:1",
+            "name": "Katoomba",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "279010",
+          "isGlobalId": true,
+          "name": "Lithgow Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95334014:1",
+            "name": "Lithgow",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "2790128",
+          "isGlobalId": true,
+          "name": "Rydal Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95334024:1",
+            "name": "Rydal",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "27871",
+          "isGlobalId": true,
+          "name": "Tarana Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95334031:1",
+            "name": "Tarana",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "279538",
+          "isGlobalId": true,
+          "name": "Bathurst Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95306002:1",
+            "name": "Bathurst",
+            "type": "locality"
           }
         }
       ]
