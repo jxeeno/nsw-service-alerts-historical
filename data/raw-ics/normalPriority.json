@@ -5021,6 +5021,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-30389",
+    "version": 44,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-15T10:33:00Z",
+      "lastModification": "2024-03-15T10:33:00Z",
+      "availability": {
+        "from": "2024-03-15T10:32:00Z",
+        "to": "2024-03-15T12:02:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-15T10:32:00Z",
+          "to": "2024-03-15T12:02:00Z"
+        }
+      ],
+      "expiration": "2024-03-15T12:02:59Z"
+    },
+    "urlText": "Train service delays between Moss Vale Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-30389",
+    "content": "There are delays on route 636 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Moss Vale Station and Central Station",
+    "properties": {
+      "smsText": "Train service delays between Moss Vale Station and Central Station",
+      "speechText": "There are delays on route 636 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76636: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 636",
+          "number": "636",
+          "description": "Canberra to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-30262",
     "version": 3354,
     "priority": "normal",
@@ -9261,6 +9316,109 @@
             "id": "2503",
             "name": "Transit Systems NSW"
           }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-30390",
+    "version": 5,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-15T10:37:00Z",
+      "lastModification": "2024-03-15T10:37:00Z",
+      "availability": {
+        "from": "2024-03-08T13:27:00Z",
+        "to": "2503-04-23T13:28:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-15T10:37:00Z",
+          "to": "2503-04-23T13:28:00Z"
+        }
+      ],
+      "expiration": "2503-04-23T13:28:59Z"
+    },
+    "urlText": "Lift at Lakemba Station not available between the concourse and platforms 1 & 2",
+    "url": "https://transportnsw.info/alerts/details#/ems-30390",
+    "content": "The lift between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7549.",
+    "subtitle": "Lift at Lakemba Station not available between the concourse and platforms 1 & 2",
+    "properties": {
+      "smsText": "Lift at Lakemba Station not available between the concourse and platforms 1 & 2",
+      "speechText": "The lift at Lakemba Station between the concourse and platforms 1 & 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7549.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "219510:2195131,2195132",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Lidcombe Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Lidcombe Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "219510",
+          "isGlobalId": true,
+          "name": "Lakemba Station, Platform 1",
+          "type": "stop"
         }
       ]
     }
