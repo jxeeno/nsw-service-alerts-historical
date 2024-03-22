@@ -9326,6 +9326,90 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-30737",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-22T22:11:00Z",
+      "lastModification": "2024-03-22T22:11:00Z",
+      "availability": {
+        "from": "2024-03-16T01:01:00Z",
+        "to": "2503-05-01T01:01:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-22T22:11:00Z",
+          "to": "2503-05-01T01:01:00Z"
+        }
+      ],
+      "expiration": "2503-05-01T01:01:59Z"
+    },
+    "urlText": "Lift at Pennant Hills Station not available between the concourse and Yarrara Road",
+    "url": "https://transportnsw.info/alerts/details#/ems-30737",
+    "content": "The lift between the concourse and Yarrara Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8422.",
+    "subtitle": "Lift at Pennant Hills Station not available between the concourse and Yarrara Road",
+    "properties": {
+      "smsText": "Lift at Pennant Hills Station not available between the concourse and Yarrara Road",
+      "speechText": "The lift at Pennant Hills Station between the concourse and Yarrara Road is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8422.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "212020",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "212020",
+          "isGlobalId": true,
+          "name": "Pennant Hills Station",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-30340",
     "version": 1,
@@ -16824,55 +16908,33 @@
   {
     "type": "lineInfo",
     "id": "ems-30733",
-    "version": 1,
+    "version": 1800,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-03-22T21:42:00Z",
-      "lastModification": "2024-03-22T21:42:00Z",
+      "lastModification": "2024-03-22T22:12:00Z",
       "availability": {
         "from": "2024-03-22T21:27:00Z",
-        "to": "2024-03-23T00:27:00Z"
+        "to": "2024-03-22T22:22:00Z"
       },
       "validity": [
         {
           "from": "2024-03-22T21:27:00Z",
-          "to": "2024-03-23T00:27:00Z"
+          "to": "2024-03-22T22:12:00Z"
         }
       ],
-      "expiration": "2024-03-23T00:27:59Z"
+      "expiration": "2024-03-22T22:12:59Z"
     },
-    "urlText": "Concord bus disruptions",
+    "urlText": "",
     "url": "https://transportnsw.info/alerts/details#/ems-30733",
-    "content": "<div>Westbound buses using Burwood Road and Crane Street in Concord are running late and using diversions due to a crash.&nbsp;</div>\n<ul>\n<li>410 to Waterloo and 464 to Mortlake are using Gipps Street,Broughton Street and Crane Street.</li>\n<li>502 to Cabarita is using Lyons Road West&lt; Bayview Street, Gipps Street. Broughton Street and Crane Street.</li>\n</ul>\n<div>Four bus stops are being missed.</div>\n<div>&nbsp;</div>",
-    "subtitle": "Concord bus disruptions",
+    "subtitle": "",
     "properties": {
-      "smsText": "Concord bus disruptions",
-      "speechText": "In Concord, westbound buses using Burwood Road and Crane Street in Concord are running late and using diversions due to a crash. \n410 to Waterloo and 464 to Mortlake are using Gipps Street,Broughton Street and Crane Street.\n502 to Cabarita is using Lyons Road West< Bayview Street, Gipps Street. Broughton Street and Crane Street.\nFour bus stops are being missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
-        {
-          "id": "nsw:74410: :R:",
-          "destination": {
-            "name": "Hurstville Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 410",
-          "number": "410",
-          "description": "Macquarie Park to Hurstville",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
         {
           "id": "nsw:74410: :H:",
           "destination": {
@@ -16893,14 +16955,14 @@
           }
         },
         {
-          "id": "nsw:74464: :R:",
+          "id": "nsw:74464: :H:",
           "destination": {
-            "name": "Ashfield Station",
+            "name": "Whittaker St at Tennyson Rd, Mortlake",
             "type": "stop"
           },
           "name": "Sydney Buses Network 464",
           "number": "464",
-          "description": "Mortlake to Ashfield",
+          "description": "Ashfield to Mortlake",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -16912,14 +16974,33 @@
           }
         },
         {
-          "id": "nsw:74464: :H:",
+          "id": "nsw:74410: :R:",
           "destination": {
-            "name": "Whittaker St at Tennyson Rd, Mortlake",
+            "name": "Hurstville Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 410",
+          "number": "410",
+          "description": "Macquarie Park to Hurstville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74464: :R:",
+          "destination": {
+            "name": "Ashfield Station",
             "type": "stop"
           },
           "name": "Sydney Buses Network 464",
           "number": "464",
-          "description": "Ashfield to Mortlake",
+          "description": "Mortlake to Ashfield",
           "iconId": 5,
           "product": {
             "class": 5,
