@@ -846,54 +846,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-31300",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-03T08:02:00Z",
-      "lastModification": "2024-04-03T08:02:00Z",
-      "availability": {
-        "from": "2024-03-27T10:52:00Z",
-        "to": "2503-05-12T10:53:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-03T08:02:00Z",
-          "to": "2503-05-12T10:53:00Z"
-        }
-      ],
-      "expiration": "2503-05-12T10:53:59Z"
-    },
-    "urlText": "Lift at Gordon Station not available between the concourse and platform 2 & 3",
-    "url": "https://transportnsw.info/alerts/details#/ems-31300",
-    "content": "The lift between the concourse and platform 2 & 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
-    "subtitle": "Lift at Gordon Station not available between the concourse and platform 2 & 3",
-    "properties": {
-      "smsText": "Lift at Gordon Station not available between the concourse and platform 2 & 3",
-      "speechText": "The lift at Gordon Station between the concourse and platform 2 & 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ff648c31-f2dc-517a-98e5-1a5e44b93166",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "207210:207262,207263",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "207210",
-          "isGlobalId": true,
-          "name": "Gordon Station, Platform 2",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-31396",
     "version": 3,
     "priority": "normal",
@@ -3959,6 +3911,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-31374",
+    "version": 297,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-04T19:36:00Z",
+      "lastModification": "2024-04-04T19:41:00Z",
+      "availability": {
+        "from": "2022-07-03T19:22:00Z",
+        "to": "2024-04-08T07:04:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-04T19:36:00Z",
+          "to": "2024-04-08T07:04:00Z"
+        }
+      ],
+      "expiration": "2024-04-08T07:04:59Z"
+    },
+    "urlText": "Buses replacing ferries between Parramatta and Rydalmere",
+    "url": "https://transportnsw.info/alerts/details#/ems-31374",
+    "content": "<div>Buses are replacing ferries between Parramatta and Rydalmere due to the Parramatta Weir overflowing.</div>\n<ul>\n<li>Allow extra travel time</li>\n<li>Listen to announcements and check information displays for service updates</li>\n</ul>",
+    "subtitle": "Buses replacing ferries between Parramatta and Rydalmere",
+    "properties": {
+      "smsText": "Buses replacing ferries between Parramatta and Rydalmere",
+      "speechText": "Buses are replacing ferries between Parramatta and Rydalmere due to the Parramatta Weir overflowing. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Parramatta Wharf, Parramatta",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Parramatta",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Parramatta to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-31331",
     "version": 1,
     "priority": "normal",
@@ -4717,80 +4743,6 @@
           "operator": {
             "id": "2507",
             "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-31374",
-    "version": 297,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-04T19:36:00Z",
-      "lastModification": "2024-04-04T19:41:00Z",
-      "availability": {
-        "from": "2022-07-03T19:22:00Z",
-        "to": "2024-04-08T07:04:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-04T19:36:00Z",
-          "to": "2024-04-08T07:04:00Z"
-        }
-      ],
-      "expiration": "2024-04-08T07:04:59Z"
-    },
-    "urlText": "Buses replacing ferries between Parramatta and Rydalmere",
-    "url": "https://transportnsw.info/alerts/details#/ems-31374",
-    "content": "<div>Buses are replacing ferries between Parramatta and Rydalmere due to the Parramatta Weir overflowing.</div>\n<ul>\n<li>Allow extra travel time</li>\n<li>Listen to announcements and check information displays for service updates</li>\n</ul>",
-    "subtitle": "Buses replacing ferries between Parramatta and Rydalmere",
-    "properties": {
-      "smsText": "Buses replacing ferries between Parramatta and Rydalmere",
-      "speechText": "Buses are replacing ferries between Parramatta and Rydalmere due to the Parramatta Weir overflowing. Allow extra travel time, listen to announcements and check information displays for service updates.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F3: :H:",
-          "destination": {
-            "name": "Parramatta Wharf, Parramatta",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Circular Quay to Parramatta",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F3: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Parramatta to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
           }
         }
       ]
@@ -8441,6 +8393,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-31388",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-04T22:41:00Z",
+      "lastModification": "2024-04-04T22:41:00Z",
+      "availability": {
+        "from": "2024-04-04T22:40:00Z",
+        "to": "2024-04-05T10:40:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-04T22:40:00Z",
+          "to": "2024-04-05T10:40:00Z"
+        }
+      ],
+      "expiration": "2024-04-05T10:40:59Z"
+    },
+    "urlText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-31388",
+    "content": "There are delays on route 624 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
+    "properties": {
+      "smsText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
+      "speechText": "There are delays on route 624 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-30833",
     "version": 1,
     "priority": "normal",
@@ -8721,61 +8728,6 @@
           "isGlobalId": true,
           "name": "Canley Vale Station, Platform 1",
           "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-31388",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-04T22:41:00Z",
-      "lastModification": "2024-04-04T22:41:00Z",
-      "availability": {
-        "from": "2024-04-04T22:40:00Z",
-        "to": "2024-04-05T10:40:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-04T22:40:00Z",
-          "to": "2024-04-05T10:40:00Z"
-        }
-      ],
-      "expiration": "2024-04-05T10:40:59Z"
-    },
-    "urlText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-31388",
-    "content": "There are delays on route 624 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-    "properties": {
-      "smsText": "Train service delays between Melbourne (Southern Cross) Station (VIC) and Central Station",
-      "speechText": "There are delays on route 624 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
         }
       ]
     }
@@ -11611,6 +11563,54 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-31370",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-04T19:16:00Z",
+      "lastModification": "2024-04-04T19:16:00Z",
+      "availability": {
+        "from": "2023-10-31T03:02:00Z",
+        "to": "2503-04-14T17:07:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-03T20:16:00Z",
+          "to": "2503-04-14T17:07:00Z"
+        }
+      ],
+      "expiration": "2503-04-14T17:07:59Z"
+    },
+    "urlText": "Lift at Canley Vale Station not available between the concourse and platform 2",
+    "url": "https://transportnsw.info/alerts/details#/ems-31370",
+    "content": "The lift between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1102.",
+    "subtitle": "Lift at Canley Vale Station not available between the concourse and platform 2",
+    "properties": {
+      "smsText": "Lift at Canley Vale Station not available between the concourse and platform 2",
+      "speechText": "The lift at Canley Vale Station between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1102.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "8b5c1a26-7d78-5090-b777-e4cc288ed6b0",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "216610:2166282",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "216610",
+          "isGlobalId": true,
+          "name": "Canley Vale Station, Platform 2",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-31321",
     "version": 19,
     "priority": "normal",
@@ -11700,54 +11700,6 @@
           "id": "200030",
           "isGlobalId": true,
           "name": "Martin Place Station",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-31370",
-    "version": 3,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-04T19:16:00Z",
-      "lastModification": "2024-04-04T19:16:00Z",
-      "availability": {
-        "from": "2023-10-31T03:02:00Z",
-        "to": "2503-04-14T17:07:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-03T20:16:00Z",
-          "to": "2503-04-14T17:07:00Z"
-        }
-      ],
-      "expiration": "2503-04-14T17:07:59Z"
-    },
-    "urlText": "Lift at Canley Vale Station not available between the concourse and platform 2",
-    "url": "https://transportnsw.info/alerts/details#/ems-31370",
-    "content": "The lift between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1102.",
-    "subtitle": "Lift at Canley Vale Station not available between the concourse and platform 2",
-    "properties": {
-      "smsText": "Lift at Canley Vale Station not available between the concourse and platform 2",
-      "speechText": "The lift at Canley Vale Station between the concourse and platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1102.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "8b5c1a26-7d78-5090-b777-e4cc288ed6b0",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "216610:2166282",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "216610",
-          "isGlobalId": true,
-          "name": "Canley Vale Station, Platform 2",
           "type": "stop"
         }
       ]
@@ -12597,6 +12549,80 @@
           "operator": {
             "id": "B054",
             "name": "Casino Bus Service"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-31400",
+    "version": 5528,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-05T02:23:00Z",
+      "lastModification": "2024-04-05T03:55:00Z",
+      "availability": {
+        "from": "2024-04-05T02:22:00Z",
+        "to": "2024-04-05T11:22:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-05T02:22:00Z",
+          "to": "2024-04-05T11:22:00Z"
+        }
+      ],
+      "expiration": "2024-04-05T11:22:59Z"
+    },
+    "urlText": "Some services cancelled",
+    "url": "https://transportnsw.info/alerts/details#/ems-31400",
+    "content": "<div>\n<div>The 2.30pm Circular Quay to Manly and the 3pm Manly to Circular Quay ferries have been cancelled due to a mechanical issue.</div>\n<ul>\n<li>The next service to leave Circular Quay is due at 2:45pm</li>\n<li>The next service to leave Manly is due at 3:15pm</li>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates</li>\n</ul>\n</div>",
+    "subtitle": "Some services cancelled",
+    "properties": {
+      "smsText": "Some services cancelled",
+      "speechText": "The 2.30pm Circular Quay to Manly and the 3pm Manly to Circular Quay ferries have been cancelled due to a mechanical issue.\nThe next service to leave Circular Quay is due at 2:45pm\nThe next service to leave Manly is due at 3:15pm\nAllow extra travel time, listen to announcements and check information displays for service updates",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F1: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Manly to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F1: :H:",
+          "destination": {
+            "name": "Manly Wharf, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Circular Quay to Manly",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
@@ -13746,54 +13772,6 @@
     }
   },
   {
-    "type": "infrastructure",
-    "id": "ems-31357",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-04T11:32:00Z",
-      "lastModification": "2024-04-04T11:32:00Z",
-      "availability": {
-        "from": "2024-03-28T14:22:00Z",
-        "to": "2503-05-13T14:23:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-04T11:32:00Z",
-          "to": "2503-05-13T14:23:00Z"
-        }
-      ],
-      "expiration": "2503-05-13T14:23:59Z"
-    },
-    "urlText": "Lift at Mount Druitt Station not available between the concourse and the bus interchange",
-    "url": "https://transportnsw.info/alerts/details#/ems-31357",
-    "content": "The lift between the concourse and the bus interchange is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
-    "subtitle": "Lift at Mount Druitt Station not available between the concourse and the bus interchange",
-    "properties": {
-      "smsText": "Lift at Mount Druitt Station not available between the concourse and the bus interchange",
-      "speechText": "The lift at Mount Druitt Station between the concourse and the bus interchange is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "8be56b7d-b0c4-5d97-8548-0116fe05f10c",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "277010",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "277010",
-          "isGlobalId": true,
-          "name": "Mount Druitt Station",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "6cda16912bc127bad1827279dc7910d36123c52b",
     "version": 3600,
@@ -13907,75 +13885,49 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-31400",
-    "version": 5528,
+    "type": "infrastructure",
+    "id": "ems-31357",
+    "version": 2,
     "priority": "normal",
     "timestamps": {
-      "creation": "2024-04-05T02:23:00Z",
-      "lastModification": "2024-04-05T03:55:00Z",
+      "creation": "2024-04-04T11:32:00Z",
+      "lastModification": "2024-04-04T11:32:00Z",
       "availability": {
-        "from": "2024-04-05T02:22:00Z",
-        "to": "2024-04-05T11:22:00Z"
+        "from": "2024-03-28T14:22:00Z",
+        "to": "2503-05-13T14:23:00Z"
       },
       "validity": [
         {
-          "from": "2024-04-05T02:22:00Z",
-          "to": "2024-04-05T11:22:00Z"
+          "from": "2024-04-04T11:32:00Z",
+          "to": "2503-05-13T14:23:00Z"
         }
       ],
-      "expiration": "2024-04-05T11:22:59Z"
+      "expiration": "2503-05-13T14:23:59Z"
     },
-    "urlText": "Some services cancelled",
-    "url": "https://transportnsw.info/alerts/details#/ems-31400",
-    "content": "<div>\n<div>The 2.30pm Circular Quay to Manly and the 3pm Manly to Circular Quay ferries have been cancelled due to a mechanical issue.</div>\n<ul>\n<li>The next service to leave Circular Quay is due at 2:45pm</li>\n<li>The next service to leave Manly is due at 3:15pm</li>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates</li>\n</ul>\n</div>",
-    "subtitle": "Some services cancelled",
+    "urlText": "Lift at Mount Druitt Station not available between the concourse and the bus interchange",
+    "url": "https://transportnsw.info/alerts/details#/ems-31357",
+    "content": "The lift between the concourse and the bus interchange is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
+    "subtitle": "Lift at Mount Druitt Station not available between the concourse and the bus interchange",
     "properties": {
-      "smsText": "Some services cancelled",
-      "speechText": "The 2.30pm Circular Quay to Manly and the 3pm Manly to Circular Quay ferries have been cancelled due to a mechanical issue.\nThe next service to leave Circular Quay is due at 2:45pm\nThe next service to leave Manly is due at 3:15pm\nAllow extra travel time, listen to announcements and check information displays for service updates",
-      "announcementType": "serviceChange",
+      "smsText": "Lift at Mount Druitt Station not available between the concourse and the bus interchange",
+      "speechText": "The lift at Mount Druitt Station between the concourse and the bus interchange is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "8be56b7d-b0c4-5d97-8548-0116fe05f10c",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "277010",
       "providerCode": "TfNSW"
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:090F1: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Manly to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F1: :H:",
-          "destination": {
-            "name": "Manly Wharf, Manly",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Circular Quay to Manly",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
+          "id": "277010",
+          "isGlobalId": true,
+          "name": "Mount Druitt Station",
+          "type": "stop"
         }
       ]
     }
@@ -17171,128 +17123,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-29585",
-    "version": 31659,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-02-28T05:13:00Z",
-      "lastModification": "2024-02-28T14:01:00Z",
-      "availability": {
-        "from": "2024-02-21T08:03:00Z",
-        "to": "2503-04-07T08:04:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-02-28T05:13:00Z",
-          "to": "2503-04-07T08:04:00Z"
-        }
-      ],
-      "expiration": "2503-04-07T08:04:59Z"
-    },
-    "urlText": "Lift at Clyde Station not available between the concourse and platforms 1 and 2",
-    "url": "https://transportnsw.info/alerts/details#/ems-29585",
-    "content": "The lift between the concourse and platforms 1 and 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9212.",
-    "subtitle": "Lift at Clyde Station not available between the concourse and platforms 1 and 2",
-    "properties": {
-      "smsText": "Lift at Clyde Station not available between the concourse and platforms 1 and 2",
-      "speechText": "The lift at Clyde Station between the concourse and platforms 1 and 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9212.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "214230:2142312",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Emu Plains Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "214230",
-          "isGlobalId": true,
-          "name": "Clyde Station, Platform 2",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "a555e325fdef8234068d3c07624e5a5999394d70",
     "version": 16420,
@@ -17800,6 +17630,128 @@
             "id": "X0000",
             "name": "NSW Trains"
           }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-29585",
+    "version": 31659,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-02-28T05:13:00Z",
+      "lastModification": "2024-02-28T14:01:00Z",
+      "availability": {
+        "from": "2024-02-21T08:03:00Z",
+        "to": "2503-04-07T08:04:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-02-28T05:13:00Z",
+          "to": "2503-04-07T08:04:00Z"
+        }
+      ],
+      "expiration": "2503-04-07T08:04:59Z"
+    },
+    "urlText": "Lift at Clyde Station not available between the concourse and platforms 1 and 2",
+    "url": "https://transportnsw.info/alerts/details#/ems-29585",
+    "content": "The lift between the concourse and platforms 1 and 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9212.",
+    "subtitle": "Lift at Clyde Station not available between the concourse and platforms 1 and 2",
+    "properties": {
+      "smsText": "Lift at Clyde Station not available between the concourse and platforms 1 and 2",
+      "speechText": "The lift at Clyde Station between the concourse and platforms 1 and 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9212.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "214230:2142312",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "214230",
+          "isGlobalId": true,
+          "name": "Clyde Station, Platform 2",
+          "type": "stop"
         }
       ]
     }
@@ -22855,54 +22807,6 @@
     }
   },
   {
-    "type": "infrastructure",
-    "id": "ems-31379",
-    "version": 3,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-04T19:51:00Z",
-      "lastModification": "2024-04-04T19:51:00Z",
-      "availability": {
-        "from": "2024-03-28T22:40:00Z",
-        "to": "2503-05-13T22:41:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-04T19:51:00Z",
-          "to": "2503-05-13T22:41:00Z"
-        }
-      ],
-      "expiration": "2503-05-13T22:41:59Z"
-    },
-    "urlText": "Escalator at Town Hall Station not available on the Southern End of Platforms 5 & 6",
-    "url": "https://transportnsw.info/alerts/details#/ems-31379",
-    "content": "The escalator on the Southern End of Platforms 5 & 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-    "subtitle": "Escalator at Town Hall Station not available on the Southern End of Platforms 5 & 6",
-    "properties": {
-      "smsText": "Escalator at Town Hall Station not available on the Southern End of Platforms 5 & 6",
-      "speechText": "The escalator at Town Hall Station on the Southern End of Platforms 5 & 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "94b6e24d-0c54-5aa7-8098-69f1e5cc29ba",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200070:2000395,2000396",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200070",
-          "isGlobalId": true,
-          "name": "Town Hall Station, Platform 5",
-          "type": "stop"
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "308043659c63708c1ff55f97132e950562e2786a",
     "version": 21070,
@@ -23049,6 +22953,54 @@
             "id": "x0001",
             "name": "Sydney Trains"
           }
+        }
+      ]
+    }
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-31379",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-04T19:51:00Z",
+      "lastModification": "2024-04-04T19:51:00Z",
+      "availability": {
+        "from": "2024-03-28T22:40:00Z",
+        "to": "2503-05-13T22:41:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-04T19:51:00Z",
+          "to": "2503-05-13T22:41:00Z"
+        }
+      ],
+      "expiration": "2503-05-13T22:41:59Z"
+    },
+    "urlText": "Escalator at Town Hall Station not available on the Southern End of Platforms 5 & 6",
+    "url": "https://transportnsw.info/alerts/details#/ems-31379",
+    "content": "The escalator on the Southern End of Platforms 5 & 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+    "subtitle": "Escalator at Town Hall Station not available on the Southern End of Platforms 5 & 6",
+    "properties": {
+      "smsText": "Escalator at Town Hall Station not available on the Southern End of Platforms 5 & 6",
+      "speechText": "The escalator at Town Hall Station on the Southern End of Platforms 5 & 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "94b6e24d-0c54-5aa7-8098-69f1e5cc29ba",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200070:2000395,2000396",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200070",
+          "isGlobalId": true,
+          "name": "Town Hall Station, Platform 5",
+          "type": "stop"
         }
       ]
     }
@@ -24145,6 +24097,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-31395",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-05T00:42:00Z",
+      "lastModification": "2024-04-05T00:42:00Z",
+      "availability": {
+        "from": "2024-04-05T00:41:00Z",
+        "to": "2024-04-05T10:41:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-05T00:41:00Z",
+          "to": "2024-04-05T10:41:00Z"
+        }
+      ],
+      "expiration": "2024-04-05T10:41:59Z"
+    },
+    "urlText": "Train service delays at Coffs Harbour Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-31395",
+    "content": "There are delays on route 32 train services due to mechanical repairs. \n<div>Due to mechanical issues this service is delayed.</div> Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Coffs Harbour Station",
+    "properties": {
+      "smsText": "Train service delays at Coffs Harbour Station",
+      "speechText": "There are delays on route 32 train services due to mechanical repairs. \nDue to mechanical issues this service is delayed. Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-29674",
     "version": 1,
     "priority": "normal",
@@ -25182,61 +25189,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-31395",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-05T00:42:00Z",
-      "lastModification": "2024-04-05T00:42:00Z",
-      "availability": {
-        "from": "2024-04-05T00:41:00Z",
-        "to": "2024-04-05T10:41:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-05T00:41:00Z",
-          "to": "2024-04-05T10:41:00Z"
-        }
-      ],
-      "expiration": "2024-04-05T10:41:59Z"
-    },
-    "urlText": "Train service delays at Coffs Harbour Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-31395",
-    "content": "There are delays on route 32 train services due to mechanical repairs. \n<div>Due to mechanical issues this service is delayed.</div> Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Coffs Harbour Station",
-    "properties": {
-      "smsText": "Train service delays at Coffs Harbour Station",
-      "speechText": "There are delays on route 32 train services due to mechanical repairs. \nDue to mechanical issues this service is delayed. Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-30488",
     "version": 1,
     "priority": "normal",
@@ -26180,6 +26132,87 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-31333",
+    "version": 89584,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-04T01:27:00Z",
+      "lastModification": "2024-04-05T02:20:00Z",
+      "availability": {
+        "from": "2024-04-05T01:00:00Z",
+        "to": "2024-04-10T19:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-10T12:00:00Z",
+          "to": "2024-04-10T19:00:00Z"
+        }
+      ],
+      "expiration": "2024-04-10T19:00:59Z"
+    },
+    "urlText": "Pyrmont temporary bus stop closures",
+    "url": "https://transportnsw.info/alerts/details#/ems-31333",
+    "content": "<div><strong>From 10pm Wednesday 10 April to 5am Thursday 11 April</strong>,&nbsp;Western Distributor Smart Motorways work will result in the following temporary bus stop closures:</div>\n<ul>\n<li><strong>Fish Market Light Rail, Miller St</strong> (<strong>200929</strong>)</li>\n<li><strong>Harris St after Pyrmont Bridge Rd</strong> (<strong>200928</strong>)</li>\n</ul>\n<div>The alternative stop will be bus stop Harris St after Allen St (200926) for the 501 &ndash; Parramatta service.</div>",
+    "subtitle": "Pyrmont temporary bus stop closures",
+    "properties": {
+      "smsText": "Pyrmont temporary bus stop closures",
+      "speechText": "From 10PM Wednesday 10 April to 5AM Thursday 11 April, Western Distributor Smart Motorways work will result in the temporary bus stop closures of Fish Market Light Rail, Miller St and Harris St after Pyrmont Bridge Rd. The alternative stop will be bus stop Harris St after Allen St for the 501 – Parramatta service.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "200952#G200928",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:27501: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 501",
+          "number": "501",
+          "description": "Central Pitt St to Parramatta via Pyrmont & Victoria Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200952",
+          "isGlobalId": true,
+          "name": "Fish Market Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200928",
+          "isGlobalId": true,
+          "name": "Harris St after Pyrmont Bridge Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-30857",
     "version": 1,
@@ -26609,87 +26642,6 @@
           "isGlobalId": true,
           "name": "Guildford Station, Platform 2",
           "type": "stop"
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-31333",
-    "version": 89584,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-04T01:27:00Z",
-      "lastModification": "2024-04-05T02:20:00Z",
-      "availability": {
-        "from": "2024-04-05T01:00:00Z",
-        "to": "2024-04-10T19:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-10T12:00:00Z",
-          "to": "2024-04-10T19:00:00Z"
-        }
-      ],
-      "expiration": "2024-04-10T19:00:59Z"
-    },
-    "urlText": "Pyrmont temporary bus stop closures",
-    "url": "https://transportnsw.info/alerts/details#/ems-31333",
-    "content": "<div><strong>From 10pm Wednesday 10 April to 5am Thursday 11 April</strong>,&nbsp;Western Distributor Smart Motorways work will result in the following temporary bus stop closures:</div>\n<ul>\n<li><strong>Fish Market Light Rail, Miller St</strong> (<strong>200929</strong>)</li>\n<li><strong>Harris St after Pyrmont Bridge Rd</strong> (<strong>200928</strong>)</li>\n</ul>\n<div>The alternative stop will be bus stop Harris St after Allen St (200926) for the 501 &ndash; Parramatta service.</div>",
-    "subtitle": "Pyrmont temporary bus stop closures",
-    "properties": {
-      "smsText": "Pyrmont temporary bus stop closures",
-      "speechText": "From 10PM Wednesday 10 April to 5AM Thursday 11 April, Western Distributor Smart Motorways work will result in the temporary bus stop closures of Fish Market Light Rail, Miller St and Harris St after Pyrmont Bridge Rd. The alternative stop will be bus stop Harris St after Allen St for the 501 – Parramatta service.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "200952#G200928",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:27501: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 501",
-          "number": "501",
-          "description": "Central Pitt St to Parramatta via Pyrmont & Victoria Rd",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "200952",
-          "isGlobalId": true,
-          "name": "Fish Market Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G200928",
-          "isGlobalId": true,
-          "name": "Harris St after Pyrmont Bridge Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          }
         }
       ]
     }
