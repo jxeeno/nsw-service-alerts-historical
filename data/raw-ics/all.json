@@ -17973,11 +17973,11 @@
   {
     "type": "stopInfo",
     "id": "ems-31679",
-    "version": 2,
-    "priority": "normal",
+    "version": 1514,
+    "priority": "low",
     "timestamps": {
       "creation": "2024-04-08T11:02:00Z",
-      "lastModification": "2024-04-08T11:02:00Z",
+      "lastModification": "2024-04-08T11:27:00Z",
       "availability": {
         "from": "2024-04-01T12:52:00Z",
         "to": "2503-05-17T13:53:00Z"
@@ -17990,13 +17990,13 @@
       ],
       "expiration": "2503-05-17T13:53:59Z"
     },
-    "urlText": "between platform 1/2 and the concourse is not available",
+    "urlText": "Escalator 3 between the concourse and Platform 1/2 is not available",
     "url": "https://transportnsw.info/alerts/details#/ems-31679",
-    "content": "between platform 1/2 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
-    "subtitle": "between platform 1/2 and the concourse is not available",
+    "content": "Escalator 3 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
+    "subtitle": "Escalator 3 between the concourse and Platform 1/2 is not available",
     "properties": {
-      "smsText": "between platform 1/2 and the concourse is not available",
-      "speechText": "At Epping Station between platform 1/2 and the concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
+      "smsText": "Escalator 3 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Epping Station Escalator 3 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -18124,9 +18124,12 @@
         {
           "id": "212110",
           "isGlobalId": true,
-          "name": "Epping Station, Platform 1",
+          "name": "Epping Station",
           "type": "stop"
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
@@ -30932,6 +30935,61 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-31661",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-08T05:53:00Z",
+      "lastModification": "2024-04-08T05:53:00Z",
+      "availability": {
+        "from": "2024-04-08T05:35:00Z",
+        "to": "2024-04-08T11:35:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-08T05:35:00Z",
+          "to": "2024-04-08T11:35:00Z"
+        }
+      ],
+      "expiration": "2024-04-08T11:35:59Z"
+    },
+    "urlText": "Coach service delays between Cootamundra Station and Queanbeyan Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-31661",
+    "content": "There are delays on route 782 coach services due to equipment repairs. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays between Cootamundra Station and Queanbeyan Station",
+    "properties": {
+      "smsText": "Coach service delays between Cootamundra Station and Queanbeyan Station",
+      "speechText": "There are delays on route 782 coach services due to equipment repairs. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76782: :R:",
+          "destination": {
+            "name": "Queanbeyan Station, Queanbeyan",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 782",
+          "number": "782",
+          "description": "Cootamundra to Queanbeyan",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-31284",
     "version": 1,
@@ -32139,61 +32197,6 @@
       ],
       "Infrastructures": [
         {}
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-31661",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-08T05:53:00Z",
-      "lastModification": "2024-04-08T05:53:00Z",
-      "availability": {
-        "from": "2024-04-08T05:35:00Z",
-        "to": "2024-04-08T11:35:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-08T05:35:00Z",
-          "to": "2024-04-08T11:35:00Z"
-        }
-      ],
-      "expiration": "2024-04-08T11:35:59Z"
-    },
-    "urlText": "Coach service delays between Cootamundra Station and Queanbeyan Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-31661",
-    "content": "There are delays on route 782 coach services due to equipment repairs. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays between Cootamundra Station and Queanbeyan Station",
-    "properties": {
-      "smsText": "Coach service delays between Cootamundra Station and Queanbeyan Station",
-      "speechText": "There are delays on route 782 coach services due to equipment repairs. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76782: :R:",
-          "destination": {
-            "name": "Queanbeyan Station, Queanbeyan",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 782",
-          "number": "782",
-          "description": "Cootamundra to Queanbeyan",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        }
       ]
     }
   },
@@ -33831,6 +33834,61 @@
       ],
       "Infrastructures": [
         {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-31663",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-08T05:55:00Z",
+      "lastModification": "2024-04-08T05:55:00Z",
+      "availability": {
+        "from": "2024-04-08T05:53:00Z",
+        "to": "2024-04-08T11:53:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-08T05:53:00Z",
+          "to": "2024-04-08T11:53:00Z"
+        }
+      ],
+      "expiration": "2024-04-08T11:53:59Z"
+    },
+    "urlText": "Coach service delays between Cootamundra Station and Dubbo Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-31663",
+    "content": "There are delays on route 791 coach services due to equipment repairs. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays between Cootamundra Station and Dubbo Station",
+    "properties": {
+      "smsText": "Coach service delays between Cootamundra Station and Dubbo Station",
+      "speechText": "There are delays on route 791 coach services due to equipment repairs. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76791: :H:",
+          "destination": {
+            "name": "Dubbo Station, Dubbo",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 791",
+          "number": "791",
+          "description": "Cootamundra to Dubbo",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        }
       ]
     }
   },
@@ -36426,61 +36484,6 @@
       ],
       "Infrastructures": [
         {}
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-31663",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-08T05:55:00Z",
-      "lastModification": "2024-04-08T05:55:00Z",
-      "availability": {
-        "from": "2024-04-08T05:53:00Z",
-        "to": "2024-04-08T11:53:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-08T05:53:00Z",
-          "to": "2024-04-08T11:53:00Z"
-        }
-      ],
-      "expiration": "2024-04-08T11:53:59Z"
-    },
-    "urlText": "Coach service delays between Cootamundra Station and Dubbo Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-31663",
-    "content": "There are delays on route 791 coach services due to equipment repairs. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays between Cootamundra Station and Dubbo Station",
-    "properties": {
-      "smsText": "Coach service delays between Cootamundra Station and Dubbo Station",
-      "speechText": "There are delays on route 791 coach services due to equipment repairs. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76791: :H:",
-          "destination": {
-            "name": "Dubbo Station, Dubbo",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 791",
-          "number": "791",
-          "description": "Cootamundra to Dubbo",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        }
       ]
     }
   },
@@ -43345,6 +43348,54 @@
   },
   {
     "type": "stopInfo",
+    "id": "ems-31658",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-04-08T05:39:00Z",
+      "lastModification": "2024-04-08T05:39:00Z",
+      "availability": {
+        "from": "2024-04-08T05:35:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-08T05:35:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "L2 and L3 Lines - Moore Park lift out of service",
+    "url": "https://transportnsw.info/alerts/details#/ems-31658",
+    "content": "<div>\n<div>The lift at Moore Park light rail stop (Anzac Parade side of the Dr Agnes Bennett footbridge) on the L2 Randwick Line and L3 Kingsford Line is temporarily out of service until further notice.</div>\n<div><br />For your safety, do not use even if the doors open.</div>\n<div><br />Alternative access:</div>\n<ul>\n<li>Use the stairs if able to</li>\n<li>Or use the accessible entry/exit pathway via the crossing at the intersection of Anzac Parade and Lang Rd. <br />&nbsp;</li>\n</ul>\n<div>For urgent assistance:</div>\n<div>Use the Help Point if on the platform<br />Or call 131 500</div>\n</div>",
+    "subtitle": "L2 and L3 Lines - Moore Park lift out of service",
+    "properties": {
+      "smsText": "L2 and L3 Lines - Moore Park lift out of service",
+      "speechText": "The lift at Moore Park light rail stop (Anzac Parade side of the Dr Agnes Bennett footbridge) on the L2 Randwick Line and L3 Kingsford Line is temporarily out of service until further notice.\n\nFor your safety, do not use even if the doors open.\n\nAlternative access:\nUse the stairs if able to\nOr use the accessible entry/exit pathway via the crossing at the intersection of Anzac Parade and Lang Rd.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "stopIDglobalID": "202195",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "202195",
+          "isGlobalId": true,
+          "name": "Moore Park Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301019:1",
+            "name": "Moore Park",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "ems-31497",
     "version": 2,
     "priority": "low",
@@ -43552,54 +43603,6 @@
       ],
       "Infrastructures": [
         {}
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-31658",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-04-08T05:39:00Z",
-      "lastModification": "2024-04-08T05:39:00Z",
-      "availability": {
-        "from": "2024-04-08T05:35:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-08T05:35:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "L2 and L3 Lines - Moore Park lift out of service",
-    "url": "https://transportnsw.info/alerts/details#/ems-31658",
-    "content": "<div>\n<div>The lift at Moore Park light rail stop (Anzac Parade side of the Dr Agnes Bennett footbridge) on the L2 Randwick Line and L3 Kingsford Line is temporarily out of service until further notice.</div>\n<div><br />For your safety, do not use even if the doors open.</div>\n<div><br />Alternative access:</div>\n<ul>\n<li>Use the stairs if able to</li>\n<li>Or use the accessible entry/exit pathway via the crossing at the intersection of Anzac Parade and Lang Rd. <br />&nbsp;</li>\n</ul>\n<div>For urgent assistance:</div>\n<div>Use the Help Point if on the platform<br />Or call 131 500</div>\n</div>",
-    "subtitle": "L2 and L3 Lines - Moore Park lift out of service",
-    "properties": {
-      "smsText": "L2 and L3 Lines - Moore Park lift out of service",
-      "speechText": "The lift at Moore Park light rail stop (Anzac Parade side of the Dr Agnes Bennett footbridge) on the L2 Randwick Line and L3 Kingsford Line is temporarily out of service until further notice.\n\nFor your safety, do not use even if the doors open.\n\nAlternative access:\nUse the stairs if able to\nOr use the accessible entry/exit pathway via the crossing at the intersection of Anzac Parade and Lang Rd.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "stopIDglobalID": "202195",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "202195",
-          "isGlobalId": true,
-          "name": "Moore Park Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301019:1",
-            "name": "Moore Park",
-            "type": "locality"
-          }
-        }
       ]
     }
   },
