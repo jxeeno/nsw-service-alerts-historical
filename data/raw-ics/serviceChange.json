@@ -3352,6 +3352,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-31876",
+    "version": 51,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-11T11:13:00Z",
+      "lastModification": "2024-04-11T11:14:00Z",
+      "availability": {
+        "from": "2024-04-11T11:13:00Z",
+        "to": "2024-04-12T01:13:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-11T11:13:00Z",
+          "to": "2024-04-12T01:13:00Z"
+        }
+      ],
+      "expiration": "2024-04-12T01:13:59Z"
+    },
+    "urlText": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
+    "url": "https://transportnsw.info/alerts/details#/ems-31876",
+    "content": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
+    "properties": {
+      "smsText": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
+      "speechText": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-30552",
     "version": 1217384,
     "priority": "normal",
@@ -15439,55 +15494,6 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-31861",
-    "version": 49,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-11T05:59:00Z",
-      "lastModification": "2024-04-11T05:59:00Z",
-      "availability": {
-        "from": "2024-04-11T05:55:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-11T05:55:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Information display out of service at Paddy’s Markets",
-    "url": "https://transportnsw.info/alerts/details#/ems-31861",
-    "content": "<div>\n<div>The information display on the Paddy&rsquo;s Markets platform towards Dulwich Hill is out of service. It will be repaired as soon as possible.&nbsp;</div>\n<div>* Use Trip Planner to plan your trip, find travel alerts and service disruptions.&nbsp;</div>\n<div>* For urgent assistance, use the Help Point.</div>\n</div>",
-    "subtitle": "Information display out of service at Paddy’s Markets",
-    "properties": {
-      "smsText": "Information display out of service at Paddy’s Markets",
-      "speechText": "The information display on the Paddy’s Market platform towards Dulwich Hill is out of service. It will be repaired as soon as possible. Use Trip Planner to plan your trip, find travel alerts and service disruptions. For urgent assistance, use the Help Point.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "2000202",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "2000202",
-          "isGlobalId": true,
-          "name": "Paddy's Markets Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301017:1",
-            "name": "Haymarket",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
     "id": "ems-31271",
     "version": 1,
     "priority": "normal",
@@ -19576,6 +19582,55 @@
           "operator": {
             "id": "2501",
             "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-31861",
+    "version": 49,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-11T05:59:00Z",
+      "lastModification": "2024-04-11T05:59:00Z",
+      "availability": {
+        "from": "2024-04-11T05:55:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-11T05:55:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Information display out of service at Paddy’s Markets",
+    "url": "https://transportnsw.info/alerts/details#/ems-31861",
+    "content": "<div>\n<div>The information display on the Paddy&rsquo;s Markets platform towards Dulwich Hill is out of service. It will be repaired as soon as possible.&nbsp;</div>\n<div>* Use Trip Planner to plan your trip, find travel alerts and service disruptions.&nbsp;</div>\n<div>* For urgent assistance, use the Help Point.</div>\n</div>",
+    "subtitle": "Information display out of service at Paddy’s Markets",
+    "properties": {
+      "smsText": "Information display out of service at Paddy’s Markets",
+      "speechText": "The information display on the Paddy’s Market platform towards Dulwich Hill is out of service. It will be repaired as soon as possible. Use Trip Planner to plan your trip, find travel alerts and service disruptions. For urgent assistance, use the Help Point.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "2000202",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "2000202",
+          "isGlobalId": true,
+          "name": "Paddy's Markets Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301017:1",
+            "name": "Haymarket",
+            "type": "locality"
           }
         }
       ]
@@ -28833,61 +28888,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-31872",
-    "version": 8,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-11T09:14:00Z",
-      "lastModification": "2024-04-11T09:14:00Z",
-      "availability": {
-        "from": "2024-04-11T09:13:00Z",
-        "to": "2024-04-11T11:13:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-11T09:13:00Z",
-          "to": "2024-04-11T11:13:00Z"
-        }
-      ],
-      "expiration": "2024-04-11T11:13:59Z"
-    },
-    "urlText": "Coach service delays at Broadmeadow Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-31872",
-    "content": "There are delays on route 135 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays at Broadmeadow Station",
-    "properties": {
-      "smsText": "Coach service delays at Broadmeadow Station",
-      "speechText": "There are delays on route 135 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76135: :H:",
-          "destination": {
-            "name": "Taree Station, Taree",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 135",
-          "number": "135",
-          "description": "Broadmeadow to Taree",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "ems-31269",
     "version": 1,
@@ -32945,6 +32945,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-31874",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-11T11:12:00Z",
+      "lastModification": "2024-04-11T11:12:00Z",
+      "availability": {
+        "from": "2024-04-11T11:11:00Z",
+        "to": "2024-04-11T12:11:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-11T11:11:00Z",
+          "to": "2024-04-11T12:11:00Z"
+        }
+      ],
+      "expiration": "2024-04-11T12:11:59Z"
+    },
+    "urlText": "Train service delays at Moss Vale Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-31874",
+    "content": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Moss Vale Station",
+    "properties": {
+      "smsText": "Train service delays at Moss Vale Station",
+      "speechText": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76635: :H:",
+          "destination": {
+            "name": "Canberra Station, Kingston (ACT)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 635",
+          "number": "635",
+          "description": "Central to Canberra",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-31716",
     "version": 1,
     "priority": "normal",
@@ -33388,6 +33443,61 @@
           "operator": {
             "id": "IC03",
             "name": "Live Better"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-31875",
+    "version": 14,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-11T11:12:00Z",
+      "lastModification": "2024-04-11T11:12:00Z",
+      "availability": {
+        "from": "2024-04-11T11:11:00Z",
+        "to": "2024-04-11T12:56:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-11T11:11:00Z",
+          "to": "2024-04-11T12:56:00Z"
+        }
+      ],
+      "expiration": "2024-04-11T12:56:59Z"
+    },
+    "urlText": "Coach service delays at Casino Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-31875",
+    "content": "There are delays on route 175 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at Casino Station",
+    "properties": {
+      "smsText": "Coach service delays at Casino Station",
+      "speechText": "There are delays on route 175 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76175: :H:",
+          "destination": {
+            "name": "Brisbane (Roma Street) Station, Brisbane",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 175",
+          "number": "175",
+          "description": "Casino to Brisbane",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
