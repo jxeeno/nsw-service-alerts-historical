@@ -213,6 +213,90 @@
   },
   {
     "type": "stopInfo",
+    "id": "ems-31851",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-04-11T01:01:00Z",
+      "lastModification": "2024-04-11T01:01:00Z",
+      "availability": {
+        "from": "2024-04-04T02:50:00Z",
+        "to": "2503-05-20T03:51:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-11T00:01:00Z",
+          "to": "2503-05-20T03:51:00Z"
+        }
+      ],
+      "expiration": "2503-05-20T03:51:59Z"
+    },
+    "urlText": "Elevator between Platform 2 and LFT to P2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-31851",
+    "content": "Elevator between Platform 2 and LFT to P2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+    "subtitle": "Elevator between Platform 2 and LFT to P2 is not available",
+    "properties": {
+      "smsText": "Elevator between Platform 2 and LFT to P2 is not available",
+      "speechText": "At Sydney International Airport Station Elevator between Platform 2 and LFT to P2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "202030:2020102",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "202030",
+          "isGlobalId": true,
+          "name": "International Airport Station, Platform 2",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "ems-31492",
     "version": 126299,
     "priority": "low",
@@ -925,61 +1009,6 @@
       ],
       "Infrastructures": [
         {}
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-31844",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-04-11T00:29:00Z",
-      "lastModification": "2024-04-11T00:29:00Z",
-      "availability": {
-        "from": "2024-04-11T00:28:00Z",
-        "to": "2024-04-11T01:28:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-11T00:28:00Z",
-          "to": "2024-04-11T01:28:00Z"
-        }
-      ],
-      "expiration": "2024-04-11T01:28:59Z"
-    },
-    "urlText": "Train service delays between Bowral Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-31844",
-    "content": "There are delays on route 632 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Bowral Station and Central Station",
-    "properties": {
-      "smsText": "Train service delays between Bowral Station and Central Station",
-      "speechText": "There are delays on route 632 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76632: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 632",
-          "number": "632",
-          "description": "Canberra to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
       ]
     }
   },
