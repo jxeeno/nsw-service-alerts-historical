@@ -9210,61 +9210,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-32073",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-15T10:43:00Z",
-      "lastModification": "2024-04-15T10:43:00Z",
-      "availability": {
-        "from": "2024-04-15T10:42:00Z",
-        "to": "2024-04-16T00:42:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-15T10:42:00Z",
-          "to": "2024-04-16T00:42:00Z"
-        }
-      ],
-      "expiration": "2024-04-16T00:42:59Z"
-    },
-    "urlText": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
-    "url": "https://transportnsw.info/alerts/details#/ems-32073",
-    "content": "There are delays on route 622 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
-    "properties": {
-      "smsText": "Train service delays at Melbourne (Southern Cross) Station (VIC)",
-      "speechText": "There are delays on route 622 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-31921",
     "version": 1,
     "priority": "normal",
@@ -20028,6 +19973,80 @@
           "operator": {
             "id": "2501",
             "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-32084",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-16T00:46:00Z",
+      "lastModification": "2024-04-16T00:46:00Z",
+      "availability": {
+        "from": "2024-04-16T00:40:00Z",
+        "to": "2024-04-16T01:40:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-16T00:40:00Z",
+          "to": "2024-04-16T01:40:00Z"
+        }
+      ],
+      "expiration": "2024-04-16T01:40:59Z"
+    },
+    "urlText": "Some F2 services cancelled",
+    "url": "https://transportnsw.info/alerts/details#/ems-32084",
+    "content": "<div>The 10.35 Circular Quay to Mosman and return service have been cancelled due to an operational issue.</div>\n<ul>\n<li>The next Circular Quay to Mosman service is at 10.50.</li>\n<li>The next Mosman to Circular Quay service is at 11.02.</li>\n</ul>",
+    "subtitle": "Some F2 services cancelled",
+    "properties": {
+      "smsText": "Some F2 services cancelled",
+      "speechText": "The 10.35 Circular Quay to Mosman and return service have been cancelled due to an operational issue. The next Circular Quay to Mosman service is at 10.50. The next Mosman to Circular Quay service is at 11.02.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F2 Taronga Zoo",
+          "number": "F2 Taronga Zoo",
+          "description": "Taronga Zoo to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F2: :H:",
+          "destination": {
+            "name": "Mosman Bay Wharf, Mosman",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F2 Taronga Zoo",
+          "number": "F2 Taronga Zoo",
+          "description": "Circular Quay to Taronga Zoo",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
