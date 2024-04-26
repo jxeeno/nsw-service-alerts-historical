@@ -3172,61 +3172,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-32705",
-    "version": 15740,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-04-26T16:44:00Z",
-      "lastModification": "2024-04-26T21:06:00Z",
-      "availability": {
-        "from": "2024-04-26T16:26:00Z",
-        "to": "2024-04-26T22:05:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-04-26T16:26:00Z",
-          "to": "2024-04-26T22:05:00Z"
-        }
-      ],
-      "expiration": "2024-04-26T22:05:59Z"
-    },
-    "urlText": "Train service delays between Casino Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-32705",
-    "content": "There are delays on route 34 train services due to a customer requiring urgent medical treatment. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Casino Station and Central Station",
-    "properties": {
-      "smsText": "Train service delays between Casino Station and Central Station",
-      "speechText": "There are delays on route 34 train services due to a customer requiring urgent medical treatment. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76034: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-32684",
     "version": 1,
     "priority": "normal",
@@ -20177,6 +20122,95 @@
           "operator": {
             "id": "2501",
             "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "4046017b30ad9194dc849a3d27b8b3aff448d8c7",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-04-26T22:06:00Z",
+      "lastModification": "2024-04-26T22:06:00Z",
+      "availability": {
+        "from": "2024-04-26T22:06:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-04-26T22:06:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Station Update - Cowan",
+    "url": "https://transportnsw.info/alerts/details#/4046017b30ad9194dc849a3d27b8b3aff448d8c7",
+    "content": "Due to trackwork, until approximately 11:00am trains in both directions depart from platform 2 at Cowan.",
+    "subtitle": "Station Update - Cowan",
+    "properties": {
+      "smsText": "Station Update - Cowan",
+      "speechText": "Due to trackwork, until approximately 11:00am trains in both directions depart from platform 2 at Cowan.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "208120",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "208120",
+          "isGlobalId": true,
+          "name": "Cowan Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325013:1",
+            "name": "Cowan",
+            "type": "locality"
           }
         }
       ]
