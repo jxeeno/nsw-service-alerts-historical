@@ -26845,55 +26845,221 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-33363",
-    "version": 14,
+    "type": "stopInfo",
+    "id": "ems-33345",
+    "version": 3258,
     "priority": "normal",
     "timestamps": {
-      "creation": "2024-05-09T10:39:00Z",
-      "lastModification": "2024-05-09T10:40:00Z",
+      "creation": "2024-05-09T03:57:00Z",
+      "lastModification": "2024-05-09T04:51:00Z",
       "availability": {
-        "from": "2024-05-09T10:37:00Z",
-        "to": "2024-05-09T13:30:00Z"
+        "from": "2024-05-08T21:29:00Z",
+        "to": "2024-05-11T03:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-05-09T10:37:00Z",
-          "to": "2024-05-09T13:30:00Z"
+          "from": "2024-05-10T20:00:00Z",
+          "to": "2024-05-11T03:00:00Z"
         }
       ],
-      "expiration": "2024-05-09T13:30:59Z"
+      "expiration": "2024-05-11T03:00:59Z"
     },
-    "urlText": "Coach service delays at Bemboka Coach Stop",
-    "url": "https://transportnsw.info/alerts/details#/ems-33363",
-    "content": "There are delays on route 771 coach services due to breakdown. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays at Bemboka Coach Stop",
+    "urlText": "Bus diversions for the Port Stephens Triathlon",
+    "url": "https://transportnsw.info/alerts/details#/ems-33345",
+    "content": "<div>From 6am to 1pm on Saturday 11 May, route 130 bus services will divert and miss stops while road closures are in place for the Port Stephens Triathlon.</div>",
+    "subtitle": "Bus diversions for the Port Stephens Triathlon",
     "properties": {
-      "smsText": "Coach service delays at Bemboka Coach Stop",
-      "speechText": "There are delays on route 771 coach services due to breakdown. \n Plan ahead and allow extra travel time.",
+      "smsText": "Bus diversions for the Port Stephens Triathlon",
+      "speechText": "From 6am to 1pm on Saturday 11 May, route 130 bus services will divert and miss stops while road closures are in place for the Port Stephens Triathlon.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G2316112#G231680#G231613#G231679#G231614#G231678#G231615#G231677#G231616#G231617#G231675#G231618#G231673",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76771: :H:",
+          "id": "nsw:48130: :H:",
           "destination": {
-            "name": "Eden Coach Stop, Eden",
+            "name": "Fingal Bay Shops, Market St, Fingal Bay",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 771",
-          "number": "771",
-          "description": "Canberra Hospital to Eden",
-          "iconId": 7,
+          "name": "Hunter Buses Network 130",
+          "number": "130",
+          "description": "Newcastle to Fingal Bay via Gan Gan Rd",
+          "iconId": 15,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
+            "id": "2449",
+            "name": "Port Stephens Coaches"
+          }
+        },
+        {
+          "id": "nsw:48130: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 130",
+          "number": "130",
+          "description": "Fingal Bay to Newcastle via Gan Gan Rd",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2449",
+            "name": "Port Stephens Coaches"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G2316112",
+          "isGlobalId": true,
+          "name": "304 Gan Gan Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349001:1",
+            "name": "Anna Bay",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231680",
+          "isGlobalId": true,
+          "name": "Seawinds Village, Frost Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349001:1",
+            "name": "Anna Bay",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231613",
+          "isGlobalId": true,
+          "name": "Frost Rd opp Robert Connell Cl",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349001:1",
+            "name": "Anna Bay",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231679",
+          "isGlobalId": true,
+          "name": "Frost Rd at Robert Connel Cl",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349001:1",
+            "name": "Anna Bay",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231614",
+          "isGlobalId": true,
+          "name": "Frost Rd after Saltbush Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349025:1",
+            "name": "One Mile",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231678",
+          "isGlobalId": true,
+          "name": "Frost Rd before Saltbush Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349025:1",
+            "name": "One Mile",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231615",
+          "isGlobalId": true,
+          "name": "Frost Rd before Gan Gan Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349025:1",
+            "name": "One Mile",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231677",
+          "isGlobalId": true,
+          "name": "Frost Rd after Gan Gan Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349025:1",
+            "name": "One Mile",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231616",
+          "isGlobalId": true,
+          "name": "Middlerock Holiday Park, Gan Gan Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349025:1",
+            "name": "One Mile",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231617",
+          "isGlobalId": true,
+          "name": "Gan Gan Rd opp Eucalyptus Dr",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349025:1",
+            "name": "One Mile",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231675",
+          "isGlobalId": true,
+          "name": "Gan Gan Rd before Eucalyptus Dr",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349025:1",
+            "name": "One Mile",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231618",
+          "isGlobalId": true,
+          "name": "One Mile Beach Holiday Park, Gan Gan Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349025:1",
+            "name": "One Mile",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G231673",
+          "isGlobalId": true,
+          "name": "Gan Gan Rd after Koala Pl",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95349003:1",
+            "name": "Boat Harbour (2316)",
+            "type": "locality"
           }
         }
       ]
@@ -27263,227 +27429,6 @@
           "operator": {
             "id": "SF",
             "name": "Sydney Ferries"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-33345",
-    "version": 3258,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-05-09T03:57:00Z",
-      "lastModification": "2024-05-09T04:51:00Z",
-      "availability": {
-        "from": "2024-05-08T21:29:00Z",
-        "to": "2024-05-11T03:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-05-10T20:00:00Z",
-          "to": "2024-05-11T03:00:00Z"
-        }
-      ],
-      "expiration": "2024-05-11T03:00:59Z"
-    },
-    "urlText": "Bus diversions for the Port Stephens Triathlon",
-    "url": "https://transportnsw.info/alerts/details#/ems-33345",
-    "content": "<div>From 6am to 1pm on Saturday 11 May, route 130 bus services will divert and miss stops while road closures are in place for the Port Stephens Triathlon.</div>",
-    "subtitle": "Bus diversions for the Port Stephens Triathlon",
-    "properties": {
-      "smsText": "Bus diversions for the Port Stephens Triathlon",
-      "speechText": "From 6am to 1pm on Saturday 11 May, route 130 bus services will divert and miss stops while road closures are in place for the Port Stephens Triathlon.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G2316112#G231680#G231613#G231679#G231614#G231678#G231615#G231677#G231616#G231617#G231675#G231618#G231673",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:48130: :H:",
-          "destination": {
-            "name": "Fingal Bay Shops, Market St, Fingal Bay",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 130",
-          "number": "130",
-          "description": "Newcastle to Fingal Bay via Gan Gan Rd",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2449",
-            "name": "Port Stephens Coaches"
-          }
-        },
-        {
-          "id": "nsw:48130: :R:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 130",
-          "number": "130",
-          "description": "Fingal Bay to Newcastle via Gan Gan Rd",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2449",
-            "name": "Port Stephens Coaches"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "G2316112",
-          "isGlobalId": true,
-          "name": "304 Gan Gan Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349001:1",
-            "name": "Anna Bay",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231680",
-          "isGlobalId": true,
-          "name": "Seawinds Village, Frost Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349001:1",
-            "name": "Anna Bay",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231613",
-          "isGlobalId": true,
-          "name": "Frost Rd opp Robert Connell Cl",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349001:1",
-            "name": "Anna Bay",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231679",
-          "isGlobalId": true,
-          "name": "Frost Rd at Robert Connel Cl",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349001:1",
-            "name": "Anna Bay",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231614",
-          "isGlobalId": true,
-          "name": "Frost Rd after Saltbush Ave",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349025:1",
-            "name": "One Mile",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231678",
-          "isGlobalId": true,
-          "name": "Frost Rd before Saltbush Ave",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349025:1",
-            "name": "One Mile",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231615",
-          "isGlobalId": true,
-          "name": "Frost Rd before Gan Gan Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349025:1",
-            "name": "One Mile",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231677",
-          "isGlobalId": true,
-          "name": "Frost Rd after Gan Gan Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349025:1",
-            "name": "One Mile",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231616",
-          "isGlobalId": true,
-          "name": "Middlerock Holiday Park, Gan Gan Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349025:1",
-            "name": "One Mile",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231617",
-          "isGlobalId": true,
-          "name": "Gan Gan Rd opp Eucalyptus Dr",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349025:1",
-            "name": "One Mile",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231675",
-          "isGlobalId": true,
-          "name": "Gan Gan Rd before Eucalyptus Dr",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349025:1",
-            "name": "One Mile",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231618",
-          "isGlobalId": true,
-          "name": "One Mile Beach Holiday Park, Gan Gan Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349025:1",
-            "name": "One Mile",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G231673",
-          "isGlobalId": true,
-          "name": "Gan Gan Rd after Koala Pl",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95349003:1",
-            "name": "Boat Harbour (2316)",
-            "type": "locality"
           }
         }
       ]
