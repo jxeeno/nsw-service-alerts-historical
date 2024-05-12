@@ -26072,11 +26072,11 @@
   {
     "type": "routeInfo",
     "id": "ems-33465",
-    "version": 1,
+    "version": 143,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-05-12T06:17:00Z",
-      "lastModification": "2024-05-12T06:17:00Z",
+      "lastModification": "2024-05-12T06:19:00Z",
       "availability": {
         "from": "2024-05-12T06:15:00Z",
         "to": "2024-05-12T22:15:00Z"
@@ -26089,13 +26089,13 @@
       ],
       "expiration": "2024-05-12T22:15:59Z"
     },
-    "urlText": "Buses replace train between Southern Cross Station and Albury Station.",
+    "urlText": "Buses replace train between Southern Cross Station and Albury Station.\n\n622 Melbourne to Sydney service change.",
     "url": "https://transportnsw.info/alerts/details#/ems-33465",
-    "content": "Buses replace train between Southern Cross Station and Albury Station due to mechanical repairs.\nServices on route 622 are replaced by bus services between Southern Cross Station and Albury Station.\nFirst class passengers are entitled to a partial refund.\nPlan ahead and allow extra travel time.",
-    "subtitle": "Buses replace train between Southern Cross Station and Albury Station.",
+    "content": "Buses replace train between Southern Cross Station and Albury Station due to mechanical repairs.\nServices on route 622 are replaced by bus services between Southern Cross Station and Albury Station.\nFirst class passengers are entitled to a partial refund.\n<br/><div>Due to an earlier mechanical issue, the overnight Melbourne to Sydney XPT replaced by coaches between Melbourne and Albury.&nbsp;</div>Plan ahead and allow extra travel time.",
+    "subtitle": "Buses replace train between Southern Cross Station and Albury Station.\n\n622 Melbourne to Sydney service change.",
     "properties": {
-      "smsText": "Buses replace train between Southern Cross Station and Albury Station.",
-      "speechText": "Buses replace train between Southern Cross Station and Albury Station due to mechanical repairs.\nServices on route 622 are replaced by bus services between Southern Cross Station and Albury Station.\nFirst class passengers are entitled to a partial refund.\nPlan ahead and allow extra travel time.",
+      "smsText": "Buses replace train between Southern Cross Station and Albury Station.\n\n622 Melbourne to Sydney service change.",
+      "speechText": "Buses replace train between Southern Cross Station and Albury Station due to mechanical repairs.\nServices on route 622 are replaced by bus services between Southern Cross Station and Albury Station.\nFirst class passengers are entitled to a partial refund.\n\n\nDue to an earlier mechanical issue, the overnight Melbourne to Sydney XPT replaced by coaches between Melbourne and Albury.Plan ahead and allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "stopIDglobalID": "22180#20030#20342#20295#20356#26401",
@@ -31885,6 +31885,80 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-33467",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-05-12T06:19:00Z",
+      "lastModification": "2024-05-12T06:19:00Z",
+      "availability": {
+        "from": "2024-05-12T06:13:00Z",
+        "to": "2024-05-12T08:43:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-05-12T06:13:00Z",
+          "to": "2024-05-12T08:43:00Z"
+        }
+      ],
+      "expiration": "2024-05-12T08:43:59Z"
+    },
+    "urlText": "4:38pm Parramatta to Circular Quay ferry cancelled",
+    "url": "https://transportnsw.info/alerts/details#/ems-33467",
+    "content": "<div>This service has been cancelled due to a mechanical issue with a ferry.</div>\n<ul>\n<li>The next service from Parramatta to Circular Quay departs at 6:38pm.</li>\n<li>Listen to announcements and check information displays for service updates.</li>\n</ul>",
+    "subtitle": "4:38pm Parramatta to Circular Quay ferry cancelled",
+    "properties": {
+      "smsText": "4:38pm Parramatta to Circular Quay ferry cancelled",
+      "speechText": "The 4 38 p m Parramatta to Circular Quay service has been cancelled due to a mechanical issue with a ferry. The next service from Parramatta to Circular Quay departs at 6 38 p m. Listen to announcements and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Sydney Olympic Park to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Parramatta Wharf, Parramatta",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Sydney Olympic Park",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
