@@ -31807,6 +31807,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-34505",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-06-02T20:33:00Z",
+      "lastModification": "2024-06-02T20:33:00Z",
+      "availability": {
+        "from": "2024-06-02T20:32:00Z",
+        "to": "2024-06-03T10:32:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-06-02T20:32:00Z",
+          "to": "2024-06-03T10:32:00Z"
+        }
+      ],
+      "expiration": "2024-06-03T10:32:59Z"
+    },
+    "urlText": "No services running",
+    "url": "https://transportnsw.info/alerts/details#/ems-34505",
+    "content": "<div>\n<div>No light rail services are running due to a tram requiring mechanical repairs at Civic.</div>\n<ul>\n<li>Allow extra travel time</li>\n<li>Listen to announcements and check information displays for service updates</li>\n<li>Consider catching a route 11 or 13 bus instead</li>\n</ul>\n</div>",
+    "subtitle": "No services running",
+    "properties": {
+      "smsText": "No services running",
+      "speechText": "No Newcastle light rail services are running due to a tram requiring mechanical repairs at Civic. Allow extra travel time. Listen to announcements and check information displays for service updates. Consider catching a route 11 or 13 bus instead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:78NLR: :H:",
+          "destination": {
+            "name": "Newcastle Beach Light Rail, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Interchange to Newcastle Beach",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:78NLR: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Beach to Newcastle Interchange",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-33337",
     "version": 131,
     "priority": "normal",
@@ -33027,6 +33101,93 @@
           "id": "213810",
           "isGlobalId": true,
           "name": "Concord West Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-34504",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-06-02T20:33:00Z",
+      "lastModification": "2024-06-02T20:33:00Z",
+      "availability": {
+        "from": "2024-05-26T22:22:00Z",
+        "to": "2503-07-11T23:23:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-06-02T19:33:00Z",
+          "to": "2503-07-11T23:23:00Z"
+        }
+      ],
+      "expiration": "2503-07-11T23:23:59Z"
+    },
+    "urlText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-34504",
+    "content": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265.",
+    "subtitle": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
+    "properties": {
+      "smsText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
+      "speechText": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "223010",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "223010",
+          "isGlobalId": true,
+          "name": "Woolooware Station",
           "type": "stop"
         }
       ],
