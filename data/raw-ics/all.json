@@ -10027,61 +10027,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-35679",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-06-25T10:30:00Z",
-      "lastModification": "2024-06-25T10:30:00Z",
-      "availability": {
-        "from": "2024-06-25T10:28:00Z",
-        "to": "2024-06-25T22:28:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-06-25T10:28:00Z",
-          "to": "2024-06-25T22:28:00Z"
-        }
-      ],
-      "expiration": "2024-06-25T22:28:59Z"
-    },
-    "urlText": "Train service delays at Melbourne (Southern Cross) Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-35679",
-    "content": "There are delays on route 622 train services due to urgent signal repairs. \n<div>This service is delayed due to the late arrival of the XPT train from Sydney.</div> Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Melbourne (Southern Cross) Station",
-    "properties": {
-      "smsText": "Train service delays at Melbourne (Southern Cross) Station",
-      "speechText": "There are delays on route 622 train services due to urgent signal repairs. \nThis service is delayed due to the late arrival of the XPT train from Sydney. Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-181",
     "version": 38596556,
     "priority": "low",
@@ -18475,6 +18420,93 @@
             "name": "NSW TrainLink Train"
           }
         }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-35691",
+    "version": 9,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-06-25T22:29:00Z",
+      "lastModification": "2024-06-25T22:29:00Z",
+      "availability": {
+        "from": "2024-06-19T00:18:00Z",
+        "to": "2503-08-04T01:19:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-06-25T21:29:00Z",
+          "to": "2503-08-04T01:19:00Z"
+        }
+      ],
+      "expiration": "2503-08-04T01:19:59Z"
+    },
+    "urlText": "Sydney International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-35691",
+    "content": "At Sydney International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+    "subtitle": "Sydney International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+    "properties": {
+      "smsText": "Sydney International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+      "speechText": "At Sydney International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "202030:2020102",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "202030",
+          "isGlobalId": true,
+          "name": "Sydney International Airport Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
