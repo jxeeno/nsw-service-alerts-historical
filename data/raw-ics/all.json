@@ -37785,13 +37785,13 @@
     }
   },
   {
-    "type": "lineInfo",
+    "type": "stopInfo",
     "id": "ems-35736",
-    "version": 1420,
+    "version": 2327,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-06-26T21:29:00Z",
-      "lastModification": "2024-06-26T21:53:00Z",
+      "lastModification": "2024-06-26T22:08:00Z",
       "availability": {
         "from": "2024-06-26T21:27:00Z",
         "to": "2024-06-27T06:27:00Z"
@@ -37804,15 +37804,17 @@
       ],
       "expiration": "2024-06-27T06:27:59Z"
     },
-    "urlText": "Train service delays between Broadmeadow Station and Maitland Station",
+    "urlText": "Train service delays at Broadmeadow Station",
     "url": "https://transportnsw.info/alerts/details#/ems-35736",
     "content": "There are delays on route 33 train services due to demonstration. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Broadmeadow Station and Maitland Station",
+    "subtitle": "Train service delays at Broadmeadow Station",
     "properties": {
-      "smsText": "Train service delays between Broadmeadow Station and Maitland Station",
+      "smsText": "Train service delays at Broadmeadow Station",
       "speechText": "There are delays on route 33 train services due to demonstration. \n Plan ahead and allow extra travel time.",
       "announcementType": "servicechange",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "229210#232020",
       "providerCode": "TfNSW"
     },
     "affected": {
@@ -37834,6 +37836,30 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "229210",
+          "isGlobalId": true,
+          "name": "Broadmeadow Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95342007:1",
+            "name": "Broadmeadow",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "232020",
+          "isGlobalId": true,
+          "name": "Maitland Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95336023:1",
+            "name": "Maitland",
+            "type": "locality"
           }
         }
       ]
@@ -40319,6 +40345,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-35734",
+    "version": 1659,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-06-26T20:50:00Z",
+      "lastModification": "2024-06-26T21:17:00Z",
+      "availability": {
+        "from": "2024-06-26T20:50:00Z",
+        "to": "2024-07-27T09:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-06-26T20:50:00Z",
+          "to": "2024-07-27T09:30:00Z"
+        }
+      ],
+      "expiration": "2024-07-27T09:30:59Z"
+    },
+    "urlText": "Newcastle Light Rail - reduced frequency",
+    "url": "https://transportnsw.info/alerts/details#/ems-35734",
+    "content": "<div>\n<div>Services are running at a reduced frequency due to maintenance.</div>\n<ul>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates</li>\n<li>Consider catching a route 11 or 13 bus instead</li>\n</ul>\n</div>",
+    "subtitle": "Newcastle Light Rail - reduced frequency",
+    "properties": {
+      "smsText": "Newcastle Light Rail - reduced frequency",
+      "speechText": "Services are running at a reduced frequency due to maintenance. Allow extra travel time, listen to announcements and check information displays for service updates. Consider catching a route 11 or 13 bus instead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:78NLR: :H:",
+          "destination": {
+            "name": "Newcastle Beach Light Rail, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Interchange to Newcastle Beach",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:78NLR: :R:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Newcastle Light Rail Network NLR",
+          "number": "NLR",
+          "description": "Newcastle Beach to Newcastle Interchange",
+          "iconId": 21,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "NT",
+            "name": "Newcastle Transport"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-35568",
     "version": 76,
     "priority": "normal",
@@ -40820,80 +40920,6 @@
       ],
       "Infrastructures": [
         {}
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-35734",
-    "version": 1659,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-06-26T20:50:00Z",
-      "lastModification": "2024-06-26T21:17:00Z",
-      "availability": {
-        "from": "2024-06-26T20:50:00Z",
-        "to": "2024-07-27T09:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-06-26T20:50:00Z",
-          "to": "2024-07-27T09:30:00Z"
-        }
-      ],
-      "expiration": "2024-07-27T09:30:59Z"
-    },
-    "urlText": "Newcastle Light Rail - reduced frequency",
-    "url": "https://transportnsw.info/alerts/details#/ems-35734",
-    "content": "<div>\n<div>Services are running at a reduced frequency due to maintenance.</div>\n<ul>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates</li>\n<li>Consider catching a route 11 or 13 bus instead</li>\n</ul>\n</div>",
-    "subtitle": "Newcastle Light Rail - reduced frequency",
-    "properties": {
-      "smsText": "Newcastle Light Rail - reduced frequency",
-      "speechText": "Services are running at a reduced frequency due to maintenance. Allow extra travel time, listen to announcements and check information displays for service updates. Consider catching a route 11 or 13 bus instead.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:78NLR: :H:",
-          "destination": {
-            "name": "Newcastle Beach Light Rail, Newcastle",
-            "type": "stop"
-          },
-          "name": "Newcastle Light Rail Network NLR",
-          "number": "NLR",
-          "description": "Newcastle Interchange to Newcastle Beach",
-          "iconId": 21,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "NT",
-            "name": "Newcastle Transport"
-          }
-        },
-        {
-          "id": "nsw:78NLR: :R:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Newcastle Light Rail Network NLR",
-          "number": "NLR",
-          "description": "Newcastle Beach to Newcastle Interchange",
-          "iconId": 21,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "NT",
-            "name": "Newcastle Transport"
-          }
-        }
       ]
     }
   }
