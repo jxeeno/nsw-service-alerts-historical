@@ -12659,18 +12659,18 @@
   {
     "type": "stopInfo",
     "id": "5b8458442d4b851291bbe5ba447873dbbf65b2a7",
-    "version": 1,
+    "version": 218003,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-06-24T19:12:00Z",
-      "lastModification": "2024-06-24T19:12:00Z",
+      "lastModification": "2024-06-27T07:45:00Z",
       "availability": {
-        "from": "2024-06-24T19:12:00Z",
+        "from": "2024-06-27T07:45:00Z",
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-06-24T19:12:00Z",
+          "from": "2024-06-27T07:45:00Z",
           "to": "2500-12-31T00:00:00Z"
         }
       ],
@@ -12678,11 +12678,11 @@
     },
     "urlText": "Station Update - Clarendon",
     "url": "https://transportnsw.info/alerts/details#/5b8458442d4b851291bbe5ba447873dbbf65b2a7",
-    "content": "Until further notice all trains to the City will depart from Platform 2. All trains to Richmond will depart from Platform 1.",
+    "content": "Until further notice all trains towards Blacktown will depart from Platform 2. All trains towards Richmond will depart from Platform 1.\n\nPlease listen to announcements and check information screens before getting on trains.",
     "subtitle": "Station Update - Clarendon",
     "properties": {
       "smsText": "Station Update - Clarendon",
-      "speechText": "Until further notice all trains to the City will depart from Platform 2. All trains to Richmond will depart from Platform 1.",
+      "speechText": "Until further notice all trains towards Blacktown will depart from Platform 2. All trains towards Richmond will depart from Platform 1.\n\nPlease listen to announcements and check information screens before getting on trains.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -23766,6 +23766,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-35752",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-06-27T04:13:00Z",
+      "lastModification": "2024-06-27T04:13:00Z",
+      "availability": {
+        "from": "2024-06-27T04:13:00Z",
+        "to": "2024-06-27T09:13:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-06-27T04:13:00Z",
+          "to": "2024-06-27T09:13:00Z"
+        }
+      ],
+      "expiration": "2024-06-27T09:13:59Z"
+    },
+    "urlText": "Train service delays at Cootamundra Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-35752",
+    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Cootamundra Station",
+    "properties": {
+      "smsText": "Train service delays at Cootamundra Station",
+      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-35664",
     "version": 1,
     "priority": "normal",
@@ -24155,61 +24210,6 @@
           "operator": {
             "id": "5503",
             "name": "Fenton's Bus Service"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-35752",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-06-27T04:13:00Z",
-      "lastModification": "2024-06-27T04:13:00Z",
-      "availability": {
-        "from": "2024-06-27T04:13:00Z",
-        "to": "2024-06-27T09:13:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-06-27T04:13:00Z",
-          "to": "2024-06-27T09:13:00Z"
-        }
-      ],
-      "expiration": "2024-06-27T09:13:59Z"
-    },
-    "urlText": "Train service delays at Cootamundra Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-35752",
-    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Cootamundra Station",
-    "properties": {
-      "smsText": "Train service delays at Cootamundra Station",
-      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
           }
         }
       ]
