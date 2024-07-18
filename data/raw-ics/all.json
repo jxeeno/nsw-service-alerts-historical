@@ -9704,6 +9704,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-36755",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-07-18T21:31:00Z",
+      "lastModification": "2024-07-18T21:31:00Z",
+      "availability": {
+        "from": "2024-07-18T21:29:00Z",
+        "to": "2024-07-19T11:29:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-07-18T21:29:00Z",
+          "to": "2024-07-19T11:29:00Z"
+        }
+      ],
+      "expiration": "2024-07-19T11:29:59Z"
+    },
+    "urlText": "Public transport service delays between Brisbane (Roma Street) Station and Casino Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-36755",
+    "content": "There are delays on routes 32 and 165 public transport services due to infrastructure repairs. \n<div>Brisbane to Sydney XPT train is extensively delayed due to a track failure.</div> Plan ahead and allow extra travel time.",
+    "subtitle": "Public transport service delays between Brisbane (Roma Street) Station and Casino Station",
+    "properties": {
+      "smsText": "Public transport service delays between Brisbane (Roma Street) Station and Casino Station",
+      "speechText": "There are delays on routes 32 and 165 public transport services due to infrastructure repairs. \nBrisbane to Sydney XPT train is extensively delayed due to a track failure. Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76165: :H:",
+          "destination": {
+            "name": "Tweed Mall, Wharf St, Tweed Heads",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 165",
+          "number": "165",
+          "description": "Casino to Tweed Heads",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-30819",
     "version": 3984909,
     "priority": "veryLow",
@@ -30317,93 +30391,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-36729",
-    "version": 5,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-07-18T03:55:00Z",
-      "lastModification": "2024-07-18T03:55:00Z",
-      "availability": {
-        "from": "2024-07-11T05:45:00Z",
-        "to": "2503-08-26T06:46:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-07-18T02:55:00Z",
-          "to": "2503-08-26T06:46:00Z"
-        }
-      ],
-      "expiration": "2503-08-26T06:46:59Z"
-    },
-    "urlText": "Holsworthy Station Lift 3 between the footbridge and car park east is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-36729",
-    "content": "At Holsworthy Station Lift 3 between the footbridge and car park east is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1166.",
-    "subtitle": "Holsworthy Station Lift 3 between the footbridge and car park east is not available",
-    "properties": {
-      "smsText": "Holsworthy Station Lift 3 between the footbridge and car park east is not available",
-      "speechText": "At Holsworthy Station Lift 3 between the footbridge and car park east is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1166.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "217310",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T8: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "Macarthur to City via Airport or Sydenham",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T8: :H:",
-          "destination": {
-            "name": "Macarthur Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "217310",
-          "isGlobalId": true,
-          "name": "Holsworthy Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-36669",
     "version": 1,
@@ -32004,53 +31991,6 @@
           "name": "Town Hall Station, Platform 5",
           "type": "stop"
         }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-36728",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-07-18T03:36:00Z",
-      "lastModification": "2024-07-18T03:36:00Z",
-      "availability": {
-        "from": "2024-07-11T05:26:00Z",
-        "to": "2503-08-26T06:27:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-07-18T02:36:00Z",
-          "to": "2503-08-26T06:27:00Z"
-        }
-      ],
-      "expiration": "2503-08-26T06:27:59Z"
-    },
-    "urlText": "Holsworthy Station Lift 1 between the footbridge and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-36728",
-    "content": "At Holsworthy Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1166.",
-    "subtitle": "Holsworthy Station Lift 1 between the footbridge and Platform 1/2 is not available",
-    "properties": {
-      "smsText": "Holsworthy Station Lift 1 between the footbridge and Platform 1/2 is not available",
-      "speechText": "At Holsworthy Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1166.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "217310:217391,217392",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "217310",
-          "isGlobalId": true,
-          "name": "Holsworthy Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
       ]
     }
   },
