@@ -2191,6 +2191,87 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-37028",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-07-23T23:21:00Z",
+      "lastModification": "2024-07-23T23:21:00Z",
+      "availability": {
+        "from": "2024-07-23T14:01:00Z",
+        "to": "2024-09-21T13:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-20T14:01:00Z",
+          "to": "2024-09-21T14:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-21T14:00:59Z"
+    },
+    "urlText": "Doonside temporary bus stop closures",
+    "url": "https://transportnsw.info/alerts/details#/ems-37028",
+    "content": "<div><strong>Saturday 21 September</strong></div>\n<ul>\n<li>Route <strong>753</strong> services will divert via Coghlin Cr, Crawford Rd and Earle St and miss stops for the Doonside Festival.</li>\n</ul>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Doonside Station, Hill End Rd (276761)</li>\n<li>Hill End Rd before Earle St (276783)</li>\n</ul>",
+    "subtitle": "Doonside temporary bus stop closures",
+    "properties": {
+      "smsText": "Doonside temporary bus stop closures",
+      "speechText": "On Saturday 21 September, route 753 services will divert for the Doonside Festival and miss bus stops stops \nDoonside Station, Hill End Rd and Hill End Rd before Earle St.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "276710#G276783",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:11753: :R:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 753",
+          "number": "753",
+          "description": "Blacktown to Doonside (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "276710",
+          "isGlobalId": true,
+          "name": "Doonside Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308009:1",
+            "name": "Doonside",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G276783",
+          "isGlobalId": true,
+          "name": "Hill End Rd before Earle St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308009:1",
+            "name": "Doonside",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-36236",
     "version": 1,
@@ -13643,6 +13724,81 @@
           "isGlobalId": true,
           "name": "Blacktown Station",
           "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "e148459286c738ec67eb4d5ae505024870dc33e8",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-07-23T23:26:00Z",
+      "lastModification": "2024-07-23T23:26:00Z",
+      "availability": {
+        "from": "2024-07-23T23:26:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-07-23T23:26:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Inner West & Leppington Line",
+    "url": "https://transportnsw.info/alerts/details#/e148459286c738ec67eb4d5ae505024870dc33e8",
+    "content": "Allow extra travel time due to urgent train repairs at Petersham and Newton earlier.. Services may be less frequent and trips may take longer than usual. Stops may change at short notice. Please listen for announcements and check information for service updates.",
+    "subtitle": "Inner West & Leppington Line",
+    "properties": {
+      "smsText": "Inner West & Leppington Line",
+      "speechText": "Allow extra travel time due to urgent train repairs at Petersham and Newton earlier.. Services may be less frequent and trips may take longer than usual. Stops may change at short notice. Please listen for announcements and check information for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
         }
       ]
     }
