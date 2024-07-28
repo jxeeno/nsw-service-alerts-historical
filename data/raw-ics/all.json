@@ -6434,76 +6434,165 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-37236",
-    "version": 2707,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "ems-37240",
+    "version": 9,
+    "priority": "low",
     "timestamps": {
-      "creation": "2024-07-28T19:44:00Z",
-      "lastModification": "2024-07-28T20:29:00Z",
+      "creation": "2024-07-28T20:38:00Z",
+      "lastModification": "2024-07-28T20:38:00Z",
       "availability": {
-        "from": "2024-07-28T19:40:00Z",
-        "to": "2024-07-28T20:40:00Z"
+        "from": "2024-07-21T22:28:00Z",
+        "to": "2503-09-05T23:29:00Z"
       },
       "validity": [
         {
-          "from": "2024-07-28T19:40:00Z",
-          "to": "2024-07-28T20:40:00Z"
+          "from": "2024-07-28T19:38:00Z",
+          "to": "2503-09-05T23:29:00Z"
         }
       ],
-      "expiration": "2024-07-28T20:40:59Z"
+      "expiration": "2503-09-05T23:29:59Z"
     },
-    "urlText": "Some F1 Manly ferry services cancelled",
-    "url": "https://transportnsw.info/alerts/details#/ems-37236",
-    "content": "<div>The following ferry services have been cancelled&nbsp; due to the rough swell.&nbsp;</div>\n<ul>\n<li>6:50am Circular Quay to Manly. The next service is at 7:10</li>\n<li>7:20am Manly to Circular to Manly. The next service is at 7:40am</li>\n</ul>",
-    "subtitle": "Some F1 Manly ferry services cancelled",
+    "urlText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-37240",
+    "content": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
+    "subtitle": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
     "properties": {
-      "smsText": "Some F1 Manly ferry services cancelled",
-      "speechText": "The following ferry services have been cancelled  due to the rough swell. \n6:50am Circular Quay to Manly. The next service is at 7:10\n7:20am Manly to Circular to Manly. The next service is at 7:40am",
-      "announcementType": "serviceChange",
+      "smsText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
+      "speechText": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "207210:207262,207263",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:090F1: :R:",
+          "id": "nsw:020T1:N:H:",
           "destination": {
-            "name": "Circular Quay",
+            "name": "Berowra Station",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Manly to Circular Quay",
-          "iconId": 10,
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
         {
-          "id": "nsw:090F1: :H:",
+          "id": "nsw:020T1:N:R:",
           "destination": {
-            "name": "Manly Wharf, Manly",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Circular Quay to Manly",
-          "iconId": 10,
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
+      ],
+      "stops": [
+        {
+          "id": "207210",
+          "isGlobalId": true,
+          "name": "Gordon Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
@@ -28747,80 +28836,6 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-37092",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-07-25T00:49:00Z",
-      "lastModification": "2024-07-25T00:49:00Z",
-      "availability": {
-        "from": "2024-07-25T00:47:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-07-25T00:47:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Buses cannot use the Bluff Point Ferry",
-    "url": "https://transportnsw.info/alerts/details#/ems-37092",
-    "content": "<div>\n<div>Buses cannot use the Bluff Point Ferry as it is not running due to a police operation.</div>\n<ul>\n<li>Buses are running between Lawrence and Grafton instead of between Lawrence and Maclean</li>\n</ul>\n</div>",
-    "subtitle": "Buses cannot use the Bluff Point Ferry",
-    "properties": {
-      "smsText": "Buses cannot use the Bluff Point Ferry",
-      "speechText": "Buses cannot use the Bluff Point Ferry as it is not running due to a police operation. They are running between Lawrence and Grafton instead of between Lawrence and Maclean as a result.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:55385: :R:",
-          "destination": {
-            "name": "Maclean Coach Stop, Maclean",
-            "type": "stop"
-          },
-          "name": "North Coast Network 385",
-          "number": "385",
-          "description": "Lawrence to Maclean",
-          "iconId": 35,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5950",
-            "name": "CTC Buses"
-          }
-        },
-        {
-          "id": "nsw:55385: :H:",
-          "destination": {
-            "name": "Richmond St after Ward St, Lawrence",
-            "type": "stop"
-          },
-          "name": "North Coast Network 385",
-          "number": "385",
-          "description": "Maclean to Lawrence",
-          "iconId": 35,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5950",
-            "name": "CTC Buses"
           }
         }
       ]
