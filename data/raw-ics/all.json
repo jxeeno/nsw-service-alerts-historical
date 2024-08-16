@@ -3611,18 +3611,18 @@
   {
     "type": "lineInfo",
     "id": "a6ea1c14ca3fa4d685b15aacd4afb55d73581531",
-    "version": 5100,
+    "version": 12900,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-08-16T03:14:00Z",
-      "lastModification": "2024-08-16T04:39:00Z",
+      "lastModification": "2024-08-16T06:49:00Z",
       "availability": {
-        "from": "2024-08-16T04:39:00Z",
+        "from": "2024-08-16T06:49:00Z",
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-08-16T04:39:00Z",
+          "from": "2024-08-16T06:49:00Z",
           "to": "2500-12-31T00:00:00Z"
         }
       ],
@@ -3630,11 +3630,11 @@
     },
     "urlText": "Eastern Suburbs & Illawarra Line",
     "url": "https://transportnsw.info/alerts/details#/a6ea1c14ca3fa4d685b15aacd4afb55d73581531",
-    "content": "Allow extra travel time due to urgent train repairs at Oatley earlier.\n\nTrains may stop at different platforms, and stops may change at short notice. Services may be less frequent for some stations.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+    "content": "Allow extra travel time due to urgent train repairs at Oatley earlier. Some trains may be delayed and trips may take longer than usual.\n\nTrains may stop at different platforms, and stops may change at short notice. Services may be less frequent for some stations.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
     "subtitle": "Eastern Suburbs & Illawarra Line",
     "properties": {
       "smsText": "Eastern Suburbs & Illawarra Line",
-      "speechText": "Allow extra travel time due to urgent train repairs at Oatley earlier.\n\nTrains may stop at different platforms, and stops may change at short notice. Services may be less frequent for some stations.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+      "speechText": "Allow extra travel time due to urgent train repairs at Oatley earlier. Some trains may be delayed and trips may take longer than usual.\n\nTrains may stop at different platforms, and stops may change at short notice. Services may be less frequent for some stations.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -9242,6 +9242,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-38149",
+    "version": 17,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-08-16T06:52:00Z",
+      "lastModification": "2024-08-16T06:52:00Z",
+      "availability": {
+        "from": "2024-08-16T06:50:00Z",
+        "to": "2024-08-16T10:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-16T06:50:00Z",
+          "to": "2024-08-16T10:00:00Z"
+        }
+      ],
+      "expiration": "2024-08-16T10:00:59Z"
+    },
+    "urlText": "Train service delays between Harden Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-38149",
+    "content": "There are delays on route 624 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Harden Station and Central Station",
+    "properties": {
+      "smsText": "Train service delays between Harden Station and Central Station",
+      "speechText": "There are delays on route 624 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-37555",
     "version": 1,
     "priority": "normal",
@@ -13091,58 +13146,6 @@
           "operator": {
             "id": "2447",
             "name": "Rover Coaches"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-38148",
-    "version": 73,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-08-16T06:38:00Z",
-      "lastModification": "2024-08-16T06:40:00Z",
-      "availability": {
-        "from": "2024-08-16T06:38:00Z",
-        "to": "2024-08-16T06:50:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-08-16T06:38:00Z",
-          "to": "2024-08-16T06:40:00Z"
-        }
-      ],
-      "expiration": "2024-08-16T06:40:59Z"
-    },
-    "urlText": "",
-    "url": "https://transportnsw.info/alerts/details#/ems-38148",
-    "subtitle": "",
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76784: :R:",
-          "destination": {
-            "name": "Goulburn Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 784",
-          "number": "784",
-          "description": "Canberra to Goulburn",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
           }
         }
       ]
@@ -25473,93 +25476,6 @@
           "name": "Martin Place Station, Platform 1",
           "type": "stop"
         }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-38144",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-08-16T04:38:00Z",
-      "lastModification": "2024-08-16T04:38:00Z",
-      "availability": {
-        "from": "2024-05-16T14:50:00Z",
-        "to": "2503-09-23T19:29:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-08-16T03:38:00Z",
-          "to": "2503-09-23T19:29:00Z"
-        }
-      ],
-      "expiration": "2503-09-23T19:29:59Z"
-    },
-    "urlText": "Hurlstone Park Station Lift 2 between the concourse and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-38144",
-    "content": "At Hurlstone Park Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7544.",
-    "subtitle": "Hurlstone Park Station Lift 2 between the concourse and Platform 2 is not available",
-    "properties": {
-      "smsText": "Hurlstone Park Station Lift 2 between the concourse and Platform 2 is not available",
-      "speechText": "At Hurlstone Park Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7544.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "219310:2193122",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T3: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "Liverpool or Lidcombe to City via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "219310",
-          "isGlobalId": true,
-          "name": "Hurlstone Park Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
       ]
     }
   },
