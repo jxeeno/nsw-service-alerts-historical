@@ -5581,18 +5581,18 @@
   {
     "type": "lineInfo",
     "id": "79b73c6772fef01841ac10b6eb16d97588ef615e",
-    "version": 2100,
+    "version": 3000,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-08-16T08:16:00Z",
-      "lastModification": "2024-08-16T08:51:00Z",
+      "lastModification": "2024-08-16T09:06:00Z",
       "availability": {
-        "from": "2024-08-16T08:51:00Z",
+        "from": "2024-08-16T09:06:00Z",
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-08-16T08:51:00Z",
+          "from": "2024-08-16T09:06:00Z",
           "to": "2500-12-31T00:00:00Z"
         }
       ],
@@ -5600,11 +5600,11 @@
     },
     "urlText": "Airport & South Line",
     "url": "https://transportnsw.info/alerts/details#/79b73c6772fef01841ac10b6eb16d97588ef615e",
-    "content": "Allow up to 15 minutes extra travel time due to urgent signal repairs at Minto earlier.\n\nStops may change at short notice. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+    "content": "Allow up to 30 minutes extra travel time due to urgent signal repairs at Minto earlier.\n\nStops may change at short notice. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
     "subtitle": "Airport & South Line",
     "properties": {
       "smsText": "Airport & South Line",
-      "speechText": "Allow up to 15 minutes extra travel time due to urgent signal repairs at Minto earlier.\n\nStops may change at short notice. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+      "speechText": "Allow up to 30 minutes extra travel time due to urgent signal repairs at Minto earlier.\n\nStops may change at short notice. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -7054,6 +7054,61 @@
       ],
       "Infrastructures": [
         {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-38154",
+    "version": 5,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-16T09:08:00Z",
+      "lastModification": "2024-08-16T09:08:00Z",
+      "availability": {
+        "from": "2024-08-16T09:07:00Z",
+        "to": "2024-08-16T10:07:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-16T09:07:00Z",
+          "to": "2024-08-16T10:07:00Z"
+        }
+      ],
+      "expiration": "2024-08-16T10:07:59Z"
+    },
+    "urlText": "Coach service delays at Moss Vale Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-38154",
+    "content": "There are delays on route 751 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at Moss Vale Station",
+    "properties": {
+      "smsText": "Coach service delays at Moss Vale Station",
+      "speechText": "There are delays on route 751 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76751: :H:",
+          "destination": {
+            "name": "Wollongong Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 751",
+          "number": "751",
+          "description": "Moss Vale to Wollongong",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        }
       ]
     }
   },
@@ -16614,6 +16669,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-38150",
+    "version": 55,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-16T08:59:00Z",
+      "lastModification": "2024-08-16T09:00:00Z",
+      "availability": {
+        "from": "2024-08-16T08:55:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-16T08:55:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Diversion in Mulgoa",
+    "url": "https://transportnsw.info/alerts/details#/ems-38150",
+    "content": "<div>Buses are diverting away from Mulgoa Road due to a crash closing the road between Park Road and Vincent Avenue.</div>\n<div>* Buses are using Littlefields Road, The Northern Road, Willmington Road and Park Road instead.</div>\n<div>* Buses are missing up to four stops</div>",
+    "subtitle": "Diversion in Mulgoa",
+    "properties": {
+      "smsText": "Diversion in Mulgoa",
+      "speechText": "Route 795 buses are diverting away from Mulgoa Road due to a crash closing the road between Park Road and Vincent Avenue. Buses are using Littlefields Road, The Northern Road, Willmington Road and Park Road instead, missing up to four stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:11795: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 795",
+          "number": "795",
+          "description": "Warragamba to Penrith",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-37313",
     "version": 6,
     "priority": "normal",
@@ -20720,6 +20830,61 @@
           "isGlobalId": true,
           "name": "Edgecliff Station",
           "type": "stop"
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-38152",
+    "version": 14,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-16T09:03:00Z",
+      "lastModification": "2024-08-16T09:03:00Z",
+      "availability": {
+        "from": "2024-08-16T09:01:00Z",
+        "to": "2024-08-16T12:25:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-16T09:01:00Z",
+          "to": "2024-08-16T12:25:00Z"
+        }
+      ],
+      "expiration": "2024-08-16T12:25:59Z"
+    },
+    "urlText": "Train service delays between Campbelltown Station and Canberra Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-38152",
+    "content": "There are delays on route 636 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Campbelltown Station and Canberra Station",
+    "properties": {
+      "smsText": "Train service delays between Campbelltown Station and Canberra Station",
+      "speechText": "There are delays on route 636 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76636: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 636",
+          "number": "636",
+          "description": "Canberra to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
         }
       ]
     }
@@ -25467,6 +25632,204 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-38153",
+    "version": 5,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-08-16T09:07:00Z",
+      "lastModification": "2024-08-16T09:07:00Z",
+      "availability": {
+        "from": "2024-08-09T10:57:00Z",
+        "to": "2503-09-24T11:57:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-16T08:07:00Z",
+          "to": "2503-09-24T11:57:00Z"
+        }
+      ],
+      "expiration": "2503-09-24T11:57:59Z"
+    },
+    "urlText": "Parramatta Station Escalator 1 between the western concourse and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-38153",
+    "content": "At Parramatta Station Escalator 1 between the western concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
+    "subtitle": "Parramatta Station Escalator 1 between the western concourse and Platform 1 is not available",
+    "properties": {
+      "smsText": "Parramatta Station Escalator 1 between the western concourse and Platform 1 is not available",
+      "speechText": "At Parramatta Station Escalator 1 between the western concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "215020:2150411",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Liverpool Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Lithgow Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "215020",
+          "isGlobalId": true,
+          "name": "Parramatta Station, Platform 1",
+          "type": "stop"
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-37363",
     "version": 2,
@@ -25691,6 +26054,80 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-37998",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-13T05:27:00Z",
+      "lastModification": "2024-08-13T05:27:00Z",
+      "availability": {
+        "from": "2024-08-12T16:00:00Z",
+        "to": "2024-08-30T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-25T16:00:00Z",
+          "to": "2024-08-30T16:00:00Z"
+        }
+      ],
+      "expiration": "2024-08-30T16:00:59Z"
+    },
+    "urlText": "Buses replace trains between Lithgow and Mount Victoria",
+    "url": "https://transportnsw.info/alerts/details#/ems-37998",
+    "content": "<div>\n<div><strong>Monday 26 to Friday 30 August&nbsp;</strong></div>\n<ul>\n<li>Buses replace trains between Lithgow and Mount Victoria.</li>\n<li>Trains run between Mount Victoria and Central, some to a changed timetable.</li>\n<li>Bathurst trains run between Bathurst and Lithgow or Central, to a changed timetable.<br /><br /></li>\n<li><strong>Friday from 9.30pm</strong>, buses replace trains from Lithgow to Blacktown.</li>\n<li>The last train to Central leaves Mount Victoria at 21:01, arriving Central at 23:21.</li>\n<li><strong>From 11.50pm</strong>, buses replace trains from Blacktown to Lithgow.</li>\n<li>The last train to the Blue Mountains leaves Central at 22:18, arriving Mount Victoria 00:37.</li>\n<li>T1 Western Line trains run between the City and St Marys, to a changed timetable. <strong>Change at Blacktown</strong> for buses to Blue Mountains Line stations.<br /><br /></li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>32BM Lithgow, then all stations to Mount Victoria and return</div>\n<div>&nbsp;</div>\n<div><strong>Friday night</strong></div>\n<div>5BM Katoomba, then all stations to Penrith, then express to Blacktown and return</div>\n<div>53BM Lithgow, then all stations to Katoomba, then Springwood, Blaxland and Blacktown and return</div>\n</div>",
+    "subtitle": "Buses replace trains between Lithgow and Mount Victoria",
+    "properties": {
+      "smsText": "Buses replace trains between Lithgow and Mount Victoria",
+      "speechText": "Monday 26 to Friday 30 August Buses replace trains between Lithgow and Mount Victoria.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-37801",
     "version": 90,
@@ -25840,80 +26277,6 @@
             "id": "placeID:95351015:1",
             "name": "Rockdale",
             "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-37998",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-08-13T05:27:00Z",
-      "lastModification": "2024-08-13T05:27:00Z",
-      "availability": {
-        "from": "2024-08-12T16:00:00Z",
-        "to": "2024-08-30T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-08-25T16:00:00Z",
-          "to": "2024-08-30T16:00:00Z"
-        }
-      ],
-      "expiration": "2024-08-30T16:00:59Z"
-    },
-    "urlText": "Buses replace trains between Lithgow and Mount Victoria",
-    "url": "https://transportnsw.info/alerts/details#/ems-37998",
-    "content": "<div>\n<div><strong>Monday 26 to Friday 30 August&nbsp;</strong></div>\n<ul>\n<li>Buses replace trains between Lithgow and Mount Victoria.</li>\n<li>Trains run between Mount Victoria and Central, some to a changed timetable.</li>\n<li>Bathurst trains run between Bathurst and Lithgow or Central, to a changed timetable.<br /><br /></li>\n<li><strong>Friday from 9.30pm</strong>, buses replace trains from Lithgow to Blacktown.</li>\n<li>The last train to Central leaves Mount Victoria at 21:01, arriving Central at 23:21.</li>\n<li><strong>From 11.50pm</strong>, buses replace trains from Blacktown to Lithgow.</li>\n<li>The last train to the Blue Mountains leaves Central at 22:18, arriving Mount Victoria 00:37.</li>\n<li>T1 Western Line trains run between the City and St Marys, to a changed timetable. <strong>Change at Blacktown</strong> for buses to Blue Mountains Line stations.<br /><br /></li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>32BM Lithgow, then all stations to Mount Victoria and return</div>\n<div>&nbsp;</div>\n<div><strong>Friday night</strong></div>\n<div>5BM Katoomba, then all stations to Penrith, then express to Blacktown and return</div>\n<div>53BM Lithgow, then all stations to Katoomba, then Springwood, Blaxland and Blacktown and return</div>\n</div>",
-    "subtitle": "Buses replace trains between Lithgow and Mount Victoria",
-    "properties": {
-      "smsText": "Buses replace trains between Lithgow and Mount Victoria",
-      "speechText": "Monday 26 to Friday 30 August Buses replace trains between Lithgow and Mount Victoria.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
           }
         }
       ]
