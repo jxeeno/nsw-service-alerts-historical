@@ -2474,6 +2474,131 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-38193",
+    "version": 27,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-18T02:37:00Z",
+      "lastModification": "2024-08-18T02:38:00Z",
+      "availability": {
+        "from": "2024-08-11T04:27:00Z",
+        "to": "2503-09-26T05:28:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-18T01:37:00Z",
+          "to": "2503-09-26T05:28:00Z"
+        }
+      ],
+      "expiration": "2503-09-26T05:28:59Z"
+    },
+    "urlText": "Central Station Lift 6 between Central Walk and Platform 24/25 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-38193",
+    "content": "At Central Station Lift 6 between Central Walk and Platform 24/25 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777.",
+    "subtitle": "Central Station Lift 6 between Central Walk and Platform 24/25 is not available",
+    "properties": {
+      "smsText": "Central Station Lift 6 between Central Walk and Platform 24/25 is not available",
+      "speechText": "At Central Station Lift 6 between Central Walk and Platform 24/25 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "200060:2000344,2000345",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200060",
+          "isGlobalId": true,
+          "name": "Central Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-37565",
     "version": 1,
@@ -3673,61 +3798,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-38189",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-08-18T00:47:00Z",
-      "lastModification": "2024-08-18T00:47:00Z",
-      "availability": {
-        "from": "2024-08-18T00:44:00Z",
-        "to": "2024-08-18T10:44:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-08-18T00:44:00Z",
-          "to": "2024-08-18T10:44:00Z"
-        }
-      ],
-      "expiration": "2024-08-18T10:44:59Z"
-    },
-    "urlText": "Train service delays between Bargo Station and Goulburn Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-38189",
-    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Bargo Station and Goulburn Station",
-    "properties": {
-      "smsText": "Train service delays between Bargo Station and Goulburn Station",
-      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-37555",
     "version": 1,
     "priority": "normal",
@@ -4880,6 +4950,61 @@
       ],
       "Infrastructures": [
         {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-38189",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-18T00:47:00Z",
+      "lastModification": "2024-08-18T00:47:00Z",
+      "availability": {
+        "from": "2024-08-18T00:44:00Z",
+        "to": "2024-08-18T10:44:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-18T00:44:00Z",
+          "to": "2024-08-18T10:44:00Z"
+        }
+      ],
+      "expiration": "2024-08-18T10:44:59Z"
+    },
+    "urlText": "Train service delays between Bargo Station and Goulburn Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-38189",
+    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Bargo Station and Goulburn Station",
+    "properties": {
+      "smsText": "Train service delays between Bargo Station and Goulburn Station",
+      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
       ]
     }
   },
@@ -15803,118 +15928,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-38186",
-    "version": 2811,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-08-17T21:49:00Z",
-      "lastModification": "2024-08-17T22:35:00Z",
-      "availability": {
-        "from": "2024-08-17T21:31:00Z",
-        "to": "2024-08-18T09:31:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-08-17T21:31:00Z",
-          "to": "2024-08-18T09:31:00Z"
-        }
-      ],
-      "expiration": "2024-08-18T09:31:59Z"
-    },
-    "urlText": "Argenton bus diversions",
-    "url": "https://transportnsw.info/alerts/details#/ems-38186",
-    "content": "<div>Northbound buses in Argenton are diverting and missing several stops due to a burst water main near the Waratah Golf Club on Lake Road. They are using Munibung Road, Macquarie Road, Main Road and Glendale Drive. Allow more travel time.&nbsp;</div>",
-    "subtitle": "Argenton bus diversions",
-    "properties": {
-      "smsText": "Argenton bus diversions",
-      "speechText": "In Argenton northbound buses are diverting and missing several stops due to a burst water main near the Waratah Golf Club on Lake Road. They are using Munibung Road, Macquarie Road, Main Road and Glendale Drive. Allow more travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:73044: :R:",
-          "destination": {
-            "name": "Kotara Home, Northcott Dr, Kotara",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 44",
-          "number": "44",
-          "description": "Warners Bay to Kotara via Glendale, Cardiff & Macquarie Hills",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        },
-        {
-          "id": "nsw:59270: :H:",
-          "destination": {
-            "name": "The Wollotuka Institute, Ring Rd, Callaghan",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 270",
-          "number": "270",
-          "description": "Toronto West to University of Newcastle",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2450",
-            "name": "Hunter Valley Buses"
-          }
-        },
-        {
-          "id": "nsw:59271: :H:",
-          "destination": {
-            "name": "Stockland Glendale, Glendale",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 271",
-          "number": "271",
-          "description": "Toronto to Glendale",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2450",
-            "name": "Hunter Valley Buses"
-          }
-        },
-        {
-          "id": "nsw:59271: :R:",
-          "destination": {
-            "name": "The Boulevarde before Cary St, Toronto",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 271",
-          "number": "271",
-          "description": "Glendale to Toronto",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2450",
-            "name": "Hunter Valley Buses"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-37341",
     "version": 85083,
     "priority": "normal",
@@ -16409,6 +16422,118 @@
             "id": "placeID:95301001:1",
             "name": "Sydney",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-38186",
+    "version": 2811,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-17T21:49:00Z",
+      "lastModification": "2024-08-17T22:35:00Z",
+      "availability": {
+        "from": "2024-08-17T21:31:00Z",
+        "to": "2024-08-18T09:31:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-17T21:31:00Z",
+          "to": "2024-08-18T09:31:00Z"
+        }
+      ],
+      "expiration": "2024-08-18T09:31:59Z"
+    },
+    "urlText": "Argenton bus diversions",
+    "url": "https://transportnsw.info/alerts/details#/ems-38186",
+    "content": "<div>Northbound buses in Argenton are diverting and missing several stops due to a burst water main near the Waratah Golf Club on Lake Road. They are using Munibung Road, Macquarie Road, Main Road and Glendale Drive. Allow more travel time.&nbsp;</div>",
+    "subtitle": "Argenton bus diversions",
+    "properties": {
+      "smsText": "Argenton bus diversions",
+      "speechText": "In Argenton northbound buses are diverting and missing several stops due to a burst water main near the Waratah Golf Club on Lake Road. They are using Munibung Road, Macquarie Road, Main Road and Glendale Drive. Allow more travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:73044: :R:",
+          "destination": {
+            "name": "Kotara Home, Northcott Dr, Kotara",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 44",
+          "number": "44",
+          "description": "Warners Bay to Kotara via Glendale, Cardiff & Macquarie Hills",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:59270: :H:",
+          "destination": {
+            "name": "The Wollotuka Institute, Ring Rd, Callaghan",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 270",
+          "number": "270",
+          "description": "Toronto West to University of Newcastle",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2450",
+            "name": "Hunter Valley Buses"
+          }
+        },
+        {
+          "id": "nsw:59271: :H:",
+          "destination": {
+            "name": "Stockland Glendale, Glendale",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 271",
+          "number": "271",
+          "description": "Toronto to Glendale",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2450",
+            "name": "Hunter Valley Buses"
+          }
+        },
+        {
+          "id": "nsw:59271: :R:",
+          "destination": {
+            "name": "The Boulevarde before Cary St, Toronto",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 271",
+          "number": "271",
+          "description": "Glendale to Toronto",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2450",
+            "name": "Hunter Valley Buses"
           }
         }
       ]
