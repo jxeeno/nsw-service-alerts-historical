@@ -27665,93 +27665,6 @@
   },
   {
     "type": "stopInfo",
-    "id": "ems-38373",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-08-22T07:07:00Z",
-      "lastModification": "2024-08-22T07:07:00Z",
-      "availability": {
-        "from": "2024-08-15T08:57:00Z",
-        "to": "2503-09-30T09:58:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-08-22T06:07:00Z",
-          "to": "2503-09-30T09:58:00Z"
-        }
-      ],
-      "expiration": "2503-09-30T09:58:59Z"
-    },
-    "urlText": "Belmore Station Lift 1 between Burwood Rd and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-38373",
-    "content": "At Belmore Station Lift 1 between Burwood Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7578.",
-    "subtitle": "Belmore Station Lift 1 between Burwood Rd and Platform 1/2 is not available",
-    "properties": {
-      "smsText": "Belmore Station Lift 1 between Burwood Rd and Platform 1/2 is not available",
-      "speechText": "At Belmore Station Lift 1 between Burwood Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7578.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "219210:219281,219282",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T3: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "Liverpool or Lidcombe to City via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "219210",
-          "isGlobalId": true,
-          "name": "Belmore Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
     "id": "ems-38385",
     "version": 7,
     "priority": "low",
@@ -34720,6 +34633,80 @@
           "operator": {
             "id": "SF",
             "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-38386",
+    "version": 3201,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-22T20:12:00Z",
+      "lastModification": "2024-08-22T21:05:00Z",
+      "availability": {
+        "from": "2024-08-22T19:58:00Z",
+        "to": "2024-08-23T00:58:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-08-22T19:58:00Z",
+          "to": "2024-08-23T00:58:00Z"
+        }
+      ],
+      "expiration": "2024-08-23T00:58:59Z"
+    },
+    "urlText": "Manly Fast Ferry cancellations",
+    "url": "https://transportnsw.info/alerts/details#/ems-38386",
+    "content": "<div>Due to an operational issue the following fast ferry services have been cancelled:</div>\n<ul>\n<li>7:05am fast ferry from Circular Quay to Manly</li>\n<li>7:30am fast ferry from Manly to Circular Quay</li>\n<li>7:55am fast ferry from Circular Quay to Manly</li>\n<li>8:20am fast ferry from Manly to Circular Quay</li>\n<li>8:45am fast ferry from Circular Quay to Manly</li>\n<li>9:10am fast ferry from Manly to Circular Quay</li>\n</ul>\n<div>Passengers should catch the next service or consider an F1 Manly ferry service and allow extra travel time.</div>",
+    "subtitle": "Manly Fast Ferry cancellations",
+    "properties": {
+      "smsText": "Manly Fast Ferry cancellations",
+      "speechText": "Due to an operational issue the following fast ferry services have been cancelled:\n7:05am fast ferry from Circular Quay to Manly\n7:30am fast ferry from Manly to Circular Quay\n7:55am fast ferry from Circular Quay to Manly\n8:20am fast ferry from Manly to Circular Quay\n8:45am fast ferry from Circular Quay to Manly\n9:10am fast ferry from Manly to Circular Quay",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04MFF: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "306",
+            "name": "Manly Fast Ferry"
+          }
+        },
+        {
+          "id": "nsw:04MFF: :H:",
+          "destination": {
+            "name": "Manly Wharf, Manly",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "306",
+            "name": "Manly Fast Ferry"
           }
         }
       ]
