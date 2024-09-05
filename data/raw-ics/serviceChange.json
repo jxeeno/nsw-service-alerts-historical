@@ -15384,6 +15384,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-39170",
+    "version": 214,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-05T02:50:00Z",
+      "lastModification": "2024-09-05T02:53:00Z",
+      "availability": {
+        "from": "2024-09-05T02:43:00Z",
+        "to": "2024-09-05T07:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-05T02:43:00Z",
+          "to": "2024-09-05T07:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-05T07:00:59Z"
+    },
+    "urlText": "Train service delays at Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-39170",
+    "content": "There are delays on route 633 train services due to route blocked. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Central Station",
+    "properties": {
+      "smsText": "Train service delays at Central Station",
+      "speechText": "There are delays on route 633 train services due to route blocked. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76633: :H:",
+          "destination": {
+            "name": "Canberra Station, Kingston (ACT)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 633",
+          "number": "633",
+          "description": "Central to Canberra",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-38097",
     "version": 1,
     "priority": "normal",
@@ -30877,11 +30932,11 @@
   {
     "type": "lineInfo",
     "id": "ems-39163",
-    "version": 2833,
+    "version": 4113,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-09-05T01:47:00Z",
-      "lastModification": "2024-09-05T02:34:00Z",
+      "lastModification": "2024-09-05T02:56:00Z",
       "availability": {
         "from": "2024-09-05T01:43:00Z",
         "to": "2024-09-05T03:43:00Z"
@@ -30896,11 +30951,11 @@
     },
     "urlText": "Diversion at Bankstown",
     "url": "https://transportnsw.info/alerts/details#/ems-39163",
-    "content": "<div>Buses are diverting from a part of Restwell Street due to a car crash near Raymond Street.</div>\n<ul>\n<li>Routes 922, 923, 924, 944, 945 and 960 are using The Mall, Jacob Street, Rickard Road, Stacey Street and Macauley Avenue instead and missing multiple stops</li>\n<li>Routes M90 and M91 heading to Bankstown are using Stanley Street, Cross Street and Raymond Street instead, but not missing any stops</li>\n<li>Route M90 and M91 heading away from Bankstown are using South Terrace, East Terrace, Cross Street and Stanley Street instead, but not missing any stops</li>\n</ul>\n<div>Some buses may be delayed</div>",
+    "content": "<div>Buses are diverting from a part of Restwell Street due to a car crash near Raymond Street.</div>\n<ul>\n<li>Routes 922, 923, 924, 944, 945 and 960 are using The Mall, Jacob Street, Rickard Road, Stacey Street and Macauley Avenue instead and missing multiple stops</li>\n<li>Routes M90 and M91 heading away from Bankstown are using South Terrace, East Terrace, Cross Street and Stanley Street instead, but not missing any stops</li>\n<li>Route 487 heading to Canterbury is using West Terrace, Raymond Street, Cross Street, Stanley Street, Stacey Street, Macauley Avenue and Chapel Road instead, missing two stops</li>\n<li>Some buses may be delayed</li>\n</ul>",
     "subtitle": "Diversion at Bankstown",
     "properties": {
       "smsText": "Diversion at Bankstown",
-      "speechText": "At Bankstown, buses are diverting from a part of Restwell Street due to a car crash near Raymond Street. Routes 922, 923, 924, 944, 945 and 960 are using The Mall, Jacob Street, Rickard Road, Stacey Street and Macauley Avenue instead and missing multiple stops. Routes M90 and M91 heading to Bankstown are using Stanley, Cross and Raymond streets instead, but not missing any stops. Route M90 and M91 heading away from Bankstown are using South Terrace, East Terrace, Cross Street and Stanley Street instead, but not missing any stops. Some buses may be delayed.",
+      "speechText": "At Bankstown, buses are diverting via local streets away from a part of Restwell Street due to a car crash near Raymond Street. Some buses may be delayed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -31117,25 +31172,6 @@
           }
         },
         {
-          "id": "nsw:13M90: :R:",
-          "destination": {
-            "name": "Westfield Burwood, Victoria St, Burwood",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network M90",
-          "number": "M90",
-          "description": "Liverpool to Burwood",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
           "id": "nsw:13M91: :H:",
           "destination": {
             "name": "Hurstville Station",
@@ -31144,25 +31180,6 @@
           "name": "Sydney Buses Network M91",
           "number": "M91",
           "description": "Parramatta to Hurstville via Chester Hill & Padstow",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13M91: :R:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network M91",
-          "number": "M91",
-          "description": "Hurstville to Parramatta via Padstow & Chester Hill",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -31342,6 +31359,25 @@
           "operator": {
             "id": "2510",
             "name": "U-Go Mobility"
+          }
+        },
+        {
+          "id": "nsw:74487: :R:",
+          "destination": {
+            "name": "Canterbury Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 487",
+          "number": "487",
+          "description": "Bankstown Central to Canterbury",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
