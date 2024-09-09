@@ -655,31 +655,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-39313",
-    "version": 2,
+    "id": "ems-39289",
+    "version": 15986,
     "priority": "normal",
     "timestamps": {
-      "creation": "2024-09-09T04:42:00Z",
-      "lastModification": "2024-09-09T04:43:00Z",
+      "creation": "2024-09-09T00:14:00Z",
+      "lastModification": "2024-09-09T04:41:00Z",
       "availability": {
-        "from": "2024-09-09T04:42:00Z",
-        "to": "2024-09-09T07:12:00Z"
+        "from": "2024-09-09T00:12:00Z",
+        "to": "2024-09-09T08:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-09-09T04:42:00Z",
-          "to": "2024-09-09T07:12:00Z"
+          "from": "2024-09-09T00:12:00Z",
+          "to": "2024-09-09T08:00:00Z"
         }
       ],
-      "expiration": "2024-09-09T07:12:59Z"
+      "expiration": "2024-09-09T08:00:59Z"
     },
-    "urlText": "Train service delays at Singleton Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-39313",
-    "content": "There are delays on route 224 train services due to route blocked. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Singleton Station",
+    "urlText": "Train service delays at Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-39289",
+    "content": "There are delays on route 223 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Central Station",
     "properties": {
-      "smsText": "Train service delays at Singleton Station",
-      "speechText": "There are delays on route 224 train services due to route blocked. \n Plan ahead and allow extra travel time.",
+      "smsText": "Train service delays at Central Station",
+      "speechText": "There are delays on route 223 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -687,14 +687,14 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76224: :R:",
+          "id": "nsw:76223: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Armidale Station, Armidale",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 224",
-          "number": "224",
-          "description": "Armidale to Central",
+          "name": "Regional Trains and Coaches Network 223",
+          "number": "223",
+          "description": "Central to Armidale",
           "iconId": 3,
           "product": {
             "class": 1,
@@ -703,6 +703,80 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-39300",
+    "version": 178,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T01:22:00Z",
+      "lastModification": "2024-09-09T01:25:00Z",
+      "availability": {
+        "from": "2024-09-09T01:20:00Z",
+        "to": "2024-09-09T12:50:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-09T01:20:00Z",
+          "to": "2024-09-09T12:50:00Z"
+        }
+      ],
+      "expiration": "2024-09-09T12:50:59Z"
+    },
+    "urlText": "Some Stockton Ferry services cancelled",
+    "url": "https://transportnsw.info/alerts/details#/ems-39300",
+    "content": "<div>\n<div>The following ferries have been cancelled between Stockton and Queens Wharf due to an operational issue.</div>\n<ul>\n<li>The 7:30pm Queens Wharf to Stockton service, the next ferry is due to leave Queens Wharf at 8pm</li>\n<li>The 7:45pm Stockton to Queens Wharf service, the next ferry is due to leave Stockton at 8:15pm</li>\n<li>The 10:15pm Queens Wharf to Stockton service, the next ferry is due to leave Queens Wharf at 10:30pm</li>\n<li>The 10:22pm Stockton to Queens Wharf service, the next ferry is due to leave Stockton at 10:45pm</li>\n<li>Allow extra travel time</li>\n</ul>\n</div>",
+    "subtitle": "Some Stockton Ferry services cancelled",
+    "properties": {
+      "smsText": "Some Stockton Ferry services cancelled",
+      "speechText": "Some Stockton Ferry services have been cancelled due to an operational issue. The 7:30pm and 10:15pm Queens Wharf to Stockton services are cancelled with the next ferries due at 8pm and 10:30pm, and the 7:45pm and 10:22pm Stockton to Queens Wharf services are cancelled, with the next ferries due at 8:15pm and 10:45pm. Allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:73Stk:n:R:",
+          "destination": {
+            "name": "Queens Wharf, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Ferries Stkn Stockton Ferry",
+          "number": "Stkn Stockton Ferry",
+          "description": "Stockton to Newcastle Ferry",
+          "iconId": 11,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73Stk:n:H:",
+          "destination": {
+            "name": "Stockton Wharf, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Ferries Stkn Stockton Ferry",
+          "number": "Stkn Stockton Ferry",
+          "description": "Newcastle to Stockton Ferry",
+          "iconId": 11,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
           }
         }
       ]
@@ -1291,6 +1365,437 @@
   },
   {
     "type": "stopInfo",
+    "id": "037dc32daff6ce78898e4d9ba3c450822cb5898a",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-08T23:15:00Z",
+      "lastModification": "2024-09-08T23:15:00Z",
+      "availability": {
+        "from": "2024-09-08T23:15:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-08T23:15:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Station Update - Broadmeadow",
+    "url": "https://transportnsw.info/alerts/details#/037dc32daff6ce78898e4d9ba3c450822cb5898a",
+    "content": "Due to a technical issue there are currently no station information screens available at Broadmeadow. Please listen to announcements for stopping patterns and destination or ask station staff if you require any assistance. We are working to restore these screens as soon as possible but at this stage there is no forecast.",
+    "subtitle": "Station Update - Broadmeadow",
+    "properties": {
+      "smsText": "Station Update - Broadmeadow",
+      "speechText": "Due to a technical issue there are currently no station information screens available at Broadmeadow. Please listen to announcements for stopping patterns and destination or ask station staff if you require any assistance. We are working to restore these screens as soon as possible but at this stage there is no forecast.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "229210",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76036: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 36",
+          "number": "36",
+          "description": "Grafton to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76136: :R:",
+          "destination": {
+            "name": "Broadmeadow Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 136",
+          "number": "136",
+          "description": "Taree to Broadmeadow",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76224: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 224",
+          "number": "224",
+          "description": "Armidale to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76240:6:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 2406",
+          "number": "2406",
+          "description": "Tamworth to Central",
+          "iconId": 22,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76360:4:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 3604",
+          "number": "3604",
+          "description": "Grafton to Central",
+          "iconId": 22,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76361:4:R:",
+          "destination": {
+            "name": "Gosford Station",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 3614",
+          "number": "3614",
+          "description": "Taree to Gosford",
+          "iconId": 22,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76442:0:R:",
+          "destination": {
+            "name": "Gosford Station",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 4420",
+          "number": "4420",
+          "description": "Muswellbrook to Gosford",
+          "iconId": 22,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76031: :H:",
+          "destination": {
+            "name": "Brisbane (Roma Street) Station, Queensland",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 31",
+          "number": "31",
+          "description": "Central to Brisbane (Roma Street)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 35",
+          "number": "35",
+          "description": "Central to Grafton",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76135: :H:",
+          "destination": {
+            "name": "Taree Station, Taree",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 135",
+          "number": "135",
+          "description": "Broadmeadow to Taree",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76223: :H:",
+          "destination": {
+            "name": "Armidale Station, Armidale",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 223",
+          "number": "223",
+          "description": "Central to Armidale",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76230:5:H:",
+          "destination": {
+            "name": "Tamworth Station, East Tamworth",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 2305",
+          "number": "2305",
+          "description": "Central to Tamworth",
+          "iconId": 22,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76350:1:H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 3501",
+          "number": "3501",
+          "description": "Central to Grafton",
+          "iconId": 22,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76350:9:H:",
+          "destination": {
+            "name": "Taree Station, Taree",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 3509",
+          "number": "3509",
+          "description": "Gosford to Taree",
+          "iconId": 22,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76431:9:H:",
+          "destination": {
+            "name": "Muswellbrook Station",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 4319",
+          "number": "4319",
+          "description": "Gosford to Muswellbrook",
+          "iconId": 22,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "229210",
+          "isGlobalId": true,
+          "name": "Broadmeadow Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95342007:1",
+            "name": "Broadmeadow",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "ems-39263",
     "version": 3,
     "priority": "normal",
@@ -1791,566 +2296,6 @@
       ],
       "Infrastructures": [
         {}
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "037dc32daff6ce78898e4d9ba3c450822cb5898a",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-08T23:15:00Z",
-      "lastModification": "2024-09-08T23:15:00Z",
-      "availability": {
-        "from": "2024-09-08T23:15:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-08T23:15:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Station Update - Broadmeadow",
-    "url": "https://transportnsw.info/alerts/details#/037dc32daff6ce78898e4d9ba3c450822cb5898a",
-    "content": "Due to a technical issue there are currently no station information screens available at Broadmeadow. Please listen to announcements for stopping patterns and destination or ask station staff if you require any assistance. We are working to restore these screens as soon as possible but at this stage there is no forecast.",
-    "subtitle": "Station Update - Broadmeadow",
-    "properties": {
-      "smsText": "Station Update - Broadmeadow",
-      "speechText": "Due to a technical issue there are currently no station information screens available at Broadmeadow. Please listen to announcements for stopping patterns and destination or ask station staff if you require any assistance. We are working to restore these screens as soon as possible but at this stage there is no forecast.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "229210",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76034: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76036: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 36",
-          "number": "36",
-          "description": "Grafton to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76136: :R:",
-          "destination": {
-            "name": "Broadmeadow Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 136",
-          "number": "136",
-          "description": "Taree to Broadmeadow",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76224: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 224",
-          "number": "224",
-          "description": "Armidale to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76240:6:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 2406",
-          "number": "2406",
-          "description": "Tamworth to Central",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76360:4:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 3604",
-          "number": "3604",
-          "description": "Grafton to Central",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76361:4:R:",
-          "destination": {
-            "name": "Gosford Station",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 3614",
-          "number": "3614",
-          "description": "Taree to Gosford",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76442:0:R:",
-          "destination": {
-            "name": "Gosford Station",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 4420",
-          "number": "4420",
-          "description": "Muswellbrook to Gosford",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:76031: :H:",
-          "destination": {
-            "name": "Brisbane (Roma Street) Station, Queensland",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76033: :H:",
-          "destination": {
-            "name": "Casino Station, Casino",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 33",
-          "number": "33",
-          "description": "Central to Casino",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76035: :H:",
-          "destination": {
-            "name": "Grafton Station, South Grafton",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 35",
-          "number": "35",
-          "description": "Central to Grafton",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76135: :H:",
-          "destination": {
-            "name": "Taree Station, Taree",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 135",
-          "number": "135",
-          "description": "Broadmeadow to Taree",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76223: :H:",
-          "destination": {
-            "name": "Armidale Station, Armidale",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 223",
-          "number": "223",
-          "description": "Central to Armidale",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76230:5:H:",
-          "destination": {
-            "name": "Tamworth Station, East Tamworth",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 2305",
-          "number": "2305",
-          "description": "Central to Tamworth",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76350:1:H:",
-          "destination": {
-            "name": "Grafton Station, South Grafton",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 3501",
-          "number": "3501",
-          "description": "Central to Grafton",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76350:9:H:",
-          "destination": {
-            "name": "Taree Station, Taree",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 3509",
-          "number": "3509",
-          "description": "Gosford to Taree",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76431:9:H:",
-          "destination": {
-            "name": "Muswellbrook Station",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 4319",
-          "number": "4319",
-          "description": "Gosford to Muswellbrook",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "229210",
-          "isGlobalId": true,
-          "name": "Broadmeadow Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95342007:1",
-            "name": "Broadmeadow",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39300",
-    "version": 178,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T01:22:00Z",
-      "lastModification": "2024-09-09T01:25:00Z",
-      "availability": {
-        "from": "2024-09-09T01:20:00Z",
-        "to": "2024-09-09T12:50:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-09T01:20:00Z",
-          "to": "2024-09-09T12:50:00Z"
-        }
-      ],
-      "expiration": "2024-09-09T12:50:59Z"
-    },
-    "urlText": "Some Stockton Ferry services cancelled",
-    "url": "https://transportnsw.info/alerts/details#/ems-39300",
-    "content": "<div>\n<div>The following ferries have been cancelled between Stockton and Queens Wharf due to an operational issue.</div>\n<ul>\n<li>The 7:30pm Queens Wharf to Stockton service, the next ferry is due to leave Queens Wharf at 8pm</li>\n<li>The 7:45pm Stockton to Queens Wharf service, the next ferry is due to leave Stockton at 8:15pm</li>\n<li>The 10:15pm Queens Wharf to Stockton service, the next ferry is due to leave Queens Wharf at 10:30pm</li>\n<li>The 10:22pm Stockton to Queens Wharf service, the next ferry is due to leave Stockton at 10:45pm</li>\n<li>Allow extra travel time</li>\n</ul>\n</div>",
-    "subtitle": "Some Stockton Ferry services cancelled",
-    "properties": {
-      "smsText": "Some Stockton Ferry services cancelled",
-      "speechText": "Some Stockton Ferry services have been cancelled due to an operational issue. The 7:30pm and 10:15pm Queens Wharf to Stockton services are cancelled with the next ferries due at 8pm and 10:30pm, and the 7:45pm and 10:22pm Stockton to Queens Wharf services are cancelled, with the next ferries due at 8:15pm and 10:45pm. Allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:73Stk:n:R:",
-          "destination": {
-            "name": "Queens Wharf, Newcastle",
-            "type": "stop"
-          },
-          "name": "Newcastle Ferries Stkn Stockton Ferry",
-          "number": "Stkn Stockton Ferry",
-          "description": "Stockton to Newcastle Ferry",
-          "iconId": 11,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        },
-        {
-          "id": "nsw:73Stk:n:H:",
-          "destination": {
-            "name": "Stockton Wharf, Newcastle",
-            "type": "stop"
-          },
-          "name": "Newcastle Ferries Stkn Stockton Ferry",
-          "number": "Stkn Stockton Ferry",
-          "description": "Newcastle to Stockton Ferry",
-          "iconId": 11,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39289",
-    "version": 15986,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T00:14:00Z",
-      "lastModification": "2024-09-09T04:41:00Z",
-      "availability": {
-        "from": "2024-09-09T00:12:00Z",
-        "to": "2024-09-09T08:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-09T00:12:00Z",
-          "to": "2024-09-09T08:00:00Z"
-        }
-      ],
-      "expiration": "2024-09-09T08:00:59Z"
-    },
-    "urlText": "Train service delays at Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-39289",
-    "content": "There are delays on route 223 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Central Station",
-    "properties": {
-      "smsText": "Train service delays at Central Station",
-      "speechText": "There are delays on route 223 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76223: :H:",
-          "destination": {
-            "name": "Armidale Station, Armidale",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 223",
-          "number": "223",
-          "description": "Central to Armidale",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
       ]
     }
   },
@@ -4443,6 +4388,84 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-39314",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T05:09:00Z",
+      "lastModification": "2024-09-09T05:09:00Z",
+      "availability": {
+        "from": "2024-09-09T04:00:00Z",
+        "to": "2024-09-26T15:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-25T11:40:00Z",
+          "to": "2024-09-25T15:30:00Z"
+        },
+        {
+          "from": "2024-09-26T11:40:00Z",
+          "to": "2024-09-26T15:30:00Z"
+        }
+      ],
+      "expiration": "2024-09-26T15:30:59Z"
+    },
+    "urlText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+    "url": "https://transportnsw.info/alerts/details#/ems-39314",
+    "content": "<div>\n<div><strong>Wednesday 25 and Thursday 26 September&nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave <strong>up to 20 minutes earlier</strong> than the normal train timetable.</li>\n<li>Trains run between Penrith, Blacktown and Central, platforms 1-12 only.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, then all stations to Richmond and return</div>\n<div>52T1 Blacktown, then all stations to Riverstone and return</div>\n</div>",
+    "subtitle": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+    "properties": {
+      "smsText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+      "speechText": "Wednesday 25 and Thursday 26 September Nightly from 9 40 PM to 1 30 AM, buses replace trains between Richmond and Blacktown.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-38759",
     "version": 66,
     "priority": "normal",
@@ -5046,84 +5069,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-39314",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T05:09:00Z",
-      "lastModification": "2024-09-09T05:09:00Z",
-      "availability": {
-        "from": "2024-09-09T04:00:00Z",
-        "to": "2024-09-26T15:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-25T11:40:00Z",
-          "to": "2024-09-25T15:30:00Z"
-        },
-        {
-          "from": "2024-09-26T11:40:00Z",
-          "to": "2024-09-26T15:30:00Z"
-        }
-      ],
-      "expiration": "2024-09-26T15:30:59Z"
-    },
-    "urlText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-    "url": "https://transportnsw.info/alerts/details#/ems-39314",
-    "content": "<div>\n<div><strong>Wednesday 25 and Thursday 26 September&nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave <strong>up to 20 minutes earlier</strong> than the normal train timetable.</li>\n<li>Trains run between Penrith, Blacktown and Central, platforms 1-12 only.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, then all stations to Richmond and return</div>\n<div>52T1 Blacktown, then all stations to Riverstone and return</div>\n</div>",
-    "subtitle": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-    "properties": {
-      "smsText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-      "speechText": "Wednesday 25 and Thursday 26 September Nightly from 9 40 PM to 1 30 AM, buses replace trains between Richmond and Blacktown.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Emu Plains Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-39327",
     "version": 1,
     "priority": "normal",
@@ -5277,6 +5222,61 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-39287",
+    "version": 25339,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-08T22:34:00Z",
+      "lastModification": "2024-09-09T05:36:00Z",
+      "availability": {
+        "from": "2024-09-08T22:30:00Z",
+        "to": "2024-09-09T11:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-08T22:30:00Z",
+          "to": "2024-09-09T11:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-09T11:00:59Z"
+    },
+    "urlText": "CLK33 Alteration",
+    "url": "https://transportnsw.info/alerts/details#/ems-39287",
+    "content": "<div>Due to an operational issue, CLK33 will terminate at Grafton where passengers will join road coaches for the remainder of their journey.</div>",
+    "subtitle": "CLK33 Alteration",
+    "properties": {
+      "smsText": "CLK33 Alteration",
+      "speechText": "Due to an operational issue, CLK33 will terminate at Grafton where passengers will join road coaches for the remainder of their journey.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
@@ -5520,6 +5520,166 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-39298",
+    "version": 126,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T01:17:00Z",
+      "lastModification": "2024-09-09T01:19:00Z",
+      "availability": {
+        "from": "2024-09-08T15:30:00Z",
+        "to": "2024-09-21T13:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-20T15:30:00Z",
+          "to": "2024-09-21T13:30:00Z"
+        }
+      ],
+      "expiration": "2024-09-21T13:30:59Z"
+    },
+    "urlText": "Sydney Olympic Park bus diversions for major events",
+    "url": "https://transportnsw.info/alerts/details#/ems-39298",
+    "content": "<div>\n<div>From 1.30am until 11.30pm on Saturday 21 September, route 525 and 526 services will be diverting while roads are closed in Sydney Olympic Park for the Bledisloe Cup on Saturday 21 September.</div>\n<div>&nbsp;</div>\n<div>Services in both directions will be diverting via Edwin Flack Ave, Sarah Durack Ave and Australia Ave, and will miss stops on Dawn Fraser Ave and Park St. Catch these services from the stop on Park St at Olympic Park train station or other alternative stop locations on Edwin Flack Ave.</div>\n<div>&nbsp;</div>\n<div>Allow extra time and check signs at stops for alternate stop locations.</div>\n<div>&nbsp;</div>\n<div><a href=\"https://transportnsw.info/events/2024/09/bledisloe-cup-test-wallabies-v-all-blacks\">Visit the Bledisloe Cup Test event page for more details</a>.</div>\n<div>&nbsp;</div>\n<div><strong>Closed stops</strong></div>\n<ul>\n<li>Park Street opposite Olympic Park Station (Stop ID 212790)\n<ul>\n<li>Alternate stop: Olympic Park Station, Park Street (Stop ID 212712)</li>\n</ul>\n</li>\n<li>Dawn Fraser Avenue opposite Olympic Park Station (Stop ID 212791)\n<ul>\n<li>Alternate stop: Olympic Park Station, Park Street (Stop ID 212712)</li>\n</ul>\n</li>\n<li>Dawn Fraser Avenue before Edwin Flack Avenue (Stop ID 212788)\n<ul>\n<li>Alternate stop: Edwin Flack Avenue opposite Accor Stadium (Stop ID 212735)</li>\n</ul>\n</li>\n<li>Dawn Fraser Avenue after Edwin Flack Avenue (Stop ID 212787)\n<ul>\n<li>Alternate stop for route 526 only: Sydney Olympic Park Athletic Centre, Edwin Flack Ave (Stop ID 212733)</li>\n<li>Alternate stop for route 525 only: Accor Stadium, Edwin Flack Avenue (Stop ID 212736)</li>\n</ul>\n</li>\n<li>Olympic Park Station, Dawn Fraser Avenue (Stop ID 212792)\n<ul>\n<li>Alternate stop: Olympic Park Station, Park Street (Stop ID 212712)</li>\n</ul>\n</li>\n</ul>\n</div>",
+    "subtitle": "Sydney Olympic Park bus diversions for major events",
+    "properties": {
+      "smsText": "Sydney Olympic Park bus diversions for major events",
+      "speechText": "From 1.30am until 11.30pm on Saturday 21 September, route 525 and 526 services will be diverting while roads are closed in Sydney Olympic Park for the Bledisloe Cup on Saturday 21 September.\n \nServices in both directions will be diverting via Edwin Flack Ave, Sarah Durack Ave and Australia Ave, and will miss stops on Dawn Fraser Ave and Park St. Catch these services from the stop on Park St at Olympic Park train station or other alternative stop locations on Edwin Flack Ave.\n \nAllow extra time and check signs at stops for alternate stop locations.\n \nVisit the Bledisloe Cup Test event page for more details.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "212710#G212788#G212787#212710",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17525: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 525",
+          "number": "525",
+          "description": "Sydney Olympic Park to Parramatta via Newington",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17525: :R:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 525",
+          "number": "525",
+          "description": "Parramatta to Sydney Olympic Park via Newington",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:74526: :R:",
+          "destination": {
+            "name": "Concord High School, Stanley St, Concord",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 526",
+          "number": "526",
+          "description": "Rhodes Shopping Centre to Burwood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74526: :H:",
+          "destination": {
+            "name": "Rhodes Waterside, Rider Bvd, Rhodes",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 526",
+          "number": "526",
+          "description": "Burwood to Rhodes Shopping Centre",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "212710",
+          "isGlobalId": true,
+          "name": "Olympic Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G212788",
+          "isGlobalId": true,
+          "name": "Dawn Fraser Ave before Edwin Flack Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G212787",
+          "isGlobalId": true,
+          "name": "Dawn Fraser Ave after Edwin Flack Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "212710",
+          "isGlobalId": true,
+          "name": "Olympic Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
+            "type": "locality"
           }
         }
       ]
@@ -6156,221 +6316,6 @@
       ],
       "Infrastructures": [
         {}
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-39298",
-    "version": 126,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T01:17:00Z",
-      "lastModification": "2024-09-09T01:19:00Z",
-      "availability": {
-        "from": "2024-09-08T15:30:00Z",
-        "to": "2024-09-21T13:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-20T15:30:00Z",
-          "to": "2024-09-21T13:30:00Z"
-        }
-      ],
-      "expiration": "2024-09-21T13:30:59Z"
-    },
-    "urlText": "Sydney Olympic Park bus diversions for major events",
-    "url": "https://transportnsw.info/alerts/details#/ems-39298",
-    "content": "<div>\n<div>From 1.30am until 11.30pm on Saturday 21 September, route 525 and 526 services will be diverting while roads are closed in Sydney Olympic Park for the Bledisloe Cup on Saturday 21 September.</div>\n<div>&nbsp;</div>\n<div>Services in both directions will be diverting via Edwin Flack Ave, Sarah Durack Ave and Australia Ave, and will miss stops on Dawn Fraser Ave and Park St. Catch these services from the stop on Park St at Olympic Park train station or other alternative stop locations on Edwin Flack Ave.</div>\n<div>&nbsp;</div>\n<div>Allow extra time and check signs at stops for alternate stop locations.</div>\n<div>&nbsp;</div>\n<div><a href=\"https://transportnsw.info/events/2024/09/bledisloe-cup-test-wallabies-v-all-blacks\">Visit the Bledisloe Cup Test event page for more details</a>.</div>\n<div>&nbsp;</div>\n<div><strong>Closed stops</strong></div>\n<ul>\n<li>Park Street opposite Olympic Park Station (Stop ID 212790)\n<ul>\n<li>Alternate stop: Olympic Park Station, Park Street (Stop ID 212712)</li>\n</ul>\n</li>\n<li>Dawn Fraser Avenue opposite Olympic Park Station (Stop ID 212791)\n<ul>\n<li>Alternate stop: Olympic Park Station, Park Street (Stop ID 212712)</li>\n</ul>\n</li>\n<li>Dawn Fraser Avenue before Edwin Flack Avenue (Stop ID 212788)\n<ul>\n<li>Alternate stop: Edwin Flack Avenue opposite Accor Stadium (Stop ID 212735)</li>\n</ul>\n</li>\n<li>Dawn Fraser Avenue after Edwin Flack Avenue (Stop ID 212787)\n<ul>\n<li>Alternate stop for route 526 only: Sydney Olympic Park Athletic Centre, Edwin Flack Ave (Stop ID 212733)</li>\n<li>Alternate stop for route 525 only: Accor Stadium, Edwin Flack Avenue (Stop ID 212736)</li>\n</ul>\n</li>\n<li>Olympic Park Station, Dawn Fraser Avenue (Stop ID 212792)\n<ul>\n<li>Alternate stop: Olympic Park Station, Park Street (Stop ID 212712)</li>\n</ul>\n</li>\n</ul>\n</div>",
-    "subtitle": "Sydney Olympic Park bus diversions for major events",
-    "properties": {
-      "smsText": "Sydney Olympic Park bus diversions for major events",
-      "speechText": "From 1.30am until 11.30pm on Saturday 21 September, route 525 and 526 services will be diverting while roads are closed in Sydney Olympic Park for the Bledisloe Cup on Saturday 21 September.\n \nServices in both directions will be diverting via Edwin Flack Ave, Sarah Durack Ave and Australia Ave, and will miss stops on Dawn Fraser Ave and Park St. Catch these services from the stop on Park St at Olympic Park train station or other alternative stop locations on Edwin Flack Ave.\n \nAllow extra time and check signs at stops for alternate stop locations.\n \nVisit the Bledisloe Cup Test event page for more details.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "212710#G212788#G212787#212710",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17525: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 525",
-          "number": "525",
-          "description": "Sydney Olympic Park to Parramatta via Newington",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17525: :R:",
-          "destination": {
-            "name": "Strathfield Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 525",
-          "number": "525",
-          "description": "Parramatta to Sydney Olympic Park via Newington",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:74526: :R:",
-          "destination": {
-            "name": "Concord High School, Stanley St, Concord",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 526",
-          "number": "526",
-          "description": "Rhodes Shopping Centre to Burwood",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74526: :H:",
-          "destination": {
-            "name": "Rhodes Waterside, Rider Bvd, Rhodes",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 526",
-          "number": "526",
-          "description": "Burwood to Rhodes Shopping Centre",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "212710",
-          "isGlobalId": true,
-          "name": "Olympic Park Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304009:1",
-            "name": "Sydney Olympic Park",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G212788",
-          "isGlobalId": true,
-          "name": "Dawn Fraser Ave before Edwin Flack Ave",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304009:1",
-            "name": "Sydney Olympic Park",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G212787",
-          "isGlobalId": true,
-          "name": "Dawn Fraser Ave after Edwin Flack Ave",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304009:1",
-            "name": "Sydney Olympic Park",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "212710",
-          "isGlobalId": true,
-          "name": "Olympic Park Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304009:1",
-            "name": "Sydney Olympic Park",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39287",
-    "version": 25339,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-08T22:34:00Z",
-      "lastModification": "2024-09-09T05:36:00Z",
-      "availability": {
-        "from": "2024-09-08T22:30:00Z",
-        "to": "2024-09-09T11:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-08T22:30:00Z",
-          "to": "2024-09-09T11:00:00Z"
-        }
-      ],
-      "expiration": "2024-09-09T11:00:59Z"
-    },
-    "urlText": "CLK33 Alteration",
-    "url": "https://transportnsw.info/alerts/details#/ems-39287",
-    "content": "<div>Due to an operational issue, CLK33 will terminate at Grafton where passengers will join road coaches for the remainder of their journey.</div>",
-    "subtitle": "CLK33 Alteration",
-    "properties": {
-      "smsText": "CLK33 Alteration",
-      "speechText": "Due to an operational issue, CLK33 will terminate at Grafton where passengers will join road coaches for the remainder of their journey.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76033: :H:",
-          "destination": {
-            "name": "Casino Station, Casino",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 33",
-          "number": "33",
-          "description": "Central to Casino",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
       ]
     }
   },
@@ -7399,6 +7344,80 @@
           "operator": {
             "id": "3000",
             "name": "Newcastle Transport"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-39316",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T05:11:00Z",
+      "lastModification": "2024-09-09T05:11:00Z",
+      "availability": {
+        "from": "2024-09-08T16:00:00Z",
+        "to": "2024-09-29T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-27T16:00:00Z",
+          "to": "2024-09-29T16:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-29T16:00:59Z"
+    },
+    "urlText": "T1 Western Line: Richmond trains make extra stops at Granville and Auburn",
+    "url": "https://transportnsw.info/alerts/details#/ems-39316",
+    "content": "<div>\n<div><strong>Saturday 28 and Sunday 29 September</strong></div>\n<ul>\n<li>Richmond trains make extra stops at Granville and Auburn.</li>\n</ul>\n</div>",
+    "subtitle": "T1 Western Line: Richmond trains make extra stops at Granville and Auburn",
+    "properties": {
+      "smsText": "T1 Western Line: Richmond trains make extra stops at Granville and Auburn",
+      "speechText": "Saturday 28 and Sunday 29 September Richmond trains make extra stops at Granville and Auburn.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
@@ -8759,80 +8778,6 @@
           "operator": {
             "id": "2507",
             "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39316",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T05:11:00Z",
-      "lastModification": "2024-09-09T05:11:00Z",
-      "availability": {
-        "from": "2024-09-08T16:00:00Z",
-        "to": "2024-09-29T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-27T16:00:00Z",
-          "to": "2024-09-29T16:00:00Z"
-        }
-      ],
-      "expiration": "2024-09-29T16:00:59Z"
-    },
-    "urlText": "T1 Western Line: Richmond trains make extra stops at Granville and Auburn",
-    "url": "https://transportnsw.info/alerts/details#/ems-39316",
-    "content": "<div>\n<div><strong>Saturday 28 and Sunday 29 September</strong></div>\n<ul>\n<li>Richmond trains make extra stops at Granville and Auburn.</li>\n</ul>\n</div>",
-    "subtitle": "T1 Western Line: Richmond trains make extra stops at Granville and Auburn",
-    "properties": {
-      "smsText": "T1 Western Line: Richmond trains make extra stops at Granville and Auburn",
-      "speechText": "Saturday 28 and Sunday 29 September Richmond trains make extra stops at Granville and Auburn.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Emu Plains Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
           }
         }
       ]
@@ -11541,6 +11486,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-39318",
+    "version": 500,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T05:21:00Z",
+      "lastModification": "2024-09-09T05:30:00Z",
+      "availability": {
+        "from": "2024-09-08T16:00:00Z",
+        "to": "2024-09-27T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-22T16:00:00Z",
+          "to": "2024-09-27T16:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-27T16:00:59Z"
+    },
+    "urlText": "Some trains run to a changed timetable and stopping pattern",
+    "url": "https://transportnsw.info/alerts/details#/ems-39318",
+    "content": "<div>\n<div><strong>Monday 23 to Friday 27 September&nbsp;&nbsp;</strong></div>\n<ul>\n<li>Some trains run to a changed timetable and stopping pattern.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+    "subtitle": "Some trains run to a changed timetable and stopping pattern",
+    "properties": {
+      "smsText": "Some trains run to a changed timetable and stopping pattern",
+      "speechText": "Monday 23 to Friday 27 September Some trains run to a changed timetable and stopping pattern.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-38460",
     "version": 193,
     "priority": "normal",
@@ -12182,80 +12201,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-39318",
-    "version": 500,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T05:21:00Z",
-      "lastModification": "2024-09-09T05:30:00Z",
-      "availability": {
-        "from": "2024-09-08T16:00:00Z",
-        "to": "2024-09-27T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-22T16:00:00Z",
-          "to": "2024-09-27T16:00:00Z"
-        }
-      ],
-      "expiration": "2024-09-27T16:00:59Z"
-    },
-    "urlText": "Some trains run to a changed timetable and stopping pattern",
-    "url": "https://transportnsw.info/alerts/details#/ems-39318",
-    "content": "<div>\n<div><strong>Monday 23 to Friday 27 September&nbsp;&nbsp;</strong></div>\n<ul>\n<li>Some trains run to a changed timetable and stopping pattern.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-    "subtitle": "Some trains run to a changed timetable and stopping pattern",
-    "properties": {
-      "smsText": "Some trains run to a changed timetable and stopping pattern",
-      "speechText": "Monday 23 to Friday 27 September Some trains run to a changed timetable and stopping pattern.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-39333",
     "version": 1,
     "priority": "normal",
@@ -12844,6 +12789,84 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-38660",
+    "version": 1535188,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-08-22T04:32:00Z",
+      "lastModification": "2024-09-08T22:59:00Z",
+      "availability": {
+        "from": "2024-09-08T14:01:00Z",
+        "to": "2024-09-25T13:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-23T00:00:00Z",
+          "to": "2024-09-23T05:00:00Z"
+        },
+        {
+          "from": "2024-09-24T00:00:00Z",
+          "to": "2024-09-24T05:00:00Z"
+        },
+        {
+          "from": "2024-09-25T00:00:00Z",
+          "to": "2024-09-25T05:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-25T05:00:59Z"
+    },
+    "urlText": "Kuraba Point Ferry Wharf temporary closure for maintenance",
+    "url": "https://transportnsw.info/alerts/details#/ems-38660",
+    "content": "<div><strong>From Monday 23 to Wednesday 25 September</strong>, Kurraba Point Ferry Wharf will be closed temporarily for repairs.</div>\n<div>&nbsp;</div>\n<div>Please use Neutral Bay wharf instead.</div>\n<div>&nbsp;</div>\n<div>Work will take place between 10am to 3pm only and the wharf will operate as usual outside these times. </div>",
+    "subtitle": "Kuraba Point Ferry Wharf temporary closure for maintenance",
+    "properties": {
+      "smsText": "Kuraba Point Ferry Wharf temporary closure for maintenance",
+      "speechText": "From Monday 23 to Wednesday 25 September, Kurraba Point Ferry Wharf will be closed temporarily for repairs.\n \nPlease use Neutral Bay wharf instead.\n \nWork will take place between 10am to 3pm only and the wharf will operate as usual outside these times.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "208946",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F5: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F5 Neutral Bay",
+          "number": "F5 Neutral Bay",
+          "description": "Neutral Bay to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "208946",
+          "isGlobalId": true,
+          "name": "Kurraba Point Wharf",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343021:1",
+            "name": "Kurraba Point",
+            "type": "locality"
           }
         }
       ]
@@ -13524,84 +13547,6 @@
           "parent": {
             "id": "placeID:95307011:1",
             "name": "Kellyville",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-38660",
-    "version": 1535188,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-08-22T04:32:00Z",
-      "lastModification": "2024-09-08T22:59:00Z",
-      "availability": {
-        "from": "2024-09-08T14:01:00Z",
-        "to": "2024-09-25T13:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-23T00:00:00Z",
-          "to": "2024-09-23T05:00:00Z"
-        },
-        {
-          "from": "2024-09-24T00:00:00Z",
-          "to": "2024-09-24T05:00:00Z"
-        },
-        {
-          "from": "2024-09-25T00:00:00Z",
-          "to": "2024-09-25T05:00:00Z"
-        }
-      ],
-      "expiration": "2024-09-25T05:00:59Z"
-    },
-    "urlText": "Kuraba Point Ferry Wharf temporary closure for maintenance",
-    "url": "https://transportnsw.info/alerts/details#/ems-38660",
-    "content": "<div><strong>From Monday 23 to Wednesday 25 September</strong>, Kurraba Point Ferry Wharf will be closed temporarily for repairs.</div>\n<div>&nbsp;</div>\n<div>Please use Neutral Bay wharf instead.</div>\n<div>&nbsp;</div>\n<div>Work will take place between 10am to 3pm only and the wharf will operate as usual outside these times. </div>",
-    "subtitle": "Kuraba Point Ferry Wharf temporary closure for maintenance",
-    "properties": {
-      "smsText": "Kuraba Point Ferry Wharf temporary closure for maintenance",
-      "speechText": "From Monday 23 to Wednesday 25 September, Kurraba Point Ferry Wharf will be closed temporarily for repairs.\n \nPlease use Neutral Bay wharf instead.\n \nWork will take place between 10am to 3pm only and the wharf will operate as usual outside these times.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "208946",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F5: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F5 Neutral Bay",
-          "number": "F5 Neutral Bay",
-          "description": "Neutral Bay to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "208946",
-          "isGlobalId": true,
-          "name": "Kurraba Point Wharf",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343021:1",
-            "name": "Kurraba Point",
             "type": "locality"
           }
         }
@@ -17369,6 +17314,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-39320",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T05:28:00Z",
+      "lastModification": "2024-09-09T05:28:00Z",
+      "availability": {
+        "from": "2024-09-08T16:00:00Z",
+        "to": "2024-09-29T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-27T16:00:00Z",
+          "to": "2024-09-29T16:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-29T16:00:59Z"
+    },
+    "urlText": "T2 Leppington Line: Buses replace trains between Cabramatta and Granville",
+    "url": "https://transportnsw.info/alerts/details#/ems-39320",
+    "content": "<div>\n<div><strong>Saturday 28 and Sunday 29 September&nbsp;&nbsp;</strong></div>\n<ul>\n<li>Buses replace trains between Cabramatta and Granville.</li>\n<li>Trains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>4T2 Cabramatta, then all stations to Granville and return</div>\n<div>5T2 Cabramatta, then Canley Vale, Fairfield, Granville and return</div>\n<div>14T2 Merrylands, then Granville and return</div>\n</div>",
+    "subtitle": "T2 Leppington Line: Buses replace trains between Cabramatta and Granville",
+    "properties": {
+      "smsText": "T2 Leppington Line: Buses replace trains between Cabramatta and Granville",
+      "speechText": "Saturday 28 and Sunday 29 September Buses replace trains between Cabramatta and Granville.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-37806",
     "version": 338,
     "priority": "normal",
@@ -17491,6 +17510,174 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "routeInfo",
+    "id": "ems-39290",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T00:24:00Z",
+      "lastModification": "2024-09-09T00:24:00Z",
+      "availability": {
+        "from": "2024-09-08T20:00:00Z",
+        "to": "2024-10-14T03:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-10-11T19:00:00Z",
+          "to": "2024-10-14T03:00:00Z"
+        }
+      ],
+      "expiration": "2024-10-14T03:00:59Z"
+    },
+    "urlText": "12th to 14th October 2024  inclusive- CLK 427 Sydney to Dubbo XPT service",
+    "url": "https://transportnsw.info/alerts/details#/ems-39290",
+    "content": "<div>Due to planned track work, coach services will replace the train between Sydney and Bathurst where passengers will join your train for the remainder of the journey.</div>",
+    "subtitle": "12th to 14th October 2024  inclusive- CLK 427 Sydney to Dubbo XPT service",
+    "properties": {
+      "smsText": "12th to 14th October 2024  inclusive- CLK 427 Sydney to Dubbo XPT service",
+      "speechText": "Due to planned track work, coach services will replace the train between Sydney and Bathurst where passengers will join your train for the remainder of the journey.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "stopIDglobalID": "200060#213510#215020#214810#275010#278020#279010#2790128#27871#279538",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76427: :H:",
+          "destination": {
+            "name": "Dubbo Station, Dubbo",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 427",
+          "number": "427",
+          "description": "Central to Dubbo",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200060",
+          "isGlobalId": true,
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "213510",
+          "isGlobalId": true,
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "215020",
+          "isGlobalId": true,
+          "name": "Parramatta Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "214810",
+          "isGlobalId": true,
+          "name": "Blacktown Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308005:1",
+            "name": "Blacktown",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "275010",
+          "isGlobalId": true,
+          "name": "Penrith Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347024:1",
+            "name": "Penrith",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "278020",
+          "isGlobalId": true,
+          "name": "Katoomba Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95309012:1",
+            "name": "Katoomba",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "279010",
+          "isGlobalId": true,
+          "name": "Lithgow Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95334014:1",
+            "name": "Lithgow",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "2790128",
+          "isGlobalId": true,
+          "name": "Rydal Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95334024:1",
+            "name": "Rydal",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "27871",
+          "isGlobalId": true,
+          "name": "Tarana Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95334031:1",
+            "name": "Tarana",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "279538",
+          "isGlobalId": true,
+          "name": "Bathurst Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95306002:1",
+            "name": "Bathurst",
+            "type": "locality"
           }
         }
       ]
@@ -17677,248 +17864,6 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "routeInfo",
-    "id": "ems-39290",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T00:24:00Z",
-      "lastModification": "2024-09-09T00:24:00Z",
-      "availability": {
-        "from": "2024-09-08T20:00:00Z",
-        "to": "2024-10-14T03:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-10-11T19:00:00Z",
-          "to": "2024-10-14T03:00:00Z"
-        }
-      ],
-      "expiration": "2024-10-14T03:00:59Z"
-    },
-    "urlText": "12th to 14th October 2024  inclusive- CLK 427 Sydney to Dubbo XPT service",
-    "url": "https://transportnsw.info/alerts/details#/ems-39290",
-    "content": "<div>Due to planned track work, coach services will replace the train between Sydney and Bathurst where passengers will join your train for the remainder of the journey.</div>",
-    "subtitle": "12th to 14th October 2024  inclusive- CLK 427 Sydney to Dubbo XPT service",
-    "properties": {
-      "smsText": "12th to 14th October 2024  inclusive- CLK 427 Sydney to Dubbo XPT service",
-      "speechText": "Due to planned track work, coach services will replace the train between Sydney and Bathurst where passengers will join your train for the remainder of the journey.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "stopIDglobalID": "200060#213510#215020#214810#275010#278020#279010#2790128#27871#279538",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76427: :H:",
-          "destination": {
-            "name": "Dubbo Station, Dubbo",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 427",
-          "number": "427",
-          "description": "Central to Dubbo",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "200060",
-          "isGlobalId": true,
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "213510",
-          "isGlobalId": true,
-          "name": "Strathfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95356003:1",
-            "name": "Strathfield",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "215020",
-          "isGlobalId": true,
-          "name": "Parramatta Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95346013:1",
-            "name": "Parramatta",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "214810",
-          "isGlobalId": true,
-          "name": "Blacktown Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308005:1",
-            "name": "Blacktown",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "275010",
-          "isGlobalId": true,
-          "name": "Penrith Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95347024:1",
-            "name": "Penrith",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "278020",
-          "isGlobalId": true,
-          "name": "Katoomba Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95309012:1",
-            "name": "Katoomba",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "279010",
-          "isGlobalId": true,
-          "name": "Lithgow Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95334014:1",
-            "name": "Lithgow",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "2790128",
-          "isGlobalId": true,
-          "name": "Rydal Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95334024:1",
-            "name": "Rydal",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "27871",
-          "isGlobalId": true,
-          "name": "Tarana Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95334031:1",
-            "name": "Tarana",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "279538",
-          "isGlobalId": true,
-          "name": "Bathurst Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95306002:1",
-            "name": "Bathurst",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39320",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T05:28:00Z",
-      "lastModification": "2024-09-09T05:28:00Z",
-      "availability": {
-        "from": "2024-09-08T16:00:00Z",
-        "to": "2024-09-29T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-27T16:00:00Z",
-          "to": "2024-09-29T16:00:00Z"
-        }
-      ],
-      "expiration": "2024-09-29T16:00:59Z"
-    },
-    "urlText": "T2 Leppington Line: Buses replace trains between Cabramatta and Granville",
-    "url": "https://transportnsw.info/alerts/details#/ems-39320",
-    "content": "<div>\n<div><strong>Saturday 28 and Sunday 29 September&nbsp;&nbsp;</strong></div>\n<ul>\n<li>Buses replace trains between Cabramatta and Granville.</li>\n<li>Trains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>4T2 Cabramatta, then all stations to Granville and return</div>\n<div>5T2 Cabramatta, then Canley Vale, Fairfield, Granville and return</div>\n<div>14T2 Merrylands, then Granville and return</div>\n</div>",
-    "subtitle": "T2 Leppington Line: Buses replace trains between Cabramatta and Granville",
-    "properties": {
-      "smsText": "T2 Leppington Line: Buses replace trains between Cabramatta and Granville",
-      "speechText": "Saturday 28 and Sunday 29 September Buses replace trains between Cabramatta and Granville.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
           }
         }
       ]
@@ -19057,6 +19002,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-39305",
+    "version": 907,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T02:00:00Z",
+      "lastModification": "2024-09-09T02:15:00Z",
+      "availability": {
+        "from": "2024-09-09T01:58:00Z",
+        "to": "2024-09-09T08:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-09T01:58:00Z",
+          "to": "2024-09-09T08:30:00Z"
+        }
+      ],
+      "expiration": "2024-09-09T08:30:59Z"
+    },
+    "urlText": "Train service delays between Goulburn Station and Melbourne (Southern Cross) Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-39305",
+    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Goulburn Station and Melbourne (Southern Cross) Station",
+    "properties": {
+      "smsText": "Train service delays between Goulburn Station and Melbourne (Southern Cross) Station",
+      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-38607",
     "version": 880845,
     "priority": "normal",
@@ -19869,31 +19869,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-39305",
-    "version": 907,
+    "id": "ems-39310",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2024-09-09T02:00:00Z",
-      "lastModification": "2024-09-09T02:15:00Z",
+      "creation": "2024-09-09T03:34:00Z",
+      "lastModification": "2024-09-09T03:34:00Z",
       "availability": {
-        "from": "2024-09-09T01:58:00Z",
-        "to": "2024-09-09T08:30:00Z"
+        "from": "2024-09-09T03:32:00Z",
+        "to": "2024-09-09T09:32:00Z"
       },
       "validity": [
         {
-          "from": "2024-09-09T01:58:00Z",
-          "to": "2024-09-09T08:30:00Z"
+          "from": "2024-09-09T03:32:00Z",
+          "to": "2024-09-09T09:32:00Z"
         }
       ],
-      "expiration": "2024-09-09T08:30:59Z"
+      "expiration": "2024-09-09T09:32:59Z"
     },
-    "urlText": "Train service delays between Goulburn Station and Melbourne (Southern Cross) Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-39305",
-    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Goulburn Station and Melbourne (Southern Cross) Station",
+    "urlText": "Coach service delays between Broadmeadow Station and Grafton Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-39310",
+    "content": "There are delays on route 3501 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays between Broadmeadow Station and Grafton Station",
     "properties": {
-      "smsText": "Train service delays between Goulburn Station and Melbourne (Southern Cross) Station",
-      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "smsText": "Coach service delays between Broadmeadow Station and Grafton Station",
+      "speechText": "There are delays on route 3501 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -19901,22 +19901,22 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76623: :H:",
+          "id": "nsw:76350:1:H:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "name": "Grafton Station, South Grafton",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Temporary coaches 3501",
+          "number": "3501",
+          "description": "Central to Grafton",
+          "iconId": 22,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 7,
+            "iconId": 7
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "710",
+            "name": "NSW TrainLink Coach"
           }
         }
       ]
@@ -20395,6 +20395,213 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-39323",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T05:44:00Z",
+      "lastModification": "2024-09-09T05:44:00Z",
+      "availability": {
+        "from": "2024-09-09T05:00:00Z",
+        "to": "2024-09-26T16:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-25T11:50:00Z",
+          "to": "2024-09-25T16:30:00Z"
+        },
+        {
+          "from": "2024-09-26T11:50:00Z",
+          "to": "2024-09-26T16:30:00Z"
+        }
+      ],
+      "expiration": "2024-09-26T16:30:59Z"
+    },
+    "urlText": "Buses replace trains between Cronulla and Sutherland",
+    "url": "https://transportnsw.info/alerts/details#/ems-39323",
+    "content": "<div>\n<div><strong>Wednesday 25 and Thursday 26 September&nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.50pm to 2.30am</strong>, buses replace trains between Cronulla and Sutherland.</li>\n<li>Trains run between Waterfall and Bondi Junction, some to a changed timetable.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+    "subtitle": "Buses replace trains between Cronulla and Sutherland",
+    "properties": {
+      "smsText": "Buses replace trains between Cronulla and Sutherland",
+      "speechText": "Wednesday 25 and Thursday 26 September Nightly from 9 50 PM to 2 30 AM, buses replace trains between Cronulla and Sutherland.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-38994",
+    "version": 605121,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-02T05:25:00Z",
+      "lastModification": "2024-09-09T05:31:00Z",
+      "availability": {
+        "from": "2024-09-01T16:00:00Z",
+        "to": "2024-09-29T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-20T16:00:00Z",
+          "to": "2024-09-29T16:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-29T16:00:59Z"
+    },
+    "urlText": "Buses replace trains between Lidcombe, Bankstown and Campsie",
+    "url": "https://transportnsw.info/alerts/details#/ems-38994",
+    "content": "<div><strong>Saturday 21 to Sunday 29 September&nbsp;</strong></div>\n<ul>\n<li>Buses replace trains between Lidcombe, Bankstown and Campsie.</li>\n<li>Direct trains run between Liverpool and Lidcombe or the City via Regents Park, and between Campsie and the City, some to a changed timetable.</li>\n<li>If travelling between the City and:\n<ul>\n<li>Birrong, Yagoona or Bankstown catch a train to Lidcombe, then change for a bus</li>\n<li>Berala, Regents Park, Sefton, Chester Hill, Leightonfield, Villawood or Carramar catch a direct train<br /><br /></li>\n</ul>\n</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>8T3 Lidcombe, then all stations to Bankstown and return</div>\n<div>8AT3 Lidcombe, then express to Bankstown and return</div>\n<div>18T3 Bankstown, then all stations to Campsie and return</div>",
+    "subtitle": "Buses replace trains between Lidcombe, Bankstown and Campsie",
+    "properties": {
+      "smsText": "Buses replace trains between Lidcombe, Bankstown and Campsie",
+      "speechText": "Saturday 21 to Sunday 29 September Buses replace trains between Lidcombe, Bankstown and Campsie.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "Liverpool or Lidcombe to City via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Lidcombe Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Bankstown Line",
+          "number": "T3 Bankstown Line",
+          "description": "City to Liverpool or Lidcombe via Bankstown",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-39293",
+    "version": 131,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-09T00:26:00Z",
+      "lastModification": "2024-09-09T00:28:00Z",
+      "availability": {
+        "from": "2024-09-09T00:00:00Z",
+        "to": "2024-10-13T10:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-10-11T03:00:00Z",
+          "to": "2024-10-13T10:30:00Z"
+        }
+      ],
+      "expiration": "2024-10-13T10:30:59Z"
+    },
+    "urlText": "11th to 13th October 2024 inclusive-CLK 428 Dubbo to Sydney XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-39293",
+    "content": "<div>Due to planned trackwork , the Dubbo to Sydney train service will be replaced by road coaches between Bathurst and Sydney. On arrival at Bathurst transfer to the awaiting road coaches for the remainder of the journey.</div>",
+    "subtitle": "11th to 13th October 2024 inclusive-CLK 428 Dubbo to Sydney XPT service.",
+    "properties": {
+      "smsText": "11th to 13th October 2024 inclusive-CLK 428 Dubbo to Sydney XPT service.",
+      "speechText": "Due to planned trackwork , the Dubbo to Sydney train service will be replaced by road coaches between Bathurst and Sydney. On arrival at Bathurst transfer to the awaiting road coaches for the remainder of the journey.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
@@ -21274,268 +21481,6 @@
       ],
       "Infrastructures": [
         {}
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39293",
-    "version": 131,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T00:26:00Z",
-      "lastModification": "2024-09-09T00:28:00Z",
-      "availability": {
-        "from": "2024-09-09T00:00:00Z",
-        "to": "2024-10-13T10:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-10-11T03:00:00Z",
-          "to": "2024-10-13T10:30:00Z"
-        }
-      ],
-      "expiration": "2024-10-13T10:30:59Z"
-    },
-    "urlText": "11th to 13th October 2024 inclusive-CLK 428 Dubbo to Sydney XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-39293",
-    "content": "<div>Due to planned trackwork , the Dubbo to Sydney train service will be replaced by road coaches between Bathurst and Sydney. On arrival at Bathurst transfer to the awaiting road coaches for the remainder of the journey.</div>",
-    "subtitle": "11th to 13th October 2024 inclusive-CLK 428 Dubbo to Sydney XPT service.",
-    "properties": {
-      "smsText": "11th to 13th October 2024 inclusive-CLK 428 Dubbo to Sydney XPT service.",
-      "speechText": "Due to planned trackwork , the Dubbo to Sydney train service will be replaced by road coaches between Bathurst and Sydney. On arrival at Bathurst transfer to the awaiting road coaches for the remainder of the journey.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76428: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 428",
-          "number": "428",
-          "description": "Dubbo to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39310",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T03:34:00Z",
-      "lastModification": "2024-09-09T03:34:00Z",
-      "availability": {
-        "from": "2024-09-09T03:32:00Z",
-        "to": "2024-09-09T09:32:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-09T03:32:00Z",
-          "to": "2024-09-09T09:32:00Z"
-        }
-      ],
-      "expiration": "2024-09-09T09:32:59Z"
-    },
-    "urlText": "Coach service delays between Broadmeadow Station and Grafton Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-39310",
-    "content": "There are delays on route 3501 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays between Broadmeadow Station and Grafton Station",
-    "properties": {
-      "smsText": "Coach service delays between Broadmeadow Station and Grafton Station",
-      "speechText": "There are delays on route 3501 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76350:1:H:",
-          "destination": {
-            "name": "Grafton Station, South Grafton",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 3501",
-          "number": "3501",
-          "description": "Central to Grafton",
-          "iconId": 22,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-38994",
-    "version": 605121,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-02T05:25:00Z",
-      "lastModification": "2024-09-09T05:31:00Z",
-      "availability": {
-        "from": "2024-09-01T16:00:00Z",
-        "to": "2024-09-29T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-20T16:00:00Z",
-          "to": "2024-09-29T16:00:00Z"
-        }
-      ],
-      "expiration": "2024-09-29T16:00:59Z"
-    },
-    "urlText": "Buses replace trains between Lidcombe, Bankstown and Campsie",
-    "url": "https://transportnsw.info/alerts/details#/ems-38994",
-    "content": "<div><strong>Saturday 21 to Sunday 29 September&nbsp;</strong></div>\n<ul>\n<li>Buses replace trains between Lidcombe, Bankstown and Campsie.</li>\n<li>Direct trains run between Liverpool and Lidcombe or the City via Regents Park, and between Campsie and the City, some to a changed timetable.</li>\n<li>If travelling between the City and:\n<ul>\n<li>Birrong, Yagoona or Bankstown catch a train to Lidcombe, then change for a bus</li>\n<li>Berala, Regents Park, Sefton, Chester Hill, Leightonfield, Villawood or Carramar catch a direct train<br /><br /></li>\n</ul>\n</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>8T3 Lidcombe, then all stations to Bankstown and return</div>\n<div>8AT3 Lidcombe, then express to Bankstown and return</div>\n<div>18T3 Bankstown, then all stations to Campsie and return</div>",
-    "subtitle": "Buses replace trains between Lidcombe, Bankstown and Campsie",
-    "properties": {
-      "smsText": "Buses replace trains between Lidcombe, Bankstown and Campsie",
-      "speechText": "Saturday 21 to Sunday 29 September Buses replace trains between Lidcombe, Bankstown and Campsie.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T3: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "Liverpool or Lidcombe to City via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Lidcombe Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Bankstown Line",
-          "number": "T3 Bankstown Line",
-          "description": "City to Liverpool or Lidcombe via Bankstown",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39323",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-09T05:44:00Z",
-      "lastModification": "2024-09-09T05:44:00Z",
-      "availability": {
-        "from": "2024-09-09T05:00:00Z",
-        "to": "2024-09-26T16:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-25T11:50:00Z",
-          "to": "2024-09-25T16:30:00Z"
-        },
-        {
-          "from": "2024-09-26T11:50:00Z",
-          "to": "2024-09-26T16:30:00Z"
-        }
-      ],
-      "expiration": "2024-09-26T16:30:59Z"
-    },
-    "urlText": "Buses replace trains between Cronulla and Sutherland",
-    "url": "https://transportnsw.info/alerts/details#/ems-39323",
-    "content": "<div>\n<div><strong>Wednesday 25 and Thursday 26 September&nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.50pm to 2.30am</strong>, buses replace trains between Cronulla and Sutherland.</li>\n<li>Trains run between Waterfall and Bondi Junction, some to a changed timetable.<br /><br /></li>\n<li>Replacement buses may be impacted by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-    "subtitle": "Buses replace trains between Cronulla and Sutherland",
-    "properties": {
-      "smsText": "Buses replace trains between Cronulla and Sutherland",
-      "speechText": "Wednesday 25 and Thursday 26 September Nightly from 9 50 PM to 2 30 AM, buses replace trains between Cronulla and Sutherland.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T4: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Waterfall or Cronulla to Bondi Junction",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :H:",
-          "destination": {
-            "name": "Cronulla Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
       ]
     }
   }
