@@ -201,76 +201,108 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-39731",
-    "version": 1,
+    "type": "stopInfo",
+    "id": "ems-39733",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2024-09-17T22:19:00Z",
-      "lastModification": "2024-09-17T22:19:00Z",
+      "creation": "2024-09-17T23:11:00Z",
+      "lastModification": "2024-09-17T23:11:00Z",
       "availability": {
-        "from": "2024-09-17T22:11:00Z",
-        "to": "2024-09-17T23:11:00Z"
+        "from": "2024-09-11T01:01:00Z",
+        "to": "2503-10-27T03:02:00Z"
       },
       "validity": [
         {
           "from": "2024-09-17T22:11:00Z",
-          "to": "2024-09-17T23:11:00Z"
+          "to": "2503-10-27T03:02:00Z"
         }
       ],
-      "expiration": "2024-09-17T23:11:59Z"
+      "expiration": "2503-10-27T03:02:59Z"
     },
-    "urlText": "F3 ferry cancellation",
-    "url": "https://transportnsw.info/alerts/details#/ems-39731",
-    "content": "<div>The 8:24am Parramatta to Rydalmere ferry has been cancelled due to the high tide.</div>\n<ul>\n<li>The next ferry is scheduled to leave Rydalmere at 8:44am.&nbsp;</li>\n<li>Allow extra travel time.</li>\n</ul>",
-    "subtitle": "F3 ferry cancellation",
+    "urlText": "Allawah Station Lift 3 between the footbridge and Railway Pde is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-39733",
+    "content": "At Allawah Station Lift 3 between the footbridge and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7415.",
+    "subtitle": "Allawah Station Lift 3 between the footbridge and Railway Pde is not available",
     "properties": {
-      "smsText": "F3 ferry cancellation",
-      "speechText": "The 8:24am Parramatta to Rydalmere ferry has been cancelled due to the high tide. The next ferry is scheduled to leave Rydalmere at 8:44am. Allow extra travel time.",
-      "announcementType": "serviceChange",
+      "smsText": "Allawah Station Lift 3 between the footbridge and Railway Pde is not available",
+      "speechText": "At Allawah Station Lift 3 between the footbridge and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7415.",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "222020",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:090F3: :R:",
+          "id": "nsw:020T4: :R:",
           "destination": {
-            "name": "Circular Quay",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Parramatta to Circular Quay",
-          "iconId": 10,
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
         {
-          "id": "nsw:090F3: :H:",
+          "id": "nsw:020T4: :H:",
           "destination": {
-            "name": "Parramatta Wharf, Parramatta",
+            "name": "Cronulla Station",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Circular Quay to Parramatta",
-          "iconId": 10,
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
+      ],
+      "stops": [
+        {
+          "id": "222020",
+          "isGlobalId": true,
+          "name": "Allawah Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
