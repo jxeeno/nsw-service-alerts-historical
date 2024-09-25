@@ -4210,18 +4210,18 @@
   {
     "type": "lineInfo",
     "id": "5d1388a3c295314c07ae7e9fd0a481fa95996a4c",
-    "version": 1,
+    "version": 1050,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-09-25T20:31:00Z",
-      "lastModification": "2024-09-25T20:31:00Z",
+      "lastModification": "2024-09-25T20:48:00Z",
       "availability": {
-        "from": "2024-09-25T20:31:00Z",
+        "from": "2024-09-25T20:48:00Z",
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-09-25T20:31:00Z",
+          "from": "2024-09-25T20:48:00Z",
           "to": "2500-12-31T00:00:00Z"
         }
       ],
@@ -4229,11 +4229,11 @@
     },
     "urlText": "South Coast Line",
     "url": "https://transportnsw.info/alerts/details#/5d1388a3c295314c07ae7e9fd0a481fa95996a4c",
-    "content": "Allow extra travel time due to a train communication issue at Wollongong. Trains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
+    "content": "Allow extra travel time of up to 20 minutes due to a train communication issue at Wollongong. Trains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
     "subtitle": "South Coast Line",
     "properties": {
       "smsText": "South Coast Line",
-      "speechText": "Allow extra travel time due to a train communication issue at Wollongong. Trains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
+      "speechText": "Allow extra travel time of up to 20 minutes due to a train communication issue at Wollongong. Trains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -9516,6 +9516,99 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-40059",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-25T20:45:00Z",
+      "lastModification": "2024-09-25T20:45:00Z",
+      "availability": {
+        "from": "2024-09-25T20:43:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-25T20:43:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Diversion at Avalon",
+    "url": "https://transportnsw.info/alerts/details#/ems-40059",
+    "content": "<div>\n<div>Buses are diverting from Patrick Street due to fallen powerlines near Therry Street.</div>\n<ul>\n<li>The buses are using Avalon Parade, Barrenjoey Road, George Street and Therry Street instead</li>\n<li>15 stops are being missed</li>\n</ul>\n</div>",
+    "subtitle": "Diversion at Avalon",
+    "properties": {
+      "smsText": "Diversion at Avalon",
+      "speechText": "At Avalon, buses are diverting from Patrick Street due to fallen powerlines near Therry Street. The buses are using Avalon Parade, Barrenjoey Road, George Street and Therry Street instead and missing 15 stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:29192: :R:",
+          "destination": {
+            "name": "Avalon Public School, Bellevue Ave, Avalon",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 192",
+          "number": "192",
+          "description": "Avalon Beach to Stokes Point (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29715:N:R:",
+          "destination": {
+            "name": "Avalon Public School, Bellevue Ave, Avalon",
+            "type": "stop"
+          },
+          "name": "School buses 715n",
+          "number": "715n",
+          "description": "Barrenjoey High to Avalon Public School",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:46192: :R:",
+          "destination": {
+            "name": "High St opp Elgin St, Maitland",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 192",
+          "number": "192",
+          "description": "Maitland to South Maitland (Loop Service)",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2448",
+            "name": "Hunter Valley Buses"
           }
         }
       ]
