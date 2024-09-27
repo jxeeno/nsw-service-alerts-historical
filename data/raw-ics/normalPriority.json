@@ -1058,6 +1058,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-40144",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-27T02:04:00Z",
+      "lastModification": "2024-09-27T02:04:00Z",
+      "availability": {
+        "from": "2024-09-27T02:00:00Z",
+        "to": "2024-09-27T12:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-27T02:00:00Z",
+          "to": "2024-09-27T12:00:00Z"
+        }
+      ],
+      "expiration": "2024-09-27T12:00:59Z"
+    },
+    "urlText": "Train service delays at Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-40144",
+    "content": "There are delays on route 35 train services due to infrastructure repairs. \n<div>This service is delayed due to the late incoming XPT train from Casino caused by track repairs</div>\n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Central Station",
+    "properties": {
+      "smsText": "Train service delays at Central Station",
+      "speechText": "There are delays on route 35 train services due to infrastructure repairs. \nThis service is delayed due to the late incoming XPT train from Casino caused by track repairs\n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 35",
+          "number": "35",
+          "description": "Central to Grafton",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-39339",
     "version": 1,
     "priority": "normal",
@@ -3923,93 +3978,6 @@
             "name": "NSW TrainLink Train"
           }
         }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-40128",
-    "version": 2,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-26T12:06:00Z",
-      "lastModification": "2024-09-26T12:06:00Z",
-      "availability": {
-        "from": "2022-08-17T00:00:00Z",
-        "to": "2503-11-05T02:57:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-26T11:06:00Z",
-          "to": "2503-11-05T02:57:00Z"
-        }
-      ],
-      "expiration": "2503-11-05T02:57:59Z"
-    },
-    "urlText": "Newcastle Interchange Lift 2 between the footbridge and Station St is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-40128",
-    "content": "At Newcastle Interchange Lift 2 between the footbridge and Station St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101.",
-    "subtitle": "Newcastle Interchange Lift 2 between the footbridge and Station St is not available",
-    "properties": {
-      "smsText": "Newcastle Interchange Lift 2 between the footbridge and Station St is not available",
-      "speechText": "At Newcastle Interchange Lift 2 between the footbridge and Station St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "229310",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "229310",
-          "isGlobalId": true,
-          "name": "Newcastle Interchange",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
       ]
     }
   },
