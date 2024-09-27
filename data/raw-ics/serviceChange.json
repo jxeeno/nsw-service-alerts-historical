@@ -6037,18 +6037,18 @@
   {
     "type": "lineInfo",
     "id": "c00d86fccfe2831f0d0100f067d93916aabb248e",
-    "version": 372,
+    "version": 750,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-09-27T04:51:00Z",
-      "lastModification": "2024-09-27T04:57:00Z",
+      "lastModification": "2024-09-27T05:04:00Z",
       "availability": {
-        "from": "2024-09-27T04:57:00Z",
+        "from": "2024-09-27T05:04:00Z",
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2024-09-27T04:57:00Z",
+          "from": "2024-09-27T05:04:00Z",
           "to": "2500-12-31T00:00:00Z"
         }
       ],
@@ -6056,11 +6056,11 @@
     },
     "urlText": "Northern Line",
     "url": "https://transportnsw.info/alerts/details#/c00d86fccfe2831f0d0100f067d93916aabb248e",
-    "content": "Trains are not running in both directions between Rhodes and Hornsby due to a police operation at Epping.\n\nTrains near the affected area will stop on platforms or between stations for longer than normal while the incident is ongoing. \n\nTrains continue to run on the T1 North Shore Line between Hornsby and the City. Please also consider Sydney Metro.\n\nWe will let you know when we have more information.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+    "content": "Allow extra travel time due to a police operation at Epping earlier. \n\nServices may be less frequent for some stations as stops may change at short notice. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
     "subtitle": "Northern Line",
     "properties": {
       "smsText": "Northern Line",
-      "speechText": "Trains are not running in both directions between Rhodes and Hornsby due to a police operation at Epping.\n\nTrains near the affected area will stop on platforms or between stations for longer than normal while the incident is ongoing. \n\nTrains continue to run on the T1 North Shore Line between Hornsby and the City. Please also consider Sydney Metro.\n\nWe will let you know when we have more information.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+      "speechText": "Allow extra travel time due to a police operation at Epping earlier. \n\nServices may be less frequent for some stations as stops may change at short notice. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -12624,11 +12624,11 @@
   {
     "type": "lineInfo",
     "id": "ems-40148",
-    "version": 2379,
+    "version": 4301,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-09-27T03:51:00Z",
-      "lastModification": "2024-09-27T04:30:00Z",
+      "lastModification": "2024-09-27T05:02:00Z",
       "availability": {
         "from": "2024-09-27T03:44:00Z",
         "to": "2024-09-27T08:00:00Z"
@@ -12643,7 +12643,7 @@
     },
     "urlText": "Diversion in Penrith",
     "url": "https://transportnsw.info/alerts/details#/ems-40148",
-    "content": "<div>Buses are diverting away from Mulgoa Road in Penrith due to a car and pedestrian crash near Jamison Road.</div>\n<ul>\n<li>Route 688, 689, 690P and 691 buses are using Station Street, Henry Street and High Street instead, missing five bus stops in each direction.</li>\n<li>Route S13 buses are not running while Mulgoa Road is closed northbound.</li>\n</ul>",
+    "content": "<div>Buses are diverting away from Mulgoa Road in Penrith due to a car and pedestrian crash near Jamison Road.</div>\n<ul>\n<li>Route 688, 689, 690P and 691 buses are using Station Street, Henry Street and High Street instead, missing five bus stops in each direction.</li>\n<li>Route 795, 797 and 799 buses are using&nbsp;Batt Street, York Road, Woodriff Street, Derby Street and Station Street, missing 10 stops and are delayed up to 15 minutes.</li>\n<li>Route S13 buses are not running while Mulgoa Road is closed northbound.</li>\n</ul>",
     "subtitle": "Diversion in Penrith",
     "properties": {
       "smsText": "Diversion in Penrith",
@@ -12654,6 +12654,63 @@
     },
     "affected": {
       "lines": [
+        {
+          "id": "nsw:64851:2:H:",
+          "destination": {
+            "name": "Emu Plains Rd opp Scenic Cres, Mount Riverview",
+            "type": "stop"
+          },
+          "name": "School buses 8512",
+          "number": "8512",
+          "description": "Nepean District CS to Emu Plains Rd",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2454",
+            "name": "Blue Mountains Transit"
+          }
+        },
+        {
+          "id": "nsw:64852:1:H:",
+          "destination": {
+            "name": "Russell St before Old Bathurst Rd, Emu Plains",
+            "type": "stop"
+          },
+          "name": "School buses 8521",
+          "number": "8521",
+          "description": "Caroline Chisholm Girls HS to Emu Heights",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2454",
+            "name": "Blue Mountains Transit"
+          }
+        },
+        {
+          "id": "nsw:11S13: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network S13",
+          "number": "S13",
+          "description": "Penrith to Mountainview Retreat Retirement Village (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
         {
           "id": "nsw:64688: :R:",
           "destination": {
@@ -12750,52 +12807,71 @@
           }
         },
         {
-          "id": "nsw:64851:2:H:",
-          "destination": {
-            "name": "Emu Plains Rd opp Scenic Cres, Mount Riverview",
-            "type": "stop"
-          },
-          "name": "School buses 8512",
-          "number": "8512",
-          "description": "Nepean District CS to Emu Plains Rd",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2454",
-            "name": "Blue Mountains Transit"
-          }
-        },
-        {
-          "id": "nsw:64852:1:H:",
-          "destination": {
-            "name": "Russell St before Old Bathurst Rd, Emu Plains",
-            "type": "stop"
-          },
-          "name": "School buses 8521",
-          "number": "8521",
-          "description": "Caroline Chisholm Girls HS to Emu Heights",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2454",
-            "name": "Blue Mountains Transit"
-          }
-        },
-        {
-          "id": "nsw:11S13: :R:",
+          "id": "nsw:11795: :R:",
           "destination": {
             "name": "Penrith Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network S13",
-          "number": "S13",
-          "description": "Penrith to Mountainview Retreat Retirement Village (Loop Service)",
+          "name": "Sydney Buses Network 795",
+          "number": "795",
+          "description": "Warragamba to Penrith",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11797: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 797",
+          "number": "797",
+          "description": "Penrith to Glenmore Park (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11799: :R:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 799",
+          "number": "799",
+          "description": "Glenmore Park to Penrith via Regentville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11799: :H:",
+          "destination": {
+            "name": "Surveyors Creek Public School, St Andrews Dr, Glenmore Park",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 799",
+          "number": "799",
+          "description": "Penrith to Glenmore Park via Regentville",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -26766,6 +26842,61 @@
           "operator": {
             "id": "2501",
             "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-40156",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-27T05:12:00Z",
+      "lastModification": "2024-09-27T05:12:00Z",
+      "availability": {
+        "from": "2024-09-27T05:07:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-27T05:07:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Diversion in Teven",
+    "url": "https://transportnsw.info/alerts/details#/ems-40156",
+    "content": "<div>Buses are diverting away from Houlgahans Creek Road in Teven due to flooding.</div>\n<ul>\n<li>Buses are using Eltham Road instead.</li>\n<li>Seven bus stops are being missed.</li>\n</ul>",
+    "subtitle": "Diversion in Teven",
+    "properties": {
+      "smsText": "Diversion in Teven",
+      "speechText": "Buses are diverting away from Houlgahans Creek Road in Teven due to flooding. Buses are using Eltham Road instead.\nSeven bus stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:72S52:5:H:",
+          "destination": {
+            "name": "Buslines Depot, Owens Cres, Alstonville",
+            "type": "stop"
+          },
+          "name": "School buses S525",
+          "number": "S525",
+          "description": "Ostrich Bus - Teven-Tintenbar Public to Alstonville via McLeans Ridges & Alstonvale",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "5972",
+            "name": "Buslines Group Pty Limited"
           }
         }
       ]
