@@ -3915,36 +3915,55 @@
   {
     "type": "lineInfo",
     "id": "ems-40795",
-    "version": 1232,
+    "version": 3237,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-10-11T07:37:00Z",
-      "lastModification": "2024-10-11T07:58:00Z",
+      "lastModification": "2024-10-11T08:31:00Z",
       "availability": {
         "from": "2024-10-11T07:32:00Z",
-        "to": "2024-10-11T08:32:00Z"
+        "to": "2024-10-11T10:30:00Z"
       },
       "validity": [
         {
           "from": "2024-10-11T07:32:00Z",
-          "to": "2024-10-11T08:32:00Z"
+          "to": "2024-10-11T10:30:00Z"
         }
       ],
-      "expiration": "2024-10-11T08:32:59Z"
+      "expiration": "2024-10-11T10:30:59Z"
     },
     "urlText": "Diversion in Manly",
     "url": "https://transportnsw.info/alerts/details#/ems-40795",
-    "content": "<div>Buses are diverting away from part of Sydney Road in Manly due to a car and motorcycle crash near James Street.</div>\n<ul>\n<li>Buses are using Hill Street, Hilltop Crescent and Fairlight Street instead.</li>\n<li>Up to eight bus stops are being missed in each direction.</li>\n</ul>",
+    "content": "<div>Buses are diverting away from part of Sydney Road in Manly due to a car and motorcycle crash near James Street.</div>\n<ul>\n<li>Route 144, 150X and 170X buses are using Woods Parade, Fairlight Street and West Esplanade instead, missing 3 stops towards Manly and 4 stops heading away from Manly.</li>\n<li>Route 141 buses are ending their trips at Balgowlah Shops, and starting their trips from Sydney Road after Condamine Street, missing 8 stops\n<ul>\n<li>Passengers can also consider catching a ferry from Manly to Circular Quay, then a Route 270 or Route 271 bus.</li>\n</ul>\n</li>\n</ul>",
     "subtitle": "Diversion in Manly",
     "properties": {
       "smsText": "Diversion in Manly",
-      "speechText": "Buses are diverting away from part of Sydney Road in Manly due to a car and motorcycle crash near James Street.\nThey are using Hill Street, Hilltop Crescent and Fairlight Street instead.\nUp to eight bus stops are being missed in each direction.",
+      "speechText": "Buses are diverting away from part of Sydney Road in Manly due to a car and motorcycle crash near James Street. Route 144, 150X and 170X buses are using Woods Parade, Fairlight Street and West Esplanade instead. Route 141 buses are ending their trips at Balgowlah Shops, and starting their trips from Sydney Road after Condamine Street, missing 8 stops.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
+        {
+          "id": "nsw:37141: :R:",
+          "destination": {
+            "name": "Manly Wharf Stand J, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 141",
+          "number": "141",
+          "description": "Austlink to Manly via Frenchs Forest & Seaforth",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2514",
+            "name": "CDC NSW R14"
+          }
+        },
         {
           "id": "nsw:29144: :H:",
           "destination": {
@@ -4000,6 +4019,44 @@
           "operator": {
             "id": "2508",
             "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:37141: :H:",
+          "destination": {
+            "name": "Austlink Narabang Way near Minna Cl, Belrose",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 141",
+          "number": "141",
+          "description": "Manly to Austlink via Seaforth & Frenchs Forest",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2514",
+            "name": "CDC NSW R14"
+          }
+        },
+        {
+          "id": "nsw:46141: :R:",
+          "destination": {
+            "name": "Raymond Terrace Shopping Centre, Sturgeon St, Raymond Terrace",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 141",
+          "number": "141",
+          "description": "Raymond Terrace to Dawson Rd and Kent St (Loop Service)",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2448",
+            "name": "Hunter Valley Buses"
           }
         }
       ]
@@ -5557,61 +5614,6 @@
           "operator": {
             "id": "LR",
             "name": "Sydney Light Rail"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-40797",
-    "version": 11,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-10-11T07:42:00Z",
-      "lastModification": "2024-10-11T07:43:00Z",
-      "availability": {
-        "from": "2024-10-11T07:42:00Z",
-        "to": "2024-10-11T08:35:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-10-11T07:42:00Z",
-          "to": "2024-10-11T08:35:00Z"
-        }
-      ],
-      "expiration": "2024-10-11T08:35:59Z"
-    },
-    "urlText": "Train service delays between Moss Vale Station and Campbelltown Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-40797",
-    "content": "There are delays on route 624 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Moss Vale Station and Campbelltown Station",
-    "properties": {
-      "smsText": "Train service delays between Moss Vale Station and Campbelltown Station",
-      "speechText": "There are delays on route 624 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
           }
         }
       ]
