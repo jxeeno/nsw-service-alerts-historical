@@ -11176,31 +11176,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-40859",
+    "id": "ems-40861",
     "version": 1,
-    "priority": "low",
+    "priority": "normal",
     "timestamps": {
-      "creation": "2024-10-12T22:26:00Z",
-      "lastModification": "2024-10-12T22:26:00Z",
+      "creation": "2024-10-12T22:36:00Z",
+      "lastModification": "2024-10-12T22:36:00Z",
       "availability": {
-        "from": "2024-10-12T22:25:00Z",
-        "to": "2024-10-13T08:25:00Z"
+        "from": "2024-10-12T22:31:00Z",
+        "to": "2024-10-12T23:31:00Z"
       },
       "validity": [
         {
-          "from": "2024-10-12T22:25:00Z",
-          "to": "2024-10-13T08:25:00Z"
+          "from": "2024-10-12T22:31:00Z",
+          "to": "2024-10-12T23:31:00Z"
         }
       ],
-      "expiration": "2024-10-13T08:25:59Z"
+      "expiration": "2024-10-12T23:31:59Z"
     },
-    "urlText": "Train service delays between Kyogle Station and Casino Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-40859",
-    "content": "There are delays on route 32 train services due to temporary speed restrictions. \n<div>This service is delayed due to restrictive speeds&nbsp;</div>\n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Kyogle Station and Casino Station",
+    "urlText": "F3 Parramatta River",
+    "url": "https://transportnsw.info/alerts/details#/ems-40861",
+    "content": "<div>The 9:27am Circular Quay to Sydney Olympic Park ferry has been cancelled due to a mechanical issue.</div>\n<ul>\n<li>The following ferry from Circular Quay to Sydney Olympic Park is 9:47am</li>\n<li>Listen to announcements and check information displays for service updates.</li>\n</ul>",
+    "subtitle": "F3 Parramatta River",
     "properties": {
-      "smsText": "Train service delays between Kyogle Station and Casino Station",
-      "speechText": "There are delays on route 32 train services due to temporary speed restrictions. \nThis service is delayed due to restrictive speeds\n Plan ahead and allow extra travel time.",
+      "smsText": "F3 Parramatta River",
+      "speechText": "The 9:27am Circular Quay to Sydney Olympic PArk ferry has been cancelled due to mechanical issues. The next ferry from Circular Quay to Sydney Olympic Park is 9:47am. Listen to announcements and check information displays for service updates.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -11208,22 +11208,41 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76032: :R:",
+          "id": "nsw:090F3: :R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Circular Quay",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Parramatta to Circular Quay",
+          "iconId": 10,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Parramatta Wharf, Parramatta",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Parramatta",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
@@ -12039,6 +12058,61 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-40860",
+    "version": 27,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-10-12T22:30:00Z",
+      "lastModification": "2024-10-12T22:31:00Z",
+      "availability": {
+        "from": "2024-10-12T22:30:00Z",
+        "to": "2024-10-13T07:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-10-12T22:30:00Z",
+          "to": "2024-10-13T07:30:00Z"
+        }
+      ],
+      "expiration": "2024-10-13T07:30:59Z"
+    },
+    "urlText": "Train service delays between Kyogle Station and Casino Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-40860",
+    "content": "There are delays on route 32 train services due to temporary speed restrictions. \n<div>This service is delayed due to restrictive speeds&nbsp;</div>\n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Kyogle Station and Casino Station",
+    "properties": {
+      "smsText": "Train service delays between Kyogle Station and Casino Station",
+      "speechText": "There are delays on route 32 train services due to temporary speed restrictions. \nThis service is delayed due to restrictive speeds\n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
