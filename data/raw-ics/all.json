@@ -16464,6 +16464,118 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-42523",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-11-12T23:40:00Z",
+      "lastModification": "2024-11-12T23:40:00Z",
+      "availability": {
+        "from": "2024-11-12T23:00:00Z",
+        "to": "2024-11-17T05:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-11-17T03:00:00Z",
+          "to": "2024-11-17T05:00:00Z"
+        }
+      ],
+      "expiration": "2024-11-17T05:00:59Z"
+    },
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-42523",
+    "content": "<div><strong>Sunday 17 November</strong></div>\n<ul>\n<li><strong>From 2pm to 4pm,</strong> route <strong>607x</strong> and <strong>610x</strong> buses to the city will start and end trips at Wynyard due to road closures in place for a planned Police Operation protest march.</li>\n<li>Buses leaving the city will start trips from QVB, York St, Stand E before Market St (2000136) instead of York St Stand C.</li>\n<li>Check signs at stops and allow extra time.</li>\n</ul>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>QVB, York St, Stand C Sydney (200043)</li>\n</ul>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
+    "properties": {
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Sunday 17 November\nFrom 2PM to 4PM, route 607x and 610x buses to the city will start and end trips at Wynyard due to road closures in place for a planned Police Operation protest march.\nBuses leaving the city will start trips from QVB, York St, Stand E before Market St (2000136) instead of York St Stand C.\nCheck signs at stops and allow extra time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:14607:X:H:",
+          "destination": {
+            "name": "Bella Vista Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 607X",
+          "number": "607X",
+          "description": "City QVB to Bella Vista Station (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14607:X:R:",
+          "destination": {
+            "name": "QVB, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 607X",
+          "number": "607X",
+          "description": "Bella Vista Station to City QVB (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14610:X:H:",
+          "destination": {
+            "name": "Castle Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 610X",
+          "number": "610X",
+          "description": "City QVB to Castle Hill (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14610:X:R:",
+          "destination": {
+            "name": "QVB, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 610X",
+          "number": "610X",
+          "description": "Castle Hill to City QVB (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-42468",
     "version": 1,
     "priority": "normal",
@@ -35406,61 +35518,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-42484",
-    "version": 15,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2024-11-12T17:42:00Z",
-      "lastModification": "2024-11-12T17:42:00Z",
-      "availability": {
-        "from": "2024-11-12T17:41:00Z",
-        "to": "2024-11-12T23:41:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-11-12T17:41:00Z",
-          "to": "2024-11-12T23:41:00Z"
-        }
-      ],
-      "expiration": "2024-11-12T23:41:59Z"
-    },
-    "urlText": "Train service delays between Melbourne (Southern Cross) Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-42484",
-    "content": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Melbourne (Southern Cross) Station and Central Station",
-    "properties": {
-      "smsText": "Train service delays between Melbourne (Southern Cross) Station and Central Station",
-      "speechText": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-42472",
     "version": 1,
     "priority": "normal",
@@ -39080,6 +39137,61 @@
           "operator": {
             "id": "IC03",
             "name": "Live Better"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-42525",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-11-12T23:42:00Z",
+      "lastModification": "2024-11-12T23:42:00Z",
+      "availability": {
+        "from": "2024-11-12T23:38:00Z",
+        "to": "2024-11-13T06:38:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-11-12T23:38:00Z",
+          "to": "2024-11-13T06:38:00Z"
+        }
+      ],
+      "expiration": "2024-11-13T06:38:59Z"
+    },
+    "urlText": "Train service delays between Canberra Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-42525",
+    "content": "There are delays on route 634 train services due to urgent signal repairs. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Canberra Station and Central Station",
+    "properties": {
+      "smsText": "Train service delays between Canberra Station and Central Station",
+      "speechText": "There are delays on route 634 train services due to urgent signal repairs. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76634: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 634",
+          "number": "634",
+          "description": "Canberra to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         }
       ]
