@@ -7634,6 +7634,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-42703",
+    "version": 1014,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-11-17T01:36:00Z",
+      "lastModification": "2024-11-17T01:53:00Z",
+      "availability": {
+        "from": "2024-11-17T01:35:00Z",
+        "to": "2024-11-17T09:35:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-11-17T01:35:00Z",
+          "to": "2024-11-17T09:35:00Z"
+        }
+      ],
+      "expiration": "2024-11-17T09:35:59Z"
+    },
+    "urlText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-42703",
+    "content": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+    "properties": {
+      "smsText": "Train service delays between Brisbane (Roma Street) Station and Central Station",
+      "speechText": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-42007",
     "version": 1,
     "priority": "normal",
@@ -12331,6 +12386,93 @@
             "name": "Transdev John Holland Buses"
           }
         }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-42708",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-11-17T02:09:00Z",
+      "lastModification": "2024-11-17T02:09:00Z",
+      "availability": {
+        "from": "2024-11-16T03:09:00Z",
+        "to": "2503-12-25T18:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-11-16T03:09:00Z",
+          "to": "2503-12-25T18:00:00Z"
+        }
+      ],
+      "expiration": "2503-12-25T18:00:59Z"
+    },
+    "urlText": "Cardiff Station Lift 2 between the footbridge and Mary St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-42708",
+    "content": "At Cardiff Station Lift 2 between the footbridge and Mary St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9437.",
+    "subtitle": "Cardiff Station Lift 2 between the footbridge and Mary St is not available",
+    "properties": {
+      "smsText": "Cardiff Station Lift 2 between the footbridge and Mary St is not available",
+      "speechText": "At Cardiff Station Lift 2 between the footbridge and Mary St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9437.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "228520",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "228520",
+          "isGlobalId": true,
+          "name": "Cardiff Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
