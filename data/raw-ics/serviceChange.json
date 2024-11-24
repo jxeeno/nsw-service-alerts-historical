@@ -18171,61 +18171,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-43047",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-11-24T03:20:00Z",
-      "lastModification": "2024-11-24T03:20:00Z",
-      "availability": {
-        "from": "2024-11-24T03:13:00Z",
-        "to": "2024-11-24T12:13:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-11-24T03:13:00Z",
-          "to": "2024-11-24T12:13:00Z"
-        }
-      ],
-      "expiration": "2024-11-24T12:13:59Z"
-    },
-    "urlText": "Delays at Sydney Olympic Park",
-    "url": "https://transportnsw.info/alerts/details#/ems-43047",
-    "content": "<div>Heavy traffic at Sydney Olympic Park precinct due to special event road closures is delaying some buses.</div>",
-    "subtitle": "Delays at Sydney Olympic Park",
-    "properties": {
-      "smsText": "Delays at Sydney Olympic Park",
-      "speechText": "Heavy traffic due to special event road closures in delaying some route 5 2 6 buses. Services are running up to 45 minutes late.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74526: :R:",
-          "destination": {
-            "name": "Westfield Burwood, Victoria St, Burwood",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 526",
-          "number": "526",
-          "description": "Rhodes Shopping Centre to Burwood",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-41419",
     "version": 79275,
     "priority": "normal",
@@ -19922,6 +19867,95 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "03608a582ff8cd8e53d771b2a299c19b6e71ce8b",
+    "version": 150,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-11-24T12:10:00Z",
+      "lastModification": "2024-11-24T12:12:00Z",
+      "availability": {
+        "from": "2024-11-24T12:12:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-11-24T12:12:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Station Update - Woy Woy",
+    "url": "https://transportnsw.info/alerts/details#/03608a582ff8cd8e53d771b2a299c19b6e71ce8b",
+    "content": "Due to an external power supply issue affecting station infrastructure, Station lightings, lifts and Opal facilities may not be available.  Please take extra care when attending the station and boarding/alighting from trains.  \n\nIf you are unable able to tap on or off, you will need to contact OPAL (13 67 27) to have your fare adjusted.",
+    "subtitle": "Station Update - Woy Woy",
+    "properties": {
+      "smsText": "Station Update - Woy Woy",
+      "speechText": "Due to an external power supply issue affecting station infrastructure, Station lightings, lifts and Opal facilities may not be available.  Please take extra care when attending the station and boarding/alighting from trains.  \n\nIf you are unable able to tap on or off, you will need to contact OPAL (13 67 27) to have your fare adjusted.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "225610",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "225610",
+          "isGlobalId": true,
+          "name": "Woy Woy Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95320072:1",
+            "name": "Woy Woy",
+            "type": "locality"
           }
         }
       ]
