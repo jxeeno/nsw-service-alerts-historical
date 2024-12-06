@@ -4119,6 +4119,93 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-43895",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2024-12-06T21:26:00Z",
+      "lastModification": "2024-12-06T21:26:00Z",
+      "availability": {
+        "from": "2023-01-17T07:28:00Z",
+        "to": "2504-01-15T12:16:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-12-06T21:26:00Z",
+          "to": "2504-01-15T12:16:00Z"
+        }
+      ],
+      "expiration": "2504-01-15T12:16:59Z"
+    },
+    "urlText": "Stanmore Station Lift 2 between the pedestrian tunnel and Platform 3 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-43895",
+    "content": "At Stanmore Station Lift 2 between the pedestrian tunnel and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8994.",
+    "subtitle": "Stanmore Station Lift 2 between the pedestrian tunnel and Platform 3 is not available",
+    "properties": {
+      "smsText": "Stanmore Station Lift 2 between the pedestrian tunnel and Platform 3 is not available",
+      "speechText": "At Stanmore Station Lift 2 between the pedestrian tunnel and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8994.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "204810:204833",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "204810",
+          "isGlobalId": true,
+          "name": "Stanmore Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-174",
     "version": 19011885,
@@ -40824,6 +40911,80 @@
           "operator": {
             "id": "2509",
             "name": "Transdev John Holland Buses"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-43896",
+    "version": 5,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-12-06T21:28:00Z",
+      "lastModification": "2024-12-06T21:28:00Z",
+      "availability": {
+        "from": "2024-12-06T21:13:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-12-06T21:13:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Peakhurst bus services diverted",
+    "url": "https://transportnsw.info/alerts/details#/ems-43896",
+    "content": "<div>Buses on route 945 are being diverted due to a building fire and missing 4 stops.</div>\n<div>&nbsp;</div>\n<div>Buses from Riverwood Station to Westfield Hurstville station will divert:&nbsp;Right Stanley street, into Lorraine St, left Robert Ave,Left Boundary Rd.<br /><br /></div>\n<div>Buses from Hurstville to Riverwood will divert:&nbsp;Kemp St, Left Boundary, Right Robert Ave,Left Lorraine St, Right stanley St, Left Boundary RD.</div>",
+    "subtitle": "Peakhurst bus services diverted",
+    "properties": {
+      "smsText": "Peakhurst bus services diverted",
+      "speechText": "Buses on route 9 4 5 are being diverted due to a building fire and missing 4 stops.\n \nBuses from Riverwood Station to Westfield Hurstville station will divert: Right Stanley Street, into Lorraine Street, left Robert Avenue, Left Boundary Road.\n\n\nBuses from Hurstville to Riverwood will divert: Kemp Street, Left Boundary, Right Robert Avenue, Left Lorraine Street, Right stanley Street, Left Boundary Road.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:31945: :H:",
+          "destination": {
+            "name": "Bankstown Central, The Mall, Bankstown",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 945",
+          "number": "945",
+          "description": "Hurstville to Bankstown via Mortdale",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2510",
+            "name": "U-Go Mobility"
+          }
+        },
+        {
+          "id": "nsw:31945: :R:",
+          "destination": {
+            "name": "Westfield Hurstville, Forest Rd, Hurstville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 945",
+          "number": "945",
+          "description": "Bankstown to Hurstville via Mortdale",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2510",
+            "name": "U-Go Mobility"
           }
         }
       ]
