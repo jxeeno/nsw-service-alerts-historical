@@ -3627,31 +3627,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-45371",
-    "version": 1,
+    "id": "ems-45386",
+    "version": 104,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-01-03T23:51:00Z",
-      "lastModification": "2025-01-03T23:51:00Z",
+      "creation": "2025-01-04T04:43:00Z",
+      "lastModification": "2025-01-04T04:44:00Z",
       "availability": {
-        "from": "2025-01-03T23:40:00Z",
-        "to": "2025-01-04T07:40:00Z"
+        "from": "2025-01-04T04:37:00Z",
+        "to": "2025-01-04T05:37:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-03T23:40:00Z",
-          "to": "2025-01-04T07:40:00Z"
+          "from": "2025-01-04T04:37:00Z",
+          "to": "2025-01-04T05:37:00Z"
         }
       ],
-      "expiration": "2025-01-04T07:40:59Z"
+      "expiration": "2025-01-04T05:37:59Z"
     },
-    "urlText": "Train service delays at Moss Vale Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-45371",
-    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Moss Vale Station",
+    "urlText": "3:16pm Pyrmont to Circular Quay service cancelled.",
+    "url": "https://transportnsw.info/alerts/details#/ems-45386",
+    "content": "<div>The&nbsp;3:16pm Pyrmont to Circular Quay service had been cancelled due to overcrowding.</div>\n<ul>\n<li>The next service is due to depart at 3:46pm.</li>\n</ul>",
+    "subtitle": "3:16pm Pyrmont to Circular Quay service cancelled.",
     "properties": {
-      "smsText": "Train service delays at Moss Vale Station",
-      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "smsText": "3:16pm Pyrmont to Circular Quay service cancelled.",
+      "speechText": "The 3 16 p m Pyrmont to Circular Quay service had been cancelled due to overcrowding.  The next service is due to depart at 3 46 p m.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -3659,22 +3659,41 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76623: :H:",
+          "id": "nsw:090F4: :R:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "name": "Circular Quay",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Ferries Network F4 Pyrmont Bay",
+          "number": "F4 Pyrmont Bay",
+          "description": "Pyrmont Bay to Circular Quay",
+          "iconId": 10,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F4: :H:",
+          "destination": {
+            "name": "Pyrmont Bay Wharf, Pyrmont",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F4 Pyrmont Bay",
+          "number": "F4 Pyrmont Bay",
+          "description": "Circular Quay to Pyrmont Bay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
@@ -3814,6 +3833,61 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-45371",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-03T23:51:00Z",
+      "lastModification": "2025-01-03T23:51:00Z",
+      "availability": {
+        "from": "2025-01-03T23:40:00Z",
+        "to": "2025-01-04T07:40:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-03T23:40:00Z",
+          "to": "2025-01-04T07:40:00Z"
+        }
+      ],
+      "expiration": "2025-01-04T07:40:59Z"
+    },
+    "urlText": "Train service delays at Moss Vale Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-45371",
+    "content": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Moss Vale Station",
+    "properties": {
+      "smsText": "Train service delays at Moss Vale Station",
+      "speechText": "There are delays on route 623 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
           }
         }
       ]
