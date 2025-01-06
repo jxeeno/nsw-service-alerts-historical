@@ -623,6 +623,80 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-45499",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-06T20:06:00Z",
+      "lastModification": "2025-01-06T20:06:00Z",
+      "availability": {
+        "from": "2025-01-06T20:01:00Z",
+        "to": "2025-01-07T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-06T20:01:00Z",
+          "to": "2025-01-07T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-07T13:00:59Z"
+    },
+    "urlText": "Metro services not running between Tallawong and Kellyville",
+    "url": "https://transportnsw.info/alerts/details#/ems-45499",
+    "content": "<div>Services are not running between Tallawong and Kellyville due to urgent signal repairs at Tallawong.</div>\n<ul>\n<li>Replacement buses have been requested but are not on site.</li>\n<li>Listen to announcements and check information displays for service updates.</li>\n<li>Services are still running between Kellyville and Sydenham</li>\n</ul>",
+    "subtitle": "Metro services not running between Tallawong and Kellyville",
+    "properties": {
+      "smsText": "Metro services not running between Tallawong and Kellyville",
+      "speechText": "Metro services are not running between Tallawong and Kellyville due to urgent signal repairs at Tallawong. Replacement buses have been requested but are not on site. Listen to announcements and check information displays for service updates. Services are still running between Kellyville and Sydenham",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:030M1: :R:",
+          "destination": {
+            "name": "Sydenham Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M1 Metro North West & Bankstown Line",
+          "number": "M1 Metro North West & Bankstown Line",
+          "description": "Tallawong to Sydenham",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:030M1: :H:",
+          "destination": {
+            "name": "Tallawong Station",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M1 Metro North West & Bankstown Line",
+          "number": "M1 Metro North West & Bankstown Line",
+          "description": "Sydenham to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "bacc6dde70eb30dac582dcdb1a07a0180d96ea54",
     "version": 1,
@@ -7430,133 +7504,6 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "698b88952c84a48848bb29815995876a1a6eee9d",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-06T17:27:00Z",
-      "lastModification": "2025-01-06T17:27:00Z",
-      "availability": {
-        "from": "2025-01-06T17:27:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-06T17:27:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Station Update - Helensburgh",
-    "url": "https://transportnsw.info/alerts/details#/698b88952c84a48848bb29815995876a1a6eee9d",
-    "content": "Due to power supply issues affecting station infrastructure there is currently no power at Helensburgh station. Please take extra care when boarding/alighting trains as no station lighting is available. Station indicator boards are currently not available, lifts may be out of service and Opal machines may also be affected.",
-    "subtitle": "Station Update - Helensburgh",
-    "properties": {
-      "smsText": "Station Update - Helensburgh",
-      "speechText": "Due to power supply issues affecting station infrastructure there is currently no power at Helensburgh station. Please take extra care when boarding/alighting trains as no station lighting is available. Station indicator boards are currently not available, lifts may be out of service and Opal machines may also be affected.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "250810",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T4: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Waterfall or Cronulla to Bondi Junction",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :H:",
-          "destination": {
-            "name": "Cronulla Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "250810",
-          "isGlobalId": true,
-          "name": "Helensburgh Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95366028:1",
-            "name": "Helensburgh",
-            "type": "locality"
           }
         }
       ]
