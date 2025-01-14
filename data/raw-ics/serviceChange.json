@@ -4808,6 +4808,54 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-40074",
+    "version": 1,
+    "priority": "veryLow",
+    "timestamps": {
+      "creation": "2024-09-26T00:18:00Z",
+      "lastModification": "2024-09-26T00:18:00Z",
+      "availability": {
+        "from": "2024-09-25T16:00:00Z",
+        "to": "2025-09-29T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-29T16:00:00Z",
+          "to": "2025-09-29T16:00:00Z"
+        }
+      ],
+      "expiration": "2025-09-29T16:00:59Z"
+    },
+    "urlText": "Punchbowl station access",
+    "url": "https://transportnsw.info/alerts/details#/ems-40074",
+    "content": "<div>Due to construction activities, the thoroughfare at Punchbowl train station is closed for an extended period. The slope of the alternate path of travel is steep, for customers with mobility constraints please consider using an alternative Southwest Link bus stop.</div>",
+    "subtitle": "Punchbowl station access",
+    "properties": {
+      "smsText": "Punchbowl station access",
+      "speechText": "Due to construction activities, the thoroughfare at Punchbowl train station is closed for an extended period.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "stopIDglobalID": "219610",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "219610",
+          "isGlobalId": true,
+          "name": "Punchbowl Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315021:1",
+            "name": "Punchbowl",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-27909",
     "version": 1,
@@ -4914,54 +4962,6 @@
           "operator": {
             "id": "2507",
             "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-40074",
-    "version": 1,
-    "priority": "veryLow",
-    "timestamps": {
-      "creation": "2024-09-26T00:18:00Z",
-      "lastModification": "2024-09-26T00:18:00Z",
-      "availability": {
-        "from": "2024-09-25T16:00:00Z",
-        "to": "2025-09-29T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-29T16:00:00Z",
-          "to": "2025-09-29T16:00:00Z"
-        }
-      ],
-      "expiration": "2025-09-29T16:00:59Z"
-    },
-    "urlText": "Punchbowl station access",
-    "url": "https://transportnsw.info/alerts/details#/ems-40074",
-    "content": "<div>Due to construction activities, the thoroughfare at Punchbowl train station is closed for an extended period. The slope of the alternate path of travel is steep, for customers with mobility constraints please consider using an alternative Southwest Link bus stop.</div>",
-    "subtitle": "Punchbowl station access",
-    "properties": {
-      "smsText": "Punchbowl station access",
-      "speechText": "Due to construction activities, the thoroughfare at Punchbowl train station is closed for an extended period.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "stopIDglobalID": "219610",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "219610",
-          "isGlobalId": true,
-          "name": "Punchbowl Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95315021:1",
-            "name": "Punchbowl",
-            "type": "locality"
           }
         }
       ]
@@ -14303,80 +14303,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-30338",
-    "version": 47,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-03-14T04:35:00Z",
-      "lastModification": "2024-03-14T04:35:00Z",
-      "availability": {
-        "from": "2024-03-13T15:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-03-31T15:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
-    "url": "https://transportnsw.info/alerts/details#/ems-30338",
-    "content": "<ul>\n<li><strong>From Monday 1 April</strong>, bus stop <strong>Greenwich Rd opp Anglo Rd</strong> (<strong>206589</strong>) will close permanently.</li>\n<li>Use nearby stops for route <strong>265</strong> services.<br /><br /></li>\n</ul>",
-    "subtitle": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
-    "properties": {
-      "smsText": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
-      "speechText": "From Monday 1 April, bus stop Greenwich Rd opp Anglo Rd will close permanently.\nUse nearby stops for route 265 services.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:27265: :R:",
-          "destination": {
-            "name": "North Sydney Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 265",
-          "number": "265",
-          "description": "Lane Cove to North Sydney via Greenwich",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:27690:W:H:",
-          "destination": {
-            "name": "Willoughby Bus Depot, Stan St, Willoughby East",
-            "type": "stop"
-          },
-          "name": "School buses 690w",
-          "number": "690w",
-          "description": "St. Ignatius, Riverview to East Willoughby",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-12632",
     "version": 82,
     "priority": "normal",
@@ -14444,6 +14370,80 @@
           "operator": {
             "id": "2450",
             "name": "Hunter Valley Buses"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-30338",
+    "version": 47,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-14T04:35:00Z",
+      "lastModification": "2024-03-14T04:35:00Z",
+      "availability": {
+        "from": "2024-03-13T15:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-31T15:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-30338",
+    "content": "<ul>\n<li><strong>From Monday 1 April</strong>, bus stop <strong>Greenwich Rd opp Anglo Rd</strong> (<strong>206589</strong>) will close permanently.</li>\n<li>Use nearby stops for route <strong>265</strong> services.<br /><br /></li>\n</ul>",
+    "subtitle": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
+    "properties": {
+      "smsText": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
+      "speechText": "From Monday 1 April, bus stop Greenwich Rd opp Anglo Rd will close permanently.\nUse nearby stops for route 265 services.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:27265: :R:",
+          "destination": {
+            "name": "North Sydney Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 265",
+          "number": "265",
+          "description": "Lane Cove to North Sydney via Greenwich",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:27690:W:H:",
+          "destination": {
+            "name": "Willoughby Bus Depot, Stan St, Willoughby East",
+            "type": "stop"
+          },
+          "name": "School buses 690w",
+          "number": "690w",
+          "description": "St. Ignatius, Riverview to East Willoughby",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
           }
         }
       ]
@@ -14810,79 +14810,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-332",
-    "version": 85636600,
-    "priority": "veryLow",
-    "timestamps": {
-      "creation": "2021-11-21T22:13:00Z",
-      "lastModification": "2024-08-09T02:10:00Z",
-      "availability": {
-        "from": "2021-11-21T22:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-21T22:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "<a href=\"https://premierms.com.au/book-tickets/\" target=\"_blank\">Book your seat with Premier Motor Service</a>",
-    "url": "https://transportnsw.info/alerts/details#/ems-332",
-    "content": "<div>&nbsp;&nbsp;</div>",
-    "subtitle": "<a href=\"https://premierms.com.au/book-tickets/\" target=\"_blank\">Book your seat with Premier Motor Service</a>",
-    "properties": {
-      "smsText": "<a href=\"https://premierms.com.au/book-tickets/\" target=\"_blank\">Book your seat with Premier Motor Service</a>",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:08700:1:H:",
-          "destination": {
-            "name": "Mitchell St before Maling St, Eden",
-            "type": "stop"
-          },
-          "name": "Private coach services 700-1",
-          "number": "700-1",
-          "description": "Bomaderry to Eden",
-          "iconId": 17,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B025",
-            "name": "Premier Motor Service"
-          }
-        },
-        {
-          "id": "nsw:08700:1:R:",
-          "destination": {
-            "name": "Nowra Bus Terminal, Stewart Pl, Nowra",
-            "type": "stop"
-          },
-          "name": "Private coach services 700-1",
-          "number": "700-1",
-          "description": "Eden to Bomaderry",
-          "iconId": 17,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B025",
-            "name": "Premier Motor Service"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-183",
     "version": 19009367,
     "priority": "veryLow",
@@ -14988,6 +14915,79 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-332",
+    "version": 85636600,
+    "priority": "veryLow",
+    "timestamps": {
+      "creation": "2021-11-21T22:13:00Z",
+      "lastModification": "2024-08-09T02:10:00Z",
+      "availability": {
+        "from": "2021-11-21T22:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-21T22:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "<a href=\"https://premierms.com.au/book-tickets/\" target=\"_blank\">Book your seat with Premier Motor Service</a>",
+    "url": "https://transportnsw.info/alerts/details#/ems-332",
+    "content": "<div>&nbsp;&nbsp;</div>",
+    "subtitle": "<a href=\"https://premierms.com.au/book-tickets/\" target=\"_blank\">Book your seat with Premier Motor Service</a>",
+    "properties": {
+      "smsText": "<a href=\"https://premierms.com.au/book-tickets/\" target=\"_blank\">Book your seat with Premier Motor Service</a>",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:08700:1:H:",
+          "destination": {
+            "name": "Mitchell St before Maling St, Eden",
+            "type": "stop"
+          },
+          "name": "Private coach services 700-1",
+          "number": "700-1",
+          "description": "Bomaderry to Eden",
+          "iconId": 17,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B025",
+            "name": "Premier Motor Service"
+          }
+        },
+        {
+          "id": "nsw:08700:1:R:",
+          "destination": {
+            "name": "Nowra Bus Terminal, Stewart Pl, Nowra",
+            "type": "stop"
+          },
+          "name": "Private coach services 700-1",
+          "number": "700-1",
+          "description": "Eden to Bomaderry",
+          "iconId": 17,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B025",
+            "name": "Premier Motor Service"
           }
         }
       ]
@@ -22645,6 +22645,80 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-45913",
+    "version": 8,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-14T01:18:00Z",
+      "lastModification": "2025-01-14T01:18:00Z",
+      "availability": {
+        "from": "2025-01-13T13:01:00Z",
+        "to": "2025-01-26T11:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-25T13:01:00Z",
+          "to": "2025-01-26T11:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-26T11:00:59Z"
+    },
+    "urlText": "Service changes for Australia Day",
+    "url": "https://transportnsw.info/alerts/details#/ems-45913",
+    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div>Ferries will not depart from Circular Quay from 11:45am to 12:45pm.</div>\n<div>&nbsp;</div>\n<div>Ferries will not run to and from Circular Quay from 7pm to 10pm. In the evening the last ferry leaves Circular Quay at&nbsp;6pm&nbsp;and Mosman Bay at&nbsp;6:25pm. Services resume with additional late-night ferries leaving Circular Quay at&nbsp;10pm&nbsp;and 11pm, and from Mosman Bay at&nbsp;10:22pm and 11:22pm.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the <a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.&nbsp;</div>\n</div>",
+    "subtitle": "Service changes for Australia Day",
+    "properties": {
+      "smsText": "Service changes for Australia Day",
+      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nFerries will not depart from Circular Quay from 11:45am to 12:45pm.\n \nFerries will not run to and from Circular Quay from 7pm to 10pm. In the evening the last ferry leaves Circular Quay at 6pm and Mosman Bay at 6:25pm. Services resume with additional late-night ferries leaving Circular Quay at 10pm and 11pm, and from Mosman Bay at 10:22pm and 11:22pm.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F6: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F6 Mosman Bay",
+          "number": "F6 Mosman Bay",
+          "description": "Mosman Bay to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F6: :H:",
+          "destination": {
+            "name": "Mosman Bay Wharf, Mosman",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F6 Mosman Bay",
+          "number": "F6 Mosman Bay",
+          "description": "Circular Quay to Mosman Bay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-45928",
     "version": 706,
@@ -23020,153 +23094,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-157",
-    "version": 46920607,
-    "priority": "veryLow",
-    "timestamps": {
-      "creation": "2021-11-19T02:37:00Z",
-      "lastModification": "2023-05-16T04:07:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Times are displayed in local time. Broken Hill uses Central Standard Time which is 30 minutes earlier that AEST (or AEDT).",
-    "url": "https://transportnsw.info/alerts/details#/ems-157",
-    "subtitle": "Times are displayed in local time. Broken Hill uses Central Standard Time which is 30 minutes earlier that AEST (or AEDT).",
-    "properties": {
-      "smsText": "Times are displayed in local time. Broken Hill uses Central Standard Time which is 30 minutes earlier that AEST (or AEDT).",
-      "speechText": "Broken Hill uses Central Standard Time which is 30 minutes earlier than AEST (or AEDT)",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "stopIDglobalID": "28801#28801#G28802",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76445: :H:",
-          "destination": {
-            "name": "Broken Hill Station, Broken Hill",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 445",
-          "number": "445",
-          "description": "Central to Broken Hill",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76446: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 446",
-          "number": "446",
-          "description": "Broken Hill to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink Train"
-          }
-        },
-        {
-          "id": "nsw:76589: :H:",
-          "destination": {
-            "name": "Broken Hill Town Coach Stop, Broken Hill",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 589",
-          "number": "589",
-          "description": "Dubbo to Broken Hill Town",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        },
-        {
-          "id": "nsw:76590: :R:",
-          "destination": {
-            "name": "Dubbo Station, Dubbo",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 590",
-          "number": "590",
-          "description": "Broken Hill Town to Dubbo",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "710",
-            "name": "NSW TrainLink Coach"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "28801",
-          "isGlobalId": true,
-          "name": "Broken Hill Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95981001:1",
-            "name": "Broken Hill",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "28801",
-          "isGlobalId": true,
-          "name": "Broken Hill Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95981001:1",
-            "name": "Broken Hill",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G28802",
-          "isGlobalId": true,
-          "name": "Broken Hill Town Coach Stop",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95981001:1",
-            "name": "Broken Hill",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-190",
     "version": 18777282,
@@ -23316,74 +23243,147 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-45913",
-    "version": 8,
-    "priority": "normal",
+    "type": "stopInfo",
+    "id": "ems-157",
+    "version": 46920607,
+    "priority": "veryLow",
     "timestamps": {
-      "creation": "2025-01-14T01:18:00Z",
-      "lastModification": "2025-01-14T01:18:00Z",
+      "creation": "2021-11-19T02:37:00Z",
+      "lastModification": "2023-05-16T04:07:00Z",
       "availability": {
-        "from": "2025-01-13T13:01:00Z",
-        "to": "2025-01-26T11:00:00Z"
+        "from": "2021-11-19T02:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-25T13:01:00Z",
-          "to": "2025-01-26T11:00:00Z"
+          "from": "2021-11-19T02:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2025-01-26T11:00:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
-    "urlText": "Service changes for Australia Day",
-    "url": "https://transportnsw.info/alerts/details#/ems-45913",
-    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div>Ferries will not depart from Circular Quay from 11:45am to 12:45pm.</div>\n<div>&nbsp;</div>\n<div>Ferries will not run to and from Circular Quay from 7pm to 10pm. In the evening the last ferry leaves Circular Quay at&nbsp;6pm&nbsp;and Mosman Bay at&nbsp;6:25pm. Services resume with additional late-night ferries leaving Circular Quay at&nbsp;10pm&nbsp;and 11pm, and from Mosman Bay at&nbsp;10:22pm and 11:22pm.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the <a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.&nbsp;</div>\n</div>",
-    "subtitle": "Service changes for Australia Day",
+    "urlText": "Times are displayed in local time. Broken Hill uses Central Standard Time which is 30 minutes earlier that AEST (or AEDT).",
+    "url": "https://transportnsw.info/alerts/details#/ems-157",
+    "subtitle": "Times are displayed in local time. Broken Hill uses Central Standard Time which is 30 minutes earlier that AEST (or AEDT).",
     "properties": {
-      "smsText": "Service changes for Australia Day",
-      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nFerries will not depart from Circular Quay from 11:45am to 12:45pm.\n \nFerries will not run to and from Circular Quay from 7pm to 10pm. In the evening the last ferry leaves Circular Quay at 6pm and Mosman Bay at 6:25pm. Services resume with additional late-night ferries leaving Circular Quay at 10pm and 11pm, and from Mosman Bay at 10:22pm and 11:22pm.",
+      "smsText": "Times are displayed in local time. Broken Hill uses Central Standard Time which is 30 minutes earlier that AEST (or AEDT).",
+      "speechText": "Broken Hill uses Central Standard Time which is 30 minutes earlier than AEST (or AEDT)",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
+      "stopIDglobalID": "28801#28801#G28802",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:090F6: :R:",
+          "id": "nsw:76445: :H:",
           "destination": {
-            "name": "Circular Quay",
+            "name": "Broken Hill Station, Broken Hill",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F6 Mosman Bay",
-          "number": "F6 Mosman Bay",
-          "description": "Mosman Bay to Circular Quay",
-          "iconId": 10,
+          "name": "Regional Trains and Coaches Network 445",
+          "number": "445",
+          "description": "Central to Broken Hill",
+          "iconId": 3,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
+            "id": "711",
+            "name": "NSW TrainLink Train"
           }
         },
         {
-          "id": "nsw:090F6: :H:",
+          "id": "nsw:76446: :R:",
           "destination": {
-            "name": "Mosman Bay Wharf, Mosman",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F6 Mosman Bay",
-          "number": "F6 Mosman Bay",
-          "description": "Circular Quay to Mosman Bay",
-          "iconId": 10,
+          "name": "Regional Trains and Coaches Network 446",
+          "number": "446",
+          "description": "Broken Hill to Central",
+          "iconId": 3,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
+            "id": "711",
+            "name": "NSW TrainLink Train"
+          }
+        },
+        {
+          "id": "nsw:76589: :H:",
+          "destination": {
+            "name": "Broken Hill Town Coach Stop, Broken Hill",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 589",
+          "number": "589",
+          "description": "Dubbo to Broken Hill Town",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        },
+        {
+          "id": "nsw:76590: :R:",
+          "destination": {
+            "name": "Dubbo Station, Dubbo",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 590",
+          "number": "590",
+          "description": "Broken Hill Town to Dubbo",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "710",
+            "name": "NSW TrainLink Coach"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "28801",
+          "isGlobalId": true,
+          "name": "Broken Hill Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95981001:1",
+            "name": "Broken Hill",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "28801",
+          "isGlobalId": true,
+          "name": "Broken Hill Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95981001:1",
+            "name": "Broken Hill",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G28802",
+          "isGlobalId": true,
+          "name": "Broken Hill Town Coach Stop",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95981001:1",
+            "name": "Broken Hill",
+            "type": "locality"
           }
         }
       ]
@@ -23913,6 +23913,118 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-45570",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-08T00:43:00Z",
+      "lastModification": "2025-01-08T00:43:00Z",
+      "availability": {
+        "from": "2025-01-08T00:00:00Z",
+        "to": "2025-01-19T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-08T00:00:00Z",
+          "to": "2025-01-19T15:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-19T15:00:59Z"
+    },
+    "urlText": "During summer holidays service may not run as usual",
+    "url": "https://transportnsw.info/alerts/details#/ems-45570",
+    "content": "<div><a href=\"https://transportnsw.info/trip\">Plan your trip</a></div>\n<div><br />Normal timetable resumes on Monday 20 January.</div>\n<div>&nbsp;</div>\n<div>For more information please visit the <a href=\"https://transportnsw.info/news/2024/summer-holiday-transport\">Summer holiday transport page</a>.</div>",
+    "subtitle": "During summer holidays service may not run as usual",
+    "properties": {
+      "smsText": "During summer holidays service may not run as usual",
+      "speechText": "Normal timetable resumes on Monday 20 January.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F1: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Manly to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F1: :H:",
+          "destination": {
+            "name": "Manly Wharf, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Circular Quay to Manly",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:09F10: :R:",
+          "destination": {
+            "name": "Barangaroo Wharf, Barangaroo",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F10 Blackwattle Bay",
+          "number": "F10 Blackwattle Bay",
+          "description": "Blackwattle Bay to Barangaroo",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:09F10: :H:",
+          "destination": {
+            "name": "Blackwattle Bay Wharf, Glebe",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F10 Blackwattle Bay",
+          "number": "F10 Blackwattle Bay",
+          "description": "Barangaroo to Blackwattle Bay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-44772",
     "version": 1,
@@ -24210,118 +24322,6 @@
           "name": "Sydney Ferries Network F4 Pyrmont Bay",
           "number": "F4 Pyrmont Bay",
           "description": "Circular Quay to Pyrmont Bay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-45570",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-08T00:43:00Z",
-      "lastModification": "2025-01-08T00:43:00Z",
-      "availability": {
-        "from": "2025-01-08T00:00:00Z",
-        "to": "2025-01-19T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-08T00:00:00Z",
-          "to": "2025-01-19T15:00:00Z"
-        }
-      ],
-      "expiration": "2025-01-19T15:00:59Z"
-    },
-    "urlText": "During summer holidays service may not run as usual",
-    "url": "https://transportnsw.info/alerts/details#/ems-45570",
-    "content": "<div><a href=\"https://transportnsw.info/trip\">Plan your trip</a></div>\n<div><br />Normal timetable resumes on Monday 20 January.</div>\n<div>&nbsp;</div>\n<div>For more information please visit the <a href=\"https://transportnsw.info/news/2024/summer-holiday-transport\">Summer holiday transport page</a>.</div>",
-    "subtitle": "During summer holidays service may not run as usual",
-    "properties": {
-      "smsText": "During summer holidays service may not run as usual",
-      "speechText": "Normal timetable resumes on Monday 20 January.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F1: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Manly to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F1: :H:",
-          "destination": {
-            "name": "Manly Wharf, Manly",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Circular Quay to Manly",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:09F10: :R:",
-          "destination": {
-            "name": "Barangaroo Wharf, Barangaroo",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F10 Blackwattle Bay",
-          "number": "F10 Blackwattle Bay",
-          "description": "Blackwattle Bay to Barangaroo",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:09F10: :H:",
-          "destination": {
-            "name": "Blackwattle Bay Wharf, Glebe",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F10 Blackwattle Bay",
-          "number": "F10 Blackwattle Bay",
-          "description": "Barangaroo to Blackwattle Bay",
           "iconId": 10,
           "product": {
             "class": 9,
