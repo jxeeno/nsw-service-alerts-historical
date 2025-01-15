@@ -7874,6 +7874,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-30338",
+    "version": 47,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-03-14T04:35:00Z",
+      "lastModification": "2024-03-14T04:35:00Z",
+      "availability": {
+        "from": "2024-03-13T15:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-03-31T15:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-30338",
+    "content": "<ul>\n<li><strong>From Monday 1 April</strong>, bus stop <strong>Greenwich Rd opp Anglo Rd</strong> (<strong>206589</strong>) will close permanently.</li>\n<li>Use nearby stops for route <strong>265</strong> services.<br /><br /></li>\n</ul>",
+    "subtitle": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
+    "properties": {
+      "smsText": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
+      "speechText": "From Monday 1 April, bus stop Greenwich Rd opp Anglo Rd will close permanently.\nUse nearby stops for route 265 services.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:27265: :R:",
+          "destination": {
+            "name": "North Sydney Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 265",
+          "number": "265",
+          "description": "Lane Cove to North Sydney via Greenwich",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:27690:W:H:",
+          "destination": {
+            "name": "Willoughby Bus Depot, Stan St, Willoughby East",
+            "type": "stop"
+          },
+          "name": "School buses 690w",
+          "number": "690w",
+          "description": "St. Ignatius, Riverview to East Willoughby",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-44836",
     "version": 63346,
     "priority": "normal",
@@ -7998,93 +8072,6 @@
             "name": "Transit Systems NSW"
           }
         }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-46049",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-15T18:49:00Z",
-      "lastModification": "2025-01-15T18:49:00Z",
-      "availability": {
-        "from": "2025-01-08T21:39:00Z",
-        "to": "2504-02-23T22:40:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-15T18:49:00Z",
-          "to": "2504-02-23T22:40:00Z"
-        }
-      ],
-      "expiration": "2504-02-23T22:40:59Z"
-    },
-    "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-46049",
-    "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
-    "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-    "properties": {
-      "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-      "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "275030:2750502",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "275030",
-          "isGlobalId": true,
-          "name": "Lapstone Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
       ]
     }
   },
@@ -8404,76 +8391,89 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-30338",
-    "version": 47,
+    "type": "stopInfo",
+    "id": "ems-46049",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2024-03-14T04:35:00Z",
-      "lastModification": "2024-03-14T04:35:00Z",
+      "creation": "2025-01-15T18:49:00Z",
+      "lastModification": "2025-01-15T18:49:00Z",
       "availability": {
-        "from": "2024-03-13T15:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
+        "from": "2025-01-08T21:39:00Z",
+        "to": "2504-02-23T22:40:00Z"
       },
       "validity": [
         {
-          "from": "2024-03-31T15:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
+          "from": "2025-01-15T18:49:00Z",
+          "to": "2504-02-23T22:40:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2504-02-23T22:40:59Z"
     },
-    "urlText": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
-    "url": "https://transportnsw.info/alerts/details#/ems-30338",
-    "content": "<ul>\n<li><strong>From Monday 1 April</strong>, bus stop <strong>Greenwich Rd opp Anglo Rd</strong> (<strong>206589</strong>) will close permanently.</li>\n<li>Use nearby stops for route <strong>265</strong> services.<br /><br /></li>\n</ul>",
-    "subtitle": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
+    "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-46049",
+    "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
+    "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
     "properties": {
-      "smsText": "Greenwich Rd opp Anglo Rd permanent bus stop closure",
-      "speechText": "From Monday 1 April, bus stop Greenwich Rd opp Anglo Rd will close permanently.\nUse nearby stops for route 265 services.",
-      "announcementType": "serviceChange",
+      "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+      "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "275030:2750502",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:27265: :R:",
+          "id": "nsw:02BMT: :H:",
           "destination": {
-            "name": "North Sydney Station",
+            "name": "Bathurst Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 265",
-          "number": "265",
-          "description": "Lane Cove to North Sydney via Greenwich",
-          "iconId": 5,
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2507",
-            "name": "Busways North West"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         },
         {
-          "id": "nsw:27690:W:H:",
+          "id": "nsw:02BMT: :R:",
           "destination": {
-            "name": "Willoughby Bus Depot, Stan St, Willoughby East",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "School buses 690w",
-          "number": "690w",
-          "description": "St. Ignatius, Riverview to East Willoughby",
-          "iconId": 8,
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
           "product": {
-            "class": 11,
-            "iconId": 11
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2507",
-            "name": "Busways North West"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
+      ],
+      "stops": [
+        {
+          "id": "275030",
+          "isGlobalId": true,
+          "name": "Lapstone Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
@@ -8584,133 +8584,6 @@
           "operator": {
             "id": "2503",
             "name": "Transit Systems NSW"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-45512",
-    "version": 632609,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-06T21:34:00Z",
-      "lastModification": "2025-01-14T05:17:00Z",
-      "availability": {
-        "from": "2023-02-10T21:54:00Z",
-        "to": "2502-11-26T23:40:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-06T21:34:00Z",
-          "to": "2502-11-26T23:40:00Z"
-        }
-      ],
-      "expiration": "2502-11-26T23:40:59Z"
-    },
-    "urlText": "Information displays out of service, Haymarket and Juniors Kingsford platforms",
-    "url": "https://transportnsw.info/alerts/details#/ems-45512",
-    "content": "<div>The bus information displays on the Haymarket (Rawson Place) platform and Juniors Kingsford platform are out of service. They will be repaired as soon as possible.&nbsp;</div>\n<div>Use Trip Planner to plan your trip, find travel alerts and service disruptions.&nbsp;</div>\n<div>For urgent assistance, use the Help Point.</div>",
-    "subtitle": "Information displays out of service, Haymarket and Juniors Kingsford platforms",
-    "properties": {
-      "smsText": "Information displays out of service, Haymarket and Juniors Kingsford platforms",
-      "speechText": "The bus information displays on the Haymarket (Rawson Place) platform and Juniors Kingsford platform are out of service. They will be repaired as soon as possible. \nUse Trip Planner to plan your trip, find travel alerts and service disruptions. \nFor urgent assistance, use the Help Point.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "203294",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:780L3: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L3 Kingsford Line",
-          "number": "L3 Kingsford Line",
-          "description": "Juniors Kingsford to Circular Quay",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L3: :H:",
-          "destination": {
-            "name": "Juniors Kingsford Light Rail, Kingsford",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L3 Kingsford Line",
-          "number": "L3 Kingsford Line",
-          "description": "Circular Quay to Juniors Kingsford",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L2: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L2 Randwick Line",
-          "number": "L2 Randwick Line",
-          "description": "Randwick to Circular Quay",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L2: :H:",
-          "destination": {
-            "name": "Randwick Light Rail, Randwick",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L2 Randwick Line",
-          "number": "L2 Randwick Line",
-          "description": "Circular Quay to Randwick",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "203294",
-          "isGlobalId": true,
-          "name": "Juniors Kingsford Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95350005:1",
-            "name": "Kingsford",
-            "type": "locality"
           }
         }
       ]
@@ -9422,6 +9295,133 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-45512",
+    "version": 632609,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-06T21:34:00Z",
+      "lastModification": "2025-01-14T05:17:00Z",
+      "availability": {
+        "from": "2023-02-10T21:54:00Z",
+        "to": "2502-11-26T23:40:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-06T21:34:00Z",
+          "to": "2502-11-26T23:40:00Z"
+        }
+      ],
+      "expiration": "2502-11-26T23:40:59Z"
+    },
+    "urlText": "Information displays out of service, Haymarket and Juniors Kingsford platforms",
+    "url": "https://transportnsw.info/alerts/details#/ems-45512",
+    "content": "<div>The bus information displays on the Haymarket (Rawson Place) platform and Juniors Kingsford platform are out of service. They will be repaired as soon as possible.&nbsp;</div>\n<div>Use Trip Planner to plan your trip, find travel alerts and service disruptions.&nbsp;</div>\n<div>For urgent assistance, use the Help Point.</div>",
+    "subtitle": "Information displays out of service, Haymarket and Juniors Kingsford platforms",
+    "properties": {
+      "smsText": "Information displays out of service, Haymarket and Juniors Kingsford platforms",
+      "speechText": "The bus information displays on the Haymarket (Rawson Place) platform and Juniors Kingsford platform are out of service. They will be repaired as soon as possible. \nUse Trip Planner to plan your trip, find travel alerts and service disruptions. \nFor urgent assistance, use the Help Point.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "203294",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Juniors Kingsford to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :H:",
+          "destination": {
+            "name": "Juniors Kingsford Light Rail, Kingsford",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Circular Quay to Juniors Kingsford",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :H:",
+          "destination": {
+            "name": "Randwick Light Rail, Randwick",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "203294",
+          "isGlobalId": true,
+          "name": "Juniors Kingsford Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95350005:1",
+            "name": "Kingsford",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "6fa050fcd60c7b98cefc4b92560fc6fab9b0c5df",
     "version": 1,
@@ -9953,171 +9953,6 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "fac2504aa90cbeda4f6d32e54f07041a457ffa30",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-15T18:19:00Z",
-      "lastModification": "2025-01-15T18:19:00Z",
-      "availability": {
-        "from": "2025-01-15T18:19:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-15T18:19:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Station Update - Wollstonecraft",
-    "url": "https://transportnsw.info/alerts/details#/fac2504aa90cbeda4f6d32e54f07041a457ffa30",
-    "content": "There is a fallen tree on platform 2 at Wollstonecraft. \n\nIf you are getting on or off the train at Wollstonecraft, you can not use the front carriage to access platform 2.\n\nPlease get on another carriage.",
-    "subtitle": "Station Update - Wollstonecraft",
-    "properties": {
-      "smsText": "Station Update - Wollstonecraft",
-      "speechText": "There is a fallen tree on platform 2 at Wollstonecraft. \n\nIf you are getting on or off the train at Wollstonecraft, you can not use the front carriage to access platform 2.\n\nPlease get on another carriage.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "206510",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:N:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T9: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "Hornsby to North Shore via City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:N:H:",
-          "destination": {
-            "name": "Penrith Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T9: :H:",
-          "destination": {
-            "name": "Gordon Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "North Shore to Hornsby via City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "206510",
-          "isGlobalId": true,
-          "name": "Wollstonecraft Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343012:1",
-            "name": "Wollstonecraft",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-44768",
     "version": 1,
@@ -10560,6 +10395,171 @@
   },
   {
     "type": "stopInfo",
+    "id": "fac2504aa90cbeda4f6d32e54f07041a457ffa30",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-15T18:19:00Z",
+      "lastModification": "2025-01-15T18:19:00Z",
+      "availability": {
+        "from": "2025-01-15T18:19:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-15T18:19:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Station Update - Wollstonecraft",
+    "url": "https://transportnsw.info/alerts/details#/fac2504aa90cbeda4f6d32e54f07041a457ffa30",
+    "content": "There is a fallen tree on platform 2 at Wollstonecraft. \n\nIf you are getting on or off the train at Wollstonecraft, you can not use the front carriage to access platform 2.\n\nPlease get on another carriage.",
+    "subtitle": "Station Update - Wollstonecraft",
+    "properties": {
+      "smsText": "Station Update - Wollstonecraft",
+      "speechText": "There is a fallen tree on platform 2 at Wollstonecraft. \n\nIf you are getting on or off the train at Wollstonecraft, you can not use the front carriage to access platform 2.\n\nPlease get on another carriage.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "206510",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "206510",
+          "isGlobalId": true,
+          "name": "Wollstonecraft Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343012:1",
+            "name": "Wollstonecraft",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
     "id": "78affc460102c528b89a8725999152ec38b3faff",
     "version": 1,
     "priority": "normal",
@@ -10687,385 +10687,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "184f8d48956bf2924e425dfeec1f6887cfb33e2c",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-15T19:00:00Z",
-      "lastModification": "2025-01-15T19:00:00Z",
-      "availability": {
-        "from": "2025-01-15T19:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-15T19:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Airport & South Line, Blue Mountains Line, Central Coast & Newcastle Line, Cumberland Line, Leppington & Inner West Line, Liverpool & Inner West Line, North Shore Line, Northern Line, Western Line",
-    "url": "https://transportnsw.info/alerts/details#/184f8d48956bf2924e425dfeec1f6887cfb33e2c",
-    "content": "Allow extra travel time due to protected industrial action impacting the maintenance of infrastructure at Homebush. Trains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
-    "subtitle": "Airport & South Line, Blue Mountains Line, Central Coast & Newcastle Line, Cumberland Line, Leppington & Inner West Line, Liverpool & Inner West Line, North Shore Line, Northern Line, Western Line",
-    "properties": {
-      "smsText": "Airport & South Line, Blue Mountains Line, Central Coast & Newcastle Line, Cumberland Line, Leppington & Inner West Line, Liverpool & Inner West Line, North Shore Line, Northern Line, Western Line",
-      "speechText": "Allow extra travel time due to protected industrial action impacting the maintenance of infrastructure at Homebush. Trains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T8: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "Macarthur to City via Airport or Sydenham",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :R:",
-          "destination": {
-            "name": "Campbelltown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "Parramatta or Leppington to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:N:R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T9: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "Hornsby to North Shore via City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
-          "number": "T3 Liverpool & Inner West Line",
-          "description": "Liverpool or Lidcombe to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T8: :H:",
-          "destination": {
-            "name": "Leppington Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :H:",
-          "destination": {
-            "name": "Penrith Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Redfern Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
-          "number": "T2 Inner West & Leppington Line",
-          "description": "City to Parramatta or Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:N:H:",
-          "destination": {
-            "name": "Penrith Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T9: :H:",
-          "destination": {
-            "name": "Gordon Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "North Shore to Hornsby via City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Liverpool Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
-          "number": "T3 Liverpool & Inner West Line",
-          "description": "City to Liverpool or Lidcombe",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Richmond Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-46027",
     "version": 1,
     "priority": "normal",
@@ -11114,6 +10735,95 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-46058",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-15T19:23:00Z",
+      "lastModification": "2025-01-15T19:23:00Z",
+      "availability": {
+        "from": "2025-01-15T19:14:00Z",
+        "to": "2025-01-16T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-15T19:14:00Z",
+          "to": "2025-01-16T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-16T13:00:59Z"
+    },
+    "urlText": "Diversions at Wollstonecraft",
+    "url": "https://transportnsw.info/alerts/details#/ems-46058",
+    "content": "<div>Buses are diverting away from a section of Shirley Road in each direction due to a fallen tree.&nbsp;</div>\n<ul>\n<li>Buses are using Rockland Road instead.</li>\n<li>Five stops are being missed.</li>\n</ul>",
+    "subtitle": "Diversions at Wollstonecraft",
+    "properties": {
+      "smsText": "Diversions at Wollstonecraft",
+      "speechText": "In Wollstonecraft, route 265 buses are diverting away from a section of Shirley Road in each direction due to a fallen tree. \nBuses are using Rockland Road instead. Five stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G2065150",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17265: :H:",
+          "destination": {
+            "name": "Lane Cove Library, Longueville Rd, Lane Cove",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 265",
+          "number": "265",
+          "description": "North Sydney to Lane Cove via Crows Nest",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17265: :R:",
+          "destination": {
+            "name": "North Sydney Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 265",
+          "number": "265",
+          "description": "Lane Cove to North Sydney via Crows Nest",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G2065150",
+          "isGlobalId": true,
+          "name": "Milner Cres at Shirley Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343012:1",
+            "name": "Wollstonecraft",
+            "type": "locality"
           }
         }
       ]
@@ -12299,89 +12009,379 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-46058",
+    "type": "lineInfo",
+    "id": "184f8d48956bf2924e425dfeec1f6887cfb33e2c",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-01-15T19:23:00Z",
-      "lastModification": "2025-01-15T19:23:00Z",
+      "creation": "2025-01-15T19:00:00Z",
+      "lastModification": "2025-01-15T19:00:00Z",
       "availability": {
-        "from": "2025-01-15T19:14:00Z",
-        "to": "2025-01-16T12:59:00Z"
+        "from": "2025-01-15T19:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-15T19:14:00Z",
-          "to": "2025-01-16T13:00:00Z"
+          "from": "2025-01-15T19:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2025-01-16T13:00:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
-    "urlText": "Diversions at Wollstonecraft",
-    "url": "https://transportnsw.info/alerts/details#/ems-46058",
-    "content": "<div>Buses are diverting away from a section of Shirley Road in each direction due to a fallen tree.&nbsp;</div>\n<ul>\n<li>Buses are using Rockland Road instead.</li>\n<li>Five stops are being missed.</li>\n</ul>",
-    "subtitle": "Diversions at Wollstonecraft",
+    "urlText": "Airport & South Line, Blue Mountains Line, Central Coast & Newcastle Line, Cumberland Line, Leppington & Inner West Line, Liverpool & Inner West Line, North Shore Line, Northern Line, Western Line",
+    "url": "https://transportnsw.info/alerts/details#/184f8d48956bf2924e425dfeec1f6887cfb33e2c",
+    "content": "Allow extra travel time due to protected industrial action impacting the maintenance of infrastructure at Homebush. Trains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
+    "subtitle": "Airport & South Line, Blue Mountains Line, Central Coast & Newcastle Line, Cumberland Line, Leppington & Inner West Line, Liverpool & Inner West Line, North Shore Line, Northern Line, Western Line",
     "properties": {
-      "smsText": "Diversions at Wollstonecraft",
-      "speechText": "In Wollstonecraft, route 265 buses are diverting away from a section of Shirley Road in each direction due to a fallen tree. \nBuses are using Rockland Road instead. Five stops are being missed.",
+      "smsText": "Airport & South Line, Blue Mountains Line, Central Coast & Newcastle Line, Cumberland Line, Leppington & Inner West Line, Liverpool & Inner West Line, North Shore Line, Northern Line, Western Line",
+      "speechText": "Allow extra travel time due to protected industrial action impacting the maintenance of infrastructure at Homebush. Trains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
-      "stopIDglobalID": "G2065150",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:17265: :H:",
+          "id": "nsw:020T8: :R:",
           "destination": {
-            "name": "Lane Cove Library, Longueville Rd, Lane Cove",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 265",
-          "number": "265",
-          "description": "North Sydney to Lane Cove via Crows Nest",
-          "iconId": 5,
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2507",
-            "name": "Busways North West"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
         {
-          "id": "nsw:17265: :R:",
+          "id": "nsw:02BMT: :R:",
           "destination": {
-            "name": "North Sydney Station",
+            "name": "Central Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 265",
-          "number": "265",
-          "description": "Lane Cove to North Sydney via Crows Nest",
-          "iconId": 5,
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2507",
-            "name": "Busways North West"
+            "id": "X0000",
+            "name": "NSW Trains"
           }
-        }
-      ],
-      "stops": [
+        },
         {
-          "id": "G2065150",
-          "isGlobalId": true,
-          "name": "Milner Cres at Shirley Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343012:1",
-            "name": "Wollstonecraft",
-            "type": "locality"
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
+          "number": "T3 Liverpool & Inner West Line",
+          "description": "Liverpool or Lidcombe to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Leppington Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Redfern Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "City to Parramatta or Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Penrith Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Liverpool Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
+          "number": "T3 Liverpool & Inner West Line",
+          "description": "City to Liverpool or Lidcombe",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Richmond Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
@@ -14298,81 +14298,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "810547a7c96b831b457b0cf9e0c3a5775c0bd657",
-    "version": 3451,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-15T17:22:00Z",
-      "lastModification": "2025-01-15T18:19:00Z",
-      "availability": {
-        "from": "2025-01-15T18:19:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-15T18:19:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Olympic Park",
-    "url": "https://transportnsw.info/alerts/details#/810547a7c96b831b457b0cf9e0c3a5775c0bd657",
-    "content": "Buses are replacing trains between Lidcombe and Olympic Park due to an operational issue. Allow extra travel time.",
-    "subtitle": "Olympic Park",
-    "properties": {
-      "smsText": "Olympic Park",
-      "speechText": "Buses are replacing trains between Lidcombe and Olympic Park due to an operational issue. Allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T7: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T7 Olympic Park Line",
-          "number": "T7 Olympic Park Line",
-          "description": "Olympic Park to Lidcombe",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T7: :H:",
-          "destination": {
-            "name": "Blacktown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T7 Olympic Park Line",
-          "number": "T7 Olympic Park Line",
-          "description": "Lidcombe to Olympic Park",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-46044",
     "version": 1,
     "priority": "normal",
@@ -15177,6 +15102,320 @@
             "name": "Transit Systems"
           }
         }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "810547a7c96b831b457b0cf9e0c3a5775c0bd657",
+    "version": 3451,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-15T17:22:00Z",
+      "lastModification": "2025-01-15T18:19:00Z",
+      "availability": {
+        "from": "2025-01-15T18:19:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-15T18:19:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Olympic Park",
+    "url": "https://transportnsw.info/alerts/details#/810547a7c96b831b457b0cf9e0c3a5775c0bd657",
+    "content": "Buses are replacing trains between Lidcombe and Olympic Park due to an operational issue. Allow extra travel time.",
+    "subtitle": "Olympic Park",
+    "properties": {
+      "smsText": "Olympic Park",
+      "speechText": "Buses are replacing trains between Lidcombe and Olympic Park due to an operational issue. Allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T7: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Olympic Park to Lidcombe",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T7: :H:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T7 Olympic Park Line",
+          "number": "T7 Olympic Park Line",
+          "description": "Lidcombe to Olympic Park",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-46069",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-15T20:10:00Z",
+      "lastModification": "2025-01-15T20:10:00Z",
+      "availability": {
+        "from": "2025-01-08T22:59:00Z",
+        "to": "2504-02-24T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-15T20:10:00Z",
+          "to": "2504-02-24T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-02-24T00:00:59Z"
+    },
+    "urlText": "Sydenham Station Lift 4 between the concourse and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-46069",
+    "content": "At Sydenham Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7764.",
+    "subtitle": "Sydenham Station Lift 4 between the concourse and Platform 1 is not available",
+    "properties": {
+      "smsText": "Sydenham Station Lift 4 between the concourse and Platform 1 is not available",
+      "speechText": "At Sydenham Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7764.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "204420:204471",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Olympic Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Inner West & Leppington Line",
+          "number": "T2 Inner West & Leppington Line",
+          "description": "Parramatta or Leppington to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Campbelltown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
+          "number": "T3 Liverpool & Inner West Line",
+          "description": "Liverpool or Lidcombe to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Liverpool Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
+          "number": "T3 Liverpool & Inner West Line",
+          "description": "City to Liverpool or Lidcombe",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "204420",
+          "isGlobalId": true,
+          "name": "Sydenham Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
@@ -16436,61 +16675,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-46042",
-    "version": 356,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-15T18:27:00Z",
-      "lastModification": "2025-01-15T18:33:00Z",
-      "availability": {
-        "from": "2025-01-15T18:27:00Z",
-        "to": "2503-04-19T22:55:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-15T18:27:00Z",
-          "to": "2503-04-19T22:55:00Z"
-        }
-      ],
-      "expiration": "2503-04-19T22:55:59Z"
-    },
-    "urlText": "Diversions in Shanes Park",
-    "url": "https://transportnsw.info/alerts/details#/ems-46042",
-    "content": "<div>Buses are diverting away from Stony Creek Road and St Marys Road in both directions due to flooding.</div>\n<ul>\n<li>Buses travelling towards Windsor and Mt Druitt are using local roads instead.</li>\n<li>Four stops are being missed.</li>\n</ul>",
-    "subtitle": "Diversions in Shanes Park",
-    "properties": {
-      "smsText": "Diversions in Shanes Park",
-      "speechText": "At Shanes Park, Route 6 7 4 buses are diverting away from Stony Creek Road and St Marys Road via local streets due to flooding. 4 stops are being missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:11674: :R:",
-          "destination": {
-            "name": "Mount Druitt Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 674",
-          "number": "674",
-          "description": "Windsor to Mount Druitt via Bligh Park & Shanes Park",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-44728",
     "version": 1,
     "priority": "normal",
@@ -17263,6 +17447,188 @@
           "operator": {
             "id": "2501",
             "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-46042",
+    "version": 356,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-15T18:27:00Z",
+      "lastModification": "2025-01-15T18:33:00Z",
+      "availability": {
+        "from": "2025-01-15T18:27:00Z",
+        "to": "2503-04-19T22:55:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-15T18:27:00Z",
+          "to": "2503-04-19T22:55:00Z"
+        }
+      ],
+      "expiration": "2503-04-19T22:55:59Z"
+    },
+    "urlText": "Diversions in Shanes Park",
+    "url": "https://transportnsw.info/alerts/details#/ems-46042",
+    "content": "<div>Buses are diverting away from Stony Creek Road and St Marys Road in both directions due to flooding.</div>\n<ul>\n<li>Buses travelling towards Windsor and Mt Druitt are using local roads instead.</li>\n<li>Four stops are being missed.</li>\n</ul>",
+    "subtitle": "Diversions in Shanes Park",
+    "properties": {
+      "smsText": "Diversions in Shanes Park",
+      "speechText": "At Shanes Park, Route 6 7 4 buses are diverting away from Stony Creek Road and St Marys Road via local streets due to flooding. 4 stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:11674: :R:",
+          "destination": {
+            "name": "Mount Druitt Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 674",
+          "number": "674",
+          "description": "Windsor to Mount Druitt via Bligh Park & Shanes Park",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-34021",
+    "version": 16924932,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-05-23T01:57:00Z",
+      "lastModification": "2024-12-04T23:19:00Z",
+      "availability": {
+        "from": "2024-11-22T03:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-12-03T14:01:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "South Mosman Wharf closed for upgrades",
+    "url": "https://transportnsw.info/alerts/details#/ems-34021",
+    "content": "<p><strong>Monday 3 June until early 2025</strong><br /><br />South Mosman Wharf is being upgraded and will be closed to the public for around eight months, weather and site conditions permitting. Ferry passengers will need to use alternative transport during the wharf closure:</p>\n<ul>\n<li>Public transport options include <strong>F2</strong> and <strong>F6</strong> ferry services from Mosman Bay Wharf.</li>\n<li>Use the existing <strong>111 bus service</strong> from Musgrave Street to Canrobert Street and change to the <strong>230 bus</strong> from Avenue Road to Mosman Bay Wharf.</li>\n<li>The <strong>230 bus service</strong> from Military Road can also be used to connect to North Sydney and other destinations.</li>\n<li>Allow extra travel time, listen to announcements, and check information displays for service updates.</li>\n</ul>",
+    "subtitle": "South Mosman Wharf closed for upgrades",
+    "properties": {
+      "smsText": "South Mosman Wharf closed for upgrades",
+      "speechText": "From Monday 3rd June until early 2025, South Mosman Wharf is being upgraded and will be closed to the public for around eight months, weather and site conditions permitting. Ferry passengers will need to use alternative transport during the wharf closure:\n\nPublic transport options include F 2 and F 6 ferry services from Mosman Bay Wharf.\nUse the existing 1 1 1 bus service from Musgrave Street to Canrobert Street and change to the 230 bus from Avenue Road to Mosman Bay Wharf.\nThe 2 3 0 bus service from Military Road can also be used to connect to North Sydney and other destinations.\nAllow extra travel time, listen to announcements, and check information displays for service updates.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "208878",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F6: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F6 Mosman Bay",
+          "number": "F6 Mosman Bay",
+          "description": "Mosman Bay to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F6: :H:",
+          "destination": {
+            "name": "Mosman Bay Wharf, Mosman",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F6 Mosman Bay",
+          "number": "F6 Mosman Bay",
+          "description": "Circular Quay to Mosman Bay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:29111: :H:",
+          "destination": {
+            "name": "Chowder Bay Rd opp Sydney Institute of Marine Science, Mosman",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 111",
+          "number": "111",
+          "description": "South Mosman Wharf to Chowder Bay",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29111: :R:",
+          "destination": {
+            "name": "South Mosman Wharf, Musgrave St, Mosman",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 111",
+          "number": "111",
+          "description": "Chowder Bay to South Mosman Wharf",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "208878",
+          "isGlobalId": true,
+          "name": "South Mosman Wharf",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95340002:1",
+            "name": "Mosman",
+            "type": "locality"
           }
         }
       ]
@@ -18224,133 +18590,6 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-34021",
-    "version": 16924932,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-05-23T01:57:00Z",
-      "lastModification": "2024-12-04T23:19:00Z",
-      "availability": {
-        "from": "2024-11-22T03:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-12-03T14:01:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "South Mosman Wharf closed for upgrades",
-    "url": "https://transportnsw.info/alerts/details#/ems-34021",
-    "content": "<p><strong>Monday 3 June until early 2025</strong><br /><br />South Mosman Wharf is being upgraded and will be closed to the public for around eight months, weather and site conditions permitting. Ferry passengers will need to use alternative transport during the wharf closure:</p>\n<ul>\n<li>Public transport options include <strong>F2</strong> and <strong>F6</strong> ferry services from Mosman Bay Wharf.</li>\n<li>Use the existing <strong>111 bus service</strong> from Musgrave Street to Canrobert Street and change to the <strong>230 bus</strong> from Avenue Road to Mosman Bay Wharf.</li>\n<li>The <strong>230 bus service</strong> from Military Road can also be used to connect to North Sydney and other destinations.</li>\n<li>Allow extra travel time, listen to announcements, and check information displays for service updates.</li>\n</ul>",
-    "subtitle": "South Mosman Wharf closed for upgrades",
-    "properties": {
-      "smsText": "South Mosman Wharf closed for upgrades",
-      "speechText": "From Monday 3rd June until early 2025, South Mosman Wharf is being upgraded and will be closed to the public for around eight months, weather and site conditions permitting. Ferry passengers will need to use alternative transport during the wharf closure:\n\nPublic transport options include F 2 and F 6 ferry services from Mosman Bay Wharf.\nUse the existing 1 1 1 bus service from Musgrave Street to Canrobert Street and change to the 230 bus from Avenue Road to Mosman Bay Wharf.\nThe 2 3 0 bus service from Military Road can also be used to connect to North Sydney and other destinations.\nAllow extra travel time, listen to announcements, and check information displays for service updates.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "208878",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F6: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F6 Mosman Bay",
-          "number": "F6 Mosman Bay",
-          "description": "Mosman Bay to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F6: :H:",
-          "destination": {
-            "name": "Mosman Bay Wharf, Mosman",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F6 Mosman Bay",
-          "number": "F6 Mosman Bay",
-          "description": "Circular Quay to Mosman Bay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:29111: :H:",
-          "destination": {
-            "name": "Chowder Bay Rd opp Sydney Institute of Marine Science, Mosman",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 111",
-          "number": "111",
-          "description": "South Mosman Wharf to Chowder Bay",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29111: :R:",
-          "destination": {
-            "name": "South Mosman Wharf, Musgrave St, Mosman",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 111",
-          "number": "111",
-          "description": "Chowder Bay to South Mosman Wharf",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "208878",
-          "isGlobalId": true,
-          "name": "South Mosman Wharf",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95340002:1",
-            "name": "Mosman",
-            "type": "locality"
           }
         }
       ]
@@ -19422,6 +19661,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-46064",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-15T19:42:00Z",
+      "lastModification": "2025-01-15T19:42:00Z",
+      "availability": {
+        "from": "2025-01-15T19:40:00Z",
+        "to": "2025-01-16T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-15T19:40:00Z",
+          "to": "2025-01-16T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-16T13:00:59Z"
+    },
+    "urlText": "Diversions in East Maitland",
+    "url": "https://transportnsw.info/alerts/details#/ems-46064",
+    "content": "<div>Buses are diverting away from View Street due to low hanging wires.</div>\n<ul>\n<li>Buses are using Hinder Street, Narang Street and Maize Street instead.</li>\n<li>Two stops are being missed.</li>\n</ul>",
+    "subtitle": "Diversions in East Maitland",
+    "properties": {
+      "smsText": "Diversions in East Maitland",
+      "speechText": "In East Maitland, buses are diverting away from View Street due to low hanging wires. Buses are using Hinder Street, Narang Street and Maize Street instead. Two stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:46183: :R:",
+          "destination": {
+            "name": "Maize St opp Sinclair St, Tenambit",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 183",
+          "number": "183",
+          "description": "Rutherford to Tenambit via Maitland & Green Hills Shopping Centre",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2448",
+            "name": "Hunter Valley Buses"
+          }
+        },
+        {
+          "id": "nsw:46183: :H:",
+          "destination": {
+            "name": "Rutherford Shopping Centre, West Mall, Rutherford",
+            "type": "stop"
+          },
+          "name": "Hunter Buses Network 183",
+          "number": "183",
+          "description": "Tenambit to Rutherford via Green Hills Shopping Centre & Maitland",
+          "iconId": 15,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2448",
+            "name": "Hunter Valley Buses"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-44760",
     "version": 162905,
     "priority": "normal",
@@ -20478,80 +20791,6 @@
           "operator": {
             "id": "2501",
             "name": "Busways R1"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-46064",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-15T19:42:00Z",
-      "lastModification": "2025-01-15T19:42:00Z",
-      "availability": {
-        "from": "2025-01-15T19:40:00Z",
-        "to": "2025-01-16T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-15T19:40:00Z",
-          "to": "2025-01-16T13:00:00Z"
-        }
-      ],
-      "expiration": "2025-01-16T13:00:59Z"
-    },
-    "urlText": "Diversions in East Maitland",
-    "url": "https://transportnsw.info/alerts/details#/ems-46064",
-    "content": "<div>Buses are diverting away from View Street due to low hanging wires.</div>\n<ul>\n<li>Buses are using Hinder Street, Narang Street and Maize Street instead.</li>\n<li>Two stops are being missed.</li>\n</ul>",
-    "subtitle": "Diversions in East Maitland",
-    "properties": {
-      "smsText": "Diversions in East Maitland",
-      "speechText": "In East Maitland, buses are diverting away from View Street due to low hanging wires. Buses are using Hinder Street, Narang Street and Maize Street instead. Two stops are being missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:46183: :R:",
-          "destination": {
-            "name": "Maize St opp Sinclair St, Tenambit",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 183",
-          "number": "183",
-          "description": "Rutherford to Tenambit via Maitland & Green Hills Shopping Centre",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2448",
-            "name": "Hunter Valley Buses"
-          }
-        },
-        {
-          "id": "nsw:46183: :H:",
-          "destination": {
-            "name": "Rutherford Shopping Centre, West Mall, Rutherford",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 183",
-          "number": "183",
-          "description": "Tenambit to Rutherford via Green Hills Shopping Centre & Maitland",
-          "iconId": 15,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2448",
-            "name": "Hunter Valley Buses"
           }
         }
       ]
