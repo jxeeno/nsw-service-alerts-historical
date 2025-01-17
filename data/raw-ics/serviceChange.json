@@ -4751,6 +4751,66 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-46245",
+    "version": 3,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-17T09:22:00Z",
+      "lastModification": "2025-01-17T09:22:00Z",
+      "availability": {
+        "from": "2025-01-17T09:17:00Z",
+        "to": "2025-01-17T12:47:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-17T09:17:00Z",
+          "to": "2025-01-17T12:47:00Z"
+        }
+      ],
+      "expiration": "2025-01-17T12:47:59Z"
+    },
+    "urlText": "Some public transport services will terminate earlier and not run after Brisbane (Roma Street) Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-46245",
+    "content": "Some public transport services on  will terminate earlier and not run after Brisbane (Roma Street) Station due to fallen tree.\n<div>CLK32 has been terminated at Hornsby due to extreme weather and fallen trees blocking the line.</div>\n Plan ahead and allow extra travel time.",
+    "subtitle": "Some public transport services will terminate earlier and not run after Brisbane (Roma Street) Station",
+    "properties": {
+      "smsText": "Some public transport services will terminate earlier and not run after Brisbane (Roma Street) Station",
+      "speechText": "Some public transport services on  will terminate earlier and not run after Brisbane (Roma Street) Station due to fallen tree.\nCLK32 has been terminated at Hornsby due to extreme weather and fallen trees blocking the line.\n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "40001#207720",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "40001",
+          "isGlobalId": true,
+          "name": "Brisbane (Roma Street) Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95401001:95401001",
+            "name": "Queensland",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "207720",
+          "isGlobalId": true,
+          "name": "Hornsby Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325020:1",
+            "name": "Hornsby",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-42495",
     "version": 1,
@@ -7008,60 +7068,74 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-46245",
-    "version": 3,
+    "type": "lineInfo",
+    "id": "ems-46232",
+    "version": 10047,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-01-17T09:22:00Z",
-      "lastModification": "2025-01-17T09:22:00Z",
+      "creation": "2025-01-17T06:56:00Z",
+      "lastModification": "2025-01-17T09:44:00Z",
       "availability": {
-        "from": "2025-01-17T09:17:00Z",
-        "to": "2025-01-17T12:47:00Z"
+        "from": "2025-01-17T06:54:00Z",
+        "to": "2025-01-17T12:45:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-17T09:17:00Z",
-          "to": "2025-01-17T12:47:00Z"
+          "from": "2025-01-17T06:54:00Z",
+          "to": "2025-01-17T12:45:00Z"
         }
       ],
-      "expiration": "2025-01-17T12:47:59Z"
+      "expiration": "2025-01-17T12:45:59Z"
     },
-    "urlText": "Some public transport services will terminate earlier and not run after Brisbane (Roma Street) Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-46245",
-    "content": "Some public transport services on  will terminate earlier and not run after Brisbane (Roma Street) Station due to fallen tree.\n<div>CLK32 has been terminated at Hornsby due to extreme weather and fallen trees blocking the line.</div>\n Plan ahead and allow extra travel time.",
-    "subtitle": "Some public transport services will terminate earlier and not run after Brisbane (Roma Street) Station",
+    "urlText": "Diversions in Kingsgrove",
+    "url": "https://transportnsw.info/alerts/details#/ems-46232",
+    "content": "<div>Buses are diverting away from Staples Street between Edward Street and Parks Street due to fallen wires.</div>\n<div>&nbsp;</div>\n<ul>\n<li>Buses are using Park Street, Wolli Street and Edward Street instead.</li>\n<li>3 stops missed.</li>\n</ul>",
+    "subtitle": "Diversions in Kingsgrove",
     "properties": {
-      "smsText": "Some public transport services will terminate earlier and not run after Brisbane (Roma Street) Station",
-      "speechText": "Some public transport services on  will terminate earlier and not run after Brisbane (Roma Street) Station due to fallen tree.\nCLK32 has been terminated at Hornsby due to extreme weather and fallen trees blocking the line.\n Plan ahead and allow extra travel time.",
+      "smsText": "Diversions in Kingsgrove",
+      "speechText": "Buses are diverting away from Staples Street between Edward Street and Parks Street due to fallen wires.\n \nBuses are using Park Street, Wolli Street and Edward Street instead.\n3 stops missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "40001#207720",
       "providerCode": "TfNSW"
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "40001",
-          "isGlobalId": true,
-          "name": "Brisbane (Roma Street) Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95401001:95401001",
-            "name": "Queensland",
-            "type": "locality"
+          "id": "nsw:74491: :R:",
+          "destination": {
+            "name": "Club Five Dock RSL, Great North Road, Five Dock",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 491",
+          "number": "491",
+          "description": "Hurstville to Five Dock",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         },
         {
-          "id": "207720",
-          "isGlobalId": true,
-          "name": "Hornsby Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95325020:1",
-            "name": "Hornsby",
-            "type": "locality"
+          "id": "nsw:74491: :H:",
+          "destination": {
+            "name": "Hurstville Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 491",
+          "number": "491",
+          "description": "Five Dock to Hurstville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
@@ -7577,18 +7651,18 @@
   {
     "type": "lineInfo",
     "id": "86f295025665f142fa4b0112c9e209517d8df802",
-    "version": 5608,
+    "version": 19707,
     "priority": "normal",
     "timestamps": {
       "creation": "2025-01-17T04:49:00Z",
-      "lastModification": "2025-01-17T06:23:00Z",
+      "lastModification": "2025-01-17T10:18:00Z",
       "availability": {
-        "from": "2025-01-17T06:23:00Z",
+        "from": "2025-01-17T10:18:00Z",
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-17T06:23:00Z",
+          "from": "2025-01-17T10:18:00Z",
           "to": "2500-12-31T00:00:00Z"
         }
       ],
@@ -7596,11 +7670,11 @@
     },
     "urlText": "Airport & South Line, Leppington & Inner West Line, Liverpool & Inner West Line",
     "url": "https://transportnsw.info/alerts/details#/86f295025665f142fa4b0112c9e209517d8df802",
-    "content": "Allow extra travel time due to a tree blocking the track at St Peters earlier and urgent train repairs at Central.\n\nTrips may take longer than usual. Stops and platforms may change at short notice. \n\nTrains near the City may stop at platforms or between stations for longer than normal.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+    "content": "Allow extra travel time due to a tree blocking the track at St Peters earlier and urgent train repairs at Central.\n\nTrips may take longer than usual. Stops and platforms may change at short notice. \n\nTrains near the City may stop at platforms or between stations for longer than normal. Most trains on Airport and South line will end and start from Campbelltown. If you are travelling to/from Macarthur please utilise local bus routes where possible or make your own arrangments.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
     "subtitle": "Airport & South Line, Leppington & Inner West Line, Liverpool & Inner West Line",
     "properties": {
       "smsText": "Airport & South Line, Leppington & Inner West Line, Liverpool & Inner West Line",
-      "speechText": "Allow extra travel time due to a tree blocking the track at St Peters earlier and urgent train repairs at Central.\n\nTrips may take longer than usual. Stops and platforms may change at short notice. \n\nTrains near the City may stop at platforms or between stations for longer than normal.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+      "speechText": "Allow extra travel time due to a tree blocking the track at St Peters earlier and urgent train repairs at Central.\n\nTrips may take longer than usual. Stops and platforms may change at short notice. \n\nTrains near the City may stop at platforms or between stations for longer than normal. Most trains on Airport and South line will end and start from Campbelltown. If you are travelling to/from Macarthur please utilise local bus routes where possible or make your own arrangments.\n\nFor service updates, please check transport apps, information screens and listen to announcements.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
@@ -7720,399 +7794,6 @@
           "operator": {
             "id": "x0001",
             "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-46232",
-    "version": 10047,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-17T06:56:00Z",
-      "lastModification": "2025-01-17T09:44:00Z",
-      "availability": {
-        "from": "2025-01-17T06:54:00Z",
-        "to": "2025-01-17T12:45:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-17T06:54:00Z",
-          "to": "2025-01-17T12:45:00Z"
-        }
-      ],
-      "expiration": "2025-01-17T12:45:59Z"
-    },
-    "urlText": "Diversions in Kingsgrove",
-    "url": "https://transportnsw.info/alerts/details#/ems-46232",
-    "content": "<div>Buses are diverting away from Staples Street between Edward Street and Parks Street due to fallen wires.</div>\n<div>&nbsp;</div>\n<ul>\n<li>Buses are using Park Street, Wolli Street and Edward Street instead.</li>\n<li>3 stops missed.</li>\n</ul>",
-    "subtitle": "Diversions in Kingsgrove",
-    "properties": {
-      "smsText": "Diversions in Kingsgrove",
-      "speechText": "Buses are diverting away from Staples Street between Edward Street and Parks Street due to fallen wires.\n \nBuses are using Park Street, Wolli Street and Edward Street instead.\n3 stops missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74491: :R:",
-          "destination": {
-            "name": "Club Five Dock RSL, Great North Road, Five Dock",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 491",
-          "number": "491",
-          "description": "Hurstville to Five Dock",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74491: :H:",
-          "destination": {
-            "name": "Hurstville Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 491",
-          "number": "491",
-          "description": "Five Dock to Hurstville",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-45922",
-    "version": 186,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-14T01:37:00Z",
-      "lastModification": "2025-01-14T01:40:00Z",
-      "availability": {
-        "from": "2025-01-13T13:01:00Z",
-        "to": "2025-01-26T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-25T13:01:00Z",
-          "to": "2025-01-26T13:00:00Z"
-        }
-      ],
-      "expiration": "2025-01-26T13:00:59Z"
-    },
-    "urlText": "No services operating on Australia Day",
-    "url": "https://transportnsw.info/alerts/details#/ems-45922",
-    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div><strong>F9 Watsons Bay ferries will not run on Australia Day</strong>. Catch buses to travel between the City and Watsons Bay instead.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.</div>\n</div>",
-    "subtitle": "No services operating on Australia Day",
-    "properties": {
-      "smsText": "No services operating on Australia Day",
-      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nF9 Watsons Bay ferries will not run on Australia Day. Catch buses to travel between the City and Watsons Bay instead.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F9: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F9 Watsons Bay",
-          "number": "F9 Watsons Bay",
-          "description": "Watsons Bay to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F9: :H:",
-          "destination": {
-            "name": "Watsons Bay Wharf, Watsons Bay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F9 Watsons Bay",
-          "number": "F9 Watsons Bay",
-          "description": "Circular Quay to Watsons Bay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-45828",
-    "version": 78077,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-13T04:44:00Z",
-      "lastModification": "2025-01-14T02:25:00Z",
-      "availability": {
-        "from": "2025-01-13T04:37:00Z",
-        "to": "2025-01-28T01:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-13T04:37:00Z",
-          "to": "2025-01-28T01:00:00Z"
-        }
-      ],
-      "expiration": "2025-01-28T01:00:59Z"
-    },
-    "urlText": "Diversion in Tamworth",
-    "url": "https://transportnsw.info/alerts/details#/ems-45828",
-    "content": "<div>From 5am 14 January 2025 until 12pm 28 January 2025, buses are missing the stops at The Atrium while part of Kable Avenue is closed for the Tamworth Country Music Festival.&nbsp;</div>\n<ul>\n<li>Buses are using Brisbane Street, Marius Street and turning around at Kable Avenue instead.</li>\n<li>You can get on and off the bus in Brisbane Street.</li>\n<li>2 stops are being missed (stop numbers&nbsp;23401530 and 234079)</li>\n</ul>",
-    "subtitle": "Diversion in Tamworth",
-    "properties": {
-      "smsText": "Diversion in Tamworth",
-      "speechText": "From 5am 14 January 2025 until 12pm 28 January 2025, buses are missing the stops at The Atrium while part of Kable Avenue is closed for the Tamworth Country Music Festival. Buses are using Brisbane Street, Marius Street and turning around at Kable Avenue instead. You can get on and off the bus in Brisbane Street. 2 stops are being missed (stop numbers 23401530 and 234079)",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:53428: :H:",
-          "destination": {
-            "name": "Quirindi Station, Quirindi",
-            "type": "stop"
-          },
-          "name": "New England North West Network 428",
-          "number": "428",
-          "description": "Tamworth to Quirindi",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53428: :R:",
-          "destination": {
-            "name": "Russell St at Single St, Werris Creek",
-            "type": "stop"
-          },
-          "name": "New England North West Network 428",
-          "number": "428",
-          "description": "Quirindi to Tamworth",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53430: :R:",
-          "destination": {
-            "name": "The Atrium Shopping Centre, Kable Ave, Tamworth",
-            "type": "stop"
-          },
-          "name": "New England North West Network 430",
-          "number": "430",
-          "description": "Tamworth to Oxley Vale via Tamworth Hospital (Loop Service)",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53431: :R:",
-          "destination": {
-            "name": "The Atrium Shopping Centre, Kable Ave, Tamworth",
-            "type": "stop"
-          },
-          "name": "New England North West Network 431",
-          "number": "431",
-          "description": "Tamworth to North Tamworth via Tamworth Hospital (Loop Service)",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53433: :R:",
-          "destination": {
-            "name": "Brisbane St at Kable Ave, Tamworth",
-            "type": "stop"
-          },
-          "name": "New England North West Network 433",
-          "number": "433",
-          "description": "Tamworth to South Tamworth (Loop Service)",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53435: :R:",
-          "destination": {
-            "name": "Brisbane St at Kable Ave, Tamworth",
-            "type": "stop"
-          },
-          "name": "New England North West Network 435",
-          "number": "435",
-          "description": "Tamworth to Tamworth Sports Dome via South Tamworth (Loop Service)",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53436: :R:",
-          "destination": {
-            "name": "The Atrium Shopping Centre, Kable Ave, Tamworth",
-            "type": "stop"
-          },
-          "name": "New England North West Network 436",
-          "number": "436",
-          "description": "Tamworth to Calala via Goonoo Goonoo Rd (Loop Service)",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53443: :H:",
-          "destination": {
-            "name": "Manilla Coach Stop, Manilla",
-            "type": "stop"
-          },
-          "name": "New England North West Network 443",
-          "number": "443",
-          "description": "Tamworth to Manilla",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53443: :R:",
-          "destination": {
-            "name": "Tamworth Station, East Tamworth",
-            "type": "stop"
-          },
-          "name": "New England North West Network 443",
-          "number": "443",
-          "description": "Manilla to Tamworth",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53444: :H:",
-          "destination": {
-            "name": "Bendemeer Coach Stop, Bendemeer",
-            "type": "stop"
-          },
-          "name": "New England North West Network 444",
-          "number": "444",
-          "description": "Tamworth to Bendemeer",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
-          }
-        },
-        {
-          "id": "nsw:53444: :R:",
-          "destination": {
-            "name": "The Atrium Shopping Centre, Kable Ave, Tamworth",
-            "type": "stop"
-          },
-          "name": "New England North West Network 444",
-          "number": "444",
-          "description": "Bendemeer to Tamworth",
-          "iconId": 33,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5961",
-            "name": "Tamworth Buslines"
           }
         }
       ]
@@ -9498,6 +9179,325 @@
             "id": "placeID:95902122:1",
             "name": "South Grafton",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-45922",
+    "version": 186,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-14T01:37:00Z",
+      "lastModification": "2025-01-14T01:40:00Z",
+      "availability": {
+        "from": "2025-01-13T13:01:00Z",
+        "to": "2025-01-26T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-25T13:01:00Z",
+          "to": "2025-01-26T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-26T13:00:59Z"
+    },
+    "urlText": "No services operating on Australia Day",
+    "url": "https://transportnsw.info/alerts/details#/ems-45922",
+    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div><strong>F9 Watsons Bay ferries will not run on Australia Day</strong>. Catch buses to travel between the City and Watsons Bay instead.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.</div>\n</div>",
+    "subtitle": "No services operating on Australia Day",
+    "properties": {
+      "smsText": "No services operating on Australia Day",
+      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nF9 Watsons Bay ferries will not run on Australia Day. Catch buses to travel between the City and Watsons Bay instead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F9: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F9 Watsons Bay",
+          "number": "F9 Watsons Bay",
+          "description": "Watsons Bay to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F9: :H:",
+          "destination": {
+            "name": "Watsons Bay Wharf, Watsons Bay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F9 Watsons Bay",
+          "number": "F9 Watsons Bay",
+          "description": "Circular Quay to Watsons Bay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-45828",
+    "version": 78077,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-13T04:44:00Z",
+      "lastModification": "2025-01-14T02:25:00Z",
+      "availability": {
+        "from": "2025-01-13T04:37:00Z",
+        "to": "2025-01-28T01:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-13T04:37:00Z",
+          "to": "2025-01-28T01:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-28T01:00:59Z"
+    },
+    "urlText": "Diversion in Tamworth",
+    "url": "https://transportnsw.info/alerts/details#/ems-45828",
+    "content": "<div>From 5am 14 January 2025 until 12pm 28 January 2025, buses are missing the stops at The Atrium while part of Kable Avenue is closed for the Tamworth Country Music Festival.&nbsp;</div>\n<ul>\n<li>Buses are using Brisbane Street, Marius Street and turning around at Kable Avenue instead.</li>\n<li>You can get on and off the bus in Brisbane Street.</li>\n<li>2 stops are being missed (stop numbers&nbsp;23401530 and 234079)</li>\n</ul>",
+    "subtitle": "Diversion in Tamworth",
+    "properties": {
+      "smsText": "Diversion in Tamworth",
+      "speechText": "From 5am 14 January 2025 until 12pm 28 January 2025, buses are missing the stops at The Atrium while part of Kable Avenue is closed for the Tamworth Country Music Festival. Buses are using Brisbane Street, Marius Street and turning around at Kable Avenue instead. You can get on and off the bus in Brisbane Street. 2 stops are being missed (stop numbers 23401530 and 234079)",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:53428: :H:",
+          "destination": {
+            "name": "Quirindi Station, Quirindi",
+            "type": "stop"
+          },
+          "name": "New England North West Network 428",
+          "number": "428",
+          "description": "Tamworth to Quirindi",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53428: :R:",
+          "destination": {
+            "name": "Russell St at Single St, Werris Creek",
+            "type": "stop"
+          },
+          "name": "New England North West Network 428",
+          "number": "428",
+          "description": "Quirindi to Tamworth",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53430: :R:",
+          "destination": {
+            "name": "The Atrium Shopping Centre, Kable Ave, Tamworth",
+            "type": "stop"
+          },
+          "name": "New England North West Network 430",
+          "number": "430",
+          "description": "Tamworth to Oxley Vale via Tamworth Hospital (Loop Service)",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53431: :R:",
+          "destination": {
+            "name": "The Atrium Shopping Centre, Kable Ave, Tamworth",
+            "type": "stop"
+          },
+          "name": "New England North West Network 431",
+          "number": "431",
+          "description": "Tamworth to North Tamworth via Tamworth Hospital (Loop Service)",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53433: :R:",
+          "destination": {
+            "name": "Brisbane St at Kable Ave, Tamworth",
+            "type": "stop"
+          },
+          "name": "New England North West Network 433",
+          "number": "433",
+          "description": "Tamworth to South Tamworth (Loop Service)",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53435: :R:",
+          "destination": {
+            "name": "Brisbane St at Kable Ave, Tamworth",
+            "type": "stop"
+          },
+          "name": "New England North West Network 435",
+          "number": "435",
+          "description": "Tamworth to Tamworth Sports Dome via South Tamworth (Loop Service)",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53436: :R:",
+          "destination": {
+            "name": "The Atrium Shopping Centre, Kable Ave, Tamworth",
+            "type": "stop"
+          },
+          "name": "New England North West Network 436",
+          "number": "436",
+          "description": "Tamworth to Calala via Goonoo Goonoo Rd (Loop Service)",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53443: :H:",
+          "destination": {
+            "name": "Manilla Coach Stop, Manilla",
+            "type": "stop"
+          },
+          "name": "New England North West Network 443",
+          "number": "443",
+          "description": "Tamworth to Manilla",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53443: :R:",
+          "destination": {
+            "name": "Tamworth Station, East Tamworth",
+            "type": "stop"
+          },
+          "name": "New England North West Network 443",
+          "number": "443",
+          "description": "Manilla to Tamworth",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53444: :H:",
+          "destination": {
+            "name": "Bendemeer Coach Stop, Bendemeer",
+            "type": "stop"
+          },
+          "name": "New England North West Network 444",
+          "number": "444",
+          "description": "Tamworth to Bendemeer",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
+          }
+        },
+        {
+          "id": "nsw:53444: :R:",
+          "destination": {
+            "name": "The Atrium Shopping Centre, Kable Ave, Tamworth",
+            "type": "stop"
+          },
+          "name": "New England North West Network 444",
+          "number": "444",
+          "description": "Bendemeer to Tamworth",
+          "iconId": 33,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5961",
+            "name": "Tamworth Buslines"
           }
         }
       ]
@@ -14012,6 +14012,61 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-46235",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-17T08:13:00Z",
+      "lastModification": "2025-01-17T08:13:00Z",
+      "availability": {
+        "from": "2025-01-17T08:06:00Z",
+        "to": "2025-01-17T14:06:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-17T08:06:00Z",
+          "to": "2025-01-17T14:06:00Z"
+        }
+      ],
+      "expiration": "2025-01-17T14:06:59Z"
+    },
+    "urlText": "Diversion in Parramatta",
+    "url": "https://transportnsw.info/alerts/details#/ems-46235",
+    "content": "<div>Buses are diverting away from Macarthur Street in Parramatta due to fallen wires</div>\n<ul>\n<li>Buses are using Wilde Avenue and Victoria Road instead.</li>\n<li>Two bus stops are being missed in each direction.</li>\n</ul>",
+    "subtitle": "Diversion in Parramatta",
+    "properties": {
+      "smsText": "Diversion in Parramatta",
+      "speechText": "Buses are diverting away from Macarthur Street in Parramatta due to fallen wires\nBuses are using Wilde Avenue and Victoria Road instead.\nTwo bus stops are being missed in each direction.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:11545: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 545",
+          "number": "545",
+          "description": "Macquarie Park to Parramatta via Eastwood & Telopea",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-170",
     "version": 19011428,
@@ -14708,31 +14763,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-46235",
-    "version": 1,
+    "id": "ems-46240",
+    "version": 3985,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-01-17T08:13:00Z",
-      "lastModification": "2025-01-17T08:13:00Z",
+      "creation": "2025-01-17T08:36:00Z",
+      "lastModification": "2025-01-17T09:43:00Z",
       "availability": {
-        "from": "2025-01-17T08:06:00Z",
-        "to": "2025-01-17T14:06:00Z"
+        "from": "2025-01-17T08:33:00Z",
+        "to": "2025-01-17T12:45:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-17T08:06:00Z",
-          "to": "2025-01-17T14:06:00Z"
+          "from": "2025-01-17T08:33:00Z",
+          "to": "2025-01-17T12:45:00Z"
         }
       ],
-      "expiration": "2025-01-17T14:06:59Z"
+      "expiration": "2025-01-17T12:45:59Z"
     },
-    "urlText": "Diversion in Parramatta",
-    "url": "https://transportnsw.info/alerts/details#/ems-46235",
-    "content": "<div>Buses are diverting away from Macarthur Street in Parramatta due to fallen wires</div>\n<ul>\n<li>Buses are using Wilde Avenue and Victoria Road instead.</li>\n<li>Two bus stops are being missed in each direction.</li>\n</ul>",
-    "subtitle": "Diversion in Parramatta",
+    "urlText": "Diversion in Clontarf",
+    "url": "https://transportnsw.info/alerts/details#/ems-46240",
+    "content": "<div>Buses are diverting away from Beatrice Street due to a fallen tree and wires near Moore Street.</div>\n<div>* Buses are Woodland Street, Abbott Street, Lewis Street and Ernest Street, in both directions.</div>\n<div>* Buses are missing five stops in each direction.</div>",
+    "subtitle": "Diversion in Clontarf",
     "properties": {
-      "smsText": "Diversion in Parramatta",
-      "speechText": "Buses are diverting away from Macarthur Street in Parramatta due to fallen wires\nBuses are using Wilde Avenue and Victoria Road instead.\nTwo bus stops are being missed in each direction.",
+      "smsText": "Diversion in Clontarf",
+      "speechText": "Buses are diverting away from Beatrice Street due to a fallen tree and wires near Moore Street. Buses are Woodland Street, Abbott Street, Lewis Street and Ernest Street, in both directions. Buses are missing five stops in each direction.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -14740,22 +14795,96 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:11545: :H:",
+          "id": "nsw:29162: :R:",
           "destination": {
-            "name": "Parramatta Station",
+            "name": "Manly Wharf, West Esplanade, Manly",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 545",
-          "number": "545",
-          "description": "Macquarie Park to Parramatta via Eastwood & Telopea",
+          "name": "Sydney Buses Network 162",
+          "number": "162",
+          "description": "Seaforth to Manly",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2501",
-            "name": "Busways R1"
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29162: :H:",
+          "destination": {
+            "name": "Sydney Rd opp Kempbridge Ave, Seaforth",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 162",
+          "number": "162",
+          "description": "Manly to Seaforth",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-46228",
+    "version": 11006,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-17T06:41:00Z",
+      "lastModification": "2025-01-17T09:44:00Z",
+      "availability": {
+        "from": "2025-01-17T06:39:00Z",
+        "to": "2025-01-17T12:45:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-17T06:39:00Z",
+          "to": "2025-01-17T12:45:00Z"
+        }
+      ],
+      "expiration": "2025-01-17T12:45:59Z"
+    },
+    "urlText": "Diversions in Georges Hall",
+    "url": "https://transportnsw.info/alerts/details#/ems-46228",
+    "content": "<div>Buses are diverting away from Denman Road between Kurrajong Road and Tucabia Avenue due to a police operation.</div>\n<div>&nbsp;</div>\n<ul>\n<li>Buses are using local roads to divert around the closure, missing 14 stops.&nbsp;</li>\n</ul>",
+    "subtitle": "Diversions in Georges Hall",
+    "properties": {
+      "smsText": "Diversions in Georges Hall",
+      "speechText": "Buses are diverting away from Denman Road between Kurrajong Road and Tucabia Avenue due to a police operation.\n \nBuses are using local roads to divert around the closure, missing 14 stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:13911: :H:",
+          "destination": {
+            "name": "Ashcroft St before Beale St, Georges Hall",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 911",
+          "number": "911",
+          "description": "Bankstown to Auburn via Georges Hall",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
           }
         }
       ]
@@ -15825,31 +15954,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-46240",
-    "version": 3985,
+    "id": "ems-46243",
+    "version": 1481,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-01-17T08:36:00Z",
-      "lastModification": "2025-01-17T09:43:00Z",
+      "creation": "2025-01-17T09:17:00Z",
+      "lastModification": "2025-01-17T09:42:00Z",
       "availability": {
-        "from": "2025-01-17T08:33:00Z",
-        "to": "2025-01-17T12:45:00Z"
+        "from": "2025-01-17T09:14:00Z",
+        "to": "2025-01-17T14:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-17T08:33:00Z",
-          "to": "2025-01-17T12:45:00Z"
+          "from": "2025-01-17T09:14:00Z",
+          "to": "2025-01-17T14:30:00Z"
         }
       ],
-      "expiration": "2025-01-17T12:45:59Z"
+      "expiration": "2025-01-17T14:30:59Z"
     },
-    "urlText": "Diversion in Clontarf",
-    "url": "https://transportnsw.info/alerts/details#/ems-46240",
-    "content": "<div>Buses are diverting away from Beatrice Street due to a fallen tree and wires near Moore Street.</div>\n<div>* Buses are Woodland Street, Abbott Street, Lewis Street and Ernest Street, in both directions.</div>\n<div>* Buses are missing five stops in each direction.</div>",
-    "subtitle": "Diversion in Clontarf",
+    "urlText": "Diversion in Pennant Hills",
+    "url": "https://transportnsw.info/alerts/details#/ems-46243",
+    "content": "<div>Buses are diverting away from Boundary Road in Pennant Hills due to a fallen tree and wires.</div>\n<ul>\n<li>Buses are using New Line Road, Castle Hill Road and Pennant Hills Road instead.</li>\n</ul>",
+    "subtitle": "Diversion in Pennant Hills",
     "properties": {
-      "smsText": "Diversion in Clontarf",
-      "speechText": "Buses are diverting away from Beatrice Street due to a fallen tree and wires near Moore Street. Buses are Woodland Street, Abbott Street, Lewis Street and Ernest Street, in both directions. Buses are missing five stops in each direction.",
+      "smsText": "Diversion in Pennant Hills",
+      "speechText": "Buses are diverting away from Boundary Road in Pennant Hills due to a fallen tree and wires.\nBuses are using New Line Road, Castle Hill Road and Pennant Hills Road instead.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -15857,96 +15986,41 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:29162: :R:",
+          "id": "nsw:14600: :R:",
           "destination": {
-            "name": "Manly Wharf, West Esplanade, Manly",
+            "name": "Parramatta Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 162",
-          "number": "162",
-          "description": "Seaforth to Manly",
+          "name": "Sydney Buses Network 600",
+          "number": "600",
+          "description": "Hornsby to Parramatta",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
+            "id": "2504",
+            "name": "CDC NSW R4"
           }
         },
         {
-          "id": "nsw:29162: :H:",
+          "id": "nsw:14638: :H:",
           "destination": {
-            "name": "Sydney Rd opp Kempbridge Ave, Seaforth",
+            "name": "Berowra Waters Marina, Bay Rd, Berowra Waters",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 162",
-          "number": "162",
-          "description": "Manly to Seaforth",
+          "name": "Sydney Buses Network 638",
+          "number": "638",
+          "description": "Castle Hill or Pennant Hills to Berrilee and Berowra Waters",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-46228",
-    "version": 11006,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-17T06:41:00Z",
-      "lastModification": "2025-01-17T09:44:00Z",
-      "availability": {
-        "from": "2025-01-17T06:39:00Z",
-        "to": "2025-01-17T12:45:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-17T06:39:00Z",
-          "to": "2025-01-17T12:45:00Z"
-        }
-      ],
-      "expiration": "2025-01-17T12:45:59Z"
-    },
-    "urlText": "Diversions in Georges Hall",
-    "url": "https://transportnsw.info/alerts/details#/ems-46228",
-    "content": "<div>Buses are diverting away from Denman Road between Kurrajong Road and Tucabia Avenue due to a police operation.</div>\n<div>&nbsp;</div>\n<ul>\n<li>Buses are using local roads to divert around the closure, missing 14 stops.&nbsp;</li>\n</ul>",
-    "subtitle": "Diversions in Georges Hall",
-    "properties": {
-      "smsText": "Diversions in Georges Hall",
-      "speechText": "Buses are diverting away from Denman Road between Kurrajong Road and Tucabia Avenue due to a police operation.\n \nBuses are using local roads to divert around the closure, missing 14 stops.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:13911: :H:",
-          "destination": {
-            "name": "Ashcroft St before Beale St, Georges Hall",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 911",
-          "number": "911",
-          "description": "Bankstown to Auburn via Georges Hall",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
+            "id": "2504",
+            "name": "CDC NSW R4"
           }
         }
       ]
@@ -16757,31 +16831,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-46237",
-    "version": 32,
+    "id": "ems-46238",
+    "version": 4280,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-01-17T08:30:00Z",
-      "lastModification": "2025-01-17T08:30:00Z",
+      "creation": "2025-01-17T08:32:00Z",
+      "lastModification": "2025-01-17T09:43:00Z",
       "availability": {
-        "from": "2025-01-17T08:28:00Z",
-        "to": "2025-01-17T10:20:00Z"
+        "from": "2025-01-17T08:23:00Z",
+        "to": "2025-01-17T12:45:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-17T08:28:00Z",
-          "to": "2025-01-17T10:20:00Z"
+          "from": "2025-01-17T08:23:00Z",
+          "to": "2025-01-17T12:45:00Z"
         }
       ],
-      "expiration": "2025-01-17T10:20:59Z"
+      "expiration": "2025-01-17T12:45:59Z"
     },
-    "urlText": "Train service delays between Katoomba Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-46237",
-    "content": "There are delays on route 428 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Katoomba Station and Central Station",
+    "urlText": "Diversion in Riverwood",
+    "url": "https://transportnsw.info/alerts/details#/ems-46238",
+    "content": "<div>Buses are diverting away from Calton Parade near Septimus Avenue at Riverwood due to a fallen tree.</div>\n<ul>\n<li>Buses are using Wiggs Road and Cullens Road.</li>\n<li>12 bus stops are being missed.</li>\n</ul>",
+    "subtitle": "Diversion in Riverwood",
     "properties": {
-      "smsText": "Train service delays between Katoomba Station and Central Station",
-      "speechText": "There are delays on route 428 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "smsText": "Diversion in Riverwood",
+      "speechText": "Buses are diverting away from Calton Parade near Septimus Avenue at Riverwood due to a fallen tree.\nBuses are using Wiggs Road and Cullens Road.\n12 bus stops are being missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -16789,18 +16863,73 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76428: :R:",
+          "id": "nsw:31940: :H:",
           "destination": {
-            "name": "Central Station",
+            "name": "Bankstown Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 428",
-          "number": "428",
-          "description": "Dubbo to Central",
-          "iconId": 3,
+          "name": "Sydney Buses Network 940",
+          "number": "940",
+          "description": "Hurstville to Bankstown via Riverwood",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2510",
+            "name": "U-Go Mobility"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-46242",
+    "version": 15,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-17T08:48:00Z",
+      "lastModification": "2025-01-17T08:49:00Z",
+      "availability": {
+        "from": "2025-01-17T08:48:00Z",
+        "to": "2025-01-17T12:45:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-17T08:48:00Z",
+          "to": "2025-01-17T12:45:00Z"
+        }
+      ],
+      "expiration": "2025-01-17T12:45:59Z"
+    },
+    "urlText": "Coach service delays between Nyngan Coach Stop and Broken Hill Town Coach Stop",
+    "url": "https://transportnsw.info/alerts/details#/ems-46242",
+    "content": "There are delays on route 589 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays between Nyngan Coach Stop and Broken Hill Town Coach Stop",
+    "properties": {
+      "smsText": "Coach service delays between Nyngan Coach Stop and Broken Hill Town Coach Stop",
+      "speechText": "There are delays on route 589 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76589: :H:",
+          "destination": {
+            "name": "Broken Hill Town Coach Stop, Broken Hill",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 589",
+          "number": "589",
+          "description": "Dubbo to Broken Hill Town",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
           },
           "operator": {
             "id": "711",
@@ -16812,31 +16941,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-46243",
-    "version": 1481,
+    "id": "ems-46196",
+    "version": 18449,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-01-17T09:17:00Z",
-      "lastModification": "2025-01-17T09:42:00Z",
+      "creation": "2025-01-17T04:31:00Z",
+      "lastModification": "2025-01-17T09:39:00Z",
       "availability": {
-        "from": "2025-01-17T09:14:00Z",
-        "to": "2025-01-17T14:30:00Z"
+        "from": "2025-01-17T04:29:00Z",
+        "to": "2025-01-17T13:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-01-17T09:14:00Z",
-          "to": "2025-01-17T14:30:00Z"
+          "from": "2025-01-17T04:29:00Z",
+          "to": "2025-01-17T13:30:00Z"
         }
       ],
-      "expiration": "2025-01-17T14:30:59Z"
+      "expiration": "2025-01-17T13:30:59Z"
     },
-    "urlText": "Diversion in Pennant Hills",
-    "url": "https://transportnsw.info/alerts/details#/ems-46243",
-    "content": "<div>Buses are diverting away from Boundary Road in Pennant Hills due to a fallen tree and wires.</div>\n<ul>\n<li>Buses are using New Line Road, Castle Hill Road and Pennant Hills Road instead.</li>\n</ul>",
-    "subtitle": "Diversion in Pennant Hills",
+    "urlText": "Manly ferries running at a reduced frequency",
+    "url": "https://transportnsw.info/alerts/details#/ems-46196",
+    "content": "<div>F1 Manly ferries are running at a reduced frequency due to the weather conditions. Allow extra travel time.</div>",
+    "subtitle": "Manly ferries running at a reduced frequency",
     "properties": {
-      "smsText": "Diversion in Pennant Hills",
-      "speechText": "Buses are diverting away from Boundary Road in Pennant Hills due to a fallen tree and wires.\nBuses are using New Line Road, Castle Hill Road and Pennant Hills Road instead.",
+      "smsText": "Manly ferries running at a reduced frequency",
+      "speechText": "F1 Manly ferries are running at a reduced frequency due to the weather conditions. Allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -16844,41 +16973,41 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:14600: :R:",
+          "id": "nsw:090F1: :R:",
           "destination": {
-            "name": "Parramatta Station",
+            "name": "Barangaroo Wharf, Barangaroo",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 600",
-          "number": "600",
-          "description": "Hornsby to Parramatta",
-          "iconId": 5,
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Manly to Circular Quay",
+          "iconId": 10,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         },
         {
-          "id": "nsw:14638: :H:",
+          "id": "nsw:090F1: :H:",
           "destination": {
-            "name": "Berowra Waters Marina, Bay Rd, Berowra Waters",
+            "name": "Manly Wharf, Manly",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 638",
-          "number": "638",
-          "description": "Castle Hill or Pennant Hills to Berrilee and Berowra Waters",
-          "iconId": 5,
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Circular Quay to Manly",
+          "iconId": 10,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
@@ -18989,190 +19118,6 @@
           "operator": {
             "id": "X0000",
             "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-46242",
-    "version": 15,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-17T08:48:00Z",
-      "lastModification": "2025-01-17T08:49:00Z",
-      "availability": {
-        "from": "2025-01-17T08:48:00Z",
-        "to": "2025-01-17T12:45:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-17T08:48:00Z",
-          "to": "2025-01-17T12:45:00Z"
-        }
-      ],
-      "expiration": "2025-01-17T12:45:59Z"
-    },
-    "urlText": "Coach service delays between Nyngan Coach Stop and Broken Hill Town Coach Stop",
-    "url": "https://transportnsw.info/alerts/details#/ems-46242",
-    "content": "There are delays on route 589 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays between Nyngan Coach Stop and Broken Hill Town Coach Stop",
-    "properties": {
-      "smsText": "Coach service delays between Nyngan Coach Stop and Broken Hill Town Coach Stop",
-      "speechText": "There are delays on route 589 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76589: :H:",
-          "destination": {
-            "name": "Broken Hill Town Coach Stop, Broken Hill",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 589",
-          "number": "589",
-          "description": "Dubbo to Broken Hill Town",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-46196",
-    "version": 18449,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-17T04:31:00Z",
-      "lastModification": "2025-01-17T09:39:00Z",
-      "availability": {
-        "from": "2025-01-17T04:29:00Z",
-        "to": "2025-01-17T13:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-17T04:29:00Z",
-          "to": "2025-01-17T13:30:00Z"
-        }
-      ],
-      "expiration": "2025-01-17T13:30:59Z"
-    },
-    "urlText": "Manly ferries running at a reduced frequency",
-    "url": "https://transportnsw.info/alerts/details#/ems-46196",
-    "content": "<div>F1 Manly ferries are running at a reduced frequency due to the weather conditions. Allow extra travel time.</div>",
-    "subtitle": "Manly ferries running at a reduced frequency",
-    "properties": {
-      "smsText": "Manly ferries running at a reduced frequency",
-      "speechText": "F1 Manly ferries are running at a reduced frequency due to the weather conditions. Allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F1: :R:",
-          "destination": {
-            "name": "Barangaroo Wharf, Barangaroo",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Manly to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F1: :H:",
-          "destination": {
-            "name": "Manly Wharf, Manly",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Circular Quay to Manly",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-46238",
-    "version": 4280,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-17T08:32:00Z",
-      "lastModification": "2025-01-17T09:43:00Z",
-      "availability": {
-        "from": "2025-01-17T08:23:00Z",
-        "to": "2025-01-17T12:45:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-17T08:23:00Z",
-          "to": "2025-01-17T12:45:00Z"
-        }
-      ],
-      "expiration": "2025-01-17T12:45:59Z"
-    },
-    "urlText": "Diversion in Riverwood",
-    "url": "https://transportnsw.info/alerts/details#/ems-46238",
-    "content": "<div>Buses are diverting away from Calton Parade near Septimus Avenue at Riverwood due to a fallen tree.</div>\n<ul>\n<li>Buses are using Wiggs Road and Cullens Road.</li>\n<li>12 bus stops are being missed.</li>\n</ul>",
-    "subtitle": "Diversion in Riverwood",
-    "properties": {
-      "smsText": "Diversion in Riverwood",
-      "speechText": "Buses are diverting away from Calton Parade near Septimus Avenue at Riverwood due to a fallen tree.\nBuses are using Wiggs Road and Cullens Road.\n12 bus stops are being missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:31940: :H:",
-          "destination": {
-            "name": "Bankstown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 940",
-          "number": "940",
-          "description": "Hurstville to Bankstown via Riverwood",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
           }
         }
       ]
@@ -24859,6 +24804,80 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-45879",
+    "version": 3515,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-14T00:11:00Z",
+      "lastModification": "2025-01-14T01:09:00Z",
+      "availability": {
+        "from": "2025-01-13T13:01:00Z",
+        "to": "2025-01-26T11:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-25T13:01:00Z",
+          "to": "2025-01-26T11:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-26T11:00:59Z"
+    },
+    "urlText": "Service changes for Australia Day",
+    "url": "https://transportnsw.info/alerts/details#/ems-45879",
+    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div>Manly ferries will not run during the morning exclusion zone, catch buses to travel between Manly and the city instead, additional route 170x buses will run between Manly and Wynyard. The last ferry leaves Circular Quay at 11:40am and the last ferry leaves Manly at 11:15am. Services resume from Circular Quay at 12:45pm and Manly at 12:30pm.</div>\n<div>&nbsp;</div>\n<div>During the evening exclusion zone ferries will not stop at Circular Quay and will use Barangaroo wharf instead. Ferries leaving Manly between&nbsp;6:45pm and 9:20pm&nbsp;will stop at Barangaroo. Ferries to Manly between&nbsp;7:10pm and 9:10pm&nbsp;will leave from Barangaroo instead.</div>\n<div>&nbsp;</div>\n<div>Ferries resume running between Manly and Circular Quay from 9.50pm.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the <a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.&nbsp;</div>\n</div>",
+    "subtitle": "Service changes for Australia Day",
+    "properties": {
+      "smsText": "Service changes for Australia Day",
+      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nManly ferries will not run during the morning exclusion zone, catch buses to travel between Manly and the city instead, additional route 170x buses will run between Manly and Wynyard. The last ferry leaves Circular Quay at 11:40am and the last ferry leaves Manly at 11:15am. Services resume from Circular Quay at 12:45pm and Manly at 12:30pm.\n \nDuring the evening exclusion zone ferries will not stop at Circular Quay and will use Barangaroo wharf instead. Ferries leaving Manly between 6:45pm and 9:20pm will stop at Barangaroo. Ferries to Manly between 7:10pm and 9:10pm will leave from Barangaroo instead.\n \nFerries resume running between Manly and Circular Quay from 9.50pm.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F1: :R:",
+          "destination": {
+            "name": "Barangaroo Wharf, Barangaroo",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Manly to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F1: :H:",
+          "destination": {
+            "name": "Manly Wharf, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F1 Manly",
+          "number": "F1 Manly",
+          "description": "Circular Quay to Manly",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-45807",
     "version": 1,
     "priority": "normal",
@@ -25002,80 +25021,6 @@
           "operator": {
             "id": "2507",
             "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-45879",
-    "version": 3515,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-14T00:11:00Z",
-      "lastModification": "2025-01-14T01:09:00Z",
-      "availability": {
-        "from": "2025-01-13T13:01:00Z",
-        "to": "2025-01-26T11:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-25T13:01:00Z",
-          "to": "2025-01-26T11:00:00Z"
-        }
-      ],
-      "expiration": "2025-01-26T11:00:59Z"
-    },
-    "urlText": "Service changes for Australia Day",
-    "url": "https://transportnsw.info/alerts/details#/ems-45879",
-    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div>Manly ferries will not run during the morning exclusion zone, catch buses to travel between Manly and the city instead, additional route 170x buses will run between Manly and Wynyard. The last ferry leaves Circular Quay at 11:40am and the last ferry leaves Manly at 11:15am. Services resume from Circular Quay at 12:45pm and Manly at 12:30pm.</div>\n<div>&nbsp;</div>\n<div>During the evening exclusion zone ferries will not stop at Circular Quay and will use Barangaroo wharf instead. Ferries leaving Manly between&nbsp;6:45pm and 9:20pm&nbsp;will stop at Barangaroo. Ferries to Manly between&nbsp;7:10pm and 9:10pm&nbsp;will leave from Barangaroo instead.</div>\n<div>&nbsp;</div>\n<div>Ferries resume running between Manly and Circular Quay from 9.50pm.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the <a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.&nbsp;</div>\n</div>",
-    "subtitle": "Service changes for Australia Day",
-    "properties": {
-      "smsText": "Service changes for Australia Day",
-      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nManly ferries will not run during the morning exclusion zone, catch buses to travel between Manly and the city instead, additional route 170x buses will run between Manly and Wynyard. The last ferry leaves Circular Quay at 11:40am and the last ferry leaves Manly at 11:15am. Services resume from Circular Quay at 12:45pm and Manly at 12:30pm.\n \nDuring the evening exclusion zone ferries will not stop at Circular Quay and will use Barangaroo wharf instead. Ferries leaving Manly between 6:45pm and 9:20pm will stop at Barangaroo. Ferries to Manly between 7:10pm and 9:10pm will leave from Barangaroo instead.\n \nFerries resume running between Manly and Circular Quay from 9.50pm.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F1: :R:",
-          "destination": {
-            "name": "Barangaroo Wharf, Barangaroo",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Manly to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F1: :H:",
-          "destination": {
-            "name": "Manly Wharf, Manly",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F1 Manly",
-          "number": "F1 Manly",
-          "description": "Circular Quay to Manly",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
           }
         }
       ]
@@ -28639,6 +28584,81 @@
   },
   {
     "type": "lineInfo",
+    "id": "13f172608aa23fc1d71f0d7f3dd886bf81c02e75",
+    "version": 18001,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-17T03:07:00Z",
+      "lastModification": "2025-01-17T08:07:00Z",
+      "availability": {
+        "from": "2025-01-17T08:07:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-17T08:07:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "South Coast Line",
+    "url": "https://transportnsw.info/alerts/details#/13f172608aa23fc1d71f0d7f3dd886bf81c02e75",
+    "content": "Allow plenty of extra travel time due to a tree blocking the track at St Peters earlier and urgent train repairs at Central. \n\nLimited buses may supplement trains between Kiama and Berry or Wollongong. \n\nWe expect delays to continue throughout the evening. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+    "subtitle": "South Coast Line",
+    "properties": {
+      "smsText": "South Coast Line",
+      "speechText": "Allow plenty of extra travel time due to a tree blocking the track at St Peters earlier and urgent train repairs at Central. \n\nLimited buses may supplement trains between Kiama and Berry or Wollongong. \n\nWe expect delays to continue throughout the evening. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-46208",
     "version": 77,
     "priority": "normal",
@@ -28744,81 +28764,6 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "13f172608aa23fc1d71f0d7f3dd886bf81c02e75",
-    "version": 18001,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-17T03:07:00Z",
-      "lastModification": "2025-01-17T08:07:00Z",
-      "availability": {
-        "from": "2025-01-17T08:07:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-17T08:07:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "South Coast Line",
-    "url": "https://transportnsw.info/alerts/details#/13f172608aa23fc1d71f0d7f3dd886bf81c02e75",
-    "content": "Allow plenty of extra travel time due to a tree blocking the track at St Peters earlier and urgent train repairs at Central. \n\nLimited buses may supplement trains between Kiama and Berry or Wollongong. \n\nWe expect delays to continue throughout the evening. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
-    "subtitle": "South Coast Line",
-    "properties": {
-      "smsText": "South Coast Line",
-      "speechText": "Allow plenty of extra travel time due to a tree blocking the track at St Peters earlier and urgent train repairs at Central. \n\nLimited buses may supplement trains between Kiama and Berry or Wollongong. \n\nWe expect delays to continue throughout the evening. \n\nFor service updates, please check transport apps, information screens and listen to announcements.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
           }
         }
       ]
@@ -29362,80 +29307,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-45924",
-    "version": 63,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-14T01:39:00Z",
-      "lastModification": "2025-01-14T01:40:00Z",
-      "availability": {
-        "from": "2025-01-13T13:01:00Z",
-        "to": "2025-01-26T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-25T13:01:00Z",
-          "to": "2025-01-26T13:00:00Z"
-        }
-      ],
-      "expiration": "2025-01-26T13:00:59Z"
-    },
-    "urlText": "Service changes for Australia Day",
-    "url": "https://transportnsw.info/alerts/details#/ems-45924",
-    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div>Ferries will run every 30 minutes to a public holiday timetable. The last ferry leaves Blackwattle Bay at 6.11pm and Barangaroo at 6.26pm.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the <a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.&nbsp;</div>\n</div>",
-    "subtitle": "Service changes for Australia Day",
-    "properties": {
-      "smsText": "Service changes for Australia Day",
-      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nFerries will run every 30 minutes to a public holiday timetable. The last ferry leaves Blackwattle Bay at 6.11pm and Barangaroo at 6.26pm.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:09F10: :R:",
-          "destination": {
-            "name": "Barangaroo Wharf, Barangaroo",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F10 Blackwattle Bay",
-          "number": "F10 Blackwattle Bay",
-          "description": "Blackwattle Bay to Barangaroo",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:09F10: :H:",
-          "destination": {
-            "name": "Blackwattle Bay Wharf, Glebe",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F10 Blackwattle Bay",
-          "number": "F10 Blackwattle Bay",
-          "description": "Barangaroo to Blackwattle Bay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-46181",
     "version": 1,
     "priority": "normal",
@@ -29689,6 +29560,80 @@
           "operator": {
             "id": "SLR",
             "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-45924",
+    "version": 63,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-14T01:39:00Z",
+      "lastModification": "2025-01-14T01:40:00Z",
+      "availability": {
+        "from": "2025-01-13T13:01:00Z",
+        "to": "2025-01-26T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-25T13:01:00Z",
+          "to": "2025-01-26T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-26T13:00:59Z"
+    },
+    "urlText": "Service changes for Australia Day",
+    "url": "https://transportnsw.info/alerts/details#/ems-45924",
+    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div>Ferries will run every 30 minutes to a public holiday timetable. The last ferry leaves Blackwattle Bay at 6.11pm and Barangaroo at 6.26pm.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the <a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.&nbsp;</div>\n</div>",
+    "subtitle": "Service changes for Australia Day",
+    "properties": {
+      "smsText": "Service changes for Australia Day",
+      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nFerries will run every 30 minutes to a public holiday timetable. The last ferry leaves Blackwattle Bay at 6.11pm and Barangaroo at 6.26pm.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:09F10: :R:",
+          "destination": {
+            "name": "Barangaroo Wharf, Barangaroo",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F10 Blackwattle Bay",
+          "number": "F10 Blackwattle Bay",
+          "description": "Blackwattle Bay to Barangaroo",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:09F10: :H:",
+          "destination": {
+            "name": "Blackwattle Bay Wharf, Glebe",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F10 Blackwattle Bay",
+          "number": "F10 Blackwattle Bay",
+          "description": "Barangaroo to Blackwattle Bay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
@@ -32598,6 +32543,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-45989",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-15T03:22:00Z",
+      "lastModification": "2025-01-15T03:22:00Z",
+      "availability": {
+        "from": "2025-01-14T15:00:00Z",
+        "to": "2025-01-20T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-15T15:00:00Z",
+          "to": "2025-01-20T15:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-20T15:00:59Z"
+    },
+    "urlText": "Palm Beach ferries diverting",
+    "url": "https://transportnsw.info/alerts/details#/ems-45989",
+    "content": "<div>From Thursday 16 to Monday 20 January the Palm Beach to Ettalong and Wagstaffe service will be operating to Patonga on the diversion timetable due to a large swell forecast.</div>",
+    "subtitle": "Palm Beach ferries diverting",
+    "properties": {
+      "smsText": "Palm Beach ferries diverting",
+      "speechText": "From Thursday 16 to Monday 20 January the Palm Beach to Ettalong and Wagstaffe service will be operating to Patonga on the diversion timetable due to a large swell forecast.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-45811",
     "version": 1,
     "priority": "normal",
@@ -32741,61 +32741,6 @@
           "operator": {
             "id": "2509",
             "name": "Transdev John Holland Buses"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-45989",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-15T03:22:00Z",
-      "lastModification": "2025-01-15T03:22:00Z",
-      "availability": {
-        "from": "2025-01-14T15:00:00Z",
-        "to": "2025-01-20T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-15T15:00:00Z",
-          "to": "2025-01-20T15:00:00Z"
-        }
-      ],
-      "expiration": "2025-01-20T15:00:59Z"
-    },
-    "urlText": "Palm Beach ferries diverting",
-    "url": "https://transportnsw.info/alerts/details#/ems-45989",
-    "content": "<div>From Thursday 16 to Monday 20 January the Palm Beach to Ettalong and Wagstaffe service will be operating to Patonga on the diversion timetable due to a large swell forecast.</div>",
-    "subtitle": "Palm Beach ferries diverting",
-    "properties": {
-      "smsText": "Palm Beach ferries diverting",
-      "speechText": "From Thursday 16 to Monday 20 January the Palm Beach to Ettalong and Wagstaffe service will be operating to Patonga on the diversion timetable due to a large swell forecast.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "iconId": 12,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
           }
         }
       ]
@@ -33536,80 +33481,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-45926",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-14T01:43:00Z",
-      "lastModification": "2025-01-14T01:43:00Z",
-      "availability": {
-        "from": "2025-01-13T13:01:00Z",
-        "to": "2025-01-26T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-25T13:01:00Z",
-          "to": "2025-01-26T13:00:00Z"
-        }
-      ],
-      "expiration": "2025-01-26T13:00:59Z"
-    },
-    "urlText": "Service changes for Australia Day",
-    "url": "https://transportnsw.info/alerts/details#/ems-45926",
-    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div>Between 11:45am and 12:45pm Manly Fast Ferries will not run, consider catching buses to travel between Manly and the city instead.</div>\n<div>&nbsp;</div>\n<div>During the evening exclusion zone ferries will not run. The last ferry leaves Circular Quay at 6:20pm and Manly at 6:50pm.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the <a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.&nbsp;</div>\n</div>",
-    "subtitle": "Service changes for Australia Day",
-    "properties": {
-      "smsText": "Service changes for Australia Day",
-      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nBetween 11:45am and 12:45pm Manly Fast Ferries will not run, consider catching buses to travel between Manly and the city instead.\n \nDuring the evening exclusion zone ferries will not run. The last ferry leaves Circular Quay at 6:20pm and Manly at 6:50pm.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04MFF: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Manly to Circular Quay",
-          "iconId": 12,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "306",
-            "name": "Manly Fast Ferry"
-          }
-        },
-        {
-          "id": "nsw:04MFF: :H:",
-          "destination": {
-            "name": "Manly Wharf, Manly",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Circular Quay to Manly",
-          "iconId": 12,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "306",
-            "name": "Manly Fast Ferry"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-45919",
     "version": 717,
     "priority": "normal",
@@ -33677,6 +33548,80 @@
           "operator": {
             "id": "SF",
             "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-45926",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-14T01:43:00Z",
+      "lastModification": "2025-01-14T01:43:00Z",
+      "availability": {
+        "from": "2025-01-13T13:01:00Z",
+        "to": "2025-01-26T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-25T13:01:00Z",
+          "to": "2025-01-26T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-01-26T13:00:59Z"
+    },
+    "urlText": "Service changes for Australia Day",
+    "url": "https://transportnsw.info/alerts/details#/ems-45926",
+    "content": "<div>\n<div>Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.</div>\n<div>&nbsp;</div>\n<div>Between 11:45am and 12:45pm Manly Fast Ferries will not run, consider catching buses to travel between Manly and the city instead.</div>\n<div>&nbsp;</div>\n<div>During the evening exclusion zone ferries will not run. The last ferry leaves Circular Quay at 6:20pm and Manly at 6:50pm.</div>\n<div>&nbsp;</div>\n<div>For more details on ferry service changes and other transport options, visit the <a href=\"https://transportnsw.info/events/2025/01/australia-day-in-sydney\">Australia Day event page</a>.&nbsp;</div>\n</div>",
+    "subtitle": "Service changes for Australia Day",
+    "properties": {
+      "smsText": "Service changes for Australia Day",
+      "speechText": "Ferries will be affected by exclusion zones on the harbour from 11.45am to 12.45pm and from 7pm to 10pm while Australia Day events take place on the water on Sunday 26 January.\n \nBetween 11:45am and 12:45pm Manly Fast Ferries will not run, consider catching buses to travel between Manly and the city instead.\n \nDuring the evening exclusion zone ferries will not run. The last ferry leaves Circular Quay at 6:20pm and Manly at 6:50pm.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04MFF: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "306",
+            "name": "Manly Fast Ferry"
+          }
+        },
+        {
+          "id": "nsw:04MFF: :H:",
+          "destination": {
+            "name": "Manly Wharf, Manly",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "306",
+            "name": "Manly Fast Ferry"
           }
         }
       ]
