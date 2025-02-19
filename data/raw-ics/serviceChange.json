@@ -1,5 +1,138 @@
 [
   {
+    "type": "stopInfo",
+    "id": "ems-47925",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-18T00:01:00Z",
+      "lastModification": "2025-02-18T00:01:00Z",
+      "availability": {
+        "from": "2025-02-17T21:00:00Z",
+        "to": "2025-03-08T12:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-07T21:00:00Z",
+          "to": "2025-03-08T12:30:00Z"
+        }
+      ],
+      "expiration": "2025-03-08T12:30:59Z"
+    },
+    "urlText": "Pyrmont bus diversions for Sydney Streets event",
+    "url": "https://transportnsw.info/alerts/details#/ems-47925",
+    "content": "<div><strong>Saturday 8 March</strong></div>\n<ul>\n<li><strong>From 8am until 11.30pm</strong>, route <strong>501</strong> services will divert and miss stops while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event along Harris Street in Pyrmont.</li>\n<li>Services towards Central will be diverting around Miller Street and Harris Street via Allen Street and services away from Central will be diverting around Harris Street and Miller Street via Pyrmont Bridge Road.</li>\n<li>Stops will be missed on Harris Street and Miller Street between Allen Street and Bank Street in both directions, use alternative stops further along Harris Street.</li>\n<li>Check signs at bus stops for alternative stop locations</li>\n</ul>\n<div><strong>Stops missed:</strong></div>\n<ul>\n<li>Miller Street before Harris Street, Pyrmont (200932)</li>\n<li>Harris Street at Pyrmont Bridge Road, Pyrmont (200916)</li>\n<li>Harris Street at Allen Street, Pyrmont (200933)</li>\n<li>Harris Street after Pyrmont Bridge Road, Pyrmont (200928)</li>\n<li>Fish Market Light Rail, Miller Street, Pyrmont (200929)</li>\n</ul>\n<div><strong>Alternative Stops:</strong></div>\n<ul>\n<li>Harris Street after Fig Street, Ultimo (200726)</li>\n<li>Harris Street after Allen Street, Pyrmont (200926)</li>\n</ul>",
+    "subtitle": "Pyrmont bus diversions for Sydney Streets event",
+    "properties": {
+      "smsText": "Pyrmont bus diversions for Sydney Streets event",
+      "speechText": "Saturday 8 March\nFrom 8AM until 11.30PM, route 501 services will divert and miss stops while road closures are in place for the City of Sydney’s Sydney Streets event along Harris Street in Pyrmont.\nServices towards Central will be diverting around Miller Street and Harris Street via Allen Street and services away from Central will be diverting around Harris Street and Miller Street via Pyrmont Bridge Road.\nStops will be missed on Harris Street and Miller Street between Allen Street and Bank Street in both directions, use alternative stops further along Harris Street.\nCheck signs at bus stops for alternative stop locations",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G200932#G200916#G200933#G200928#200952",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17501: :H:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 501",
+          "number": "501",
+          "description": "Central Pitt St to Parramatta via Pyrmont & Victoria Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17501: :R:",
+          "destination": {
+            "name": "Pitt St at Barlow St, Haymarket",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 501",
+          "number": "501",
+          "description": "Parramatta to Central Pitt St via Victoria Rd & Pyrmont",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G200932",
+          "isGlobalId": true,
+          "name": "Miller St before Harris St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200916",
+          "isGlobalId": true,
+          "name": "Harris St at Pyrmont Bridge Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200933",
+          "isGlobalId": true,
+          "name": "Harris St at Allen St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200928",
+          "isGlobalId": true,
+          "name": "Harris St after Pyrmont Bridge Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "200952",
+          "isGlobalId": true,
+          "name": "Fish Market Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-38773",
     "version": 1,
@@ -3011,49 +3144,47 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-47925",
+    "type": "lineInfo",
+    "id": "ems-47932",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-02-18T00:01:00Z",
-      "lastModification": "2025-02-18T00:01:00Z",
+      "creation": "2025-02-18T01:33:00Z",
+      "lastModification": "2025-02-18T01:33:00Z",
       "availability": {
-        "from": "2025-02-17T21:00:00Z",
-        "to": "2025-03-08T12:30:00Z"
+        "from": "2025-02-17T23:30:00Z",
+        "to": "2025-03-16T01:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-03-07T21:00:00Z",
-          "to": "2025-03-08T12:30:00Z"
+          "from": "2025-03-15T23:30:00Z",
+          "to": "2025-03-16T01:00:00Z"
         }
       ],
-      "expiration": "2025-03-08T12:30:59Z"
+      "expiration": "2025-03-16T01:00:59Z"
     },
-    "urlText": "Pyrmont bus diversions for Sydney Streets event",
-    "url": "https://transportnsw.info/alerts/details#/ems-47925",
-    "content": "<div><strong>Saturday 8 March</strong></div>\n<ul>\n<li><strong>From 8am until 11.30pm</strong>, route <strong>501</strong> services will divert and miss stops while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event along Harris Street in Pyrmont.</li>\n<li>Services towards Central will be diverting around Miller Street and Harris Street via Allen Street and services away from Central will be diverting around Harris Street and Miller Street via Pyrmont Bridge Road.</li>\n<li>Stops will be missed on Harris Street and Miller Street between Allen Street and Bank Street in both directions, use alternative stops further along Harris Street.</li>\n<li>Check signs at bus stops for alternative stop locations</li>\n</ul>\n<div><strong>Stops missed:</strong></div>\n<ul>\n<li>Miller Street before Harris Street, Pyrmont (200932)</li>\n<li>Harris Street at Pyrmont Bridge Road, Pyrmont (200916)</li>\n<li>Harris Street at Allen Street, Pyrmont (200933)</li>\n<li>Harris Street after Pyrmont Bridge Road, Pyrmont (200928)</li>\n<li>Fish Market Light Rail, Miller Street, Pyrmont (200929)</li>\n</ul>\n<div><strong>Alternative Stops:</strong></div>\n<ul>\n<li>Harris Street after Fig Street, Ultimo (200726)</li>\n<li>Harris Street after Allen Street, Pyrmont (200926)</li>\n</ul>",
-    "subtitle": "Pyrmont bus diversions for Sydney Streets event",
+    "urlText": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
+    "url": "https://transportnsw.info/alerts/details#/ems-47932",
+    "content": "<div>\n<div>Route 202 and Route 207 buses will be starting and ending trips at Wynyard Station instead of Bridge St from 10.30am to 12pm midday, due to road closures in place for the St Patrick&rsquo;s Day Parade.</div>\n<div>&nbsp;</div>\n<div>Buses towards the city will end at Wynyard Station, York St, Stand P (200048) and buses leaving the city will start from Wynyard Station, York St, Stand K (200033).</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra travel time.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge St (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>\n</div>",
+    "subtitle": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
     "properties": {
-      "smsText": "Pyrmont bus diversions for Sydney Streets event",
-      "speechText": "Saturday 8 March\nFrom 8AM until 11.30PM, route 501 services will divert and miss stops while road closures are in place for the City of Sydney’s Sydney Streets event along Harris Street in Pyrmont.\nServices towards Central will be diverting around Miller Street and Harris Street via Allen Street and services away from Central will be diverting around Harris Street and Miller Street via Pyrmont Bridge Road.\nStops will be missed on Harris Street and Miller Street between Allen Street and Bank Street in both directions, use alternative stops further along Harris Street.\nCheck signs at bus stops for alternative stop locations",
+      "smsText": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
+      "speechText": "Route 2 O 2 and Route 2 O 7 buses will be starting and ending trips at Wynyard Station instead of Bridge St from 10 30 AM to 12 PM midday, due to road closures in place for the St Patrick’s Day Parade.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G200932#G200916#G200933#G200928#200952",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:17501: :H:",
+          "id": "nsw:17202: :R:",
           "destination": {
-            "name": "Parramatta Station",
+            "name": "Bridge St at Gresham St, Sydney",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 501",
-          "number": "501",
-          "description": "Central Pitt St to Parramatta via Pyrmont & Victoria Rd",
+          "name": "Sydney Buses Network 202",
+          "number": "202",
+          "description": "Northbridge to City Bridge St via North Sydney",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -3065,14 +3196,52 @@
           }
         },
         {
-          "id": "nsw:17501: :R:",
+          "id": "nsw:17202: :H:",
           "destination": {
-            "name": "Pitt St at Barlow St, Haymarket",
+            "name": "Clive Park, Sailors Bay Rd, Northbridge",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 501",
-          "number": "501",
-          "description": "Parramatta to Central Pitt St via Victoria Rd & Pyrmont",
+          "name": "Sydney Buses Network 202",
+          "number": "202",
+          "description": "City Bridge St to Northbridge via North Sydney",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17207: :R:",
+          "destination": {
+            "name": "Bridge St at Gresham St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 207",
+          "number": "207",
+          "description": "East Lindfield to City Bridge St via North Sydney",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17207: :H:",
+          "destination": {
+            "name": "East Lindfield Community Hall, Crana Ave, East Lindfield",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 207",
+          "number": "207",
+          "description": "City Bridge St to East Lindfield via North Sydney",
           "iconId": 5,
           "product": {
             "class": 5,
@@ -3083,61 +3252,116 @@
             "name": "Busways North West"
           }
         }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-42495",
+    "version": 7449437,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-11-12T21:52:00Z",
+      "lastModification": "2025-02-07T03:10:00Z",
+      "availability": {
+        "from": "2024-11-12T04:00:00Z",
+        "to": "2025-03-26T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-11-12T19:00:00Z",
+          "to": "2025-03-26T13:00:00Z"
+        }
       ],
-      "stops": [
+      "expiration": "2025-03-26T13:00:59Z"
+    },
+    "urlText": "Bathurst Bullet temporary timetable changes on Wednesdays",
+    "url": "https://transportnsw.info/alerts/details#/ems-42495",
+    "content": "<div><strong>Wednesdays until 26 March 2025</strong>, some Bathurst train times will change.</div>\n<div>&nbsp;</div>\n<div>Temporary timetable changes will apply to the following trains:</div>\n<div>\n<ul>\n<li>06:00 Lithgow to Bathurst service will now depart Lithgow&nbsp;24 minutes earlier&nbsp;at 05:36 and depart earlier at all stations including Rydal 05:55 and Tarana 06:11, arriving Bathurst at 06:44.</li>\n<li>07:40 Bathurst to Central service will continue to depart Bathurst at 07:40 but will arrive Central earlier at 11:20 instead of 11:52.</li>\n<li>15:52 Central to Bathurst service will now depart Central&nbsp;52 minutes earlier&nbsp;at 15:00 and depart earlier at all stations including Parramatta 15:22, Penrith 15:46, Springwood 16:08, Katoomba 16:42, Mount</li>\n<li>Victoria 16:58, Lithgow 17:24, Rydal 17:41 and Tarana 18:14, arriving Bathurst at 18:47.&nbsp;<br />20:25 Bathurst to Lithgow service will now depart Bathurst&nbsp;63 minutes earlier&nbsp;at 19:22, Tarana 19:54 and Rydal 20:10, arriving Lithgow at 20:29.<br /><br /></li>\n<li>During trackwork these times may change.&nbsp;<a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information. You can also subscribe to&nbsp;<a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+    "subtitle": "Bathurst Bullet temporary timetable changes on Wednesdays",
+    "properties": {
+      "smsText": "Bathurst Bullet temporary timetable changes on Wednesdays",
+      "speechText": "Wednesdays until 26 March 2025, some Bathurst train times will change.\n \nSee TripPlanner and other transport apps for up-to-date service times.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
         {
-          "id": "G200932",
-          "isGlobalId": true,
-          "name": "Miller St before Harris St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         },
         {
-          "id": "G200916",
-          "isGlobalId": true,
-          "name": "Harris St at Pyrmont Bridge Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         },
         {
-          "id": "G200933",
-          "isGlobalId": true,
-          "name": "Harris St at Allen St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:76BMT: :R:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
           }
         },
         {
-          "id": "G200928",
-          "isGlobalId": true,
-          "name": "Harris St after Pyrmont Bridge Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "200952",
-          "isGlobalId": true,
-          "name": "Fish Market Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
@@ -6139,230 +6363,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-47932",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-18T01:33:00Z",
-      "lastModification": "2025-02-18T01:33:00Z",
-      "availability": {
-        "from": "2025-02-17T23:30:00Z",
-        "to": "2025-03-16T01:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-15T23:30:00Z",
-          "to": "2025-03-16T01:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-16T01:00:59Z"
-    },
-    "urlText": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
-    "url": "https://transportnsw.info/alerts/details#/ems-47932",
-    "content": "<div>\n<div>Route 202 and Route 207 buses will be starting and ending trips at Wynyard Station instead of Bridge St from 10.30am to 12pm midday, due to road closures in place for the St Patrick&rsquo;s Day Parade.</div>\n<div>&nbsp;</div>\n<div>Buses towards the city will end at Wynyard Station, York St, Stand P (200048) and buses leaving the city will start from Wynyard Station, York St, Stand K (200033).</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra travel time.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge St (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>\n</div>",
-    "subtitle": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
-    "properties": {
-      "smsText": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
-      "speechText": "Route 2 O 2 and Route 2 O 7 buses will be starting and ending trips at Wynyard Station instead of Bridge St from 10 30 AM to 12 PM midday, due to road closures in place for the St Patrick’s Day Parade.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17202: :R:",
-          "destination": {
-            "name": "Bridge St at Gresham St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 202",
-          "number": "202",
-          "description": "Northbridge to City Bridge St via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17202: :H:",
-          "destination": {
-            "name": "Clive Park, Sailors Bay Rd, Northbridge",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 202",
-          "number": "202",
-          "description": "City Bridge St to Northbridge via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17207: :R:",
-          "destination": {
-            "name": "Bridge St at Gresham St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 207",
-          "number": "207",
-          "description": "East Lindfield to City Bridge St via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17207: :H:",
-          "destination": {
-            "name": "East Lindfield Community Hall, Crana Ave, East Lindfield",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 207",
-          "number": "207",
-          "description": "City Bridge St to East Lindfield via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-42495",
-    "version": 7449437,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-11-12T21:52:00Z",
-      "lastModification": "2025-02-07T03:10:00Z",
-      "availability": {
-        "from": "2024-11-12T04:00:00Z",
-        "to": "2025-03-26T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-11-12T19:00:00Z",
-          "to": "2025-03-26T13:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-26T13:00:59Z"
-    },
-    "urlText": "Bathurst Bullet temporary timetable changes on Wednesdays",
-    "url": "https://transportnsw.info/alerts/details#/ems-42495",
-    "content": "<div><strong>Wednesdays until 26 March 2025</strong>, some Bathurst train times will change.</div>\n<div>&nbsp;</div>\n<div>Temporary timetable changes will apply to the following trains:</div>\n<div>\n<ul>\n<li>06:00 Lithgow to Bathurst service will now depart Lithgow&nbsp;24 minutes earlier&nbsp;at 05:36 and depart earlier at all stations including Rydal 05:55 and Tarana 06:11, arriving Bathurst at 06:44.</li>\n<li>07:40 Bathurst to Central service will continue to depart Bathurst at 07:40 but will arrive Central earlier at 11:20 instead of 11:52.</li>\n<li>15:52 Central to Bathurst service will now depart Central&nbsp;52 minutes earlier&nbsp;at 15:00 and depart earlier at all stations including Parramatta 15:22, Penrith 15:46, Springwood 16:08, Katoomba 16:42, Mount</li>\n<li>Victoria 16:58, Lithgow 17:24, Rydal 17:41 and Tarana 18:14, arriving Bathurst at 18:47.&nbsp;<br />20:25 Bathurst to Lithgow service will now depart Bathurst&nbsp;63 minutes earlier&nbsp;at 19:22, Tarana 19:54 and Rydal 20:10, arriving Lithgow at 20:29.<br /><br /></li>\n<li>During trackwork these times may change.&nbsp;<a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information. You can also subscribe to&nbsp;<a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-    "subtitle": "Bathurst Bullet temporary timetable changes on Wednesdays",
-    "properties": {
-      "smsText": "Bathurst Bullet temporary timetable changes on Wednesdays",
-      "speechText": "Wednesdays until 26 March 2025, some Bathurst train times will change.\n \nSee TripPlanner and other transport apps for up-to-date service times.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:76BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76BMT: :R:",
-          "destination": {
-            "name": "Blacktown Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-47977",
     "version": 2,
     "priority": "normal",
@@ -6411,6 +6411,96 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-47589",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-12T03:28:00Z",
+      "lastModification": "2025-02-12T03:28:00Z",
+      "availability": {
+        "from": "2025-02-12T03:00:00Z",
+        "to": "2025-03-30T17:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-02-27T05:00:00Z",
+          "to": "2025-03-02T17:30:00Z"
+        },
+        {
+          "from": "2025-03-06T05:00:00Z",
+          "to": "2025-03-09T17:30:00Z"
+        },
+        {
+          "from": "2025-03-13T05:00:00Z",
+          "to": "2025-03-16T17:30:00Z"
+        },
+        {
+          "from": "2025-03-20T05:00:00Z",
+          "to": "2025-03-23T17:30:00Z"
+        },
+        {
+          "from": "2025-03-27T05:00:00Z",
+          "to": "2025-03-30T17:30:00Z"
+        }
+      ],
+      "expiration": "2025-03-30T17:30:59Z"
+    },
+    "urlText": "Lakemba diversions for Lakemba Nights Street Market",
+    "url": "https://transportnsw.info/alerts/details#/ems-47589",
+    "content": "<div>From 4pm until 4.30am every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.</div>\n<div>&nbsp;</div>\n<div>Route 450 buses will divert around a section of Haldon St&nbsp;via The Boulevarde, Quigg St and Canterbury Rd in both directions. Stops between The Boulevarde and Canterbury Rd will be missed.</div>\n<div>&nbsp;</div>\n<div>Catch buses <strong>towards Hurstville</strong> from:</div>\n<ul>\n<li>Lakemba Station, Haldon St, Stand A (219515) or</li>\n<li>Canterbury Rd after Remly St (2196152).</li>\n</ul>\n<div>Catch buses <strong>towards Strathfield</strong> from:</div>\n<ul>\n<li>Canterbury Rd after Willeroo St (219532) or</li>\n<li>Lakemba Station, Haldon St, Stand B (219514).</li>\n</ul>\n<div>Check signs at bus stops for alternative stop locations. For more transport information, see the <a href=\"https://transportnsw.info/events/2025/02/lakemba-nights-during-ramadan\">Lakemba Nights event page</a>.</div>\n<div>&nbsp;</div>\n<div><strong>Missed bus stops:</strong></div>\n<ul>\n<li>Haldon St at Gillies Ave (219594)</li>\n<li>Haldon St at Grace Ave (219595)</li>\n<li>Al Hikma College, Haldon St (219596)</li>\n<li>Haldon St after Canterbury Rd (219580)</li>\n<li>Haldon St before Hall Pde (219581)</li>\n<li>Haldon St opp Gillies Ave (219582)</li>\n</ul>",
+    "subtitle": "Lakemba diversions for Lakemba Nights Street Market",
+    "properties": {
+      "smsText": "Lakemba diversions for Lakemba Nights Street Market",
+      "speechText": "From 4 PM until 4 30 AM every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:31450: :H:",
+          "destination": {
+            "name": "Strathfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 450",
+          "number": "450",
+          "description": "Hurstville to Strathfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2510",
+            "name": "U-Go Mobility"
+          }
+        },
+        {
+          "id": "nsw:31450: :R:",
+          "destination": {
+            "name": "Westfield Hurstville, Forest Rd, Hurstville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 450",
+          "number": "450",
+          "description": "Strathfield to Hurstville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2510",
+            "name": "U-Go Mobility"
           }
         }
       ]
@@ -7191,47 +7281,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-47589",
+    "id": "ems-47934",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-02-12T03:28:00Z",
-      "lastModification": "2025-02-12T03:28:00Z",
+      "creation": "2025-02-18T01:36:00Z",
+      "lastModification": "2025-02-18T01:36:00Z",
       "availability": {
-        "from": "2025-02-12T03:00:00Z",
-        "to": "2025-03-30T17:30:00Z"
+        "from": "2025-02-17T23:30:00Z",
+        "to": "2025-03-16T01:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-02-27T05:00:00Z",
-          "to": "2025-03-02T17:30:00Z"
-        },
-        {
-          "from": "2025-03-06T05:00:00Z",
-          "to": "2025-03-09T17:30:00Z"
-        },
-        {
-          "from": "2025-03-13T05:00:00Z",
-          "to": "2025-03-16T17:30:00Z"
-        },
-        {
-          "from": "2025-03-20T05:00:00Z",
-          "to": "2025-03-23T17:30:00Z"
-        },
-        {
-          "from": "2025-03-27T05:00:00Z",
-          "to": "2025-03-30T17:30:00Z"
+          "from": "2025-03-15T23:30:00Z",
+          "to": "2025-03-16T01:00:00Z"
         }
       ],
-      "expiration": "2025-03-30T17:30:59Z"
+      "expiration": "2025-03-16T01:00:59Z"
     },
-    "urlText": "Lakemba diversions for Lakemba Nights Street Market",
-    "url": "https://transportnsw.info/alerts/details#/ems-47589",
-    "content": "<div>From 4pm until 4.30am every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.</div>\n<div>&nbsp;</div>\n<div>Route 450 buses will divert around a section of Haldon St&nbsp;via The Boulevarde, Quigg St and Canterbury Rd in both directions. Stops between The Boulevarde and Canterbury Rd will be missed.</div>\n<div>&nbsp;</div>\n<div>Catch buses <strong>towards Hurstville</strong> from:</div>\n<ul>\n<li>Lakemba Station, Haldon St, Stand A (219515) or</li>\n<li>Canterbury Rd after Remly St (2196152).</li>\n</ul>\n<div>Catch buses <strong>towards Strathfield</strong> from:</div>\n<ul>\n<li>Canterbury Rd after Willeroo St (219532) or</li>\n<li>Lakemba Station, Haldon St, Stand B (219514).</li>\n</ul>\n<div>Check signs at bus stops for alternative stop locations. For more transport information, see the <a href=\"https://transportnsw.info/events/2025/02/lakemba-nights-during-ramadan\">Lakemba Nights event page</a>.</div>\n<div>&nbsp;</div>\n<div><strong>Missed bus stops:</strong></div>\n<ul>\n<li>Haldon St at Gillies Ave (219594)</li>\n<li>Haldon St at Grace Ave (219595)</li>\n<li>Al Hikma College, Haldon St (219596)</li>\n<li>Haldon St after Canterbury Rd (219580)</li>\n<li>Haldon St before Hall Pde (219581)</li>\n<li>Haldon St opp Gillies Ave (219582)</li>\n</ul>",
-    "subtitle": "Lakemba diversions for Lakemba Nights Street Market",
+    "urlText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+    "url": "https://transportnsw.info/alerts/details#/ems-47934",
+    "content": "<div>\n<div>Route 263 will be starting and ending trips at Wynyard instead of Bridge St from 10.30am to 12pm midday due to road closures in place for the St Patrick&rsquo;s Day Parade.</div>\n<div>&nbsp;</div>\n<div>Buses to the city will end trips at Wynyard Station, York St, Stand N (200036). Buses leaving the city will start trips from Wynyard Station, York Street, Stand L (200034).</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra travel time.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge Street (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>\n</div>",
+    "subtitle": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
     "properties": {
-      "smsText": "Lakemba diversions for Lakemba Nights Street Market",
-      "speechText": "From 4 PM until 4 30 AM every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.",
+      "smsText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+      "speechText": "Route 2 6 3 will be starting and ending trips at Wynyard instead of Bridge St from 10 30 AM to 12 PM midday due to road closures in place for the St Patrick’s Day Parade.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -7239,41 +7313,41 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:31450: :H:",
+          "id": "nsw:29263: :R:",
           "destination": {
-            "name": "Strathfield Station",
+            "name": "Bridge St at Gresham St, Sydney",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 450",
-          "number": "450",
-          "description": "Hurstville to Strathfield",
+          "name": "Sydney Buses Network 263",
+          "number": "263",
+          "description": "Crows Nest to City Bridge St via Cremorne",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
           }
         },
         {
-          "id": "nsw:31450: :R:",
+          "id": "nsw:29263: :H:",
           "destination": {
-            "name": "Westfield Hurstville, Forest Rd, Hurstville",
+            "name": "Crows Nest, Burlington St, Crows Nest",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 450",
-          "number": "450",
-          "description": "Strathfield to Hurstville",
+          "name": "Sydney Buses Network 263",
+          "number": "263",
+          "description": "City Bridge St to Crows Nest via Cremorne",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
           }
         }
       ]
@@ -8601,31 +8675,47 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-47934",
-    "version": 1,
+    "id": "ems-47593",
+    "version": 502455,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-02-18T01:36:00Z",
-      "lastModification": "2025-02-18T01:36:00Z",
+      "creation": "2025-02-12T03:41:00Z",
+      "lastModification": "2025-02-17T23:15:00Z",
       "availability": {
-        "from": "2025-02-17T23:30:00Z",
-        "to": "2025-03-16T01:00:00Z"
+        "from": "2025-02-12T03:00:00Z",
+        "to": "2025-03-30T17:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-03-15T23:30:00Z",
-          "to": "2025-03-16T01:00:00Z"
+          "from": "2025-02-27T05:00:00Z",
+          "to": "2025-03-02T17:30:00Z"
+        },
+        {
+          "from": "2025-03-06T05:00:00Z",
+          "to": "2025-03-09T17:30:00Z"
+        },
+        {
+          "from": "2025-03-13T05:00:00Z",
+          "to": "2025-03-16T17:30:00Z"
+        },
+        {
+          "from": "2025-03-20T05:00:00Z",
+          "to": "2025-03-23T17:30:00Z"
+        },
+        {
+          "from": "2025-03-27T05:00:00Z",
+          "to": "2025-03-30T17:30:00Z"
         }
       ],
-      "expiration": "2025-03-16T01:00:59Z"
+      "expiration": "2025-03-30T17:30:59Z"
     },
-    "urlText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
-    "url": "https://transportnsw.info/alerts/details#/ems-47934",
-    "content": "<div>\n<div>Route 263 will be starting and ending trips at Wynyard instead of Bridge St from 10.30am to 12pm midday due to road closures in place for the St Patrick&rsquo;s Day Parade.</div>\n<div>&nbsp;</div>\n<div>Buses to the city will end trips at Wynyard Station, York St, Stand N (200036). Buses leaving the city will start trips from Wynyard Station, York Street, Stand L (200034).</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra travel time.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge Street (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>\n</div>",
-    "subtitle": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+    "urlText": "Lakemba diversions for Lakemba Nights Street Market",
+    "url": "https://transportnsw.info/alerts/details#/ems-47593",
+    "content": "<div>From 4pm until 4.30am every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.</div>\n<div>&nbsp;</div>\n<div>SW1 and SW2 Southwest Link buses and Route N40 buses will divert around a section of The Boulevarde via King Georges Rd, Lakemba St and Haldon St in both directions.</div>\n<ul>\n<li>Southwest Link buses towards <strong>Sydenham</strong>&nbsp;and N40 buses to Town Hall will pick up from Lakemba Station, <strong>Haldon St, Stand A</strong> (219515)</li>\n<li>Southwest Link buses towards <strong>Bankstown</strong>&nbsp;and N40 buses to East Hills will pick up from Lakemba Station, <strong>Haldon St, Stand B</strong> (219514)</li>\n</ul>\n<div>Check signs at bus stops for alternative stop locations. For more transport information, see the <a href=\"https://transportnsw.info/events/2025/02/lakemba-nights-during-ramadan\">Lakemba Nights event page</a>.</div>\n<div>&nbsp;</div>\n<div><strong>Missed bus stops:</strong></div>\n<ul>\n<li>Lakemba Station, The Boulevarde Stand D (2195118)</li>\n<li>Lakemba Station, The Boulevarde, Stand E (219527)</li>\n<li>The Boulevarde after King Georges Rd (219526)</li>\n</ul>",
+    "subtitle": "Lakemba diversions for Lakemba Nights Street Market",
     "properties": {
-      "smsText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
-      "speechText": "Route 2 6 3 will be starting and ending trips at Wynyard instead of Bridge St from 10 30 AM to 12 PM midday due to road closures in place for the St Patrick’s Day Parade.",
+      "smsText": "Lakemba diversions for Lakemba Nights Street Market",
+      "speechText": "From 4 PM until 4 30 AM every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -8633,41 +8723,117 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:29263: :R:",
+          "id": "nsw:13N40: :H:",
           "destination": {
-            "name": "Bridge St at Gresham St, Sydney",
+            "name": "East Hills Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 263",
-          "number": "263",
-          "description": "Crows Nest to City Bridge St via Cremorne",
+          "name": "Sydney Buses Network N40",
+          "number": "N40",
+          "description": "City Town Hall to East Hills (Night Service)",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
+            "id": "2503",
+            "name": "Transit Systems NSW"
           }
         },
         {
-          "id": "nsw:29263: :H:",
+          "id": "nsw:13N40: :R:",
           "destination": {
-            "name": "Crows Nest, Burlington St, Crows Nest",
+            "name": "Town Hall Station",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 263",
-          "number": "263",
-          "description": "City Bridge St to Crows Nest via Cremorne",
+          "name": "Sydney Buses Network N40",
+          "number": "N40",
+          "description": "East Hills to City Town Hall (Night Service)",
           "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:38SW1: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network SW1",
+          "number": "SW1",
+          "description": "Sydenham to Bankstown",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "7083",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:38SW1: :R:",
+          "destination": {
+            "name": "Sydenham Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network SW1",
+          "number": "SW1",
+          "description": "Bankstown to Sydenham",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "7083",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:39SW2: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network SW2",
+          "number": "SW2",
+          "description": "Sydenham to Bankstown (Limited stops)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "7084",
+            "name": "U-Go Mobility"
+          }
+        },
+        {
+          "id": "nsw:39SW2: :R:",
+          "destination": {
+            "name": "Sydenham Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network SW2",
+          "number": "SW2",
+          "description": "Bankstown to Sydenham (Limited stops)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "7084",
+            "name": "U-Go Mobility"
           }
         }
       ]
@@ -11665,172 +11831,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-47593",
-    "version": 502455,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-12T03:41:00Z",
-      "lastModification": "2025-02-17T23:15:00Z",
-      "availability": {
-        "from": "2025-02-12T03:00:00Z",
-        "to": "2025-03-30T17:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-02-27T05:00:00Z",
-          "to": "2025-03-02T17:30:00Z"
-        },
-        {
-          "from": "2025-03-06T05:00:00Z",
-          "to": "2025-03-09T17:30:00Z"
-        },
-        {
-          "from": "2025-03-13T05:00:00Z",
-          "to": "2025-03-16T17:30:00Z"
-        },
-        {
-          "from": "2025-03-20T05:00:00Z",
-          "to": "2025-03-23T17:30:00Z"
-        },
-        {
-          "from": "2025-03-27T05:00:00Z",
-          "to": "2025-03-30T17:30:00Z"
-        }
-      ],
-      "expiration": "2025-03-30T17:30:59Z"
-    },
-    "urlText": "Lakemba diversions for Lakemba Nights Street Market",
-    "url": "https://transportnsw.info/alerts/details#/ems-47593",
-    "content": "<div>From 4pm until 4.30am every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.</div>\n<div>&nbsp;</div>\n<div>SW1 and SW2 Southwest Link buses and Route N40 buses will divert around a section of The Boulevarde via King Georges Rd, Lakemba St and Haldon St in both directions.</div>\n<ul>\n<li>Southwest Link buses towards <strong>Sydenham</strong>&nbsp;and N40 buses to Town Hall will pick up from Lakemba Station, <strong>Haldon St, Stand A</strong> (219515)</li>\n<li>Southwest Link buses towards <strong>Bankstown</strong>&nbsp;and N40 buses to East Hills will pick up from Lakemba Station, <strong>Haldon St, Stand B</strong> (219514)</li>\n</ul>\n<div>Check signs at bus stops for alternative stop locations. For more transport information, see the <a href=\"https://transportnsw.info/events/2025/02/lakemba-nights-during-ramadan\">Lakemba Nights event page</a>.</div>\n<div>&nbsp;</div>\n<div><strong>Missed bus stops:</strong></div>\n<ul>\n<li>Lakemba Station, The Boulevarde Stand D (2195118)</li>\n<li>Lakemba Station, The Boulevarde, Stand E (219527)</li>\n<li>The Boulevarde after King Georges Rd (219526)</li>\n</ul>",
-    "subtitle": "Lakemba diversions for Lakemba Nights Street Market",
-    "properties": {
-      "smsText": "Lakemba diversions for Lakemba Nights Street Market",
-      "speechText": "From 4 PM until 4 30 AM every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:13N40: :H:",
-          "destination": {
-            "name": "East Hills Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N40",
-          "number": "N40",
-          "description": "City Town Hall to East Hills (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13N40: :R:",
-          "destination": {
-            "name": "Town Hall Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N40",
-          "number": "N40",
-          "description": "East Hills to City Town Hall (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:38SW1: :H:",
-          "destination": {
-            "name": "Bankstown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network SW1",
-          "number": "SW1",
-          "description": "Sydenham to Bankstown",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "7083",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:38SW1: :R:",
-          "destination": {
-            "name": "Sydenham Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network SW1",
-          "number": "SW1",
-          "description": "Bankstown to Sydenham",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "7083",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:39SW2: :H:",
-          "destination": {
-            "name": "Bankstown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network SW2",
-          "number": "SW2",
-          "description": "Sydenham to Bankstown (Limited stops)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "7084",
-            "name": "U-Go Mobility"
-          }
-        },
-        {
-          "id": "nsw:39SW2: :R:",
-          "destination": {
-            "name": "Sydenham Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network SW2",
-          "number": "SW2",
-          "description": "Bankstown to Sydenham (Limited stops)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "7084",
-            "name": "U-Go Mobility"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "ems-170",
     "version": 19011428,
@@ -12544,31 +12544,47 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-47963",
+    "id": "ems-47591",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-02-19T00:57:00Z",
-      "lastModification": "2025-02-19T00:57:00Z",
+      "creation": "2025-02-12T03:36:00Z",
+      "lastModification": "2025-02-12T03:36:00Z",
       "availability": {
-        "from": "2025-02-19T00:56:00Z",
-        "to": "2025-02-19T07:56:00Z"
+        "from": "2025-02-12T03:00:00Z",
+        "to": "2025-03-30T17:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-02-19T00:56:00Z",
-          "to": "2025-02-19T07:56:00Z"
+          "from": "2025-02-27T05:00:00Z",
+          "to": "2025-03-02T17:30:00Z"
+        },
+        {
+          "from": "2025-03-06T05:00:00Z",
+          "to": "2025-03-09T17:30:00Z"
+        },
+        {
+          "from": "2025-03-13T05:00:00Z",
+          "to": "2025-03-16T17:30:00Z"
+        },
+        {
+          "from": "2025-03-20T05:00:00Z",
+          "to": "2025-03-23T17:30:00Z"
+        },
+        {
+          "from": "2025-03-27T05:00:00Z",
+          "to": "2025-03-30T17:30:00Z"
         }
       ],
-      "expiration": "2025-02-19T07:56:59Z"
+      "expiration": "2025-03-30T17:30:59Z"
     },
-    "urlText": "Train service delays at Yass Junction",
-    "url": "https://transportnsw.info/alerts/details#/ems-47963",
-    "content": "There are delays on route 623 train services due to a customer requiring urgent medical treatment. \n<div>This service is delayed due to a medical emergency.</div>\n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Yass Junction",
+    "urlText": "Lakemba diversions for Lakemba Nights Street Market",
+    "url": "https://transportnsw.info/alerts/details#/ems-47591",
+    "content": "<div>\n<div>From 4pm until 4.30am every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.</div>\n<div>&nbsp;</div>\n<div>Route 946 buses will divert around a section of Haldon St&nbsp;via The Boulevarde, Quigg St and Canterbury Rd in both directions. Stops between The Boulevarde and Canterbury Rd will be missed.</div>\n<div>&nbsp;</div>\n<div>Catch buses <strong>towards Roselands</strong> from:</div>\n<ul>\n<li>Lakemba Station, Haldon St, Stand A (219515) or&nbsp;</li>\n<li>Canterbury Rd before Dennis St (219517).</li>\n</ul>\n<div>Catch buses <strong>towards Bankstown</strong> from:</div>\n<ul>\n<li>Lakemba Station, Haldon St, Stand B (219514) or</li>\n<li>Canterbury Rd at Legge St (2196258).</li>\n</ul>\n<div>Check signs at bus stops for alternative stop locations. For more transport information, see the <a href=\"https://transportnsw.info/events/2025/02/lakemba-nights-during-ramadan\">Lakemba Nights event page</a>.</div>\n<div>&nbsp;</div>\n<div><strong>Missed bus stops:</strong></div>\n<ul>\n<li>Haldon St at Gillies Ave (219594)</li>\n<li>Haldon St at Grace Ave (219595)</li>\n<li>Al Hikma College, Haldon St (219596)</li>\n<li>Haldon St after Canterbury Rd (219580)</li>\n<li>Haldon St before Hall Pde (219581)</li>\n<li>Haldon St opp Gillies Ave (219582)</li>\n</ul>\n</div>",
+    "subtitle": "Lakemba diversions for Lakemba Nights Street Market",
     "properties": {
-      "smsText": "Train service delays at Yass Junction",
-      "speechText": "There are delays on route 623 train services due to a customer requiring urgent medical treatment. \nThis service is delayed due to a medical emergency.\n Plan ahead and allow extra travel time.",
+      "smsText": "Lakemba diversions for Lakemba Nights Street Market",
+      "speechText": "From 4 PM until 4 30 AM every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -12576,22 +12592,41 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76623: :H:",
+          "id": "nsw:31946: :R:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "name": "Bankstown Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "iconId": 3,
+          "name": "Sydney Buses Network 946",
+          "number": "946",
+          "description": "Roselands to Bankstown via Lakemba & Greenacre",
+          "iconId": 5,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "2510",
+            "name": "U-Go Mobility"
+          }
+        },
+        {
+          "id": "nsw:31946: :H:",
+          "destination": {
+            "name": "Roselands Shopping Centre, Roseland Ave, Roselands",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 946",
+          "number": "946",
+          "description": "Bankstown to Roselands via Lakemba & Greenacre",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2510",
+            "name": "U-Go Mobility"
           }
         }
       ]
@@ -12896,6 +12931,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-47963",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-19T00:57:00Z",
+      "lastModification": "2025-02-19T00:57:00Z",
+      "availability": {
+        "from": "2025-02-19T00:56:00Z",
+        "to": "2025-02-19T07:56:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-02-19T00:56:00Z",
+          "to": "2025-02-19T07:56:00Z"
+        }
+      ],
+      "expiration": "2025-02-19T07:56:59Z"
+    },
+    "urlText": "Train service delays at Yass Junction",
+    "url": "https://transportnsw.info/alerts/details#/ems-47963",
+    "content": "There are delays on route 623 train services due to a customer requiring urgent medical treatment. \n<div>This service is delayed due to a medical emergency.</div>\n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Yass Junction",
+    "properties": {
+      "smsText": "Train service delays at Yass Junction",
+      "speechText": "There are delays on route 623 train services due to a customer requiring urgent medical treatment. \nThis service is delayed due to a medical emergency.\n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-46939",
     "version": 60908,
     "priority": "normal",
@@ -13053,96 +13143,6 @@
           "operator": {
             "id": "2509",
             "name": "Transdev John Holland Buses"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-47591",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-12T03:36:00Z",
-      "lastModification": "2025-02-12T03:36:00Z",
-      "availability": {
-        "from": "2025-02-12T03:00:00Z",
-        "to": "2025-03-30T17:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-02-27T05:00:00Z",
-          "to": "2025-03-02T17:30:00Z"
-        },
-        {
-          "from": "2025-03-06T05:00:00Z",
-          "to": "2025-03-09T17:30:00Z"
-        },
-        {
-          "from": "2025-03-13T05:00:00Z",
-          "to": "2025-03-16T17:30:00Z"
-        },
-        {
-          "from": "2025-03-20T05:00:00Z",
-          "to": "2025-03-23T17:30:00Z"
-        },
-        {
-          "from": "2025-03-27T05:00:00Z",
-          "to": "2025-03-30T17:30:00Z"
-        }
-      ],
-      "expiration": "2025-03-30T17:30:59Z"
-    },
-    "urlText": "Lakemba diversions for Lakemba Nights Street Market",
-    "url": "https://transportnsw.info/alerts/details#/ems-47591",
-    "content": "<div>\n<div>From 4pm until 4.30am every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.</div>\n<div>&nbsp;</div>\n<div>Route 946 buses will divert around a section of Haldon St&nbsp;via The Boulevarde, Quigg St and Canterbury Rd in both directions. Stops between The Boulevarde and Canterbury Rd will be missed.</div>\n<div>&nbsp;</div>\n<div>Catch buses <strong>towards Roselands</strong> from:</div>\n<ul>\n<li>Lakemba Station, Haldon St, Stand A (219515) or&nbsp;</li>\n<li>Canterbury Rd before Dennis St (219517).</li>\n</ul>\n<div>Catch buses <strong>towards Bankstown</strong> from:</div>\n<ul>\n<li>Lakemba Station, Haldon St, Stand B (219514) or</li>\n<li>Canterbury Rd at Legge St (2196258).</li>\n</ul>\n<div>Check signs at bus stops for alternative stop locations. For more transport information, see the <a href=\"https://transportnsw.info/events/2025/02/lakemba-nights-during-ramadan\">Lakemba Nights event page</a>.</div>\n<div>&nbsp;</div>\n<div><strong>Missed bus stops:</strong></div>\n<ul>\n<li>Haldon St at Gillies Ave (219594)</li>\n<li>Haldon St at Grace Ave (219595)</li>\n<li>Al Hikma College, Haldon St (219596)</li>\n<li>Haldon St after Canterbury Rd (219580)</li>\n<li>Haldon St before Hall Pde (219581)</li>\n<li>Haldon St opp Gillies Ave (219582)</li>\n</ul>\n</div>",
-    "subtitle": "Lakemba diversions for Lakemba Nights Street Market",
-    "properties": {
-      "smsText": "Lakemba diversions for Lakemba Nights Street Market",
-      "speechText": "From 4 PM until 4 30 AM every Thursday to Sunday night between 27 February and 30 March buses will be diverting and missing stops on Haldon St while road closures are in place for the Lakemba Nights during Ramadan event.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:31946: :R:",
-          "destination": {
-            "name": "Bankstown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 946",
-          "number": "946",
-          "description": "Roselands to Bankstown via Lakemba & Greenacre",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
-          }
-        },
-        {
-          "id": "nsw:31946: :H:",
-          "destination": {
-            "name": "Roselands Shopping Centre, Roseland Ave, Roselands",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 946",
-          "number": "946",
-          "description": "Bankstown to Roselands via Lakemba & Greenacre",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
           }
         }
       ]
@@ -21510,74 +21510,133 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-47891",
-    "version": 264,
+    "type": "stopInfo",
+    "id": "ems-47923",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-02-17T07:37:00Z",
-      "lastModification": "2025-02-17T07:42:00Z",
+      "creation": "2025-02-17T23:57:00Z",
+      "lastModification": "2025-02-17T23:57:00Z",
       "availability": {
-        "from": "2025-02-17T07:28:00Z",
-        "to": "2025-02-19T07:30:00Z"
+        "from": "2025-02-17T21:00:00Z",
+        "to": "2025-03-08T12:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-02-17T07:28:00Z",
-          "to": "2025-02-19T07:30:00Z"
+          "from": "2025-03-07T21:00:00Z",
+          "to": "2025-03-08T12:30:00Z"
         }
       ],
-      "expiration": "2025-02-19T07:30:59Z"
+      "expiration": "2025-03-08T12:30:59Z"
     },
-    "urlText": "Diversion in Orange",
-    "url": "https://transportnsw.info/alerts/details#/ems-47891",
-    "content": "<div>Buses are diverting away from parts of Albert Street and Hartus Lane due to roadwork on Tuesday 18 February and Wednesday 19 February from 1am until 6pm.</div>\n<ul>\n<li>You can catch buses in Sampson Street instead.</li>\n<li>Two bus stops are being missed.</li>\n</ul>",
-    "subtitle": "Diversion in Orange",
+    "urlText": "Pyrmont bus diversions for Sydney Streets event",
+    "url": "https://transportnsw.info/alerts/details#/ems-47923",
+    "content": "<div><strong>Saturday 8 March</strong></div>\n<ul>\n<li><strong>From 8am until 11.30pm</strong>, route <strong>389</strong> services will divert and miss stops while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event along Harris St in Pyrmont.</li>\n<li>Services towards the city will be diverting around Harris St via John St, Pyrmont St and Pyrmont Bridge Rd. Services towards Pyrmont will be diverting via Pyrmont Bridge Rd, Bank St and Bowman St.</li>\n<li>Stops will be missed on Harris St between Bowman St and Allen St in both directions, use alternative stops further along Harris St or on Pirrama Rd and continue on foot.</li>\n<li>Check signs at bus stops for alternative stop locations.</li>\n</ul>\n<div><strong>Stops missed:</strong></div>\n<ul>\n<li>Union Square, Harris St (200924)</li>\n<li>Harris St at Pyrmont Bridge Rd (200916)</li>\n<li>Harris St opp Union Square (200913)</li>\n<li>Harris St after Pyrmont Bridge Rd (200928)</li>\n<li>John St Square, Harris St (200912)</li>\n</ul>\n<div><strong>Alternative Stops:</strong></div>\n<ul>\n<li>Harris St at Bowman St (200934)</li>\n<li>Harris St opp John St Square (200923)</li>\n<li>Harris St at Allen St (200933)</li>\n</ul>",
+    "subtitle": "Pyrmont bus diversions for Sydney Streets event",
     "properties": {
-      "smsText": "Diversion in Orange",
-      "speechText": "Buses are diverting away from parts of Albert Street and Hartus Lane due to roadwork. On Tuesday 18 February and Wednesday 19 February from 1am until 6pm,you can catch buses in Sampson Street instead.",
+      "smsText": "Pyrmont bus diversions for Sydney Streets event",
+      "speechText": "Saturday 8 March\nFrom 8AM until 11:30PM, route 389 services will divert and miss stops while road closures are in place for the City of Sydney’s Sydney Streets event along Harris St in Pyrmont.\nServices towards the city will be diverting around Harris St via John St, Pyrmont St and Pyrmont Bridge Rd. Services towards Pyrmont will be diverting via Pyrmont Bridge Rd, Bank St and Bowman St.\nStops will be missed on Harris St between Bowman St and Allen St in both directions, use alternative stops further along Harris St or on Pirrama Rd and continue on foot.\nCheck signs at bus stops for alternative stop locations.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G200913#G200916#G200913#G200928#200948",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:71533: :H:",
+          "id": "nsw:74389: :H:",
           "destination": {
-            "name": "North Orange Shopping Centre, Orange",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Central West and Orana Network 533",
-          "number": "533",
-          "description": "Orange City Centre to North Orange Shopping Centre",
-          "iconId": 31,
+          "name": "Sydney Buses Network 389",
+          "number": "389",
+          "description": "Pyrmont to Bondi Junction",
+          "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "6006",
-            "name": "Orange Buslines"
+            "id": "2459",
+            "name": "Transit Systems"
           }
         },
         {
-          "id": "nsw:71533: :R:",
+          "id": "nsw:74389: :R:",
           "destination": {
-            "name": "Summer St before Lords Pl, Orange",
+            "name": "Pyrmont Bay Light Rail",
             "type": "stop"
           },
-          "name": "Central West and Orana Network 533",
-          "number": "533",
-          "description": "North Orange Shopping Centre to Orange City Centre",
-          "iconId": 31,
+          "name": "Sydney Buses Network 389",
+          "number": "389",
+          "description": "Bondi Junction to Pyrmont",
+          "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "6006",
-            "name": "Orange Buslines"
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G200913",
+          "isGlobalId": true,
+          "name": "Union Square, Harris St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200916",
+          "isGlobalId": true,
+          "name": "Harris St at Pyrmont Bridge Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200913",
+          "isGlobalId": true,
+          "name": "Union Square, Harris St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200928",
+          "isGlobalId": true,
+          "name": "Harris St after Pyrmont Bridge Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "200948",
+          "isGlobalId": true,
+          "name": "John Street Square Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
           }
         }
       ]
@@ -21983,133 +22042,186 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-47923",
-    "version": 1,
+    "type": "lineInfo",
+    "id": "ems-47891",
+    "version": 264,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-02-17T23:57:00Z",
-      "lastModification": "2025-02-17T23:57:00Z",
+      "creation": "2025-02-17T07:37:00Z",
+      "lastModification": "2025-02-17T07:42:00Z",
       "availability": {
-        "from": "2025-02-17T21:00:00Z",
-        "to": "2025-03-08T12:30:00Z"
+        "from": "2025-02-17T07:28:00Z",
+        "to": "2025-02-19T07:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-03-07T21:00:00Z",
-          "to": "2025-03-08T12:30:00Z"
+          "from": "2025-02-17T07:28:00Z",
+          "to": "2025-02-19T07:30:00Z"
         }
       ],
-      "expiration": "2025-03-08T12:30:59Z"
+      "expiration": "2025-02-19T07:30:59Z"
     },
-    "urlText": "Pyrmont bus diversions for Sydney Streets event",
-    "url": "https://transportnsw.info/alerts/details#/ems-47923",
-    "content": "<div><strong>Saturday 8 March</strong></div>\n<ul>\n<li><strong>From 8am until 11.30pm</strong>, route <strong>389</strong> services will divert and miss stops while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event along Harris St in Pyrmont.</li>\n<li>Services towards the city will be diverting around Harris St via John St, Pyrmont St and Pyrmont Bridge Rd. Services towards Pyrmont will be diverting via Pyrmont Bridge Rd, Bank St and Bowman St.</li>\n<li>Stops will be missed on Harris St between Bowman St and Allen St in both directions, use alternative stops further along Harris St or on Pirrama Rd and continue on foot.</li>\n<li>Check signs at bus stops for alternative stop locations.</li>\n</ul>\n<div><strong>Stops missed:</strong></div>\n<ul>\n<li>Union Square, Harris St (200924)</li>\n<li>Harris St at Pyrmont Bridge Rd (200916)</li>\n<li>Harris St opp Union Square (200913)</li>\n<li>Harris St after Pyrmont Bridge Rd (200928)</li>\n<li>John St Square, Harris St (200912)</li>\n</ul>\n<div><strong>Alternative Stops:</strong></div>\n<ul>\n<li>Harris St at Bowman St (200934)</li>\n<li>Harris St opp John St Square (200923)</li>\n<li>Harris St at Allen St (200933)</li>\n</ul>",
-    "subtitle": "Pyrmont bus diversions for Sydney Streets event",
+    "urlText": "Diversion in Orange",
+    "url": "https://transportnsw.info/alerts/details#/ems-47891",
+    "content": "<div>Buses are diverting away from parts of Albert Street and Hartus Lane due to roadwork on Tuesday 18 February and Wednesday 19 February from 1am until 6pm.</div>\n<ul>\n<li>You can catch buses in Sampson Street instead.</li>\n<li>Two bus stops are being missed.</li>\n</ul>",
+    "subtitle": "Diversion in Orange",
     "properties": {
-      "smsText": "Pyrmont bus diversions for Sydney Streets event",
-      "speechText": "Saturday 8 March\nFrom 8AM until 11:30PM, route 389 services will divert and miss stops while road closures are in place for the City of Sydney’s Sydney Streets event along Harris St in Pyrmont.\nServices towards the city will be diverting around Harris St via John St, Pyrmont St and Pyrmont Bridge Rd. Services towards Pyrmont will be diverting via Pyrmont Bridge Rd, Bank St and Bowman St.\nStops will be missed on Harris St between Bowman St and Allen St in both directions, use alternative stops further along Harris St or on Pirrama Rd and continue on foot.\nCheck signs at bus stops for alternative stop locations.",
+      "smsText": "Diversion in Orange",
+      "speechText": "Buses are diverting away from parts of Albert Street and Hartus Lane due to roadwork. On Tuesday 18 February and Wednesday 19 February from 1am until 6pm,you can catch buses in Sampson Street instead.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G200913#G200916#G200913#G200928#200948",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:74389: :H:",
+          "id": "nsw:71533: :H:",
           "destination": {
-            "name": "Bondi Junction Station",
+            "name": "North Orange Shopping Centre, Orange",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 389",
-          "number": "389",
-          "description": "Pyrmont to Bondi Junction",
-          "iconId": 5,
+          "name": "Central West and Orana Network 533",
+          "number": "533",
+          "description": "Orange City Centre to North Orange Shopping Centre",
+          "iconId": 31,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
+            "id": "6006",
+            "name": "Orange Buslines"
           }
         },
         {
-          "id": "nsw:74389: :R:",
+          "id": "nsw:71533: :R:",
           "destination": {
-            "name": "Pyrmont Bay Light Rail",
+            "name": "Summer St before Lords Pl, Orange",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 389",
-          "number": "389",
-          "description": "Bondi Junction to Pyrmont",
-          "iconId": 5,
+          "name": "Central West and Orana Network 533",
+          "number": "533",
+          "description": "North Orange Shopping Centre to Orange City Centre",
+          "iconId": 31,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
+            "id": "6006",
+            "name": "Orange Buslines"
           }
         }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-46941",
+    "version": 60661,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-29T05:34:00Z",
+      "lastModification": "2025-01-29T22:25:00Z",
+      "availability": {
+        "from": "2025-02-18T13:01:00Z",
+        "to": "2025-03-06T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-04T13:01:00Z",
+          "to": "2025-03-06T13:00:00Z"
+        }
       ],
-      "stops": [
+      "expiration": "2025-03-06T13:00:59Z"
+    },
+    "urlText": "Balmain Wharf temporary closure for maintenance",
+    "url": "https://transportnsw.info/alerts/details#/ems-46941",
+    "content": "<div><strong>Wednesday 5 and Thursday 6 March</strong></div>\n<ul>\n<li>Balmain (Thames St) Wharf will be closed temporarily for maintenance.</li>\n<li>If you&rsquo;re travelling to the city, catch bus Route <strong>442</strong> from Gladstone Park, Darling Street.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> for real time, up-to-date information.</li>\n</ul>",
+    "subtitle": "Balmain Wharf temporary closure for maintenance",
+    "properties": {
+      "smsText": "Balmain Wharf temporary closure for maintenance",
+      "speechText": "Wednesday 5 and Thursday 6 March\nBalmain (Thames St) Wharf will be closed temporarily for maintenance.\nIf you’re travelling to the city, catch bus Route 442 from Gladstone Park, Darling Street.\nPlan your trip at transportnsw.info for real time, up-to-date information.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
         {
-          "id": "G200913",
-          "isGlobalId": true,
-          "name": "Union Square, Harris St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:090F3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Parramatta to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         },
         {
-          "id": "G200916",
-          "isGlobalId": true,
-          "name": "Harris St at Pyrmont Bridge Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Parramatta Wharf, Parramatta",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Parramatta",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         },
         {
-          "id": "G200913",
-          "isGlobalId": true,
-          "name": "Union Square, Harris St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:090F8: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F8 Cockatoo Island",
+          "number": "F8 Cockatoo Island",
+          "description": "Cockatoo Island to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         },
         {
-          "id": "G200928",
-          "isGlobalId": true,
-          "name": "Harris St after Pyrmont Bridge Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "200948",
-          "isGlobalId": true,
-          "name": "John Street Square Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:090F8: :H:",
+          "destination": {
+            "name": "Cockatoo Island Wharf, Woolwich",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F8 Cockatoo Island",
+          "number": "F8 Cockatoo Island",
+          "description": "Circular Quay to Cockatoo Island",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
@@ -24021,118 +24133,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-46941",
-    "version": 60661,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-29T05:34:00Z",
-      "lastModification": "2025-01-29T22:25:00Z",
-      "availability": {
-        "from": "2025-02-18T13:01:00Z",
-        "to": "2025-03-06T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-04T13:01:00Z",
-          "to": "2025-03-06T13:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-06T13:00:59Z"
-    },
-    "urlText": "Balmain Wharf temporary closure for maintenance",
-    "url": "https://transportnsw.info/alerts/details#/ems-46941",
-    "content": "<div><strong>Wednesday 5 and Thursday 6 March</strong></div>\n<ul>\n<li>Balmain (Thames St) Wharf will be closed temporarily for maintenance.</li>\n<li>If you&rsquo;re travelling to the city, catch bus Route <strong>442</strong> from Gladstone Park, Darling Street.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> for real time, up-to-date information.</li>\n</ul>",
-    "subtitle": "Balmain Wharf temporary closure for maintenance",
-    "properties": {
-      "smsText": "Balmain Wharf temporary closure for maintenance",
-      "speechText": "Wednesday 5 and Thursday 6 March\nBalmain (Thames St) Wharf will be closed temporarily for maintenance.\nIf you’re travelling to the city, catch bus Route 442 from Gladstone Park, Darling Street.\nPlan your trip at transportnsw.info for real time, up-to-date information.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F3: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Parramatta to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F3: :H:",
-          "destination": {
-            "name": "Parramatta Wharf, Parramatta",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Circular Quay to Parramatta",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F8: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F8 Cockatoo Island",
-          "number": "F8 Cockatoo Island",
-          "description": "Cockatoo Island to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F8: :H:",
-          "destination": {
-            "name": "Cockatoo Island Wharf, Woolwich",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F8 Cockatoo Island",
-          "number": "F8 Cockatoo Island",
-          "description": "Circular Quay to Cockatoo Island",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-39836",
     "version": 604686,
     "priority": "normal",
@@ -24449,80 +24449,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-47813",
-    "version": 186379,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-16T22:32:00Z",
-      "lastModification": "2025-02-19T02:19:00Z",
-      "availability": {
-        "from": "2025-02-19T05:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-02T15:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Route 712 will no longer operate from 3 March",
-    "url": "https://transportnsw.info/alerts/details#/ems-47813",
-    "content": "<div><strong>From Monday 3 March</strong>, route <strong>712</strong> will no longer operate.<br /><br />You can travel between Parramatta and Westmead Children's Hospital via route <strong>711</strong> or frequent <a href=\"https://transportnsw.info/trip#/trip\">Parramatta Light Rail</a> services.</div>",
-    "subtitle": "Route 712 will no longer operate from 3 March",
-    "properties": {
-      "smsText": "Route 712 will no longer operate from 3 March",
-      "speechText": "From Monday 3 March, route 712 will no longer operate.\nYou can travel between Parramatta and Westmead Children's Hospital via route 711 or frequent Parramatta Light Rail services.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:14712: :R:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 712",
-          "number": "712",
-          "description": "Westmead Childrens Hospital to Parramatta",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        },
-        {
-          "id": "nsw:14712: :H:",
-          "destination": {
-            "name": "Westmead Childrens Hospital, Hawkesbury Rd, Westmead",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 712",
-          "number": "712",
-          "description": "Parramatta to Westmead Childrens Hospital",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-47849",
     "version": 1,
     "priority": "normal",
@@ -24632,6 +24558,80 @@
           "operator": {
             "id": "6008",
             "name": "Nowra Coaches"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-47813",
+    "version": 186379,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-16T22:32:00Z",
+      "lastModification": "2025-02-19T02:19:00Z",
+      "availability": {
+        "from": "2025-02-19T05:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-02T15:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Route 712 will no longer operate from 3 March",
+    "url": "https://transportnsw.info/alerts/details#/ems-47813",
+    "content": "<div><strong>From Monday 3 March</strong>, route <strong>712</strong> will no longer operate.<br /><br />You can travel between Parramatta and Westmead Children's Hospital via route <strong>711</strong> or frequent <a href=\"https://transportnsw.info/trip#/trip\">Parramatta Light Rail</a> services.</div>",
+    "subtitle": "Route 712 will no longer operate from 3 March",
+    "properties": {
+      "smsText": "Route 712 will no longer operate from 3 March",
+      "speechText": "From Monday 3 March, route 712 will no longer operate.\nYou can travel between Parramatta and Westmead Children's Hospital via route 711 or frequent Parramatta Light Rail services.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:14712: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 712",
+          "number": "712",
+          "description": "Westmead Childrens Hospital to Parramatta",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14712: :H:",
+          "destination": {
+            "name": "Westmead Childrens Hospital, Hawkesbury Rd, Westmead",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 712",
+          "number": "712",
+          "description": "Parramatta to Westmead Childrens Hospital",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
           }
         }
       ]
@@ -27134,61 +27134,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-47974",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-19T04:37:00Z",
-      "lastModification": "2025-02-19T04:37:00Z",
-      "availability": {
-        "from": "2025-02-19T04:36:00Z",
-        "to": "2025-02-19T08:36:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-02-19T04:36:00Z",
-          "to": "2025-02-19T08:36:00Z"
-        }
-      ],
-      "expiration": "2025-02-19T08:36:59Z"
-    },
-    "urlText": "Coach service delays at Wagga Wagga Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-47974",
-    "content": "There are delays on route 727 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays at Wagga Wagga Station",
-    "properties": {
-      "smsText": "Coach service delays at Wagga Wagga Station",
-      "speechText": "There are delays on route 727 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76727: :H:",
-          "destination": {
-            "name": "Tumbarumba Coach Stop, Tumbarumba",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 727",
-          "number": "727",
-          "description": "Wagga Wagga to Tumbarumba",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-40918",
     "version": 8625406,
     "priority": "normal",
@@ -28213,31 +28158,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-47969",
+    "id": "ems-47974",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-02-19T01:46:00Z",
-      "lastModification": "2025-02-19T01:46:00Z",
+      "creation": "2025-02-19T04:37:00Z",
+      "lastModification": "2025-02-19T04:37:00Z",
       "availability": {
-        "from": "2025-02-19T01:42:00Z",
-        "to": "2025-02-19T12:59:00Z"
+        "from": "2025-02-19T04:36:00Z",
+        "to": "2025-02-19T08:36:00Z"
       },
       "validity": [
         {
-          "from": "2025-02-19T01:42:00Z",
-          "to": "2025-02-19T13:00:00Z"
+          "from": "2025-02-19T04:36:00Z",
+          "to": "2025-02-19T08:36:00Z"
         }
       ],
-      "expiration": "2025-02-19T13:00:59Z"
+      "expiration": "2025-02-19T08:36:59Z"
     },
-    "urlText": "Diversions in Ulmarra",
-    "url": "https://transportnsw.info/alerts/details#/ems-47969",
-    "content": "<div>Buses are diverting away from part of Big River Way due to a two-car crash which has closed the road between Nortons Lane and Mclachlans Lane.</div>\n<ul>\n<li>Buses are using Mclachlans Lane, Finlaysons Road and Big River Way instead.&nbsp;</li>\n<li>One stop is being missed.</li>\n</ul>",
-    "subtitle": "Diversions in Ulmarra",
+    "urlText": "Coach service delays at Wagga Wagga Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-47974",
+    "content": "There are delays on route 727 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at Wagga Wagga Station",
     "properties": {
-      "smsText": "Diversions in Ulmarra",
-      "speechText": "In Ulmarra, buses are diverting away from part of Big River Way due to a two-car crash which has closed the road between Nortons Lane and Mclachlans Lane. Buses are using Mclachlans Lane, Finlaysons Road and Big River Way instead. One stop is being missed.",
+      "smsText": "Coach service delays at Wagga Wagga Station",
+      "speechText": "There are delays on route 727 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -28245,60 +28190,22 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:72695: :R:",
+          "id": "nsw:76727: :H:",
           "destination": {
-            "name": "Woodburn St after Oak St, Evans Head",
+            "name": "Tumbarumba Coach Stop, Tumbarumba",
             "type": "stop"
           },
-          "name": "North Coast Network 695",
-          "number": "695",
-          "description": "Grafton to Lismore via Evans Head",
-          "iconId": 35,
+          "name": "Regional Trains and Coaches Network 727",
+          "number": "727",
+          "description": "Wagga Wagga to Tumbarumba",
+          "iconId": 7,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 7,
+            "iconId": 7
           },
           "operator": {
-            "id": "5963",
-            "name": "Buslines Group Pty Limited"
-          }
-        },
-        {
-          "id": "nsw:55380: :R:",
-          "destination": {
-            "name": "Market Square, Prince St, Grafton",
-            "type": "stop"
-          },
-          "name": "North Coast Network 380",
-          "number": "380",
-          "description": "Yamba to Grafton via Angourie",
-          "iconId": 35,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5966",
-            "name": "Busways"
-          }
-        },
-        {
-          "id": "nsw:55380: :H:",
-          "destination": {
-            "name": "Yamba Public School, Angourie Rd, Yamba",
-            "type": "stop"
-          },
-          "name": "North Coast Network 380",
-          "number": "380",
-          "description": "Grafton to Yamba via Angourie",
-          "iconId": 35,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5966",
-            "name": "Busways"
+            "id": "711",
+            "name": "NSW TrainLink"
           }
         }
       ]
@@ -28765,6 +28672,99 @@
             "id": "placeID:95304009:1",
             "name": "Sydney Olympic Park",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-47969",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-19T01:46:00Z",
+      "lastModification": "2025-02-19T01:46:00Z",
+      "availability": {
+        "from": "2025-02-19T01:42:00Z",
+        "to": "2025-02-19T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-02-19T01:42:00Z",
+          "to": "2025-02-19T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-02-19T13:00:59Z"
+    },
+    "urlText": "Diversions in Ulmarra",
+    "url": "https://transportnsw.info/alerts/details#/ems-47969",
+    "content": "<div>Buses are diverting away from part of Big River Way due to a two-car crash which has closed the road between Nortons Lane and Mclachlans Lane.</div>\n<ul>\n<li>Buses are using Mclachlans Lane, Finlaysons Road and Big River Way instead.&nbsp;</li>\n<li>One stop is being missed.</li>\n</ul>",
+    "subtitle": "Diversions in Ulmarra",
+    "properties": {
+      "smsText": "Diversions in Ulmarra",
+      "speechText": "In Ulmarra, buses are diverting away from part of Big River Way due to a two-car crash which has closed the road between Nortons Lane and Mclachlans Lane. Buses are using Mclachlans Lane, Finlaysons Road and Big River Way instead. One stop is being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:72695: :R:",
+          "destination": {
+            "name": "Woodburn St after Oak St, Evans Head",
+            "type": "stop"
+          },
+          "name": "North Coast Network 695",
+          "number": "695",
+          "description": "Grafton to Lismore via Evans Head",
+          "iconId": 35,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5963",
+            "name": "Buslines Group Pty Limited"
+          }
+        },
+        {
+          "id": "nsw:55380: :R:",
+          "destination": {
+            "name": "Market Square, Prince St, Grafton",
+            "type": "stop"
+          },
+          "name": "North Coast Network 380",
+          "number": "380",
+          "description": "Yamba to Grafton via Angourie",
+          "iconId": 35,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5966",
+            "name": "Busways"
+          }
+        },
+        {
+          "id": "nsw:55380: :H:",
+          "destination": {
+            "name": "Yamba Public School, Angourie Rd, Yamba",
+            "type": "stop"
+          },
+          "name": "North Coast Network 380",
+          "number": "380",
+          "description": "Grafton to Yamba via Angourie",
+          "iconId": 35,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5966",
+            "name": "Busways"
           }
         }
       ]
