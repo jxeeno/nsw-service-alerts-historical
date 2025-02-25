@@ -13154,11 +13154,11 @@
   {
     "type": "lineInfo",
     "id": "ems-35886",
-    "version": 20641941,
+    "version": 20647906,
     "priority": "normal",
     "timestamps": {
       "creation": "2024-07-01T02:02:00Z",
-      "lastModification": "2025-02-24T23:54:00Z",
+      "lastModification": "2025-02-25T01:34:00Z",
       "availability": {
         "from": "2024-07-01T01:58:00Z",
         "to": "2025-02-25T09:30:00Z"
@@ -13173,11 +13173,11 @@
     },
     "urlText": "Services running at reduced frequency",
     "url": "https://transportnsw.info/alerts/details#/ems-35886",
-    "content": "<div>\n<div>Light rail services are running at a reduced frequency due to a mechanical issue with a tram.&nbsp;&nbsp;</div>\n<ul>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates</li>\n</ul>\n</div>",
+    "content": "<div>Light rail services are running every 30 minutes due to maintenance.&nbsp;</div>\n<ul>\n<li>Consider catching local buses instead.</li>\n<li>Allow extra travel time, listen to announcements and check information displays for service updates</li>\n</ul>",
     "subtitle": "Services running at reduced frequency",
     "properties": {
       "smsText": "Services running at reduced frequency",
-      "speechText": "Light rail services are running at a reduced frequency due to a mechanical issue with a tram. Allow extra travel time, listen to announcements and check information displays for service updates.",
+      "speechText": "Light rail services are running every 30 minutes due to maintenance. Consider catching local buses instead. Allow extra travel time, listen to announcements and check information displays for service updates",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -22404,6 +22404,122 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-46941",
+    "version": 2307602,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-29T05:34:00Z",
+      "lastModification": "2025-02-24T22:34:00Z",
+      "availability": {
+        "from": "2025-02-18T13:01:00Z",
+        "to": "2025-03-06T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-04T22:30:00Z",
+          "to": "2025-03-05T04:30:00Z"
+        },
+        {
+          "from": "2025-03-05T22:30:00Z",
+          "to": "2025-03-06T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-03-06T04:30:59Z"
+    },
+    "urlText": "Balmain Wharf partial closure for maintenance",
+    "url": "https://transportnsw.info/alerts/details#/ems-46941",
+    "content": "<div><strong>Wednesday 5 and Thursday 6 March</strong></div>\n<ul>\n<li><strong>Each day, from 9.30am to 3.30pm</strong>, Balmain (Thames St) Wharf will be closed for maintenance.</li>\n<li>If you&rsquo;re travelling to the city, catch bus Route <strong>442</strong> from Gladstone Park, Darling Street.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> for real time, up-to-date information.</li>\n</ul>",
+    "subtitle": "Balmain Wharf partial closure for maintenance",
+    "properties": {
+      "smsText": "Balmain Wharf partial closure for maintenance",
+      "speechText": "Wednesday 5 and Thursday 6 March\nEach day, from 9:30AM to 3:30PM, Balmain (Thames St) Wharf will be closed temporarily for maintenance.\nIf you’re travelling to the city, catch bus Route 442 from Gladstone Park, Darling Street.\nPlan your trip at transportnsw.info for real time, up-to-date information.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Parramatta to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Parramatta Wharf, Parramatta",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Parramatta",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F8: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F8 Cockatoo Island",
+          "number": "F8 Cockatoo Island",
+          "description": "Cockatoo Island to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F8: :H:",
+          "destination": {
+            "name": "Cockatoo Island Wharf, Woolwich",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F8 Cockatoo Island",
+          "number": "F8 Cockatoo Island",
+          "description": "Circular Quay to Cockatoo Island",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-196",
     "version": 18772839,
     "priority": "veryLow",
@@ -24090,177 +24206,6 @@
           "name": "Sydney Buses Network 533",
           "number": "533",
           "description": "Chatswood to Sydney Olympic Park via North Ryde & Rhodes",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-46941",
-    "version": 2307602,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-29T05:34:00Z",
-      "lastModification": "2025-02-24T22:34:00Z",
-      "availability": {
-        "from": "2025-02-18T13:01:00Z",
-        "to": "2025-03-06T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-04T22:30:00Z",
-          "to": "2025-03-05T04:30:00Z"
-        },
-        {
-          "from": "2025-03-05T22:30:00Z",
-          "to": "2025-03-06T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-03-06T04:30:59Z"
-    },
-    "urlText": "Balmain Wharf partial closure for maintenance",
-    "url": "https://transportnsw.info/alerts/details#/ems-46941",
-    "content": "<div><strong>Wednesday 5 and Thursday 6 March</strong></div>\n<ul>\n<li><strong>Each day, from 9.30am to 3.30pm</strong>, Balmain (Thames St) Wharf will be closed for maintenance.</li>\n<li>If you&rsquo;re travelling to the city, catch bus Route <strong>442</strong> from Gladstone Park, Darling Street.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> for real time, up-to-date information.</li>\n</ul>",
-    "subtitle": "Balmain Wharf partial closure for maintenance",
-    "properties": {
-      "smsText": "Balmain Wharf partial closure for maintenance",
-      "speechText": "Wednesday 5 and Thursday 6 March\nEach day, from 9:30AM to 3:30PM, Balmain (Thames St) Wharf will be closed temporarily for maintenance.\nIf you’re travelling to the city, catch bus Route 442 from Gladstone Park, Darling Street.\nPlan your trip at transportnsw.info for real time, up-to-date information.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F3: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Parramatta to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F3: :H:",
-          "destination": {
-            "name": "Parramatta Wharf, Parramatta",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Circular Quay to Parramatta",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F8: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F8 Cockatoo Island",
-          "number": "F8 Cockatoo Island",
-          "description": "Cockatoo Island to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F8: :H:",
-          "destination": {
-            "name": "Cockatoo Island Wharf, Woolwich",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F8 Cockatoo Island",
-          "number": "F8 Cockatoo Island",
-          "description": "Circular Quay to Cockatoo Island",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-48240",
-    "version": 90,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-25T00:43:00Z",
-      "lastModification": "2025-02-25T00:45:00Z",
-      "availability": {
-        "from": "2025-02-25T00:37:00Z",
-        "to": "2025-02-25T14:37:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-02-25T00:37:00Z",
-          "to": "2025-02-25T14:37:00Z"
-        }
-      ],
-      "expiration": "2025-02-25T14:37:59Z"
-    },
-    "urlText": "Diversion at North Ryde",
-    "url": "https://transportnsw.info/alerts/details#/ems-48240",
-    "content": "<div>Buses travelling east are diverting away from Bridge Road due to fallen wires.</div>\n<ul>\n<li>Buses are using Tallwood Avenue, North Road, Quarry Road and Smalls Road instead.</li>\n<li>Four stops are being missed.&nbsp;</li>\n</ul>\n<div>&nbsp;</div>",
-    "subtitle": "Diversion at North Ryde",
-    "properties": {
-      "smsText": "Diversion at North Ryde",
-      "speechText": "At North Ryde, route 517 buses travelling east are diverting away from Bridge Road due to fallen wires. They are using Tallwood Avenue, North Road, Quarry Road and Smalls Road instead, missing four stops.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17517: :H:",
-          "destination": {
-            "name": "Macquarie University Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 517",
-          "number": "517",
-          "description": "Ryde to Macquarie Park via Bridge Rd",
           "iconId": 5,
           "product": {
             "class": 5,
