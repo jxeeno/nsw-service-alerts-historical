@@ -3067,6 +3067,169 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-48745",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-07T09:15:00Z",
+      "lastModification": "2025-03-07T09:15:00Z",
+      "availability": {
+        "from": "2025-03-07T09:00:00Z",
+        "to": "2025-03-13T10:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-07T09:00:00Z",
+          "to": "2025-03-13T10:00:00Z"
+        }
+      ],
+      "expiration": "2025-03-13T10:00:59Z"
+    },
+    "urlText": "Cyclone Alfred update. CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT service cancellation.",
+    "url": "https://transportnsw.info/alerts/details#/ems-48745",
+    "content": "<div>Due to cyclone Alfred,&nbsp;CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT services are cancelled with no alternative service provided.</div>",
+    "subtitle": "Cyclone Alfred update. CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT service cancellation.",
+    "properties": {
+      "smsText": "Cyclone Alfred update. CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT service cancellation.",
+      "speechText": "Due to cyclone Alfred, CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT services are cancelled with no alternative service provided.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76035: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 35",
+          "number": "35",
+          "description": "Central to Grafton",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:76036: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 36",
+          "number": "36",
+          "description": "Grafton to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-48898",
+    "version": 80,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-11T05:30:00Z",
+      "lastModification": "2025-03-11T05:32:00Z",
+      "availability": {
+        "from": "2025-03-10T14:00:00Z",
+        "to": "2025-03-17T12:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-16T14:00:00Z",
+          "to": "2025-03-17T12:00:00Z"
+        }
+      ],
+      "expiration": "2025-03-17T12:00:59Z"
+    },
+    "urlText": "F10 Blackwattle Bay services will not run",
+    "url": "https://transportnsw.info/alerts/details#/ems-48898",
+    "content": "<div>On Monday 17 March the F10 Blackwattle Bay ferry service will not run while essential maintenance takes place.</div>\n<div>&nbsp;</div>\n<div>For alternative services please use bus routes 370 and 431 on Glebe Point Rd and Leichhardt St.</div>",
+    "subtitle": "F10 Blackwattle Bay services will not run",
+    "properties": {
+      "smsText": "F10 Blackwattle Bay services will not run",
+      "speechText": "On Monday 17 March the F10 Blackwattle Bay ferry service will not run while essential maintenance takes place.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "203783",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:09F10: :R:",
+          "destination": {
+            "name": "Barangaroo Wharf, Barangaroo",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F10 Blackwattle Bay",
+          "number": "F10 Blackwattle Bay",
+          "description": "Blackwattle Bay to Barangaroo",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:09F10: :H:",
+          "destination": {
+            "name": "Blackwattle Bay Wharf, Glebe",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F10 Blackwattle Bay",
+          "number": "F10 Blackwattle Bay",
+          "description": "Barangaroo to Blackwattle Bay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "203783",
+          "isGlobalId": true,
+          "name": "Blackwattle Bay Wharf",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301016:1",
+            "name": "Glebe",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-47817",
     "version": 955185,
     "priority": "normal",
@@ -5836,281 +5999,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-48745",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-07T09:15:00Z",
-      "lastModification": "2025-03-07T09:15:00Z",
-      "availability": {
-        "from": "2025-03-07T09:00:00Z",
-        "to": "2025-03-13T10:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-07T09:00:00Z",
-          "to": "2025-03-13T10:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-13T10:00:59Z"
-    },
-    "urlText": "Cyclone Alfred update. CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT service cancellation.",
-    "url": "https://transportnsw.info/alerts/details#/ems-48745",
-    "content": "<div>Due to cyclone Alfred,&nbsp;CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT services are cancelled with no alternative service provided.</div>",
-    "subtitle": "Cyclone Alfred update. CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT service cancellation.",
-    "properties": {
-      "smsText": "Cyclone Alfred update. CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT service cancellation.",
-      "speechText": "Due to cyclone Alfred, CLK35 Sydney to Grafton and CLK36 Graton to Sydney XPT services are cancelled with no alternative service provided.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76035: :H:",
-          "destination": {
-            "name": "Grafton Station, South Grafton",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 35",
-          "number": "35",
-          "description": "Central to Grafton",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        },
-        {
-          "id": "nsw:76036: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 36",
-          "number": "36",
-          "description": "Grafton to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-48898",
-    "version": 80,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-11T05:30:00Z",
-      "lastModification": "2025-03-11T05:32:00Z",
-      "availability": {
-        "from": "2025-03-10T14:00:00Z",
-        "to": "2025-03-17T12:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-16T14:00:00Z",
-          "to": "2025-03-17T12:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-17T12:00:59Z"
-    },
-    "urlText": "F10 Blackwattle Bay services will not run",
-    "url": "https://transportnsw.info/alerts/details#/ems-48898",
-    "content": "<div>On Monday 17 March the F10 Blackwattle Bay ferry service will not run while essential maintenance takes place.</div>\n<div>&nbsp;</div>\n<div>For alternative services please use bus routes 370 and 431 on Glebe Point Rd and Leichhardt St.</div>",
-    "subtitle": "F10 Blackwattle Bay services will not run",
-    "properties": {
-      "smsText": "F10 Blackwattle Bay services will not run",
-      "speechText": "On Monday 17 March the F10 Blackwattle Bay ferry service will not run while essential maintenance takes place.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "203783",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:09F10: :R:",
-          "destination": {
-            "name": "Barangaroo Wharf, Barangaroo",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F10 Blackwattle Bay",
-          "number": "F10 Blackwattle Bay",
-          "description": "Blackwattle Bay to Barangaroo",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:09F10: :H:",
-          "destination": {
-            "name": "Blackwattle Bay Wharf, Glebe",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F10 Blackwattle Bay",
-          "number": "F10 Blackwattle Bay",
-          "description": "Barangaroo to Blackwattle Bay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "203783",
-          "isGlobalId": true,
-          "name": "Blackwattle Bay Wharf",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301016:1",
-            "name": "Glebe",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-42495",
-    "version": 7449437,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-11-12T21:52:00Z",
-      "lastModification": "2025-02-07T03:10:00Z",
-      "availability": {
-        "from": "2024-11-12T04:00:00Z",
-        "to": "2025-03-26T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-11-12T19:00:00Z",
-          "to": "2025-03-26T13:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-26T13:00:59Z"
-    },
-    "urlText": "Bathurst Bullet temporary timetable changes on Wednesdays",
-    "url": "https://transportnsw.info/alerts/details#/ems-42495",
-    "content": "<div><strong>Wednesdays until 26 March 2025</strong>, some Bathurst train times will change.</div>\n<div>&nbsp;</div>\n<div>Temporary timetable changes will apply to the following trains:</div>\n<div>\n<ul>\n<li>06:00 Lithgow to Bathurst service will now depart Lithgow&nbsp;24 minutes earlier&nbsp;at 05:36 and depart earlier at all stations including Rydal 05:55 and Tarana 06:11, arriving Bathurst at 06:44.</li>\n<li>07:40 Bathurst to Central service will continue to depart Bathurst at 07:40 but will arrive Central earlier at 11:20 instead of 11:52.</li>\n<li>15:52 Central to Bathurst service will now depart Central&nbsp;52 minutes earlier&nbsp;at 15:00 and depart earlier at all stations including Parramatta 15:22, Penrith 15:46, Springwood 16:08, Katoomba 16:42, Mount</li>\n<li>Victoria 16:58, Lithgow 17:24, Rydal 17:41 and Tarana 18:14, arriving Bathurst at 18:47.&nbsp;<br />20:25 Bathurst to Lithgow service will now depart Bathurst&nbsp;63 minutes earlier&nbsp;at 19:22, Tarana 19:54 and Rydal 20:10, arriving Lithgow at 20:29.<br /><br /></li>\n<li>During trackwork these times may change.&nbsp;<a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information. You can also subscribe to&nbsp;<a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-    "subtitle": "Bathurst Bullet temporary timetable changes on Wednesdays",
-    "properties": {
-      "smsText": "Bathurst Bullet temporary timetable changes on Wednesdays",
-      "speechText": "Wednesdays until 26 March 2025, some Bathurst train times will change.\n \nSee TripPlanner and other transport apps for up-to-date service times.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:76BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76BMT: :R:",
-          "destination": {
-            "name": "Blacktown Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "ems-40074",
     "version": 1,
@@ -7524,6 +7412,230 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-47932",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-18T01:33:00Z",
+      "lastModification": "2025-02-18T01:33:00Z",
+      "availability": {
+        "from": "2025-02-17T23:30:00Z",
+        "to": "2025-03-16T01:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-15T23:30:00Z",
+          "to": "2025-03-16T01:00:00Z"
+        }
+      ],
+      "expiration": "2025-03-16T01:00:59Z"
+    },
+    "urlText": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
+    "url": "https://transportnsw.info/alerts/details#/ems-47932",
+    "content": "<div>\n<div>Route 202 and Route 207 buses will be starting and ending trips at Wynyard Station instead of Bridge St from 10.30am to 12pm midday, due to road closures in place for the St Patrick&rsquo;s Day Parade.</div>\n<div>&nbsp;</div>\n<div>Buses towards the city will end at Wynyard Station, York St, Stand P (200048) and buses leaving the city will start from Wynyard Station, York St, Stand K (200033).</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra travel time.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge St (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>\n</div>",
+    "subtitle": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
+    "properties": {
+      "smsText": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
+      "speechText": "Route 2 O 2 and Route 2 O 7 buses will be starting and ending trips at Wynyard Station instead of Bridge St from 10 30 AM to 12 PM midday, due to road closures in place for the St Patrick’s Day Parade.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17202: :R:",
+          "destination": {
+            "name": "Bridge St at Gresham St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 202",
+          "number": "202",
+          "description": "Northbridge to City Bridge St via North Sydney",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17202: :H:",
+          "destination": {
+            "name": "Clive Park, Sailors Bay Rd, Northbridge",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 202",
+          "number": "202",
+          "description": "City Bridge St to Northbridge via North Sydney",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17207: :R:",
+          "destination": {
+            "name": "Bridge St at Gresham St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 207",
+          "number": "207",
+          "description": "East Lindfield to City Bridge St via North Sydney",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17207: :H:",
+          "destination": {
+            "name": "East Lindfield Community Hall, Crana Ave, East Lindfield",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 207",
+          "number": "207",
+          "description": "City Bridge St to East Lindfield via North Sydney",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-42495",
+    "version": 7449437,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-11-12T21:52:00Z",
+      "lastModification": "2025-02-07T03:10:00Z",
+      "availability": {
+        "from": "2024-11-12T04:00:00Z",
+        "to": "2025-03-26T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-11-12T19:00:00Z",
+          "to": "2025-03-26T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-03-26T13:00:59Z"
+    },
+    "urlText": "Bathurst Bullet temporary timetable changes on Wednesdays",
+    "url": "https://transportnsw.info/alerts/details#/ems-42495",
+    "content": "<div><strong>Wednesdays until 26 March 2025</strong>, some Bathurst train times will change.</div>\n<div>&nbsp;</div>\n<div>Temporary timetable changes will apply to the following trains:</div>\n<div>\n<ul>\n<li>06:00 Lithgow to Bathurst service will now depart Lithgow&nbsp;24 minutes earlier&nbsp;at 05:36 and depart earlier at all stations including Rydal 05:55 and Tarana 06:11, arriving Bathurst at 06:44.</li>\n<li>07:40 Bathurst to Central service will continue to depart Bathurst at 07:40 but will arrive Central earlier at 11:20 instead of 11:52.</li>\n<li>15:52 Central to Bathurst service will now depart Central&nbsp;52 minutes earlier&nbsp;at 15:00 and depart earlier at all stations including Parramatta 15:22, Penrith 15:46, Springwood 16:08, Katoomba 16:42, Mount</li>\n<li>Victoria 16:58, Lithgow 17:24, Rydal 17:41 and Tarana 18:14, arriving Bathurst at 18:47.&nbsp;<br />20:25 Bathurst to Lithgow service will now depart Bathurst&nbsp;63 minutes earlier&nbsp;at 19:22, Tarana 19:54 and Rydal 20:10, arriving Lithgow at 20:29.<br /><br /></li>\n<li>During trackwork these times may change.&nbsp;<a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information. You can also subscribe to&nbsp;<a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+    "subtitle": "Bathurst Bullet temporary timetable changes on Wednesdays",
+    "properties": {
+      "smsText": "Bathurst Bullet temporary timetable changes on Wednesdays",
+      "speechText": "Wednesdays until 26 March 2025, some Bathurst train times will change.\n \nSee TripPlanner and other transport apps for up-to-date service times.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76BMT: :R:",
+          "destination": {
+            "name": "Blacktown Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-46674",
     "version": 1,
     "priority": "normal",
@@ -7862,118 +7974,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-47932",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-18T01:33:00Z",
-      "lastModification": "2025-02-18T01:33:00Z",
-      "availability": {
-        "from": "2025-02-17T23:30:00Z",
-        "to": "2025-03-16T01:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-15T23:30:00Z",
-          "to": "2025-03-16T01:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-16T01:00:59Z"
-    },
-    "urlText": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
-    "url": "https://transportnsw.info/alerts/details#/ems-47932",
-    "content": "<div>\n<div>Route 202 and Route 207 buses will be starting and ending trips at Wynyard Station instead of Bridge St from 10.30am to 12pm midday, due to road closures in place for the St Patrick&rsquo;s Day Parade.</div>\n<div>&nbsp;</div>\n<div>Buses towards the city will end at Wynyard Station, York St, Stand P (200048) and buses leaving the city will start from Wynyard Station, York St, Stand K (200033).</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra travel time.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge St (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>\n</div>",
-    "subtitle": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
-    "properties": {
-      "smsText": "Sydney CBD, Bridge St diversions due to the St Patrick’s Day Parade",
-      "speechText": "Route 2 O 2 and Route 2 O 7 buses will be starting and ending trips at Wynyard Station instead of Bridge St from 10 30 AM to 12 PM midday, due to road closures in place for the St Patrick’s Day Parade.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17202: :R:",
-          "destination": {
-            "name": "Bridge St at Gresham St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 202",
-          "number": "202",
-          "description": "Northbridge to City Bridge St via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17202: :H:",
-          "destination": {
-            "name": "Clive Park, Sailors Bay Rd, Northbridge",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 202",
-          "number": "202",
-          "description": "City Bridge St to Northbridge via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17207: :R:",
-          "destination": {
-            "name": "Bridge St at Gresham St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 207",
-          "number": "207",
-          "description": "East Lindfield to City Bridge St via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17207: :H:",
-          "destination": {
-            "name": "East Lindfield Community Hall, Crana Ave, East Lindfield",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 207",
-          "number": "207",
-          "description": "City Bridge St to East Lindfield via North Sydney",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-47589",
     "version": 1,
     "priority": "normal",
@@ -8243,6 +8243,289 @@
           "operator": {
             "id": "2450",
             "name": "Hunter Valley Buses"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-48743",
+    "version": 322230,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-07T09:10:00Z",
+      "lastModification": "2025-03-11T02:41:00Z",
+      "availability": {
+        "from": "2025-03-07T14:00:00Z",
+        "to": "2025-03-13T09:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-07T14:00:00Z",
+          "to": "2025-03-13T09:00:00Z"
+        }
+      ],
+      "expiration": "2025-03-13T09:00:59Z"
+    },
+    "urlText": "CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT service alteration.",
+    "url": "https://transportnsw.info/alerts/details#/ems-48743",
+    "content": "<div>Due to Cyclone Alfred,&nbsp; &nbsp;CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT services will run between Taree and Sydney only. Passengers will travel on replacement coaches between locations north of Taree and Taree.</div>",
+    "subtitle": "CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT service alteration.",
+    "properties": {
+      "smsText": "CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT service alteration.",
+      "speechText": "Due to Cyclone Alfred,  CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT services will run between Taree and Sydney only. Passengers will travel on replacement coaches between locations north of Taree and Taree.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-48809",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-09T23:49:00Z",
+      "lastModification": "2025-03-09T23:49:00Z",
+      "availability": {
+        "from": "2025-03-09T21:00:00Z",
+        "to": "2025-03-15T12:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-14T21:00:00Z",
+          "to": "2025-03-15T12:30:00Z"
+        }
+      ],
+      "expiration": "2025-03-15T12:30:59Z"
+    },
+    "urlText": "Glebe bus diversions for special event",
+    "url": "https://transportnsw.info/alerts/details#/ems-48809",
+    "content": "<div><strong>Saturday 15 March</strong></div>\n<ul>\n<li><strong>From 8am until 11.30pm</strong>, route <strong>370</strong>, <strong>431</strong> and <strong>433</strong> services will divert and miss stops while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event along Glebe Point Rd in Glebe.</li>\n<li>Buses will be diverting around Glebe Point Rd via St Johns Rd, Mount Vernon St, Catherine St and Derwent St.</li>\n<li>Stops on Glebe Point Rd between St Johns Rd and Broadway will be missed in both directions.</li>\n<li>Use alternative stops further along Glebe Point Rd, City Rd or Broadway and continue on foot. Check signs at bus stops for alternative stop locations.</li>\n</ul>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Glebe Point Rd at Mitchell St (203726)</li>\n<li>Glebe Point Rd opp Glebe Public School (203727)</li>\n<li>Glebe Point Rd at Broadway (203728)</li>\n<li>Glebe Point Rd after Broadway (203729)</li>\n<li>Glebe Public School, Glebe Point Rd (203730)</li>\n<li>Glebe Point Rd at Mitchell St (203731)</li>\n<li>Glebe Point Rd at St Johns Rd (203732)</li>\n</ul>",
+    "subtitle": "Glebe bus diversions for special event",
+    "properties": {
+      "smsText": "Glebe bus diversions for special event",
+      "speechText": "Saturday 15 March\nFrom 8AM until 11:30PM, route 370, 431 and 433 services will divert and miss stops while road closures are in place for the City of Sydney’s Sydney Streets event along Glebe Point Rd in Glebe.\nBuses will be diverting around Glebe Point Rd via St Johns Rd, Mount Vernon St, Catherine St and Derwent St.\nStops on Glebe Point Rd between St Johns Rd and Broadway will be missed in both directions.\nUse alternative stops further along Glebe Point Rd, City Rd or Broadway and continue on foot. Check signs at bus stops for alternative stop locations.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G203731#G203728#G203729#G203727#G203725",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:30370: :H:",
+          "destination": {
+            "name": "Arden St at Dolphin St, Coogee",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 370",
+          "number": "370",
+          "description": "Glebe Point to Coogee",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        },
+        {
+          "id": "nsw:30370: :R:",
+          "destination": {
+            "name": "Federal Rd opp Bicentennial Park, Glebe",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 370",
+          "number": "370",
+          "description": "Coogee to Glebe Point",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        },
+        {
+          "id": "nsw:74431: :H:",
+          "destination": {
+            "name": "Federal Rd opp Bicentennial Park, Glebe",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 431",
+          "number": "431",
+          "description": "City Martin Place to Glebe Point",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74431: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 431",
+          "number": "431",
+          "description": "Glebe Point to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74433: :H:",
+          "destination": {
+            "name": "Darling St opp Gladstone Park, Balmain",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 433",
+          "number": "433",
+          "description": "Central Pitt St to Balmain Gladstone Park",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74433: :R:",
+          "destination": {
+            "name": "Pitt St before Hay St, Haymarket",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 433",
+          "number": "433",
+          "description": "Balmain Gladstone Park to Central Pitt St",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G203731",
+          "isGlobalId": true,
+          "name": "Glebe Point Rd at Mitchell St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301016:1",
+            "name": "Glebe",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G203728",
+          "isGlobalId": true,
+          "name": "Glebe Point Rd at Broadway",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301016:1",
+            "name": "Glebe",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G203729",
+          "isGlobalId": true,
+          "name": "Glebe Point Rd after Parramatta Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301016:1",
+            "name": "Glebe",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G203727",
+          "isGlobalId": true,
+          "name": "Glebe Public School, Glebe Point Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301016:1",
+            "name": "Glebe",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G203725",
+          "isGlobalId": true,
+          "name": "Glebe Point Rd at St Johns Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301016:1",
+            "name": "Glebe",
+            "type": "locality"
           }
         }
       ]
@@ -8967,289 +9250,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-48743",
-    "version": 322230,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-07T09:10:00Z",
-      "lastModification": "2025-03-11T02:41:00Z",
-      "availability": {
-        "from": "2025-03-07T14:00:00Z",
-        "to": "2025-03-13T09:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-07T14:00:00Z",
-          "to": "2025-03-13T09:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-13T09:00:59Z"
-    },
-    "urlText": "CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT service alteration.",
-    "url": "https://transportnsw.info/alerts/details#/ems-48743",
-    "content": "<div>Due to Cyclone Alfred,&nbsp; &nbsp;CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT services will run between Taree and Sydney only. Passengers will travel on replacement coaches between locations north of Taree and Taree.</div>",
-    "subtitle": "CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT service alteration.",
-    "properties": {
-      "smsText": "CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT service alteration.",
-      "speechText": "Due to Cyclone Alfred,  CLK32 Brisbane to Sydney and CLK34 Casino to Sydney XPT services will run between Taree and Sydney only. Passengers will travel on replacement coaches between locations north of Taree and Taree.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        },
-        {
-          "id": "nsw:76034: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-48809",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-09T23:49:00Z",
-      "lastModification": "2025-03-09T23:49:00Z",
-      "availability": {
-        "from": "2025-03-09T21:00:00Z",
-        "to": "2025-03-15T12:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-14T21:00:00Z",
-          "to": "2025-03-15T12:30:00Z"
-        }
-      ],
-      "expiration": "2025-03-15T12:30:59Z"
-    },
-    "urlText": "Glebe bus diversions for special event",
-    "url": "https://transportnsw.info/alerts/details#/ems-48809",
-    "content": "<div><strong>Saturday 15 March</strong></div>\n<ul>\n<li><strong>From 8am until 11.30pm</strong>, route <strong>370</strong>, <strong>431</strong> and <strong>433</strong> services will divert and miss stops while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event along Glebe Point Rd in Glebe.</li>\n<li>Buses will be diverting around Glebe Point Rd via St Johns Rd, Mount Vernon St, Catherine St and Derwent St.</li>\n<li>Stops on Glebe Point Rd between St Johns Rd and Broadway will be missed in both directions.</li>\n<li>Use alternative stops further along Glebe Point Rd, City Rd or Broadway and continue on foot. Check signs at bus stops for alternative stop locations.</li>\n</ul>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Glebe Point Rd at Mitchell St (203726)</li>\n<li>Glebe Point Rd opp Glebe Public School (203727)</li>\n<li>Glebe Point Rd at Broadway (203728)</li>\n<li>Glebe Point Rd after Broadway (203729)</li>\n<li>Glebe Public School, Glebe Point Rd (203730)</li>\n<li>Glebe Point Rd at Mitchell St (203731)</li>\n<li>Glebe Point Rd at St Johns Rd (203732)</li>\n</ul>",
-    "subtitle": "Glebe bus diversions for special event",
-    "properties": {
-      "smsText": "Glebe bus diversions for special event",
-      "speechText": "Saturday 15 March\nFrom 8AM until 11:30PM, route 370, 431 and 433 services will divert and miss stops while road closures are in place for the City of Sydney’s Sydney Streets event along Glebe Point Rd in Glebe.\nBuses will be diverting around Glebe Point Rd via St Johns Rd, Mount Vernon St, Catherine St and Derwent St.\nStops on Glebe Point Rd between St Johns Rd and Broadway will be missed in both directions.\nUse alternative stops further along Glebe Point Rd, City Rd or Broadway and continue on foot. Check signs at bus stops for alternative stop locations.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G203731#G203728#G203729#G203727#G203725",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:30370: :H:",
-          "destination": {
-            "name": "Arden St at Dolphin St, Coogee",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 370",
-          "number": "370",
-          "description": "Glebe Point to Coogee",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        },
-        {
-          "id": "nsw:30370: :R:",
-          "destination": {
-            "name": "Federal Rd opp Bicentennial Park, Glebe",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 370",
-          "number": "370",
-          "description": "Coogee to Glebe Point",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        },
-        {
-          "id": "nsw:74431: :H:",
-          "destination": {
-            "name": "Federal Rd opp Bicentennial Park, Glebe",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 431",
-          "number": "431",
-          "description": "City Martin Place to Glebe Point",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74431: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 431",
-          "number": "431",
-          "description": "Glebe Point to City Martin Place",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74433: :H:",
-          "destination": {
-            "name": "Darling St opp Gladstone Park, Balmain",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 433",
-          "number": "433",
-          "description": "Central Pitt St to Balmain Gladstone Park",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74433: :R:",
-          "destination": {
-            "name": "Pitt St before Hay St, Haymarket",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 433",
-          "number": "433",
-          "description": "Balmain Gladstone Park to Central Pitt St",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "G203731",
-          "isGlobalId": true,
-          "name": "Glebe Point Rd at Mitchell St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301016:1",
-            "name": "Glebe",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G203728",
-          "isGlobalId": true,
-          "name": "Glebe Point Rd at Broadway",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301016:1",
-            "name": "Glebe",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G203729",
-          "isGlobalId": true,
-          "name": "Glebe Point Rd after Parramatta Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301016:1",
-            "name": "Glebe",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G203727",
-          "isGlobalId": true,
-          "name": "Glebe Public School, Glebe Point Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301016:1",
-            "name": "Glebe",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G203725",
-          "isGlobalId": true,
-          "name": "Glebe Point Rd at St Johns Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301016:1",
-            "name": "Glebe",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "ems-48298",
     "version": 1490,
@@ -9496,6 +9496,80 @@
             "id": "placeID:95315011:1",
             "name": "Lakemba",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-47934",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-18T01:36:00Z",
+      "lastModification": "2025-02-18T01:36:00Z",
+      "availability": {
+        "from": "2025-02-17T23:30:00Z",
+        "to": "2025-03-16T01:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-15T23:30:00Z",
+          "to": "2025-03-16T01:00:00Z"
+        }
+      ],
+      "expiration": "2025-03-16T01:00:59Z"
+    },
+    "urlText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+    "url": "https://transportnsw.info/alerts/details#/ems-47934",
+    "content": "<div>\n<div>Route 263 will be starting and ending trips at Wynyard instead of Bridge St from 10.30am to 12pm midday due to road closures in place for the St Patrick&rsquo;s Day Parade.</div>\n<div>&nbsp;</div>\n<div>Buses to the city will end trips at Wynyard Station, York St, Stand N (200036). Buses leaving the city will start trips from Wynyard Station, York Street, Stand L (200034).</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra travel time.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge Street (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>\n</div>",
+    "subtitle": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+    "properties": {
+      "smsText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
+      "speechText": "Route 2 6 3 will be starting and ending trips at Wynyard instead of Bridge St from 10 30 AM to 12 PM midday due to road closures in place for the St Patrick’s Day Parade.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:29263: :R:",
+          "destination": {
+            "name": "Bridge St at Gresham St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 263",
+          "number": "263",
+          "description": "Crows Nest to City Bridge St via Cremorne",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29263: :H:",
+          "destination": {
+            "name": "Crows Nest, Burlington St, Crows Nest",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 263",
+          "number": "263",
+          "description": "City Bridge St to Crows Nest via Cremorne",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
           }
         }
       ]
@@ -10668,80 +10742,6 @@
           "operator": {
             "id": "2504",
             "name": "CDC NSW R4"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-47934",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-18T01:36:00Z",
-      "lastModification": "2025-02-18T01:36:00Z",
-      "availability": {
-        "from": "2025-02-17T23:30:00Z",
-        "to": "2025-03-16T01:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-15T23:30:00Z",
-          "to": "2025-03-16T01:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-16T01:00:59Z"
-    },
-    "urlText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
-    "url": "https://transportnsw.info/alerts/details#/ems-47934",
-    "content": "<div>\n<div>Route 263 will be starting and ending trips at Wynyard instead of Bridge St from 10.30am to 12pm midday due to road closures in place for the St Patrick&rsquo;s Day Parade.</div>\n<div>&nbsp;</div>\n<div>Buses to the city will end trips at Wynyard Station, York St, Stand N (200036). Buses leaving the city will start trips from Wynyard Station, York Street, Stand L (200034).</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra travel time.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Burns Philp Building, Bridge Street (2000417)</li>\n<li>Bridge St at Gresham St (200096)</li>\n</ul>\n</div>",
-    "subtitle": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
-    "properties": {
-      "smsText": "Sydney CBD, Bridge St diversions due St Patrick’s Day Parade",
-      "speechText": "Route 2 6 3 will be starting and ending trips at Wynyard instead of Bridge St from 10 30 AM to 12 PM midday due to road closures in place for the St Patrick’s Day Parade.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:29263: :R:",
-          "destination": {
-            "name": "Bridge St at Gresham St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 263",
-          "number": "263",
-          "description": "Crows Nest to City Bridge St via Cremorne",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29263: :H:",
-          "destination": {
-            "name": "Crows Nest, Burlington St, Crows Nest",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 263",
-          "number": "263",
-          "description": "City Bridge St to Crows Nest via Cremorne",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
           }
         }
       ]
@@ -14728,118 +14728,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-39515",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-13T01:03:00Z",
-      "lastModification": "2024-09-13T01:03:00Z",
-      "availability": {
-        "from": "2024-09-12T19:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-29T19:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Canterbury Station, Canterbury Rd, Stand G permanent closure",
-    "url": "https://transportnsw.info/alerts/details#/ems-39515",
-    "content": "<div>\n<div><strong>From&nbsp;5am Monday 30 September</strong>, bus stop <strong>Canterbury Station, Canterbury Rd, Stand G</strong> (<strong>2193108</strong>) will permanently close due to Sydney Metro Southwest works.</div>\n<div>The alternative stop will be bus stop Canterbury Station, Canterbury Rd, Stand F (2193105) for the following services, including school services: </div>\n<ul>\n<li>N30 &ndash; Macarthur (night ride service)</li>\n<li>N40 &ndash; East Hills (night ride service)</li>\n</ul>\n</div>",
-    "subtitle": "Canterbury Station, Canterbury Rd, Stand G permanent closure",
-    "properties": {
-      "smsText": "Canterbury Station, Canterbury Rd, Stand G permanent closure",
-      "speechText": "From 5AM Monday 30 September, bus stop Canterbury Station, Canterbury Rd, Stand G will permanently close due to Sydney Metro Southwest works.\nThe alternative stop will be bus stop Canterbury Station, Canterbury Rd, Stand F for the following services, including school services:\nN30 – Macarthur (night ride service)\nN40 – East Hills (night ride service)",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:13N30: :H:",
-          "destination": {
-            "name": "Macarthur Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N30",
-          "number": "N30",
-          "description": "City Town Hall to Macarthur (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13N30: :R:",
-          "destination": {
-            "name": "Town Hall Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N30",
-          "number": "N30",
-          "description": "Macarthur to City Town Hall (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13N40: :H:",
-          "destination": {
-            "name": "East Hills Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N40",
-          "number": "N40",
-          "description": "City Town Hall to East Hills (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13N40: :R:",
-          "destination": {
-            "name": "Town Hall Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N40",
-          "number": "N40",
-          "description": "East Hills to City Town Hall (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-48379",
     "version": 1,
     "priority": "normal",
@@ -15065,6 +14953,118 @@
           "operator": {
             "id": "2504",
             "name": "CDC NSW R4"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-39515",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-09-13T01:03:00Z",
+      "lastModification": "2024-09-13T01:03:00Z",
+      "availability": {
+        "from": "2024-09-12T19:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-09-29T19:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Canterbury Station, Canterbury Rd, Stand G permanent closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-39515",
+    "content": "<div>\n<div><strong>From&nbsp;5am Monday 30 September</strong>, bus stop <strong>Canterbury Station, Canterbury Rd, Stand G</strong> (<strong>2193108</strong>) will permanently close due to Sydney Metro Southwest works.</div>\n<div>The alternative stop will be bus stop Canterbury Station, Canterbury Rd, Stand F (2193105) for the following services, including school services: </div>\n<ul>\n<li>N30 &ndash; Macarthur (night ride service)</li>\n<li>N40 &ndash; East Hills (night ride service)</li>\n</ul>\n</div>",
+    "subtitle": "Canterbury Station, Canterbury Rd, Stand G permanent closure",
+    "properties": {
+      "smsText": "Canterbury Station, Canterbury Rd, Stand G permanent closure",
+      "speechText": "From 5AM Monday 30 September, bus stop Canterbury Station, Canterbury Rd, Stand G will permanently close due to Sydney Metro Southwest works.\nThe alternative stop will be bus stop Canterbury Station, Canterbury Rd, Stand F for the following services, including school services:\nN30 – Macarthur (night ride service)\nN40 – East Hills (night ride service)",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:13N30: :H:",
+          "destination": {
+            "name": "Macarthur Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N30",
+          "number": "N30",
+          "description": "City Town Hall to Macarthur (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:13N30: :R:",
+          "destination": {
+            "name": "Town Hall Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N30",
+          "number": "N30",
+          "description": "Macarthur to City Town Hall (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:13N40: :H:",
+          "destination": {
+            "name": "East Hills Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N40",
+          "number": "N40",
+          "description": "City Town Hall to East Hills (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:13N40: :R:",
+          "destination": {
+            "name": "Town Hall Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N40",
+          "number": "N40",
+          "description": "East Hills to City Town Hall (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
           }
         }
       ]
@@ -16924,6 +16924,156 @@
           "operator": {
             "id": "701",
             "name": "train replacement bus operators"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-48477",
+    "version": 2989,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-03T03:20:00Z",
+      "lastModification": "2025-03-03T04:09:00Z",
+      "availability": {
+        "from": "2025-03-03T03:00:00Z",
+        "to": "2025-03-16T07:20:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-16T06:50:00Z",
+          "to": "2025-03-16T07:20:00Z"
+        }
+      ],
+      "expiration": "2025-03-16T07:20:59Z"
+    },
+    "urlText": "Parramatta bus diversions for NRL match",
+    "url": "https://transportnsw.info/alerts/details#/ems-48477",
+    "content": "<div>Road closures will be in place on sections of O&rsquo;Connell St, Ross St and Victoria Rd on Sunday 16 March for the NRL match at CommBank Stadium.</div>\n<div>&nbsp;</div>\n<div>The following bus stops will be closed and routes 546, 549, 550, 600, 601 and 606 will be diverting while the road closures are in place between approximately 5.50pm to 6.20pm.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Walk to nearby alternative stops, see the <a href=\"https://transportnsw.info/document/6076/CommBankStadium_EventRoadClosureMap_PLR.pdf\">road closure and transport map</a> for more details:</div>\n<ul>\n<li>Parramatta Leagues Club, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills and North West)</li>\n<li>Our Lady of Mercy College, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street at Fennell Street (for services towards Parramatta Station)</li>\n<li>Victoria Road after Villiers Street will be closed &ndash; alternative stop All Saints Anglican Church, Victoria Road (for services towards Parramatta Station)</li>\n<li>Victoria Road before Marist Place will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills, Epping and Macquarie Park)</li>\n</ul>\n<div>Check signs at stops and see the <a href=\"https://transportnsw.info/events/2025/03/nrl-panthers-v-roosters\">event page</a> for more info.</div>",
+    "subtitle": "Parramatta bus diversions for NRL match",
+    "properties": {
+      "smsText": "Parramatta bus diversions for NRL match",
+      "speechText": "Road closures will be in place on sections of O’Connell St, Ross St and Victoria Rd on Sunday 16 March for the NRL match at CommBank Stadium.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17546: :R:",
+          "destination": {
+            "name": "Epping Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 546",
+          "number": "546",
+          "description": "Parramatta to Epping via Oatlands & North Rocks",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17549: :R:",
+          "destination": {
+            "name": "Muirfield High School, Access Rd, Barclay Rd, North Rocks",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 549",
+          "number": "549",
+          "description": "Parramatta to Epping via North Rocks",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17550: :R:",
+          "destination": {
+            "name": "Macquarie Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 550",
+          "number": "550",
+          "description": "Parramatta to Macquarie Park via Epping",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:14600: :H:",
+          "destination": {
+            "name": "Hornsby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 600",
+          "number": "600",
+          "description": "Parramatta to Pennant Hills via Castle Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14601: :H:",
+          "destination": {
+            "name": "Rouse Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 601",
+          "number": "601",
+          "description": "Parramatta to Rouse Hill Station via Hills Showground",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14606: :H:",
+          "destination": {
+            "name": "Winston Hills Mall, Caroline Chisholm Dr, Winston Hills",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 606",
+          "number": "606",
+          "description": "Parramatta to Winston Hills",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
           }
         }
       ]
@@ -24835,156 +24985,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-48477",
-    "version": 2989,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-03T03:20:00Z",
-      "lastModification": "2025-03-03T04:09:00Z",
-      "availability": {
-        "from": "2025-03-03T03:00:00Z",
-        "to": "2025-03-16T07:20:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-16T06:50:00Z",
-          "to": "2025-03-16T07:20:00Z"
-        }
-      ],
-      "expiration": "2025-03-16T07:20:59Z"
-    },
-    "urlText": "Parramatta bus diversions for NRL match",
-    "url": "https://transportnsw.info/alerts/details#/ems-48477",
-    "content": "<div>Road closures will be in place on sections of O&rsquo;Connell St, Ross St and Victoria Rd on Sunday 16 March for the NRL match at CommBank Stadium.</div>\n<div>&nbsp;</div>\n<div>The following bus stops will be closed and routes 546, 549, 550, 600, 601 and 606 will be diverting while the road closures are in place between approximately 5.50pm to 6.20pm.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Walk to nearby alternative stops, see the <a href=\"https://transportnsw.info/document/6076/CommBankStadium_EventRoadClosureMap_PLR.pdf\">road closure and transport map</a> for more details:</div>\n<ul>\n<li>Parramatta Leagues Club, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills and North West)</li>\n<li>Our Lady of Mercy College, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street at Fennell Street (for services towards Parramatta Station)</li>\n<li>Victoria Road after Villiers Street will be closed &ndash; alternative stop All Saints Anglican Church, Victoria Road (for services towards Parramatta Station)</li>\n<li>Victoria Road before Marist Place will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills, Epping and Macquarie Park)</li>\n</ul>\n<div>Check signs at stops and see the <a href=\"https://transportnsw.info/events/2025/03/nrl-panthers-v-roosters\">event page</a> for more info.</div>",
-    "subtitle": "Parramatta bus diversions for NRL match",
-    "properties": {
-      "smsText": "Parramatta bus diversions for NRL match",
-      "speechText": "Road closures will be in place on sections of O’Connell St, Ross St and Victoria Rd on Sunday 16 March for the NRL match at CommBank Stadium.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17546: :R:",
-          "destination": {
-            "name": "Epping Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 546",
-          "number": "546",
-          "description": "Parramatta to Epping via Oatlands & North Rocks",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17549: :R:",
-          "destination": {
-            "name": "Muirfield High School, Access Rd, Barclay Rd, North Rocks",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 549",
-          "number": "549",
-          "description": "Parramatta to Epping via North Rocks",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17550: :R:",
-          "destination": {
-            "name": "Macquarie Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 550",
-          "number": "550",
-          "description": "Parramatta to Macquarie Park via Epping",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:14600: :H:",
-          "destination": {
-            "name": "Hornsby Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 600",
-          "number": "600",
-          "description": "Parramatta to Pennant Hills via Castle Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        },
-        {
-          "id": "nsw:14601: :H:",
-          "destination": {
-            "name": "Rouse Hill Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 601",
-          "number": "601",
-          "description": "Parramatta to Rouse Hill Station via Hills Showground",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        },
-        {
-          "id": "nsw:14606: :H:",
-          "destination": {
-            "name": "Winston Hills Mall, Caroline Chisholm Dr, Winston Hills",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 606",
-          "number": "606",
-          "description": "Parramatta to Winston Hills",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "ems-47122",
     "version": 303,
@@ -30302,6 +30302,99 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-48300",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-26T05:18:00Z",
+      "lastModification": "2025-02-26T05:18:00Z",
+      "availability": {
+        "from": "2025-02-25T18:00:00Z",
+        "to": "2025-03-14T18:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-02T18:00:00Z",
+          "to": "2025-03-14T18:00:00Z"
+        }
+      ],
+      "expiration": "2025-03-14T18:00:59Z"
+    },
+    "urlText": "Mulgoa Road M4 ramp temporary diversions",
+    "url": "https://transportnsw.info/alerts/details#/ems-48300",
+    "content": "<div><strong>From 5am Monday 3 March to 5am Saturday 15 March,&nbsp;</strong>temporary bus service changes are in place for the following routes due to the Mulgoa Road Upgrade.</div>\n<ul>\n<li><strong>Route 690P Springwood to Penrith</strong>&nbsp;will travel via the Great Western Highway (Lennox Centre) instead of Mulgoa Road/ M4 and will not stop at the following bus stops:\n<ul>\n<li>Mulgoa Rd before Willoring Cres (2750173)</li>\n<li>Mulgoa Rd opp Batt St (2750219)</li>\n<li>Mulgoa Rd after Stuart St (2750218)</li>\n<li>Mulgoa Rd after Batt St (2750155)</li>\n<li>Mulgoa Rd before Batt St (2750154)</li>\n<li>Mulgoa Rd after Preston St (2750153)</li>\n<li>Mulgoa Rd after Jamison Rd (2750152)<br /><br /></li>\n</ul>\n</li>\n<li><strong>Route 691 Penrith to Mount Riverview</strong> will not stop at the following bus stops:<br />\n<ul>\n<li>Mulgoa Rd after Batt St (2750155)</li>\n<li>Mulgoa Rd before Batt St (2750154)</li>\n<li>Mulgoa Rd after Preston St (2750153)</li>\n<li>Mulgoa Rd after Jamison Rd (2750152)</li>\n</ul>\n</li>\n</ul>",
+    "subtitle": "Mulgoa Road M4 ramp temporary diversions",
+    "properties": {
+      "smsText": "Mulgoa Road M4 ramp temporary diversions",
+      "speechText": "From 5AM Monday 3 March to 5AM Saturday 15 March, temporary bus service changes are in place for the following routes due to the Mulgoa Road Upgrade.\nRoute 690P Springwood to Penrith will travel via the Great Western Highway (Lennox Centre) instead of Mulgoa Road/ M4 and will miss stops.\nRoute 691 Penrith to Mount Riverview will miss stops.\nVisit Trip Planner at transportnsw.info to plan your trip.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:64690:P:R:",
+          "destination": {
+            "name": "Westfield Penrith, Riley St, Penrith",
+            "type": "stop"
+          },
+          "name": "Blue Mountains Buses Network 690P",
+          "number": "690P",
+          "description": "Springwood to Penrith",
+          "iconId": 4,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2454",
+            "name": "Blue Mountains Transit"
+          }
+        },
+        {
+          "id": "nsw:64691: :H:",
+          "destination": {
+            "name": "Blaxland Station",
+            "type": "stop"
+          },
+          "name": "Blue Mountains Buses Network 691",
+          "number": "691",
+          "description": "Penrith to Mount Riverview",
+          "iconId": 4,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2454",
+            "name": "Blue Mountains Transit"
+          }
+        },
+        {
+          "id": "nsw:64691: :R:",
+          "destination": {
+            "name": "Penrith Panthers Leagues Club, Panthers Pl, Penrith",
+            "type": "stop"
+          },
+          "name": "Blue Mountains Buses Network 691",
+          "number": "691",
+          "description": "Mount Riverview to Penrith",
+          "iconId": 4,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2454",
+            "name": "Blue Mountains Transit"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-47120",
     "version": 254,
@@ -30403,99 +30496,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-48300",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-26T05:18:00Z",
-      "lastModification": "2025-02-26T05:18:00Z",
-      "availability": {
-        "from": "2025-02-25T18:00:00Z",
-        "to": "2025-03-14T18:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-02T18:00:00Z",
-          "to": "2025-03-14T18:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-14T18:00:59Z"
-    },
-    "urlText": "Mulgoa Road M4 ramp temporary diversions",
-    "url": "https://transportnsw.info/alerts/details#/ems-48300",
-    "content": "<div><strong>From 5am Monday 3 March to 5am Saturday 15 March,&nbsp;</strong>temporary bus service changes are in place for the following routes due to the Mulgoa Road Upgrade.</div>\n<ul>\n<li><strong>Route 690P Springwood to Penrith</strong>&nbsp;will travel via the Great Western Highway (Lennox Centre) instead of Mulgoa Road/ M4 and will not stop at the following bus stops:\n<ul>\n<li>Mulgoa Rd before Willoring Cres (2750173)</li>\n<li>Mulgoa Rd opp Batt St (2750219)</li>\n<li>Mulgoa Rd after Stuart St (2750218)</li>\n<li>Mulgoa Rd after Batt St (2750155)</li>\n<li>Mulgoa Rd before Batt St (2750154)</li>\n<li>Mulgoa Rd after Preston St (2750153)</li>\n<li>Mulgoa Rd after Jamison Rd (2750152)<br /><br /></li>\n</ul>\n</li>\n<li><strong>Route 691 Penrith to Mount Riverview</strong> will not stop at the following bus stops:<br />\n<ul>\n<li>Mulgoa Rd after Batt St (2750155)</li>\n<li>Mulgoa Rd before Batt St (2750154)</li>\n<li>Mulgoa Rd after Preston St (2750153)</li>\n<li>Mulgoa Rd after Jamison Rd (2750152)</li>\n</ul>\n</li>\n</ul>",
-    "subtitle": "Mulgoa Road M4 ramp temporary diversions",
-    "properties": {
-      "smsText": "Mulgoa Road M4 ramp temporary diversions",
-      "speechText": "From 5AM Monday 3 March to 5AM Saturday 15 March, temporary bus service changes are in place for the following routes due to the Mulgoa Road Upgrade.\nRoute 690P Springwood to Penrith will travel via the Great Western Highway (Lennox Centre) instead of Mulgoa Road/ M4 and will miss stops.\nRoute 691 Penrith to Mount Riverview will miss stops.\nVisit Trip Planner at transportnsw.info to plan your trip.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:64690:P:R:",
-          "destination": {
-            "name": "Westfield Penrith, Riley St, Penrith",
-            "type": "stop"
-          },
-          "name": "Blue Mountains Buses Network 690P",
-          "number": "690P",
-          "description": "Springwood to Penrith",
-          "iconId": 4,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2454",
-            "name": "Blue Mountains Transit"
-          }
-        },
-        {
-          "id": "nsw:64691: :H:",
-          "destination": {
-            "name": "Blaxland Station",
-            "type": "stop"
-          },
-          "name": "Blue Mountains Buses Network 691",
-          "number": "691",
-          "description": "Penrith to Mount Riverview",
-          "iconId": 4,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2454",
-            "name": "Blue Mountains Transit"
-          }
-        },
-        {
-          "id": "nsw:64691: :R:",
-          "destination": {
-            "name": "Penrith Panthers Leagues Club, Panthers Pl, Penrith",
-            "type": "stop"
-          },
-          "name": "Blue Mountains Buses Network 691",
-          "number": "691",
-          "description": "Mount Riverview to Penrith",
-          "iconId": 4,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2454",
-            "name": "Blue Mountains Transit"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-48896",
     "version": 1,
     "priority": "normal",
@@ -30544,117 +30544,6 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-48473",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-03T03:09:00Z",
-      "lastModification": "2025-03-03T03:09:00Z",
-      "availability": {
-        "from": "2025-03-03T02:00:00Z",
-        "to": "2025-03-28T18:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-27T09:00:00Z",
-          "to": "2025-03-28T18:00:00Z"
-        }
-      ],
-      "expiration": "2025-03-28T18:00:59Z"
-    },
-    "urlText": "Lethbridge Park, Luxford Rd temporary bus stop closures",
-    "url": "https://transportnsw.info/alerts/details#/ems-48473",
-    "content": "<div><strong>Thursday 27 and Friday 28 March</strong></div>\n<ul>\n<li><strong>Each night from 8pm to 5am</strong>, route <strong>755</strong> &ndash; Mt Druitt to Plumpton Market Place and&nbsp;<strong>759</strong> &ndash; Mt Druitt to St Mary's services will divert via Apia Place and miss stops due to works on the&nbsp;Bougainville Rd intersection.</li>\n</ul>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Luxford Rd at Hawaii Ave (2770370)</li>\n<li>Luxford Rd at Bougainville Rd (2770368)</li>\n<li>Bougainville Rd at Luxford Rd (277011)<br /><br /></li>\n</ul>",
-    "subtitle": "Lethbridge Park, Luxford Rd temporary bus stop closures",
-    "properties": {
-      "smsText": "Lethbridge Park, Luxford Rd temporary bus stop closures",
-      "speechText": "Thursday 27 and Friday 28 March\nEach night from 8PM to 5AM, route 755 – Mt Druitt to Plumpton Market Place via Shalvey and 759 – Mt Druitt to St Mary's via Emerton, Willmot and Ropes Crossing services will miss stops due to works on the Bougainville Rd intersection.\nAffected stops:\nLuxford Rd at Hawaii Ave\nLuxford Rd at Bougainville Rd\nBougainville Rd at Luxford Rd",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G2770370#G2770368#G277011",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:11755: :R:",
-          "destination": {
-            "name": "Mount Druitt Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 755",
-          "number": "755",
-          "description": "Plumpton Marketplace to Mount Druitt",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          }
-        },
-        {
-          "id": "nsw:11759: :R:",
-          "destination": {
-            "name": "Mount Druitt Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 759",
-          "number": "759",
-          "description": "St Marys to Mount Druitt via Ropes Crossing",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "G2770370",
-          "isGlobalId": true,
-          "name": "Luxford Rd at Hawaii Ave",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308021:1",
-            "name": "Lethbridge Park",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G2770368",
-          "isGlobalId": true,
-          "name": "Luxford Rd at Bougainville Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308021:1",
-            "name": "Lethbridge Park",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G277011",
-          "isGlobalId": true,
-          "name": "Bougainville Rd at Luxford Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308021:1",
-            "name": "Lethbridge Park",
-            "type": "locality"
           }
         }
       ]
@@ -30766,6 +30655,117 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-48473",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-03T03:09:00Z",
+      "lastModification": "2025-03-03T03:09:00Z",
+      "availability": {
+        "from": "2025-03-03T02:00:00Z",
+        "to": "2025-03-28T18:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-27T09:00:00Z",
+          "to": "2025-03-28T18:00:00Z"
+        }
+      ],
+      "expiration": "2025-03-28T18:00:59Z"
+    },
+    "urlText": "Lethbridge Park, Luxford Rd temporary bus stop closures",
+    "url": "https://transportnsw.info/alerts/details#/ems-48473",
+    "content": "<div><strong>Thursday 27 and Friday 28 March</strong></div>\n<ul>\n<li><strong>Each night from 8pm to 5am</strong>, route <strong>755</strong> &ndash; Mt Druitt to Plumpton Market Place and&nbsp;<strong>759</strong> &ndash; Mt Druitt to St Mary's services will divert via Apia Place and miss stops due to works on the&nbsp;Bougainville Rd intersection.</li>\n</ul>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Luxford Rd at Hawaii Ave (2770370)</li>\n<li>Luxford Rd at Bougainville Rd (2770368)</li>\n<li>Bougainville Rd at Luxford Rd (277011)<br /><br /></li>\n</ul>",
+    "subtitle": "Lethbridge Park, Luxford Rd temporary bus stop closures",
+    "properties": {
+      "smsText": "Lethbridge Park, Luxford Rd temporary bus stop closures",
+      "speechText": "Thursday 27 and Friday 28 March\nEach night from 8PM to 5AM, route 755 – Mt Druitt to Plumpton Market Place via Shalvey and 759 – Mt Druitt to St Mary's via Emerton, Willmot and Ropes Crossing services will miss stops due to works on the Bougainville Rd intersection.\nAffected stops:\nLuxford Rd at Hawaii Ave\nLuxford Rd at Bougainville Rd\nBougainville Rd at Luxford Rd",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G2770370#G2770368#G277011",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:11755: :R:",
+          "destination": {
+            "name": "Mount Druitt Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 755",
+          "number": "755",
+          "description": "Plumpton Marketplace to Mount Druitt",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11759: :R:",
+          "destination": {
+            "name": "Mount Druitt Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 759",
+          "number": "759",
+          "description": "St Marys to Mount Druitt via Ropes Crossing",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G2770370",
+          "isGlobalId": true,
+          "name": "Luxford Rd at Hawaii Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308021:1",
+            "name": "Lethbridge Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2770368",
+          "isGlobalId": true,
+          "name": "Luxford Rd at Bougainville Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308021:1",
+            "name": "Lethbridge Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G277011",
+          "isGlobalId": true,
+          "name": "Bougainville Rd at Luxford Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308021:1",
+            "name": "Lethbridge Park",
+            "type": "locality"
           }
         }
       ]
@@ -35981,61 +35981,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-48879",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-10T21:20:00Z",
-      "lastModification": "2025-03-10T21:20:00Z",
-      "availability": {
-        "from": "2025-03-10T21:19:00Z",
-        "to": "2025-03-11T11:19:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-10T21:19:00Z",
-          "to": "2025-03-11T11:19:00Z"
-        }
-      ],
-      "expiration": "2025-03-11T11:19:59Z"
-    },
-    "urlText": "Train service delays between Melbourne (Southern Cross) Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-48879",
-    "content": "There are delays on route 624 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Melbourne (Southern Cross) Station and Central Station",
-    "properties": {
-      "smsText": "Train service delays between Melbourne (Southern Cross) Station and Central Station",
-      "speechText": "There are delays on route 624 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-48739",
     "version": 315717,
     "priority": "normal",
@@ -36419,201 +36364,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-17435",
-    "version": 1669,
-    "priority": "veryLow",
-    "timestamps": {
-      "creation": "2023-05-23T04:18:00Z",
-      "lastModification": "2023-05-23T04:46:00Z",
-      "availability": {
-        "from": "2021-11-21T20:59:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2023-05-23T03:18:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "<a href=\"https://transportnsw.info/document/5200/pt596-isolated_communities_bus_services-wyangala_canberra.pdf\" target=\"_blank\">Book your seat with Live Better Services</a>",
-    "url": "https://transportnsw.info/alerts/details#/ems-17435",
-    "content": "<div>&nbsp;&nbsp;</div>",
-    "subtitle": "<a href=\"https://transportnsw.info/document/5200/pt596-isolated_communities_bus_services-wyangala_canberra.pdf\" target=\"_blank\">Book your seat with Live Better Services</a>",
-    "properties": {
-      "smsText": "<a href=\"https://transportnsw.info/document/5200/pt596-isolated_communities_bus_services-wyangala_canberra.pdf\" target=\"_blank\">Book your seat with Live Better Services</a>",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:08899: :H:",
-          "destination": {
-            "name": "Wyangala Dam Public School, Blue Mantle Rd, Wyangala",
-            "type": "stop"
-          },
-          "name": "Private bus services 899",
-          "number": "899",
-          "description": "Canberra to Wyangala",
-          "iconId": 9,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "IC03",
-            "name": "Live Better"
-          }
-        },
-        {
-          "id": "nsw:08899: :R:",
-          "destination": {
-            "name": "Canberra Hospital Yamba Dr, Garran (ACT)",
-            "type": "stop"
-          },
-          "name": "Private bus services 899",
-          "number": "899",
-          "description": "Wyangala to Canberra",
-          "iconId": 9,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "IC03",
-            "name": "Live Better"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-44644",
-    "version": 72,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-12-17T04:38:00Z",
-      "lastModification": "2024-12-17T04:39:00Z",
-      "availability": {
-        "from": "2024-12-16T19:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-12-17T19:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Bus diversions at Sydney Olympic Park",
-    "url": "https://transportnsw.info/alerts/details#/ems-44644",
-    "content": "<div>From 6am, Wednesday 18 December 2024, <strong>route 526</strong> bus services will be diverted due to road closures. Dawn Fraser Avenue (between Park Street and Edwin Flack Avenue) will be fully closed in both directions.</div>\n<div>&nbsp;</div>\n<div><strong>Closed stops:</strong></div>\n<ul>\n<li>Sydney Olympic Park, Olympic Park Station (Stop ID&nbsp;212791)</li>\n<li>Olympic Park Station, Dawn Fraser Av (Stop ID&nbsp;212792)</li>\n<li>Dawn Fraser Ave after Edwin Flack Ave (Stop ID&nbsp;212787)</li>\n<li>Dawn Fraser Ave before Edwin Flack Ave (Stop ID 212788)</li>\n</ul>",
-    "subtitle": "Bus diversions at Sydney Olympic Park",
-    "properties": {
-      "smsText": "Bus diversions at Sydney Olympic Park",
-      "speechText": "From 6am, Wednesday 18 December 2024, route 526 bus services will be diverted due to road closures. Dawn Fraser Avenue (between Park Street and Edwin Flack Avenue) will be fully closed in both directions.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "212710#212710#G212787#G212788",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74526: :R:",
-          "destination": {
-            "name": "Concord High School, Stanley St, Concord",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 526",
-          "number": "526",
-          "description": "Rhodes Shopping Centre to Strathfield",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74526: :H:",
-          "destination": {
-            "name": "Rhodes Waterside, Rider Bvd, Rhodes",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 526",
-          "number": "526",
-          "description": "Strathfield to Rhodes Shopping Centre",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "212710",
-          "isGlobalId": true,
-          "name": "Olympic Park Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304009:1",
-            "name": "Sydney Olympic Park",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "212710",
-          "isGlobalId": true,
-          "name": "Olympic Park Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304009:1",
-            "name": "Sydney Olympic Park",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G212787",
-          "isGlobalId": true,
-          "name": "Dawn Fraser Ave after Edwin Flack Ave",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304009:1",
-            "name": "Sydney Olympic Park",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G212788",
-          "isGlobalId": true,
-          "name": "Dawn Fraser Ave before Edwin Flack Ave",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304009:1",
-            "name": "Sydney Olympic Park",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-48557",
     "version": 1,
     "priority": "normal",
@@ -36898,6 +36648,201 @@
           "parent": {
             "id": "placeID:95366063:1",
             "name": "Wollongong",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-17435",
+    "version": 1669,
+    "priority": "veryLow",
+    "timestamps": {
+      "creation": "2023-05-23T04:18:00Z",
+      "lastModification": "2023-05-23T04:46:00Z",
+      "availability": {
+        "from": "2021-11-21T20:59:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2023-05-23T03:18:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "<a href=\"https://transportnsw.info/document/5200/pt596-isolated_communities_bus_services-wyangala_canberra.pdf\" target=\"_blank\">Book your seat with Live Better Services</a>",
+    "url": "https://transportnsw.info/alerts/details#/ems-17435",
+    "content": "<div>&nbsp;&nbsp;</div>",
+    "subtitle": "<a href=\"https://transportnsw.info/document/5200/pt596-isolated_communities_bus_services-wyangala_canberra.pdf\" target=\"_blank\">Book your seat with Live Better Services</a>",
+    "properties": {
+      "smsText": "<a href=\"https://transportnsw.info/document/5200/pt596-isolated_communities_bus_services-wyangala_canberra.pdf\" target=\"_blank\">Book your seat with Live Better Services</a>",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:08899: :H:",
+          "destination": {
+            "name": "Wyangala Dam Public School, Blue Mantle Rd, Wyangala",
+            "type": "stop"
+          },
+          "name": "Private bus services 899",
+          "number": "899",
+          "description": "Canberra to Wyangala",
+          "iconId": 9,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "IC03",
+            "name": "Live Better"
+          }
+        },
+        {
+          "id": "nsw:08899: :R:",
+          "destination": {
+            "name": "Canberra Hospital Yamba Dr, Garran (ACT)",
+            "type": "stop"
+          },
+          "name": "Private bus services 899",
+          "number": "899",
+          "description": "Wyangala to Canberra",
+          "iconId": 9,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "IC03",
+            "name": "Live Better"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "stopInfo",
+    "id": "ems-44644",
+    "version": 72,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-12-17T04:38:00Z",
+      "lastModification": "2024-12-17T04:39:00Z",
+      "availability": {
+        "from": "2024-12-16T19:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-12-17T19:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Bus diversions at Sydney Olympic Park",
+    "url": "https://transportnsw.info/alerts/details#/ems-44644",
+    "content": "<div>From 6am, Wednesday 18 December 2024, <strong>route 526</strong> bus services will be diverted due to road closures. Dawn Fraser Avenue (between Park Street and Edwin Flack Avenue) will be fully closed in both directions.</div>\n<div>&nbsp;</div>\n<div><strong>Closed stops:</strong></div>\n<ul>\n<li>Sydney Olympic Park, Olympic Park Station (Stop ID&nbsp;212791)</li>\n<li>Olympic Park Station, Dawn Fraser Av (Stop ID&nbsp;212792)</li>\n<li>Dawn Fraser Ave after Edwin Flack Ave (Stop ID&nbsp;212787)</li>\n<li>Dawn Fraser Ave before Edwin Flack Ave (Stop ID 212788)</li>\n</ul>",
+    "subtitle": "Bus diversions at Sydney Olympic Park",
+    "properties": {
+      "smsText": "Bus diversions at Sydney Olympic Park",
+      "speechText": "From 6am, Wednesday 18 December 2024, route 526 bus services will be diverted due to road closures. Dawn Fraser Avenue (between Park Street and Edwin Flack Avenue) will be fully closed in both directions.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "212710#212710#G212787#G212788",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74526: :R:",
+          "destination": {
+            "name": "Concord High School, Stanley St, Concord",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 526",
+          "number": "526",
+          "description": "Rhodes Shopping Centre to Strathfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74526: :H:",
+          "destination": {
+            "name": "Rhodes Waterside, Rider Bvd, Rhodes",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 526",
+          "number": "526",
+          "description": "Strathfield to Rhodes Shopping Centre",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "212710",
+          "isGlobalId": true,
+          "name": "Olympic Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "212710",
+          "isGlobalId": true,
+          "name": "Olympic Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G212787",
+          "isGlobalId": true,
+          "name": "Dawn Fraser Ave after Edwin Flack Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G212788",
+          "isGlobalId": true,
+          "name": "Dawn Fraser Ave before Edwin Flack Ave",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304009:1",
+            "name": "Sydney Olympic Park",
             "type": "locality"
           }
         }
