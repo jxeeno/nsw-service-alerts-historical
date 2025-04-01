@@ -6087,6 +6087,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-49975",
+    "version": 3706,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-04-01T01:52:00Z",
+      "lastModification": "2025-04-01T02:54:00Z",
+      "availability": {
+        "from": "2025-04-01T01:52:00Z",
+        "to": "2025-04-01T11:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-04-01T01:52:00Z",
+          "to": "2025-04-01T11:30:00Z"
+        }
+      ],
+      "expiration": "2025-04-01T11:30:59Z"
+    },
+    "urlText": "Train service delays at Ivanhoe Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-49975",
+    "content": "There are delays on route 446 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Ivanhoe Station",
+    "properties": {
+      "smsText": "Train service delays at Ivanhoe Station",
+      "speechText": "There are delays on route 446 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76446: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 446",
+          "number": "446",
+          "description": "Broken Hill to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-49928",
     "version": 1,
     "priority": "normal",
@@ -7202,31 +7257,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-49975",
-    "version": 3706,
+    "id": "ems-49986",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-04-01T01:52:00Z",
-      "lastModification": "2025-04-01T02:54:00Z",
+      "creation": "2025-04-01T02:49:00Z",
+      "lastModification": "2025-04-01T02:49:00Z",
       "availability": {
-        "from": "2025-04-01T01:52:00Z",
-        "to": "2025-04-01T11:30:00Z"
+        "from": "2025-04-01T02:00:00Z",
+        "to": "2025-04-01T12:05:00Z"
       },
       "validity": [
         {
-          "from": "2025-04-01T01:52:00Z",
-          "to": "2025-04-01T11:30:00Z"
+          "from": "2025-04-01T03:00:00Z",
+          "to": "2025-04-01T12:05:00Z"
         }
       ],
-      "expiration": "2025-04-01T11:30:59Z"
+      "expiration": "2025-04-01T12:05:59Z"
     },
-    "urlText": "Train service delays at Ivanhoe Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-49975",
-    "content": "There are delays on route 446 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Ivanhoe Station",
+    "urlText": "Ferry Maintenance",
+    "url": "https://transportnsw.info/alerts/details#/ems-49986",
+    "content": "<div>\n<div><strong>Tuesday 1 April</strong></div>\n<div><br />Buses will replace ferry services from 10pm until 11.05pm due to maintenance.</div>\n<div>&nbsp;</div>\n<div>Buses will depart every 30 minutes from Stockton and Queens Wharf from 10pm.</div>\n<div>&nbsp;</div>\n<div>Please allow additional travel time.</div>\n<div>&nbsp;</div>\n<div>Visit <a href=\"https://newcastletransport.info\">newcastletransport.info</a> for more information.</div>\n</div>",
+    "subtitle": "Ferry Maintenance",
     "properties": {
-      "smsText": "Train service delays at Ivanhoe Station",
-      "speechText": "There are delays on route 446 train services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+      "smsText": "Ferry Maintenance",
+      "speechText": "Tuesday 1 April Buses will replace ferry services from 10 PM until 11 O 5 PM due to maintenance.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -7234,22 +7289,115 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76446: :R:",
+          "id": "nsw:73Stk:n:R:",
           "destination": {
-            "name": "Central Station",
+            "name": "Queens Wharf, Newcastle",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 446",
-          "number": "446",
-          "description": "Broken Hill to Central",
-          "iconId": 3,
+          "name": "Newcastle Ferries Stkn Stockton Ferry",
+          "number": "Stkn Stockton Ferry",
+          "description": "Stockton to Newcastle Ferry",
+          "iconId": 11,
           "product": {
-            "class": 1,
-            "iconId": 1
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        },
+        {
+          "id": "nsw:73Stk:n:H:",
+          "destination": {
+            "name": "Stockton Wharf, Newcastle",
+            "type": "stop"
+          },
+          "name": "Newcastle Ferries Stkn Stockton Ferry",
+          "number": "Stkn Stockton Ferry",
+          "description": "Newcastle to Stockton Ferry",
+          "iconId": 11,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "3000",
+            "name": "Newcastle Transport"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-46966",
+    "version": 3047085,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-29T22:12:00Z",
+      "lastModification": "2025-03-06T04:36:00Z",
+      "availability": {
+        "from": "2025-03-16T13:01:00Z",
+        "to": "2025-04-04T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-30T13:01:00Z",
+          "to": "2025-04-04T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-04-04T13:00:59Z"
+    },
+    "urlText": "Birchgrove Wharf temporary closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-46966",
+    "content": "<div><strong>Monday 31 March to Friday 4 April</strong></div>\n<ul>\n<li>Birchgrove Wharf will be closed temporarily for maintenance.</li>\n<li>If you&rsquo;re travelling to the city, catch bus Route <strong>441</strong> from Grove Street.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> for real time up-to-date information.</li>\n</ul>",
+    "subtitle": "Birchgrove Wharf temporary closure",
+    "properties": {
+      "smsText": "Birchgrove Wharf temporary closure",
+      "speechText": "Monday 31 March to Friday 4 April\nBirchgrove Wharf will be closed temporarily for maintenance.\nIf you’re travelling to the city, catch bus Route 441 from Grove Street.\nPlan your trip at transportnsw.info for real time up-to-date information.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F8: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F8 Cockatoo Island",
+          "number": "F8 Cockatoo Island",
+          "description": "Cockatoo Island to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F8: :H:",
+          "destination": {
+            "name": "Cockatoo Island Wharf, Woolwich",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F8 Cockatoo Island",
+          "number": "F8 Cockatoo Island",
+          "description": "Circular Quay to Cockatoo Island",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
           }
         }
       ]
@@ -10100,154 +10248,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-49986",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-04-01T02:49:00Z",
-      "lastModification": "2025-04-01T02:49:00Z",
-      "availability": {
-        "from": "2025-04-01T02:00:00Z",
-        "to": "2025-04-01T12:05:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-04-01T03:00:00Z",
-          "to": "2025-04-01T12:05:00Z"
-        }
-      ],
-      "expiration": "2025-04-01T12:05:59Z"
-    },
-    "urlText": "Ferry Maintenance",
-    "url": "https://transportnsw.info/alerts/details#/ems-49986",
-    "content": "<div>\n<div><strong>Tuesday 1 April</strong></div>\n<div><br />Buses will replace ferry services from 10pm until 11.05pm due to maintenance.</div>\n<div>&nbsp;</div>\n<div>Buses will depart every 30 minutes from Stockton and Queens Wharf from 10pm.</div>\n<div>&nbsp;</div>\n<div>Please allow additional travel time.</div>\n<div>&nbsp;</div>\n<div>Visit <a href=\"https://newcastletransport.info\">newcastletransport.info</a> for more information.</div>\n</div>",
-    "subtitle": "Ferry Maintenance",
-    "properties": {
-      "smsText": "Ferry Maintenance",
-      "speechText": "Tuesday 1 April Buses will replace ferry services from 10 PM until 11 O 5 PM due to maintenance.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:73Stk:n:R:",
-          "destination": {
-            "name": "Queens Wharf, Newcastle",
-            "type": "stop"
-          },
-          "name": "Newcastle Ferries Stkn Stockton Ferry",
-          "number": "Stkn Stockton Ferry",
-          "description": "Stockton to Newcastle Ferry",
-          "iconId": 11,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        },
-        {
-          "id": "nsw:73Stk:n:H:",
-          "destination": {
-            "name": "Stockton Wharf, Newcastle",
-            "type": "stop"
-          },
-          "name": "Newcastle Ferries Stkn Stockton Ferry",
-          "number": "Stkn Stockton Ferry",
-          "description": "Newcastle to Stockton Ferry",
-          "iconId": 11,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-46966",
-    "version": 3047085,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-29T22:12:00Z",
-      "lastModification": "2025-03-06T04:36:00Z",
-      "availability": {
-        "from": "2025-03-16T13:01:00Z",
-        "to": "2025-04-04T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-30T13:01:00Z",
-          "to": "2025-04-04T13:00:00Z"
-        }
-      ],
-      "expiration": "2025-04-04T13:00:59Z"
-    },
-    "urlText": "Birchgrove Wharf temporary closure",
-    "url": "https://transportnsw.info/alerts/details#/ems-46966",
-    "content": "<div><strong>Monday 31 March to Friday 4 April</strong></div>\n<ul>\n<li>Birchgrove Wharf will be closed temporarily for maintenance.</li>\n<li>If you&rsquo;re travelling to the city, catch bus Route <strong>441</strong> from Grove Street.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> for real time up-to-date information.</li>\n</ul>",
-    "subtitle": "Birchgrove Wharf temporary closure",
-    "properties": {
-      "smsText": "Birchgrove Wharf temporary closure",
-      "speechText": "Monday 31 March to Friday 4 April\nBirchgrove Wharf will be closed temporarily for maintenance.\nIf you’re travelling to the city, catch bus Route 441 from Grove Street.\nPlan your trip at transportnsw.info for real time up-to-date information.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:090F8: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F8 Cockatoo Island",
-          "number": "F8 Cockatoo Island",
-          "description": "Cockatoo Island to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F8: :H:",
-          "destination": {
-            "name": "Cockatoo Island Wharf, Woolwich",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F8 Cockatoo Island",
-          "number": "F8 Cockatoo Island",
-          "description": "Circular Quay to Cockatoo Island",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-47138",
     "version": 59014,
     "priority": "normal",
@@ -11627,6 +11627,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-49278",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-18T04:40:00Z",
+      "lastModification": "2025-03-18T04:40:00Z",
+      "availability": {
+        "from": "2025-03-17T21:00:00Z",
+        "to": "2025-04-05T12:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-04-04T21:00:00Z",
+          "to": "2025-04-05T12:30:00Z"
+        }
+      ],
+      "expiration": "2025-04-05T12:30:59Z"
+    },
+    "urlText": "Surry Hills bus diversions for Sydney Streets event",
+    "url": "https://transportnsw.info/alerts/details#/ems-49278",
+    "content": "<div>From 8am until 11.30pm on Saturday 5 April route 304 services will be diverting around Crown St and missing stops between Albion St and Cleveland St while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event in Surry Hills.</div>\n<div>&nbsp;</div>\n<div>Services towards Bondi Junction will be diverting via Cleveland St, South Dowling St, Fitzroy St and Foveaux St.</div>\n<div>&nbsp;</div>\n<div>Services towards Marrickville will be diverting via Albion St, Flinders St, South Dowling St and Cleveland St.</div>\n<div>&nbsp;</div>\n<div>Use alternative stops further along Crown St or Cleveland St. Check signs at bus stops for alternative stop locations.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Crown St at Miles St (201021)</li>\n<li>Crown St opp Rainford St &nbsp; (201022)</li>\n<li>Crown St before Foveaux St (201023)</li>\n<li>Crown St opp Lansdowne St (201098)</li>\n<li>Crown St at Rainford St (201092)</li>\n<li>Shannon Reserve, Crown St (201093)</li>\n</ul>",
+    "subtitle": "Surry Hills bus diversions for Sydney Streets event",
+    "properties": {
+      "smsText": "Surry Hills bus diversions for Sydney Streets event",
+      "speechText": "From 8 AM until 11 30 PM on Saturday 5 April route 3 O 4 services will be diverting around Crown St and missing stops between Albion St and Cleveland St while road closures are in place for the City of Sydney’s Sydney Streets event in Surry Hills.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:30352: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 352",
+          "number": "352",
+          "description": "Marrickville Metro to Bondi Junction via Oxford St, Crown St & King St",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-49504",
     "version": 1,
     "priority": "normal",
@@ -12315,61 +12370,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-49278",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-18T04:40:00Z",
-      "lastModification": "2025-03-18T04:40:00Z",
-      "availability": {
-        "from": "2025-03-17T21:00:00Z",
-        "to": "2025-04-05T12:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-04-04T21:00:00Z",
-          "to": "2025-04-05T12:30:00Z"
-        }
-      ],
-      "expiration": "2025-04-05T12:30:59Z"
-    },
-    "urlText": "Surry Hills bus diversions for Sydney Streets event",
-    "url": "https://transportnsw.info/alerts/details#/ems-49278",
-    "content": "<div>From 8am until 11.30pm on Saturday 5 April route 304 services will be diverting around Crown St and missing stops between Albion St and Cleveland St while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event in Surry Hills.</div>\n<div>&nbsp;</div>\n<div>Services towards Bondi Junction will be diverting via Cleveland St, South Dowling St, Fitzroy St and Foveaux St.</div>\n<div>&nbsp;</div>\n<div>Services towards Marrickville will be diverting via Albion St, Flinders St, South Dowling St and Cleveland St.</div>\n<div>&nbsp;</div>\n<div>Use alternative stops further along Crown St or Cleveland St. Check signs at bus stops for alternative stop locations.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Crown St at Miles St (201021)</li>\n<li>Crown St opp Rainford St &nbsp; (201022)</li>\n<li>Crown St before Foveaux St (201023)</li>\n<li>Crown St opp Lansdowne St (201098)</li>\n<li>Crown St at Rainford St (201092)</li>\n<li>Shannon Reserve, Crown St (201093)</li>\n</ul>",
-    "subtitle": "Surry Hills bus diversions for Sydney Streets event",
-    "properties": {
-      "smsText": "Surry Hills bus diversions for Sydney Streets event",
-      "speechText": "From 8 AM until 11 30 PM on Saturday 5 April route 3 O 4 services will be diverting around Crown St and missing stops between Albion St and Cleveland St while road closures are in place for the City of Sydney’s Sydney Streets event in Surry Hills.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:30352: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 352",
-          "number": "352",
-          "description": "Marrickville Metro to Bondi Junction via Oxford St, Crown St & King St",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "41b8d2d43725d5ab2b89430e434aeb382569c288",
     "version": 1627067,
@@ -12453,6 +12453,61 @@
             "id": "placeID:95351003:1",
             "name": "Bardwell Park",
             "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-49979",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-04-01T02:39:00Z",
+      "lastModification": "2025-04-01T02:39:00Z",
+      "availability": {
+        "from": "2025-04-01T02:37:00Z",
+        "to": "2025-04-01T10:37:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-04-01T02:37:00Z",
+          "to": "2025-04-01T10:37:00Z"
+        }
+      ],
+      "expiration": "2025-04-01T10:37:59Z"
+    },
+    "urlText": "Train service delays between Taree Station and Kendall Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-49979",
+    "content": "There are delays on route 33 train services due to urgent signal repairs. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Taree Station and Kendall Station",
+    "properties": {
+      "smsText": "Train service delays between Taree Station and Kendall Station",
+      "speechText": "There are delays on route 33 train services due to urgent signal repairs. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
           }
         }
       ]
@@ -14405,61 +14460,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-49979",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-04-01T02:39:00Z",
-      "lastModification": "2025-04-01T02:39:00Z",
-      "availability": {
-        "from": "2025-04-01T02:37:00Z",
-        "to": "2025-04-01T10:37:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-04-01T02:37:00Z",
-          "to": "2025-04-01T10:37:00Z"
-        }
-      ],
-      "expiration": "2025-04-01T10:37:59Z"
-    },
-    "urlText": "Train service delays between Taree Station and Kendall Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-49979",
-    "content": "There are delays on route 33 train services due to urgent signal repairs. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Taree Station and Kendall Station",
-    "properties": {
-      "smsText": "Train service delays between Taree Station and Kendall Station",
-      "speechText": "There are delays on route 33 train services due to urgent signal repairs. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76033: :H:",
-          "destination": {
-            "name": "Casino Station, Casino",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 33",
-          "number": "33",
-          "description": "Central to Casino",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-49994",
     "version": 1,
     "priority": "normal",
@@ -14527,6 +14527,61 @@
           "operator": {
             "id": "2459",
             "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-49912",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-31T19:33:00Z",
+      "lastModification": "2025-03-31T19:33:00Z",
+      "availability": {
+        "from": "2025-03-31T19:32:00Z",
+        "to": "2025-04-01T11:32:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-31T19:32:00Z",
+          "to": "2025-04-01T11:32:00Z"
+        }
+      ],
+      "expiration": "2025-04-01T11:32:59Z"
+    },
+    "urlText": "Train service delays at Brisbane (Roma Street) Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-49912",
+    "content": "There are delays on route 32 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Brisbane (Roma Street) Station",
+    "properties": {
+      "smsText": "Train service delays at Brisbane (Roma Street) Station",
+      "speechText": "There are delays on route 32 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
           }
         }
       ]
@@ -18552,61 +18607,6 @@
           "product": {
             "class": 7,
             "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-49912",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-31T19:33:00Z",
-      "lastModification": "2025-03-31T19:33:00Z",
-      "availability": {
-        "from": "2025-03-31T19:32:00Z",
-        "to": "2025-04-01T11:32:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-31T19:32:00Z",
-          "to": "2025-04-01T11:32:00Z"
-        }
-      ],
-      "expiration": "2025-04-01T11:32:59Z"
-    },
-    "urlText": "Train service delays at Brisbane (Roma Street) Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-49912",
-    "content": "There are delays on route 32 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Brisbane (Roma Street) Station",
-    "properties": {
-      "smsText": "Train service delays at Brisbane (Roma Street) Station",
-      "speechText": "There are delays on route 32 train services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "iconId": 3,
-          "product": {
-            "class": 1,
-            "iconId": 1
           },
           "operator": {
             "id": "711",
@@ -23467,153 +23467,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-195",
-    "version": 94955904,
-    "priority": "veryLow",
-    "timestamps": {
-      "creation": "2021-11-21T23:21:00Z",
-      "lastModification": "2024-11-24T23:59:00Z",
-      "availability": {
-        "from": "2021-11-21T23:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-21T23:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Restrictions may apply - confirm when booking",
-    "url": "https://transportnsw.info/alerts/details#/ems-195",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Restrictions may apply - confirm when booking",
-    "properties": {
-      "smsText": "Restrictions may apply - confirm when booking",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76752: :R:",
-          "destination": {
-            "name": "Moss Vale Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 752",
-          "number": "752",
-          "description": "Wollongong to Moss Vale",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        },
-        {
-          "id": "nsw:76754: :R:",
-          "destination": {
-            "name": "Moss Vale Station",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 754",
-          "number": "754",
-          "description": "Wollongong to Moss Vale",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-11535",
-    "version": 1,
-    "priority": "veryLow",
-    "timestamps": {
-      "creation": "2022-12-21T01:30:00Z",
-      "lastModification": "2022-12-21T01:30:00Z",
-      "availability": {
-        "from": "2022-12-21T01:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2022-12-21T01:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Notice of accessible access is required for the coach service",
-    "url": "https://transportnsw.info/alerts/details#/ems-11535",
-    "content": "<div>Please contact Fenton&rsquo;s Bus Service on <a href=\"tel:0263361687\">02 6336 1687</a> or <a href=\"tel:0413001687\">0413 001 687</a> to confirm details.</div>",
-    "subtitle": "Notice of accessible access is required for the coach service",
-    "properties": {
-      "smsText": "Notice of accessible access is required for the coach service",
-      "speechText": "Notice of accessible access is required for the coach service",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:08598: :R:",
-          "destination": {
-            "name": "Tarana Station, Tarana",
-            "type": "stop"
-          },
-          "name": "Private bus services 598",
-          "number": "598",
-          "description": "Oberon to Tarana",
-          "iconId": 9,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5503",
-            "name": "Fenton's Bus Service"
-          }
-        },
-        {
-          "id": "nsw:08598: :H:",
-          "destination": {
-            "name": "Oberon Coach Stop, Oberon",
-            "type": "stop"
-          },
-          "name": "Private bus services 598",
-          "number": "598",
-          "description": "Tarana to Oberon",
-          "iconId": 9,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "5503",
-            "name": "Fenton's Bus Service"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-49916",
     "version": 31,
     "priority": "low",
@@ -23988,6 +23841,153 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-195",
+    "version": 94955904,
+    "priority": "veryLow",
+    "timestamps": {
+      "creation": "2021-11-21T23:21:00Z",
+      "lastModification": "2024-11-24T23:59:00Z",
+      "availability": {
+        "from": "2021-11-21T23:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-21T23:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Restrictions may apply - confirm when booking",
+    "url": "https://transportnsw.info/alerts/details#/ems-195",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Restrictions may apply - confirm when booking",
+    "properties": {
+      "smsText": "Restrictions may apply - confirm when booking",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76752: :R:",
+          "destination": {
+            "name": "Moss Vale Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 752",
+          "number": "752",
+          "description": "Wollongong to Moss Vale",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        },
+        {
+          "id": "nsw:76754: :R:",
+          "destination": {
+            "name": "Moss Vale Station",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 754",
+          "number": "754",
+          "description": "Wollongong to Moss Vale",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-11535",
+    "version": 1,
+    "priority": "veryLow",
+    "timestamps": {
+      "creation": "2022-12-21T01:30:00Z",
+      "lastModification": "2022-12-21T01:30:00Z",
+      "availability": {
+        "from": "2022-12-21T01:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2022-12-21T01:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Notice of accessible access is required for the coach service",
+    "url": "https://transportnsw.info/alerts/details#/ems-11535",
+    "content": "<div>Please contact Fenton&rsquo;s Bus Service on <a href=\"tel:0263361687\">02 6336 1687</a> or <a href=\"tel:0413001687\">0413 001 687</a> to confirm details.</div>",
+    "subtitle": "Notice of accessible access is required for the coach service",
+    "properties": {
+      "smsText": "Notice of accessible access is required for the coach service",
+      "speechText": "Notice of accessible access is required for the coach service",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:08598: :R:",
+          "destination": {
+            "name": "Tarana Station, Tarana",
+            "type": "stop"
+          },
+          "name": "Private bus services 598",
+          "number": "598",
+          "description": "Oberon to Tarana",
+          "iconId": 9,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5503",
+            "name": "Fenton's Bus Service"
+          }
+        },
+        {
+          "id": "nsw:08598: :H:",
+          "destination": {
+            "name": "Oberon Coach Stop, Oberon",
+            "type": "stop"
+          },
+          "name": "Private bus services 598",
+          "number": "598",
+          "description": "Tarana to Oberon",
+          "iconId": 9,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "5503",
+            "name": "Fenton's Bus Service"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-47813",
     "version": 186379,
     "priority": "normal",
@@ -24055,6 +24055,175 @@
           "operator": {
             "id": "2504",
             "name": "CDC NSW R4"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-49731",
+    "version": 347339,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-27T19:14:00Z",
+      "lastModification": "2025-03-31T19:43:00Z",
+      "availability": {
+        "from": "2025-03-04T20:34:00Z",
+        "to": "2025-04-01T08:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-03-27T19:14:00Z",
+          "to": "2025-04-01T08:00:00Z"
+        }
+      ],
+      "expiration": "2025-04-01T08:00:59Z"
+    },
+    "urlText": "Diversions in Clontarf",
+    "url": "https://transportnsw.info/alerts/details#/ems-49731",
+    "content": "<div>Buses are diverting away from part of Woodland Street South, Alma Street, Moore Street and Beatrice Street due to roadwork.</div>\n<ul>\n<li>Buses are using Ernest Street, Lewis Street and Abbott Street instead.</li>\n<li>10 stops are being missed.</li>\n</ul>",
+    "subtitle": "Diversions in Clontarf",
+    "properties": {
+      "smsText": "Diversions in Clontarf",
+      "speechText": "In Clontarf, buses are diverting away from part of Woodland Street South, Alma Street, Moore Street and Beatrice Street due to roadwork. Buses are using Ernest Street, Lewis Street and Abbott Street instead and 10 stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:29162: :R:",
+          "destination": {
+            "name": "Manly Wharf, West Esplanade, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 162",
+          "number": "162",
+          "description": "Seaforth to Manly",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29162: :H:",
+          "destination": {
+            "name": "Sydney Rd opp Kempbridge Ave, Seaforth",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 162",
+          "number": "162",
+          "description": "Manly to Seaforth",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29171:X:H:",
+          "destination": {
+            "name": "Sydney Rd at Condamine St, Balgowlah",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 171X",
+          "number": "171X",
+          "description": "City Wynyard to Balgowlah via Clontarf (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29171:X:R:",
+          "destination": {
+            "name": "Wynyard Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 171X",
+          "number": "171X",
+          "description": "Balgowlah to City Wynyard via Clontarf (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29610:N:H:",
+          "destination": {
+            "name": "Seaforth Public School, Frenchs Forest Rd, Seaforth",
+            "type": "stop"
+          },
+          "name": "School buses 610n",
+          "number": "610n",
+          "description": "NBSC Mackellar Girls Campus to Seaforth Oval via Balgowlah Heights",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29764:N:H:",
+          "destination": {
+            "name": "Beatrice St near Ernest St, Balgowlah Heights",
+            "type": "stop"
+          },
+          "name": "School buses 764n",
+          "number": "764n",
+          "description": "Milsons Pt to Beatrice & Ernest Sts",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29765:N:H:",
+          "destination": {
+            "name": "Manly Wharf, West Esplanade, Manly",
+            "type": "stop"
+          },
+          "name": "School buses 765n",
+          "number": "765n",
+          "description": "Milsons Point to Manly Wharf",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
           }
         }
       ]
@@ -26538,175 +26707,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-49731",
-    "version": 347339,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-27T19:14:00Z",
-      "lastModification": "2025-03-31T19:43:00Z",
-      "availability": {
-        "from": "2025-03-04T20:34:00Z",
-        "to": "2025-04-01T08:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-03-27T19:14:00Z",
-          "to": "2025-04-01T08:00:00Z"
-        }
-      ],
-      "expiration": "2025-04-01T08:00:59Z"
-    },
-    "urlText": "Diversions in Clontarf",
-    "url": "https://transportnsw.info/alerts/details#/ems-49731",
-    "content": "<div>Buses are diverting away from part of Woodland Street South, Alma Street, Moore Street and Beatrice Street due to roadwork.</div>\n<ul>\n<li>Buses are using Ernest Street, Lewis Street and Abbott Street instead.</li>\n<li>10 stops are being missed.</li>\n</ul>",
-    "subtitle": "Diversions in Clontarf",
-    "properties": {
-      "smsText": "Diversions in Clontarf",
-      "speechText": "In Clontarf, buses are diverting away from part of Woodland Street South, Alma Street, Moore Street and Beatrice Street due to roadwork. Buses are using Ernest Street, Lewis Street and Abbott Street instead and 10 stops are being missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:29162: :R:",
-          "destination": {
-            "name": "Manly Wharf, West Esplanade, Manly",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 162",
-          "number": "162",
-          "description": "Seaforth to Manly",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29162: :H:",
-          "destination": {
-            "name": "Sydney Rd opp Kempbridge Ave, Seaforth",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 162",
-          "number": "162",
-          "description": "Manly to Seaforth",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29171:X:H:",
-          "destination": {
-            "name": "Sydney Rd at Condamine St, Balgowlah",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 171X",
-          "number": "171X",
-          "description": "City Wynyard to Balgowlah via Clontarf (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29171:X:R:",
-          "destination": {
-            "name": "Wynyard Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 171X",
-          "number": "171X",
-          "description": "Balgowlah to City Wynyard via Clontarf (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29610:N:H:",
-          "destination": {
-            "name": "Seaforth Public School, Frenchs Forest Rd, Seaforth",
-            "type": "stop"
-          },
-          "name": "School buses 610n",
-          "number": "610n",
-          "description": "NBSC Mackellar Girls Campus to Seaforth Oval via Balgowlah Heights",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29764:N:H:",
-          "destination": {
-            "name": "Beatrice St near Ernest St, Balgowlah Heights",
-            "type": "stop"
-          },
-          "name": "School buses 764n",
-          "number": "764n",
-          "description": "Milsons Pt to Beatrice & Ernest Sts",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29765:N:H:",
-          "destination": {
-            "name": "Manly Wharf, West Esplanade, Manly",
-            "type": "stop"
-          },
-          "name": "School buses 765n",
-          "number": "765n",
-          "description": "Milsons Point to Manly Wharf",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-49704",
     "version": 1,
     "priority": "normal",
@@ -26945,6 +26945,211 @@
           "operator": {
             "id": "2508",
             "name": "Keolis Downer Northern Beaches"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-49881",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-30T22:14:00Z",
+      "lastModification": "2025-03-30T22:14:00Z",
+      "availability": {
+        "from": "2025-03-30T22:00:00Z",
+        "to": "2025-04-04T09:15:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-04-04T08:15:00Z",
+          "to": "2025-04-04T09:15:00Z"
+        }
+      ],
+      "expiration": "2025-04-04T09:15:59Z"
+    },
+    "urlText": "Parramatta bus diversions for NRL match",
+    "url": "https://transportnsw.info/alerts/details#/ems-49881",
+    "content": "<div>Road closures will be in place on sections of O&rsquo;Connell St, Ross St and Victoria Rd on&nbsp;Friday 4 April for the NRL match at CommBank Stadium.&nbsp;<br />&nbsp;&nbsp;<br />The following bus stops will be closed and routes 546, 549, 550, 600, 601 and 606 will be diverting while the road closures are in place between approximately 5.50pm to 6.20pm.&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;<br />Walk to nearby alternative stops, see the <a href=\"https://transportnsw.info/document/6076/CommBankStadium_EventRoadClosureMap_PLR.pdf\">road closure and transport map</a> for more details:&nbsp;</div>\n<ul>\n<li>Parramatta Leagues Club, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills and North West)&nbsp;&nbsp;</li>\n<li>Our Lady of Mercy College, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street at Fennell Street (for services towards Parramatta Station)&nbsp;&nbsp;</li>\n<li>Victoria Road after Villiers Street will be closed &ndash; alternative stop All Saints Anglican Church, Victoria Road (for services towards Parramatta Station)&nbsp;</li>\n<li>Victoria Road before Marist Place will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills, Epping and Macquarie Park)&nbsp; &nbsp;&nbsp;</li>\n</ul>\n<div>Check signs at stops and see the <a href=\"https://transport.nsw.gov.au/events/2025/04/nrl-panthers-v-cowboys\">event page</a> for more info.&nbsp;</div>",
+    "subtitle": "Parramatta bus diversions for NRL match",
+    "properties": {
+      "smsText": "Parramatta bus diversions for NRL match",
+      "speechText": "Road closures will be in place on sections of O’Connell St, Ross St and Victoria Rd on Friday 4 April for the NRL match at CommBank Stadium.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17546: :R:",
+          "destination": {
+            "name": "Epping Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 546",
+          "number": "546",
+          "description": "Parramatta to Epping via Oatlands & North Rocks",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17549: :R:",
+          "destination": {
+            "name": "Muirfield High School, Access Rd, Barclay Rd, North Rocks",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 549",
+          "number": "549",
+          "description": "Parramatta to Epping via North Rocks",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17550: :R:",
+          "destination": {
+            "name": "Macquarie Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 550",
+          "number": "550",
+          "description": "Parramatta to Macquarie Park via Epping",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:14600: :H:",
+          "destination": {
+            "name": "Pennant Hills Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 600",
+          "number": "600",
+          "description": "Parramatta to Pennant Hills via Castle Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14601: :H:",
+          "destination": {
+            "name": "Rouse Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 601",
+          "number": "601",
+          "description": "Parramatta to Rouse Hill Station via Hills Showground",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14606: :H:",
+          "destination": {
+            "name": "Winston Hills Mall, Caroline Chisholm Dr, Winston Hills",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 606",
+          "number": "606",
+          "description": "Parramatta to Winston Hills",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-49270",
+    "version": 610,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-03-18T04:35:00Z",
+      "lastModification": "2025-03-18T04:46:00Z",
+      "availability": {
+        "from": "2025-03-17T21:00:00Z",
+        "to": "2025-04-05T12:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-04-04T21:00:00Z",
+          "to": "2025-04-05T12:30:00Z"
+        }
+      ],
+      "expiration": "2025-04-05T12:30:59Z"
+    },
+    "urlText": "Surry Hills bus diversions for Sydney Streets event",
+    "url": "https://transportnsw.info/alerts/details#/ems-49270",
+    "content": "<div>From 8am until 11.30pm on Saturday 5 April, route 304 services will be diverting around Crown St and missing stops between Albion St and Cleveland St while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event in Surry Hills.</div>\n<div>&nbsp;</div>\n<div>Services towards the City will be diverting via Cleveland St, Chalmers St, Randle St, Elizabeth St and Albion St.</div>\n<div>&nbsp;</div>\n<div>Services away from the City will be diverting via Albion St, Flinders St, South Dowling St and Cleveland St.</div>\n<div>&nbsp;</div>\n<div>Use alternative stops further along Crown St or Baptist St. Check signs at bus stops for alternative stop locations.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Crown St opp Lansdowne St (201098)</li>\n<li>Crown St at Miles St (201021)</li>\n<li>Crown St opp Rainford St (201022)</li>\n<li>Crown St at Rainford St (201092)</li>\n<li>Crown St before Foveaux St (201023)</li>\n<li>Shannon Reserve, Crown St (201093)</li>\n</ul>",
+    "subtitle": "Surry Hills bus diversions for Sydney Streets event",
+    "properties": {
+      "smsText": "Surry Hills bus diversions for Sydney Streets event",
+      "speechText": "From 8 AM until 11 30 PM on Saturday 5 April, route 3 O 4 services will be diverting around Crown St and missing stops between Albion St and Cleveland St while road closures are in place for the City of Sydney’s Sydney Streets event in Surry Hills.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:30304: :R:",
+          "destination": {
+            "name": "Museum of Sydney, Phillip St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 304",
+          "number": "304",
+          "description": "City Circular Quay to Green Square (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
           }
         }
       ]
@@ -28343,211 +28548,6 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-49881",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-30T22:14:00Z",
-      "lastModification": "2025-03-30T22:14:00Z",
-      "availability": {
-        "from": "2025-03-30T22:00:00Z",
-        "to": "2025-04-04T09:15:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-04-04T08:15:00Z",
-          "to": "2025-04-04T09:15:00Z"
-        }
-      ],
-      "expiration": "2025-04-04T09:15:59Z"
-    },
-    "urlText": "Parramatta bus diversions for NRL match",
-    "url": "https://transportnsw.info/alerts/details#/ems-49881",
-    "content": "<div>Road closures will be in place on sections of O&rsquo;Connell St, Ross St and Victoria Rd on&nbsp;Friday 4 April for the NRL match at CommBank Stadium.&nbsp;<br />&nbsp;&nbsp;<br />The following bus stops will be closed and routes 546, 549, 550, 600, 601 and 606 will be diverting while the road closures are in place between approximately 5.50pm to 6.20pm.&nbsp;&nbsp;&nbsp;<br />&nbsp;&nbsp;<br />Walk to nearby alternative stops, see the <a href=\"https://transportnsw.info/document/6076/CommBankStadium_EventRoadClosureMap_PLR.pdf\">road closure and transport map</a> for more details:&nbsp;</div>\n<ul>\n<li>Parramatta Leagues Club, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills and North West)&nbsp;&nbsp;</li>\n<li>Our Lady of Mercy College, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street at Fennell Street (for services towards Parramatta Station)&nbsp;&nbsp;</li>\n<li>Victoria Road after Villiers Street will be closed &ndash; alternative stop All Saints Anglican Church, Victoria Road (for services towards Parramatta Station)&nbsp;</li>\n<li>Victoria Road before Marist Place will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills, Epping and Macquarie Park)&nbsp; &nbsp;&nbsp;</li>\n</ul>\n<div>Check signs at stops and see the <a href=\"https://transport.nsw.gov.au/events/2025/04/nrl-panthers-v-cowboys\">event page</a> for more info.&nbsp;</div>",
-    "subtitle": "Parramatta bus diversions for NRL match",
-    "properties": {
-      "smsText": "Parramatta bus diversions for NRL match",
-      "speechText": "Road closures will be in place on sections of O’Connell St, Ross St and Victoria Rd on Friday 4 April for the NRL match at CommBank Stadium.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17546: :R:",
-          "destination": {
-            "name": "Epping Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 546",
-          "number": "546",
-          "description": "Parramatta to Epping via Oatlands & North Rocks",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17549: :R:",
-          "destination": {
-            "name": "Muirfield High School, Access Rd, Barclay Rd, North Rocks",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 549",
-          "number": "549",
-          "description": "Parramatta to Epping via North Rocks",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17550: :R:",
-          "destination": {
-            "name": "Macquarie Park Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 550",
-          "number": "550",
-          "description": "Parramatta to Macquarie Park via Epping",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:14600: :H:",
-          "destination": {
-            "name": "Pennant Hills Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 600",
-          "number": "600",
-          "description": "Parramatta to Pennant Hills via Castle Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        },
-        {
-          "id": "nsw:14601: :H:",
-          "destination": {
-            "name": "Rouse Hill Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 601",
-          "number": "601",
-          "description": "Parramatta to Rouse Hill Station via Hills Showground",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        },
-        {
-          "id": "nsw:14606: :H:",
-          "destination": {
-            "name": "Winston Hills Mall, Caroline Chisholm Dr, Winston Hills",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 606",
-          "number": "606",
-          "description": "Parramatta to Winston Hills",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-49270",
-    "version": 610,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-03-18T04:35:00Z",
-      "lastModification": "2025-03-18T04:46:00Z",
-      "availability": {
-        "from": "2025-03-17T21:00:00Z",
-        "to": "2025-04-05T12:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-04-04T21:00:00Z",
-          "to": "2025-04-05T12:30:00Z"
-        }
-      ],
-      "expiration": "2025-04-05T12:30:59Z"
-    },
-    "urlText": "Surry Hills bus diversions for Sydney Streets event",
-    "url": "https://transportnsw.info/alerts/details#/ems-49270",
-    "content": "<div>From 8am until 11.30pm on Saturday 5 April, route 304 services will be diverting around Crown St and missing stops between Albion St and Cleveland St while road closures are in place for the City of Sydney&rsquo;s Sydney Streets event in Surry Hills.</div>\n<div>&nbsp;</div>\n<div>Services towards the City will be diverting via Cleveland St, Chalmers St, Randle St, Elizabeth St and Albion St.</div>\n<div>&nbsp;</div>\n<div>Services away from the City will be diverting via Albion St, Flinders St, South Dowling St and Cleveland St.</div>\n<div>&nbsp;</div>\n<div>Use alternative stops further along Crown St or Baptist St. Check signs at bus stops for alternative stop locations.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong></div>\n<ul>\n<li>Crown St opp Lansdowne St (201098)</li>\n<li>Crown St at Miles St (201021)</li>\n<li>Crown St opp Rainford St (201022)</li>\n<li>Crown St at Rainford St (201092)</li>\n<li>Crown St before Foveaux St (201023)</li>\n<li>Shannon Reserve, Crown St (201093)</li>\n</ul>",
-    "subtitle": "Surry Hills bus diversions for Sydney Streets event",
-    "properties": {
-      "smsText": "Surry Hills bus diversions for Sydney Streets event",
-      "speechText": "From 8 AM until 11 30 PM on Saturday 5 April, route 3 O 4 services will be diverting around Crown St and missing stops between Albion St and Cleveland St while road closures are in place for the City of Sydney’s Sydney Streets event in Surry Hills.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:30304: :R:",
-          "destination": {
-            "name": "Museum of Sydney, Phillip St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 304",
-          "number": "304",
-          "description": "City Circular Quay to Green Square (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
           }
         }
       ]
