@@ -3140,6 +3140,61 @@
     }
   },
   {
+    "type": "lineInfo",
+    "id": "ems-50732",
+    "version": 2,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-04-17T05:16:00Z",
+      "lastModification": "2025-04-17T05:16:00Z",
+      "availability": {
+        "from": "2025-04-17T05:15:00Z",
+        "to": "2025-04-17T09:15:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-04-17T05:15:00Z",
+          "to": "2025-04-17T09:15:00Z"
+        }
+      ],
+      "expiration": "2025-04-17T09:15:59Z"
+    },
+    "urlText": "Coach service delays at Brisbane (Roma Street) Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-50732",
+    "content": "There are delays on route 176 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at Brisbane (Roma Street) Station",
+    "properties": {
+      "smsText": "Coach service delays at Brisbane (Roma Street) Station",
+      "speechText": "There are delays on route 176 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76176: :R:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 176",
+          "number": "176",
+          "description": "Roma Street (Brisbane) to Casino",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "stopInfo",
     "id": "ems-49619",
     "version": 60140,
@@ -5162,54 +5217,112 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-50732",
-    "version": 2,
+    "id": "3f497527a2741f2a1d747c125bc39526d64ff068",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-04-17T05:16:00Z",
-      "lastModification": "2025-04-17T05:16:00Z",
+      "creation": "2025-04-17T07:50:00Z",
+      "lastModification": "2025-04-17T07:50:00Z",
       "availability": {
-        "from": "2025-04-17T05:15:00Z",
-        "to": "2025-04-17T09:15:00Z"
+        "from": "2025-04-17T07:50:00Z",
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-04-17T05:15:00Z",
-          "to": "2025-04-17T09:15:00Z"
+          "from": "2025-04-17T07:50:00Z",
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2025-04-17T09:15:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
-    "urlText": "Coach service delays at Brisbane (Roma Street) Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-50732",
-    "content": "There are delays on route 176 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays at Brisbane (Roma Street) Station",
+    "urlText": "Eastern Suburbs & Illawarra Line, South Coast Line",
+    "url": "https://transportnsw.info/alerts/details#/3f497527a2741f2a1d747c125bc39526d64ff068",
+    "content": "Allow extra travel time in both directions due to an operational issue at Martin Place earlier. Stops and platforms may change at short notice. \n\nPlease listen for announcements and check information screens before getting on trains.",
+    "subtitle": "Eastern Suburbs & Illawarra Line, South Coast Line",
     "properties": {
-      "smsText": "Coach service delays at Brisbane (Roma Street) Station",
-      "speechText": "There are delays on route 176 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+      "smsText": "Eastern Suburbs & Illawarra Line, South Coast Line",
+      "speechText": "Allow extra travel time in both directions due to an operational issue at Martin Place earlier. Stops and platforms may change at short notice. \n\nPlease listen for announcements and check information screens before getting on trains.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76176: :R:",
+          "id": "nsw:020T4: :R:",
           "destination": {
-            "name": "Casino Station, Casino",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 176",
-          "number": "176",
-          "description": "Roma Street (Brisbane) to Casino",
-          "iconId": 7,
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:020T4: :H:",
+          "destination": {
+            "name": "Cronulla Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
           }
         }
       ]
@@ -12110,6 +12223,61 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-50727",
+    "version": 9176,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-04-17T01:49:00Z",
+      "lastModification": "2025-04-17T04:22:00Z",
+      "availability": {
+        "from": "2025-04-17T01:46:00Z",
+        "to": "2025-04-18T09:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-04-17T01:46:00Z",
+          "to": "2025-04-18T09:00:00Z"
+        }
+      ],
+      "expiration": "2025-04-18T09:00:59Z"
+    },
+    "urlText": "Palm Beach to Ettalong & Wagstaffe ferry diverting to Patonga",
+    "url": "https://transportnsw.info/alerts/details#/ems-50727",
+    "content": "<div>The Palm Beach to Ettalong &amp; Wagstaffe ferry is diverting to Patonga from Friday 18 April due to the large swell.</div>\n<ul>\n<li>Check&nbsp;https://palmbeachferries.com.au/timetables/&nbsp;for more information</li>\n</ul>",
+    "subtitle": "Palm Beach to Ettalong & Wagstaffe ferry diverting to Patonga",
+    "properties": {
+      "smsText": "Palm Beach to Ettalong & Wagstaffe ferry diverting to Patonga",
+      "speechText": "The Palm Beach to Ettalong & Wagstaffe ferry is diverting to Patonga from Friday 18 April due to the large swell. Plan ahead.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "iconId": 12,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-49936",
     "version": 1,
     "priority": "normal",
@@ -12692,61 +12860,6 @@
             "id": "placeID:95366046:1",
             "name": "North Wollongong",
             "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-50727",
-    "version": 9176,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-04-17T01:49:00Z",
-      "lastModification": "2025-04-17T04:22:00Z",
-      "availability": {
-        "from": "2025-04-17T01:46:00Z",
-        "to": "2025-04-18T09:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-04-17T01:46:00Z",
-          "to": "2025-04-18T09:00:00Z"
-        }
-      ],
-      "expiration": "2025-04-18T09:00:59Z"
-    },
-    "urlText": "Palm Beach to Ettalong & Wagstaffe ferry diverting to Patonga",
-    "url": "https://transportnsw.info/alerts/details#/ems-50727",
-    "content": "<div>The Palm Beach to Ettalong &amp; Wagstaffe ferry is diverting to Patonga from Friday 18 April due to the large swell.</div>\n<ul>\n<li>Check&nbsp;https://palmbeachferries.com.au/timetables/&nbsp;for more information</li>\n</ul>",
-    "subtitle": "Palm Beach to Ettalong & Wagstaffe ferry diverting to Patonga",
-    "properties": {
-      "smsText": "Palm Beach to Ettalong & Wagstaffe ferry diverting to Patonga",
-      "speechText": "The Palm Beach to Ettalong & Wagstaffe ferry is diverting to Patonga from Friday 18 April due to the large swell. Plan ahead.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "iconId": 12,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
           }
         }
       ]
