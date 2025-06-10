@@ -10692,80 +10692,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-53502",
-    "version": 277,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-10T09:19:00Z",
-      "lastModification": "2025-06-10T09:23:00Z",
-      "availability": {
-        "from": "2025-06-10T08:19:00Z",
-        "to": "2025-06-18T06:19:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-10T08:19:00Z",
-          "to": "2025-06-18T06:19:00Z"
-        }
-      ],
-      "expiration": "2025-06-18T06:19:59Z"
-    },
-    "urlText": "Buses replace trains between Telarah and Newcastle Interchange",
-    "url": "https://transportnsw.info/alerts/details#/ems-53502",
-    "content": "<div>From 9.00pm to 2am, buses replace trains between Telarah and Newcastle Interchange due to urgent track repairs at Thornton. Please allow extra travel time.</div>",
-    "subtitle": "Buses replace trains between Telarah and Newcastle Interchange",
-    "properties": {
-      "smsText": "Buses replace trains between Telarah and Newcastle Interchange",
-      "speechText": "From 9.00pm to 2am, buses replace trains between Telarah and Newcastle Interchange due to urgent track repairs at Thornton. Please allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76HUN: :H:",
-          "destination": {
-            "name": "Dungog Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Hamilton to Telarah",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76HUN: :R:",
-          "destination": {
-            "name": "Newcastle Interchange",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Telarah to Hamilton",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-53083",
     "version": 1,
     "priority": "normal",
@@ -11360,6 +11286,106 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-47120",
+    "version": 254,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-02-03T00:07:00Z",
+      "lastModification": "2025-02-03T00:11:00Z",
+      "availability": {
+        "from": "2025-02-03T00:00:00Z",
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-02-03T00:00:00Z",
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "urlText": "Tallawong bus service changes",
+    "url": "https://transportnsw.info/alerts/details#/ems-47120",
+    "content": "<div>From <strong>Monday 3 February</strong> until further notice, some bus stops will be closed due to road upgrades.&nbsp;<strong>Route 742</strong>&nbsp;bus services will divert and run from alternative stops.&nbsp;<br /><br /></div>\n<div>Plan ahead and check signage for alternative stops.<br /><br /><strong>Stops closed:&nbsp;</strong></div>\n<ul>\n<li>Tallawong Rd after Guntawong Rd (Stop ID:&nbsp;2155472)</li>\n<li>Tallawong Rd before Guntawong Rd (Stop ID:&nbsp;2155478)</li>\n</ul>",
+    "subtitle": "Tallawong bus service changes",
+    "properties": {
+      "smsText": "Tallawong bus service changes",
+      "speechText": "From Monday 3 February until further notice, some bus stops will be closed due to road upgrades. Route 742 bus services will divert and run from alternative stops.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "G2155472#G2155478",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:11742: :H:",
+          "destination": {
+            "name": "Ingenia Lifestyle Stoney Creek, Hollinsworth Rd, Marsden Park",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 742",
+          "number": "742",
+          "description": "Rouse Hill Station to Marsden Park",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11742: :R:",
+          "destination": {
+            "name": "Rouse Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 742",
+          "number": "742",
+          "description": "Marsden Park to Rouse Hill Station",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "G2155472",
+          "isGlobalId": true,
+          "name": "Tallawong Rd after Guntawong Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95307020:1",
+            "name": "Rouse Hill",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2155478",
+          "isGlobalId": true,
+          "name": "Tallawong Rd before Guntawong Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95307020:1",
+            "name": "Rouse Hill",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-53499",
     "version": 28,
@@ -11466,106 +11492,6 @@
           "operator": {
             "id": "5972",
             "name": "Buslines Group Pty Limited"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-47120",
-    "version": 254,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-02-03T00:07:00Z",
-      "lastModification": "2025-02-03T00:11:00Z",
-      "availability": {
-        "from": "2025-02-03T00:00:00Z",
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-02-03T00:00:00Z",
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "urlText": "Tallawong bus service changes",
-    "url": "https://transportnsw.info/alerts/details#/ems-47120",
-    "content": "<div>From <strong>Monday 3 February</strong> until further notice, some bus stops will be closed due to road upgrades.&nbsp;<strong>Route 742</strong>&nbsp;bus services will divert and run from alternative stops.&nbsp;<br /><br /></div>\n<div>Plan ahead and check signage for alternative stops.<br /><br /><strong>Stops closed:&nbsp;</strong></div>\n<ul>\n<li>Tallawong Rd after Guntawong Rd (Stop ID:&nbsp;2155472)</li>\n<li>Tallawong Rd before Guntawong Rd (Stop ID:&nbsp;2155478)</li>\n</ul>",
-    "subtitle": "Tallawong bus service changes",
-    "properties": {
-      "smsText": "Tallawong bus service changes",
-      "speechText": "From Monday 3 February until further notice, some bus stops will be closed due to road upgrades. Route 742 bus services will divert and run from alternative stops.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "G2155472#G2155478",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:11742: :H:",
-          "destination": {
-            "name": "Ingenia Lifestyle Stoney Creek, Hollinsworth Rd, Marsden Park",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 742",
-          "number": "742",
-          "description": "Rouse Hill Station to Marsden Park",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          }
-        },
-        {
-          "id": "nsw:11742: :R:",
-          "destination": {
-            "name": "Rouse Hill Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 742",
-          "number": "742",
-          "description": "Marsden Park to Rouse Hill Station",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "G2155472",
-          "isGlobalId": true,
-          "name": "Tallawong Rd after Guntawong Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95307020:1",
-            "name": "Rouse Hill",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G2155478",
-          "isGlobalId": true,
-          "name": "Tallawong Rd before Guntawong Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95307020:1",
-            "name": "Rouse Hill",
-            "type": "locality"
           }
         }
       ]
