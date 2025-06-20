@@ -3194,31 +3194,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-54079",
-    "version": 1,
+    "id": "ems-54088",
+    "version": 362,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-06-20T08:13:00Z",
-      "lastModification": "2025-06-20T08:13:00Z",
+      "creation": "2025-06-20T09:43:00Z",
+      "lastModification": "2025-06-20T09:49:00Z",
       "availability": {
-        "from": "2025-06-20T08:12:00Z",
-        "to": "2025-06-20T09:42:00Z"
+        "from": "2025-06-20T09:37:00Z",
+        "to": "2025-06-22T18:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-06-20T08:12:00Z",
-          "to": "2025-06-20T09:42:00Z"
+          "from": "2025-06-20T09:37:00Z",
+          "to": "2025-06-22T18:00:00Z"
         }
       ],
-      "expiration": "2025-06-20T09:42:59Z"
+      "expiration": "2025-06-22T18:00:59Z"
     },
-    "urlText": "Coach service delays between Tweed Mall, Wharf St and Casino Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-54079",
-    "content": "There are delays on route 168 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays between Tweed Mall, Wharf St and Casino Station",
+    "urlText": "Temporary bus stop change at Wynyard",
+    "url": "https://transportnsw.info/alerts/details#/ems-54088",
+    "content": "<div>From 8pm on Friday 20 June until 4am on Monday 23 June, buses are not stopping in Carrington Street due to crane works.</div>\n<div>&nbsp;</div>\n<ul>\n<li>Catch 172X and 173X buses towards Warringah Mall from York St, Stand K (stop ID 200033).</li>\n<li>Catch B1 buses towards Mona Vale from York St, Stand L (stop ID 200034).</li>\n<li>Catch BN1 buses towards Mona Vale from Clarence St, Stand Q (stop ID 2000221).</li>\n</ul>",
+    "subtitle": "Temporary bus stop change at Wynyard",
     "properties": {
-      "smsText": "Coach service delays between Tweed Mall, Wharf St and Casino Station",
-      "speechText": "There are delays on route 168 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+      "smsText": "Temporary bus stop change at Wynyard",
+      "speechText": "From 8pm on Friday 20 June until 4am on Monday 23 June, buses are not stopping in Carrington Street due to crane works.\n\nCatch 172X and 173X buses toward Warringah Mall from York St, Stand K (stop ID 200033).\n \nCatch B1 buses towards Mona Vale from York St, Stand L (stop ID 200034).\n \nCatch BN1 buses towards Mona Vale from Clarence St, Stand Q (stop ID 2000221).",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -3226,22 +3226,265 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:76168: :R:",
+          "id": "nsw:290B1: :H:",
           "destination": {
-            "name": "Casino Station, Casino",
+            "name": "Mona Vale B-Line, Mona Vale",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 168",
-          "number": "168",
-          "description": "Tweed Heads to Casino",
-          "iconId": 7,
+          "name": "Sydney Buses Network B1",
+          "number": "B1",
+          "description": "B-Line City Wynyard to Mona Vale",
+          "iconId": 5,
           "product": {
-            "class": 7,
-            "iconId": 7
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:290B1: :R:",
+          "destination": {
+            "name": "Wynyard Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network B1",
+          "number": "B1",
+          "description": "B-Line Mona Vale to City Wynyard",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29BN1: :H:",
+          "destination": {
+            "name": "Mona Vale B-Line, Mona Vale",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network BN1",
+          "number": "BN1",
+          "description": "B-Line City QVB to Mona Vale (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29BN1: :R:",
+          "destination": {
+            "name": "QVB, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network BN1",
+          "number": "BN1",
+          "description": "B-Line Mona Vale to City QVB (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29172:X:H:",
+          "destination": {
+            "name": "Seaforth Oval, Wakehurst Pkwy, Seaforth",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 172X",
+          "number": "172X",
+          "description": "City Wynyard to Warringah Mall via North Balgowlah (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29172:X:R:",
+          "destination": {
+            "name": "Wynyard Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 172X",
+          "number": "172X",
+          "description": "Warringah Mall to City Wynyard via North Balgowlah (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29173:X:H:",
+          "destination": {
+            "name": "St Luke's Grammar School, Headland Rd, North Curl Curl",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 173X",
+          "number": "173X",
+          "description": "City Wynyard to Warringah Mall via Balgowlah Shops (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29173:X:R:",
+          "destination": {
+            "name": "Wynyard Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 173X",
+          "number": "173X",
+          "description": "Warringah Mall to City Wynyard via Balgowlah Shops (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-54011",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-19T00:32:00Z",
+      "lastModification": "2025-06-19T00:32:00Z",
+      "availability": {
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T03:30:00Z",
+          "to": "2025-06-22T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T04:30:59Z"
+    },
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-54011",
+    "content": "<div>Route 100 buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div><br />Buses to the city will divert via Market St. Services will run from Clarence St at Council Pl (2000139).&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses will miss the stop QVB, York St, Stand D (200044) in both directions. Continue on foot.&nbsp;&nbsp;</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra time.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong>&nbsp;&nbsp;</div>\n<ul>\n<li>QVB, York St, Stand D Sydney (200044)&nbsp;</li>\n</ul>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
+    "properties": {
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Route 100 buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:29100: :R:",
+          "destination": {
+            "name": "Taronga Zoo, Bradleys Head Rd, Mosman",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 100",
+          "number": "100",
+          "description": "Taronga Zoo to City QVB",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-52697",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-05-26T04:47:00Z",
+      "lastModification": "2025-05-26T04:47:00Z",
+      "availability": {
+        "from": "2025-05-26T04:30:00Z",
+        "to": "2025-06-22T07:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T04:30:00Z",
+          "to": "2025-06-22T07:00:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T07:00:59Z"
+    },
+    "urlText": "Sydney CBD diversions for religious procession",
+    "url": "https://transportnsw.info/alerts/details#/ems-52697",
+    "content": "<div><strong>Sunday 22 June</strong></div>\n<ul>\n<li><strong>From 2.30pm to 5pm</strong>, route <strong>504</strong> services leaving the city will be diverting and using different stops due to road closures for a religious procession in the Sydney CBD.</li>\n<li>Services to Chiswick will start trips from Riley St at Cathedral St (201159). The stop at St Mary&rsquo;s Cathedral, St Marys Rd (2000410) will be missed.</li>\n<li>Services travelling towards The Domain will run as normal.</li>\n<li>Check signs at stops and allow extra travel time.</li>\n</ul>",
+    "subtitle": "Sydney CBD diversions for religious procession",
+    "properties": {
+      "smsText": "Sydney CBD diversions for religious procession",
+      "speechText": "Sunday 22 June\nFrom 2:30PM to 5PM, route 504 services leaving the city will be diverting and using different stops due to road closures for a religious procession in the Sydney CBD.\nServices to Chiswick will start trips from Riley St at Cathedral St. The stop at St Mary’s Cathedral, St Marys Rd will be missed.\nServices travelling towards The Domain will run as normal.\nCheck signs at stops and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74504: :H:",
+          "destination": {
+            "name": "Chiswick Shops, Blackwall Pt Rd, Set Down, Chiswick",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 504",
+          "number": "504",
+          "description": "City Domain to Chiswick",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
@@ -5744,116 +5987,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-54011",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:32:00Z",
-      "lastModification": "2025-06-19T00:32:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:30:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-54011",
-    "content": "<div>Route 100 buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div><br />Buses to the city will divert via Market St. Services will run from Clarence St at Council Pl (2000139).&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses will miss the stop QVB, York St, Stand D (200044) in both directions. Continue on foot.&nbsp;&nbsp;</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra time.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:</strong>&nbsp;&nbsp;</div>\n<ul>\n<li>QVB, York St, Stand D Sydney (200044)&nbsp;</li>\n</ul>",
-    "subtitle": "Sydney CBD diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD diversions due to Police Operation",
-      "speechText": "Route 100 buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:29100: :R:",
-          "destination": {
-            "name": "Taronga Zoo, Bradleys Head Rd, Mosman",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 100",
-          "number": "100",
-          "description": "Taronga Zoo to City QVB",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-52697",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-05-26T04:47:00Z",
-      "lastModification": "2025-05-26T04:47:00Z",
-      "availability": {
-        "from": "2025-05-26T04:30:00Z",
-        "to": "2025-06-22T07:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T04:30:00Z",
-          "to": "2025-06-22T07:00:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T07:00:59Z"
-    },
-    "urlText": "Sydney CBD diversions for religious procession",
-    "url": "https://transportnsw.info/alerts/details#/ems-52697",
-    "content": "<div><strong>Sunday 22 June</strong></div>\n<ul>\n<li><strong>From 2.30pm to 5pm</strong>, route <strong>504</strong> services leaving the city will be diverting and using different stops due to road closures for a religious procession in the Sydney CBD.</li>\n<li>Services to Chiswick will start trips from Riley St at Cathedral St (201159). The stop at St Mary&rsquo;s Cathedral, St Marys Rd (2000410) will be missed.</li>\n<li>Services travelling towards The Domain will run as normal.</li>\n<li>Check signs at stops and allow extra travel time.</li>\n</ul>",
-    "subtitle": "Sydney CBD diversions for religious procession",
-    "properties": {
-      "smsText": "Sydney CBD diversions for religious procession",
-      "speechText": "Sunday 22 June\nFrom 2:30PM to 5PM, route 504 services leaving the city will be diverting and using different stops due to road closures for a religious procession in the Sydney CBD.\nServices to Chiswick will start trips from Riley St at Cathedral St. The stop at St Mary’s Cathedral, St Marys Rd will be missed.\nServices travelling towards The Domain will run as normal.\nCheck signs at stops and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74504: :H:",
-          "destination": {
-            "name": "Chiswick Shops, Blackwall Pt Rd, Set Down, Chiswick",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 504",
-          "number": "504",
-          "description": "City Domain to Chiswick",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-46674",
     "version": 1,
     "priority": "normal",
@@ -7459,6 +7592,382 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-52695",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-05-26T04:43:00Z",
+      "lastModification": "2025-05-26T04:43:00Z",
+      "availability": {
+        "from": "2025-05-26T04:00:00Z",
+        "to": "2025-06-22T07:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T04:30:00Z",
+          "to": "2025-06-22T07:00:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T07:00:59Z"
+    },
+    "urlText": "Sydney CBD diversions for religious procession",
+    "url": "https://transportnsw.info/alerts/details#/ems-52695",
+    "content": "<div><strong>Sunday 22 June</strong></div>\n<ul>\n<li><strong>From 2.30pm to 5pm</strong>, route <strong>441</strong> services will start and end their trips at QVB due to road closures for a religious procession in the Sydney CBD.</li>\n<li>Services towards The Domain will end at QVB, Market St, Stand F (2000140).</li>\n<li>Services towards Birchgrove will start from QVB, York St, Stand B (200042).</li>\n<li>Check signs at stops and allow extra travel time.</li>\n</ul>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Town Hall Station, Park St, Stand H (2000249)</li>\n<li>Hyde Park, Park St, Stand B (2000157)</li>\n<li>Art Gallery Rd opp Art Gallery of NSW (2000144)</li>\n<li>Andrew Boy Charlton Pool (200097)</li>\n<li>Art Gallery of NSW, Art Gallery Rd (2000111)</li>\n</ul>",
+    "subtitle": "Sydney CBD diversions for religious procession",
+    "properties": {
+      "smsText": "Sydney CBD diversions for religious procession",
+      "speechText": "Sunday 22 June\nFrom 2:30PM to 5PM, route 441 services will start and end their trips at QVB due to road closures for a religious procession in the Sydney CBD.\nServices towards The Domain will end at QVB, Market St, Stand F.\nServices towards Birchgrove will start from QVB, York St, Stand B.\nCheck signs at stops and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "200070#G2000157#G2000144#G200097#G2000111",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74441: :R:",
+          "destination": {
+            "name": "Birchgrove Oval, Grove St, Birchgrove",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 441",
+          "number": "441",
+          "description": "Birchgrove to City Art Gallery via QVB (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "200070",
+          "isGlobalId": true,
+          "name": "Town Hall Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2000157",
+          "isGlobalId": true,
+          "name": "Hyde Park, Park St",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2000144",
+          "isGlobalId": true,
+          "name": "Art Gallery Rd opp Art Gallery of NSW",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G200097",
+          "isGlobalId": true,
+          "name": "Andrew (Boy) Charlton Pool, Mrs Macquaries Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        },
+        {
+          "id": "G2000111",
+          "isGlobalId": true,
+          "name": "Art Gallery of NSW, Art Gallery Rd",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-53817",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-16T01:11:00Z",
+      "lastModification": "2025-06-16T01:11:00Z",
+      "availability": {
+        "from": "2025-06-16T01:00:00Z",
+        "to": "2025-06-22T10:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T10:00:00Z",
+          "to": "2025-06-22T10:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T10:30:59Z"
+    },
+    "urlText": "Parramatta bus diversions for NRL match",
+    "url": "https://transportnsw.info/alerts/details#/ems-53817",
+    "content": "<div>\n<div>Road closures will be in place on sections of O&rsquo;Connell St, Ross St and Victoria Rd on Sunday 8 June for an NRL match at CommBank Stadium.</div>\n<div>&nbsp;</div>\n<div>The following bus stops will be closed and routes 546, 549, 550, 600, 601 and 606 will be diverting while the road closures are in place between approximately 8pm and 8.30pm.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Walk to nearby alternative stops, see the <a href=\"https://transportnsw.info/document/6076/CommBankStadium_EventRoadClosureMap_PLR.pdf\">road closure and transport map</a> for more details:</div>\n<ul>\n<li>Parramatta Leagues Club, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills and North West) </li>\n<li>Our Lady of Mercy College, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street at Fennell Street (for services towards Parramatta Station) </li>\n<li>Victoria Road after Villiers Street will be closed &ndash; alternative stop All Saints Anglican Church, Victoria Road (for services towards Parramatta Station) </li>\n<li>Victoria Road before Marist Place will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills, Epping and Macquarie Park)&nbsp;</li>\n</ul>\n<div>Check signs at stops and see the <a href=\"https://transportnsw.info/events/2025/06/nrl-eels-v-titans\">event page</a> for more info.</div>\n</div>",
+    "subtitle": "Parramatta bus diversions for NRL match",
+    "properties": {
+      "smsText": "Parramatta bus diversions for NRL match",
+      "speechText": "Road closures will be in place on sections of O’Connell St, Ross St and Victoria Rd on Sunday 8 June for an NRL match at CommBank Stadium.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17546: :R:",
+          "destination": {
+            "name": "Epping Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 546",
+          "number": "546",
+          "description": "Parramatta to Epping via Oatlands & North Rocks",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17549: :R:",
+          "destination": {
+            "name": "Muirfield High School, Access Rd, Barclay Rd, North Rocks",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 549",
+          "number": "549",
+          "description": "Parramatta to Epping via North Rocks",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17550: :R:",
+          "destination": {
+            "name": "Macquarie Park Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 550",
+          "number": "550",
+          "description": "Parramatta to Macquarie Park via Epping",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:14600: :H:",
+          "destination": {
+            "name": "Hornsby Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 600",
+          "number": "600",
+          "description": "Parramatta to Pennant Hills via Castle Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14601: :H:",
+          "destination": {
+            "name": "Rouse Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 601",
+          "number": "601",
+          "description": "Parramatta to Rouse Hill Station via Hills Showground",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14606: :H:",
+          "destination": {
+            "name": "Winston Hills Mall, Caroline Chisholm Dr, Winston Hills",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 606",
+          "number": "606",
+          "description": "Parramatta to Winston Hills",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-53964",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-18T05:14:00Z",
+      "lastModification": "2025-06-18T05:14:00Z",
+      "availability": {
+        "from": "2025-06-18T05:00:00Z",
+        "to": "2025-06-23T19:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-23T13:59:00Z",
+          "to": "2025-06-23T19:00:00Z"
+        }
+      ],
+      "expiration": "2025-06-23T19:00:59Z"
+    },
+    "urlText": "Belmore Station bus stop changes",
+    "url": "https://transportnsw.info/alerts/details#/ems-53964",
+    "content": "<div>\n<div>From 11.59pm Monday 23 to 5am Tuesday 24 June 2025, bus services will not stop at Belmore Station, Bridge Road.</div>\n<div>&nbsp;</div>\n<div>Alternative bus stop:&nbsp;For Route SW1 &amp; SW2 - A temporary bus stop will be available west of the existing bus stop.</div>\n<div>&nbsp;</div>\n<div><strong>Impacted bus services:</strong></div>\n<ul>\n<li>Route SW1 - towards Sydenham</li>\n<li>Route SW2 - towards Sydenham</li>\n</ul>\n</div>",
+    "subtitle": "Belmore Station bus stop changes",
+    "properties": {
+      "smsText": "Belmore Station bus stop changes",
+      "speechText": "From 11 59 PM Monday 23 to 5 AM Tuesday 24 June 2025, bus services will not stop at Belmore Station, Bridge Road",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:38SW1: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network SW1",
+          "number": "SW1",
+          "description": "Sydenham to Bankstown",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "7083",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:38SW1: :R:",
+          "destination": {
+            "name": "Sydenham Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network SW1",
+          "number": "SW1",
+          "description": "Bankstown to Sydenham",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "7083",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:39SW2: :H:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network SW2",
+          "number": "SW2",
+          "description": "Sydenham to Bankstown (Limited stops)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "7084",
+            "name": "U-Go Mobility"
+          }
+        },
+        {
+          "id": "nsw:39SW2: :R:",
+          "destination": {
+            "name": "Sydenham Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network SW2",
+          "number": "SW2",
+          "description": "Bankstown to Sydenham (Limited stops)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "7084",
+            "name": "U-Go Mobility"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-52865",
     "version": 1,
@@ -8669,146 +9178,32 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-52695",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-05-26T04:43:00Z",
-      "lastModification": "2025-05-26T04:43:00Z",
-      "availability": {
-        "from": "2025-05-26T04:00:00Z",
-        "to": "2025-06-22T07:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T04:30:00Z",
-          "to": "2025-06-22T07:00:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T07:00:59Z"
-    },
-    "urlText": "Sydney CBD diversions for religious procession",
-    "url": "https://transportnsw.info/alerts/details#/ems-52695",
-    "content": "<div><strong>Sunday 22 June</strong></div>\n<ul>\n<li><strong>From 2.30pm to 5pm</strong>, route <strong>441</strong> services will start and end their trips at QVB due to road closures for a religious procession in the Sydney CBD.</li>\n<li>Services towards The Domain will end at QVB, Market St, Stand F (2000140).</li>\n<li>Services towards Birchgrove will start from QVB, York St, Stand B (200042).</li>\n<li>Check signs at stops and allow extra travel time.</li>\n</ul>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Town Hall Station, Park St, Stand H (2000249)</li>\n<li>Hyde Park, Park St, Stand B (2000157)</li>\n<li>Art Gallery Rd opp Art Gallery of NSW (2000144)</li>\n<li>Andrew Boy Charlton Pool (200097)</li>\n<li>Art Gallery of NSW, Art Gallery Rd (2000111)</li>\n</ul>",
-    "subtitle": "Sydney CBD diversions for religious procession",
-    "properties": {
-      "smsText": "Sydney CBD diversions for religious procession",
-      "speechText": "Sunday 22 June\nFrom 2:30PM to 5PM, route 441 services will start and end their trips at QVB due to road closures for a religious procession in the Sydney CBD.\nServices towards The Domain will end at QVB, Market St, Stand F.\nServices towards Birchgrove will start from QVB, York St, Stand B.\nCheck signs at stops and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "200070#G2000157#G2000144#G200097#G2000111",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74441: :R:",
-          "destination": {
-            "name": "Birchgrove Oval, Grove St, Birchgrove",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 441",
-          "number": "441",
-          "description": "Birchgrove to City Art Gallery via QVB (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "200070",
-          "isGlobalId": true,
-          "name": "Town Hall Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G2000157",
-          "isGlobalId": true,
-          "name": "Hyde Park, Park St",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G2000144",
-          "isGlobalId": true,
-          "name": "Art Gallery Rd opp Art Gallery of NSW",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G200097",
-          "isGlobalId": true,
-          "name": "Andrew (Boy) Charlton Pool, Mrs Macquaries Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        },
-        {
-          "id": "G2000111",
-          "isGlobalId": true,
-          "name": "Art Gallery of NSW, Art Gallery Rd",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
-    "id": "ems-53817",
-    "version": 1,
+    "id": "ems-54016",
+    "version": 92038,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-06-16T01:11:00Z",
-      "lastModification": "2025-06-16T01:11:00Z",
+      "creation": "2025-06-19T03:59:00Z",
+      "lastModification": "2025-06-20T05:32:00Z",
       "availability": {
-        "from": "2025-06-16T01:00:00Z",
-        "to": "2025-06-22T10:30:00Z"
+        "from": "2025-06-19T03:49:00Z",
+        "to": "2025-06-20T13:59:00Z"
       },
       "validity": [
         {
-          "from": "2025-06-22T10:00:00Z",
-          "to": "2025-06-22T10:30:00Z"
+          "from": "2025-06-19T03:49:00Z",
+          "to": "2025-06-20T14:00:00Z"
         }
       ],
-      "expiration": "2025-06-22T10:30:59Z"
+      "expiration": "2025-06-20T14:00:59Z"
     },
-    "urlText": "Parramatta bus diversions for NRL match",
-    "url": "https://transportnsw.info/alerts/details#/ems-53817",
-    "content": "<div>\n<div>Road closures will be in place on sections of O&rsquo;Connell St, Ross St and Victoria Rd on Sunday 8 June for an NRL match at CommBank Stadium.</div>\n<div>&nbsp;</div>\n<div>The following bus stops will be closed and routes 546, 549, 550, 600, 601 and 606 will be diverting while the road closures are in place between approximately 8pm and 8.30pm.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Walk to nearby alternative stops, see the <a href=\"https://transportnsw.info/document/6076/CommBankStadium_EventRoadClosureMap_PLR.pdf\">road closure and transport map</a> for more details:</div>\n<ul>\n<li>Parramatta Leagues Club, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills and North West) </li>\n<li>Our Lady of Mercy College, O'Connell Street will be closed &ndash; alternative stop O&rsquo;Connell Street at Fennell Street (for services towards Parramatta Station) </li>\n<li>Victoria Road after Villiers Street will be closed &ndash; alternative stop All Saints Anglican Church, Victoria Road (for services towards Parramatta Station) </li>\n<li>Victoria Road before Marist Place will be closed &ndash; alternative stop O&rsquo;Connell Street opp Harold Street (for services towards the Hills, Epping and Macquarie Park)&nbsp;</li>\n</ul>\n<div>Check signs at stops and see the <a href=\"https://transportnsw.info/events/2025/06/nrl-eels-v-titans\">event page</a> for more info.</div>\n</div>",
-    "subtitle": "Parramatta bus diversions for NRL match",
+    "urlText": "Diversion in Mayfield",
+    "url": "https://transportnsw.info/alerts/details#/ems-54016",
+    "content": "<div>Buses are diverting away from Ingall Street in Mayfield due to a burst water main at Bell Place.</div>\n<ul>\n<li>Two bus stops are being missed.</li>\n</ul>\n<div>&nbsp;</div>",
+    "subtitle": "Diversion in Mayfield",
     "properties": {
-      "smsText": "Parramatta bus diversions for NRL match",
-      "speechText": "Road closures will be in place on sections of O’Connell St, Ross St and Victoria Rd on Sunday 8 June for an NRL match at CommBank Stadium.",
+      "smsText": "Diversion in Mayfield",
+      "speechText": "Buses are diverting away from Ingall Street in Mayfield due to a burst water main at Bell Place.\nTwo bus stops are being missed.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -8816,229 +9211,117 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:17546: :R:",
+          "id": "nsw:73700: :R:",
           "destination": {
-            "name": "Epping Station",
+            "name": "Crebert St near Mayfield East Primary, Mayfield East",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 546",
-          "number": "546",
-          "description": "Parramatta to Epping via Oatlands & North Rocks",
-          "iconId": 5,
+          "name": "School buses 700",
+          "number": "700",
+          "description": "Warabrook Blvd, Warabrook to Mayfield East Public School",
+          "iconId": 8,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 11,
+            "iconId": 11
           },
           "operator": {
-            "id": "2507",
-            "name": "Busways North West"
+            "id": "3000",
+            "name": "Newcastle Transport"
           }
         },
         {
-          "id": "nsw:17549: :R:",
+          "id": "nsw:73849: :R:",
           "destination": {
-            "name": "Muirfield High School, Access Rd, Barclay Rd, North Rocks",
+            "name": "Lambton High School, Young Rd, New Lambton",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 549",
-          "number": "549",
-          "description": "Parramatta to Epping via North Rocks",
-          "iconId": 5,
+          "name": "School buses 849",
+          "number": "849",
+          "description": "Charlestown, Pearson St to Lambton High School",
+          "iconId": 8,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 11,
+            "iconId": 11
           },
           "operator": {
-            "id": "2507",
-            "name": "Busways North West"
+            "id": "3000",
+            "name": "Newcastle Transport"
           }
         },
         {
-          "id": "nsw:17550: :R:",
+          "id": "nsw:73024: :H:",
           "destination": {
-            "name": "Macquarie Park Station",
+            "name": "Wallsend District Library, Bunn St, Wallsend",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 550",
-          "number": "550",
-          "description": "Parramatta to Macquarie Park via Epping",
-          "iconId": 5,
+          "name": "Hunter Buses Network 24",
+          "number": "24",
+          "description": "Marketown to Wallsend via Mayfield",
+          "iconId": 15,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2507",
-            "name": "Busways North West"
+            "id": "3000",
+            "name": "Newcastle Transport"
           }
         },
         {
-          "id": "nsw:14600: :H:",
+          "id": "nsw:46138: :R:",
           "destination": {
-            "name": "Hornsby Station",
+            "name": "Bayway Village, First Ave, Fern Bay",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 600",
-          "number": "600",
-          "description": "Parramatta to Pennant Hills via Castle Hill",
-          "iconId": 5,
+          "name": "Hunter Buses Network 138",
+          "number": "138",
+          "description": "Newcastle Interchange to Lemon Tree Passage via Airport",
+          "iconId": 15,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
+            "id": "2448",
+            "name": "Hunter Valley Buses"
           }
         },
         {
-          "id": "nsw:14601: :H:",
+          "id": "nsw:7355N: :H:",
           "destination": {
-            "name": "Rouse Hill Station",
+            "name": "Fullerton St opp Booth St, Stockton",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 601",
-          "number": "601",
-          "description": "Parramatta to Rouse Hill Station via Hills Showground",
-          "iconId": 5,
+          "name": "Hunter Buses Network 55N",
+          "number": "55N",
+          "description": "Newcastle to Stockton",
+          "iconId": 15,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
+            "id": "3000",
+            "name": "Newcastle Transport"
           }
         },
         {
-          "id": "nsw:14606: :H:",
+          "id": "nsw:73705: :H:",
           "destination": {
-            "name": "Winston Hills Mall, Caroline Chisholm Dr, Winston Hills",
+            "name": "Ingall St at Mounter St, Mayfield",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 606",
-          "number": "606",
-          "description": "Parramatta to Winston Hills",
-          "iconId": 5,
+          "name": "School buses 705",
+          "number": "705",
+          "description": "Lambton High School to Mounter St & Ingall St",
+          "iconId": 8,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 11,
+            "iconId": 11
           },
           "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-53964",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-18T05:14:00Z",
-      "lastModification": "2025-06-18T05:14:00Z",
-      "availability": {
-        "from": "2025-06-18T05:00:00Z",
-        "to": "2025-06-23T19:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-23T13:59:00Z",
-          "to": "2025-06-23T19:00:00Z"
-        }
-      ],
-      "expiration": "2025-06-23T19:00:59Z"
-    },
-    "urlText": "Belmore Station bus stop changes",
-    "url": "https://transportnsw.info/alerts/details#/ems-53964",
-    "content": "<div>\n<div>From 11.59pm Monday 23 to 5am Tuesday 24 June 2025, bus services will not stop at Belmore Station, Bridge Road.</div>\n<div>&nbsp;</div>\n<div>Alternative bus stop:&nbsp;For Route SW1 &amp; SW2 - A temporary bus stop will be available west of the existing bus stop.</div>\n<div>&nbsp;</div>\n<div><strong>Impacted bus services:</strong></div>\n<ul>\n<li>Route SW1 - towards Sydenham</li>\n<li>Route SW2 - towards Sydenham</li>\n</ul>\n</div>",
-    "subtitle": "Belmore Station bus stop changes",
-    "properties": {
-      "smsText": "Belmore Station bus stop changes",
-      "speechText": "From 11 59 PM Monday 23 to 5 AM Tuesday 24 June 2025, bus services will not stop at Belmore Station, Bridge Road",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:38SW1: :H:",
-          "destination": {
-            "name": "Bankstown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network SW1",
-          "number": "SW1",
-          "description": "Sydenham to Bankstown",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "7083",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:38SW1: :R:",
-          "destination": {
-            "name": "Sydenham Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network SW1",
-          "number": "SW1",
-          "description": "Bankstown to Sydenham",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "7083",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:39SW2: :H:",
-          "destination": {
-            "name": "Bankstown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network SW2",
-          "number": "SW2",
-          "description": "Sydenham to Bankstown (Limited stops)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "7084",
-            "name": "U-Go Mobility"
-          }
-        },
-        {
-          "id": "nsw:39SW2: :R:",
-          "destination": {
-            "name": "Sydenham Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network SW2",
-          "number": "SW2",
-          "description": "Bankstown to Sydenham (Limited stops)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "7084",
-            "name": "U-Go Mobility"
+            "id": "3000",
+            "name": "Newcastle Transport"
           }
         }
       ]
@@ -12504,31 +12787,31 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-54016",
-    "version": 92038,
+    "id": "ems-54001",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-06-19T03:59:00Z",
-      "lastModification": "2025-06-20T05:32:00Z",
+      "creation": "2025-06-19T00:16:00Z",
+      "lastModification": "2025-06-19T00:16:00Z",
       "availability": {
-        "from": "2025-06-19T03:49:00Z",
-        "to": "2025-06-20T13:59:00Z"
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-06-19T03:49:00Z",
-          "to": "2025-06-20T14:00:00Z"
+          "from": "2025-06-22T03:15:00Z",
+          "to": "2025-06-22T04:30:00Z"
         }
       ],
-      "expiration": "2025-06-20T14:00:59Z"
+      "expiration": "2025-06-22T04:30:59Z"
     },
-    "urlText": "Diversion in Mayfield",
-    "url": "https://transportnsw.info/alerts/details#/ems-54016",
-    "content": "<div>Buses are diverting away from Ingall Street in Mayfield due to a burst water main at Bell Place.</div>\n<ul>\n<li>Two bus stops are being missed.</li>\n</ul>\n<div>&nbsp;</div>",
-    "subtitle": "Diversion in Mayfield",
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-54001",
+    "content": "<div>Route 120 buses will be diverting from 1.15pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses to the city will end trips at QVB, York St, Stand E (before Market St) (2000136).&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses leaving the city will start trips from Clarence St at Council Pl (2000139).</div>\n<div>&nbsp;</div>\n<div>The stop at QVB York St Stand D will be missed. Continue on foot and allow extra time.&nbsp;</div>\n<div><br /><strong>Missed stops:</strong>&nbsp;&nbsp;</div>\n<ul>\n<li>QVB, York St, Stand D Sydney (200044)&nbsp;</li>\n</ul>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
     "properties": {
-      "smsText": "Diversion in Mayfield",
-      "speechText": "Buses are diverting away from Ingall Street in Mayfield due to a burst water main at Bell Place.\nTwo bus stops are being missed.",
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Route 1 20 buses will be diverting from 1 15 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
@@ -12536,117 +12819,134 @@
     "affected": {
       "lines": [
         {
-          "id": "nsw:73700: :R:",
+          "id": "nsw:17120: :R:",
           "destination": {
-            "name": "Crebert St near Mayfield East Primary, Mayfield East",
+            "name": "Chatswood Station",
             "type": "stop"
           },
-          "name": "School buses 700",
-          "number": "700",
-          "description": "Warabrook Blvd, Warabrook to Mayfield East Public School",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        },
-        {
-          "id": "nsw:73849: :R:",
-          "destination": {
-            "name": "Lambton High School, Young Rd, New Lambton",
-            "type": "stop"
-          },
-          "name": "School buses 849",
-          "number": "849",
-          "description": "Charlestown, Pearson St to Lambton High School",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
-          }
-        },
-        {
-          "id": "nsw:73024: :H:",
-          "destination": {
-            "name": "Wallsend District Library, Bunn St, Wallsend",
-            "type": "stop"
-          },
-          "name": "Hunter Buses Network 24",
-          "number": "24",
-          "description": "Marketown to Wallsend via Mayfield",
-          "iconId": 15,
+          "name": "Sydney Buses Network 120",
+          "number": "120",
+          "description": "Chatswood to City QVB (Loop Service)",
+          "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
+            "id": "2507",
+            "name": "Busways North West"
           }
-        },
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-53962",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-18T05:03:00Z",
+      "lastModification": "2025-06-18T05:03:00Z",
+      "availability": {
+        "from": "2025-06-17T20:00:00Z",
+        "to": "2025-06-22T19:00:00Z"
+      },
+      "validity": [
         {
-          "id": "nsw:46138: :R:",
+          "from": "2025-06-20T20:00:00Z",
+          "to": "2025-06-22T19:00:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T19:00:59Z"
+    },
+    "urlText": "Belmore Station bus stop changes",
+    "url": "https://transportnsw.info/alerts/details#/ems-53962",
+    "content": "<div><strong>From 6am Saturday 21 to 5am Monday 23 June 2025</strong>, bus services will not stop at Belmore Station, Burwood Road (219211)</div>\n<div>&nbsp; &nbsp;</div>\n<div><strong>Alternative bus stops:</strong></div>\n<ul>\n<li>For Route N40 - customers will need to walk to Belmore Station, Burwood Road (219230)</li>\n<li>For Route 415 &amp; 942 -&nbsp;&nbsp;A temporary bus stop will be available&nbsp;south of existing bus stop.</li>\n</ul>\n<div><strong>Impacted bus services:</strong></div>\n<ul>\n<li>Route 415 - towards Campsie</li>\n<li>Route 942 - towards Lugarno</li>\n<li>N40 - towards East Hills</li>\n</ul>",
+    "subtitle": "Belmore Station bus stop changes",
+    "properties": {
+      "smsText": "Belmore Station bus stop changes",
+      "speechText": "From 6 AM Saturday 21 to 5 AM Monday 23 June 20 25, bus services will not stop at Belmore Station, Burwood Road",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74415: :R:",
           "destination": {
-            "name": "Bayway Village, First Ave, Fern Bay",
+            "name": "Canterbury Boys High School, Hardy St, Ashbury",
             "type": "stop"
           },
-          "name": "Hunter Buses Network 138",
-          "number": "138",
-          "description": "Newcastle Interchange to Lemon Tree Passage via Airport",
-          "iconId": 15,
+          "name": "Sydney Buses Network 415",
+          "number": "415",
+          "description": "Chiswick to Campsie",
+          "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2448",
-            "name": "Hunter Valley Buses"
+            "id": "2459",
+            "name": "Transit Systems"
           }
         },
         {
-          "id": "nsw:7355N: :H:",
+          "id": "nsw:31942: :H:",
           "destination": {
-            "name": "Fullerton St opp Booth St, Stockton",
+            "name": "Lugarno Pde before Elm St, Lugarno",
             "type": "stop"
           },
-          "name": "Hunter Buses Network 55N",
-          "number": "55N",
-          "description": "Newcastle to Stockton",
-          "iconId": 15,
+          "name": "Sydney Buses Network 942",
+          "number": "942",
+          "description": "Campsie to Lugarno",
+          "iconId": 5,
           "product": {
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
+            "id": "2510",
+            "name": "U-Go Mobility"
           }
         },
         {
-          "id": "nsw:73705: :H:",
+          "id": "nsw:13N40: :H:",
           "destination": {
-            "name": "Ingall St at Mounter St, Mayfield",
+            "name": "East Hills Station",
             "type": "stop"
           },
-          "name": "School buses 705",
-          "number": "705",
-          "description": "Lambton High School to Mounter St & Ingall St",
-          "iconId": 8,
+          "name": "Sydney Buses Network N40",
+          "number": "N40",
+          "description": "City Town Hall to East Hills (Night Service)",
+          "iconId": 5,
           "product": {
-            "class": 11,
-            "iconId": 11
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "3000",
-            "name": "Newcastle Transport"
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:13N40: :R:",
+          "destination": {
+            "name": "Town Hall Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network N40",
+          "number": "N40",
+          "description": "East Hills to City Town Hall (Night Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
           }
         }
       ]
@@ -13146,173 +13446,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-54001",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:16:00Z",
-      "lastModification": "2025-06-19T00:16:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:15:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-54001",
-    "content": "<div>Route 120 buses will be diverting from 1.15pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses to the city will end trips at QVB, York St, Stand E (before Market St) (2000136).&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses leaving the city will start trips from Clarence St at Council Pl (2000139).</div>\n<div>&nbsp;</div>\n<div>The stop at QVB York St Stand D will be missed. Continue on foot and allow extra time.&nbsp;</div>\n<div><br /><strong>Missed stops:</strong>&nbsp;&nbsp;</div>\n<ul>\n<li>QVB, York St, Stand D Sydney (200044)&nbsp;</li>\n</ul>",
-    "subtitle": "Sydney CBD diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD diversions due to Police Operation",
-      "speechText": "Route 1 20 buses will be diverting from 1 15 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17120: :R:",
-          "destination": {
-            "name": "Chatswood Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 120",
-          "number": "120",
-          "description": "Chatswood to City QVB (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-53962",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-18T05:03:00Z",
-      "lastModification": "2025-06-18T05:03:00Z",
-      "availability": {
-        "from": "2025-06-17T20:00:00Z",
-        "to": "2025-06-22T19:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-20T20:00:00Z",
-          "to": "2025-06-22T19:00:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T19:00:59Z"
-    },
-    "urlText": "Belmore Station bus stop changes",
-    "url": "https://transportnsw.info/alerts/details#/ems-53962",
-    "content": "<div><strong>From 6am Saturday 21 to 5am Monday 23 June 2025</strong>, bus services will not stop at Belmore Station, Burwood Road (219211)</div>\n<div>&nbsp; &nbsp;</div>\n<div><strong>Alternative bus stops:</strong></div>\n<ul>\n<li>For Route N40 - customers will need to walk to Belmore Station, Burwood Road (219230)</li>\n<li>For Route 415 &amp; 942 -&nbsp;&nbsp;A temporary bus stop will be available&nbsp;south of existing bus stop.</li>\n</ul>\n<div><strong>Impacted bus services:</strong></div>\n<ul>\n<li>Route 415 - towards Campsie</li>\n<li>Route 942 - towards Lugarno</li>\n<li>N40 - towards East Hills</li>\n</ul>",
-    "subtitle": "Belmore Station bus stop changes",
-    "properties": {
-      "smsText": "Belmore Station bus stop changes",
-      "speechText": "From 6 AM Saturday 21 to 5 AM Monday 23 June 20 25, bus services will not stop at Belmore Station, Burwood Road",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74415: :R:",
-          "destination": {
-            "name": "Canterbury Boys High School, Hardy St, Ashbury",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 415",
-          "number": "415",
-          "description": "Chiswick to Campsie",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:31942: :H:",
-          "destination": {
-            "name": "Lugarno Pde before Elm St, Lugarno",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 942",
-          "number": "942",
-          "description": "Campsie to Lugarno",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2510",
-            "name": "U-Go Mobility"
-          }
-        },
-        {
-          "id": "nsw:13N40: :H:",
-          "destination": {
-            "name": "East Hills Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N40",
-          "number": "N40",
-          "description": "City Town Hall to East Hills (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13N40: :R:",
-          "destination": {
-            "name": "Town Hall Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network N40",
-          "number": "N40",
-          "description": "East Hills to City Town Hall (Night Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-44836",
     "version": 63346,
     "priority": "normal",
@@ -13490,6 +13623,118 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-53999",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-19T00:13:00Z",
+      "lastModification": "2025-06-19T00:13:00Z",
+      "availability": {
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T03:30:00Z",
+          "to": "2025-06-22T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T04:30:59Z"
+    },
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-53999",
+    "content": "<div>Route buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div><br />Buses to and from the city will divert around Elizabeth St via Park St, College St, Prince Albert Rd, Macquarie St and Bent St. Stops on Elizabeth St will be missed.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Allow extra travel time or consider catching trains instead.&nbsp;</div>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
+    "properties": {
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Route buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:30304: :R:",
+          "destination": {
+            "name": "Museum of Sydney, Phillip St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 304",
+          "number": "304",
+          "description": "City Circular Quay to Green Square (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        },
+        {
+          "id": "nsw:30333: :H:",
+          "destination": {
+            "name": "North Bondi Shops, Campbell Pde, North Bondi",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 333",
+          "number": "333",
+          "description": "City Circular Quay to North Bondi via Bondi Junction",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        },
+        {
+          "id": "nsw:30343: :H:",
+          "destination": {
+            "name": "Dacey Gardens, Bunnerong Rd, Daceyville",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 343",
+          "number": "343",
+          "description": "City Circular Quay to Kingsford",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        },
+        {
+          "id": "nsw:30396: :H:",
+          "destination": {
+            "name": "Maroubra Beach, Marine Pde, Maroubra",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 396",
+          "number": "396",
+          "description": "City Circular Quay to Maroubra Beach",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
           }
         }
       ]
@@ -13730,118 +13975,6 @@
           "operator": {
             "id": "B025",
             "name": "Premier Motor Service"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-53999",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:13:00Z",
-      "lastModification": "2025-06-19T00:13:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:30:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-53999",
-    "content": "<div>Route buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div><br />Buses to and from the city will divert around Elizabeth St via Park St, College St, Prince Albert Rd, Macquarie St and Bent St. Stops on Elizabeth St will be missed.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Allow extra travel time or consider catching trains instead.&nbsp;</div>",
-    "subtitle": "Sydney CBD diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD diversions due to Police Operation",
-      "speechText": "Route buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:30304: :R:",
-          "destination": {
-            "name": "Museum of Sydney, Phillip St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 304",
-          "number": "304",
-          "description": "City Circular Quay to Green Square (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        },
-        {
-          "id": "nsw:30333: :H:",
-          "destination": {
-            "name": "North Bondi Shops, Campbell Pde, North Bondi",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 333",
-          "number": "333",
-          "description": "City Circular Quay to North Bondi via Bondi Junction",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        },
-        {
-          "id": "nsw:30343: :H:",
-          "destination": {
-            "name": "Dacey Gardens, Bunnerong Rd, Daceyville",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 343",
-          "number": "343",
-          "description": "City Circular Quay to Kingsford",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        },
-        {
-          "id": "nsw:30396: :H:",
-          "destination": {
-            "name": "Maroubra Beach, Marine Pde, Maroubra",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 396",
-          "number": "396",
-          "description": "City Circular Quay to Maroubra Beach",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
           }
         }
       ]
@@ -14252,6 +14385,118 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-54003",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-19T00:19:00Z",
+      "lastModification": "2025-06-19T00:19:00Z",
+      "availability": {
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T03:15:00Z",
+          "to": "2025-06-22T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T04:30:59Z"
+    },
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-54003",
+    "content": "<div>Route 500x and 506 buses will be diverting from 1.15pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses to the city will end trips at Town Hall House, Druitt St Stand N (2000282) and start trips from Druitt St, Stand L (2000423).&nbsp;&nbsp;</div>\n<div><br /><strong>Missed stops:&nbsp;</strong></div>\n<ul>\n<li>Town Hall Station, Park St, Stand H (2000249)&nbsp;</li>\n<li>Hyde Park, Park St, Stand B (2000157)&nbsp;</li>\n<li>William St Opp Australian Museum (201154)&nbsp;</li>\n<li>Riley St Opp Kennedy St (201157)&nbsp;</li>\n<li>St Mary's Cathedral, St Marys Rd (2000410)&nbsp;</li>\n<li>Town Hall Station, Park St, Stand K (2000252)&nbsp;</li>\n<li>Hyde Park, Park St, Stand C (2000412)</li>\n</ul>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
+    "properties": {
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Route 500 X and 5 O 6 buses will be diverting from 1 15 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17500:X:R:",
+          "destination": {
+            "name": "Hyde Park, Park St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 500X",
+          "number": "500X",
+          "description": "West Ryde to City Hyde Park via Victoria Rd (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17500:X:H:",
+          "destination": {
+            "name": "West Ryde Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 500X",
+          "number": "500X",
+          "description": "City Hyde Park to West Ryde via Victoria Rd (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17506: :H:",
+          "destination": {
+            "name": "Macquarie University Campus Interchange, Macquarie Park",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 506",
+          "number": "506",
+          "description": "City Domain to Macquarie University via East Ryde",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17506: :R:",
+          "destination": {
+            "name": "Riley St opp Kennedy St, Woolloomooloo",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 506",
+          "number": "506",
+          "description": "Macquarie University to City Domain via East Ryde",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
           }
         }
       ]
@@ -14867,118 +15112,6 @@
           "operator": {
             "id": "B072",
             "name": "Busways Great Lakes"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-54003",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:19:00Z",
-      "lastModification": "2025-06-19T00:19:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:15:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-54003",
-    "content": "<div>Route 500x and 506 buses will be diverting from 1.15pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses to the city will end trips at Town Hall House, Druitt St Stand N (2000282) and start trips from Druitt St, Stand L (2000423).&nbsp;&nbsp;</div>\n<div><br /><strong>Missed stops:&nbsp;</strong></div>\n<ul>\n<li>Town Hall Station, Park St, Stand H (2000249)&nbsp;</li>\n<li>Hyde Park, Park St, Stand B (2000157)&nbsp;</li>\n<li>William St Opp Australian Museum (201154)&nbsp;</li>\n<li>Riley St Opp Kennedy St (201157)&nbsp;</li>\n<li>St Mary's Cathedral, St Marys Rd (2000410)&nbsp;</li>\n<li>Town Hall Station, Park St, Stand K (2000252)&nbsp;</li>\n<li>Hyde Park, Park St, Stand C (2000412)</li>\n</ul>",
-    "subtitle": "Sydney CBD diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD diversions due to Police Operation",
-      "speechText": "Route 500 X and 5 O 6 buses will be diverting from 1 15 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17500:X:R:",
-          "destination": {
-            "name": "Hyde Park, Park St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 500X",
-          "number": "500X",
-          "description": "West Ryde to City Hyde Park via Victoria Rd (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17500:X:H:",
-          "destination": {
-            "name": "West Ryde Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 500X",
-          "number": "500X",
-          "description": "City Hyde Park to West Ryde via Victoria Rd (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17506: :H:",
-          "destination": {
-            "name": "Macquarie University Campus Interchange, Macquarie Park",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 506",
-          "number": "506",
-          "description": "City Domain to Macquarie University via East Ryde",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          }
-        },
-        {
-          "id": "nsw:17506: :R:",
-          "destination": {
-            "name": "Riley St opp Kennedy St, Woolloomooloo",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 506",
-          "number": "506",
-          "description": "Macquarie University to City Domain via East Ryde",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
           }
         }
       ]
@@ -17873,6 +18006,382 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-53997",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-19T00:10:00Z",
+      "lastModification": "2025-06-19T00:10:00Z",
+      "availability": {
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T03:30:00Z",
+          "to": "2025-06-22T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T04:30:59Z"
+    },
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-53997",
+    "content": "<div>Route buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march around Town Hall.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses will not run to or from Miller Points, services will start and end at Hyde Park instead.&nbsp;</div>\n<div><br />Buses to the city will end trips at Hyde Park, Park St Stand C. Buses leaving the city will start trips from William St Opp Australian Museum (201154).&nbsp;</div>\n<div><br />Catch trains or continue on foot.&nbsp;</div>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
+    "properties": {
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Route buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march around Town Hall.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:30311: :H:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 311",
+          "number": "311",
+          "description": "City Millers Point to Central Belmore Park via Potts Point & Darlinghurst",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        },
+        {
+          "id": "nsw:30324: :H:",
+          "destination": {
+            "name": "Robertson Park, Military Rd, Watsons Bay",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 324",
+          "number": "324",
+          "description": "City Walsh Bay to Watsons Bay via Old South Head Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        },
+        {
+          "id": "nsw:30325: :H:",
+          "destination": {
+            "name": "Robertson Park, Military Rd, Watsons Bay",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 325",
+          "number": "325",
+          "description": "City Walsh Bay to Watsons Bay via Vaucluse Rd",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-54005",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-19T00:23:00Z",
+      "lastModification": "2025-06-19T00:23:00Z",
+      "availability": {
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T03:30:00Z",
+          "to": "2025-06-22T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T04:30:59Z"
+    },
+    "urlText": "Sydney CBD Martin Place diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-54005",
+    "content": "<div>Route buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march around Town Hall.&nbsp;</div>\n<div><br />Buses that usually run to and from Martin Place will start and end trips at The Domain, St Mary&rsquo;s Rd, travelling via College St, Park St and Elizabeth St. Stops on Elizabeth St to Martin Place will be missed.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Continue on foot between the Domain and Martin Place.&nbsp;</div>",
+    "subtitle": "Sydney CBD Martin Place diversions due to Police Operation",
+    "properties": {
+      "smsText": "Sydney CBD Martin Place diversions due to Police Operation",
+      "speechText": "Route buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march around Town Hall.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74412: :H:",
+          "destination": {
+            "name": "Campsie Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 412",
+          "number": "412",
+          "description": "City Martin Place to Campsie via Earlwood & Dulwich Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74412: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 412",
+          "number": "412",
+          "description": "Campsie to City Martin Place via Earlwood & Dulwich Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74423: :H:",
+          "destination": {
+            "name": "Kingsgrove Bus Depot, Richland St, Kingsgrove",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 423",
+          "number": "423",
+          "description": "City Martin Place to Kingsgrove",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74423: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 423",
+          "number": "423",
+          "description": "Kingsgrove to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74426: :H:",
+          "destination": {
+            "name": "Dulwich Hill Shops, Marrickville Rd, Dulwich Hill",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 426",
+          "number": "426",
+          "description": "City Martin Place to Dulwich Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74426: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 426",
+          "number": "426",
+          "description": "Dulwich Hill to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74428: :H:",
+          "destination": {
+            "name": "Canterbury Boys High School, Hardy St, Ashbury",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 428",
+          "number": "428",
+          "description": "City Martin Place to Canterbury",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74428: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 428",
+          "number": "428",
+          "description": "Canterbury to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74431: :H:",
+          "destination": {
+            "name": "Federal Rd opp Bicentennial Park, Glebe",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 431",
+          "number": "431",
+          "description": "City Martin Place to Glebe Point",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74431: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 431",
+          "number": "431",
+          "description": "Glebe Point to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74470: :H:",
+          "destination": {
+            "name": "Lilyfield Rd at Edward St, Lilyfield",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 470",
+          "number": "470",
+          "description": "City Martin Place to Lilyfield",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74470: :R:",
+          "destination": {
+            "name": "Martin Place Station, Elizabeth St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 470",
+          "number": "470",
+          "description": "Lilyfield to City Martin Place",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74430: :R:",
+          "destination": {
+            "name": "Sydenham Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 430",
+          "number": "430",
+          "description": "Sydenham to Central Railway Square (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
@@ -21846,382 +22355,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-53997",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:10:00Z",
-      "lastModification": "2025-06-19T00:10:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:30:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-53997",
-    "content": "<div>Route buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march around Town Hall.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses will not run to or from Miller Points, services will start and end at Hyde Park instead.&nbsp;</div>\n<div><br />Buses to the city will end trips at Hyde Park, Park St Stand C. Buses leaving the city will start trips from William St Opp Australian Museum (201154).&nbsp;</div>\n<div><br />Catch trains or continue on foot.&nbsp;</div>",
-    "subtitle": "Sydney CBD diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD diversions due to Police Operation",
-      "speechText": "Route buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march around Town Hall.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:30311: :H:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 311",
-          "number": "311",
-          "description": "City Millers Point to Central Belmore Park via Potts Point & Darlinghurst",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        },
-        {
-          "id": "nsw:30324: :H:",
-          "destination": {
-            "name": "Robertson Park, Military Rd, Watsons Bay",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 324",
-          "number": "324",
-          "description": "City Walsh Bay to Watsons Bay via Old South Head Rd",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        },
-        {
-          "id": "nsw:30325: :H:",
-          "destination": {
-            "name": "Robertson Park, Military Rd, Watsons Bay",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 325",
-          "number": "325",
-          "description": "City Walsh Bay to Watsons Bay via Vaucluse Rd",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-54005",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:23:00Z",
-      "lastModification": "2025-06-19T00:23:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:30:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD Martin Place diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-54005",
-    "content": "<div>Route buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march around Town Hall.&nbsp;</div>\n<div><br />Buses that usually run to and from Martin Place will start and end trips at The Domain, St Mary&rsquo;s Rd, travelling via College St, Park St and Elizabeth St. Stops on Elizabeth St to Martin Place will be missed.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Continue on foot between the Domain and Martin Place.&nbsp;</div>",
-    "subtitle": "Sydney CBD Martin Place diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD Martin Place diversions due to Police Operation",
-      "speechText": "Route buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march around Town Hall.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74412: :H:",
-          "destination": {
-            "name": "Campsie Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 412",
-          "number": "412",
-          "description": "City Martin Place to Campsie via Earlwood & Dulwich Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74412: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 412",
-          "number": "412",
-          "description": "Campsie to City Martin Place via Earlwood & Dulwich Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74423: :H:",
-          "destination": {
-            "name": "Kingsgrove Bus Depot, Richland St, Kingsgrove",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 423",
-          "number": "423",
-          "description": "City Martin Place to Kingsgrove",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74423: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 423",
-          "number": "423",
-          "description": "Kingsgrove to City Martin Place",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74426: :H:",
-          "destination": {
-            "name": "Dulwich Hill Shops, Marrickville Rd, Dulwich Hill",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 426",
-          "number": "426",
-          "description": "City Martin Place to Dulwich Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74426: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 426",
-          "number": "426",
-          "description": "Dulwich Hill to City Martin Place",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74428: :H:",
-          "destination": {
-            "name": "Canterbury Boys High School, Hardy St, Ashbury",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 428",
-          "number": "428",
-          "description": "City Martin Place to Canterbury",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74428: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 428",
-          "number": "428",
-          "description": "Canterbury to City Martin Place",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74431: :H:",
-          "destination": {
-            "name": "Federal Rd opp Bicentennial Park, Glebe",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 431",
-          "number": "431",
-          "description": "City Martin Place to Glebe Point",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74431: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 431",
-          "number": "431",
-          "description": "Glebe Point to City Martin Place",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74470: :H:",
-          "destination": {
-            "name": "Lilyfield Rd at Edward St, Lilyfield",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 470",
-          "number": "470",
-          "description": "City Martin Place to Lilyfield",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74470: :R:",
-          "destination": {
-            "name": "Martin Place Station, Elizabeth St, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 470",
-          "number": "470",
-          "description": "Lilyfield to City Martin Place",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74430: :R:",
-          "destination": {
-            "name": "Sydenham Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 430",
-          "number": "430",
-          "description": "Sydenham to Central Railway Square (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "d16d28f0d2c82056b98913c6268f4a92b0ccbf78",
     "version": 1,
@@ -24323,6 +24456,133 @@
     }
   },
   {
+    "type": "stopInfo",
+    "id": "ems-52365",
+    "version": 602062,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-05-21T05:21:00Z",
+      "lastModification": "2025-05-28T04:36:00Z",
+      "availability": {
+        "from": "2025-06-01T16:00:00Z",
+        "to": "2025-06-20T13:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-15T16:00:00Z",
+          "to": "2025-06-20T13:00:00Z"
+        }
+      ],
+      "expiration": "2025-06-20T13:00:59Z"
+    },
+    "urlText": "Balmain Wharf full closure",
+    "url": "https://transportnsw.info/alerts/details#/ems-52365",
+    "content": "<div>Balmain Thames Street Wharf will be fully closed for maintenance work from Monday 16 to Friday 20 June.</div>\n<div>&nbsp;</div>\n<div>This closure is required to replace the old heavily corroded sponsons with new sponsons.</div>\n<div>&nbsp;</div>\n<div>If you&rsquo;re travelling to the city, &nbsp;catch bus Route 442 from &nbsp;Gladstone Park, Darling Street.</div>",
+    "subtitle": "Balmain Wharf full closure",
+    "properties": {
+      "smsText": "Balmain Wharf full closure",
+      "speechText": "Balmain Thames Street Wharf will be fully closed for maintenance work from Monday 16 to Friday 20 June.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "stopIDglobalID": "204157",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:090F3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Sydney Olympic Park to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F3: :H:",
+          "destination": {
+            "name": "Parramatta Wharf, Parramatta",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Sydney Olympic Park",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F8: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F8 Cockatoo Island",
+          "number": "F8 Cockatoo Island",
+          "description": "Cockatoo Island to Circular Quay",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        },
+        {
+          "id": "nsw:090F8: :H:",
+          "destination": {
+            "name": "Cockatoo Island Wharf, Woolwich",
+            "type": "stop"
+          },
+          "name": "Sydney Ferries Network F8 Cockatoo Island",
+          "number": "F8 Cockatoo Island",
+          "description": "Circular Quay to Cockatoo Island",
+          "iconId": 10,
+          "product": {
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "SF",
+            "name": "Sydney Ferries"
+          }
+        }
+      ],
+      "stops": [
+        {
+          "id": "204157",
+          "isGlobalId": true,
+          "name": "Balmain Wharf",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95333002:1",
+            "name": "Balmain",
+            "type": "locality"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-53906",
     "version": 1,
@@ -24803,127 +25063,55 @@
     }
   },
   {
-    "type": "stopInfo",
-    "id": "ems-52365",
-    "version": 602062,
+    "type": "lineInfo",
+    "id": "ems-54007",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-05-21T05:21:00Z",
-      "lastModification": "2025-05-28T04:36:00Z",
+      "creation": "2025-06-19T00:25:00Z",
+      "lastModification": "2025-06-19T00:25:00Z",
       "availability": {
-        "from": "2025-06-01T16:00:00Z",
-        "to": "2025-06-20T13:00:00Z"
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-06-15T16:00:00Z",
-          "to": "2025-06-20T13:00:00Z"
+          "from": "2025-06-22T03:30:00Z",
+          "to": "2025-06-22T04:30:00Z"
         }
       ],
-      "expiration": "2025-06-20T13:00:59Z"
+      "expiration": "2025-06-22T04:30:59Z"
     },
-    "urlText": "Balmain Wharf full closure",
-    "url": "https://transportnsw.info/alerts/details#/ems-52365",
-    "content": "<div>Balmain Thames Street Wharf will be fully closed for maintenance work from Monday 16 to Friday 20 June.</div>\n<div>&nbsp;</div>\n<div>This closure is required to replace the old heavily corroded sponsons with new sponsons.</div>\n<div>&nbsp;</div>\n<div>If you&rsquo;re travelling to the city, &nbsp;catch bus Route 442 from &nbsp;Gladstone Park, Darling Street.</div>",
-    "subtitle": "Balmain Wharf full closure",
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-54007",
+    "content": "<div>Route 389 buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div><br />Services to the city will be diverting via Pyrmont Bridge Rd, Western Distributor, Bathurst St and Elizabeth St to return to route on Park St.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Services leaving the city will be diverting via College St, Wentworth Ave, Goulburn St, Elizabeth St, Liverpool St, Kent St, Druitt St and Pyrmont Bridge Rd to return to route on Harris St.&nbsp;&nbsp;</div>\n<div>&nbsp;</div>\n<div>Stops on Park St will be missed. Check signs at stops and allow extra time.</div>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
     "properties": {
-      "smsText": "Balmain Wharf full closure",
-      "speechText": "Balmain Thames Street Wharf will be fully closed for maintenance work from Monday 16 to Friday 20 June.",
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Route 3 8 9 buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
       "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "stopIDglobalID": "204157",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:090F3: :R:",
+          "id": "nsw:74389: :H:",
           "destination": {
-            "name": "Circular Quay",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Sydney Olympic Park to Circular Quay",
-          "iconId": 10,
+          "name": "Sydney Buses Network 389",
+          "number": "389",
+          "description": "Pyrmont to Bondi Junction",
+          "iconId": 5,
           "product": {
-            "class": 9,
-            "iconId": 9
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F3: :H:",
-          "destination": {
-            "name": "Parramatta Wharf, Parramatta",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Circular Quay to Sydney Olympic Park",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F8: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F8 Cockatoo Island",
-          "number": "F8 Cockatoo Island",
-          "description": "Cockatoo Island to Circular Quay",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        },
-        {
-          "id": "nsw:090F8: :H:",
-          "destination": {
-            "name": "Cockatoo Island Wharf, Woolwich",
-            "type": "stop"
-          },
-          "name": "Sydney Ferries Network F8 Cockatoo Island",
-          "number": "F8 Cockatoo Island",
-          "description": "Circular Quay to Cockatoo Island",
-          "iconId": 10,
-          "product": {
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
-          }
-        }
-      ],
-      "stops": [
-        {
-          "id": "204157",
-          "isGlobalId": true,
-          "name": "Balmain Wharf",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333002:1",
-            "name": "Balmain",
-            "type": "locality"
+            "id": "2459",
+            "name": "Transit Systems"
           }
         }
       ]
@@ -25109,61 +25297,6 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-54007",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:25:00Z",
-      "lastModification": "2025-06-19T00:25:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:30:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-54007",
-    "content": "<div>Route 389 buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div><br />Services to the city will be diverting via Pyrmont Bridge Rd, Western Distributor, Bathurst St and Elizabeth St to return to route on Park St.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Services leaving the city will be diverting via College St, Wentworth Ave, Goulburn St, Elizabeth St, Liverpool St, Kent St, Druitt St and Pyrmont Bridge Rd to return to route on Harris St.&nbsp;&nbsp;</div>\n<div>&nbsp;</div>\n<div>Stops on Park St will be missed. Check signs at stops and allow extra time.</div>",
-    "subtitle": "Sydney CBD diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD diversions due to Police Operation",
-      "speechText": "Route 3 8 9 buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74389: :H:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 389",
-          "number": "389",
-          "description": "Pyrmont to Bondi Junction",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
           }
         }
       ]
@@ -27489,6 +27622,137 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-54009",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-19T00:30:00Z",
+      "lastModification": "2025-06-19T00:30:00Z",
+      "availability": {
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T03:30:00Z",
+          "to": "2025-06-22T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T04:30:59Z"
+    },
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-54009",
+    "content": "<div>Buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div><br />Services to the city will be diverting via Bathurst St, Elizabeth St, Park St, College St and St Mary&rsquo;s Rd (Route 441 will continue to Art Gallery).&nbsp;</div>\n<div>&nbsp;</div>\n<div>Services leaving the city will start from St Mary&rsquo;s Rd travelling via College St, Wentworth Ave, Goulburn St, Elizabeth, Liverpool St, Kent St, Druitt St then as normal.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra time.&nbsp;</div>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
+    "properties": {
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:74441: :R:",
+          "destination": {
+            "name": "Birchgrove Oval, Grove St, Birchgrove",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 441",
+          "number": "441",
+          "description": "Birchgrove to City Art Gallery via QVB (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74504: :R:",
+          "destination": {
+            "name": "Riley St opp Kennedy St, Woolloomooloo",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 504",
+          "number": "504",
+          "description": "Chiswick to City Domain",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74437: :H:",
+          "destination": {
+            "name": "First Ave at Ramsay Rd, Five Dock",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 437",
+          "number": "437",
+          "description": "City QVB to Five Dock via City West Link",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74437: :R:",
+          "destination": {
+            "name": "QVB, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 437",
+          "number": "437",
+          "description": "Five Dock to City QVB via City West Link",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        },
+        {
+          "id": "nsw:74442: :R:",
+          "destination": {
+            "name": "Balmain East Wharf, Balmain East",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 442",
+          "number": "442",
+          "description": "Balmain East Wharf to City QVB (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2459",
+            "name": "Transit Systems"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-195",
     "version": 94955904,
     "priority": "veryLow",
@@ -27629,137 +27893,6 @@
           "operator": {
             "id": "5503",
             "name": "Fenton's Bus Service"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-54009",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:30:00Z",
-      "lastModification": "2025-06-19T00:30:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:30:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-54009",
-    "content": "<div>Buses will be diverting from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div><br />Services to the city will be diverting via Bathurst St, Elizabeth St, Park St, College St and St Mary&rsquo;s Rd (Route 441 will continue to Art Gallery).&nbsp;</div>\n<div>&nbsp;</div>\n<div>Services leaving the city will start from St Mary&rsquo;s Rd travelling via College St, Wentworth Ave, Goulburn St, Elizabeth, Liverpool St, Kent St, Druitt St then as normal.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra time.&nbsp;</div>",
-    "subtitle": "Sydney CBD diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD diversions due to Police Operation",
-      "speechText": "Buses will be diverting from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:74441: :R:",
-          "destination": {
-            "name": "Birchgrove Oval, Grove St, Birchgrove",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 441",
-          "number": "441",
-          "description": "Birchgrove to City Art Gallery via QVB (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74504: :R:",
-          "destination": {
-            "name": "Riley St opp Kennedy St, Woolloomooloo",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 504",
-          "number": "504",
-          "description": "Chiswick to City Domain",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74437: :H:",
-          "destination": {
-            "name": "First Ave at Ramsay Rd, Five Dock",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 437",
-          "number": "437",
-          "description": "City QVB to Five Dock via City West Link",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74437: :R:",
-          "destination": {
-            "name": "QVB, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 437",
-          "number": "437",
-          "description": "Five Dock to City QVB via City West Link",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
-          }
-        },
-        {
-          "id": "nsw:74442: :R:",
-          "destination": {
-            "name": "Balmain East Wharf, Balmain East",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 442",
-          "number": "442",
-          "description": "Balmain East Wharf to City QVB (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2459",
-            "name": "Transit Systems"
           }
         }
       ]
@@ -30706,6 +30839,435 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-54067",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-20T05:25:00Z",
+      "lastModification": "2025-06-20T05:25:00Z",
+      "availability": {
+        "from": "2025-06-20T05:24:00Z",
+        "to": "2025-06-20T13:24:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-20T05:24:00Z",
+          "to": "2025-06-20T13:24:00Z"
+        }
+      ],
+      "expiration": "2025-06-20T13:24:59Z"
+    },
+    "urlText": "Coach service delays at Newcastle Interchange",
+    "url": "https://transportnsw.info/alerts/details#/ems-54067",
+    "content": "There are delays on route 151 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at Newcastle Interchange",
+    "properties": {
+      "smsText": "Coach service delays at Newcastle Interchange",
+      "speechText": "There are delays on route 151 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76151: :H:",
+          "destination": {
+            "name": "Grafton Station, South Grafton",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 151",
+          "number": "151",
+          "description": "Central to Grafton",
+          "iconId": 7,
+          "product": {
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-54049",
+    "version": 12171479,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-01-30T01:31:00Z",
+      "lastModification": "2025-06-19T22:29:00Z",
+      "availability": {
+        "from": "2025-01-30T01:31:00Z",
+        "to": "2025-06-21T22:28:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-30T01:31:00Z",
+          "to": "2025-06-21T22:28:00Z"
+        }
+      ],
+      "expiration": "2025-06-21T22:28:59Z"
+    },
+    "urlText": "Delays in both directions on the Southern Highlands Line",
+    "url": "https://transportnsw.info/alerts/details#/ems-54049",
+    "content": "<div>Allow plenty of extra travel time due to urgent track repairs at Moss Vale.</div>\n<div>&nbsp;</div>\n<div>Stops and platforms may change at short notice and trains may stop on platforms or between stations for longer than normal while the incident is ongoing.</div>\n<div>&nbsp;</div>\n<div>Buses may replace some services to assist with large gaps in service.</div>\n<div>&nbsp;</div>\n<div>Please listen to announcements band check information screens before boarding trains.</div>",
+    "subtitle": "Delays in both directions on the Southern Highlands Line",
+    "properties": {
+      "smsText": "Delays in both directions on the Southern Highlands Line",
+      "speechText": "Allow plenty of extra travel time due to urgent track repairs at Moss Vale. \n\nStops and platforms may change at short notice and trains may stop on platforms or between stations for longer than normal while the incident is ongoing.\n\nPlease listen to announcements band check information screens before boarding trains.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76SHL: :R:",
+          "destination": {
+            "name": "Central Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Moss Vale to Campbelltown",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76SHL: :H:",
+          "destination": {
+            "name": "Goulburn Station",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Campbelltown to Moss Vale",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-53944",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-17T23:40:00Z",
+      "lastModification": "2025-06-17T23:40:00Z",
+      "availability": {
+        "from": "2025-06-17T23:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T03:30:00Z",
+          "to": "2025-06-22T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T04:30:59Z"
+    },
+    "urlText": "L2 and L3 light rail services may be temporarily held at stops or partially closed due to a Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-53944",
+    "content": "<div>On Sunday, L2 Randwick Line and L3 Kingsford Line light rail services may be impacted between 1.30pm and 2.30pm approximately due to road closures around Town Hall for a planned Police Operation protest march:&nbsp;</div>\n<ul>\n<li>L2 and L3 services may be temporarily held at stops, or</li>\n<li>L2 and L3 services may be temporarily partially closed between Circular Quay and Town Hall.</li>\n</ul>\n<div>Impact to services and timings may change at the direction of NSW Police.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Please check information screens at stops, listen to announcements and follow the direction of staff or Police on site, as necessary.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Allow extra travel time and use the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> for alternative transport options, including trains, buses or walking.&nbsp;</div>\n<div>&nbsp;</div>\n<div>L1 Dulwich Hill Line light rail services should continue to run as per normal.&nbsp;</div>",
+    "subtitle": "L2 and L3 light rail services may be temporarily held at stops or partially closed due to a Police Operation",
+    "properties": {
+      "smsText": "L2 and L3 light rail services may be temporarily held at stops or partially closed due to a Police Operation",
+      "speechText": "On Sunday, L2 Randwick Line and L3 Kingsford Line light rail services may be impacted between 1 30 PM and 2 30 PM approximately due to road closures around Town Hall for a planned Police Operation protest march",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L2: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Randwick to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L2: :H:",
+          "destination": {
+            "name": "Randwick Light Rail, Randwick",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L2 Randwick Line",
+          "number": "L2 Randwick Line",
+          "description": "Circular Quay to Randwick",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :R:",
+          "destination": {
+            "name": "Circular Quay",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Juniors Kingsford to Circular Quay",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        },
+        {
+          "id": "nsw:780L3: :H:",
+          "destination": {
+            "name": "Juniors Kingsford Light Rail, Kingsford",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L3 Kingsford Line",
+          "number": "L3 Kingsford Line",
+          "description": "Circular Quay to Juniors Kingsford",
+          "iconId": 13,
+          "product": {
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "SLR",
+            "name": "Sydney Light Rail"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-53968",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-18T05:22:00Z",
+      "lastModification": "2025-06-18T05:22:00Z",
+      "availability": {
+        "from": "2025-06-17T20:00:00Z",
+        "to": "2025-06-23T08:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T20:00:00Z",
+          "to": "2025-06-23T08:00:00Z"
+        }
+      ],
+      "expiration": "2025-06-23T08:00:59Z"
+    },
+    "urlText": "Chester Hill station upgrade",
+    "url": "https://transportnsw.info/alerts/details#/ems-53968",
+    "content": "<div>\n<div>From 6am to 6pm Monday 23 June 2025, Chester Hill Station upgrade work will impact some bus services.</div>\n<div>&nbsp;</div>\n<div><strong>Impacted bus stop:</strong> Bus stop Chester Hill Station (216232)</div>\n<div>&nbsp;</div>\n<div><strong>Alternative bus stop:</strong> Chester Hill Station, Waldron Rd (216233)</div>\n<div>&nbsp;</div>\n<div><strong>Impacted bus services:</strong></div>\n<ul>\n<li>S2 &ndash; Granville</li>\n<li>S4 &ndash; Chester Hill</li>\n<li>M91 &ndash; Parramatta</li>\n<li>Customers for the 911 towards Auburn should use bus stop Waldron Rd before Arcadia Rd (2162151)</li>\n</ul>\n</div>",
+    "subtitle": "Chester Hill station upgrade",
+    "properties": {
+      "smsText": "Chester Hill station upgrade",
+      "speechText": "From 6 AM to 6 PM Monday 23 June 20 25, Chester Hill Station upgrade work will impact some bus services.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:13M91: :H:",
+          "destination": {
+            "name": "Hurstville Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Parramatta to Hurstville via Chester Hill & Padstow",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:13M91: :R:",
+          "destination": {
+            "name": "Parramatta Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network M91",
+          "number": "M91",
+          "description": "Hurstville to Parramatta via Padstow & Chester Hill",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:130S2: :R:",
+          "destination": {
+            "name": "Granville Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network S2",
+          "number": "S2",
+          "description": "Sefton to Granville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:130S2: :H:",
+          "destination": {
+            "name": "Hector St at Batt St, Sefton",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network S2",
+          "number": "S2",
+          "description": "Granville to Sefton",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:130S4: :H:",
+          "destination": {
+            "name": "Chester Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network S4",
+          "number": "S4",
+          "description": "Fairfield to Chester Hill via Villawood &  Carramar",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:130S4: :R:",
+          "destination": {
+            "name": "Fairfield Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network S4",
+          "number": "S4",
+          "description": "Chester Hill to Fairfield via Carramar & Villawood",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:13911: :H:",
+          "destination": {
+            "name": "Auburn Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 911",
+          "number": "911",
+          "description": "Bankstown to Auburn via Georges Hall",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        },
+        {
+          "id": "nsw:13911: :R:",
+          "destination": {
+            "name": "Bankstown Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 911",
+          "number": "911",
+          "description": "Auburn to Bankstown via Georges Hall",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-52924",
     "version": 1,
     "priority": "normal",
@@ -31732,435 +32294,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-54067",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-20T05:25:00Z",
-      "lastModification": "2025-06-20T05:25:00Z",
-      "availability": {
-        "from": "2025-06-20T05:24:00Z",
-        "to": "2025-06-20T13:24:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-20T05:24:00Z",
-          "to": "2025-06-20T13:24:00Z"
-        }
-      ],
-      "expiration": "2025-06-20T13:24:59Z"
-    },
-    "urlText": "Coach service delays at Newcastle Interchange",
-    "url": "https://transportnsw.info/alerts/details#/ems-54067",
-    "content": "There are delays on route 151 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays at Newcastle Interchange",
-    "properties": {
-      "smsText": "Coach service delays at Newcastle Interchange",
-      "speechText": "There are delays on route 151 coach services due to heavy traffic. \n Plan ahead and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76151: :H:",
-          "destination": {
-            "name": "Grafton Station, South Grafton",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 151",
-          "number": "151",
-          "description": "Central to Grafton",
-          "iconId": 7,
-          "product": {
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-54049",
-    "version": 12171479,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-01-30T01:31:00Z",
-      "lastModification": "2025-06-19T22:29:00Z",
-      "availability": {
-        "from": "2025-01-30T01:31:00Z",
-        "to": "2025-06-21T22:28:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-30T01:31:00Z",
-          "to": "2025-06-21T22:28:00Z"
-        }
-      ],
-      "expiration": "2025-06-21T22:28:59Z"
-    },
-    "urlText": "Delays in both directions on the Southern Highlands Line",
-    "url": "https://transportnsw.info/alerts/details#/ems-54049",
-    "content": "<div>Allow plenty of extra travel time due to urgent track repairs at Moss Vale.</div>\n<div>&nbsp;</div>\n<div>Stops and platforms may change at short notice and trains may stop on platforms or between stations for longer than normal while the incident is ongoing.</div>\n<div>&nbsp;</div>\n<div>Buses may replace some services to assist with large gaps in service.</div>\n<div>&nbsp;</div>\n<div>Please listen to announcements band check information screens before boarding trains.</div>",
-    "subtitle": "Delays in both directions on the Southern Highlands Line",
-    "properties": {
-      "smsText": "Delays in both directions on the Southern Highlands Line",
-      "speechText": "Allow plenty of extra travel time due to urgent track repairs at Moss Vale. \n\nStops and platforms may change at short notice and trains may stop on platforms or between stations for longer than normal while the incident is ongoing.\n\nPlease listen to announcements band check information screens before boarding trains.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76SHL: :R:",
-          "destination": {
-            "name": "Central Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Southern Highlands Line",
-          "number": "Southern Highlands Line",
-          "description": "Moss Vale to Campbelltown",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76SHL: :H:",
-          "destination": {
-            "name": "Goulburn Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Southern Highlands Line",
-          "number": "Southern Highlands Line",
-          "description": "Campbelltown to Moss Vale",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-53944",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-17T23:40:00Z",
-      "lastModification": "2025-06-17T23:40:00Z",
-      "availability": {
-        "from": "2025-06-17T23:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:30:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "L2 and L3 light rail services may be temporarily held at stops or partially closed due to a Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-53944",
-    "content": "<div>On Sunday, L2 Randwick Line and L3 Kingsford Line light rail services may be impacted between 1.30pm and 2.30pm approximately due to road closures around Town Hall for a planned Police Operation protest march:&nbsp;</div>\n<ul>\n<li>L2 and L3 services may be temporarily held at stops, or</li>\n<li>L2 and L3 services may be temporarily partially closed between Circular Quay and Town Hall.</li>\n</ul>\n<div>Impact to services and timings may change at the direction of NSW Police.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Please check information screens at stops, listen to announcements and follow the direction of staff or Police on site, as necessary.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Allow extra travel time and use the <a href=\"https://transportnsw.info/trip\">Trip Planner</a> for alternative transport options, including trains, buses or walking.&nbsp;</div>\n<div>&nbsp;</div>\n<div>L1 Dulwich Hill Line light rail services should continue to run as per normal.&nbsp;</div>",
-    "subtitle": "L2 and L3 light rail services may be temporarily held at stops or partially closed due to a Police Operation",
-    "properties": {
-      "smsText": "L2 and L3 light rail services may be temporarily held at stops or partially closed due to a Police Operation",
-      "speechText": "On Sunday, L2 Randwick Line and L3 Kingsford Line light rail services may be impacted between 1 30 PM and 2 30 PM approximately due to road closures around Town Hall for a planned Police Operation protest march",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:780L2: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L2 Randwick Line",
-          "number": "L2 Randwick Line",
-          "description": "Randwick to Circular Quay",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L2: :H:",
-          "destination": {
-            "name": "Randwick Light Rail, Randwick",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L2 Randwick Line",
-          "number": "L2 Randwick Line",
-          "description": "Circular Quay to Randwick",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L3: :R:",
-          "destination": {
-            "name": "Circular Quay",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L3 Kingsford Line",
-          "number": "L3 Kingsford Line",
-          "description": "Juniors Kingsford to Circular Quay",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        },
-        {
-          "id": "nsw:780L3: :H:",
-          "destination": {
-            "name": "Juniors Kingsford Light Rail, Kingsford",
-            "type": "stop"
-          },
-          "name": "Sydney Light Rail Network L3 Kingsford Line",
-          "number": "L3 Kingsford Line",
-          "description": "Circular Quay to Juniors Kingsford",
-          "iconId": 13,
-          "product": {
-            "class": 4,
-            "iconId": 4
-          },
-          "operator": {
-            "id": "SLR",
-            "name": "Sydney Light Rail"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-53968",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-18T05:22:00Z",
-      "lastModification": "2025-06-18T05:22:00Z",
-      "availability": {
-        "from": "2025-06-17T20:00:00Z",
-        "to": "2025-06-23T08:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T20:00:00Z",
-          "to": "2025-06-23T08:00:00Z"
-        }
-      ],
-      "expiration": "2025-06-23T08:00:59Z"
-    },
-    "urlText": "Chester Hill station upgrade",
-    "url": "https://transportnsw.info/alerts/details#/ems-53968",
-    "content": "<div>\n<div>From 6am to 6pm Monday 23 June 2025, Chester Hill Station upgrade work will impact some bus services.</div>\n<div>&nbsp;</div>\n<div><strong>Impacted bus stop:</strong> Bus stop Chester Hill Station (216232)</div>\n<div>&nbsp;</div>\n<div><strong>Alternative bus stop:</strong> Chester Hill Station, Waldron Rd (216233)</div>\n<div>&nbsp;</div>\n<div><strong>Impacted bus services:</strong></div>\n<ul>\n<li>S2 &ndash; Granville</li>\n<li>S4 &ndash; Chester Hill</li>\n<li>M91 &ndash; Parramatta</li>\n<li>Customers for the 911 towards Auburn should use bus stop Waldron Rd before Arcadia Rd (2162151)</li>\n</ul>\n</div>",
-    "subtitle": "Chester Hill station upgrade",
-    "properties": {
-      "smsText": "Chester Hill station upgrade",
-      "speechText": "From 6 AM to 6 PM Monday 23 June 20 25, Chester Hill Station upgrade work will impact some bus services.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:13M91: :H:",
-          "destination": {
-            "name": "Hurstville Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network M91",
-          "number": "M91",
-          "description": "Parramatta to Hurstville via Chester Hill & Padstow",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13M91: :R:",
-          "destination": {
-            "name": "Parramatta Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network M91",
-          "number": "M91",
-          "description": "Hurstville to Parramatta via Padstow & Chester Hill",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:130S2: :R:",
-          "destination": {
-            "name": "Granville Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network S2",
-          "number": "S2",
-          "description": "Sefton to Granville",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:130S2: :H:",
-          "destination": {
-            "name": "Hector St at Batt St, Sefton",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network S2",
-          "number": "S2",
-          "description": "Granville to Sefton",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:130S4: :H:",
-          "destination": {
-            "name": "Chester Hill Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network S4",
-          "number": "S4",
-          "description": "Fairfield to Chester Hill via Villawood &  Carramar",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:130S4: :R:",
-          "destination": {
-            "name": "Fairfield Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network S4",
-          "number": "S4",
-          "description": "Chester Hill to Fairfield via Carramar & Villawood",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13911: :H:",
-          "destination": {
-            "name": "Auburn Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 911",
-          "number": "911",
-          "description": "Bankstown to Auburn via Georges Hall",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        },
-        {
-          "id": "nsw:13911: :R:",
-          "destination": {
-            "name": "Bankstown Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 911",
-          "number": "911",
-          "description": "Auburn to Bankstown via Georges Hall",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "ems-49233",
     "version": 2669815,
@@ -32333,6 +32466,173 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-54013",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-06-19T00:34:00Z",
+      "lastModification": "2025-06-19T00:34:00Z",
+      "availability": {
+        "from": "2025-06-19T00:00:00Z",
+        "to": "2025-06-22T04:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T03:30:00Z",
+          "to": "2025-06-22T04:30:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T04:30:59Z"
+    },
+    "urlText": "Sydney CBD diversions due to Police Operation",
+    "url": "https://transportnsw.info/alerts/details#/ems-54013",
+    "content": "<div>Buses to the city will start and end trips at Wynyard from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses leaving the city will start trips from QVB, York St, Stand E before Market St (2000136) instead of York St Stand C.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra time.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:&nbsp;</strong></div>\n<ul>\n<li>QVB, York St, Stand C Sydney (200043)&nbsp;</li>\n</ul>",
+    "subtitle": "Sydney CBD diversions due to Police Operation",
+    "properties": {
+      "smsText": "Sydney CBD diversions due to Police Operation",
+      "speechText": "Buses to the city will start and end trips at Wynyard from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:14607:X:H:",
+          "destination": {
+            "name": "Bella Vista Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 607X",
+          "number": "607X",
+          "description": "City QVB to Bella Vista Station (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14607:X:R:",
+          "destination": {
+            "name": "QVB, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 607X",
+          "number": "607X",
+          "description": "Bella Vista Station to City QVB (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14610:X:H:",
+          "destination": {
+            "name": "Castle Hill Station",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 610X",
+          "number": "610X",
+          "description": "City QVB to Castle Hill (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        },
+        {
+          "id": "nsw:14610:X:R:",
+          "destination": {
+            "name": "QVB, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 610X",
+          "number": "610X",
+          "description": "Castle Hill to City QVB (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2504",
+            "name": "CDC NSW R4"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-52699",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-05-26T04:51:00Z",
+      "lastModification": "2025-05-26T04:51:00Z",
+      "availability": {
+        "from": "2025-05-26T04:00:00Z",
+        "to": "2025-06-22T07:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-06-22T04:30:00Z",
+          "to": "2025-06-22T07:00:00Z"
+        }
+      ],
+      "expiration": "2025-06-22T07:00:59Z"
+    },
+    "urlText": "Sydney CBD diversions for religious procession",
+    "url": "https://transportnsw.info/alerts/details#/ems-52699",
+    "content": "<div><strong>Sunday 22 June</strong></div>\n<ul>\n<li><strong>From 2.30pm to 5pm</strong>, route<strong> 506</strong> services travelling away from the city will be diverting and using different stops due to road closures for a religious procession in the Sydney CBD.</li>\n<li>Services to Macquarie University will start trips from Riley St at Cathedral St (201159). The stop at St Mary&rsquo;s Cathedral, St Marys Rd (2000410) will be missed.</li>\n<li>Services towards The Domain will run as normal.</li>\n<li>Check signs at stops and allow extra travel time.</li>\n</ul>",
+    "subtitle": "Sydney CBD diversions for religious procession",
+    "properties": {
+      "smsText": "Sydney CBD diversions for religious procession",
+      "speechText": "Sunday 22 June\nFrom 2:30PM to 5PM, route 506 services travelling away from the city will be diverting and using different stops due to road closures for a religious procession in the Sydney CBD.\nServices to Macquarie University will start trips from Riley St at Cathedral St. The stop at St Mary’s Cathedral, St Marys Rd will be missed.\nServices towards The Domain will run as normal.\nCheck signs at stops and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17506: :H:",
+          "destination": {
+            "name": "Macquarie University Campus Interchange, Macquarie Park",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 506",
+          "number": "506",
+          "description": "City Domain to Macquarie University via East Ryde",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
           }
         }
       ]
@@ -32834,173 +33134,6 @@
           "operator": {
             "id": "IC03",
             "name": "Live Better"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-54013",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-06-19T00:34:00Z",
-      "lastModification": "2025-06-19T00:34:00Z",
-      "availability": {
-        "from": "2025-06-19T00:00:00Z",
-        "to": "2025-06-22T04:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T03:30:00Z",
-          "to": "2025-06-22T04:30:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T04:30:59Z"
-    },
-    "urlText": "Sydney CBD diversions due to Police Operation",
-    "url": "https://transportnsw.info/alerts/details#/ems-54013",
-    "content": "<div>Buses to the city will start and end trips at Wynyard from 1.30pm to 2.30pm due to road closures in place for a planned Police Operation protest march.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Buses leaving the city will start trips from QVB, York St, Stand E before Market St (2000136) instead of York St Stand C.&nbsp;</div>\n<div>&nbsp;</div>\n<div>Check signs at stops and allow extra time.&nbsp;</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops:&nbsp;</strong></div>\n<ul>\n<li>QVB, York St, Stand C Sydney (200043)&nbsp;</li>\n</ul>",
-    "subtitle": "Sydney CBD diversions due to Police Operation",
-    "properties": {
-      "smsText": "Sydney CBD diversions due to Police Operation",
-      "speechText": "Buses to the city will start and end trips at Wynyard from 1 30 PM to 2 30 PM due to road closures in place for a planned Police Operation protest march.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:14607:X:H:",
-          "destination": {
-            "name": "Bella Vista Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 607X",
-          "number": "607X",
-          "description": "City QVB to Bella Vista Station (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        },
-        {
-          "id": "nsw:14607:X:R:",
-          "destination": {
-            "name": "QVB, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 607X",
-          "number": "607X",
-          "description": "Bella Vista Station to City QVB (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        },
-        {
-          "id": "nsw:14610:X:H:",
-          "destination": {
-            "name": "Castle Hill Station",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 610X",
-          "number": "610X",
-          "description": "City QVB to Castle Hill (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        },
-        {
-          "id": "nsw:14610:X:R:",
-          "destination": {
-            "name": "QVB, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 610X",
-          "number": "610X",
-          "description": "Castle Hill to City QVB (Express Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-52699",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-05-26T04:51:00Z",
-      "lastModification": "2025-05-26T04:51:00Z",
-      "availability": {
-        "from": "2025-05-26T04:00:00Z",
-        "to": "2025-06-22T07:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-06-22T04:30:00Z",
-          "to": "2025-06-22T07:00:00Z"
-        }
-      ],
-      "expiration": "2025-06-22T07:00:59Z"
-    },
-    "urlText": "Sydney CBD diversions for religious procession",
-    "url": "https://transportnsw.info/alerts/details#/ems-52699",
-    "content": "<div><strong>Sunday 22 June</strong></div>\n<ul>\n<li><strong>From 2.30pm to 5pm</strong>, route<strong> 506</strong> services travelling away from the city will be diverting and using different stops due to road closures for a religious procession in the Sydney CBD.</li>\n<li>Services to Macquarie University will start trips from Riley St at Cathedral St (201159). The stop at St Mary&rsquo;s Cathedral, St Marys Rd (2000410) will be missed.</li>\n<li>Services towards The Domain will run as normal.</li>\n<li>Check signs at stops and allow extra travel time.</li>\n</ul>",
-    "subtitle": "Sydney CBD diversions for religious procession",
-    "properties": {
-      "smsText": "Sydney CBD diversions for religious procession",
-      "speechText": "Sunday 22 June\nFrom 2:30PM to 5PM, route 506 services travelling away from the city will be diverting and using different stops due to road closures for a religious procession in the Sydney CBD.\nServices to Macquarie University will start trips from Riley St at Cathedral St. The stop at St Mary’s Cathedral, St Marys Rd will be missed.\nServices towards The Domain will run as normal.\nCheck signs at stops and allow extra travel time.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17506: :H:",
-          "destination": {
-            "name": "Macquarie University Campus Interchange, Macquarie Park",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 506",
-          "number": "506",
-          "description": "City Domain to Macquarie University via East Ryde",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
           }
         }
       ]
