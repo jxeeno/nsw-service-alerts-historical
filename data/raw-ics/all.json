@@ -7303,61 +7303,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-55816",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-22T07:02:00Z",
-      "lastModification": "2025-07-22T07:02:00Z",
-      "availability": {
-        "from": "2025-07-22T06:58:00Z",
-        "to": "2025-07-22T08:58:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-22T06:58:00Z",
-          "to": "2025-07-22T08:58:00Z"
-        }
-      ],
-      "expiration": "2025-07-22T08:58:59Z"
-    },
-    "urlText": "Diversion in Canley Heights",
-    "url": "https://transportnsw.info/alerts/details#/ems-55816",
-    "content": "<div>Buses are diverting away from John Street due to a crash near Bold Street.</div>\n<ul>\n<li>Buses are using St John Road, Avoca Road and Canley Vale Road instead.</li>\n<li>&nbsp;Four stops are being missed.</li>\n</ul>",
-    "subtitle": "Diversion in Canley Heights",
-    "properties": {
-      "smsText": "Diversion in Canley Heights",
-      "speechText": "Buses are diverting away from John Street due to a crash near Bold Street.\nBuses are using St John Road, Avoca Road and Canley Vale Road instead.\n Four stops are being missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:13805: :H:",
-          "destination": {
-            "name": "Liverpool Station, Liverpool",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 805",
-          "number": "805",
-          "description": "Cabramatta to Liverpool via Bonnyrigg",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-55293",
     "version": 1,
     "priority": "normal",
@@ -17205,6 +17150,57 @@
             "name": "Sydney Trains"
           }
         }
+      ]
+    }
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-55820",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-07-22T08:57:00Z",
+      "lastModification": "2025-07-22T08:57:00Z",
+      "availability": {
+        "from": "2025-07-15T10:46:00Z",
+        "to": "2504-08-29T11:47:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-22T07:57:00Z",
+          "to": "2504-08-29T11:47:00Z"
+        }
+      ],
+      "expiration": "2504-08-29T11:47:59Z"
+    },
+    "urlText": "Wynyard Station Lift 2 between the concourse and Wynyard Park is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-55820",
+    "content": "At Wynyard Station Lift 2 between the concourse and Wynyard Park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+    "subtitle": "Wynyard Station Lift 2 between the concourse and Wynyard Park is not available",
+    "properties": {
+      "smsText": "Wynyard Station Lift 2 between the concourse and Wynyard Park is not available",
+      "speechText": "At Wynyard Station Lift 2 between the concourse and Wynyard Park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "8bcce989-ffd9-5ec0-bc43-9a99d9794346",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200080",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200080",
+          "isGlobalId": true,
+          "name": "Wynyard Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
