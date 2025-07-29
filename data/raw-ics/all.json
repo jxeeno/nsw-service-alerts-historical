@@ -1,5 +1,138 @@
 [
   {
+    "type": "infrastructure",
+    "id": "ems-56060",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-07-27T04:32:00Z",
+      "lastModification": "2025-07-27T04:32:00Z",
+      "availability": {
+        "from": "2025-07-20T06:22:00Z",
+        "to": "2504-09-03T07:23:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-27T03:32:00Z",
+          "to": "2504-09-03T07:23:00Z"
+        }
+      ],
+      "expiration": "2504-09-03T07:23:59Z"
+    },
+    "urlText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56060",
+    "content": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260.",
+    "subtitle": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+    "properties": {
+      "smsText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+      "speechText": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "5c1993ba-d4b5-5471-b682-f4ba23020776",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "225040",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "225040",
+          "isGlobalId": true,
+          "name": "Gosford Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-55471",
+    "version": 236168,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-15T05:52:00Z",
+      "lastModification": "2025-07-17T23:28:00Z",
+      "availability": {
+        "from": "2025-07-15T05:00:00Z",
+        "to": "2025-07-30T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-28T13:00:00Z",
+          "to": "2025-07-28T16:00:00Z"
+        },
+        {
+          "from": "2025-07-29T13:00:00Z",
+          "to": "2025-07-29T16:00:00Z"
+        },
+        {
+          "from": "2025-07-30T13:00:00Z",
+          "to": "2025-07-30T16:00:00Z"
+        }
+      ],
+      "expiration": "2025-07-30T16:00:59Z"
+    },
+    "urlText": "Some trains run to a changed timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-55471",
+    "content": "<div><strong>Monday 28 to Wednesday 30 July</strong>&nbsp;</div>\n<ul>\n<li><strong>Nightly from 11pm to 1am</strong>, some trains run up to 20 minutes later than the normal timetable.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "Some trains run to a changed timetable",
+    "properties": {
+      "smsText": "Some trains run to a changed timetable",
+      "speechText": "Monday 28 to Wednesday 30 July Nightly from 11 PM to 1 AM, some trains run up to 20 minutes later than the normal timetable.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76HUN: :H:",
+          "destination": {
+            "name": "Dungog Station, Dungog",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Hamilton to Telarah",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange, Wickham",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Hamilton",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-55420",
     "version": 1,
@@ -929,88 +1062,6 @@
           "operator": {
             "id": "2501",
             "name": "Busways R1"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-55471",
-    "version": 236168,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-15T05:52:00Z",
-      "lastModification": "2025-07-17T23:28:00Z",
-      "availability": {
-        "from": "2025-07-15T05:00:00Z",
-        "to": "2025-07-30T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-28T13:00:00Z",
-          "to": "2025-07-28T16:00:00Z"
-        },
-        {
-          "from": "2025-07-29T13:00:00Z",
-          "to": "2025-07-29T16:00:00Z"
-        },
-        {
-          "from": "2025-07-30T13:00:00Z",
-          "to": "2025-07-30T16:00:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T16:00:59Z"
-    },
-    "urlText": "Some trains run to a changed timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-55471",
-    "content": "<div><strong>Monday 28 to Wednesday 30 July</strong>&nbsp;</div>\n<ul>\n<li><strong>Nightly from 11pm to 1am</strong>, some trains run up to 20 minutes later than the normal timetable.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "Some trains run to a changed timetable",
-    "properties": {
-      "smsText": "Some trains run to a changed timetable",
-      "speechText": "Monday 28 to Wednesday 30 July Nightly from 11 PM to 1 AM, some trains run up to 20 minutes later than the normal timetable.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76HUN: :H:",
-          "destination": {
-            "name": "Dungog Station, Dungog",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Hamilton to Telarah",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76HUN: :R:",
-          "destination": {
-            "name": "Newcastle Interchange, Wickham",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Telarah to Hamilton",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
           }
         }
       ]
@@ -4911,53 +4962,84 @@
     }
   },
   {
-    "type": "infrastructure",
-    "id": "ems-56060",
-    "version": 1,
-    "priority": "low",
+    "type": "lineInfo",
+    "id": "ems-55423",
+    "version": 869195,
+    "priority": "normal",
     "timestamps": {
-      "creation": "2025-07-27T04:32:00Z",
-      "lastModification": "2025-07-27T04:32:00Z",
+      "creation": "2025-07-15T00:42:00Z",
+      "lastModification": "2025-07-25T02:08:00Z",
       "availability": {
-        "from": "2025-07-20T06:22:00Z",
-        "to": "2504-09-03T07:23:00Z"
+        "from": "2025-07-25T00:00:00Z",
+        "to": "2025-07-30T15:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-07-27T03:32:00Z",
-          "to": "2504-09-03T07:23:00Z"
+          "from": "2025-07-28T11:30:00Z",
+          "to": "2025-07-28T15:30:00Z"
+        },
+        {
+          "from": "2025-07-29T11:30:00Z",
+          "to": "2025-07-29T15:30:00Z"
+        },
+        {
+          "from": "2025-07-30T11:30:00Z",
+          "to": "2025-07-30T15:30:00Z"
         }
       ],
-      "expiration": "2504-09-03T07:23:59Z"
+      "expiration": "2025-07-30T15:30:59Z"
     },
-    "urlText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56060",
-    "content": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260.",
-    "subtitle": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+    "urlText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+    "url": "https://transportnsw.info/alerts/details#/ems-55423",
+    "content": "<div><strong>Monday 28 to Wednesday 30 July&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.30pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave <strong>up to 20 minutes earlier</strong> than the normal train timetable.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, all stations to Richmond and return</div>\n<div>52T1 Blacktown, all stations to Riverstone and return</div>",
+    "subtitle": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
     "properties": {
-      "smsText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
-      "speechText": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260.",
-      "announcementType": "liftsEscalators",
+      "smsText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+      "speechText": "Monday 28 to Wednesday 30 July Nightly from 9 30 PM to 1 30 AM, buses replace trains between Richmond and Blacktown.",
+      "announcementType": "trackwork",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5c1993ba-d4b5-5471-b682-f4ba23020776",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "225040",
       "providerCode": "TfNSW"
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "225040",
-          "isGlobalId": true,
-          "name": "Gosford Station",
-          "type": "stop"
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Emu Plains Station, Emu Plains",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     }
   },
@@ -5522,88 +5604,6 @@
             "id": "placeID:95315021:1",
             "name": "Punchbowl",
             "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-55423",
-    "version": 869195,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-15T00:42:00Z",
-      "lastModification": "2025-07-25T02:08:00Z",
-      "availability": {
-        "from": "2025-07-25T00:00:00Z",
-        "to": "2025-07-30T15:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-28T11:30:00Z",
-          "to": "2025-07-28T15:30:00Z"
-        },
-        {
-          "from": "2025-07-29T11:30:00Z",
-          "to": "2025-07-29T15:30:00Z"
-        },
-        {
-          "from": "2025-07-30T11:30:00Z",
-          "to": "2025-07-30T15:30:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T15:30:59Z"
-    },
-    "urlText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-    "url": "https://transportnsw.info/alerts/details#/ems-55423",
-    "content": "<div><strong>Monday 28 to Wednesday 30 July&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.30pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave <strong>up to 20 minutes earlier</strong> than the normal train timetable.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, all stations to Richmond and return</div>\n<div>52T1 Blacktown, all stations to Riverstone and return</div>",
-    "subtitle": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-    "properties": {
-      "smsText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-      "speechText": "Monday 28 to Wednesday 30 July Nightly from 9 30 PM to 1 30 AM, buses replace trains between Richmond and Blacktown.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Emu Plains Station, Emu Plains",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
           }
         }
       ]
@@ -7167,6 +7167,139 @@
     }
   },
   {
+    "type": "infrastructure",
+    "id": "ems-56118",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-07-28T18:50:00Z",
+      "lastModification": "2025-07-28T18:50:00Z",
+      "availability": {
+        "from": "2023-07-25T18:43:00Z",
+        "to": "2504-09-05T14:41:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-28T17:50:00Z",
+          "to": "2504-09-05T14:41:00Z"
+        }
+      ],
+      "expiration": "2504-09-05T14:41:59Z"
+    },
+    "urlText": "Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56118",
+    "content": "At Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
+    "subtitle": "Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is not available",
+    "properties": {
+      "smsText": "Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is not available",
+      "speechText": "At Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "2802d73f-e3e6-5b17-b9f8-b06b2728d197",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "212110:2121223,2121225,2121226",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "212110",
+          "isGlobalId": true,
+          "name": "Epping Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-55467",
+    "version": 160125,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-15T05:45:00Z",
+      "lastModification": "2025-07-17T02:13:00Z",
+      "availability": {
+        "from": "2025-07-15T05:00:00Z",
+        "to": "2025-07-30T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-28T10:30:00Z",
+          "to": "2025-07-28T16:00:00Z"
+        },
+        {
+          "from": "2025-07-29T10:30:00Z",
+          "to": "2025-07-29T16:00:00Z"
+        },
+        {
+          "from": "2025-07-30T10:30:00Z",
+          "to": "2025-07-30T16:00:00Z"
+        }
+      ],
+      "expiration": "2025-07-30T16:00:59Z"
+    },
+    "urlText": "Buses replace trains between Newcastle Interchange and Wyong",
+    "url": "https://transportnsw.info/alerts/details#/ems-55467",
+    "content": "<div><strong>Monday 28 to Wednesday 30 July</strong></div>\n<ul>\n<li><strong>Nightly from 8.30pm to 2am</strong>, buses replace trains from Newcastle Interchange to Wyong.</li>\n<li><strong>Nightly from 9.50pm to 3.30am</strong>, buses replace trains from Wyong to Newcastle Interchange.</li>\n<li>Buses towards Wyong may leave up to&nbsp;<strong>60 minutes earlier</strong>&nbsp;than the normal train timetable.</li>\n<li>Trains run between Wyong and Central, some to a changed timetable.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>48CN Newcastle Interchange, Hamilton, Broadmeadow, Cardiff, Fassifern, Morisset, Wyong and return</div>\n<div>52CN Newcastle Interchange, all stations to Wyong and return</div>",
+    "subtitle": "Buses replace trains between Newcastle Interchange and Wyong",
+    "properties": {
+      "smsText": "Buses replace trains between Newcastle Interchange and Wyong",
+      "speechText": "Monday 28 to Wednesday 31 July Nightly from 8 30 PM to 2 AM, buses replace trains from Newcastle Interchange to Wyong. Nightly from 9 50 PM to 3 30 AM, buses replace trains from Wyong to Newcastle Interchange.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange, Wickham",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-56106",
     "version": 1,
@@ -8044,88 +8177,6 @@
             "id": "placeID:95343004:1",
             "name": "Crows Nest",
             "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-55467",
-    "version": 160125,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-15T05:45:00Z",
-      "lastModification": "2025-07-17T02:13:00Z",
-      "availability": {
-        "from": "2025-07-15T05:00:00Z",
-        "to": "2025-07-30T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-28T10:30:00Z",
-          "to": "2025-07-28T16:00:00Z"
-        },
-        {
-          "from": "2025-07-29T10:30:00Z",
-          "to": "2025-07-29T16:00:00Z"
-        },
-        {
-          "from": "2025-07-30T10:30:00Z",
-          "to": "2025-07-30T16:00:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T16:00:59Z"
-    },
-    "urlText": "Buses replace trains between Newcastle Interchange and Wyong",
-    "url": "https://transportnsw.info/alerts/details#/ems-55467",
-    "content": "<div><strong>Monday 28 to Wednesday 30 July</strong></div>\n<ul>\n<li><strong>Nightly from 8.30pm to 2am</strong>, buses replace trains from Newcastle Interchange to Wyong.</li>\n<li><strong>Nightly from 9.50pm to 3.30am</strong>, buses replace trains from Wyong to Newcastle Interchange.</li>\n<li>Buses towards Wyong may leave up to&nbsp;<strong>60 minutes earlier</strong>&nbsp;than the normal train timetable.</li>\n<li>Trains run between Wyong and Central, some to a changed timetable.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>48CN Newcastle Interchange, Hamilton, Broadmeadow, Cardiff, Fassifern, Morisset, Wyong and return</div>\n<div>52CN Newcastle Interchange, all stations to Wyong and return</div>",
-    "subtitle": "Buses replace trains between Newcastle Interchange and Wyong",
-    "properties": {
-      "smsText": "Buses replace trains between Newcastle Interchange and Wyong",
-      "speechText": "Monday 28 to Wednesday 31 July Nightly from 8 30 PM to 2 AM, buses replace trains from Newcastle Interchange to Wyong. Nightly from 9 50 PM to 3 30 AM, buses replace trains from Wyong to Newcastle Interchange.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          }
-        },
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange, Wickham",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
           }
         }
       ]
@@ -9376,57 +9427,6 @@
             "name": "Busways OMR6"
           }
         }
-      ]
-    }
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-56118",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-07-28T18:50:00Z",
-      "lastModification": "2025-07-28T18:50:00Z",
-      "availability": {
-        "from": "2023-07-25T18:43:00Z",
-        "to": "2504-09-05T14:41:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-28T17:50:00Z",
-          "to": "2504-09-05T14:41:00Z"
-        }
-      ],
-      "expiration": "2504-09-05T14:41:59Z"
-    },
-    "urlText": "Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56118",
-    "content": "At Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
-    "subtitle": "Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is not available",
-    "properties": {
-      "smsText": "Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is not available",
-      "speechText": "At Epping Station Lift 1 between the concourse and Platforms 3, 5 and 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2802d73f-e3e6-5b17-b9f8-b06b2728d197",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "212110:2121223,2121225,2121226",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "212110",
-          "isGlobalId": true,
-          "name": "Epping Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
       ]
     }
   },
@@ -14665,6 +14665,131 @@
     }
   },
   {
+    "type": "infrastructure",
+    "id": "ems-56204",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-07-29T22:42:00Z",
+      "lastModification": "2025-07-29T22:42:00Z",
+      "availability": {
+        "from": "2023-11-07T10:56:00Z",
+        "to": "2504-09-06T13:32:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-29T22:42:00Z",
+          "to": "2504-09-06T13:32:00Z"
+        }
+      ],
+      "expiration": "2504-09-06T13:32:59Z"
+    },
+    "urlText": "Strathfield Station Lift 1 between the concourse and Everton Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56204",
+    "content": "At Strathfield Station Lift 1 between the concourse and Everton Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
+    "subtitle": "Strathfield Station Lift 1 between the concourse and Everton Rd is not available",
+    "properties": {
+      "smsText": "Strathfield Station Lift 1 between the concourse and Everton Rd is not available",
+      "speechText": "At Strathfield Station Lift 1 between the concourse and Everton Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "7d0a35a7-a0b6-5783-9de8-51eff23f3217",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213510",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "213510",
+          "isGlobalId": true,
+          "name": "Strathfield Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-56072",
+    "version": 1061,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-27T20:41:00Z",
+      "lastModification": "2025-07-27T20:59:00Z",
+      "availability": {
+        "from": "2025-07-27T20:30:00Z",
+        "to": "2025-07-30T21:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-27T20:30:00Z",
+          "to": "2025-07-30T21:30:00Z"
+        }
+      ],
+      "expiration": "2025-07-30T21:30:59Z"
+    },
+    "urlText": "Diversions at Piallaway",
+    "url": "https://transportnsw.info/alerts/details#/ems-56072",
+    "content": "<div>School route S402 bus is diverting away from its normal route due to flooding on a section of Long Point Road</div>\n<ul>\n<li>Use stops on the S401 route instead</li>\n<li>Up to 6 stops are being missed</li>\n</ul>",
+    "subtitle": "Diversions at Piallaway",
+    "properties": {
+      "smsText": "Diversions at Piallaway",
+      "speechText": "At Piallaway, school route S402 bus is diverting away from its normal route due to flooding on a section of Long Point Road. Use stops on the S401 route instead. Up to 6 stops are being missed",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:53S40:2:H:",
+          "destination": {
+            "name": "Clifton Rd at Kilphysic Rd, Carroll",
+            "type": "stop"
+          },
+          "name": "School buses S402",
+          "number": "S402",
+          "description": "Gunnedah Schools to Piallaway & Carroll",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "5601",
+            "name": "Hopes Bus Service Pty Limited"
+          }
+        },
+        {
+          "id": "nsw:53S40:2:R:",
+          "destination": {
+            "name": "G S Kidd Memorial School, Lincoln St, Gunnedah",
+            "type": "stop"
+          },
+          "name": "School buses S402",
+          "number": "S402",
+          "description": "Carroll & Piallaway to Gunnedah Schools",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "5601",
+            "name": "Hopes Bus Service Pty Limited"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-55469",
     "version": 1,
@@ -15348,80 +15473,6 @@
           "operator": {
             "id": "711",
             "name": "NSW TrainLink"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-56072",
-    "version": 1061,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-27T20:41:00Z",
-      "lastModification": "2025-07-27T20:59:00Z",
-      "availability": {
-        "from": "2025-07-27T20:30:00Z",
-        "to": "2025-07-30T21:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-27T20:30:00Z",
-          "to": "2025-07-30T21:30:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T21:30:59Z"
-    },
-    "urlText": "Diversions at Piallaway",
-    "url": "https://transportnsw.info/alerts/details#/ems-56072",
-    "content": "<div>School route S402 bus is diverting away from its normal route due to flooding on a section of Long Point Road</div>\n<ul>\n<li>Use stops on the S401 route instead</li>\n<li>Up to 6 stops are being missed</li>\n</ul>",
-    "subtitle": "Diversions at Piallaway",
-    "properties": {
-      "smsText": "Diversions at Piallaway",
-      "speechText": "At Piallaway, school route S402 bus is diverting away from its normal route due to flooding on a section of Long Point Road. Use stops on the S401 route instead. Up to 6 stops are being missed",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:53S40:2:H:",
-          "destination": {
-            "name": "Clifton Rd at Kilphysic Rd, Carroll",
-            "type": "stop"
-          },
-          "name": "School buses S402",
-          "number": "S402",
-          "description": "Gunnedah Schools to Piallaway & Carroll",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "5601",
-            "name": "Hopes Bus Service Pty Limited"
-          }
-        },
-        {
-          "id": "nsw:53S40:2:R:",
-          "destination": {
-            "name": "G S Kidd Memorial School, Lincoln St, Gunnedah",
-            "type": "stop"
-          },
-          "name": "School buses S402",
-          "number": "S402",
-          "description": "Carroll & Piallaway to Gunnedah Schools",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "5601",
-            "name": "Hopes Bus Service Pty Limited"
           }
         }
       ]
@@ -16515,57 +16566,6 @@
             "name": "Hopes Bus Service Pty Limited"
           }
         }
-      ]
-    }
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-56204",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-07-29T22:42:00Z",
-      "lastModification": "2025-07-29T22:42:00Z",
-      "availability": {
-        "from": "2023-11-07T10:56:00Z",
-        "to": "2504-09-06T13:32:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-29T22:42:00Z",
-          "to": "2504-09-06T13:32:00Z"
-        }
-      ],
-      "expiration": "2504-09-06T13:32:59Z"
-    },
-    "urlText": "Strathfield Station Lift 1 between the concourse and Everton Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56204",
-    "content": "At Strathfield Station Lift 1 between the concourse and Everton Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
-    "subtitle": "Strathfield Station Lift 1 between the concourse and Everton Rd is not available",
-    "properties": {
-      "smsText": "Strathfield Station Lift 1 between the concourse and Everton Rd is not available",
-      "speechText": "At Strathfield Station Lift 1 between the concourse and Everton Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7d0a35a7-a0b6-5783-9de8-51eff23f3217",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213510",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "213510",
-          "isGlobalId": true,
-          "name": "Strathfield Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
       ]
     }
   },
@@ -20030,6 +20030,108 @@
     }
   },
   {
+    "type": "infrastructure",
+    "id": "ems-56186",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-07-29T09:47:00Z",
+      "lastModification": "2025-07-29T09:47:00Z",
+      "availability": {
+        "from": "2025-07-29T09:47:00Z",
+        "to": "2504-09-06T00:38:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-29T09:47:00Z",
+          "to": "2504-09-06T00:38:00Z"
+        }
+      ],
+      "expiration": "2504-09-06T00:38:59Z"
+    },
+    "urlText": "Cabramatta Station Lift 3 between the concourse and Broomfield St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56186",
+    "content": "At Cabramatta Station Lift 3 between the concourse and Broomfield St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1644.",
+    "subtitle": "Cabramatta Station Lift 3 between the concourse and Broomfield St is not available",
+    "properties": {
+      "smsText": "Cabramatta Station Lift 3 between the concourse and Broomfield St is not available",
+      "speechText": "At Cabramatta Station Lift 3 between the concourse and Broomfield St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1644.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "4a8ac0de-944a-589e-9529-654cc78bac37",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "216620",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "216620",
+          "isGlobalId": true,
+          "name": "Cabramatta Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-56199",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-07-29T22:00:00Z",
+      "lastModification": "2025-07-29T22:01:00Z",
+      "availability": {
+        "from": "2025-07-22T23:50:00Z",
+        "to": "2504-09-06T00:51:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-29T21:00:00Z",
+          "to": "2504-09-06T00:51:00Z"
+        }
+      ],
+      "expiration": "2504-09-06T00:51:59Z"
+    },
+    "urlText": "Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56199",
+    "content": "At Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1451.",
+    "subtitle": "Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is not available",
+    "properties": {
+      "smsText": "Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1451.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "3edc152b-541b-50c3-9b66-d26536cd061d",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "217426:217427,217428",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "217426",
+          "isGlobalId": true,
+          "name": "Edmondson Park Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-55565",
     "version": 1,
@@ -22684,108 +22786,6 @@
     }
   },
   {
-    "type": "infrastructure",
-    "id": "ems-56186",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-07-29T09:47:00Z",
-      "lastModification": "2025-07-29T09:47:00Z",
-      "availability": {
-        "from": "2025-07-29T09:47:00Z",
-        "to": "2504-09-06T00:38:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-29T09:47:00Z",
-          "to": "2504-09-06T00:38:00Z"
-        }
-      ],
-      "expiration": "2504-09-06T00:38:59Z"
-    },
-    "urlText": "Cabramatta Station Lift 3 between the concourse and Broomfield St is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56186",
-    "content": "At Cabramatta Station Lift 3 between the concourse and Broomfield St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1644.",
-    "subtitle": "Cabramatta Station Lift 3 between the concourse and Broomfield St is not available",
-    "properties": {
-      "smsText": "Cabramatta Station Lift 3 between the concourse and Broomfield St is not available",
-      "speechText": "At Cabramatta Station Lift 3 between the concourse and Broomfield St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1644.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "4a8ac0de-944a-589e-9529-654cc78bac37",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "216620",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "216620",
-          "isGlobalId": true,
-          "name": "Cabramatta Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    }
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-56199",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-07-29T22:00:00Z",
-      "lastModification": "2025-07-29T22:01:00Z",
-      "availability": {
-        "from": "2025-07-22T23:50:00Z",
-        "to": "2504-09-06T00:51:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-29T21:00:00Z",
-          "to": "2504-09-06T00:51:00Z"
-        }
-      ],
-      "expiration": "2504-09-06T00:51:59Z"
-    },
-    "urlText": "Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56199",
-    "content": "At Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1451.",
-    "subtitle": "Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is not available",
-    "properties": {
-      "smsText": "Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Edmondson Park Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1451.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "3edc152b-541b-50c3-9b66-d26536cd061d",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "217426:217427,217428",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "217426",
-          "isGlobalId": true,
-          "name": "Edmondson Park Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "78bf98e17f510dc479fdc99ba139f4d2bfe21afa",
     "version": 1,
@@ -23313,6 +23313,57 @@
             "name": "Sydney Trains"
           }
         }
+      ]
+    }
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-56200",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-07-29T22:07:00Z",
+      "lastModification": "2025-07-29T22:07:00Z",
+      "availability": {
+        "from": "2025-07-22T23:57:00Z",
+        "to": "2504-09-06T00:57:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-29T21:07:00Z",
+          "to": "2504-09-06T00:57:00Z"
+        }
+      ],
+      "expiration": "2504-09-06T00:57:59Z"
+    },
+    "urlText": "Rhodes Station Lift 2 between the concourse and Platform 2/3 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56200",
+    "content": "At Rhodes Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
+    "subtitle": "Rhodes Station Lift 2 between the concourse and Platform 2/3 is not available",
+    "properties": {
+      "smsText": "Rhodes Station Lift 2 between the concourse and Platform 2/3 is not available",
+      "speechText": "At Rhodes Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "25fa3616-3012-55ef-b75d-8bd5a200f5cb",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213820:213892,213893",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "213820",
+          "isGlobalId": true,
+          "name": "Rhodes Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
       ]
     }
   },
@@ -30517,53 +30568,215 @@
     }
   },
   {
-    "type": "infrastructure",
-    "id": "ems-56200",
-    "version": 4,
-    "priority": "low",
+    "type": "lineInfo",
+    "id": "ems-56201",
+    "version": 27,
+    "priority": "normal",
     "timestamps": {
-      "creation": "2025-07-29T22:07:00Z",
-      "lastModification": "2025-07-29T22:07:00Z",
+      "creation": "2025-07-29T22:21:00Z",
+      "lastModification": "2025-07-29T22:21:00Z",
       "availability": {
-        "from": "2025-07-22T23:57:00Z",
-        "to": "2504-09-06T00:57:00Z"
+        "from": "2025-07-29T22:19:00Z",
+        "to": "2025-07-30T13:59:00Z"
       },
       "validity": [
         {
-          "from": "2025-07-29T21:07:00Z",
-          "to": "2504-09-06T00:57:00Z"
+          "from": "2025-07-29T22:19:00Z",
+          "to": "2025-07-30T14:00:00Z"
         }
       ],
-      "expiration": "2504-09-06T00:57:59Z"
+      "expiration": "2025-07-30T14:00:59Z"
     },
-    "urlText": "Rhodes Station Lift 2 between the concourse and Platform 2/3 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56200",
-    "content": "At Rhodes Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
-    "subtitle": "Rhodes Station Lift 2 between the concourse and Platform 2/3 is not available",
+    "urlText": "Delays in Regentville",
+    "url": "https://transportnsw.info/alerts/details#/ems-56201",
+    "content": "<div>Some buses are delayed on Mulgoa Road due to a multiple vehicle crash at the M4.&nbsp;</div>",
+    "subtitle": "Delays in Regentville",
     "properties": {
-      "smsText": "Rhodes Station Lift 2 between the concourse and Platform 2/3 is not available",
-      "speechText": "At Rhodes Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
-      "announcementType": "liftsEscalators",
+      "smsText": "Delays in Regentville",
+      "speechText": "At Regentville, some buses are delayed up to 20 minutes on Mulgoa Road due to a multiple vehicle crash at the M4.",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "25fa3616-3012-55ef-b75d-8bd5a200f5cb",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213820:213892,213893",
       "providerCode": "TfNSW"
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "213820",
-          "isGlobalId": true,
-          "name": "Rhodes Station",
-          "type": "stop"
+          "id": "nsw:11781: :R:",
+          "destination": {
+            "name": "Penrith Station, Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 781",
+          "number": "781",
+          "description": "St Marys to Penrith via Glenmore Park",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11795: :R:",
+          "destination": {
+            "name": "Weir Rd at Ninth St, Warragamba",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 795",
+          "number": "795",
+          "description": "Warragamba to Penrith",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11797: :R:",
+          "destination": {
+            "name": "Penrith Station, Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 797",
+          "number": "797",
+          "description": "Penrith to Glenmore Park (Loop Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11799: :R:",
+          "destination": {
+            "name": "Penrith Station, Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 799",
+          "number": "799",
+          "description": "Glenmore Park to Penrith via Regentville",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        },
+        {
+          "id": "nsw:11452:7:H:",
+          "destination": {
+            "name": "Swallow Dr near Skylark Cr, Erskine Park",
+            "type": "stop"
+          },
+          "name": "School buses 4527",
+          "number": "4527",
+          "description": "Glenmore Park HS to St Dominic's College",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-55416",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-15T00:33:00Z",
+      "lastModification": "2025-07-15T00:33:00Z",
+      "availability": {
+        "from": "2025-07-15T00:00:00Z",
+        "to": "2025-07-30T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-28T11:50:00Z",
+          "to": "2025-07-28T16:00:00Z"
+        },
+        {
+          "from": "2025-07-29T11:50:00Z",
+          "to": "2025-07-29T16:00:00Z"
+        },
+        {
+          "from": "2025-07-30T11:50:00Z",
+          "to": "2025-07-30T16:00:00Z"
         }
       ],
-      "Infrastructures": [
-        {}
+      "expiration": "2025-07-30T16:00:59Z"
+    },
+    "urlText": "Metro services run between Tallawong, Martin Place and Central only. Change services at Martin Place",
+    "url": "https://transportnsw.info/alerts/details#/ems-55416",
+    "content": "<div><strong>Monday 28 to Wednesday 30 July &nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.50pm</strong>, metro services&nbsp;do not&nbsp;run between&nbsp;Central and Sydenham.&nbsp;Services run between Tallawong&nbsp;and Martin Place, and between Martin Place and Central only.</li>\n<li><strong>Change at Martin Place</strong> for metro services towards Tallawong or Central, or T4 trains to Sydenham.</li>\n<li>For travel to and from Waterloo use local buses or trains from Redfern.</li>\n<li>The last metro service leaves Sydenham at 21:44, Martin Place at 21:53, arriving Tallawong at 22:42.</li>\n<li>The last metro service to Sydenham leaves Tallawong at 21:00, Martin Place at 21:49, arriving Sydenham at 21:58.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "Metro services run between Tallawong, Martin Place and Central only. Change services at Martin Place",
+    "properties": {
+      "smsText": "Metro services run between Tallawong, Martin Place and Central only. Change services at Martin Place",
+      "speechText": "Monday 28 to Wednesday 30 July Nightly from 9 50 PM, metro services do not run between Central and Sydenham. Services run between Tallawong and Martin Place, and between Martin Place and Central only.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:030M1: :R:",
+          "destination": {
+            "name": "Sydenham Station, Sydenham",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M1 Metro North West & Bankstown Line",
+          "number": "M1 Metro North West & Bankstown Line",
+          "description": "Tallawong to Sydenham",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        },
+        {
+          "id": "nsw:030M1: :H:",
+          "destination": {
+            "name": "Tallawong Station, Tallawong",
+            "type": "stop"
+          },
+          "name": "Sydney Metro Network M1 Metro North West & Bankstown Line",
+          "number": "M1 Metro North West & Bankstown Line",
+          "description": "Sydenham to Tallawong",
+          "iconId": 24,
+          "product": {
+            "class": 2,
+            "iconId": 2
+          },
+          "operator": {
+            "id": "SMNW",
+            "name": "Sydney Metro"
+          }
+        }
       ]
     }
   },
@@ -31482,88 +31695,6 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-55416",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-15T00:33:00Z",
-      "lastModification": "2025-07-15T00:33:00Z",
-      "availability": {
-        "from": "2025-07-15T00:00:00Z",
-        "to": "2025-07-30T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-28T11:50:00Z",
-          "to": "2025-07-28T16:00:00Z"
-        },
-        {
-          "from": "2025-07-29T11:50:00Z",
-          "to": "2025-07-29T16:00:00Z"
-        },
-        {
-          "from": "2025-07-30T11:50:00Z",
-          "to": "2025-07-30T16:00:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T16:00:59Z"
-    },
-    "urlText": "Metro services run between Tallawong, Martin Place and Central only. Change services at Martin Place",
-    "url": "https://transportnsw.info/alerts/details#/ems-55416",
-    "content": "<div><strong>Monday 28 to Wednesday 30 July &nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 9.50pm</strong>, metro services&nbsp;do not&nbsp;run between&nbsp;Central and Sydenham.&nbsp;Services run between Tallawong&nbsp;and Martin Place, and between Martin Place and Central only.</li>\n<li><strong>Change at Martin Place</strong> for metro services towards Tallawong or Central, or T4 trains to Sydenham.</li>\n<li>For travel to and from Waterloo use local buses or trains from Redfern.</li>\n<li>The last metro service leaves Sydenham at 21:44, Martin Place at 21:53, arriving Tallawong at 22:42.</li>\n<li>The last metro service to Sydenham leaves Tallawong at 21:00, Martin Place at 21:49, arriving Sydenham at 21:58.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "Metro services run between Tallawong, Martin Place and Central only. Change services at Martin Place",
-    "properties": {
-      "smsText": "Metro services run between Tallawong, Martin Place and Central only. Change services at Martin Place",
-      "speechText": "Monday 28 to Wednesday 30 July Nightly from 9 50 PM, metro services do not run between Central and Sydenham. Services run between Tallawong and Martin Place, and between Martin Place and Central only.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:030M1: :R:",
-          "destination": {
-            "name": "Sydenham Station, Sydenham",
-            "type": "stop"
-          },
-          "name": "Sydney Metro Network M1 Metro North West & Bankstown Line",
-          "number": "M1 Metro North West & Bankstown Line",
-          "description": "Tallawong to Sydenham",
-          "iconId": 24,
-          "product": {
-            "class": 2,
-            "iconId": 2
-          },
-          "operator": {
-            "id": "SMNW",
-            "name": "Sydney Metro"
-          }
-        },
-        {
-          "id": "nsw:030M1: :H:",
-          "destination": {
-            "name": "Tallawong Station, Tallawong",
-            "type": "stop"
-          },
-          "name": "Sydney Metro Network M1 Metro North West & Bankstown Line",
-          "number": "M1 Metro North West & Bankstown Line",
-          "description": "Sydenham to Tallawong",
-          "iconId": 24,
-          "product": {
-            "class": 2,
-            "iconId": 2
-          },
-          "operator": {
-            "id": "SMNW",
-            "name": "Sydney Metro"
-          }
-        }
-      ]
-    }
-  },
-  {
     "type": "stopInfo",
     "id": "ems-157",
     "version": 46920607,
@@ -31860,131 +31991,125 @@
     }
   },
   {
-    "type": "lineInfo",
-    "id": "ems-56201",
-    "version": 27,
-    "priority": "normal",
+    "type": "infrastructure",
+    "id": "ems-55928",
+    "version": 2,
+    "priority": "low",
     "timestamps": {
-      "creation": "2025-07-29T22:21:00Z",
-      "lastModification": "2025-07-29T22:21:00Z",
+      "creation": "2025-07-23T20:27:00Z",
+      "lastModification": "2025-07-23T20:27:00Z",
       "availability": {
-        "from": "2025-07-29T22:19:00Z",
-        "to": "2025-07-30T13:59:00Z"
+        "from": "2025-07-16T22:17:00Z",
+        "to": "2504-08-30T23:18:00Z"
       },
       "validity": [
         {
-          "from": "2025-07-29T22:19:00Z",
-          "to": "2025-07-30T14:00:00Z"
+          "from": "2025-07-23T19:27:00Z",
+          "to": "2504-08-30T23:18:00Z"
         }
       ],
-      "expiration": "2025-07-30T14:00:59Z"
+      "expiration": "2504-08-30T23:18:59Z"
     },
-    "urlText": "Delays in Regentville",
-    "url": "https://transportnsw.info/alerts/details#/ems-56201",
-    "content": "<div>Some buses are delayed on Mulgoa Road due to a multiple vehicle crash at the M4.&nbsp;</div>",
-    "subtitle": "Delays in Regentville",
+    "urlText": "Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-55928",
+    "content": "At Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
+    "subtitle": "Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is not available",
     "properties": {
-      "smsText": "Delays in Regentville",
-      "speechText": "At Regentville, some buses are delayed up to 20 minutes on Mulgoa Road due to a multiple vehicle crash at the M4.",
-      "announcementType": "serviceChange",
+      "smsText": "Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is not available",
+      "speechText": "At Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "0e8ef613-c13d-5c73-95ea-119fb222bd08",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214810",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214810",
+          "isGlobalId": true,
+          "name": "Blacktown Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-55439",
+    "version": 772046,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-15T01:47:00Z",
+      "lastModification": "2025-07-24T00:14:00Z",
+      "availability": {
+        "from": "2025-07-15T01:00:00Z",
+        "to": "2025-07-30T16:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-30T11:50:00Z",
+          "to": "2025-07-30T16:30:00Z"
+        }
+      ],
+      "expiration": "2025-07-30T16:30:59Z"
+    },
+    "urlText": "Buses replace trains between Sutherland and Hurstville",
+    "url": "https://transportnsw.info/alerts/details#/ems-55439",
+    "content": "<div><strong>Wednesday 30 July</strong>&nbsp;&nbsp;</div>\n<ul>\n<li><strong>From 9.50pm to 2.30am</strong>, buses replace trains between Sutherland and Hurstville.</li>\n<li>Trains run between Waterfall or Cronulla and Sutherland, and between Hurstville and Bondi Junction, to a changed timetable.</li>\n<li>South Coast Line trains continue to run between Sutherland and Hurstville.<br /><br /></li>\n<li><strong>Wednesday from 9.50pm</strong>, metro services&nbsp;do not&nbsp;run between&nbsp;Sydenham and Central.&nbsp;Change at Martin Place for services towards Tallawong.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>43T4 Sutherland, all stations to Hurstville and return</div>\n<div>45T4 &nbsp;Sutherland, express to Hurstville and return</div>",
+    "subtitle": "Buses replace trains between Sutherland and Hurstville",
+    "properties": {
+      "smsText": "Buses replace trains between Sutherland and Hurstville",
+      "speechText": "Wednesday 30 July From 9 50 PM to 2 30 AM, buses replace trains between Sutherland and Hurstville.",
+      "announcementType": "trackwork",
       "publishToAreas": "1",
       "providerCode": "TfNSW"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:11781: :R:",
+          "id": "nsw:020T4: :R:",
           "destination": {
-            "name": "Penrith Station, Penrith",
+            "name": "Bondi Junction Station, Bondi Junction",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 781",
-          "number": "781",
-          "description": "St Marys to Penrith via Glenmore Park",
-          "iconId": 5,
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "iconId": 1,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2501",
-            "name": "Busways R1"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         },
         {
-          "id": "nsw:11795: :R:",
+          "id": "nsw:020T4: :H:",
           "destination": {
-            "name": "Weir Rd at Ninth St, Warragamba",
+            "name": "Helensburgh Station, Helensburgh",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 795",
-          "number": "795",
-          "description": "Warragamba to Penrith",
-          "iconId": 5,
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
+          "iconId": 1,
           "product": {
-            "class": 5,
-            "iconId": 5
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          }
-        },
-        {
-          "id": "nsw:11797: :R:",
-          "destination": {
-            "name": "Penrith Station, Penrith",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 797",
-          "number": "797",
-          "description": "Penrith to Glenmore Park (Loop Service)",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          }
-        },
-        {
-          "id": "nsw:11799: :R:",
-          "destination": {
-            "name": "Penrith Station, Penrith",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 799",
-          "number": "799",
-          "description": "Glenmore Park to Penrith via Regentville",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          }
-        },
-        {
-          "id": "nsw:11452:7:H:",
-          "destination": {
-            "name": "Swallow Dr near Skylark Cr, Erskine Park",
-            "type": "stop"
-          },
-          "name": "School buses 4527",
-          "number": "4527",
-          "description": "Glenmore Park HS to St Dominic's College",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
+            "id": "x0001",
+            "name": "Sydney Trains"
           }
         }
       ]
@@ -32195,80 +32320,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-55439",
-    "version": 772046,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-15T01:47:00Z",
-      "lastModification": "2025-07-24T00:14:00Z",
-      "availability": {
-        "from": "2025-07-15T01:00:00Z",
-        "to": "2025-07-30T16:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-30T11:50:00Z",
-          "to": "2025-07-30T16:30:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T16:30:59Z"
-    },
-    "urlText": "Buses replace trains between Sutherland and Hurstville",
-    "url": "https://transportnsw.info/alerts/details#/ems-55439",
-    "content": "<div><strong>Wednesday 30 July</strong>&nbsp;&nbsp;</div>\n<ul>\n<li><strong>From 9.50pm to 2.30am</strong>, buses replace trains between Sutherland and Hurstville.</li>\n<li>Trains run between Waterfall or Cronulla and Sutherland, and between Hurstville and Bondi Junction, to a changed timetable.</li>\n<li>South Coast Line trains continue to run between Sutherland and Hurstville.<br /><br /></li>\n<li><strong>Wednesday from 9.50pm</strong>, metro services&nbsp;do not&nbsp;run between&nbsp;Sydenham and Central.&nbsp;Change at Martin Place for services towards Tallawong.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>43T4 Sutherland, all stations to Hurstville and return</div>\n<div>45T4 &nbsp;Sutherland, express to Hurstville and return</div>",
-    "subtitle": "Buses replace trains between Sutherland and Hurstville",
-    "properties": {
-      "smsText": "Buses replace trains between Sutherland and Hurstville",
-      "speechText": "Wednesday 30 July From 9 50 PM to 2 30 AM, buses replace trains between Sutherland and Hurstville.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T4: :R:",
-          "destination": {
-            "name": "Bondi Junction Station, Bondi Junction",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Waterfall or Cronulla to Bondi Junction",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T4: :H:",
-          "destination": {
-            "name": "Helensburgh Station, Helensburgh",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-197",
     "version": 18772772,
     "priority": "veryLow",
@@ -32442,52 +32493,126 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-55928",
-    "version": 2,
+    "id": "ems-55973",
+    "version": 4,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-07-23T20:27:00Z",
-      "lastModification": "2025-07-23T20:27:00Z",
+      "creation": "2025-07-24T21:06:00Z",
+      "lastModification": "2025-07-24T21:06:00Z",
       "availability": {
-        "from": "2025-07-16T22:17:00Z",
-        "to": "2504-08-30T23:18:00Z"
+        "from": "2025-07-17T22:56:00Z",
+        "to": "2504-08-31T23:57:00Z"
       },
       "validity": [
         {
-          "from": "2025-07-23T19:27:00Z",
-          "to": "2504-08-30T23:18:00Z"
+          "from": "2025-07-24T20:06:00Z",
+          "to": "2504-08-31T23:57:00Z"
         }
       ],
-      "expiration": "2504-08-30T23:18:59Z"
+      "expiration": "2504-08-31T23:57:59Z"
     },
-    "urlText": "Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-55928",
-    "content": "At Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
-    "subtitle": "Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is not available",
+    "urlText": "Allawah Station Lift 2 between the footbridge and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-55973",
+    "content": "At Allawah Station Lift 2 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7415.",
+    "subtitle": "Allawah Station Lift 2 between the footbridge and Platform 3/4 is not available",
     "properties": {
-      "smsText": "Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is not available",
-      "speechText": "At Blacktown Station Lift 9 between the concourse and Bus Interchange Stands A-D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7212.",
+      "smsText": "Allawah Station Lift 2 between the footbridge and Platform 3/4 is not available",
+      "speechText": "At Allawah Station Lift 2 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7415.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "0e8ef613-c13d-5c73-95ea-119fb222bd08",
+      "messageRef": "83d780ea-e2be-5c1e-8961-de3376210f2f",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214810",
+      "stopIDglobalID": "222020:2220353,2220354",
       "providerCode": "TfNSW"
     },
     "affected": {
       "stops": [
         {
-          "id": "214810",
+          "id": "222020",
           "isGlobalId": true,
-          "name": "Blacktown Station",
+          "name": "Allawah Station",
           "type": "stop"
         }
       ],
       "Infrastructures": [
         {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-55474",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-15T05:54:00Z",
+      "lastModification": "2025-07-15T05:54:00Z",
+      "availability": {
+        "from": "2025-07-14T22:00:00Z",
+        "to": "2025-07-30T03:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-29T22:00:00Z",
+          "to": "2025-07-30T03:00:00Z"
+        }
+      ],
+      "expiration": "2025-07-30T03:00:59Z"
+    },
+    "urlText": "Buses replace some trains",
+    "url": "https://transportnsw.info/alerts/details#/ems-55474",
+    "content": "<div><strong>Wednesday 30 July</strong></div>\n<ul>\n<li><strong>From 8am to 1pm</strong>,&nbsp;buses replace trains between Newcastle Interchange and Telarah or Muswellbrook.</li>\n<li>The 08:29 Newcastle Interchange to Dungog will not run. Catch the 08:48 Newcastle Interchange to Telarah train and change at Maitland for a bus towards Dungog.</li>\n<li>Buses also replace the 10:02 Dungog to Newcastle Interchange service.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>1HU Newcastle Interchange, all stations to Telarah and return</div>\n<div>4HU Maitland, all stations to Dungog (in that direction only)</div>\n<div>7HU Warabrook Station to University shuttle bus</div>\n<div>15HU Maitland, all stations to Muswellbrook (in that direction only)</div>\n<div>19HU Dungog, all stations to Maitland, Victoria Street,&nbsp;all stations to Beresfield, Warabrook, all stations to&nbsp; Newcastle Interchange (in that direction only)</div>\n<div>28HU Muswellbrook, all stations to Maitland, Victoria Street, all stations to Beresfield, Warabrook, all stations to Newcastle Interchange (in that direction only)</div>",
+    "subtitle": "Buses replace some trains",
+    "properties": {
+      "smsText": "Buses replace some trains",
+      "speechText": "Wednesday 30 July From 8 AM to 1 PM, buses replace trains between Newcastle Interchange and Telarah or Muswellbrook.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76HUN: :H:",
+          "destination": {
+            "name": "Dungog Station, Dungog",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Hamilton to Telarah",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        },
+        {
+          "id": "nsw:76HUN: :R:",
+          "destination": {
+            "name": "Newcastle Interchange, Wickham",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Hunter Line",
+          "number": "Hunter Line",
+          "description": "Telarah to Hamilton",
+          "iconId": 2,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          }
+        }
       ]
     }
   },
@@ -34320,80 +34445,6 @@
             "id": "placeID:95332006:1",
             "name": "Longueville",
             "type": "locality"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-55474",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-15T05:54:00Z",
-      "lastModification": "2025-07-15T05:54:00Z",
-      "availability": {
-        "from": "2025-07-14T22:00:00Z",
-        "to": "2025-07-30T03:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-29T22:00:00Z",
-          "to": "2025-07-30T03:00:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T03:00:59Z"
-    },
-    "urlText": "Buses replace some trains",
-    "url": "https://transportnsw.info/alerts/details#/ems-55474",
-    "content": "<div><strong>Wednesday 30 July</strong></div>\n<ul>\n<li><strong>From 8am to 1pm</strong>,&nbsp;buses replace trains between Newcastle Interchange and Telarah or Muswellbrook.</li>\n<li>The 08:29 Newcastle Interchange to Dungog will not run. Catch the 08:48 Newcastle Interchange to Telarah train and change at Maitland for a bus towards Dungog.</li>\n<li>Buses also replace the 10:02 Dungog to Newcastle Interchange service.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>1HU Newcastle Interchange, all stations to Telarah and return</div>\n<div>4HU Maitland, all stations to Dungog (in that direction only)</div>\n<div>7HU Warabrook Station to University shuttle bus</div>\n<div>15HU Maitland, all stations to Muswellbrook (in that direction only)</div>\n<div>19HU Dungog, all stations to Maitland, Victoria Street,&nbsp;all stations to Beresfield, Warabrook, all stations to&nbsp; Newcastle Interchange (in that direction only)</div>\n<div>28HU Muswellbrook, all stations to Maitland, Victoria Street, all stations to Beresfield, Warabrook, all stations to Newcastle Interchange (in that direction only)</div>",
-    "subtitle": "Buses replace some trains",
-    "properties": {
-      "smsText": "Buses replace some trains",
-      "speechText": "Wednesday 30 July From 8 AM to 1 PM, buses replace trains between Newcastle Interchange and Telarah or Muswellbrook.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76HUN: :H:",
-          "destination": {
-            "name": "Dungog Station, Dungog",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Hamilton to Telarah",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          }
-        },
-        {
-          "id": "nsw:76HUN: :R:",
-          "destination": {
-            "name": "Newcastle Interchange, Wickham",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Hunter Line",
-          "number": "Hunter Line",
-          "description": "Telarah to Hamilton",
-          "iconId": 2,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
           }
         }
       ]
@@ -36350,52 +36401,202 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-55973",
-    "version": 4,
+    "id": "ems-56126",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-07-24T21:06:00Z",
-      "lastModification": "2025-07-24T21:06:00Z",
+      "creation": "2025-07-28T23:58:00Z",
+      "lastModification": "2025-07-28T23:58:00Z",
       "availability": {
-        "from": "2025-07-17T22:56:00Z",
-        "to": "2504-08-31T23:57:00Z"
+        "from": "2025-07-22T01:48:00Z",
+        "to": "2504-09-05T02:49:00Z"
       },
       "validity": [
         {
-          "from": "2025-07-24T20:06:00Z",
-          "to": "2504-08-31T23:57:00Z"
+          "from": "2025-07-28T22:58:00Z",
+          "to": "2504-09-05T02:49:00Z"
         }
       ],
-      "expiration": "2504-08-31T23:57:59Z"
+      "expiration": "2504-09-05T02:49:59Z"
     },
-    "urlText": "Allawah Station Lift 2 between the footbridge and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-55973",
-    "content": "At Allawah Station Lift 2 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7415.",
-    "subtitle": "Allawah Station Lift 2 between the footbridge and Platform 3/4 is not available",
+    "urlText": "Green Square Station Lift 2 between the concourse and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56126",
+    "content": "At Green Square Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8430.",
+    "subtitle": "Green Square Station Lift 2 between the concourse and Platform 2 is not available",
     "properties": {
-      "smsText": "Allawah Station Lift 2 between the footbridge and Platform 3/4 is not available",
-      "speechText": "At Allawah Station Lift 2 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7415.",
+      "smsText": "Green Square Station Lift 2 between the concourse and Platform 2 is not available",
+      "speechText": "At Green Square Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8430.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "83d780ea-e2be-5c1e-8961-de3376210f2f",
+      "messageRef": "e7e08878-c78b-513b-ab39-61090bbcd4ec",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "222020:2220353,2220354",
+      "stopIDglobalID": "201710:2015112",
       "providerCode": "TfNSW"
     },
     "affected": {
       "stops": [
         {
-          "id": "222020",
+          "id": "201710",
           "isGlobalId": true,
-          "name": "Allawah Station",
+          "name": "Green Square Station",
           "type": "stop"
         }
       ],
       "Infrastructures": [
         {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-56195",
+    "version": 731,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-29T21:11:00Z",
+      "lastModification": "2025-07-29T21:23:00Z",
+      "availability": {
+        "from": "2025-07-29T21:07:00Z",
+        "to": "2025-07-30T01:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-29T21:07:00Z",
+          "to": "2025-07-30T01:00:00Z"
+        }
+      ],
+      "expiration": "2025-07-30T01:00:59Z"
+    },
+    "urlText": "Diversion in Manly",
+    "url": "https://transportnsw.info/alerts/details#/ems-56195",
+    "content": "<div>Buses travelling away from Manly are diverting away from Carlton Street due to roadwork.</div>\n<ul>\n<li>Buses are using Pittwater Road, Pine Street and North Steyne instead.</li>\n<li>Two stops are being missed.</li>\n</ul>",
+    "subtitle": "Diversion in Manly",
+    "properties": {
+      "smsText": "Diversion in Manly",
+      "speechText": "In Manly, Buses travelling away from Manly are diverting away from Carlton Street due to roadwork. Buses are using Pittwater Road, Pine Street and North Steyne instead. Two stops are being missed.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:29601:N:R:",
+          "destination": {
+            "name": "Cromer Public School, Waroon Rd, Cromer",
+            "type": "stop"
+          },
+          "name": "School buses 601n",
+          "number": "601n",
+          "description": "Manly to Cromer PS via Freshwater & Dee Why",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29781:N:R:",
+          "destination": {
+            "name": "Oxford Falls Grammar School, Oxford Falls Rd, Oxford Falls",
+            "type": "stop"
+          },
+          "name": "School buses 781n",
+          "number": "781n",
+          "description": "Manly Wharf to Oxford Falls Grammar School",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29166: :H:",
+          "destination": {
+            "name": "Rabbett St at Forest Way, Frenchs Forest",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 166",
+          "number": "166",
+          "description": "Manly to Frenchs Forest via Dee Why Beach",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29167: :H:",
+          "destination": {
+            "name": "Pittwater Rd at Old Pittwater Rd, Brookvale",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 167",
+          "number": "167",
+          "description": "Manly to Warringah Mall via South Curl Curl",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29166: :R:",
+          "destination": {
+            "name": "St Pauls College, Darley Rd, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 166",
+          "number": "166",
+          "description": "Frenchs Forest to Manly via Dee Why Beach",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        },
+        {
+          "id": "nsw:29167: :R:",
+          "destination": {
+            "name": "Manly Village Public School, Victoria Pde, Manly",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 167",
+          "number": "167",
+          "description": "Warringah Mall to Manly via South Curl Curl",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2508",
+            "name": "Keolis Downer Northern Beaches"
+          }
+        }
       ]
     }
   },
@@ -37452,207 +37653,6 @@
           "operator": {
             "id": "2504",
             "name": "CDC NSW R4"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-56126",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-07-28T23:58:00Z",
-      "lastModification": "2025-07-28T23:58:00Z",
-      "availability": {
-        "from": "2025-07-22T01:48:00Z",
-        "to": "2504-09-05T02:49:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-28T22:58:00Z",
-          "to": "2504-09-05T02:49:00Z"
-        }
-      ],
-      "expiration": "2504-09-05T02:49:59Z"
-    },
-    "urlText": "Green Square Station Lift 2 between the concourse and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56126",
-    "content": "At Green Square Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8430.",
-    "subtitle": "Green Square Station Lift 2 between the concourse and Platform 2 is not available",
-    "properties": {
-      "smsText": "Green Square Station Lift 2 between the concourse and Platform 2 is not available",
-      "speechText": "At Green Square Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8430.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "e7e08878-c78b-513b-ab39-61090bbcd4ec",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "201710:2015112",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "201710",
-          "isGlobalId": true,
-          "name": "Green Square Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-56195",
-    "version": 731,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-29T21:11:00Z",
-      "lastModification": "2025-07-29T21:23:00Z",
-      "availability": {
-        "from": "2025-07-29T21:07:00Z",
-        "to": "2025-07-30T01:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-29T21:07:00Z",
-          "to": "2025-07-30T01:00:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T01:00:59Z"
-    },
-    "urlText": "Diversion in Manly",
-    "url": "https://transportnsw.info/alerts/details#/ems-56195",
-    "content": "<div>Buses travelling away from Manly are diverting away from Carlton Street due to roadwork.</div>\n<ul>\n<li>Buses are using Pittwater Road, Pine Street and North Steyne instead.</li>\n<li>Two stops are being missed.</li>\n</ul>",
-    "subtitle": "Diversion in Manly",
-    "properties": {
-      "smsText": "Diversion in Manly",
-      "speechText": "In Manly, Buses travelling away from Manly are diverting away from Carlton Street due to roadwork. Buses are using Pittwater Road, Pine Street and North Steyne instead. Two stops are being missed.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:29601:N:R:",
-          "destination": {
-            "name": "Cromer Public School, Waroon Rd, Cromer",
-            "type": "stop"
-          },
-          "name": "School buses 601n",
-          "number": "601n",
-          "description": "Manly to Cromer PS via Freshwater & Dee Why",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29781:N:R:",
-          "destination": {
-            "name": "Oxford Falls Grammar School, Oxford Falls Rd, Oxford Falls",
-            "type": "stop"
-          },
-          "name": "School buses 781n",
-          "number": "781n",
-          "description": "Manly Wharf to Oxford Falls Grammar School",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29166: :H:",
-          "destination": {
-            "name": "Rabbett St at Forest Way, Frenchs Forest",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 166",
-          "number": "166",
-          "description": "Manly to Frenchs Forest via Dee Why Beach",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29167: :H:",
-          "destination": {
-            "name": "Pittwater Rd at Old Pittwater Rd, Brookvale",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 167",
-          "number": "167",
-          "description": "Manly to Warringah Mall via South Curl Curl",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29166: :R:",
-          "destination": {
-            "name": "St Pauls College, Darley Rd, Manly",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 166",
-          "number": "166",
-          "description": "Frenchs Forest to Manly via Dee Why Beach",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
-          }
-        },
-        {
-          "id": "nsw:29167: :R:",
-          "destination": {
-            "name": "Manly Village Public School, Victoria Pde, Manly",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 167",
-          "number": "167",
-          "description": "Warringah Mall to Manly via South Curl Curl",
-          "iconId": 5,
-          "product": {
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2508",
-            "name": "Keolis Downer Northern Beaches"
           }
         }
       ]
@@ -41052,6 +41052,139 @@
     }
   },
   {
+    "type": "infrastructure",
+    "id": "ems-56197",
+    "version": 7,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-07-29T21:45:00Z",
+      "lastModification": "2025-07-29T21:46:00Z",
+      "availability": {
+        "from": "2025-07-22T23:34:00Z",
+        "to": "2504-09-06T00:35:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-29T20:45:00Z",
+          "to": "2504-09-06T00:35:00Z"
+        }
+      ],
+      "expiration": "2504-09-06T00:35:59Z"
+    },
+    "urlText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56197",
+    "content": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+    "subtitle": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+    "properties": {
+      "smsText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+      "speechText": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "7ac794b3-66c3-594e-8299-8ffb59ae57f2",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214520",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214520",
+          "isGlobalId": true,
+          "name": "Wentworthville Station",
+          "type": "stop"
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-55443",
+    "version": 173697,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-15T01:54:00Z",
+      "lastModification": "2025-07-17T02:09:00Z",
+      "availability": {
+        "from": "2025-07-15T01:00:00Z",
+        "to": "2025-07-30T15:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-28T12:00:00Z",
+          "to": "2025-07-28T15:30:00Z"
+        },
+        {
+          "from": "2025-07-29T12:00:00Z",
+          "to": "2025-07-29T15:30:00Z"
+        },
+        {
+          "from": "2025-07-30T12:00:00Z",
+          "to": "2025-07-30T15:30:00Z"
+        }
+      ],
+      "expiration": "2025-07-30T15:30:59Z"
+    },
+    "urlText": "Buses replace trains between Richmond and Blacktown",
+    "url": "https://transportnsw.info/alerts/details#/ems-55443",
+    "content": "<div><strong>Monday 28 to Wednesday 30 July&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 10pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave up to 20 minutes earlier than the normal train timetable.<br /><br /></li>\n<li><strong>Tuesday and Wednesday, nightly from 11.50pm to 3.50am</strong>, trains run between Blacktown or Leppington and Olympic Park only. Some trains start and end at Granville.</li>\n<li>You may need to change trains at Granville to continue your journey.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, all stations to Richmond and return</div>\n<div>52T1 Blacktown, all stations to Riverstone and return</div>",
+    "subtitle": "Buses replace trains between Richmond and Blacktown",
+    "properties": {
+      "smsText": "Buses replace trains between Richmond and Blacktown",
+      "speechText": "Monday 28 to Wednesday 30 July Nightly from 10 PM to 1 30 AM, buses replace trains between Richmond and Blacktown.",
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Penrith Station, Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Penrith Station, Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "iconId": 1,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          }
+        }
+      ]
+    }
+  },
+  {
     "type": "lineInfo",
     "id": "ems-55463",
     "version": 1,
@@ -41587,88 +41720,6 @@
           "operator": {
             "id": "2501",
             "name": "Busways R1"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-55443",
-    "version": 173697,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-15T01:54:00Z",
-      "lastModification": "2025-07-17T02:09:00Z",
-      "availability": {
-        "from": "2025-07-15T01:00:00Z",
-        "to": "2025-07-30T15:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-28T12:00:00Z",
-          "to": "2025-07-28T15:30:00Z"
-        },
-        {
-          "from": "2025-07-29T12:00:00Z",
-          "to": "2025-07-29T15:30:00Z"
-        },
-        {
-          "from": "2025-07-30T12:00:00Z",
-          "to": "2025-07-30T15:30:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T15:30:59Z"
-    },
-    "urlText": "Buses replace trains between Richmond and Blacktown",
-    "url": "https://transportnsw.info/alerts/details#/ems-55443",
-    "content": "<div><strong>Monday 28 to Wednesday 30 July&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 10pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave up to 20 minutes earlier than the normal train timetable.<br /><br /></li>\n<li><strong>Tuesday and Wednesday, nightly from 11.50pm to 3.50am</strong>, trains run between Blacktown or Leppington and Olympic Park only. Some trains start and end at Granville.</li>\n<li>You may need to change trains at Granville to continue your journey.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, all stations to Richmond and return</div>\n<div>52T1 Blacktown, all stations to Riverstone and return</div>",
-    "subtitle": "Buses replace trains between Richmond and Blacktown",
-    "properties": {
-      "smsText": "Buses replace trains between Richmond and Blacktown",
-      "speechText": "Monday 28 to Wednesday 30 July Nightly from 10 PM to 1 30 AM, buses replace trains between Richmond and Blacktown.",
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T5: :H:",
-          "destination": {
-            "name": "Penrith Station, Penrith",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          }
-        },
-        {
-          "id": "nsw:020T5: :R:",
-          "destination": {
-            "name": "Penrith Station, Penrith",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
-          "iconId": 1,
-          "product": {
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
           }
         }
       ]
@@ -42587,52 +42638,107 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-56197",
-    "version": 7,
+    "id": "ems-56123",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-07-29T21:45:00Z",
-      "lastModification": "2025-07-29T21:46:00Z",
+      "creation": "2025-07-28T23:21:00Z",
+      "lastModification": "2025-07-28T23:21:00Z",
       "availability": {
-        "from": "2025-07-22T23:34:00Z",
-        "to": "2504-09-06T00:35:00Z"
+        "from": "2025-07-28T23:20:00Z",
+        "to": "2504-09-01T18:11:00Z"
       },
       "validity": [
         {
-          "from": "2025-07-29T20:45:00Z",
-          "to": "2504-09-06T00:35:00Z"
+          "from": "2025-07-28T23:21:00Z",
+          "to": "2504-09-01T18:11:00Z"
         }
       ],
-      "expiration": "2504-09-06T00:35:59Z"
+      "expiration": "2504-09-01T18:11:59Z"
     },
-    "urlText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56197",
-    "content": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
-    "subtitle": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+    "urlText": "Woy Woy Station Lift 4 between the car park and George St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-56123",
+    "content": "At Woy Woy Station Lift 4 between the car park and George St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
+    "subtitle": "Woy Woy Station Lift 4 between the car park and George St is not available",
     "properties": {
-      "smsText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
-      "speechText": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+      "smsText": "Woy Woy Station Lift 4 between the car park and George St is not available",
+      "speechText": "At Woy Woy Station Lift 4 between the car park and George St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
       "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7ac794b3-66c3-594e-8299-8ffb59ae57f2",
+      "messageRef": "6f7b1cd8-d1f8-5242-8f57-b8c6313fa07d",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214520",
+      "stopIDglobalID": "225610",
       "providerCode": "TfNSW"
     },
     "affected": {
       "stops": [
         {
-          "id": "214520",
+          "id": "225610",
           "isGlobalId": true,
-          "name": "Wentworthville Station",
+          "name": "Woy Woy Station",
           "type": "stop"
         }
       ],
       "Infrastructures": [
         {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-55866",
+    "version": 4509,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-23T01:44:00Z",
+      "lastModification": "2025-07-23T02:59:00Z",
+      "availability": {
+        "from": "2025-07-23T01:33:00Z",
+        "to": "2025-07-30T14:15:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-07-23T01:33:00Z",
+          "to": "2025-07-30T14:15:00Z"
+        }
+      ],
+      "expiration": "2025-07-30T14:15:59Z"
+    },
+    "urlText": "Diversion at Lithgow",
+    "url": "https://transportnsw.info/alerts/details#/ems-55866",
+    "content": "<div>Buses are diverting away from George Coates Avenue due to roadworks on James Street.</div>\n<ul>\n<li>The buses will continue on Main Street, James Street and Albert Street.</li>\n<li>One stop is being missed at the Aquatic Centre.</li>\n</ul>",
+    "subtitle": "Diversion at Lithgow",
+    "properties": {
+      "smsText": "Diversion at Lithgow",
+      "speechText": "Buses are diverting away from George Coates Avenue due to roadworks on James Street. The buses will continue on Main Street, James Street and Albert Street and one stop is being missed at the Aquatic Centre.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:71S36:7:R:",
+          "destination": {
+            "name": "Lithgow High School, Lithgow",
+            "type": "stop"
+          },
+          "name": "School buses S367",
+          "number": "S367",
+          "description": "Lion Bus - Hartley to Lithgow Schools via Harley Vale & Little Hartley",
+          "iconId": 8,
+          "product": {
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "6005",
+            "name": "Lithgow Buslines"
+          }
+        }
       ]
     }
   },
@@ -43564,61 +43670,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-55866",
-    "version": 4509,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-23T01:44:00Z",
-      "lastModification": "2025-07-23T02:59:00Z",
-      "availability": {
-        "from": "2025-07-23T01:33:00Z",
-        "to": "2025-07-30T14:15:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-23T01:33:00Z",
-          "to": "2025-07-30T14:15:00Z"
-        }
-      ],
-      "expiration": "2025-07-30T14:15:59Z"
-    },
-    "urlText": "Diversion at Lithgow",
-    "url": "https://transportnsw.info/alerts/details#/ems-55866",
-    "content": "<div>Buses are diverting away from George Coates Avenue due to roadworks on James Street.</div>\n<ul>\n<li>The buses will continue on Main Street, James Street and Albert Street.</li>\n<li>One stop is being missed at the Aquatic Centre.</li>\n</ul>",
-    "subtitle": "Diversion at Lithgow",
-    "properties": {
-      "smsText": "Diversion at Lithgow",
-      "speechText": "Buses are diverting away from George Coates Avenue due to roadworks on James Street. The buses will continue on Main Street, James Street and Albert Street and one stop is being missed at the Aquatic Centre.",
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:71S36:7:R:",
-          "destination": {
-            "name": "Lithgow High School, Lithgow",
-            "type": "stop"
-          },
-          "name": "School buses S367",
-          "number": "S367",
-          "description": "Lion Bus - Hartley to Lithgow Schools via Harley Vale & Little Hartley",
-          "iconId": 8,
-          "product": {
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "6005",
-            "name": "Lithgow Buslines"
-          }
-        }
-      ]
-    }
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-201",
     "version": 18771442,
     "priority": "veryLow",
@@ -43836,57 +43887,6 @@
             "name": "Live Better"
           }
         }
-      ]
-    }
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-56123",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-07-28T23:21:00Z",
-      "lastModification": "2025-07-28T23:21:00Z",
-      "availability": {
-        "from": "2025-07-28T23:20:00Z",
-        "to": "2504-09-01T18:11:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-07-28T23:21:00Z",
-          "to": "2504-09-01T18:11:00Z"
-        }
-      ],
-      "expiration": "2504-09-01T18:11:59Z"
-    },
-    "urlText": "Woy Woy Station Lift 4 between the car park and George St is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56123",
-    "content": "At Woy Woy Station Lift 4 between the car park and George St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
-    "subtitle": "Woy Woy Station Lift 4 between the car park and George St is not available",
-    "properties": {
-      "smsText": "Woy Woy Station Lift 4 between the car park and George St is not available",
-      "speechText": "At Woy Woy Station Lift 4 between the car park and George St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "6f7b1cd8-d1f8-5242-8f57-b8c6313fa07d",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "225610",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "225610",
-          "isGlobalId": true,
-          "name": "Woy Woy Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
       ]
     }
   }
