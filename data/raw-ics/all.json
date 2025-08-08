@@ -29467,57 +29467,6 @@
     }
   },
   {
-    "type": "infrastructure",
-    "id": "ems-56876",
-    "version": 7,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-08-08T06:50:00Z",
-      "lastModification": "2025-08-08T06:50:00Z",
-      "availability": {
-        "from": "2025-08-01T08:40:00Z",
-        "to": "2504-09-15T09:40:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-08-08T05:50:00Z",
-          "to": "2504-09-15T09:40:00Z"
-        }
-      ],
-      "expiration": "2504-09-15T09:40:59Z"
-    },
-    "urlText": "Springwood Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56876",
-    "content": "At Springwood Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3915.",
-    "subtitle": "Springwood Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-    "properties": {
-      "smsText": "Springwood Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-      "speechText": "At Springwood Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3915.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7daad6fe-1d96-5d64-9102-be3e464192e2",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "277720:2777191,2777192",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "277720",
-          "isGlobalId": true,
-          "name": "Springwood Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-55793",
     "version": 1192047,
@@ -46281,6 +46230,80 @@
           "operator": {
             "id": "710",
             "name": "NSW TrainLink Coach"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-56889",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-08-08T12:58:00Z",
+      "lastModification": "2025-08-08T12:58:00Z",
+      "availability": {
+        "from": "2025-08-08T12:50:00Z",
+        "to": "2025-08-08T14:20:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-08-08T12:50:00Z",
+          "to": "2025-08-08T14:20:00Z"
+        }
+      ],
+      "expiration": "2025-08-08T14:20:59Z"
+    },
+    "urlText": "Diversion in Sydney",
+    "url": "https://transportnsw.info/alerts/details#/ems-56889",
+    "content": "<div>Buses are diverting away from the western Distributor near Druitt Street due to a crash.</div>\n<ul>\n<li>Buses are using King Street, York Street and Druitt Street instead.</li>\n<li>One stop is being missed</li>\n</ul>",
+    "subtitle": "Diversion in Sydney",
+    "properties": {
+      "smsText": "Diversion in Sydney",
+      "speechText": "Buses are diverting away from the western Distributor near Druitt Street due to a crash.Buses are using King Street, York Street and Druitt Street instead. One stop is being missed",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17500:X:R:",
+          "destination": {
+            "name": "Hyde Park, Park St, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 500X",
+          "number": "500X",
+          "description": "West Ryde to City Hyde Park via Victoria Rd (Express Service)",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          }
+        },
+        {
+          "id": "nsw:17506: :H:",
+          "destination": {
+            "name": "Macquarie University Campus Interchange, Macquarie Park",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 506",
+          "number": "506",
+          "description": "City Domain to Macquarie University via East Ryde",
+          "iconId": 5,
+          "product": {
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
           }
         }
       ]
