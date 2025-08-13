@@ -102,57 +102,6 @@
     }
   },
   {
-    "type": "infrastructure",
-    "id": "ems-56884",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-08-08T09:49:00Z",
-      "lastModification": "2025-08-08T09:49:00Z",
-      "availability": {
-        "from": "2021-11-15T10:59:00Z",
-        "to": "2504-09-15T23:39:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-08-08T08:49:00Z",
-          "to": "2504-09-15T23:39:00Z"
-        }
-      ],
-      "expiration": "2504-09-15T23:39:59Z"
-    },
-    "urlText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-56884",
-    "content": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046.",
-    "subtitle": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
-    "properties": {
-      "smsText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
-      "speechText": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046.",
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d4f11282-0fdf-5438-b127-14a9195186a9",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206520",
-      "providerCode": "TfNSW"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "206520",
-          "isGlobalId": true,
-          "name": "St Leonards Station",
-          "type": "stop"
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    }
-  },
-  {
     "type": "lineInfo",
     "id": "ems-181",
     "version": 38596556,
@@ -413,6 +362,61 @@
       ],
       "Infrastructures": [
         {}
+      ]
+    }
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-57120",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-08-13T03:21:00Z",
+      "lastModification": "2025-08-13T03:21:00Z",
+      "availability": {
+        "from": "2025-08-13T03:19:00Z",
+        "to": "2025-08-13T11:19:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-08-13T03:19:00Z",
+          "to": "2025-08-13T11:19:00Z"
+        }
+      ],
+      "expiration": "2025-08-13T11:19:59Z"
+    },
+    "urlText": "NSW TrainLink 33 Sydney - Casino Delays",
+    "url": "https://transportnsw.info/alerts/details#/ems-57120",
+    "content": "<div>Due to temporary speed restrictions, the NSW TrainLink 33 Sydney - Casino service has been delayed.</div>\n<div>&nbsp;</div>\n<div>Plan ahead and allow extra travel time.</div>",
+    "subtitle": "NSW TrainLink 33 Sydney - Casino Delays",
+    "properties": {
+      "smsText": "NSW TrainLink 33 Sydney - Casino Delays",
+      "speechText": "Due to temporary speed restrictions, the NSW TrainLink 33 Sydney - Casino service has been delayed.\n \nPlan ahead and allow extra travel time.",
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "providerCode": "TfNSW"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "iconId": 3,
+          "product": {
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          }
+        }
       ]
     }
   },
