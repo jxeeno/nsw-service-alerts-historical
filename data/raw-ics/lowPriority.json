@@ -66,35 +66,183 @@
     "subtitle": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-60258",
-    "version": 6,
+    "type": "stopInfo",
+    "id": "ems-59612",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-10-10T21:20:00Z",
-      "lastModification": "2025-10-10T21:20:00Z",
+      "creation": "2025-09-28T23:49:00Z",
+      "lastModification": "2025-09-28T23:49:00Z",
       "availability": {
-        "from": "2025-10-04T00:09:00Z",
+        "from": "2025-09-28T18:00:00Z",
+        "to": "2025-10-11T23:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-11T17:00:00Z",
+          "to": "2025-10-11T23:00:00Z"
+        }
+      ],
+      "expiration": "2025-10-11T23:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "North Sydney bus diversions for Spring Cycle",
+        "url": "https://transportnsw.info/alerts/details#/ems-59612",
+        "content": "<div>\n<div><strong>On Sunday 12 October</strong>, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.</div>\n<div>&nbsp;</div>\n<div><strong>From 4am to 10:30am</strong>, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney.</div>\n<div>&nbsp;</div>\n<div>Please allow extra travel time and check signs at bus stops for alternative stop locations. Visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/10/spring-cycle\">Spring Cycle 2025</a>&nbsp;for more transport details.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Victoria Cross Station, Miller Street, Stand F, North Sydney (Stop ID 206085)</li>\n<li>Victoria Cross, Miller Street, North Sydney (Stop ID 206013)</li>\n</ul>\n</div>",
+        "subtitle": "North Sydney bus diversions for Spring Cycle",
+        "smsText": "North Sydney bus diversions for Spring Cycle",
+        "speechText": "On Sunday 12 October, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.\n \nFrom 4am to 10:30am, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "59ccad2b-9f80-5faa-b933-077bd2dd56d1",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "206044",
+      "providerCode": "TfNSW",
+      "smsText": "North Sydney bus diversions for Spring Cycle",
+      "speechText": "On Sunday 12 October, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.\n \nFrom 4am to 10:30am, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17254: :R:",
+          "destination": {
+            "name": "McMahons Point Wharf, McMahons Point",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 254",
+          "number": "254",
+          "description": "Riverview to McMahons Point via North Sydney",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          },
+          "iconId": 5
+        },
+        {
+          "id": "nsw:17254: :H:",
+          "destination": {
+            "name": "Ross Smith Pde after Matthews Ave, Lane Cove",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 254",
+          "number": "254",
+          "description": "McMahons Point to Riverview via North Sydney",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          },
+          "iconId": 5
+        },
+        {
+          "id": "nsw:17291: :H:",
+          "destination": {
+            "name": "Epping Station, Epping",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 291",
+          "number": "291",
+          "description": "McMahons Point to Epping via North Sydney",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          },
+          "iconId": 5
+        },
+        {
+          "id": "nsw:17291: :R:",
+          "destination": {
+            "name": "McMahons Point Wharf, McMahons Point",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 291",
+          "number": "291",
+          "description": "Epping to McMahons Point via North Sydney",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          },
+          "iconId": 5
+        }
+      ],
+      "stops": [
+        {
+          "id": "206044",
+          "isGlobalId": true,
+          "name": "Victoria Cross Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343010:1",
+            "name": "North Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101512"
+          }
+        }
+      ]
+    },
+    "urlText": "North Sydney bus diversions for Spring Cycle",
+    "url": "https://transportnsw.info/alerts/details#/ems-59612",
+    "content": "<div>\n<div><strong>On Sunday 12 October</strong>, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.</div>\n<div>&nbsp;</div>\n<div><strong>From 4am to 10:30am</strong>, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney.</div>\n<div>&nbsp;</div>\n<div>Please allow extra travel time and check signs at bus stops for alternative stop locations. Visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/10/spring-cycle\">Spring Cycle 2025</a>&nbsp;for more transport details.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Victoria Cross Station, Miller Street, Stand F, North Sydney (Stop ID 206085)</li>\n<li>Victoria Cross, Miller Street, North Sydney (Stop ID 206013)</li>\n</ul>\n</div>",
+    "subtitle": "North Sydney bus diversions for Spring Cycle"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-60025",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-10-06T19:56:00Z",
+      "lastModification": "2025-10-06T19:56:00Z",
+      "availability": {
+        "from": "2025-09-29T22:46:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-10T21:20:00Z",
+          "from": "2025-10-06T19:56:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-11-18T01:10:59Z"
+      "expiration": "2504-11-13T23:47:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-60258",
-        "content": "At Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8489.",
-        "subtitle": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
-        "smsText": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
-        "speechText": "At Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8489."
+        "urlText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-60025",
+        "content": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421.",
+        "subtitle": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "smsText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421."
       }
     ],
     "properties": {
@@ -103,22 +251,22 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7a693600-1c73-595c-ba8a-e58133c91819",
+      "messageRef": "638915d8-3686-52aa-9a61-bc3d416c36af",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213010",
+      "stopIDglobalID": "213810:213810,213882,213883",
       "providerCode": "TfNSW",
-      "smsText": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
-      "speechText": "At Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8489."
+      "smsText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421."
     },
     "affected": {
       "stops": [
         {
-          "id": "213010",
+          "id": "213810",
           "isGlobalId": true,
-          "name": "Summer Hill Station",
+          "name": "Concord West Station",
           "type": "stop",
           "properties": {
-            "stopId": "10101210"
+            "stopId": "10101204"
           }
         }
       ],
@@ -126,10 +274,10 @@
         {}
       ]
     },
-    "urlText": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-60258",
-    "content": "At Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8489.",
-    "subtitle": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available"
+    "urlText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-60025",
+    "content": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421.",
+    "subtitle": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available"
   },
   {
     "type": "infrastructure",
@@ -199,71 +347,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-59959",
-    "version": 144487,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-10-05T05:44:00Z",
-      "lastModification": "2025-10-06T21:52:00Z",
-      "availability": {
-        "from": "2025-10-05T05:36:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-05T05:36:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
-        "url": "https://transportnsw.info/alerts/details#/ems-59959",
-        "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is temporarily out of service.\n\n\n<br/><div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to or use the lift opposite on Parramatta Road.</li>\n</ul>\n<div>For your safety, do not use if the doors open</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>\n<ul>\n<li>Use the Help Point if on the platform or call 131 500</li>\n</ul>\n<div>&nbsp;</div>\n</div>",
-        "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
-        "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
-        "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is temporarily out of service.\n\n\n\n\nThe lift number 2 at Taverners Hill light rail stop on the L1 Dulwich Hill Line is temporarily out of service until further notice.   For your safety, do not use if the doors open. Alternative access use the stairs if able to or use the lift opposite on Parramatta Road. For urgent assistance: Use the Help Point if on the platform or call 131 500"
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "b1233ea0-df28-5f9c-8f99-1fcfbfe215fe",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204093",
-      "providerCode": "TfNSW",
-      "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
-      "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is temporarily out of service.\n\n\n\n\nThe lift number 2 at Taverners Hill light rail stop on the L1 Dulwich Hill Line is temporarily out of service until further notice.   For your safety, do not use if the doors open. Alternative access use the stairs if able to or use the lift opposite on Parramatta Road. For urgent assistance: Use the Help Point if on the platform or call 131 500"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "204093",
-          "isGlobalId": true,
-          "name": "Taverners Hill Light Rail",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101626"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
-    "url": "https://transportnsw.info/alerts/details#/ems-59959",
-    "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is temporarily out of service.\n\n\n<br/><div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to or use the lift opposite on Parramatta Road.</li>\n</ul>\n<div>For your safety, do not use if the doors open</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>\n<ul>\n<li>Use the Help Point if on the platform or call 131 500</li>\n</ul>\n<div>&nbsp;</div>\n</div>",
-    "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-57935",
     "version": 374109,
     "priority": "low",
@@ -327,72 +410,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-57935",
     "content": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500.",
     "subtitle": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-59986",
-    "version": 85487,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-10-05T21:43:00Z",
-      "lastModification": "2025-10-06T21:28:00Z",
-      "availability": {
-        "from": "2025-10-05T21:43:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-05T21:43:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-11-13T10:33:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-59986",
-        "content": "At Doonside Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7218.",
-        "subtitle": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
-        "smsText": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
-        "speechText": "At Doonside Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7218."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "351aadd9-80cc-5d8b-af2c-dc88c39dcc26",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "276710:2767123,2767124",
-      "providerCode": "TfNSW",
-      "smsText": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
-      "speechText": "At Doonside Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7218."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "276710",
-          "isGlobalId": true,
-          "name": "Doonside Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101246"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-59986",
-    "content": "At Doonside Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7218.",
-    "subtitle": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available"
   },
   {
     "type": "lineInfo",
@@ -486,34 +503,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-60025",
-    "version": 2,
+    "id": "ems-60258",
+    "version": 6,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-10-06T19:56:00Z",
-      "lastModification": "2025-10-06T19:56:00Z",
+      "creation": "2025-10-10T21:20:00Z",
+      "lastModification": "2025-10-10T21:20:00Z",
       "availability": {
-        "from": "2025-09-29T22:46:00Z",
+        "from": "2025-10-04T00:09:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-06T19:56:00Z",
+          "from": "2025-10-10T21:20:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-11-13T23:47:59Z"
+      "expiration": "2504-11-18T01:10:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-60025",
-        "content": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421.",
-        "subtitle": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "smsText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "speechText": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421."
+        "urlText": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-60258",
+        "content": "At Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8489.",
+        "subtitle": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
+        "smsText": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
+        "speechText": "At Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8489."
       }
     ],
     "properties": {
@@ -522,22 +539,22 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "638915d8-3686-52aa-9a61-bc3d416c36af",
+      "messageRef": "7a693600-1c73-595c-ba8a-e58133c91819",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213810:213810,213882,213883",
+      "stopIDglobalID": "213010",
       "providerCode": "TfNSW",
-      "smsText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-      "speechText": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421."
+      "smsText": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
+      "speechText": "At Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8489."
     },
     "affected": {
       "stops": [
         {
-          "id": "213810",
+          "id": "213010",
           "isGlobalId": true,
-          "name": "Concord West Station",
+          "name": "Summer Hill Station",
           "type": "stop",
           "properties": {
-            "stopId": "10101204"
+            "stopId": "10101210"
           }
         }
       ],
@@ -545,41 +562,41 @@
         {}
       ]
     },
-    "urlText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-60025",
-    "content": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421.",
-    "subtitle": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available"
+    "urlText": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-60258",
+    "content": "At Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8489.",
+    "subtitle": "Summer Hill Station Lift 3 between the pedestrian tunnel and Grosvenor Cres is not available"
   },
   {
     "type": "infrastructure",
-    "id": "ems-59700",
-    "version": 2,
+    "id": "ems-59986",
+    "version": 85487,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-09-30T02:18:00Z",
-      "lastModification": "2025-09-30T02:18:00Z",
+      "creation": "2025-10-05T21:43:00Z",
+      "lastModification": "2025-10-06T21:28:00Z",
       "availability": {
-        "from": "2025-09-23T04:08:00Z",
+        "from": "2025-10-05T21:43:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-09-30T01:18:00Z",
+          "from": "2025-10-05T21:43:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-11-07T06:09:59Z"
+      "expiration": "2504-11-13T10:33:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-59700",
-        "content": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260.",
-        "subtitle": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
-        "smsText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
-        "speechText": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260."
+        "urlText": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-59986",
+        "content": "At Doonside Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7218.",
+        "subtitle": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
+        "smsText": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
+        "speechText": "At Doonside Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7218."
       }
     ],
     "properties": {
@@ -588,22 +605,22 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5848258b-d022-50b8-b844-1ff21157d6fb",
+      "messageRef": "351aadd9-80cc-5d8b-af2c-dc88c39dcc26",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "225040",
+      "stopIDglobalID": "276710:2767123,2767124",
       "providerCode": "TfNSW",
-      "smsText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
-      "speechText": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260."
+      "smsText": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
+      "speechText": "At Doonside Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7218."
     },
     "affected": {
       "stops": [
         {
-          "id": "225040",
+          "id": "276710",
           "isGlobalId": true,
-          "name": "Gosford Station",
+          "name": "Doonside Station",
           "type": "stop",
           "properties": {
-            "stopId": "10101139"
+            "stopId": "10101246"
           }
         }
       ],
@@ -611,10 +628,75 @@
         {}
       ]
     },
-    "urlText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-59700",
-    "content": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260.",
-    "subtitle": "Gosford Station Lift 4 between the concourse and Burns Cres is not available"
+    "urlText": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-59986",
+    "content": "At Doonside Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7218.",
+    "subtitle": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-59959",
+    "version": 144487,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-10-05T05:44:00Z",
+      "lastModification": "2025-10-06T21:52:00Z",
+      "availability": {
+        "from": "2025-10-05T05:36:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-05T05:36:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
+        "url": "https://transportnsw.info/alerts/details#/ems-59959",
+        "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is temporarily out of service.\n\n\n<br/><div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to or use the lift opposite on Parramatta Road.</li>\n</ul>\n<div>For your safety, do not use if the doors open</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>\n<ul>\n<li>Use the Help Point if on the platform or call 131 500</li>\n</ul>\n<div>&nbsp;</div>\n</div>",
+        "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
+        "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
+        "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is temporarily out of service.\n\n\n\n\nThe lift number 2 at Taverners Hill light rail stop on the L1 Dulwich Hill Line is temporarily out of service until further notice.   For your safety, do not use if the doors open. Alternative access use the stairs if able to or use the lift opposite on Parramatta Road. For urgent assistance: Use the Help Point if on the platform or call 131 500"
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "b1233ea0-df28-5f9c-8f99-1fcfbfe215fe",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "204093",
+      "providerCode": "TfNSW",
+      "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
+      "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is temporarily out of service.\n\n\n\n\nThe lift number 2 at Taverners Hill light rail stop on the L1 Dulwich Hill Line is temporarily out of service until further notice.   For your safety, do not use if the doors open. Alternative access use the stairs if able to or use the lift opposite on Parramatta Road. For urgent assistance: Use the Help Point if on the platform or call 131 500"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "204093",
+          "isGlobalId": true,
+          "name": "Taverners Hill Light Rail",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101626"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service",
+    "url": "https://transportnsw.info/alerts/details#/ems-59959",
+    "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is temporarily out of service.\n\n\n<br/><div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to or use the lift opposite on Parramatta Road.</li>\n</ul>\n<div>For your safety, do not use if the doors open</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>\n<ul>\n<li>Use the Help Point if on the platform or call 131 500</li>\n</ul>\n<div>&nbsp;</div>\n</div>",
+    "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) an the footbridge is not available\n\nL1 Taverners Hill lift #2 out of service"
   },
   {
     "type": "lineInfo",
@@ -877,152 +959,70 @@
     "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
   },
   {
-    "type": "stopInfo",
-    "id": "ems-59612",
-    "version": 3,
+    "type": "infrastructure",
+    "id": "ems-59700",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-09-28T23:49:00Z",
-      "lastModification": "2025-09-28T23:49:00Z",
+      "creation": "2025-09-30T02:18:00Z",
+      "lastModification": "2025-09-30T02:18:00Z",
       "availability": {
-        "from": "2025-09-28T18:00:00Z",
-        "to": "2025-10-11T23:00:00Z"
+        "from": "2025-09-23T04:08:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-11T17:00:00Z",
-          "to": "2025-10-11T23:00:00Z"
+          "from": "2025-09-30T01:18:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2025-10-11T23:00:59Z"
+      "expiration": "2504-11-07T06:09:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "North Sydney bus diversions for Spring Cycle",
-        "url": "https://transportnsw.info/alerts/details#/ems-59612",
-        "content": "<div>\n<div><strong>On Sunday 12 October</strong>, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.</div>\n<div>&nbsp;</div>\n<div><strong>From 4am to 10:30am</strong>, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney.</div>\n<div>&nbsp;</div>\n<div>Please allow extra travel time and check signs at bus stops for alternative stop locations. Visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/10/spring-cycle\">Spring Cycle 2025</a>&nbsp;for more transport details.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Victoria Cross Station, Miller Street, Stand F, North Sydney (Stop ID 206085)</li>\n<li>Victoria Cross, Miller Street, North Sydney (Stop ID 206013)</li>\n</ul>\n</div>",
-        "subtitle": "North Sydney bus diversions for Spring Cycle",
-        "smsText": "North Sydney bus diversions for Spring Cycle",
-        "speechText": "On Sunday 12 October, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.\n \nFrom 4am to 10:30am, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney."
+        "urlText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-59700",
+        "content": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260.",
+        "subtitle": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+        "smsText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+        "speechText": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "59ccad2b-9f80-5faa-b933-077bd2dd56d1",
+      "messageRef": "5848258b-d022-50b8-b844-1ff21157d6fb",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206044",
+      "stopIDglobalID": "225040",
       "providerCode": "TfNSW",
-      "smsText": "North Sydney bus diversions for Spring Cycle",
-      "speechText": "On Sunday 12 October, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.\n \nFrom 4am to 10:30am, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney."
+      "smsText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+      "speechText": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260."
     },
     "affected": {
-      "lines": [
-        {
-          "id": "nsw:17254: :R:",
-          "destination": {
-            "name": "McMahons Point Wharf, McMahons Point",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 254",
-          "number": "254",
-          "description": "Riverview to McMahons Point via North Sydney",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          },
-          "iconId": 5
-        },
-        {
-          "id": "nsw:17254: :H:",
-          "destination": {
-            "name": "Ross Smith Pde after Matthews Ave, Lane Cove",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 254",
-          "number": "254",
-          "description": "McMahons Point to Riverview via North Sydney",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          },
-          "iconId": 5
-        },
-        {
-          "id": "nsw:17291: :H:",
-          "destination": {
-            "name": "Epping Station, Epping",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 291",
-          "number": "291",
-          "description": "McMahons Point to Epping via North Sydney",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          },
-          "iconId": 5
-        },
-        {
-          "id": "nsw:17291: :R:",
-          "destination": {
-            "name": "McMahons Point Wharf, McMahons Point",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 291",
-          "number": "291",
-          "description": "Epping to McMahons Point via North Sydney",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          },
-          "iconId": 5
-        }
-      ],
       "stops": [
         {
-          "id": "206044",
+          "id": "225040",
           "isGlobalId": true,
-          "name": "Victoria Cross Station",
+          "name": "Gosford Station",
           "type": "stop",
-          "parent": {
-            "id": "placeID:95343010:1",
-            "name": "North Sydney",
-            "type": "locality"
-          },
           "properties": {
-            "stopId": "10101512"
+            "stopId": "10101139"
           }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": "North Sydney bus diversions for Spring Cycle",
-    "url": "https://transportnsw.info/alerts/details#/ems-59612",
-    "content": "<div>\n<div><strong>On Sunday 12 October</strong>, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.</div>\n<div>&nbsp;</div>\n<div><strong>From 4am to 10:30am</strong>, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney.</div>\n<div>&nbsp;</div>\n<div>Please allow extra travel time and check signs at bus stops for alternative stop locations. Visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/10/spring-cycle\">Spring Cycle 2025</a>&nbsp;for more transport details.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Victoria Cross Station, Miller Street, Stand F, North Sydney (Stop ID 206085)</li>\n<li>Victoria Cross, Miller Street, North Sydney (Stop ID 206013)</li>\n</ul>\n</div>",
-    "subtitle": "North Sydney bus diversions for Spring Cycle"
+    "urlText": "Gosford Station Lift 4 between the concourse and Burns Cres is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-59700",
+    "content": "At Gosford Station Lift 4 between the concourse and Burns Cres is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9260.",
+    "subtitle": "Gosford Station Lift 4 between the concourse and Burns Cres is not available"
   },
   {
     "type": "infrastructure",
@@ -1092,72 +1092,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-60191",
-    "version": 6,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-10-09T19:20:00Z",
-      "lastModification": "2025-10-09T19:20:00Z",
-      "availability": {
-        "from": "2025-10-02T22:10:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-09T19:20:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-11-16T23:31:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-60191",
-        "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
-        "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-        "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-        "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "cfa6b6ad-50e7-59df-bf48-b736b5adda81",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "275030:2750502",
-      "providerCode": "TfNSW",
-      "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-      "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "275030",
-          "isGlobalId": true,
-          "name": "Lapstone Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101254"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-60191",
-    "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
-    "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-59527",
     "version": 3,
     "priority": "low",
@@ -1221,5 +1155,71 @@
     "url": "https://transportnsw.info/alerts/details#/ems-59527",
     "content": "At Engadine Station Lift 3 between Railway Pde and the pedestrian tunnel is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1224.",
     "subtitle": "Engadine Station Lift 3 between Railway Pde and the pedestrian tunnel is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-60191",
+    "version": 6,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-10-09T19:20:00Z",
+      "lastModification": "2025-10-09T19:20:00Z",
+      "availability": {
+        "from": "2025-10-02T22:10:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-09T19:20:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-11-16T23:31:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-60191",
+        "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
+        "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+        "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+        "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "cfa6b6ad-50e7-59df-bf48-b736b5adda81",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "275030:2750502",
+      "providerCode": "TfNSW",
+      "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+      "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "275030",
+          "isGlobalId": true,
+          "name": "Lapstone Station",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101254"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-60191",
+    "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
+    "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available"
   }
 ]
