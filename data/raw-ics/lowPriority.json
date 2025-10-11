@@ -66,35 +66,183 @@
     "subtitle": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-60261",
-    "version": 35,
+    "type": "stopInfo",
+    "id": "ems-59612",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-10-11T00:39:00Z",
-      "lastModification": "2025-10-11T00:39:00Z",
+      "creation": "2025-09-28T23:49:00Z",
+      "lastModification": "2025-09-28T23:49:00Z",
       "availability": {
-        "from": "2025-10-04T03:29:00Z",
+        "from": "2025-09-28T18:00:00Z",
+        "to": "2025-10-11T23:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-11T17:00:00Z",
+          "to": "2025-10-11T23:00:00Z"
+        }
+      ],
+      "expiration": "2025-10-11T23:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "North Sydney bus diversions for Spring Cycle",
+        "url": "https://transportnsw.info/alerts/details#/ems-59612",
+        "content": "<div>\n<div><strong>On Sunday 12 October</strong>, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.</div>\n<div>&nbsp;</div>\n<div><strong>From 4am to 10:30am</strong>, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney.</div>\n<div>&nbsp;</div>\n<div>Please allow extra travel time and check signs at bus stops for alternative stop locations. Visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/10/spring-cycle\">Spring Cycle 2025</a>&nbsp;for more transport details.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Victoria Cross Station, Miller Street, Stand F, North Sydney (Stop ID 206085)</li>\n<li>Victoria Cross, Miller Street, North Sydney (Stop ID 206013)</li>\n</ul>\n</div>",
+        "subtitle": "North Sydney bus diversions for Spring Cycle",
+        "smsText": "North Sydney bus diversions for Spring Cycle",
+        "speechText": "On Sunday 12 October, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.\n \nFrom 4am to 10:30am, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "59ccad2b-9f80-5faa-b933-077bd2dd56d1",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "206044",
+      "providerCode": "TfNSW",
+      "smsText": "North Sydney bus diversions for Spring Cycle",
+      "speechText": "On Sunday 12 October, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.\n \nFrom 4am to 10:30am, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:17254: :R:",
+          "destination": {
+            "name": "McMahons Point Wharf, McMahons Point",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 254",
+          "number": "254",
+          "description": "Riverview to McMahons Point via North Sydney",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          },
+          "iconId": 5
+        },
+        {
+          "id": "nsw:17254: :H:",
+          "destination": {
+            "name": "Ross Smith Pde after Matthews Ave, Lane Cove",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 254",
+          "number": "254",
+          "description": "McMahons Point to Riverview via North Sydney",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          },
+          "iconId": 5
+        },
+        {
+          "id": "nsw:17291: :H:",
+          "destination": {
+            "name": "Epping Station, Epping",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 291",
+          "number": "291",
+          "description": "McMahons Point to Epping via North Sydney",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          },
+          "iconId": 5
+        },
+        {
+          "id": "nsw:17291: :R:",
+          "destination": {
+            "name": "McMahons Point Wharf, McMahons Point",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 291",
+          "number": "291",
+          "description": "Epping to McMahons Point via North Sydney",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2507",
+            "name": "Busways North West"
+          },
+          "iconId": 5
+        }
+      ],
+      "stops": [
+        {
+          "id": "206044",
+          "isGlobalId": true,
+          "name": "Victoria Cross Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343010:1",
+            "name": "North Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101512"
+          }
+        }
+      ]
+    },
+    "urlText": "North Sydney bus diversions for Spring Cycle",
+    "url": "https://transportnsw.info/alerts/details#/ems-59612",
+    "content": "<div>\n<div><strong>On Sunday 12 October</strong>, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.</div>\n<div>&nbsp;</div>\n<div><strong>From 4am to 10:30am</strong>, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney.</div>\n<div>&nbsp;</div>\n<div>Please allow extra travel time and check signs at bus stops for alternative stop locations. Visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/10/spring-cycle\">Spring Cycle 2025</a>&nbsp;for more transport details.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Victoria Cross Station, Miller Street, Stand F, North Sydney (Stop ID 206085)</li>\n<li>Victoria Cross, Miller Street, North Sydney (Stop ID 206013)</li>\n</ul>\n</div>",
+    "subtitle": "North Sydney bus diversions for Spring Cycle"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-60191",
+    "version": 6,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-10-09T19:20:00Z",
+      "lastModification": "2025-10-09T19:20:00Z",
+      "availability": {
+        "from": "2025-10-02T22:10:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-11T00:39:00Z",
+          "from": "2025-10-09T19:20:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-11-18T04:50:59Z"
+      "expiration": "2504-11-16T23:31:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-60261",
-        "content": "At Bankstown Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7160.",
-        "subtitle": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
-        "smsText": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
-        "speechText": "At Bankstown Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7160."
+        "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-60191",
+        "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
+        "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+        "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+        "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813."
       }
     ],
     "properties": {
@@ -103,22 +251,22 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "dda6ab5e-8ba2-5613-815c-05945703002f",
+      "messageRef": "cfa6b6ad-50e7-59df-bf48-b736b5adda81",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "220010:2200501,2200502",
+      "stopIDglobalID": "275030:2750502",
       "providerCode": "TfNSW",
-      "smsText": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Bankstown Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7160."
+      "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+      "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813."
     },
     "affected": {
       "stops": [
         {
-          "id": "220010",
+          "id": "275030",
           "isGlobalId": true,
-          "name": "Bankstown Station",
+          "name": "Lapstone Station",
           "type": "stop",
           "properties": {
-            "stopId": "10101401"
+            "stopId": "10101254"
           }
         }
       ],
@@ -126,10 +274,76 @@
         {}
       ]
     },
-    "urlText": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-60261",
-    "content": "At Bankstown Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7160.",
-    "subtitle": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available"
+    "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-60191",
+    "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
+    "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-57935",
+    "version": 374109,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-08-27T23:49:00Z",
+      "lastModification": "2025-09-01T07:44:00Z",
+      "availability": {
+        "from": "2025-08-18T19:59:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-08-27T23:49:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-57935",
+        "content": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500.",
+        "subtitle": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
+        "smsText": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
+        "speechText": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "cffa090a-e42d-5d07-a3b5-675534d0be0e",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200948:200939",
+      "providerCode": "TfNSW",
+      "smsText": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
+      "speechText": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200948",
+          "isGlobalId": true,
+          "name": "John Street Square Light Rail",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101636"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-57935",
+    "content": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500.",
+    "subtitle": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available"
   },
   {
     "type": "infrastructure",
@@ -330,6 +544,72 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-60261",
+    "version": 35,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-10-11T00:39:00Z",
+      "lastModification": "2025-10-11T00:39:00Z",
+      "availability": {
+        "from": "2025-10-04T03:29:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-11T00:39:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-11-18T04:50:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-60261",
+        "content": "At Bankstown Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7160.",
+        "subtitle": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "smsText": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Bankstown Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7160."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "dda6ab5e-8ba2-5613-815c-05945703002f",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "220010:2200501,2200502",
+      "providerCode": "TfNSW",
+      "smsText": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Bankstown Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7160."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "220010",
+          "isGlobalId": true,
+          "name": "Bankstown Station",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101401"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-60261",
+    "content": "At Bankstown Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7160.",
+    "subtitle": "Bankstown Station Lift 1 between the concourse and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-59986",
     "version": 85487,
     "priority": "low",
@@ -395,153 +675,21 @@
     "subtitle": "Doonside Station Lift 3 between the footbridge and Platform 3/4 is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-57935",
-    "version": 374109,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-08-27T23:49:00Z",
-      "lastModification": "2025-09-01T07:44:00Z",
-      "availability": {
-        "from": "2025-08-18T19:59:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-08-27T23:49:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-57935",
-        "content": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500.",
-        "subtitle": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
-        "smsText": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
-        "speechText": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "cffa090a-e42d-5d07-a3b5-675534d0be0e",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200948:200939",
-      "providerCode": "TfNSW",
-      "smsText": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
-      "speechText": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200948",
-          "isGlobalId": true,
-          "name": "John Street Square Light Rail",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101636"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-57935",
-    "content": "At John Street Square Light Rail Lift between Harvey St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if the doors open.\n\nAlternative access:\n•                     Use the stairs if able to,\n•                     Or use the opposite accessible entry/exit pathway via Jack Shanahan Park.\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•\tOr call 131 500\n\nIf you need help, ask staff or phone 131 500.",
-    "subtitle": "John Street Square Light Rail Lift between Harvey St and the Light Rail stop is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-60191",
-    "version": 6,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-10-09T19:20:00Z",
-      "lastModification": "2025-10-09T19:20:00Z",
-      "availability": {
-        "from": "2025-10-02T22:10:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-09T19:20:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-11-16T23:31:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-60191",
-        "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
-        "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-        "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-        "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "cfa6b6ad-50e7-59df-bf48-b736b5adda81",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "275030:2750502",
-      "providerCode": "TfNSW",
-      "smsText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-      "speechText": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "275030",
-          "isGlobalId": true,
-          "name": "Lapstone Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101254"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-60191",
-    "content": "At Lapstone Station Lift 1 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3813.",
-    "subtitle": "Lapstone Station Lift 1 between the footbridge and Platform 2 is not available"
-  },
-  {
     "type": "lineInfo",
-    "id": "ems-181",
-    "version": 38596556,
+    "id": "ems-159",
+    "version": 19017138,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T05:32:00Z",
-      "lastModification": "2023-02-08T22:48:00Z",
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
       "availability": {
-        "from": "2021-11-19T05:00:00Z",
+        "from": "2021-11-19T03:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T05:00:00Z",
+          "from": "2021-11-19T03:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
@@ -550,11 +698,11 @@
     },
     "infoLinks": [
       {
-        "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-        "url": "https://transportnsw.info/alerts/details#/ems-181",
-        "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
-        "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-        "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
       }
     ],
     "properties": {
@@ -562,99 +710,59 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f9d26fc0-ddd6-5885-a6fb-4b4f91d8c21c",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:08MCS: :R:",
+          "id": "nsw:04WAG:E:R:",
           "destination": {
-            "name": "Jolimont Centre, Canberra City (ACT)",
+            "name": "Palm Beach Wharf, Palm Beach",
             "type": "stop"
           },
-          "name": "Private coach services MCS",
-          "number": "MCS",
-          "description": "South Coast to Canberra",
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
           "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
+            "id": 12,
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
           },
-          "iconId": 17
+          "iconId": 12
         },
         {
-          "id": "nsw:08MCS: :H:",
+          "id": "nsw:04PLM:B:R:",
           "destination": {
-            "name": "Narooma Plaza, Princes Hwy, Narooma",
+            "name": "Palm Beach Wharf, Palm Beach",
             "type": "stop"
           },
-          "name": "Private coach services MCS",
-          "number": "MCS",
-          "description": "Canberra to South Coast",
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
           "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
+            "id": 12,
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
           },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08855: :H:",
-          "destination": {
-            "name": "Jolimont Centre, Canberra City (ACT)",
-            "type": "stop"
-          },
-          "name": "Private coach services 855",
-          "number": "855",
-          "description": "Wollongong to Canberra",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08855: :R:",
-          "destination": {
-            "name": "Wollongong Station",
-            "type": "stop"
-          },
-          "name": "Private coach services 855",
-          "number": "855",
-          "description": "Canberra to Wollongong",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
+          "iconId": 12
         }
       ]
     },
-    "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-    "url": "https://transportnsw.info/alerts/details#/ems-181",
-    "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
-    "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
     "type": "infrastructure",
@@ -854,20 +962,20 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
+    "id": "ems-181",
+    "version": 38596556,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
+      "creation": "2021-11-19T05:32:00Z",
+      "lastModification": "2023-02-08T22:48:00Z",
       "availability": {
-        "from": "2021-11-19T03:00:00Z",
+        "from": "2021-11-19T05:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T03:00:00Z",
+          "from": "2021-11-19T05:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
@@ -876,11 +984,11 @@
     },
     "infoLinks": [
       {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+        "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+        "url": "https://transportnsw.info/alerts/details#/ems-181",
+        "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
+        "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+        "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
       }
     ],
     "properties": {
@@ -888,207 +996,99 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "messageRef": "f9d26fc0-ddd6-5885-a6fb-4b4f91d8c21c",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:04WAG:E:R:",
+          "id": "nsw:08MCS: :R:",
           "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
+            "name": "Jolimont Centre, Canberra City (ACT)",
             "type": "stop"
           },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "name": "Private coach services MCS",
+          "number": "MCS",
+          "description": "South Coast to Canberra",
           "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
+            "id": 17,
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
+            "id": "B079",
+            "name": "Murrays Coaches"
           },
-          "iconId": 12
+          "iconId": 17
         },
         {
-          "id": "nsw:04PLM:B:R:",
+          "id": "nsw:08MCS: :H:",
           "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
+            "name": "Narooma Plaza, Princes Hwy, Narooma",
             "type": "stop"
           },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "name": "Private coach services MCS",
+          "number": "MCS",
+          "description": "Canberra to South Coast",
           "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
+            "id": 17,
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
+            "id": "B079",
+            "name": "Murrays Coaches"
           },
-          "iconId": 12
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08855: :H:",
+          "destination": {
+            "name": "Jolimont Centre, Canberra City (ACT)",
+            "type": "stop"
+          },
+          "name": "Private coach services 855",
+          "number": "855",
+          "description": "Wollongong to Canberra",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08855: :R:",
+          "destination": {
+            "name": "Wollongong Station",
+            "type": "stop"
+          },
+          "name": "Private coach services 855",
+          "number": "855",
+          "description": "Canberra to Wollongong",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
         }
       ]
     },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-  },
-  {
-    "type": "stopInfo",
-    "id": "ems-59612",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-09-28T23:49:00Z",
-      "lastModification": "2025-09-28T23:49:00Z",
-      "availability": {
-        "from": "2025-09-28T18:00:00Z",
-        "to": "2025-10-11T23:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-11T17:00:00Z",
-          "to": "2025-10-11T23:00:00Z"
-        }
-      ],
-      "expiration": "2025-10-11T23:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "North Sydney bus diversions for Spring Cycle",
-        "url": "https://transportnsw.info/alerts/details#/ems-59612",
-        "content": "<div>\n<div><strong>On Sunday 12 October</strong>, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.</div>\n<div>&nbsp;</div>\n<div><strong>From 4am to 10:30am</strong>, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney.</div>\n<div>&nbsp;</div>\n<div>Please allow extra travel time and check signs at bus stops for alternative stop locations. Visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/10/spring-cycle\">Spring Cycle 2025</a>&nbsp;for more transport details.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Victoria Cross Station, Miller Street, Stand F, North Sydney (Stop ID 206085)</li>\n<li>Victoria Cross, Miller Street, North Sydney (Stop ID 206013)</li>\n</ul>\n</div>",
-        "subtitle": "North Sydney bus diversions for Spring Cycle",
-        "smsText": "North Sydney bus diversions for Spring Cycle",
-        "speechText": "On Sunday 12 October, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.\n \nFrom 4am to 10:30am, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "59ccad2b-9f80-5faa-b933-077bd2dd56d1",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206044",
-      "providerCode": "TfNSW",
-      "smsText": "North Sydney bus diversions for Spring Cycle",
-      "speechText": "On Sunday 12 October, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.\n \nFrom 4am to 10:30am, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:17254: :R:",
-          "destination": {
-            "name": "McMahons Point Wharf, McMahons Point",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 254",
-          "number": "254",
-          "description": "Riverview to McMahons Point via North Sydney",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          },
-          "iconId": 5
-        },
-        {
-          "id": "nsw:17254: :H:",
-          "destination": {
-            "name": "Ross Smith Pde after Matthews Ave, Lane Cove",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 254",
-          "number": "254",
-          "description": "McMahons Point to Riverview via North Sydney",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          },
-          "iconId": 5
-        },
-        {
-          "id": "nsw:17291: :H:",
-          "destination": {
-            "name": "Epping Station, Epping",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 291",
-          "number": "291",
-          "description": "McMahons Point to Epping via North Sydney",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          },
-          "iconId": 5
-        },
-        {
-          "id": "nsw:17291: :R:",
-          "destination": {
-            "name": "McMahons Point Wharf, McMahons Point",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 291",
-          "number": "291",
-          "description": "Epping to McMahons Point via North Sydney",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2507",
-            "name": "Busways North West"
-          },
-          "iconId": 5
-        }
-      ],
-      "stops": [
-        {
-          "id": "206044",
-          "isGlobalId": true,
-          "name": "Victoria Cross Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343010:1",
-            "name": "North Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101512"
-          }
-        }
-      ]
-    },
-    "urlText": "North Sydney bus diversions for Spring Cycle",
-    "url": "https://transportnsw.info/alerts/details#/ems-59612",
-    "content": "<div>\n<div><strong>On Sunday 12 October</strong>, buses will be diverting while roads are closed in North Sydney and the Sydney CBD for the annual Spring Cycle event.</div>\n<div>&nbsp;</div>\n<div><strong>From 4am to 10:30am</strong>, buses towards McMahons Point will divert around a section of Miller Street via Pacific Highway. Buses towards Riverview and Epping will divert around a section of Miller Street via Blue Street and Pacific Highway, and will make an additional stop at Greenwood Plaza, Pacific Highway, North Sydney (Stop ID 206027). Some stops on Miller Street will be missed due to road closures in North Sydney.</div>\n<div>&nbsp;</div>\n<div>Please allow extra travel time and check signs at bus stops for alternative stop locations. Visit the&nbsp;<a href=\"https://transportnsw.info/events/2025/10/spring-cycle\">Spring Cycle 2025</a>&nbsp;for more transport details.</div>\n<div>&nbsp;</div>\n<div><strong>Missed stops</strong></div>\n<ul>\n<li>Victoria Cross Station, Miller Street, Stand F, North Sydney (Stop ID 206085)</li>\n<li>Victoria Cross, Miller Street, North Sydney (Stop ID 206013)</li>\n</ul>\n</div>",
-    "subtitle": "North Sydney bus diversions for Spring Cycle"
+    "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+    "url": "https://transportnsw.info/alerts/details#/ems-181",
+    "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
+    "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
   },
   {
     "type": "infrastructure",
@@ -1158,72 +1158,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-60259",
-    "version": 21,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-10-10T22:48:00Z",
-      "lastModification": "2025-10-10T22:49:00Z",
-      "availability": {
-        "from": "2025-01-22T10:08:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-07T23:48:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-11-15T15:18:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-60259",
-        "content": "At Wollstonecraft Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183.",
-        "subtitle": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
-        "smsText": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
-        "speechText": "At Wollstonecraft Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7277498e-fefc-59b1-8692-3e1d5275d89b",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206510:2065161",
-      "providerCode": "TfNSW",
-      "smsText": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
-      "speechText": "At Wollstonecraft Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "206510",
-          "isGlobalId": true,
-          "name": "Wollstonecraft Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101114"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-60259",
-    "content": "At Wollstonecraft Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183.",
-    "subtitle": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-59527",
     "version": 3,
     "priority": "low",
@@ -1287,5 +1221,71 @@
     "url": "https://transportnsw.info/alerts/details#/ems-59527",
     "content": "At Engadine Station Lift 3 between Railway Pde and the pedestrian tunnel is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1224.",
     "subtitle": "Engadine Station Lift 3 between Railway Pde and the pedestrian tunnel is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-60259",
+    "version": 21,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-10-10T22:48:00Z",
+      "lastModification": "2025-10-10T22:49:00Z",
+      "availability": {
+        "from": "2025-01-22T10:08:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-07T23:48:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-11-15T15:18:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-60259",
+        "content": "At Wollstonecraft Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183.",
+        "subtitle": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
+        "smsText": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
+        "speechText": "At Wollstonecraft Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "7277498e-fefc-59b1-8692-3e1d5275d89b",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "206510:2065161",
+      "providerCode": "TfNSW",
+      "smsText": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
+      "speechText": "At Wollstonecraft Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "206510",
+          "isGlobalId": true,
+          "name": "Wollstonecraft Station",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101114"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-60259",
+    "content": "At Wollstonecraft Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4183.",
+    "subtitle": "Wollstonecraft Station Lift 1 between the concourse and Platform 1 is not available"
   }
 ]
