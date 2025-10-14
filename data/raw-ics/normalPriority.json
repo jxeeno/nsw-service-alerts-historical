@@ -1296,32 +1296,34 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-60089",
+    "id": "ems-51995",
     "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-10-07T04:39:00Z",
-      "lastModification": "2025-10-07T04:39:00Z",
+      "creation": "2025-05-14T00:59:00Z",
+      "lastModification": "2025-05-14T00:59:00Z",
       "availability": {
-        "from": "2025-10-07T04:00:00Z",
-        "to": "2025-11-07T11:00:00Z"
+        "from": "2025-05-13T14:01:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-11-07T05:00:00Z",
-          "to": "2025-11-07T11:00:00Z"
+          "from": "2025-05-13T14:01:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2025-11-07T11:00:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Wollongong bus diversions",
-        "url": "https://transportnsw.info/alerts/details#/ems-60089",
-        "content": "<div>On Friday 7 November, from 4pm to 10pm, route 90 and 92 bus services will divert due to road closures for the Nitro Circus. <br /><br /><strong>Missed stops:</strong></div>\n<ul>\n<li>Burelli St at Harbour St In (Southbound) (Stop ID 250029)</li>\n<li>Burelli St opp Steelers Club (Stop ID 2500410)</li>\n</ul>",
-        "subtitle": "Wollongong bus diversions",
-        "smsText": "Wollongong bus diversions",
-        "speechText": "On Friday 7 November, from 4pm to 10pm, route 90 and 92 bus services will divert due to road closures for the Nitro Circus."
+        "urlText": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
+        "url": "https://transportnsw.info/alerts/details#/ems-51995",
+        "content": "<div><strong>From Monday 26 May</strong>, students travelling in the morning from the Rutherford and Aberglasslyn areas to Rutherford Technology High School are to use the <strong>2712</strong> service (operated by CDC NSW), instead of the S520 service (operated by Grace Coaches).</div>\n<div><br /><strong>What's changing:</strong></div>\n<ul>\n<li>There is a slight timetable difference between the <strong>S520</strong> and <strong>2712</strong>, so please check <a href=\"https://transportnsw.info/trip#/trip\">TripPlanner</a> to plan your journey. </li>\n<li>Students on the <strong>2712</strong> service by CDC NSW will need an Opal card. If you don&rsquo;t already have one, find out more about <a href=\"https://transportnsw.info/tickets-fares/eligibility-concessions/school-student-travel/apply-for-school-travel-pass-or-school\">how to apply for a pass</a>. </li>\n<li>The <strong>2712</strong> will drop students closer to Rutherford Technology High School than the S520 previously did &ndash; arriving at <strong>Alexandra Ave after Weblands St</strong> (<strong>232097</strong>) at 08:32. </li>\n<li>Afternoon travel is <strong>not affected</strong>.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> and <a href=\"https://transportnsw.info/routes/bus\">check timetables</a> before you travel.</li>\n</ul>",
+        "subtitle": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
+        "smsText": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
+        "speechText": "From Monday 26 May, students travelling in the morning from the Rutherford and Aberglasslyn areas to Rutherford Technology High School are to use the 2712 service operated by CDC NSW, instead of the S520 service operated by Grace Coaches.\nAfternoon travel is now affected."
       }
     ],
     "properties": {
@@ -1329,60 +1331,376 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "1ec9d7b0-e635-5573-b53e-53e5680b9a5c",
+      "messageRef": "53f7c05e-c392-56b9-b429-ab144f2ea086",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Wollongong bus diversions",
-      "speechText": "On Friday 7 November, from 4pm to 10pm, route 90 and 92 bus services will divert due to road closures for the Nitro Circus."
+      "smsText": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
+      "speechText": "From Monday 26 May, students travelling in the morning from the Rutherford and Aberglasslyn areas to Rutherford Technology High School are to use the 2712 service operated by CDC NSW, instead of the S520 service operated by Grace Coaches.\nAfternoon travel is now affected."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:70090: :H:",
+          "id": "nsw:54S52:0:H:",
           "destination": {
-            "name": "George St at Lawrence Hargrave Dr, Thirroul",
+            "name": "Aberglasslyn Rd before McKeachie Dr, Aberglasslyn",
             "type": "stop"
           },
-          "name": "Sydney Buses Network 90",
-          "number": "90",
-          "description": "Wollongong to Austinmer Station",
+          "name": "School buses S520",
+          "number": "S520",
+          "description": "St Pauls Rutherford & Rutherford PS to Aberglasslyn",
+          "product": {
+            "id": 8,
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "5066",
+            "name": "Grace Coaches"
+          },
+          "iconId": 8
+        },
+        {
+          "id": "nsw:54S52:0:R:",
+          "destination": {
+            "name": "St Paul's Primary School, Gillies St, Rutherford",
+            "type": "stop"
+          },
+          "name": "School buses S520",
+          "number": "S520",
+          "description": "Aberglasslyn to Rutherford PS & St Pauls Rutherford",
+          "product": {
+            "id": 8,
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "5066",
+            "name": "Grace Coaches"
+          },
+          "iconId": 8
+        },
+        {
+          "id": "nsw:46271:2:R:",
+          "destination": {
+            "name": "Maitland Public School, Olive St, Maitland",
+            "type": "stop"
+          },
+          "name": "School buses 2712",
+          "number": "2712",
+          "description": "Aberglasslyn Rd to Rutherford PS",
+          "product": {
+            "id": 8,
+            "class": 11,
+            "iconId": 11
+          },
+          "operator": {
+            "id": "2448",
+            "name": "Hunter Valley Buses"
+          },
+          "iconId": 8
+        }
+      ]
+    },
+    "urlText": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
+    "url": "https://transportnsw.info/alerts/details#/ems-51995",
+    "content": "<div><strong>From Monday 26 May</strong>, students travelling in the morning from the Rutherford and Aberglasslyn areas to Rutherford Technology High School are to use the <strong>2712</strong> service (operated by CDC NSW), instead of the S520 service (operated by Grace Coaches).</div>\n<div><br /><strong>What's changing:</strong></div>\n<ul>\n<li>There is a slight timetable difference between the <strong>S520</strong> and <strong>2712</strong>, so please check <a href=\"https://transportnsw.info/trip#/trip\">TripPlanner</a> to plan your journey. </li>\n<li>Students on the <strong>2712</strong> service by CDC NSW will need an Opal card. If you don&rsquo;t already have one, find out more about <a href=\"https://transportnsw.info/tickets-fares/eligibility-concessions/school-student-travel/apply-for-school-travel-pass-or-school\">how to apply for a pass</a>. </li>\n<li>The <strong>2712</strong> will drop students closer to Rutherford Technology High School than the S520 previously did &ndash; arriving at <strong>Alexandra Ave after Weblands St</strong> (<strong>232097</strong>) at 08:32. </li>\n<li>Afternoon travel is <strong>not affected</strong>.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> and <a href=\"https://transportnsw.info/routes/bus\">check timetables</a> before you travel.</li>\n</ul>",
+    "subtitle": "Change to Rutherford Technology High School bus services and pass requirements from 26 May"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-40918",
+    "version": 8625406,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-10-14T03:15:00Z",
+      "lastModification": "2025-01-21T23:12:00Z",
+      "availability": {
+        "from": "2024-10-13T15:00:00Z",
+        "to": "2027-05-07T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2024-11-04T15:00:00Z",
+          "to": "2027-05-07T16:00:00Z"
+        }
+      ],
+      "expiration": "2027-05-07T16:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Mamre Rd bus diversions",
+        "url": "https://transportnsw.info/alerts/details#/ems-40918",
+        "content": "<div>From Tuesday 5 November 2024 until Monday 8 May 2027 bus stop Erskine Park Rd after Mamre Rd (275911) will be closed. Please use nearby alternative stop Westpark Industrial Estate, Erskine Park Rd (2759194) for the 779 towards Kemps Creek</div>",
+        "subtitle": "Mamre Rd bus diversions",
+        "smsText": "Mamre Rd bus diversions",
+        "speechText": "From Tuesday 5 November 20 24 until Monday 8 May 20 27 bus stop Erskine Park Road after Mamre road will be closed. Please use nearby alternative stops."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "d2dd92d5-6fc6-5bfd-8cf2-b5d991a82d3f",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Mamre Rd bus diversions",
+      "speechText": "From Tuesday 5 November 20 24 until Monday 8 May 20 27 bus stop Erskine Park Road after Mamre road will be closed. Please use nearby alternative stops."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:11779: :R:",
+          "destination": {
+            "name": "Amazon, Emporium Ave, Kemps Creek",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 779",
+          "number": "779",
+          "description": "St Marys to Kemps Creek via Erskine Park",
           "product": {
             "id": 5,
             "class": 5,
             "iconId": 5
           },
           "operator": {
-            "id": "2458",
-            "name": "Dions Bus Service"
+            "id": "2501",
+            "name": "Busways R1"
           },
           "iconId": 5
-        },
-        {
-          "id": "nsw:70092: :H:",
-          "destination": {
-            "name": "Bulli Heritage Hotel, Princes Hwy, Bulli",
-            "type": "stop"
-          },
-          "name": "Illawarra Buses Network 92",
-          "number": "92",
-          "description": "Wollongong to Bulli",
-          "product": {
-            "id": 16,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2458",
-            "name": "Dions Bus Service"
-          },
-          "iconId": 16
         }
       ]
     },
-    "urlText": "Wollongong bus diversions",
-    "url": "https://transportnsw.info/alerts/details#/ems-60089",
-    "content": "<div>On Friday 7 November, from 4pm to 10pm, route 90 and 92 bus services will divert due to road closures for the Nitro Circus. <br /><br /><strong>Missed stops:</strong></div>\n<ul>\n<li>Burelli St at Harbour St In (Southbound) (Stop ID 250029)</li>\n<li>Burelli St opp Steelers Club (Stop ID 2500410)</li>\n</ul>",
-    "subtitle": "Wollongong bus diversions"
+    "urlText": "Mamre Rd bus diversions",
+    "url": "https://transportnsw.info/alerts/details#/ems-40918",
+    "content": "<div>From Tuesday 5 November 2024 until Monday 8 May 2027 bus stop Erskine Park Rd after Mamre Rd (275911) will be closed. Please use nearby alternative stop Westpark Industrial Estate, Erskine Park Rd (2759194) for the 779 towards Kemps Creek</div>",
+    "subtitle": "Mamre Rd bus diversions"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-60401",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-13T23:28:00Z",
+      "lastModification": "2025-10-13T23:28:00Z",
+      "availability": {
+        "from": "2025-10-13T23:00:00Z",
+        "to": "2025-10-28T14:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-27T10:15:00Z",
+          "to": "2025-10-27T14:30:00Z"
+        },
+        {
+          "from": "2025-10-28T10:15:00Z",
+          "to": "2025-10-28T14:30:00Z"
+        }
+      ],
+      "expiration": "2025-10-28T14:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
+        "url": "https://transportnsw.info/alerts/details#/ems-60401",
+        "content": "<div><strong>Monday 27 and Tuesday 28 October </strong></div>\n<ul>\n<li><strong>Nightly from 9.15pm to 1.30am</strong>, buses replace trains from Hornsby to Milsons Point.</li>\n<li>The last train from Hornsby to the City leaves Hornsby at 21:12, arriving Wynyard at 21:55.<br /><br /></li>\n<li><strong>Nightly from 9.50pm to 1.30am</strong>, buses replace trains from Milsons Point to Hornsby.</li>\n<li>The last train to Hornsby leaves Wynyard at 21:52, arriving Hornsby at 22:35.</li>\n<li>Replacement buses also stop at Crows Nest and Victoria Cross metro stations.</li>\n<li>Use metro services between Chatswood, Crows Nest or Victoria Cross and the City.</li>\n<li>T9 trains run between Berowra or Hornsby and Central, platforms 1-14.</li>\n<li>Some late-night buses run between T1 North Shore Line stations and Wynyard.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />97T1 Chatswood, all stations to Milsons Point (including Crows Nest and Victoria Cross metro stations) <br />and return (late-night services extend to Wynyard)<br />98T1 Hornsby, all stations to Chatswood and return</div>",
+        "subtitle": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
+        "smsText": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
+        "speechText": "Monday 27 and Tuesday 28 October \nNightly from 9:15PM to 1:30AM, buses replace trains from Hornsby to Milsons Point.\nThe last train from Hornsby to the City leaves Hornsby at 21:12, arriving Wynyard at 21:55.\nNightly from 9:50PM to 1:30AM, buses replace trains from Milsons Point to Hornsby."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "7a7786e5-64d2-5ca9-9c32-3e2ab89703aa",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
+      "speechText": "Monday 27 and Tuesday 28 October \nNightly from 9:15PM to 1:30AM, buses replace trains from Hornsby to Milsons Point.\nThe last train from Hornsby to the City leaves Hornsby at 21:12, arriving Wynyard at 21:55.\nNightly from 9:50PM to 1:30AM, buses replace trains from Milsons Point to Hornsby."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station, Berowra",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T1:N:R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Berowra to City via Gordon",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
+    "url": "https://transportnsw.info/alerts/details#/ems-60401",
+    "content": "<div><strong>Monday 27 and Tuesday 28 October </strong></div>\n<ul>\n<li><strong>Nightly from 9.15pm to 1.30am</strong>, buses replace trains from Hornsby to Milsons Point.</li>\n<li>The last train from Hornsby to the City leaves Hornsby at 21:12, arriving Wynyard at 21:55.<br /><br /></li>\n<li><strong>Nightly from 9.50pm to 1.30am</strong>, buses replace trains from Milsons Point to Hornsby.</li>\n<li>The last train to Hornsby leaves Wynyard at 21:52, arriving Hornsby at 22:35.</li>\n<li>Replacement buses also stop at Crows Nest and Victoria Cross metro stations.</li>\n<li>Use metro services between Chatswood, Crows Nest or Victoria Cross and the City.</li>\n<li>T9 trains run between Berowra or Hornsby and Central, platforms 1-14.</li>\n<li>Some late-night buses run between T1 North Shore Line stations and Wynyard.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />97T1 Chatswood, all stations to Milsons Point (including Crows Nest and Victoria Cross metro stations) <br />and return (late-night services extend to Wynyard)<br />98T1 Hornsby, all stations to Chatswood and return</div>",
+    "subtitle": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-59838",
+    "version": 65376,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-02T05:07:00Z",
+      "lastModification": "2025-10-02T23:17:00Z",
+      "availability": {
+        "from": "2025-10-02T23:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-18T13:01:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Service alert Blue Mountains",
+        "url": "https://transportnsw.info/alerts/details#/ems-59838",
+        "content": "<div><strong>From Sunday 19 October</strong>, some Wednesday services will run to a changed timetable. Please check indicator screens for departure times.</div>",
+        "subtitle": "Service alert Blue Mountains",
+        "smsText": "Service alert Blue Mountains",
+        "speechText": "From Sunday 19 October, some Wednesday services will run to a changed timetable. Please check indicator screens for departure times."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "09466415-aa50-51bd-8ae7-c7b4d07a6466",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Service alert Blue Mountains",
+      "speechText": "From Sunday 19 October, some Wednesday services will run to a changed timetable. Please check indicator screens for departure times."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station, Bathurst",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station, Bathurst",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Lithgow to Bathurst",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:02BMT: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:76BMT: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          },
+          "iconId": 2
+        }
+      ]
+    },
+    "urlText": "Service alert Blue Mountains",
+    "url": "https://transportnsw.info/alerts/details#/ems-59838",
+    "content": "<div><strong>From Sunday 19 October</strong>, some Wednesday services will run to a changed timetable. Please check indicator screens for departure times.</div>",
+    "subtitle": "Service alert Blue Mountains"
   },
   {
     "type": "lineInfo",
@@ -2047,6 +2365,96 @@
     "url": "https://transportnsw.info/alerts/details#/ems-57071",
     "content": "<div>Due to the cancellation of 45 Sydney to Broken Hill Xplorer service, additional coaches will travel between Dubbo and Broken Hill running to an amended timetable.</div>",
     "subtitle": "20th October 2025 - 45 Sydney to Broken Hill Xplorer service."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-60347",
+    "version": 89350,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-13T03:00:00Z",
+      "lastModification": "2025-10-14T03:49:00Z",
+      "availability": {
+        "from": "2025-10-13T22:00:00Z",
+        "to": "2025-11-07T14:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-31T18:00:00Z",
+          "to": "2025-11-07T14:00:00Z"
+        }
+      ],
+      "expiration": "2025-11-07T14:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "L1 Dulwich Hill Line partial closure due to maintenance",
+        "url": "https://transportnsw.info/alerts/details#/ems-60347",
+        "content": "<div>\n<div>From&nbsp;<strong>Saturday 1</strong> to <strong>Friday 7 November</strong>, L1 Dulwich Hill Line light rail services will not run between Central and Convention due to planned trackwork and maintenance works.</div>\n<div>&nbsp;</div>\n<div><strong>During this time:</strong></div>\n<ul>\n<li>L1 light rail services will continue to run between <strong>Convention</strong> and <strong>Dulwich Hill</strong>.</li>\n<li>Use alternative transport including regular bus services, L1 replacement bus services, or walking if able to, between <strong>Central Grand Concourse</strong> and <strong>Convention</strong>.</li>\n<li>Due to road closures, <strong>L1 replacement buses</strong> will <strong>only stop at Central Grand Concourse</strong>, <strong>Convention</strong> and <strong>The Star</strong>. There will be no replacement buses at the following stops: Capitol Square, Paddy&rsquo;s Markets, Exhibition Centre, Pyrmont Bay.</li>\n</ul>\n<div><strong>L1 light rail services</strong>&nbsp;will resume as normal from 5am on Saturday 8 November.</div>\n<div>&nbsp;</div>\n<div>See the&nbsp;<a href=\"http://transportnsw.info/news/2025/l1-dulwich-hill-line-partial-closure-due-to-maintenance%20\">news story</a>&nbsp;for more detailed service information.</div>\n<div>&nbsp;</div>\n<div>Allow extra travel time and use the&nbsp;<a href=\"https://transportnsw.info/trip#/trip\">Trip Planner</a> or check&nbsp;<a href=\"https://transportnsw.info/alerts/light-rail\">travel alerts</a>&nbsp;to see if your travel is affected.</div>\n<div>&nbsp;</div>\n</div>",
+        "subtitle": "L1 Dulwich Hill Line partial closure due to maintenance",
+        "smsText": "L1 Dulwich Hill Line partial closure due to maintenance",
+        "speechText": "From Saturday 1 to Friday 7 November, L1 Dulwich Hill Line light rail services will not run between Central and Convention due to planned trackwork and maintenance works.\n \nDuring this time:\nL1 light rail services will continue to run between Convention and Dulwich Hill.\nUse alternative transport including regular bus services, L1 replacement bus services, or walking if able to, between Central Grand Concourse and Convention.\nDue to road closures, L1 replacement buses will only stop at Central Grand Concourse, Convention and The Star. There will be no replacement buses at the following stops: Capitol Square, Paddy’s Markets, Exhibition Centre, Pyrmont Bay.\nL1 light rail services will resume as normal from 5am on Saturday 8 November."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "8545571b-913b-53ab-8a46-98e72fc5cabe",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "L1 Dulwich Hill Line partial closure due to maintenance",
+      "speechText": "From Saturday 1 to Friday 7 November, L1 Dulwich Hill Line light rail services will not run between Central and Convention due to planned trackwork and maintenance works.\n \nDuring this time:\nL1 light rail services will continue to run between Convention and Dulwich Hill.\nUse alternative transport including regular bus services, L1 replacement bus services, or walking if able to, between Central Grand Concourse and Convention.\nDue to road closures, L1 replacement buses will only stop at Central Grand Concourse, Convention and The Star. There will be no replacement buses at the following stops: Capitol Square, Paddy’s Markets, Exhibition Centre, Pyrmont Bay.\nL1 light rail services will resume as normal from 5am on Saturday 8 November."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:780L1: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Dulwich Hill to Central",
+          "product": {
+            "id": 13,
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          },
+          "iconId": 13
+        },
+        {
+          "id": "nsw:780L1: :H:",
+          "destination": {
+            "name": "Dulwich Hill Station, Dulwich Hill",
+            "type": "stop"
+          },
+          "name": "Sydney Light Rail Network L1 Dulwich Hill Line",
+          "number": "L1 Dulwich Hill Line",
+          "description": "Central to Dulwich Hill",
+          "product": {
+            "id": 13,
+            "class": 4,
+            "iconId": 4
+          },
+          "operator": {
+            "id": "LR",
+            "name": "Sydney Light Rail"
+          },
+          "iconId": 13
+        }
+      ]
+    },
+    "urlText": "L1 Dulwich Hill Line partial closure due to maintenance",
+    "url": "https://transportnsw.info/alerts/details#/ems-60347",
+    "content": "<div>\n<div>From&nbsp;<strong>Saturday 1</strong> to <strong>Friday 7 November</strong>, L1 Dulwich Hill Line light rail services will not run between Central and Convention due to planned trackwork and maintenance works.</div>\n<div>&nbsp;</div>\n<div><strong>During this time:</strong></div>\n<ul>\n<li>L1 light rail services will continue to run between <strong>Convention</strong> and <strong>Dulwich Hill</strong>.</li>\n<li>Use alternative transport including regular bus services, L1 replacement bus services, or walking if able to, between <strong>Central Grand Concourse</strong> and <strong>Convention</strong>.</li>\n<li>Due to road closures, <strong>L1 replacement buses</strong> will <strong>only stop at Central Grand Concourse</strong>, <strong>Convention</strong> and <strong>The Star</strong>. There will be no replacement buses at the following stops: Capitol Square, Paddy&rsquo;s Markets, Exhibition Centre, Pyrmont Bay.</li>\n</ul>\n<div><strong>L1 light rail services</strong>&nbsp;will resume as normal from 5am on Saturday 8 November.</div>\n<div>&nbsp;</div>\n<div>See the&nbsp;<a href=\"http://transportnsw.info/news/2025/l1-dulwich-hill-line-partial-closure-due-to-maintenance%20\">news story</a>&nbsp;for more detailed service information.</div>\n<div>&nbsp;</div>\n<div>Allow extra travel time and use the&nbsp;<a href=\"https://transportnsw.info/trip#/trip\">Trip Planner</a> or check&nbsp;<a href=\"https://transportnsw.info/alerts/light-rail\">travel alerts</a>&nbsp;to see if your travel is affected.</div>\n<div>&nbsp;</div>\n</div>",
+    "subtitle": "L1 Dulwich Hill Line partial closure due to maintenance"
   },
   {
     "type": "lineInfo",
@@ -15049,148 +15457,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-44811",
-    "version": 63164,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-12-19T05:03:00Z",
-      "lastModification": "2024-12-19T22:36:00Z",
-      "availability": {
-        "from": "2024-12-19T22:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-01-07T04:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Parramatta bus service changes",
-        "url": "https://transportnsw.info/alerts/details#/ems-44811",
-        "content": "<div>\n<div>From 7 January, route 900 bus services will no longer operate.</div>\n<div>&nbsp;</div>\n<div>Parramatta Light Rail services will stop at Church Street and Macquarie Street between 5am and 1am.</div>\n<div>&nbsp;</div>\n<div>You can travel between Parramatta Station and Parramatta Leagues Club or Commbank Stadium using bus routes 546, 549, 550, 552, 600, 601, 604, 606, 609, 625 and 706 which have stops on O&rsquo;Connell Street, Victoria Road and Smith Street.</div>\n</div>",
-        "subtitle": "Parramatta bus service changes",
-        "smsText": "Parramatta bus service changes",
-        "speechText": "From 7 January, route 900 bus services will no longer operate.\n \nParramatta Light Rail services will stop at Church Street and Macquarie Street between 5am and 1am."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "6691f8ef-f3ab-55c2-9541-869b63b5f55d",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Parramatta bus service changes",
-      "speechText": "From 7 January, route 900 bus services will no longer operate.\n \nParramatta Light Rail services will stop at Church Street and Macquarie Street between 5am and 1am."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:13900: :R:",
-          "destination": {
-            "name": "Parramatta Wharf, Phillip St, Parramatta",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 900",
-          "number": "900",
-          "description": "Parramatta Free Shuttle",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2503",
-            "name": "Transit Systems NSW"
-          },
-          "iconId": 5
-        }
-      ]
-    },
-    "urlText": "Parramatta bus service changes",
-    "url": "https://transportnsw.info/alerts/details#/ems-44811",
-    "content": "<div>\n<div>From 7 January, route 900 bus services will no longer operate.</div>\n<div>&nbsp;</div>\n<div>Parramatta Light Rail services will stop at Church Street and Macquarie Street between 5am and 1am.</div>\n<div>&nbsp;</div>\n<div>You can travel between Parramatta Station and Parramatta Leagues Club or Commbank Stadium using bus routes 546, 549, 550, 552, 600, 601, 604, 606, 609, 625 and 706 which have stops on O&rsquo;Connell Street, Victoria Road and Smith Street.</div>\n</div>",
-    "subtitle": "Parramatta bus service changes"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-59031",
-    "version": 122,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-09-17T06:57:00Z",
-      "lastModification": "2025-09-17T06:59:00Z",
-      "availability": {
-        "from": "2025-09-17T06:00:00Z",
-        "to": "2025-10-26T09:15:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-24T18:45:00Z",
-          "to": "2025-10-26T09:15:00Z"
-        }
-      ],
-      "expiration": "2025-10-26T09:15:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "25th October-26th October-33-Sydney to Casino XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-59031",
-        "content": "<div>Due to planned trackwork, this service has been replaced by road coaches for the entire journey.</div>",
-        "subtitle": "25th October-26th October-33-Sydney to Casino XPT service.",
-        "smsText": "25th October-26th October-33-Sydney to Casino XPT service.",
-        "speechText": "Due to planned trackwork, this service has been replaced by road coaches for the entire journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "33ca2bab-381e-54fd-85b7-8f5bc142849f",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "25th October-26th October-33-Sydney to Casino XPT service.",
-      "speechText": "Due to planned trackwork, this service has been replaced by road coaches for the entire journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76033: :H:",
-          "destination": {
-            "name": "Casino Station, Casino",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 33",
-          "number": "33",
-          "description": "Central to Casino",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "25th October-26th October-33-Sydney to Casino XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-59031",
-    "content": "<div>Due to planned trackwork, this service has been replaced by road coaches for the entire journey.</div>",
-    "subtitle": "25th October-26th October-33-Sydney to Casino XPT service."
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-59710",
     "version": 1,
     "priority": "normal",
@@ -15947,6 +16213,76 @@
     "url": "https://transportnsw.info/alerts/details#/559f4a9e861f3e7abc63117a59610c64ec2afbfd",
     "content": "Artarmon,St Leonards,Wollstonecraft,Waverton due to an incident requiring emergency services at Thornleigh earlier. Allow extra travel time.",
     "subtitle": "Not stopping at"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-60400",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-13T23:24:00Z",
+      "lastModification": "2025-10-13T23:24:00Z",
+      "availability": {
+        "from": "2025-10-13T23:23:00Z",
+        "to": "2025-10-14T04:23:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-13T23:23:00Z",
+          "to": "2025-10-14T04:23:00Z"
+        }
+      ],
+      "expiration": "2025-10-14T04:23:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Coach service delays at Lithgow Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-60400",
+        "content": "There are delays on route 549 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Coach service delays at Lithgow Station",
+        "smsText": "Coach service delays at Lithgow Station",
+        "speechText": "There are delays on route 549 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "71708540-fe62-592a-a1e2-f803d4824947",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Coach service delays at Lithgow Station",
+      "speechText": "There are delays on route 549 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76549: :H:",
+          "destination": {
+            "name": "Coonabarabran Coach Stop, Coonabarabran",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 549",
+          "number": "549",
+          "description": "Lithgow to Coonabarabran",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        }
+      ]
+    },
+    "urlText": "Coach service delays at Lithgow Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-60400",
+    "content": "There are delays on route 549 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach service delays at Lithgow Station"
   },
   {
     "type": "stopInfo",
@@ -23162,6 +23498,238 @@
     "subtitle": "Wallsend bus diversions"
   },
   {
+    "type": "lineInfo",
+    "id": "ems-60085",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-07T03:13:00Z",
+      "lastModification": "2025-10-07T03:13:00Z",
+      "availability": {
+        "from": "2025-10-06T15:00:00Z",
+        "to": "2025-10-26T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-24T15:00:00Z",
+          "to": "2025-10-26T15:00:00Z"
+        }
+      ],
+      "expiration": "2025-10-26T15:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Some trains run to a changed timetable",
+        "url": "https://transportnsw.info/alerts/details#/ems-60085",
+        "content": "<div><strong>Saturday 25 and Sunday 26 October</strong></div>\n<ul>\n<li>Trains that normally run between Southern Highlands Line stations and Central will instead run between Southern Highlands Line stations and Campbelltown only.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+        "subtitle": "Some trains run to a changed timetable",
+        "smsText": "Some trains run to a changed timetable",
+        "speechText": "Saturday 25 and Sunday 26 October\nTrains that normally run between Southern Highlands Line stations and Central will instead run between Southern Highlands Line stations and Campbelltown only."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "8d1a70e8-6dd0-5062-a622-8e9b5d4c8559",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Some trains run to a changed timetable",
+      "speechText": "Saturday 25 and Sunday 26 October\nTrains that normally run between Southern Highlands Line stations and Central will instead run between Southern Highlands Line stations and Campbelltown only."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76SHL: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Moss Vale to Campbelltown",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:76SHL: :H:",
+          "destination": {
+            "name": "Goulburn Station, Goulburn",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Southern Highlands Line",
+          "number": "Southern Highlands Line",
+          "description": "Campbelltown to Moss Vale",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          },
+          "iconId": 2
+        }
+      ]
+    },
+    "urlText": "Some trains run to a changed timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-60085",
+    "content": "<div><strong>Saturday 25 and Sunday 26 October</strong></div>\n<ul>\n<li>Trains that normally run between Southern Highlands Line stations and Central will instead run between Southern Highlands Line stations and Campbelltown only.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "Some trains run to a changed timetable"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-44811",
+    "version": 63164,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2024-12-19T05:03:00Z",
+      "lastModification": "2024-12-19T22:36:00Z",
+      "availability": {
+        "from": "2024-12-19T22:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-01-07T04:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Parramatta bus service changes",
+        "url": "https://transportnsw.info/alerts/details#/ems-44811",
+        "content": "<div>\n<div>From 7 January, route 900 bus services will no longer operate.</div>\n<div>&nbsp;</div>\n<div>Parramatta Light Rail services will stop at Church Street and Macquarie Street between 5am and 1am.</div>\n<div>&nbsp;</div>\n<div>You can travel between Parramatta Station and Parramatta Leagues Club or Commbank Stadium using bus routes 546, 549, 550, 552, 600, 601, 604, 606, 609, 625 and 706 which have stops on O&rsquo;Connell Street, Victoria Road and Smith Street.</div>\n</div>",
+        "subtitle": "Parramatta bus service changes",
+        "smsText": "Parramatta bus service changes",
+        "speechText": "From 7 January, route 900 bus services will no longer operate.\n \nParramatta Light Rail services will stop at Church Street and Macquarie Street between 5am and 1am."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "6691f8ef-f3ab-55c2-9541-869b63b5f55d",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Parramatta bus service changes",
+      "speechText": "From 7 January, route 900 bus services will no longer operate.\n \nParramatta Light Rail services will stop at Church Street and Macquarie Street between 5am and 1am."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:13900: :R:",
+          "destination": {
+            "name": "Parramatta Wharf, Phillip St, Parramatta",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 900",
+          "number": "900",
+          "description": "Parramatta Free Shuttle",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2503",
+            "name": "Transit Systems NSW"
+          },
+          "iconId": 5
+        }
+      ]
+    },
+    "urlText": "Parramatta bus service changes",
+    "url": "https://transportnsw.info/alerts/details#/ems-44811",
+    "content": "<div>\n<div>From 7 January, route 900 bus services will no longer operate.</div>\n<div>&nbsp;</div>\n<div>Parramatta Light Rail services will stop at Church Street and Macquarie Street between 5am and 1am.</div>\n<div>&nbsp;</div>\n<div>You can travel between Parramatta Station and Parramatta Leagues Club or Commbank Stadium using bus routes 546, 549, 550, 552, 600, 601, 604, 606, 609, 625 and 706 which have stops on O&rsquo;Connell Street, Victoria Road and Smith Street.</div>\n</div>",
+    "subtitle": "Parramatta bus service changes"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-59031",
+    "version": 122,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-09-17T06:57:00Z",
+      "lastModification": "2025-09-17T06:59:00Z",
+      "availability": {
+        "from": "2025-09-17T06:00:00Z",
+        "to": "2025-10-26T09:15:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-24T18:45:00Z",
+          "to": "2025-10-26T09:15:00Z"
+        }
+      ],
+      "expiration": "2025-10-26T09:15:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "25th October-26th October-33-Sydney to Casino XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-59031",
+        "content": "<div>Due to planned trackwork, this service has been replaced by road coaches for the entire journey.</div>",
+        "subtitle": "25th October-26th October-33-Sydney to Casino XPT service.",
+        "smsText": "25th October-26th October-33-Sydney to Casino XPT service.",
+        "speechText": "Due to planned trackwork, this service has been replaced by road coaches for the entire journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "33ca2bab-381e-54fd-85b7-8f5bc142849f",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "25th October-26th October-33-Sydney to Casino XPT service.",
+      "speechText": "Due to planned trackwork, this service has been replaced by road coaches for the entire journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76033: :H:",
+          "destination": {
+            "name": "Casino Station, Casino",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 33",
+          "number": "33",
+          "description": "Central to Casino",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "25th October-26th October-33-Sydney to Casino XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-59031",
+    "content": "<div>Due to planned trackwork, this service has been replaced by road coaches for the entire journey.</div>",
+    "subtitle": "25th October-26th October-33-Sydney to Casino XPT service."
+  },
+  {
     "type": "tripMessage",
     "id": "5e233eb91401c758cc11cd475c690bc79c7dd00a",
     "version": 1,
@@ -23341,33 +23909,282 @@
     "subtitle": "Starting from"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-60085",
-    "version": 1,
+    "type": "tripMessage",
+    "id": "8972b36416f0b98620114190c06d399b13ac8e59",
+    "version": 6450,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-10-07T03:13:00Z",
-      "lastModification": "2025-10-07T03:13:00Z",
+      "creation": "2025-05-16T11:48:00Z",
+      "lastModification": "2025-05-16T13:36:00Z",
       "availability": {
-        "from": "2025-10-06T15:00:00Z",
-        "to": "2025-10-26T15:00:00Z"
+        "from": "2025-05-16T13:36:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-24T15:00:00Z",
-          "to": "2025-10-26T15:00:00Z"
+          "from": "2025-05-16T13:36:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2025-10-26T15:00:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Some trains run to a changed timetable",
-        "url": "https://transportnsw.info/alerts/details#/ems-60085",
-        "content": "<div><strong>Saturday 25 and Sunday 26 October</strong></div>\n<ul>\n<li>Trains that normally run between Southern Highlands Line stations and Central will instead run between Southern Highlands Line stations and Campbelltown only.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-        "subtitle": "Some trains run to a changed timetable",
-        "smsText": "Some trains run to a changed timetable",
-        "speechText": "Saturday 25 and Sunday 26 October\nTrains that normally run between Southern Highlands Line stations and Central will instead run between Southern Highlands Line stations and Campbelltown only."
+        "urlText": "Now ending at",
+        "url": "https://transportnsw.info/alerts/details#/8972b36416f0b98620114190c06d399b13ac8e59",
+        "content": "Hornsby due to urgent train repairs earlier.",
+        "subtitle": "Now ending at",
+        "smsText": "Now ending at",
+        "speechText": "Hornsby due to urgent train repairs earlier."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "049e4952-be8e-5c8e-a9ff-79c7ef90eeb3",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Now ending at",
+      "speechText": "Hornsby due to urgent train repairs earlier."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T1:N:H:",
+          "destination": {
+            "name": "Berowra Station",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Berowra via Gordon",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "trips": [
+            {
+              "tripCode": 1076,
+              "realtimeTripId": "120U.924.170.64.A.8.85133598",
+              "trainNumber": "1076",
+              "departureTimePlannedJourneyOrigin": "2025-05-16T11:25:00Z",
+              "stops": [
+                {
+                  "id": "10101100",
+                  "name": "Central Station, Platform 16",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:25:00Z"
+                },
+                {
+                  "id": "10101101",
+                  "name": "Town Hall Station, Platform 3",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:28:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:27:00Z"
+                },
+                {
+                  "id": "10101102",
+                  "name": "Wynyard Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:31:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:30:00Z"
+                },
+                {
+                  "id": "10101111",
+                  "name": "Milsons Point Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:35:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:34:00Z"
+                },
+                {
+                  "id": "10101112",
+                  "name": "North Sydney Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:37:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:36:00Z"
+                },
+                {
+                  "id": "10101113",
+                  "name": "Waverton Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:39:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:39:00Z"
+                },
+                {
+                  "id": "10101114",
+                  "name": "Wollstonecraft Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:41:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:41:00Z"
+                },
+                {
+                  "id": "10101115",
+                  "name": "St Leonards Station, Platform 3",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:44:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:43:00Z"
+                },
+                {
+                  "id": "10101116",
+                  "name": "Artarmon Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:46:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:46:00Z"
+                },
+                {
+                  "id": "10101117",
+                  "name": "Chatswood Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:50:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:49:00Z"
+                },
+                {
+                  "id": "10101118",
+                  "name": "Roseville Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:52:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:51:00Z"
+                },
+                {
+                  "id": "10101119",
+                  "name": "Lindfield Station, Platform 3",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:55:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:54:00Z"
+                },
+                {
+                  "id": "10101120",
+                  "name": "Killara Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T11:57:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:56:00Z"
+                },
+                {
+                  "id": "10101121",
+                  "name": "Gordon Station, Platform 3",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:00:00Z",
+                  "arrivalTimePlanned": "2025-05-16T11:59:00Z"
+                },
+                {
+                  "id": "10101122",
+                  "name": "Pymble Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:02:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:02:00Z"
+                },
+                {
+                  "id": "10101123",
+                  "name": "Turramurra Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:05:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:04:00Z"
+                },
+                {
+                  "id": "10101124",
+                  "name": "Warrawee Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:07:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:06:00Z"
+                },
+                {
+                  "id": "10101125",
+                  "name": "Wahroonga Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:09:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:08:00Z"
+                },
+                {
+                  "id": "10101126",
+                  "name": "Waitara Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:11:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:11:00Z"
+                },
+                {
+                  "id": "10101127",
+                  "name": "Hornsby Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:15:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:14:00Z"
+                },
+                {
+                  "id": "10101128",
+                  "name": "Asquith Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:18:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:17:00Z"
+                },
+                {
+                  "id": "10101129",
+                  "name": "Mount Colah Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:20:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:20:00Z"
+                },
+                {
+                  "id": "10101130",
+                  "name": "Mount Kuring-gai Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-05-16T12:24:00Z",
+                  "arrivalTimePlanned": "2025-05-16T12:23:00Z"
+                },
+                {
+                  "id": "10101131",
+                  "name": "Berowra Station, Platform 2",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2025-05-16T12:28:00Z"
+                }
+              ]
+            }
+          ],
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "Now ending at",
+    "url": "https://transportnsw.info/alerts/details#/8972b36416f0b98620114190c06d399b13ac8e59",
+    "content": "Hornsby due to urgent train repairs earlier.",
+    "subtitle": "Now ending at"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-59027",
+    "version": 1136,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-09-17T06:41:00Z",
+      "lastModification": "2025-09-17T07:00:00Z",
+      "availability": {
+        "from": "2025-09-17T03:00:00Z",
+        "to": "2025-10-26T19:15:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-24T02:15:00Z",
+          "to": "2025-10-26T19:15:00Z"
+        }
+      ],
+      "expiration": "2025-10-26T19:15:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "24th October-26th October-31- Sydney to Brisbane XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-59027",
+        "content": "<div>Due to planned trackwork, this service has been replaced by road coaches for the entire journey.</div>",
+        "subtitle": "24th October-26th October-31- Sydney to Brisbane XPT service.",
+        "smsText": "24th October-26th October-31- Sydney to Brisbane XPT service.",
+        "speechText": "Due to planned trackwork, this service has been replaced by road coaches for the entire journey."
       }
     ],
     "properties": {
@@ -23375,130 +24192,40 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "8d1a70e8-6dd0-5062-a622-8e9b5d4c8559",
+      "messageRef": "839ed8fd-ec12-506b-bfcb-7cecb6d51aee",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Some trains run to a changed timetable",
-      "speechText": "Saturday 25 and Sunday 26 October\nTrains that normally run between Southern Highlands Line stations and Central will instead run between Southern Highlands Line stations and Campbelltown only."
+      "smsText": "24th October-26th October-31- Sydney to Brisbane XPT service.",
+      "speechText": "Due to planned trackwork, this service has been replaced by road coaches for the entire journey."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76SHL: :R:",
+          "id": "nsw:76031: :H:",
           "destination": {
-            "name": "Central Station, Sydney",
+            "name": "Brisbane (Roma Street) Station, Queensland",
             "type": "stop"
           },
-          "name": "Intercity Trains Network Southern Highlands Line",
-          "number": "Southern Highlands Line",
-          "description": "Moss Vale to Campbelltown",
+          "name": "Regional Trains and Coaches Network 31",
+          "number": "31",
+          "description": "Central to Brisbane (Roma Street)",
           "product": {
-            "id": 2,
+            "id": 3,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
+            "id": "711",
+            "name": "NSW TrainLink"
           },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:76SHL: :H:",
-          "destination": {
-            "name": "Goulburn Station, Goulburn",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Southern Highlands Line",
-          "number": "Southern Highlands Line",
-          "description": "Campbelltown to Moss Vale",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          },
-          "iconId": 2
+          "iconId": 3
         }
       ]
     },
-    "urlText": "Some trains run to a changed timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-60085",
-    "content": "<div><strong>Saturday 25 and Sunday 26 October</strong></div>\n<ul>\n<li>Trains that normally run between Southern Highlands Line stations and Central will instead run between Southern Highlands Line stations and Campbelltown only.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "Some trains run to a changed timetable"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-39597",
-    "version": 33584403,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-09-15T06:41:00Z",
-      "lastModification": "2025-10-08T23:41:00Z",
-      "availability": {
-        "from": "2024-06-02T11:22:00Z",
-        "to": "2025-10-31T07:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-09-15T06:41:00Z",
-          "to": "2025-10-31T07:30:00Z"
-        }
-      ],
-      "expiration": "2025-10-31T07:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Diversion at Wentworthville",
-        "url": "https://transportnsw.info/alerts/details#/ems-39597",
-        "content": "<div>Buses are diverting away from Smith Street at Station Street due to roadworks.&nbsp;</div>\n<ul>\n<li>Buses are using Garfield Street and Bennett Street in both directions.&nbsp;</li>\n<li>Three stops are being missed.</li>\n<li>Allow extra travel time.&nbsp;</li>\n</ul>",
-        "subtitle": "Diversion at Wentworthville",
-        "smsText": "Diversion at Wentworthville",
-        "speechText": "At Wentworthville, route 700 buses are diverting away from Smith Street at Station Street due to roadworks. \nBuses are using Garfield Street and Bennett Street in both directions. Three stops are being missed. Allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5fffe03f-3374-5dc6-9a8b-5a7002679fb4",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Diversion at Wentworthville",
-      "speechText": "At Wentworthville, route 700 buses are diverting away from Smith Street at Station Street due to roadworks. \nBuses are using Garfield Street and Bennett Street in both directions. Three stops are being missed. Allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:14705: :H:",
-          "destination": {
-            "name": "Blacktown Station, Blacktown",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 705",
-          "number": "705",
-          "description": "Parramatta to Blacktown via Pendle Hill",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2504",
-            "name": "CDC NSW R4"
-          },
-          "iconId": 5
-        }
-      ]
-    },
-    "urlText": "Diversion at Wentworthville",
-    "url": "https://transportnsw.info/alerts/details#/ems-39597",
-    "content": "<div>Buses are diverting away from Smith Street at Station Street due to roadworks.&nbsp;</div>\n<ul>\n<li>Buses are using Garfield Street and Bennett Street in both directions.&nbsp;</li>\n<li>Three stops are being missed.</li>\n<li>Allow extra travel time.&nbsp;</li>\n</ul>",
-    "subtitle": "Diversion at Wentworthville"
+    "urlText": "24th October-26th October-31- Sydney to Brisbane XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-59027",
+    "content": "<div>Due to planned trackwork, this service has been replaced by road coaches for the entire journey.</div>",
+    "subtitle": "24th October-26th October-31- Sydney to Brisbane XPT service."
   },
   {
     "type": "lineInfo",
@@ -24679,352 +25406,33 @@
     "subtitle": "Running late"
   },
   {
-    "type": "tripMessage",
-    "id": "8972b36416f0b98620114190c06d399b13ac8e59",
-    "version": 6450,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-05-16T11:48:00Z",
-      "lastModification": "2025-05-16T13:36:00Z",
-      "availability": {
-        "from": "2025-05-16T13:36:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-05-16T13:36:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Now ending at",
-        "url": "https://transportnsw.info/alerts/details#/8972b36416f0b98620114190c06d399b13ac8e59",
-        "content": "Hornsby due to urgent train repairs earlier.",
-        "subtitle": "Now ending at",
-        "smsText": "Now ending at",
-        "speechText": "Hornsby due to urgent train repairs earlier."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "049e4952-be8e-5c8e-a9ff-79c7ef90eeb3",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Now ending at",
-      "speechText": "Hornsby due to urgent train repairs earlier."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:N:H:",
-          "destination": {
-            "name": "Berowra Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "trips": [
-            {
-              "tripCode": 1076,
-              "realtimeTripId": "120U.924.170.64.A.8.85133598",
-              "trainNumber": "1076",
-              "departureTimePlannedJourneyOrigin": "2025-05-16T11:25:00Z",
-              "stops": [
-                {
-                  "id": "10101100",
-                  "name": "Central Station, Platform 16",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:25:00Z"
-                },
-                {
-                  "id": "10101101",
-                  "name": "Town Hall Station, Platform 3",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:28:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:27:00Z"
-                },
-                {
-                  "id": "10101102",
-                  "name": "Wynyard Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:31:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:30:00Z"
-                },
-                {
-                  "id": "10101111",
-                  "name": "Milsons Point Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:35:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:34:00Z"
-                },
-                {
-                  "id": "10101112",
-                  "name": "North Sydney Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:37:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:36:00Z"
-                },
-                {
-                  "id": "10101113",
-                  "name": "Waverton Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:39:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:39:00Z"
-                },
-                {
-                  "id": "10101114",
-                  "name": "Wollstonecraft Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:41:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:41:00Z"
-                },
-                {
-                  "id": "10101115",
-                  "name": "St Leonards Station, Platform 3",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:44:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:43:00Z"
-                },
-                {
-                  "id": "10101116",
-                  "name": "Artarmon Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:46:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:46:00Z"
-                },
-                {
-                  "id": "10101117",
-                  "name": "Chatswood Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:50:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:49:00Z"
-                },
-                {
-                  "id": "10101118",
-                  "name": "Roseville Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:52:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:51:00Z"
-                },
-                {
-                  "id": "10101119",
-                  "name": "Lindfield Station, Platform 3",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:55:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:54:00Z"
-                },
-                {
-                  "id": "10101120",
-                  "name": "Killara Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T11:57:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:56:00Z"
-                },
-                {
-                  "id": "10101121",
-                  "name": "Gordon Station, Platform 3",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:00:00Z",
-                  "arrivalTimePlanned": "2025-05-16T11:59:00Z"
-                },
-                {
-                  "id": "10101122",
-                  "name": "Pymble Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:02:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:02:00Z"
-                },
-                {
-                  "id": "10101123",
-                  "name": "Turramurra Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:05:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:04:00Z"
-                },
-                {
-                  "id": "10101124",
-                  "name": "Warrawee Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:07:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:06:00Z"
-                },
-                {
-                  "id": "10101125",
-                  "name": "Wahroonga Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:09:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:08:00Z"
-                },
-                {
-                  "id": "10101126",
-                  "name": "Waitara Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:11:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:11:00Z"
-                },
-                {
-                  "id": "10101127",
-                  "name": "Hornsby Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:15:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:14:00Z"
-                },
-                {
-                  "id": "10101128",
-                  "name": "Asquith Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:18:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:17:00Z"
-                },
-                {
-                  "id": "10101129",
-                  "name": "Mount Colah Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:20:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:20:00Z"
-                },
-                {
-                  "id": "10101130",
-                  "name": "Mount Kuring-gai Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2025-05-16T12:24:00Z",
-                  "arrivalTimePlanned": "2025-05-16T12:23:00Z"
-                },
-                {
-                  "id": "10101131",
-                  "name": "Berowra Station, Platform 2",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2025-05-16T12:28:00Z"
-                }
-              ]
-            }
-          ],
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "Now ending at",
-    "url": "https://transportnsw.info/alerts/details#/8972b36416f0b98620114190c06d399b13ac8e59",
-    "content": "Hornsby due to urgent train repairs earlier.",
-    "subtitle": "Now ending at"
-  },
-  {
     "type": "lineInfo",
-    "id": "ems-59027",
-    "version": 1136,
+    "id": "ems-39597",
+    "version": 33584403,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-09-17T06:41:00Z",
-      "lastModification": "2025-09-17T07:00:00Z",
+      "creation": "2024-09-15T06:41:00Z",
+      "lastModification": "2025-10-08T23:41:00Z",
       "availability": {
-        "from": "2025-09-17T03:00:00Z",
-        "to": "2025-10-26T19:15:00Z"
+        "from": "2024-06-02T11:22:00Z",
+        "to": "2025-10-31T07:30:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-24T02:15:00Z",
-          "to": "2025-10-26T19:15:00Z"
+          "from": "2024-09-15T06:41:00Z",
+          "to": "2025-10-31T07:30:00Z"
         }
       ],
-      "expiration": "2025-10-26T19:15:59Z"
+      "expiration": "2025-10-31T07:30:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "24th October-26th October-31- Sydney to Brisbane XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-59027",
-        "content": "<div>Due to planned trackwork, this service has been replaced by road coaches for the entire journey.</div>",
-        "subtitle": "24th October-26th October-31- Sydney to Brisbane XPT service.",
-        "smsText": "24th October-26th October-31- Sydney to Brisbane XPT service.",
-        "speechText": "Due to planned trackwork, this service has been replaced by road coaches for the entire journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "839ed8fd-ec12-506b-bfcb-7cecb6d51aee",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "24th October-26th October-31- Sydney to Brisbane XPT service.",
-      "speechText": "Due to planned trackwork, this service has been replaced by road coaches for the entire journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76031: :H:",
-          "destination": {
-            "name": "Brisbane (Roma Street) Station, Queensland",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "24th October-26th October-31- Sydney to Brisbane XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-59027",
-    "content": "<div>Due to planned trackwork, this service has been replaced by road coaches for the entire journey.</div>",
-    "subtitle": "24th October-26th October-31- Sydney to Brisbane XPT service."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-60400",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-10-13T23:24:00Z",
-      "lastModification": "2025-10-13T23:24:00Z",
-      "availability": {
-        "from": "2025-10-13T23:23:00Z",
-        "to": "2025-10-14T04:23:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-13T23:23:00Z",
-          "to": "2025-10-14T04:23:00Z"
-        }
-      ],
-      "expiration": "2025-10-14T04:23:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Coach service delays at Lithgow Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-60400",
-        "content": "There are delays on route 549 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Coach service delays at Lithgow Station",
-        "smsText": "Coach service delays at Lithgow Station",
-        "speechText": "There are delays on route 549 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time."
+        "urlText": "Diversion at Wentworthville",
+        "url": "https://transportnsw.info/alerts/details#/ems-39597",
+        "content": "<div>Buses are diverting away from Smith Street at Station Street due to roadworks.&nbsp;</div>\n<ul>\n<li>Buses are using Garfield Street and Bennett Street in both directions.&nbsp;</li>\n<li>Three stops are being missed.</li>\n<li>Allow extra travel time.&nbsp;</li>\n</ul>",
+        "subtitle": "Diversion at Wentworthville",
+        "smsText": "Diversion at Wentworthville",
+        "speechText": "At Wentworthville, route 700 buses are diverting away from Smith Street at Station Street due to roadworks. \nBuses are using Garfield Street and Bennett Street in both directions. Three stops are being missed. Allow extra travel time."
       }
     ],
     "properties": {
@@ -25032,40 +25440,40 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "71708540-fe62-592a-a1e2-f803d4824947",
+      "messageRef": "5fffe03f-3374-5dc6-9a8b-5a7002679fb4",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Coach service delays at Lithgow Station",
-      "speechText": "There are delays on route 549 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time."
+      "smsText": "Diversion at Wentworthville",
+      "speechText": "At Wentworthville, route 700 buses are diverting away from Smith Street at Station Street due to roadworks. \nBuses are using Garfield Street and Bennett Street in both directions. Three stops are being missed. Allow extra travel time."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76549: :H:",
+          "id": "nsw:14705: :H:",
           "destination": {
-            "name": "Coonabarabran Coach Stop, Coonabarabran",
+            "name": "Blacktown Station, Blacktown",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 549",
-          "number": "549",
-          "description": "Lithgow to Coonabarabran",
+          "name": "Sydney Buses Network 705",
+          "number": "705",
+          "description": "Parramatta to Blacktown via Pendle Hill",
           "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
+            "id": 5,
+            "class": 5,
+            "iconId": 5
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "2504",
+            "name": "CDC NSW R4"
           },
-          "iconId": 7
+          "iconId": 5
         }
       ]
     },
-    "urlText": "Coach service delays at Lithgow Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-60400",
-    "content": "There are delays on route 549 coach services due to customer boarding delays. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays at Lithgow Station"
+    "urlText": "Diversion at Wentworthville",
+    "url": "https://transportnsw.info/alerts/details#/ems-39597",
+    "content": "<div>Buses are diverting away from Smith Street at Station Street due to roadworks.&nbsp;</div>\n<ul>\n<li>Buses are using Garfield Street and Bennett Street in both directions.&nbsp;</li>\n<li>Three stops are being missed.</li>\n<li>Allow extra travel time.&nbsp;</li>\n</ul>",
+    "subtitle": "Diversion at Wentworthville"
   },
   {
     "type": "lineInfo",
@@ -29711,188 +30119,6 @@
     "subtitle": "Bus diversions for MS Gong Ride"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-51995",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-05-14T00:59:00Z",
-      "lastModification": "2025-05-14T00:59:00Z",
-      "availability": {
-        "from": "2025-05-13T14:01:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-05-13T14:01:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
-        "url": "https://transportnsw.info/alerts/details#/ems-51995",
-        "content": "<div><strong>From Monday 26 May</strong>, students travelling in the morning from the Rutherford and Aberglasslyn areas to Rutherford Technology High School are to use the <strong>2712</strong> service (operated by CDC NSW), instead of the S520 service (operated by Grace Coaches).</div>\n<div><br /><strong>What's changing:</strong></div>\n<ul>\n<li>There is a slight timetable difference between the <strong>S520</strong> and <strong>2712</strong>, so please check <a href=\"https://transportnsw.info/trip#/trip\">TripPlanner</a> to plan your journey. </li>\n<li>Students on the <strong>2712</strong> service by CDC NSW will need an Opal card. If you don&rsquo;t already have one, find out more about <a href=\"https://transportnsw.info/tickets-fares/eligibility-concessions/school-student-travel/apply-for-school-travel-pass-or-school\">how to apply for a pass</a>. </li>\n<li>The <strong>2712</strong> will drop students closer to Rutherford Technology High School than the S520 previously did &ndash; arriving at <strong>Alexandra Ave after Weblands St</strong> (<strong>232097</strong>) at 08:32. </li>\n<li>Afternoon travel is <strong>not affected</strong>.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> and <a href=\"https://transportnsw.info/routes/bus\">check timetables</a> before you travel.</li>\n</ul>",
-        "subtitle": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
-        "smsText": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
-        "speechText": "From Monday 26 May, students travelling in the morning from the Rutherford and Aberglasslyn areas to Rutherford Technology High School are to use the 2712 service operated by CDC NSW, instead of the S520 service operated by Grace Coaches.\nAfternoon travel is now affected."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "53f7c05e-c392-56b9-b429-ab144f2ea086",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
-      "speechText": "From Monday 26 May, students travelling in the morning from the Rutherford and Aberglasslyn areas to Rutherford Technology High School are to use the 2712 service operated by CDC NSW, instead of the S520 service operated by Grace Coaches.\nAfternoon travel is now affected."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:54S52:0:H:",
-          "destination": {
-            "name": "Aberglasslyn Rd before McKeachie Dr, Aberglasslyn",
-            "type": "stop"
-          },
-          "name": "School buses S520",
-          "number": "S520",
-          "description": "St Pauls Rutherford & Rutherford PS to Aberglasslyn",
-          "product": {
-            "id": 8,
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "5066",
-            "name": "Grace Coaches"
-          },
-          "iconId": 8
-        },
-        {
-          "id": "nsw:54S52:0:R:",
-          "destination": {
-            "name": "St Paul's Primary School, Gillies St, Rutherford",
-            "type": "stop"
-          },
-          "name": "School buses S520",
-          "number": "S520",
-          "description": "Aberglasslyn to Rutherford PS & St Pauls Rutherford",
-          "product": {
-            "id": 8,
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "5066",
-            "name": "Grace Coaches"
-          },
-          "iconId": 8
-        },
-        {
-          "id": "nsw:46271:2:R:",
-          "destination": {
-            "name": "Maitland Public School, Olive St, Maitland",
-            "type": "stop"
-          },
-          "name": "School buses 2712",
-          "number": "2712",
-          "description": "Aberglasslyn Rd to Rutherford PS",
-          "product": {
-            "id": 8,
-            "class": 11,
-            "iconId": 11
-          },
-          "operator": {
-            "id": "2448",
-            "name": "Hunter Valley Buses"
-          },
-          "iconId": 8
-        }
-      ]
-    },
-    "urlText": "Change to Rutherford Technology High School bus services and pass requirements from 26 May",
-    "url": "https://transportnsw.info/alerts/details#/ems-51995",
-    "content": "<div><strong>From Monday 26 May</strong>, students travelling in the morning from the Rutherford and Aberglasslyn areas to Rutherford Technology High School are to use the <strong>2712</strong> service (operated by CDC NSW), instead of the S520 service (operated by Grace Coaches).</div>\n<div><br /><strong>What's changing:</strong></div>\n<ul>\n<li>There is a slight timetable difference between the <strong>S520</strong> and <strong>2712</strong>, so please check <a href=\"https://transportnsw.info/trip#/trip\">TripPlanner</a> to plan your journey. </li>\n<li>Students on the <strong>2712</strong> service by CDC NSW will need an Opal card. If you don&rsquo;t already have one, find out more about <a href=\"https://transportnsw.info/tickets-fares/eligibility-concessions/school-student-travel/apply-for-school-travel-pass-or-school\">how to apply for a pass</a>. </li>\n<li>The <strong>2712</strong> will drop students closer to Rutherford Technology High School than the S520 previously did &ndash; arriving at <strong>Alexandra Ave after Weblands St</strong> (<strong>232097</strong>) at 08:32. </li>\n<li>Afternoon travel is <strong>not affected</strong>.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> and <a href=\"https://transportnsw.info/routes/bus\">check timetables</a> before you travel.</li>\n</ul>",
-    "subtitle": "Change to Rutherford Technology High School bus services and pass requirements from 26 May"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-40918",
-    "version": 8625406,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-10-14T03:15:00Z",
-      "lastModification": "2025-01-21T23:12:00Z",
-      "availability": {
-        "from": "2024-10-13T15:00:00Z",
-        "to": "2027-05-07T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-11-04T15:00:00Z",
-          "to": "2027-05-07T16:00:00Z"
-        }
-      ],
-      "expiration": "2027-05-07T16:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Mamre Rd bus diversions",
-        "url": "https://transportnsw.info/alerts/details#/ems-40918",
-        "content": "<div>From Tuesday 5 November 2024 until Monday 8 May 2027 bus stop Erskine Park Rd after Mamre Rd (275911) will be closed. Please use nearby alternative stop Westpark Industrial Estate, Erskine Park Rd (2759194) for the 779 towards Kemps Creek</div>",
-        "subtitle": "Mamre Rd bus diversions",
-        "smsText": "Mamre Rd bus diversions",
-        "speechText": "From Tuesday 5 November 20 24 until Monday 8 May 20 27 bus stop Erskine Park Road after Mamre road will be closed. Please use nearby alternative stops."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d2dd92d5-6fc6-5bfd-8cf2-b5d991a82d3f",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Mamre Rd bus diversions",
-      "speechText": "From Tuesday 5 November 20 24 until Monday 8 May 20 27 bus stop Erskine Park Road after Mamre road will be closed. Please use nearby alternative stops."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:11779: :R:",
-          "destination": {
-            "name": "Amazon, Emporium Ave, Kemps Creek",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 779",
-          "number": "779",
-          "description": "St Marys to Kemps Creek via Erskine Park",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          },
-          "iconId": 5
-        }
-      ]
-    },
-    "urlText": "Mamre Rd bus diversions",
-    "url": "https://transportnsw.info/alerts/details#/ems-40918",
-    "content": "<div>From Tuesday 5 November 2024 until Monday 8 May 2027 bus stop Erskine Park Rd after Mamre Rd (275911) will be closed. Please use nearby alternative stop Westpark Industrial Estate, Erskine Park Rd (2759194) for the 779 towards Kemps Creek</div>",
-    "subtitle": "Mamre Rd bus diversions"
-  },
-  {
     "type": "tripMessage",
     "id": "c92ebadb8c523c845d02643f22c027b00ee5bc43",
     "version": 3300,
@@ -30293,6 +30519,96 @@
     "url": "https://transportnsw.info/alerts/details#/ems-44836",
     "content": "<div>\n<div>From 7 January, route 535 bus services will no longer operate.</div>\n<div>&nbsp;</div>\n<div>Route 535 will be replaced with Parramatta Light Rail services.</div>\n<div>&nbsp;</div>\n<div>You can travel between Carlingford and Parramatta on the light rail between 5am and 1am.&nbsp;</div>\n</div>",
     "subtitle": "Parramatta bus service changes"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-60089",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-07T04:39:00Z",
+      "lastModification": "2025-10-07T04:39:00Z",
+      "availability": {
+        "from": "2025-10-07T04:00:00Z",
+        "to": "2025-11-07T11:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-11-07T05:00:00Z",
+          "to": "2025-11-07T11:00:00Z"
+        }
+      ],
+      "expiration": "2025-11-07T11:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Wollongong bus diversions",
+        "url": "https://transportnsw.info/alerts/details#/ems-60089",
+        "content": "<div>On Friday 7 November, from 4pm to 10pm, route 90 and 92 bus services will divert due to road closures for the Nitro Circus. <br /><br /><strong>Missed stops:</strong></div>\n<ul>\n<li>Burelli St at Harbour St In (Southbound) (Stop ID 250029)</li>\n<li>Burelli St opp Steelers Club (Stop ID 2500410)</li>\n</ul>",
+        "subtitle": "Wollongong bus diversions",
+        "smsText": "Wollongong bus diversions",
+        "speechText": "On Friday 7 November, from 4pm to 10pm, route 90 and 92 bus services will divert due to road closures for the Nitro Circus."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "1ec9d7b0-e635-5573-b53e-53e5680b9a5c",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Wollongong bus diversions",
+      "speechText": "On Friday 7 November, from 4pm to 10pm, route 90 and 92 bus services will divert due to road closures for the Nitro Circus."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:70090: :H:",
+          "destination": {
+            "name": "George St at Lawrence Hargrave Dr, Thirroul",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 90",
+          "number": "90",
+          "description": "Wollongong to Austinmer Station",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2458",
+            "name": "Dions Bus Service"
+          },
+          "iconId": 5
+        },
+        {
+          "id": "nsw:70092: :H:",
+          "destination": {
+            "name": "Bulli Heritage Hotel, Princes Hwy, Bulli",
+            "type": "stop"
+          },
+          "name": "Illawarra Buses Network 92",
+          "number": "92",
+          "description": "Wollongong to Bulli",
+          "product": {
+            "id": 16,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2458",
+            "name": "Dions Bus Service"
+          },
+          "iconId": 16
+        }
+      ]
+    },
+    "urlText": "Wollongong bus diversions",
+    "url": "https://transportnsw.info/alerts/details#/ems-60089",
+    "content": "<div>On Friday 7 November, from 4pm to 10pm, route 90 and 92 bus services will divert due to road closures for the Nitro Circus. <br /><br /><strong>Missed stops:</strong></div>\n<ul>\n<li>Burelli St at Harbour St In (Southbound) (Stop ID 250029)</li>\n<li>Burelli St opp Steelers Club (Stop ID 2500410)</li>\n</ul>",
+    "subtitle": "Wollongong bus diversions"
   },
   {
     "type": "lineInfo",
@@ -32154,96 +32470,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-60041",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-10-06T23:18:00Z",
-      "lastModification": "2025-10-06T23:18:00Z",
-      "availability": {
-        "from": "2025-10-06T15:00:00Z",
-        "to": "2025-10-26T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-24T15:00:00Z",
-          "to": "2025-10-26T15:00:00Z"
-        }
-      ],
-      "expiration": "2025-10-26T15:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Trains run to a changed timetable and stopping pattern",
-        "url": "https://transportnsw.info/alerts/details#/ems-60041",
-        "content": "<div>\n<div><strong>Saturday 25 to Sunday 26 October</strong></div>\n<ul>\n<li>Trains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.</li>\n<li>You may need to change trains to continue your journey.</li>\n<li>T1 Western Line trains make an extra stop at Burwood.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-        "subtitle": "Trains run to a changed timetable and stopping pattern",
-        "smsText": "Trains run to a changed timetable and stopping pattern",
-        "speechText": "Saturday 25 to Sunday 26 October\nTrains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.\nYou may need to change trains to continue your journey.\nT1 Western Line trains make an extra stop at Burwood."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d953d163-ef44-5a28-8b04-4513fa292ddc",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Trains run to a changed timetable and stopping pattern",
-      "speechText": "Saturday 25 to Sunday 26 October\nTrains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.\nYou may need to change trains to continue your journey.\nT1 Western Line trains make an extra stop at Burwood."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T3: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
-          "number": "T3 Liverpool & Inner West Line",
-          "description": "Liverpool or Lidcombe to City",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Macarthur Station, Campbelltown",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
-          "number": "T3 Liverpool & Inner West Line",
-          "description": "City to Liverpool or Lidcombe",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "Trains run to a changed timetable and stopping pattern",
-    "url": "https://transportnsw.info/alerts/details#/ems-60041",
-    "content": "<div>\n<div><strong>Saturday 25 to Sunday 26 October</strong></div>\n<ul>\n<li>Trains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.</li>\n<li>You may need to change trains to continue your journey.</li>\n<li>T1 Western Line trains make an extra stop at Burwood.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-    "subtitle": "Trains run to a changed timetable and stopping pattern"
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-42614",
     "version": 1,
     "priority": "normal",
@@ -32675,6 +32901,206 @@
     "url": "https://transportnsw.info/alerts/details#/ems-59891",
     "content": "<div><strong>From 5pm Friday 17 October to 11:30pm Saturday 18 October</strong>, buses will be diverting around a section of West Pde as well as Eastwood Ave, and missing stops due to road closures for the Granny Smith Festival.&nbsp;<br /> &nbsp;<br />Services to and from Epping will start and end trips at a temporary bus stop on Wingate Ave after West Pde, Eastwood (Stop ID 2122207).&nbsp;<br /> &nbsp;<br />Stops at Eastwood Station and Eastwood Ave will be missed. &nbsp;<br /> &nbsp;<br />Check signs at stops for alternative stop locations and allow extra travel time.&nbsp;<br /> &nbsp;<br /><strong>Missed stops&nbsp;</strong></div>\n<ul>\n<li>Eastwood Station, West Pde, Stand A, Eastwood (Stop ID 212214)&nbsp;</li>\n<li>Eastwood Station, West Pde, Stand B, Eastwood (Stop ID 212215)&nbsp;</li>\n<li>Eastwood Ave after Harley Cres, Eastwood (Stop ID 2122165)&nbsp;</li>\n<li>Eastwood Ave opp Cocos Ave, Eastwood (Stop ID 2122162)&nbsp;</li>\n<li>Eastwood Ave after Rothwell St, Eastwood (Stop ID 2122160)&nbsp;<br />&nbsp;</li>\n</ul>",
     "subtitle": "Eastwood bus diversions for a special event"
+  },
+  {
+    "type": "tripMessage",
+    "id": "23867f1c24dfe575fdfbd1d9649c87235f18e2fc",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-14T03:52:00Z",
+      "lastModification": "2025-10-14T03:52:00Z",
+      "availability": {
+        "from": "2025-10-14T03:52:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-14T03:52:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Not stopping at",
+        "url": "https://transportnsw.info/alerts/details#/23867f1c24dfe575fdfbd1d9649c87235f18e2fc",
+        "content": "Allawah,Carlton,Banksia,Arncliffe Due to an operational issue earlier. Please allow extra travel time.",
+        "subtitle": "Not stopping at",
+        "smsText": "Not stopping at",
+        "speechText": "Allawah,Carlton,Banksia,Arncliffe Due to an operational issue earlier. Please allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "9e5cee6f-b051-543b-9a68-48a8f61b53f1",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Not stopping at",
+      "speechText": "Allawah,Carlton,Banksia,Arncliffe Due to an operational issue earlier. Please allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T4: :R:",
+          "destination": {
+            "name": "Bondi Junction Station, Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Waterfall or Cronulla to Bondi Junction",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "trips": [
+            {
+              "tripCode": 85,
+              "realtimeTripId": "625F.947.160.12.T.8.86813765",
+              "trainNumber": "85",
+              "departureTimePlannedJourneyOrigin": "2025-10-14T03:51:00Z",
+              "stops": [
+                {
+                  "id": "10101339",
+                  "name": "Hurstville Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T03:51:00Z"
+                },
+                {
+                  "id": "10101338",
+                  "name": "Allawah Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T03:54:00Z",
+                  "arrivalTimePlanned": "2025-10-14T03:53:00Z"
+                },
+                {
+                  "id": "10101337",
+                  "name": "Carlton Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T03:56:00Z",
+                  "arrivalTimePlanned": "2025-10-14T03:55:00Z"
+                },
+                {
+                  "id": "10101336",
+                  "name": "Kogarah Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T03:58:00Z",
+                  "arrivalTimePlanned": "2025-10-14T03:57:00Z"
+                },
+                {
+                  "id": "10101335",
+                  "name": "Rockdale Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:00:00Z",
+                  "arrivalTimePlanned": "2025-10-14T03:59:00Z"
+                },
+                {
+                  "id": "10101334",
+                  "name": "Banksia Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:02:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:01:00Z"
+                },
+                {
+                  "id": "10101333",
+                  "name": "Arncliffe Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:04:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:03:00Z"
+                },
+                {
+                  "id": "10101328",
+                  "name": "Wolli Creek Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:07:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:06:00Z"
+                },
+                {
+                  "id": "10101327",
+                  "name": "Tempe Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:08:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:07:00Z"
+                },
+                {
+                  "id": "10101326",
+                  "name": "Sydenham Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:11:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:11:00Z"
+                },
+                {
+                  "id": "10101421",
+                  "name": "Redfern Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:17:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:16:00Z"
+                },
+                {
+                  "id": "10101100",
+                  "name": "Central Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:20:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:19:00Z"
+                },
+                {
+                  "id": "10101101",
+                  "name": "Town Hall Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:23:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:22:00Z"
+                },
+                {
+                  "id": "10101106",
+                  "name": "Martin Place Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:25:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:24:00Z"
+                },
+                {
+                  "id": "10101107",
+                  "name": "Kings Cross Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:27:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:27:00Z"
+                },
+                {
+                  "id": "10101108",
+                  "name": "Edgecliff Station",
+                  "type": "stop",
+                  "departureTimePlanned": "2025-10-14T04:30:00Z",
+                  "arrivalTimePlanned": "2025-10-14T04:29:00Z"
+                },
+                {
+                  "id": "10101109",
+                  "name": "Bondi Junction Station",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2025-10-14T04:33:00Z"
+                }
+              ]
+            }
+          ],
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "Not stopping at",
+    "url": "https://transportnsw.info/alerts/details#/23867f1c24dfe575fdfbd1d9649c87235f18e2fc",
+    "content": "Allawah,Carlton,Banksia,Arncliffe Due to an operational issue earlier. Please allow extra travel time.",
+    "subtitle": "Not stopping at"
   },
   {
     "type": "lineInfo",
@@ -36620,6 +37046,166 @@
     "url": "https://transportnsw.info/alerts/details#/ems-60420",
     "content": "<div>Due to operational requirements, CLK34 has been replaced by a road coach Casino and Grafton stations.&nbsp;</div>\n\nPlan ahead and allow extra travel time.",
     "subtitle": "CLK34 - Modified Service"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-60041",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-06T23:18:00Z",
+      "lastModification": "2025-10-06T23:18:00Z",
+      "availability": {
+        "from": "2025-10-06T15:00:00Z",
+        "to": "2025-10-26T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-24T15:00:00Z",
+          "to": "2025-10-26T15:00:00Z"
+        }
+      ],
+      "expiration": "2025-10-26T15:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Trains run to a changed timetable and stopping pattern",
+        "url": "https://transportnsw.info/alerts/details#/ems-60041",
+        "content": "<div>\n<div><strong>Saturday 25 to Sunday 26 October</strong></div>\n<ul>\n<li>Trains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.</li>\n<li>You may need to change trains to continue your journey.</li>\n<li>T1 Western Line trains make an extra stop at Burwood.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+        "subtitle": "Trains run to a changed timetable and stopping pattern",
+        "smsText": "Trains run to a changed timetable and stopping pattern",
+        "speechText": "Saturday 25 to Sunday 26 October\nTrains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.\nYou may need to change trains to continue your journey.\nT1 Western Line trains make an extra stop at Burwood."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "d953d163-ef44-5a28-8b04-4513fa292ddc",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Trains run to a changed timetable and stopping pattern",
+      "speechText": "Saturday 25 to Sunday 26 October\nTrains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.\nYou may need to change trains to continue your journey.\nT1 Western Line trains make an extra stop at Burwood."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T3: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
+          "number": "T3 Liverpool & Inner West Line",
+          "description": "Liverpool or Lidcombe to City",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Macarthur Station, Campbelltown",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
+          "number": "T3 Liverpool & Inner West Line",
+          "description": "City to Liverpool or Lidcombe",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "Trains run to a changed timetable and stopping pattern",
+    "url": "https://transportnsw.info/alerts/details#/ems-60041",
+    "content": "<div>\n<div><strong>Saturday 25 to Sunday 26 October</strong></div>\n<ul>\n<li>Trains run to a changed timetable and stopping pattern between Leppington and the City via Regents Park.</li>\n<li>You may need to change trains to continue your journey.</li>\n<li>T1 Western Line trains make an extra stop at Burwood.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+    "subtitle": "Trains run to a changed timetable and stopping pattern"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-60436",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-10-14T03:47:00Z",
+      "lastModification": "2025-10-14T03:47:00Z",
+      "availability": {
+        "from": "2025-10-14T03:46:00Z",
+        "to": "2025-10-14T11:46:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-14T03:46:00Z",
+          "to": "2025-10-14T11:46:00Z"
+        }
+      ],
+      "expiration": "2025-10-14T11:46:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train service delays at Menindee Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-60436",
+        "content": "There are delays on route 445 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train service delays at Menindee Station",
+        "smsText": "Train service delays at Menindee Station",
+        "speechText": "There are delays on route 445 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "e94ba386-666a-552b-834b-8df2c999c956",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays at Menindee Station",
+      "speechText": "There are delays on route 445 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76445: :H:",
+          "destination": {
+            "name": "Broken Hill Station, Broken Hill",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 445",
+          "number": "445",
+          "description": "Central to Broken Hill",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Train service delays at Menindee Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-60436",
+    "content": "There are delays on route 445 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Menindee Station"
   },
   {
     "type": "stopInfo",
@@ -49770,231 +50356,5 @@
     "url": "https://transportnsw.info/alerts/details#/ems-58770",
     "content": "<div>\n<div><strong>From Monday 15 September</strong>, timetables for routes <strong>140</strong> and <strong>141</strong> have been adjusted to better reflect travel time through roadworks in the Newcastle region.<br /><br />Passengers using these services are advised to <a href=\"https://transportnsw.info/trip\">check the Trip Planner</a> before travelling.<br /><br /><br /></div>\n</div>",
     "subtitle": "Timetable changes due to roadworks"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-60401",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-10-13T23:28:00Z",
-      "lastModification": "2025-10-13T23:28:00Z",
-      "availability": {
-        "from": "2025-10-13T23:00:00Z",
-        "to": "2025-10-28T14:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-27T10:15:00Z",
-          "to": "2025-10-27T14:30:00Z"
-        },
-        {
-          "from": "2025-10-28T10:15:00Z",
-          "to": "2025-10-28T14:30:00Z"
-        }
-      ],
-      "expiration": "2025-10-28T14:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
-        "url": "https://transportnsw.info/alerts/details#/ems-60401",
-        "content": "<div><strong>Monday 27 and Tuesday 28 October </strong></div>\n<ul>\n<li><strong>Nightly from 9.15pm to 1.30am</strong>, buses replace trains from Hornsby to Milsons Point.</li>\n<li>The last train from Hornsby to the City leaves Hornsby at 21:12, arriving Wynyard at 21:55.<br /><br /></li>\n<li><strong>Nightly from 9.50pm to 1.30am</strong>, buses replace trains from Milsons Point to Hornsby.</li>\n<li>The last train to Hornsby leaves Wynyard at 21:52, arriving Hornsby at 22:35.</li>\n<li>Replacement buses also stop at Crows Nest and Victoria Cross metro stations.</li>\n<li>Use metro services between Chatswood, Crows Nest or Victoria Cross and the City.</li>\n<li>T9 trains run between Berowra or Hornsby and Central, platforms 1-14.</li>\n<li>Some late-night buses run between T1 North Shore Line stations and Wynyard.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />97T1 Chatswood, all stations to Milsons Point (including Crows Nest and Victoria Cross metro stations) <br />and return (late-night services extend to Wynyard)<br />98T1 Hornsby, all stations to Chatswood and return</div>",
-        "subtitle": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
-        "smsText": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
-        "speechText": "Monday 27 and Tuesday 28 October \nNightly from 9:15PM to 1:30AM, buses replace trains from Hornsby to Milsons Point.\nThe last train from Hornsby to the City leaves Hornsby at 21:12, arriving Wynyard at 21:55.\nNightly from 9:50PM to 1:30AM, buses replace trains from Milsons Point to Hornsby."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7a7786e5-64d2-5ca9-9c32-3e2ab89703aa",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
-      "speechText": "Monday 27 and Tuesday 28 October \nNightly from 9:15PM to 1:30AM, buses replace trains from Hornsby to Milsons Point.\nThe last train from Hornsby to the City leaves Hornsby at 21:12, arriving Wynyard at 21:55.\nNightly from 9:50PM to 1:30AM, buses replace trains from Milsons Point to Hornsby."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:N:H:",
-          "destination": {
-            "name": "Berowra Station, Berowra",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Berowra via Gordon",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T1:N:R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Berowra to City via Gordon",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City",
-    "url": "https://transportnsw.info/alerts/details#/ems-60401",
-    "content": "<div><strong>Monday 27 and Tuesday 28 October </strong></div>\n<ul>\n<li><strong>Nightly from 9.15pm to 1.30am</strong>, buses replace trains from Hornsby to Milsons Point.</li>\n<li>The last train from Hornsby to the City leaves Hornsby at 21:12, arriving Wynyard at 21:55.<br /><br /></li>\n<li><strong>Nightly from 9.50pm to 1.30am</strong>, buses replace trains from Milsons Point to Hornsby.</li>\n<li>The last train to Hornsby leaves Wynyard at 21:52, arriving Hornsby at 22:35.</li>\n<li>Replacement buses also stop at Crows Nest and Victoria Cross metro stations.</li>\n<li>Use metro services between Chatswood, Crows Nest or Victoria Cross and the City.</li>\n<li>T9 trains run between Berowra or Hornsby and Central, platforms 1-14.</li>\n<li>Some late-night buses run between T1 North Shore Line stations and Wynyard.<br /><br /></li>\n<li>Replacement buses for trackwork may be affected by driver shortages. We are doing all we can to minimise the impact to your journey and provide a safe service, however cancellations or delays may occur.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />97T1 Chatswood, all stations to Milsons Point (including Crows Nest and Victoria Cross metro stations) <br />and return (late-night services extend to Wynyard)<br />98T1 Hornsby, all stations to Chatswood and return</div>",
-    "subtitle": "T1 North Shore Line: Buses replace trains between Hornsby and Milsons Point. Use metro between Chatswood and the City"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-59838",
-    "version": 65376,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-10-02T05:07:00Z",
-      "lastModification": "2025-10-02T23:17:00Z",
-      "availability": {
-        "from": "2025-10-02T23:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-18T13:01:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Service alert Blue Mountains",
-        "url": "https://transportnsw.info/alerts/details#/ems-59838",
-        "content": "<div><strong>From Sunday 19 October</strong>, some Wednesday services will run to a changed timetable. Please check indicator screens for departure times.</div>",
-        "subtitle": "Service alert Blue Mountains",
-        "smsText": "Service alert Blue Mountains",
-        "speechText": "From Sunday 19 October, some Wednesday services will run to a changed timetable. Please check indicator screens for departure times."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "09466415-aa50-51bd-8ae7-c7b4d07a6466",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Service alert Blue Mountains",
-      "speechText": "From Sunday 19 October, some Wednesday services will run to a changed timetable. Please check indicator screens for departure times."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station, Bathurst",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:76BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station, Bathurst",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Lithgow to Bathurst",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:02BMT: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:76BMT: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          },
-          "iconId": 2
-        }
-      ]
-    },
-    "urlText": "Service alert Blue Mountains",
-    "url": "https://transportnsw.info/alerts/details#/ems-59838",
-    "content": "<div><strong>From Sunday 19 October</strong>, some Wednesday services will run to a changed timetable. Please check indicator screens for departure times.</div>",
-    "subtitle": "Service alert Blue Mountains"
   }
 ]
