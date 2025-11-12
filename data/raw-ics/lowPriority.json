@@ -71,134 +71,76 @@
     "subtitle": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n."
   },
   {
-    "type": "lineInfo",
-    "id": "ems-181",
-    "version": 38596556,
+    "type": "infrastructure",
+    "id": "ems-62057",
+    "version": 4,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T05:32:00Z",
-      "lastModification": "2023-02-08T22:48:00Z",
+      "creation": "2025-11-12T04:40:00Z",
+      "lastModification": "2025-11-12T04:40:00Z",
       "availability": {
-        "from": "2021-11-19T05:00:00Z",
+        "from": "2025-11-05T07:30:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T05:00:00Z",
+          "from": "2025-11-12T04:40:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2504-12-20T08:30:59Z"
     },
     "infoLinks": [
       {
-        "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-        "url": "https://transportnsw.info/alerts/details#/ems-181",
-        "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
-        "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-        "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+        "urlText": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62057",
+        "content": "At Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7243.",
+        "subtitle": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "smsText": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7243."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f9d26fc0-ddd6-5885-a6fb-4b4f91d8c21c",
+      "messageRef": "3560ab50-f35f-5108-a304-16db1850df7f",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "276310:2763171,2763172",
       "providerCode": "TfNSW",
-      "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+      "smsText": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7243."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:08MCS: :R:",
-          "destination": {
-            "name": "Jolimont Centre, Canberra City (ACT)",
-            "type": "stop"
+          "id": "276310",
+          "isGlobalId": true,
+          "name": "Quakers Hill Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308030:1",
+            "name": "Quakers Hill",
+            "type": "locality"
           },
-          "name": "Private coach services MCS",
-          "number": "MCS",
-          "description": "South Coast to Canberra",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08MCS: :H:",
-          "destination": {
-            "name": "Narooma Plaza, Princes Hwy, Narooma",
-            "type": "stop"
-          },
-          "name": "Private coach services MCS",
-          "number": "MCS",
-          "description": "Canberra to South Coast",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08855: :H:",
-          "destination": {
-            "name": "Jolimont Centre, Canberra City (ACT)",
-            "type": "stop"
-          },
-          "name": "Private coach services 855",
-          "number": "855",
-          "description": "Wollongong to Canberra",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08855: :R:",
-          "destination": {
-            "name": "Wollongong Station",
-            "type": "stop"
-          },
-          "name": "Private coach services 855",
-          "number": "855",
-          "description": "Canberra to Wollongong",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
+          "properties": {
+            "stopId": "10101237"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-    "url": "https://transportnsw.info/alerts/details#/ems-181",
-    "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
-    "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+    "urlText": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62057",
+    "content": "At Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7243.",
+    "subtitle": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
@@ -406,216 +348,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-62017",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-11-12T00:45:00Z",
-      "lastModification": "2025-11-12T00:45:00Z",
-      "availability": {
-        "from": "2025-11-05T03:35:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-12T00:45:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-12-20T04:35:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62017",
-        "content": "At Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5613.",
-        "subtitle": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
-        "smsText": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
-        "speechText": "At Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5613."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "a31998b8-c1fa-5c36-9ec4-c513fa3d79c7",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "2529218:2529219",
-      "providerCode": "TfNSW",
-      "smsText": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
-      "speechText": "At Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5613."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "2529218",
-          "isGlobalId": true,
-          "name": "Shellharbour Junction Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95353008:1",
-            "name": "Dunmore",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101426"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62017",
-    "content": "At Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5613.",
-    "subtitle": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-61354",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-10-30T02:21:00Z",
-      "lastModification": "2025-10-30T02:21:00Z",
-      "availability": {
-        "from": "2025-10-23T05:11:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-10-30T02:21:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-12-07T06:12:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-61354",
-        "content": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service.",
-        "subtitle": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-        "smsText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-        "speechText": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d5485b41-3222-552f-bd08-0cbdd1026677",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "212110",
-      "providerCode": "TfNSW",
-      "smsText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-      "speechText": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "212110",
-          "isGlobalId": true,
-          "name": "Epping Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101429"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-61354",
-    "content": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service.",
-    "subtitle": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-62057",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-11-12T04:40:00Z",
-      "lastModification": "2025-11-12T04:40:00Z",
-      "availability": {
-        "from": "2025-11-05T07:30:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-12T04:40:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-12-20T08:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62057",
-        "content": "At Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7243.",
-        "subtitle": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "smsText": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "speechText": "At Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7243."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "3560ab50-f35f-5108-a304-16db1850df7f",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "276310:2763171,2763172",
-      "providerCode": "TfNSW",
-      "smsText": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7243."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "276310",
-          "isGlobalId": true,
-          "name": "Quakers Hill Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308030:1",
-            "name": "Quakers Hill",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101237"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62057",
-    "content": "At Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7243.",
-    "subtitle": "Quakers Hill Station Lift 2 between the concourse and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-61655",
     "version": 48,
     "priority": "low",
@@ -688,6 +420,144 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-61354",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-10-30T02:21:00Z",
+      "lastModification": "2025-10-30T02:21:00Z",
+      "availability": {
+        "from": "2025-10-23T05:11:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-30T02:21:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-12-07T06:12:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-61354",
+        "content": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service.",
+        "subtitle": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+        "smsText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+        "speechText": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "d5485b41-3222-552f-bd08-0cbdd1026677",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "212110",
+      "providerCode": "TfNSW",
+      "smsText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+      "speechText": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "212110",
+          "isGlobalId": true,
+          "name": "Epping Station",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101429"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-61354",
+    "content": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service.",
+    "subtitle": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-62017",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-11-12T00:45:00Z",
+      "lastModification": "2025-11-12T00:45:00Z",
+      "availability": {
+        "from": "2025-11-05T03:35:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-11-12T00:45:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-12-20T04:35:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62017",
+        "content": "At Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5613.",
+        "subtitle": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
+        "smsText": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
+        "speechText": "At Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5613."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "a31998b8-c1fa-5c36-9ec4-c513fa3d79c7",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "2529218:2529219",
+      "providerCode": "TfNSW",
+      "smsText": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
+      "speechText": "At Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5613."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "2529218",
+          "isGlobalId": true,
+          "name": "Shellharbour Junction Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95353008:1",
+            "name": "Dunmore",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101426"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62017",
+    "content": "At Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5613.",
+    "subtitle": "Shellharbour Junction Station Lift 1 between the concourse and Platform 1 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-61308",
     "version": 12,
     "priority": "low",
@@ -748,6 +618,136 @@
     "url": "https://transportnsw.info/alerts/details#/ems-61308",
     "content": "At Town Hall Station Escalator 8 between the concourse and the southern end of Platform 4 is temporarily out of service.\nFrom Monday 13 October to 30 November 2025, one of the escalators to Platform 4 will be closed for maintenance work. Other escalators and the lift are available to exit the platform. Please allow for extra time to exit platform 4.  \nIf you need help, ask staff or phone 02 9379 4110.",
     "subtitle": "Town Hall Station Escalator 8 between the concourse and the southern end of Platform 4 is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-181",
+    "version": 38596556,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T05:32:00Z",
+      "lastModification": "2023-02-08T22:48:00Z",
+      "availability": {
+        "from": "2021-11-19T05:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T05:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+        "url": "https://transportnsw.info/alerts/details#/ems-181",
+        "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
+        "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+        "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "f9d26fc0-ddd6-5885-a6fb-4b4f91d8c21c",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:08MCS: :R:",
+          "destination": {
+            "name": "Jolimont Centre, Canberra City (ACT)",
+            "type": "stop"
+          },
+          "name": "Private coach services MCS",
+          "number": "MCS",
+          "description": "South Coast to Canberra",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08MCS: :H:",
+          "destination": {
+            "name": "Narooma Plaza, Princes Hwy, Narooma",
+            "type": "stop"
+          },
+          "name": "Private coach services MCS",
+          "number": "MCS",
+          "description": "Canberra to South Coast",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08855: :H:",
+          "destination": {
+            "name": "Jolimont Centre, Canberra City (ACT)",
+            "type": "stop"
+          },
+          "name": "Private coach services 855",
+          "number": "855",
+          "description": "Wollongong to Canberra",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08855: :R:",
+          "destination": {
+            "name": "Wollongong Station",
+            "type": "stop"
+          },
+          "name": "Private coach services 855",
+          "number": "855",
+          "description": "Canberra to Wollongong",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        }
+      ]
+    },
+    "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+    "url": "https://transportnsw.info/alerts/details#/ems-181",
+    "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
+    "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
   },
   {
     "type": "infrastructure",
