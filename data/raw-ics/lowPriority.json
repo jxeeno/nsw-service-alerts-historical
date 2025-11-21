@@ -220,21 +220,21 @@
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
-    "type": "lineInfo",
-    "id": "ems-181",
-    "version": 38596556,
+    "type": "infrastructure",
+    "id": "ems-61671",
+    "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T05:32:00Z",
-      "lastModification": "2023-02-08T22:48:00Z",
+      "creation": "2025-11-05T00:17:00Z",
+      "lastModification": "2025-11-05T00:17:00Z",
       "availability": {
-        "from": "2021-11-19T05:00:00Z",
+        "from": "2025-11-05T00:13:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T05:00:00Z",
+          "from": "2025-11-05T00:13:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
@@ -243,142 +243,83 @@
     },
     "infoLinks": [
       {
-        "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-        "url": "https://transportnsw.info/alerts/details#/ems-181",
-        "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
-        "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-        "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+        "urlText": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
+        "url": "https://transportnsw.info/alerts/details#/ems-61671",
+        "content": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use even if doors open.</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to<br />Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform<br />Or call 131 500</li>\n</ul>\n</div>",
+        "subtitle": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
+        "smsText": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
+        "speechText": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f9d26fc0-ddd6-5885-a6fb-4b4f91d8c21c",
+      "messageRef": "fbf4bed1-ea0d-5005-8ad3-e5643cad21fd",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200952:200938",
       "providerCode": "TfNSW",
-      "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+      "smsText": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
+      "speechText": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:08MCS: :R:",
-          "destination": {
-            "name": "Jolimont Centre, Canberra City (ACT)",
-            "type": "stop"
+          "id": "200952",
+          "isGlobalId": true,
+          "name": "Fish Market Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
           },
-          "name": "Private coach services MCS",
-          "number": "MCS",
-          "description": "South Coast to Canberra",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08MCS: :H:",
-          "destination": {
-            "name": "Narooma Plaza, Princes Hwy, Narooma",
-            "type": "stop"
-          },
-          "name": "Private coach services MCS",
-          "number": "MCS",
-          "description": "Canberra to South Coast",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08855: :H:",
-          "destination": {
-            "name": "Jolimont Centre, Canberra City (ACT)",
-            "type": "stop"
-          },
-          "name": "Private coach services 855",
-          "number": "855",
-          "description": "Wollongong to Canberra",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08855: :R:",
-          "destination": {
-            "name": "Wollongong Station",
-            "type": "stop"
-          },
-          "name": "Private coach services 855",
-          "number": "855",
-          "description": "Canberra to Wollongong",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
+          "properties": {
+            "stopId": "10101635"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-    "url": "https://transportnsw.info/alerts/details#/ems-181",
-    "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
-    "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+    "urlText": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
+    "url": "https://transportnsw.info/alerts/details#/ems-61671",
+    "content": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use even if doors open.</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to<br />Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform<br />Or call 131 500</li>\n</ul>\n</div>",
+    "subtitle": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n."
   },
   {
     "type": "infrastructure",
-    "id": "ems-62159",
-    "version": 6235,
+    "id": "ems-61095",
+    "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-11-13T22:03:00Z",
-      "lastModification": "2025-11-13T23:46:00Z",
+      "creation": "2025-10-24T00:16:00Z",
+      "lastModification": "2025-10-24T00:16:00Z",
       "availability": {
-        "from": "2025-11-12T23:02:00Z",
+        "from": "2025-10-17T03:06:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-11-12T23:03:00Z",
+          "from": "2025-10-24T00:16:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-12-21T13:53:59Z"
+      "expiration": "2504-12-01T04:07:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62159",
-        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
+        "urlText": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-61095",
+        "content": "At Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is temporarily out of service.",
+        "subtitle": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
+        "smsText": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
+        "speechText": "At Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is temporarily out of service."
       }
     ],
     "properties": {
@@ -387,28 +328,22 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "bfd1fd43-1590-5884-a319-cbe4e264871c",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204420:204476",
+      "stopIDglobalID": "212110",
       "providerCode": "TfNSW",
-      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
+      "smsText": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
+      "speechText": "At Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is temporarily out of service."
     },
     "affected": {
       "stops": [
         {
-          "id": "204420",
+          "id": "212110",
           "isGlobalId": true,
-          "name": "Sydenham Station",
+          "name": "Epping Station",
           "type": "stop",
-          "parent": {
-            "id": "placeID:95338008:1",
-            "name": "Sydenham",
-            "type": "locality"
-          },
           "properties": {
-            "stopId": "10101326"
+            "stopId": "10101429"
           }
         }
       ],
@@ -416,10 +351,10 @@
         {}
       ]
     },
-    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62159",
-    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
+    "urlText": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-61095",
+    "content": "At Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is temporarily out of service.",
+    "subtitle": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available"
   },
   {
     "type": "infrastructure",
@@ -567,6 +502,78 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-62444",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-11-18T23:13:00Z",
+      "lastModification": "2025-11-18T23:13:00Z",
+      "availability": {
+        "from": "2025-03-04T11:04:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-11-18T00:13:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-12-26T15:04:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62444",
+        "content": "At Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
+        "subtitle": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
+        "smsText": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
+        "speechText": "At Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "21fdff28-1f2e-59f0-b569-da8dd24ad3c1",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "2250772",
+      "providerCode": "TfNSW",
+      "smsText": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
+      "speechText": "At Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "2250772",
+          "isGlobalId": true,
+          "name": "Narara Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95320047:1",
+            "name": "Narara",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101140"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62444",
+    "content": "At Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
+    "subtitle": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-62586",
     "version": 2,
     "priority": "low",
@@ -638,76 +645,134 @@
     "subtitle": "Maitland Station Lift 3 between the footbridge and Platform 4/5 is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-62562",
-    "version": 2,
+    "type": "lineInfo",
+    "id": "ems-181",
+    "version": 38596556,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-11-21T02:20:00Z",
-      "lastModification": "2025-11-21T02:20:00Z",
+      "creation": "2021-11-19T05:32:00Z",
+      "lastModification": "2023-02-08T22:48:00Z",
       "availability": {
-        "from": "2025-11-14T05:10:00Z",
+        "from": "2021-11-19T05:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-11-21T02:20:00Z",
+          "from": "2021-11-19T05:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-12-29T06:11:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62562",
-        "content": "At Carlton Station Lift 1 between Carlton Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612.",
-        "subtitle": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
-        "smsText": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
-        "speechText": "At Carlton Station Lift 1 between Carlton Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612."
+        "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+        "url": "https://transportnsw.info/alerts/details#/ems-181",
+        "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
+        "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+        "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "4edad45a-401b-5369-8c5d-b53a6a0391c8",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "f9d26fc0-ddd6-5885-a6fb-4b4f91d8c21c",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "221810",
       "providerCode": "TfNSW",
-      "smsText": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
-      "speechText": "At Carlton Station Lift 1 between Carlton Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612."
+      "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "221810",
-          "isGlobalId": true,
-          "name": "Carlton Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95329002:1",
-            "name": "Carlton",
-            "type": "locality"
+          "id": "nsw:08MCS: :R:",
+          "destination": {
+            "name": "Jolimont Centre, Canberra City (ACT)",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101337"
-          }
+          "name": "Private coach services MCS",
+          "number": "MCS",
+          "description": "South Coast to Canberra",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08MCS: :H:",
+          "destination": {
+            "name": "Narooma Plaza, Princes Hwy, Narooma",
+            "type": "stop"
+          },
+          "name": "Private coach services MCS",
+          "number": "MCS",
+          "description": "Canberra to South Coast",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08855: :H:",
+          "destination": {
+            "name": "Jolimont Centre, Canberra City (ACT)",
+            "type": "stop"
+          },
+          "name": "Private coach services 855",
+          "number": "855",
+          "description": "Wollongong to Canberra",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08855: :R:",
+          "destination": {
+            "name": "Wollongong Station",
+            "type": "stop"
+          },
+          "name": "Private coach services 855",
+          "number": "855",
+          "description": "Canberra to Wollongong",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     },
-    "urlText": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62562",
-    "content": "At Carlton Station Lift 1 between Carlton Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612.",
-    "subtitle": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available"
+    "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+    "url": "https://transportnsw.info/alerts/details#/ems-181",
+    "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
+    "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
   },
   {
     "type": "infrastructure",
@@ -783,34 +848,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-61354",
-    "version": 3,
+    "id": "ems-62159",
+    "version": 6235,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-10-30T02:21:00Z",
-      "lastModification": "2025-10-30T02:21:00Z",
+      "creation": "2025-11-13T22:03:00Z",
+      "lastModification": "2025-11-13T23:46:00Z",
       "availability": {
-        "from": "2025-10-23T05:11:00Z",
+        "from": "2025-11-12T23:02:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-30T02:21:00Z",
+          "from": "2025-11-12T23:03:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-12-07T06:12:59Z"
+      "expiration": "2504-12-21T13:53:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-61354",
-        "content": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service.",
-        "subtitle": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-        "smsText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-        "speechText": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service."
+        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62159",
+        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
       }
     ],
     "properties": {
@@ -819,94 +884,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d5485b41-3222-552f-bd08-0cbdd1026677",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "212110",
-      "providerCode": "TfNSW",
-      "smsText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-      "speechText": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "212110",
-          "isGlobalId": true,
-          "name": "Epping Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101429"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-61354",
-    "content": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service.",
-    "subtitle": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-62444",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-11-18T23:13:00Z",
-      "lastModification": "2025-11-18T23:13:00Z",
-      "availability": {
-        "from": "2025-03-04T11:04:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-18T00:13:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-12-26T15:04:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62444",
-        "content": "At Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
-        "subtitle": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
-        "smsText": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
-        "speechText": "At Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "21fdff28-1f2e-59f0-b569-da8dd24ad3c1",
+      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "2250772",
+      "stopIDglobalID": "204420:204476",
       "providerCode": "TfNSW",
-      "smsText": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
-      "speechText": "At Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450."
+      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
     },
     "affected": {
       "stops": [
         {
-          "id": "2250772",
+          "id": "204420",
           "isGlobalId": true,
-          "name": "Narara Station",
+          "name": "Sydenham Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95320047:1",
-            "name": "Narara",
+            "id": "placeID:95338008:1",
+            "name": "Sydenham",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101140"
+            "stopId": "10101326"
           }
         }
       ],
@@ -914,10 +913,76 @@
         {}
       ]
     },
-    "urlText": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62444",
-    "content": "At Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
-    "subtitle": "Narara Station Lift 1 between the footbridge and Platform 1 or Goonak Pde is not available"
+    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62159",
+    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-60328",
+    "version": 12465,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-10-12T19:24:00Z",
+      "lastModification": "2025-10-12T22:52:00Z",
+      "availability": {
+        "from": "2025-10-05T22:14:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-10-12T19:24:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-11-19T23:14:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-60328",
+        "content": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\nFrom Sunday 12 October to Monday 15 December 2025, the lift will be closed for an upgrade.\nCustomers arriving on Platforms 1 and 2 that need lift access, will need to change at Narwee Station, then board the 940 bus to return to Riverwood Station.\nCustomers travelling from the concourse that require lift access, will need to catch the 940 bus to Narwee Station, then board a train to your destination.  \nBaggage handlers will be available to assist during busy times.\n\nIf you need help, ask staff or phone 02 9563 7646.",
+        "subtitle": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+        "smsText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+        "speechText": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\nFrom Sunday 12 October to Monday 15 December 2025, the lift will be closed for an upgrade.\nCustomers arriving on Platforms 1 and 2 that need lift access, will need to change at Narwee Station, then board the 940 bus to return to Riverwood Station.\nCustomers travelling from the concourse that require lift access, will need to catch the 940 bus to Narwee Station, then board a train to your destination.  \nBaggage handlers will be available to assist during busy times.\n\nIf you need help, ask staff or phone 02 9563 7646."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "46645056-f6d8-5e7c-adca-7d661e99aa38",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "221010:2210321,2210322",
+      "providerCode": "TfNSW",
+      "smsText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+      "speechText": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\nFrom Sunday 12 October to Monday 15 December 2025, the lift will be closed for an upgrade.\nCustomers arriving on Platforms 1 and 2 that need lift access, will need to change at Narwee Station, then board the 940 bus to return to Riverwood Station.\nCustomers travelling from the concourse that require lift access, will need to catch the 940 bus to Narwee Station, then board a train to your destination.  \nBaggage handlers will be available to assist during busy times.\n\nIf you need help, ask staff or phone 02 9563 7646."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "221010",
+          "isGlobalId": true,
+          "name": "Riverwood Station",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101415"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-60328",
+    "content": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\nFrom Sunday 12 October to Monday 15 December 2025, the lift will be closed for an upgrade.\nCustomers arriving on Platforms 1 and 2 that need lift access, will need to change at Narwee Station, then board the 940 bus to return to Riverwood Station.\nCustomers travelling from the concourse that require lift access, will need to catch the 940 bus to Narwee Station, then board a train to your destination.  \nBaggage handlers will be available to assist during busy times.\n\nIf you need help, ask staff or phone 02 9563 7646.",
+    "subtitle": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
@@ -992,34 +1057,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-60328",
-    "version": 12465,
+    "id": "ems-62562",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-10-12T19:24:00Z",
-      "lastModification": "2025-10-12T22:52:00Z",
+      "creation": "2025-11-21T02:20:00Z",
+      "lastModification": "2025-11-21T02:20:00Z",
       "availability": {
-        "from": "2025-10-05T22:14:00Z",
+        "from": "2025-11-14T05:10:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-12T19:24:00Z",
+          "from": "2025-11-21T02:20:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-11-19T23:14:59Z"
+      "expiration": "2504-12-29T06:11:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-60328",
-        "content": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\nFrom Sunday 12 October to Monday 15 December 2025, the lift will be closed for an upgrade.\nCustomers arriving on Platforms 1 and 2 that need lift access, will need to change at Narwee Station, then board the 940 bus to return to Riverwood Station.\nCustomers travelling from the concourse that require lift access, will need to catch the 940 bus to Narwee Station, then board a train to your destination.  \nBaggage handlers will be available to assist during busy times.\n\nIf you need help, ask staff or phone 02 9563 7646.",
-        "subtitle": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-        "smsText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-        "speechText": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\nFrom Sunday 12 October to Monday 15 December 2025, the lift will be closed for an upgrade.\nCustomers arriving on Platforms 1 and 2 that need lift access, will need to change at Narwee Station, then board the 940 bus to return to Riverwood Station.\nCustomers travelling from the concourse that require lift access, will need to catch the 940 bus to Narwee Station, then board a train to your destination.  \nBaggage handlers will be available to assist during busy times.\n\nIf you need help, ask staff or phone 02 9563 7646."
+        "urlText": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62562",
+        "content": "At Carlton Station Lift 1 between Carlton Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612.",
+        "subtitle": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
+        "smsText": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
+        "speechText": "At Carlton Station Lift 1 between Carlton Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612."
       }
     ],
     "properties": {
@@ -1028,22 +1093,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "46645056-f6d8-5e7c-adca-7d661e99aa38",
+      "messageRef": "4edad45a-401b-5369-8c5d-b53a6a0391c8",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "221010:2210321,2210322",
+      "stopIDglobalID": "221810",
       "providerCode": "TfNSW",
-      "smsText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-      "speechText": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\nFrom Sunday 12 October to Monday 15 December 2025, the lift will be closed for an upgrade.\nCustomers arriving on Platforms 1 and 2 that need lift access, will need to change at Narwee Station, then board the 940 bus to return to Riverwood Station.\nCustomers travelling from the concourse that require lift access, will need to catch the 940 bus to Narwee Station, then board a train to your destination.  \nBaggage handlers will be available to assist during busy times.\n\nIf you need help, ask staff or phone 02 9563 7646."
+      "smsText": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
+      "speechText": "At Carlton Station Lift 1 between Carlton Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612."
     },
     "affected": {
       "stops": [
         {
-          "id": "221010",
+          "id": "221810",
           "isGlobalId": true,
-          "name": "Riverwood Station",
+          "name": "Carlton Station",
           "type": "stop",
+          "parent": {
+            "id": "placeID:95329002:1",
+            "name": "Carlton",
+            "type": "locality"
+          },
           "properties": {
-            "stopId": "10101415"
+            "stopId": "10101337"
           }
         }
       ],
@@ -1051,41 +1122,41 @@
         {}
       ]
     },
-    "urlText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-60328",
-    "content": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\nFrom Sunday 12 October to Monday 15 December 2025, the lift will be closed for an upgrade.\nCustomers arriving on Platforms 1 and 2 that need lift access, will need to change at Narwee Station, then board the 940 bus to return to Riverwood Station.\nCustomers travelling from the concourse that require lift access, will need to catch the 940 bus to Narwee Station, then board a train to your destination.  \nBaggage handlers will be available to assist during busy times.\n\nIf you need help, ask staff or phone 02 9563 7646.",
-    "subtitle": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available"
+    "urlText": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62562",
+    "content": "At Carlton Station Lift 1 between Carlton Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612.",
+    "subtitle": "Carlton Station Lift 1 between Carlton Pde and the footbridge is not available"
   },
   {
     "type": "infrastructure",
-    "id": "ems-61095",
-    "version": 1,
+    "id": "ems-61354",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-10-24T00:16:00Z",
-      "lastModification": "2025-10-24T00:16:00Z",
+      "creation": "2025-10-30T02:21:00Z",
+      "lastModification": "2025-10-30T02:21:00Z",
       "availability": {
-        "from": "2025-10-17T03:06:00Z",
+        "from": "2025-10-23T05:11:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-10-24T00:16:00Z",
+          "from": "2025-10-30T02:21:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-12-01T04:07:59Z"
+      "expiration": "2504-12-07T06:12:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-61095",
-        "content": "At Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is temporarily out of service.",
-        "subtitle": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
-        "smsText": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
-        "speechText": "At Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is temporarily out of service."
+        "urlText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-61354",
+        "content": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service.",
+        "subtitle": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+        "smsText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+        "speechText": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service."
       }
     ],
     "properties": {
@@ -1094,12 +1165,12 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "bfd1fd43-1590-5884-a319-cbe4e264871c",
+      "messageRef": "d5485b41-3222-552f-bd08-0cbdd1026677",
       "publisher": "ems.comm.addinfo",
       "stopIDglobalID": "212110",
       "providerCode": "TfNSW",
-      "smsText": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
-      "speechText": "At Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is temporarily out of service."
+      "smsText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+      "speechText": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service."
     },
     "affected": {
       "stops": [
@@ -1117,10 +1188,10 @@
         {}
       ]
     },
-    "urlText": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-61095",
-    "content": "At Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is temporarily out of service.",
-    "subtitle": "Epping Station Lift 3 between the footbridge and Beecroft Rd (eastside) is not available"
+    "urlText": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-61354",
+    "content": "At Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is temporarily out of service.",
+    "subtitle": "Epping Station Lift 4 between the footbridge and Beecroft Rd (westside) is not available"
   },
   {
     "type": "infrastructure",
@@ -1394,76 +1465,5 @@
     "url": "https://transportnsw.info/alerts/details#/ems-60115",
     "content": "At Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9287.",
     "subtitle": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-61671",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-11-05T00:17:00Z",
-      "lastModification": "2025-11-05T00:17:00Z",
-      "availability": {
-        "from": "2025-11-05T00:13:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-05T00:13:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
-        "url": "https://transportnsw.info/alerts/details#/ems-61671",
-        "content": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use even if doors open.</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to<br />Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform<br />Or call 131 500</li>\n</ul>\n</div>",
-        "subtitle": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
-        "smsText": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
-        "speechText": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "fbf4bed1-ea0d-5005-8ad3-e5643cad21fd",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200952:200938",
-      "providerCode": "TfNSW",
-      "smsText": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
-      "speechText": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200952",
-          "isGlobalId": true,
-          "name": "Fish Market Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101635"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n.",
-    "url": "https://transportnsw.info/alerts/details#/ems-61671",
-    "content": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use even if doors open.</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to<br />Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform<br />Or call 131 500</li>\n</ul>\n</div>",
-    "subtitle": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n."
   }
 ]
