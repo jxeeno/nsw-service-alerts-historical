@@ -1,5 +1,76 @@
 [
   {
+    "type": "lineInfo",
+    "id": "ems-64426",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-19T09:48:00Z",
+      "lastModification": "2025-12-19T09:49:00Z",
+      "availability": {
+        "from": "2025-12-19T09:43:00Z",
+        "to": "2025-12-20T09:43:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-19T09:43:00Z",
+          "to": "2025-12-20T09:43:00Z"
+        }
+      ],
+      "expiration": "2025-12-20T09:43:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train service delays between Central Station and Canberra Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-64426",
+        "content": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train service delays between Central Station and Canberra Station",
+        "smsText": "Train service delays between Central Station and Canberra Station",
+        "speechText": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "5f436ae3-1070-5da3-af07-548e2f3816cb",
+      "Others": "speedRestrictions",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays between Central Station and Canberra Station",
+      "speechText": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76635: :H:",
+          "destination": {
+            "name": "Canberra Station, Kingston (ACT)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 635",
+          "number": "635",
+          "description": "Central to Canberra",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Train service delays between Central Station and Canberra Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-64426",
+    "content": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Central Station and Canberra Station"
+  },
+  {
     "type": "infrastructure",
     "id": "ems-61671",
     "version": 1,
@@ -69,6 +140,78 @@
     "url": "https://transportnsw.info/alerts/details#/ems-61671",
     "content": "At Fish Market Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use even if doors open.</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to<br />Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform<br />Or call 131 500</li>\n</ul>\n</div>",
     "subtitle": "Fish Market Light Rail Lift between Miller St and the Light Rail stop is not available\n\n."
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64397",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-19T04:06:00Z",
+      "lastModification": "2025-12-19T04:06:00Z",
+      "availability": {
+        "from": "2025-12-12T06:56:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-19T04:06:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-01-26T07:56:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64397",
+        "content": "At Petersham Station Lift 2 between the footbridge and Terminus St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426.",
+        "subtitle": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
+        "smsText": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
+        "speechText": "At Petersham Station Lift 2 between the footbridge and Terminus St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "3c93b375-8032-5fbf-92dd-81c79a2f9818",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "204910",
+      "providerCode": "TfNSW",
+      "smsText": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
+      "speechText": "At Petersham Station Lift 2 between the footbridge and Terminus St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "204910",
+          "isGlobalId": true,
+          "name": "Petersham Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338006:1",
+            "name": "Petersham",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101212"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64397",
+    "content": "At Petersham Station Lift 2 between the footbridge and Terminus St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426.",
+    "subtitle": "Petersham Station Lift 2 between the footbridge and Terminus St is not available"
   },
   {
     "type": "infrastructure",
@@ -143,279 +286,6 @@
     "subtitle": "Strathfield Station Lift 4 between the concourse and Platform 5/6 is not available"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-64426",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-19T09:48:00Z",
-      "lastModification": "2025-12-19T09:49:00Z",
-      "availability": {
-        "from": "2025-12-19T09:43:00Z",
-        "to": "2025-12-20T09:43:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-19T09:43:00Z",
-          "to": "2025-12-20T09:43:00Z"
-        }
-      ],
-      "expiration": "2025-12-20T09:43:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Train service delays between Central Station and Canberra Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-64426",
-        "content": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train service delays between Central Station and Canberra Station",
-        "smsText": "Train service delays between Central Station and Canberra Station",
-        "speechText": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5f436ae3-1070-5da3-af07-548e2f3816cb",
-      "Others": "speedRestrictions",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Train service delays between Central Station and Canberra Station",
-      "speechText": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76635: :H:",
-          "destination": {
-            "name": "Canberra Station, Kingston (ACT)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 635",
-          "number": "635",
-          "description": "Central to Canberra",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Train service delays between Central Station and Canberra Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-64426",
-    "content": "There are delays on route 635 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Central Station and Canberra Station"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-62159",
-    "version": 6235,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-11-13T22:03:00Z",
-      "lastModification": "2025-11-13T23:46:00Z",
-      "availability": {
-        "from": "2025-11-12T23:02:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-12T23:03:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-12-21T13:53:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62159",
-        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204420:204476",
-      "providerCode": "TfNSW",
-      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "204420",
-          "isGlobalId": true,
-          "name": "Sydenham Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95338008:1",
-            "name": "Sydenham",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101326"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62159",
-    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
-  },
-  {
     "type": "infrastructure",
     "id": "ems-61655",
     "version": 48,
@@ -486,78 +356,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-61655",
     "content": "At Mount Druitt Station Escalator 1 between the concourse and the Bus Interchange is temporarily out of service.\nFrom Tuesday 4 November until Thursday 6 November 2025, the escalator will be closed for maintenance.\nFor access between Dawson Mall and Mount Druitt Station, use the adjacent stairs or lift.\n \n\nIf you need help, ask staff or phone 02 9851 7501.",
     "subtitle": "Mount Druitt Station Escalator 1 between the concourse and the Bus Interchange is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64368",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-18T07:46:00Z",
-      "lastModification": "2025-12-18T07:46:00Z",
-      "availability": {
-        "from": "2025-12-11T10:35:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-18T07:46:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-01-25T11:36:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64368",
-        "content": "At Wentworthville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
-        "subtitle": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "smsText": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "speechText": "At Wentworthville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "b05ad02b-1d8b-57bc-873e-9cfbe8012c82",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214520:214520,2145653,2145654",
-      "providerCode": "TfNSW",
-      "smsText": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
-      "speechText": "At Wentworthville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214520",
-          "isGlobalId": true,
-          "name": "Wentworthville Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95346019:1",
-            "name": "Wentworthville",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101231"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64368",
-    "content": "At Wentworthville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
-    "subtitle": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available"
   },
   {
     "type": "lineInfo",
@@ -691,32 +489,33 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-64425",
-    "version": 1,
+    "id": "ems-159",
+    "version": 19017138,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-12-19T08:33:00Z",
-      "lastModification": "2025-12-19T08:33:00Z",
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
       "availability": {
-        "from": "2025-12-19T08:32:00Z",
-        "to": "2025-12-19T14:32:00Z"
+        "from": "2021-11-19T03:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-12-19T08:32:00Z",
-          "to": "2025-12-19T14:32:00Z"
+          "from": "2021-11-19T03:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2025-12-19T14:32:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Coach service delays between Cootamundra Station and Mildura Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-64425",
-        "content": "There are delays on route 725 coach services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Coach service delays between Cootamundra Station and Mildura Station",
-        "smsText": "Coach service delays between Cootamundra Station and Mildura Station",
-        "speechText": "There are delays on route 725 coach services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
       }
     ],
     "properties": {
@@ -724,41 +523,548 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "9bc827b1-9634-54b3-8f34-85cf72ddbc9c",
-      "Others": "speedRestrictions",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Coach service delays between Cootamundra Station and Mildura Station",
-      "speechText": "There are delays on route 725 coach services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76725: :H:",
+          "id": "nsw:04WAG:E:R:",
           "destination": {
-            "name": "Mildura Station, Mildura (VIC)",
+            "name": "Palm Beach Wharf, Palm Beach",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 725",
-          "number": "725",
-          "description": "Cootamundra to Mildura",
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
           "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
+            "id": 12,
+            "class": 9,
+            "iconId": 9
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
           },
-          "iconId": 7
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "Coach service delays between Cootamundra Station and Mildura Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-64425",
-    "content": "There are delays on route 725 coach services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach service delays between Cootamundra Station and Mildura Station"
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-62434",
+    "version": 1052144,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-11-18T20:23:00Z",
+      "lastModification": "2025-12-01T00:39:00Z",
+      "availability": {
+        "from": "2025-11-18T20:22:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-11-18T20:22:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "url": "https://transportnsw.info/alerts/details#/ems-62434",
+        "content": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500",
+        "subtitle": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "smsText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "speechText": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500"
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "923c7db8-25a2-5008-a8f3-ec6b524749c5",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200948:200940",
+      "providerCode": "TfNSW",
+      "smsText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+      "speechText": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200948",
+          "isGlobalId": true,
+          "name": "John Street Square Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101636"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+    "url": "https://transportnsw.info/alerts/details#/ems-62434",
+    "content": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500",
+    "subtitle": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64410",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-19T04:57:00Z",
+      "lastModification": "2025-12-19T04:57:00Z",
+      "availability": {
+        "from": "2025-12-12T07:47:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-19T04:57:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-01-26T08:48:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64410",
+        "content": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421.",
+        "subtitle": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "smsText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "4ae3e29b-294d-50c7-bea6-52a506397152",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213810:213810,213882,213883",
+      "providerCode": "TfNSW",
+      "smsText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "213810",
+          "isGlobalId": true,
+          "name": "Concord West Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95314007:1",
+            "name": "Concord West",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101204"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64410",
+    "content": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421.",
+    "subtitle": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64267",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-17T19:22:00Z",
+      "lastModification": "2025-12-17T19:22:00Z",
+      "availability": {
+        "from": "2025-12-10T22:12:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-17T19:22:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-01-24T23:13:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64267",
+        "content": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
+        "subtitle": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+        "smsText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+        "speechText": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "307709eb-29f2-54d4-be9a-1b4286d22978",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214240",
+      "providerCode": "TfNSW",
+      "smsText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+      "speechText": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214240",
+          "isGlobalId": true,
+          "name": "Granville Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346007:1",
+            "name": "Granville",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101227"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64267",
+    "content": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
+    "subtitle": "Granville Station Lift 4 between the concourse and Railway Pde is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64407",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-19T04:42:00Z",
+      "lastModification": "2025-12-19T04:42:00Z",
+      "availability": {
+        "from": "2025-12-12T07:32:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-19T04:42:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-01-26T08:33:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64407",
+        "content": "At Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8813.",
+        "subtitle": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+        "smsText": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+        "speechText": "At Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8813."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "aff85531-9150-564c-a031-3726bc307754",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214120:2141301,2141302",
+      "providerCode": "TfNSW",
+      "smsText": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+      "speechText": "At Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8813."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214120",
+          "isGlobalId": true,
+          "name": "Berala Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304002:1",
+            "name": "Berala",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101390"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64407",
+    "content": "At Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8813.",
+    "subtitle": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64422",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-19T07:50:00Z",
+      "lastModification": "2025-12-19T07:50:00Z",
+      "availability": {
+        "from": "2022-05-04T12:18:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-18T08:50:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-01-25T23:41:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64422",
+        "content": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
+        "subtitle": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "smsText": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "speechText": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "335aeb8f-597b-5fd8-a7fc-b044f9dcf939",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "225060:2250821,2250822",
+      "providerCode": "TfNSW",
+      "smsText": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
+      "speechText": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "225060",
+          "isGlobalId": true,
+          "name": "Niagara Park Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95367047:1",
+            "name": "Niagara Park",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101141"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64422",
+    "content": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
+    "subtitle": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
@@ -978,34 +1284,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-64267",
-    "version": 4,
+    "id": "ems-62159",
+    "version": 6235,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-12-17T19:22:00Z",
-      "lastModification": "2025-12-17T19:22:00Z",
+      "creation": "2025-11-13T22:03:00Z",
+      "lastModification": "2025-11-13T23:46:00Z",
       "availability": {
-        "from": "2025-12-10T22:12:00Z",
+        "from": "2025-11-12T23:02:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-12-17T19:22:00Z",
+          "from": "2025-11-12T23:03:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-01-24T23:13:59Z"
+      "expiration": "2504-12-21T13:53:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64267",
-        "content": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
-        "subtitle": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-        "smsText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-        "speechText": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
+        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62159",
+        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
       }
     ],
     "properties": {
@@ -1014,28 +1320,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "307709eb-29f2-54d4-be9a-1b4286d22978",
+      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214240",
+      "stopIDglobalID": "204420:204476",
       "providerCode": "TfNSW",
-      "smsText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-      "speechText": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
+      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
     },
     "affected": {
       "stops": [
         {
-          "id": "214240",
+          "id": "204420",
           "isGlobalId": true,
-          "name": "Granville Station",
+          "name": "Sydenham Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95346007:1",
-            "name": "Granville",
+            "id": "placeID:95338008:1",
+            "name": "Sydenham",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101227"
+            "stopId": "10101326"
           }
         }
       ],
@@ -1043,154 +1349,10 @@
         {}
       ]
     },
-    "urlText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64267",
-    "content": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
-    "subtitle": "Granville Station Lift 4 between the concourse and Railway Pde is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64410",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-19T04:57:00Z",
-      "lastModification": "2025-12-19T04:57:00Z",
-      "availability": {
-        "from": "2025-12-12T07:47:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-19T04:57:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-01-26T08:48:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64410",
-        "content": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421.",
-        "subtitle": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "smsText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "speechText": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "4ae3e29b-294d-50c7-bea6-52a506397152",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213810:213810,213882,213883",
-      "providerCode": "TfNSW",
-      "smsText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-      "speechText": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "213810",
-          "isGlobalId": true,
-          "name": "Concord West Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95314007:1",
-            "name": "Concord West",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101204"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64410",
-    "content": "At Concord West Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8421.",
-    "subtitle": "Concord West Station Lift 3 between the concourse and Platform 3/4 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64407",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-19T04:42:00Z",
-      "lastModification": "2025-12-19T04:42:00Z",
-      "availability": {
-        "from": "2025-12-12T07:32:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-19T04:42:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-01-26T08:33:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64407",
-        "content": "At Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8813.",
-        "subtitle": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-        "smsText": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-        "speechText": "At Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8813."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "aff85531-9150-564c-a031-3726bc307754",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214120:2141301,2141302",
-      "providerCode": "TfNSW",
-      "smsText": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-      "speechText": "At Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8813."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214120",
-          "isGlobalId": true,
-          "name": "Berala Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304002:1",
-            "name": "Berala",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101390"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64407",
-    "content": "At Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8813.",
-    "subtitle": "Berala Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available"
+    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62159",
+    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
   },
   {
     "type": "infrastructure",
@@ -1266,78 +1428,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-64422",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-19T07:50:00Z",
-      "lastModification": "2025-12-19T07:50:00Z",
-      "availability": {
-        "from": "2022-05-04T12:18:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-18T08:50:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-01-25T23:41:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64422",
-        "content": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
-        "subtitle": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "smsText": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "speechText": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "335aeb8f-597b-5fd8-a7fc-b044f9dcf939",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "225060:2250821,2250822",
-      "providerCode": "TfNSW",
-      "smsText": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
-      "speechText": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "225060",
-          "isGlobalId": true,
-          "name": "Niagara Park Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95367047:1",
-            "name": "Niagara Park",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101141"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64422",
-    "content": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
-    "subtitle": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-64101",
     "version": 4,
     "priority": "low",
@@ -1410,195 +1500,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-62434",
-    "version": 1052144,
+    "id": "ems-64368",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-11-18T20:23:00Z",
-      "lastModification": "2025-12-01T00:39:00Z",
+      "creation": "2025-12-18T07:46:00Z",
+      "lastModification": "2025-12-18T07:46:00Z",
       "availability": {
-        "from": "2025-11-18T20:22:00Z",
+        "from": "2025-12-11T10:35:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-11-18T20:22:00Z",
+          "from": "2025-12-18T07:46:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-01-25T11:36:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "url": "https://transportnsw.info/alerts/details#/ems-62434",
-        "content": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500",
-        "subtitle": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "smsText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "speechText": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500"
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "923c7db8-25a2-5008-a8f3-ec6b524749c5",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200948:200940",
-      "providerCode": "TfNSW",
-      "smsText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-      "speechText": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200948",
-          "isGlobalId": true,
-          "name": "John Street Square Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101636"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-    "url": "https://transportnsw.info/alerts/details#/ems-62434",
-    "content": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500",
-    "subtitle": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
-      "availability": {
-        "from": "2021-11-19T03:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T03:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64397",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-19T04:06:00Z",
-      "lastModification": "2025-12-19T04:06:00Z",
-      "availability": {
-        "from": "2025-12-12T06:56:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-19T04:06:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-01-26T07:56:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64397",
-        "content": "At Petersham Station Lift 2 between the footbridge and Terminus St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426.",
-        "subtitle": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
-        "smsText": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
-        "speechText": "At Petersham Station Lift 2 between the footbridge and Terminus St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426."
+        "urlText": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64368",
+        "content": "At Wentworthville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+        "subtitle": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "smsText": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Wentworthville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
       }
     ],
     "properties": {
@@ -1607,28 +1536,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "3c93b375-8032-5fbf-92dd-81c79a2f9818",
+      "messageRef": "b05ad02b-1d8b-57bc-873e-9cfbe8012c82",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204910",
+      "stopIDglobalID": "214520:214520,2145653,2145654",
       "providerCode": "TfNSW",
-      "smsText": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
-      "speechText": "At Petersham Station Lift 2 between the footbridge and Terminus St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426."
+      "smsText": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Wentworthville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
     },
     "affected": {
       "stops": [
         {
-          "id": "204910",
+          "id": "214520",
           "isGlobalId": true,
-          "name": "Petersham Station",
+          "name": "Wentworthville Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95338006:1",
-            "name": "Petersham",
+            "id": "placeID:95346019:1",
+            "name": "Wentworthville",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101212"
+            "stopId": "10101231"
           }
         }
       ],
@@ -1636,10 +1565,10 @@
         {}
       ]
     },
-    "urlText": "Petersham Station Lift 2 between the footbridge and Terminus St is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64397",
-    "content": "At Petersham Station Lift 2 between the footbridge and Terminus St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8426.",
-    "subtitle": "Petersham Station Lift 2 between the footbridge and Terminus St is not available"
+    "urlText": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64368",
+    "content": "At Wentworthville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+    "subtitle": "Wentworthville Station Lift 2 between the concourse and Platform 3/4 is not available"
   },
   {
     "type": "infrastructure",
