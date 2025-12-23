@@ -72,6 +72,78 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-64646",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-23T18:42:00Z",
+      "lastModification": "2025-12-23T18:42:00Z",
+      "availability": {
+        "from": "2025-12-16T21:32:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-23T18:42:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-01-30T22:32:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64646",
+        "content": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7646.",
+        "subtitle": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+        "smsText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+        "speechText": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7646."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "05a06f6a-9107-587c-aae3-18092e899b78",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "221010:2210321,2210322",
+      "providerCode": "TfNSW",
+      "smsText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+      "speechText": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7646."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "221010",
+          "isGlobalId": true,
+          "name": "Riverwood Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95305022:1",
+            "name": "Riverwood",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101415"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64646",
+    "content": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7646.",
+    "subtitle": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-62159",
     "version": 6235,
     "priority": "low",
@@ -141,136 +213,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-62159",
     "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
     "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "lineInfo",
@@ -403,21 +345,21 @@
     "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-62434",
-    "version": 1052144,
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-11-18T20:23:00Z",
-      "lastModification": "2025-12-01T00:39:00Z",
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
       "availability": {
-        "from": "2025-11-18T20:22:00Z",
+        "from": "2021-11-19T02:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-11-18T20:22:00Z",
+          "from": "2021-11-19T02:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
@@ -426,52 +368,111 @@
     },
     "infoLinks": [
       {
-        "urlText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "url": "https://transportnsw.info/alerts/details#/ems-62434",
-        "content": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500",
-        "subtitle": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "smsText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "speechText": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500"
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "923c7db8-25a2-5008-a8f3-ec6b524749c5",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200948:200940",
       "providerCode": "TfNSW",
-      "smsText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-      "speechText": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500"
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "200948",
-          "isGlobalId": true,
-          "name": "John Street Square Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101636"
-          }
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     },
-    "urlText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
-    "url": "https://transportnsw.info/alerts/details#/ems-62434",
-    "content": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500",
-    "subtitle": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
@@ -544,6 +545,77 @@
     "url": "https://transportnsw.info/alerts/details#/ems-64645",
     "content": "At Towradgi Station Lift 1 between the footbridge and Platform 1 or Towradgi Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5581.",
     "subtitle": "Towradgi Station Lift 1 between the footbridge and Platform 1 or Towradgi Rd is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-62434",
+    "version": 1052144,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-11-18T20:23:00Z",
+      "lastModification": "2025-12-01T00:39:00Z",
+      "availability": {
+        "from": "2025-11-18T20:22:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-11-18T20:22:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "url": "https://transportnsw.info/alerts/details#/ems-62434",
+        "content": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500",
+        "subtitle": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "smsText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "speechText": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500"
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "923c7db8-25a2-5008-a8f3-ec6b524749c5",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200948:200940",
+      "providerCode": "TfNSW",
+      "smsText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+      "speechText": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200948",
+          "isGlobalId": true,
+          "name": "John Street Square Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101636"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ",
+    "url": "https://transportnsw.info/alerts/details#/ems-62434",
+    "content": "At John Street Square Light Rail Lift between Harris St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\n•\tUse the stairs,\n•        Or use the lift on the opposite platform\n \nFor urgent assistance:\n•\tUse the Help Point if on the platform\n•        Or call 131 500",
+    "subtitle": "John Street Square Light Rail Lift between Harris St and the Light Rail stop is not available\n\nㅤ"
   },
   {
     "type": "lineInfo",
@@ -634,77 +706,5 @@
     "url": "https://transportnsw.info/alerts/details#/ems-159",
     "content": "<div>&nbsp; &nbsp;</div>",
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64646",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-23T18:42:00Z",
-      "lastModification": "2025-12-23T18:42:00Z",
-      "availability": {
-        "from": "2025-12-16T21:32:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-23T18:42:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-01-30T22:32:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64646",
-        "content": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7646.",
-        "subtitle": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-        "smsText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-        "speechText": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7646."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "05a06f6a-9107-587c-aae3-18092e899b78",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "221010:2210321,2210322",
-      "providerCode": "TfNSW",
-      "smsText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-      "speechText": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7646."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "221010",
-          "isGlobalId": true,
-          "name": "Riverwood Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95305022:1",
-            "name": "Riverwood",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101415"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64646",
-    "content": "At Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7646.",
-    "subtitle": "Riverwood Station Lift 1 between Belmore Rd and Platform 1/2 is not available"
   }
 ]
