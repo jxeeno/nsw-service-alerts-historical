@@ -1,74 +1,75 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-64720",
-    "version": 1,
+    "type": "infrastructure",
+    "id": "ems-64729",
+    "version": 4,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-12-27T00:49:00Z",
-      "lastModification": "2025-12-27T00:49:00Z",
+      "creation": "2025-12-27T03:58:00Z",
+      "lastModification": "2025-12-27T03:58:00Z",
       "availability": {
-        "from": "2025-12-27T00:47:00Z",
-        "to": "2025-12-27T08:47:00Z"
+        "from": "2025-12-20T06:48:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-12-27T00:47:00Z",
-          "to": "2025-12-27T08:47:00Z"
+          "from": "2025-12-27T03:58:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2025-12-27T08:47:59Z"
+      "expiration": "2505-02-03T07:49:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Train service delays at Grafton Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-64720",
-        "content": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train service delays at Grafton Station",
-        "smsText": "Train service delays at Grafton Station",
-        "speechText": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+        "urlText": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64729",
+        "content": "At Central Station Lift 15 between Devonshire St and the Devonshire St concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777.",
+        "subtitle": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
+        "smsText": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
+        "speechText": "At Central Station Lift 15 between Devonshire St and the Devonshire St concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "b96caa0c-39e8-5b14-b672-9f5ee2be3c50",
-      "Others": "speedRestrictions",
+      "messageRef": "66988cbd-01e4-57fd-b074-3f99145419bf",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200060",
       "providerCode": "TfNSW",
-      "smsText": "Train service delays at Grafton Station",
-      "speechText": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      "smsText": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
+      "speechText": "At Central Station Lift 15 between Devonshire St and the Devonshire St concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
+          "id": "200060",
+          "isGlobalId": true,
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
           },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
+          "properties": {
+            "stopId": "10101100"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": "Train service delays at Grafton Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-64720",
-    "content": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Grafton Station"
+    "urlText": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64729",
+    "content": "At Central Station Lift 15 between Devonshire St and the Devonshire St concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777.",
+    "subtitle": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available"
   },
   {
     "type": "infrastructure",
@@ -141,78 +142,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-64694",
     "content": "At Auburn Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
     "subtitle": "Auburn Station Lift 2 between the concourse and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64693",
-    "version": 5,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-25T21:05:00Z",
-      "lastModification": "2025-12-25T21:05:00Z",
-      "availability": {
-        "from": "2025-12-18T23:55:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-25T21:05:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-02-02T00:56:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64693",
-        "content": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
-        "subtitle": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-        "smsText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-        "speechText": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "dad0bb26-dc74-5df9-bf0b-301c2d2b2b99",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214410:2144243,2144244",
-      "providerCode": "TfNSW",
-      "smsText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-      "speechText": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214410",
-          "isGlobalId": true,
-          "name": "Auburn Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304001:1",
-            "name": "Auburn",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101219"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64693",
-    "content": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
-    "subtitle": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available"
   },
   {
     "type": "infrastructure",
@@ -418,34 +347,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-64717",
-    "version": 2,
+    "id": "ems-64693",
+    "version": 5,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-12-26T23:49:00Z",
-      "lastModification": "2025-12-26T23:49:00Z",
+      "creation": "2025-12-25T21:05:00Z",
+      "lastModification": "2025-12-25T21:05:00Z",
       "availability": {
-        "from": "2025-12-20T02:39:00Z",
+        "from": "2025-12-18T23:55:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-12-26T23:49:00Z",
+          "from": "2025-12-25T21:05:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-02-03T03:40:59Z"
+      "expiration": "2505-02-02T00:56:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64717",
-        "content": "At Martin Place Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
-        "subtitle": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "smsText": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "speechText": "At Martin Place Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+        "urlText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64693",
+        "content": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
+        "subtitle": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "smsText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206."
       }
     ],
     "properties": {
@@ -454,28 +383,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "423e63b8-311e-57bd-b142-9f03614c236e",
+      "messageRef": "dad0bb26-dc74-5df9-bf0b-301c2d2b2b99",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200030:2000361,2000362",
+      "stopIDglobalID": "214410:2144243,2144244",
       "providerCode": "TfNSW",
-      "smsText": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Martin Place Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+      "smsText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206."
     },
     "affected": {
       "stops": [
         {
-          "id": "200030",
+          "id": "214410",
           "isGlobalId": true,
-          "name": "Martin Place Station",
+          "name": "Auburn Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
+            "id": "placeID:95304001:1",
+            "name": "Auburn",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101106"
+            "stopId": "10101219"
           }
         }
       ],
@@ -483,172 +412,10 @@
         {}
       ]
     },
-    "urlText": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64717",
-    "content": "At Martin Place Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
-    "subtitle": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64729",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-12-27T03:58:00Z",
-      "lastModification": "2025-12-27T03:58:00Z",
-      "availability": {
-        "from": "2025-12-20T06:48:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-12-27T03:58:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-02-03T07:49:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64729",
-        "content": "At Central Station Lift 15 between Devonshire St and the Devonshire St concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777.",
-        "subtitle": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
-        "smsText": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
-        "speechText": "At Central Station Lift 15 between Devonshire St and the Devonshire St concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "66988cbd-01e4-57fd-b074-3f99145419bf",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200060",
-      "providerCode": "TfNSW",
-      "smsText": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
-      "speechText": "At Central Station Lift 15 between Devonshire St and the Devonshire St concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200060",
-          "isGlobalId": true,
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101100"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64729",
-    "content": "At Central Station Lift 15 between Devonshire St and the Devonshire St concourse is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1777.",
-    "subtitle": "Central Station Lift 15 between Devonshire St and the Devonshire St concourse is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
-      "availability": {
-        "from": "2021-11-19T03:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T03:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    "urlText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64693",
+    "content": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
+    "subtitle": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available"
   },
   {
     "type": "lineInfo",
@@ -779,5 +546,238 @@
     "url": "https://transportnsw.info/alerts/details#/ems-181",
     "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
     "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
+      "availability": {
+        "from": "2021-11-19T03:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T03:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-64720",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-27T00:49:00Z",
+      "lastModification": "2025-12-27T00:49:00Z",
+      "availability": {
+        "from": "2025-12-27T00:47:00Z",
+        "to": "2025-12-27T08:47:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-27T00:47:00Z",
+          "to": "2025-12-27T08:47:00Z"
+        }
+      ],
+      "expiration": "2025-12-27T08:47:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train service delays at Grafton Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-64720",
+        "content": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train service delays at Grafton Station",
+        "smsText": "Train service delays at Grafton Station",
+        "speechText": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "b96caa0c-39e8-5b14-b672-9f5ee2be3c50",
+      "Others": "speedRestrictions",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays at Grafton Station",
+      "speechText": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Train service delays at Grafton Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-64720",
+    "content": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Grafton Station"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64717",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-12-26T23:49:00Z",
+      "lastModification": "2025-12-26T23:49:00Z",
+      "availability": {
+        "from": "2025-12-20T02:39:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-12-26T23:49:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-03T03:40:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64717",
+        "content": "At Martin Place Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+        "subtitle": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "smsText": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Martin Place Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "423e63b8-311e-57bd-b142-9f03614c236e",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200030:2000361,2000362",
+      "providerCode": "TfNSW",
+      "smsText": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Martin Place Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200030",
+          "isGlobalId": true,
+          "name": "Martin Place Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101106"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64717",
+    "content": "At Martin Place Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+    "subtitle": "Martin Place Station Lift 2 between the concourse and Platform 1/2 is not available"
   }
 ]
