@@ -5886,37 +5886,33 @@
     "subtitle": "Trains run to a changed timetable between Leppington and the City via Granville or Regents Park"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-64548",
-    "version": 1,
+    "type": "routeInfo",
+    "id": "ems-62462",
+    "version": 3459786,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-12-22T02:35:00Z",
-      "lastModification": "2025-12-22T02:35:00Z",
+      "creation": "2025-11-19T03:32:00Z",
+      "lastModification": "2025-12-29T04:35:00Z",
       "availability": {
-        "from": "2025-12-22T02:00:00Z",
-        "to": "2026-01-14T14:30:00Z"
+        "from": "2025-11-18T17:45:00Z",
+        "to": "2026-01-04T11:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-13T12:50:00Z",
-          "to": "2026-01-13T14:30:00Z"
-        },
-        {
-          "from": "2026-01-14T12:50:00Z",
-          "to": "2026-01-14T14:30:00Z"
+          "from": "2026-01-01T17:45:00Z",
+          "to": "2026-01-04T11:00:00Z"
         }
       ],
-      "expiration": "2026-01-14T14:30:59Z"
+      "expiration": "2026-01-04T11:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "You may need to change trains at Granville",
-        "url": "https://transportnsw.info/alerts/details#/ems-64548",
-        "content": "<div><strong>Tuesday 13 and Wednesday 14 January &nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 11.50pm to 1.30am</strong>, some trains run to a changed timetable between Richmond or Leppington and Olympic Park. Some trains start and end at Granville.</li>\n<li>You may need to change trains at Granville to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-        "subtitle": "You may need to change trains at Granville",
-        "smsText": "You may need to change trains at Granville",
-        "speechText": "Tuesday 13 and Wednesday 14 January   \nNightly from 11:50PM to 1:30AM, some trains run to a changed timetable between Richmond or Leppington and Olympic Park. Some trains start and end at Granville.\nYou may need to change trains at Granville to continue your journey."
+        "urlText": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-62462",
+        "content": "<div>Due to planned trackwork, this XPT service will be replaced by road coaches between Broadmeadow and Sydney</div>",
+        "subtitle": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
+        "smsText": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
+        "speechText": "Due to planned trackwork, this XPT service will be replaced by road coaches between Broadmeadow and Sydney"
       }
     ],
     "properties": {
@@ -5924,61 +5920,142 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "dc6f0d07-f6df-562b-9d46-63c8969929d3",
+      "messageRef": "5b5d4f8b-f1ec-5151-85bb-f4581fac2843",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "229210#228330#225920#225040#207720#213510#200060",
       "providerCode": "TfNSW",
-      "smsText": "You may need to change trains at Granville",
-      "speechText": "Tuesday 13 and Wednesday 14 January   \nNightly from 11:50PM to 1:30AM, some trains run to a changed timetable between Richmond or Leppington and Olympic Park. Some trains start and end at Granville.\nYou may need to change trains at Granville to continue your journey."
+      "smsText": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
+      "speechText": "Due to planned trackwork, this XPT service will be replaced by road coaches between Broadmeadow and Sydney"
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T5: :R:",
+          "id": "nsw:76032: :R:",
           "destination": {
-            "name": "Campbelltown Station, Campbelltown",
+            "name": "Central Station, Sydney",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
           "product": {
-            "id": 1,
+            "id": 3,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+            "id": "711",
+            "name": "NSW TrainLink"
           },
-          "iconId": 1
+          "iconId": 3
+        }
+      ],
+      "stops": [
+        {
+          "id": "229210",
+          "isGlobalId": true,
+          "name": "Broadmeadow Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95342007:1",
+            "name": "Broadmeadow",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101160"
+          }
         },
         {
-          "id": "nsw:020T5: :H:",
-          "destination": {
-            "name": "Emu Plains Station, Emu Plains",
-            "type": "stop"
+          "id": "228330",
+          "isGlobalId": true,
+          "name": "Fassifern Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95331036:1",
+            "name": "Fassifern",
+            "type": "locality"
           },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
+          "properties": {
+            "stopId": "10101151"
+          }
+        },
+        {
+          "id": "225920",
+          "isGlobalId": true,
+          "name": "Wyong Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95367074:1",
+            "name": "Wyong",
+            "type": "locality"
           },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+          "properties": {
+            "stopId": "10101145"
+          }
+        },
+        {
+          "id": "225040",
+          "isGlobalId": true,
+          "name": "Gosford Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95320022:1",
+            "name": "Gosford",
+            "type": "locality"
           },
-          "iconId": 1
+          "properties": {
+            "stopId": "10101139"
+          }
+        },
+        {
+          "id": "207720",
+          "isGlobalId": true,
+          "name": "Hornsby Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325020:1",
+            "name": "Hornsby",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101127"
+          }
+        },
+        {
+          "id": "213510",
+          "isGlobalId": true,
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101206"
+          }
+        },
+        {
+          "id": "200060",
+          "isGlobalId": true,
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101100"
+          }
         }
       ]
     },
-    "urlText": "You may need to change trains at Granville",
-    "url": "https://transportnsw.info/alerts/details#/ems-64548",
-    "content": "<div><strong>Tuesday 13 and Wednesday 14 January &nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 11.50pm to 1.30am</strong>, some trains run to a changed timetable between Richmond or Leppington and Olympic Park. Some trains start and end at Granville.</li>\n<li>You may need to change trains at Granville to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "You may need to change trains at Granville"
+    "urlText": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-62462",
+    "content": "<div>Due to planned trackwork, this XPT service will be replaced by road coaches between Broadmeadow and Sydney</div>",
+    "subtitle": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service."
   },
   {
     "type": "lineInfo",
@@ -6306,76 +6383,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-55713",
-    "version": 3728942,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-07-21T01:25:00Z",
-      "lastModification": "2025-09-02T05:14:00Z",
-      "availability": {
-        "from": "2025-09-06T16:00:00Z",
-        "to": "2026-04-05T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-09-28T16:00:00Z",
-          "to": "2026-04-05T16:00:00Z"
-        }
-      ],
-      "expiration": "2026-04-05T16:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Grantham Farm bus diversions",
-        "url": "https://transportnsw.info/alerts/details#/ems-55713",
-        "content": "<div>From Tuesday 29 September 2025 to Monday 6 April 2026, route 746 buses will divert and miss several stops while roadworks take place.</div>\n<div>&nbsp;</div>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Edmund St after Garfield Rd East (2765337)&nbsp;</li>\n<li>Edmund St before Garfield Rd East (2765338)</li>\n<li>33 Edmund St (2765339)</li>\n<li>Edmund St opp No 33 (2756340)</li>\n<li>Garfield Rd East before Edmund St (2765460)&nbsp;</li>\n<li>Garfield Rd East after Clarke St (2765461)&nbsp;</li>\n</ul>",
-        "subtitle": "Grantham Farm bus diversions",
-        "smsText": "Grantham Farm bus diversions",
-        "speechText": "From Tuesday 29 September 20 25 to Monday 6 April 20 26, route 7 4 6 buses will divert and miss several stops while roadworks take place."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7a1ab851-91a9-527e-a5e0-772c523982d3",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Grantham Farm bus diversions",
-      "speechText": "From Tuesday 29 September 20 25 to Monday 6 April 20 26, route 7 4 6 buses will divert and miss several stops while roadworks take place."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:11746: :R:",
-          "destination": {
-            "name": "Rouse Hill Station, Rouse Hill",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 746",
-          "number": "746",
-          "description": "Riverstone to Rouse Hill",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2501",
-            "name": "Busways R1"
-          },
-          "iconId": 5
-        }
-      ]
-    },
-    "urlText": "Grantham Farm bus diversions",
-    "url": "https://transportnsw.info/alerts/details#/ems-55713",
-    "content": "<div>From Tuesday 29 September 2025 to Monday 6 April 2026, route 746 buses will divert and miss several stops while roadworks take place.</div>\n<div>&nbsp;</div>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Edmund St after Garfield Rd East (2765337)&nbsp;</li>\n<li>Edmund St before Garfield Rd East (2765338)</li>\n<li>33 Edmund St (2765339)</li>\n<li>Edmund St opp No 33 (2756340)</li>\n<li>Garfield Rd East before Edmund St (2765460)&nbsp;</li>\n<li>Garfield Rd East after Clarke St (2765461)&nbsp;</li>\n</ul>",
-    "subtitle": "Grantham Farm bus diversions"
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-63888",
     "version": 147,
     "priority": "normal",
@@ -6444,6 +6451,97 @@
     "url": "https://transportnsw.info/alerts/details#/ems-63888",
     "content": "<div>Due to planned trackwork this XPT service will be replaced by road coaches for the entire journey.</div>",
     "subtitle": "31st January to 1st February 2026- 32 Brisbane to Sydney XPT service"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-64573",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-12-22T03:24:00Z",
+      "lastModification": "2025-12-22T03:24:00Z",
+      "availability": {
+        "from": "2025-12-21T20:30:00Z",
+        "to": "2026-01-17T00:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-16T20:30:00Z",
+          "to": "2026-01-17T00:30:00Z"
+        }
+      ],
+      "expiration": "2026-01-17T00:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
+        "url": "https://transportnsw.info/alerts/details#/ems-64573",
+        "content": "<div><strong>Saturday 17 January</strong></div>\n<ul>\n<li><strong>From 7.30am to 11.30am</strong>, at Stanwell Park and Coalcliff, all trains leave from platform 1.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+        "subtitle": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
+        "smsText": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
+        "speechText": "Saturday 17 January\nFrom 7:30AM to 11:30AM, at Stanwell Park and Coalcliff, all trains leave from platform 1."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "2e7e61e8-7ef1-5742-95f4-db7d81ae0fd0",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
+      "speechText": "Saturday 17 January\nFrom 7:30AM to 11:30AM, at Stanwell Park and Coalcliff, all trains leave from platform 1."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station, Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station, Port Kembla",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        }
+      ]
+    },
+    "urlText": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
+    "url": "https://transportnsw.info/alerts/details#/ems-64573",
+    "content": "<div><strong>Saturday 17 January</strong></div>\n<ul>\n<li><strong>From 7.30am to 11.30am</strong>, at Stanwell Park and Coalcliff, all trains leave from platform 1.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "At Stanwell Park and Coalcliff, all trains leave from platform 1"
   },
   {
     "type": "lineInfo",
@@ -6589,219 +6687,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-62077",
-    "version": 448065,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-11-12T20:05:00Z",
-      "lastModification": "2025-11-18T00:32:00Z",
-      "availability": {
-        "from": "2025-11-17T17:30:00Z",
-        "to": "2026-01-10T08:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-09T17:30:00Z",
-          "to": "2026-01-10T08:00:00Z"
-        }
-      ],
-      "expiration": "2026-01-10T08:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-62077",
-        "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Sydney and Albury.</div>",
-        "subtitle": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
-        "smsText": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
-        "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Sydney and Albury."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "86d9bdb4-d720-5df4-8dd0-c829f2b7f9fd",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
-      "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Sydney and Albury."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-62077",
-    "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Sydney and Albury.</div>",
-    "subtitle": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service."
-  },
-  {
-    "type": "routeInfo",
-    "id": "ems-63190",
-    "version": 102,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-12-01T21:32:00Z",
-      "lastModification": "2025-12-01T21:34:00Z",
-      "availability": {
-        "from": "2025-12-01T19:30:00Z",
-        "to": "2026-01-04T11:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-02T19:30:00Z",
-          "to": "2026-01-04T11:00:00Z"
-        }
-      ],
-      "expiration": "2026-01-04T11:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
-        "url": "https://transportnsw.info/alerts/details#/ems-63190",
-        "content": "<div>Due to planned trackwork, this Xplorer service has been replaced by a road coach from Campbelltown to Sydney/Central. On arrival at Campbelltown, alight Xplorer train and board awaiting road coach replacement to Sydney/Central.</div>",
-        "subtitle": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
-        "smsText": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
-        "speechText": "Due to planned trackwork, this Xplorer service has been replaced by a road coach from Campbelltown to Sydney/Central. On arrival at Campbelltown alight Xplorer train and board awaiting road coach replacement to Sydney/Central."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "93854bde-0c0d-5493-b2d4-cd2a30c545b6",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "256020#200060",
-      "providerCode": "TfNSW",
-      "smsText": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
-      "speechText": "Due to planned trackwork, this Xplorer service has been replaced by a road coach from Campbelltown to Sydney/Central. On arrival at Campbelltown alight Xplorer train and board awaiting road coach replacement to Sydney/Central."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76632: :R:",
-          "destination": {
-            "name": "Strathfield Station, Strathfield",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 632",
-          "number": "632",
-          "description": "Canberra to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        },
-        {
-          "id": "nsw:76634: :R:",
-          "destination": {
-            "name": "Strathfield Station, Strathfield",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 634",
-          "number": "634",
-          "description": "Canberra to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        },
-        {
-          "id": "nsw:76636: :R:",
-          "destination": {
-            "name": "Strathfield Station, Strathfield",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 636",
-          "number": "636",
-          "description": "Canberra to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ],
-      "stops": [
-        {
-          "id": "256020",
-          "isGlobalId": true,
-          "name": "Campbelltown Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95313007:1",
-            "name": "Campbelltown",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101296"
-          }
-        },
-        {
-          "id": "200060",
-          "isGlobalId": true,
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101100"
-          }
-        }
-      ]
-    },
-    "urlText": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
-    "url": "https://transportnsw.info/alerts/details#/ems-63190",
-    "content": "<div>Due to planned trackwork, this Xplorer service has been replaced by a road coach from Campbelltown to Sydney/Central. On arrival at Campbelltown, alight Xplorer train and board awaiting road coach replacement to Sydney/Central.</div>",
-    "subtitle": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services."
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-62089",
     "version": 450066,
     "priority": "normal",
@@ -6940,6 +6825,274 @@
     "url": "https://transportnsw.info/alerts/details#/ems-59019",
     "content": "<div>From Wednesday 15 October until Friday 20 February 2026 buses will divert and miss several stops while roadworks take place.</div>\n<div>&nbsp;</div>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Clarke St Opp 8 (2765366)</li>\n<li>8 Clarke St (2765362)&nbsp;</li>\n<li>Grafield Rd E Before Edmund St (2765460)&nbsp;</li>\n<li>Garfield Rd E After Clarke St (2765461)&nbsp;</li>\n<li>Hamilton St Opp Riverstone Community Church (276537)</li>\n<li>Riverstone Community Church&nbsp;(276525)</li>\n<li>Riverstone Ambulance Station, Hamilton St&nbsp;(276524)</li>\n<li>Hamilton St after Dingle St&nbsp;(276538)</li>\n<li>Hamilton St before Loane Ave&nbsp;(276523)</li>\n<li>Hamilton St before Crown St&nbsp;(276539)</li>\n</ul>",
     "subtitle": "Rouse Hill bus diversions"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-64569",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-12-22T03:19:00Z",
+      "lastModification": "2025-12-22T03:19:00Z",
+      "availability": {
+        "from": "2025-12-22T03:00:00Z",
+        "to": "2026-01-15T15:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-12T10:50:00Z",
+          "to": "2026-01-12T15:30:00Z"
+        },
+        {
+          "from": "2026-01-13T10:50:00Z",
+          "to": "2026-01-13T15:30:00Z"
+        },
+        {
+          "from": "2026-01-14T10:50:00Z",
+          "to": "2026-01-14T15:30:00Z"
+        },
+        {
+          "from": "2026-01-15T12:00:00Z",
+          "to": "2026-01-15T15:30:00Z"
+        }
+      ],
+      "expiration": "2026-01-15T15:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
+        "url": "https://transportnsw.info/alerts/details#/ems-64569",
+        "content": "<div><strong>Monday 12 to Thursday 15 January</strong></div>\n<ul>\n<li><strong>Nightly from 11pm to 2.30am</strong>, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.<br /><br /></li>\n<li><strong>Monday to Wednesday, nightly from 9.50pm</strong>, metro services do not run between Sydenham and Central. Change at Martin Place for metro services towards Tallawong.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+        "subtitle": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
+        "smsText": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
+        "speechText": "Monday 12 to Thursday 15 January\nNightly from 11PM to 2:30AM, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.\nMonday to Wednesday, nightly from 9:50PM, metro services do not run between Sydenham and Central. Change at Martin Place for metro services towards Tallawong."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "18d4556e-bd7b-5a93-b75a-cfc3373ff837",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
+      "speechText": "Monday 12 to Thursday 15 January\nNightly from 11PM to 2:30AM, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.\nMonday to Wednesday, nightly from 9:50PM, metro services do not run between Sydenham and Central. Change at Martin Place for metro services towards Tallawong."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station, Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station, Port Kembla",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        }
+      ]
+    },
+    "urlText": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
+    "url": "https://transportnsw.info/alerts/details#/ems-64569",
+    "content": "<div><strong>Monday 12 to Thursday 15 January</strong></div>\n<ul>\n<li><strong>Nightly from 11pm to 2.30am</strong>, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.<br /><br /></li>\n<li><strong>Monday to Wednesday, nightly from 9.50pm</strong>, metro services do not run between Sydenham and Central. Change at Martin Place for metro services towards Tallawong.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "Trains may run to a changed timetable. Metro trackwork may affect how you travel"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-64548",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-12-22T02:35:00Z",
+      "lastModification": "2025-12-22T02:35:00Z",
+      "availability": {
+        "from": "2025-12-22T02:00:00Z",
+        "to": "2026-01-14T14:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-13T12:50:00Z",
+          "to": "2026-01-13T14:30:00Z"
+        },
+        {
+          "from": "2026-01-14T12:50:00Z",
+          "to": "2026-01-14T14:30:00Z"
+        }
+      ],
+      "expiration": "2026-01-14T14:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "You may need to change trains at Granville",
+        "url": "https://transportnsw.info/alerts/details#/ems-64548",
+        "content": "<div><strong>Tuesday 13 and Wednesday 14 January &nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 11.50pm to 1.30am</strong>, some trains run to a changed timetable between Richmond or Leppington and Olympic Park. Some trains start and end at Granville.</li>\n<li>You may need to change trains at Granville to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+        "subtitle": "You may need to change trains at Granville",
+        "smsText": "You may need to change trains at Granville",
+        "speechText": "Tuesday 13 and Wednesday 14 January   \nNightly from 11:50PM to 1:30AM, some trains run to a changed timetable between Richmond or Leppington and Olympic Park. Some trains start and end at Granville.\nYou may need to change trains at Granville to continue your journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "dc6f0d07-f6df-562b-9d46-63c8969929d3",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "You may need to change trains at Granville",
+      "speechText": "Tuesday 13 and Wednesday 14 January   \nNightly from 11:50PM to 1:30AM, some trains run to a changed timetable between Richmond or Leppington and Olympic Park. Some trains start and end at Granville.\nYou may need to change trains at Granville to continue your journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Campbelltown Station, Campbelltown",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Emu Plains Station, Emu Plains",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "You may need to change trains at Granville",
+    "url": "https://transportnsw.info/alerts/details#/ems-64548",
+    "content": "<div><strong>Tuesday 13 and Wednesday 14 January &nbsp;&nbsp;</strong></div>\n<ul>\n<li><strong>Nightly from 11.50pm to 1.30am</strong>, some trains run to a changed timetable between Richmond or Leppington and Olympic Park. Some trains start and end at Granville.</li>\n<li>You may need to change trains at Granville to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "You may need to change trains at Granville"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-55713",
+    "version": 3728942,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-07-21T01:25:00Z",
+      "lastModification": "2025-09-02T05:14:00Z",
+      "availability": {
+        "from": "2025-09-06T16:00:00Z",
+        "to": "2026-04-05T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-09-28T16:00:00Z",
+          "to": "2026-04-05T16:00:00Z"
+        }
+      ],
+      "expiration": "2026-04-05T16:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Grantham Farm bus diversions",
+        "url": "https://transportnsw.info/alerts/details#/ems-55713",
+        "content": "<div>From Tuesday 29 September 2025 to Monday 6 April 2026, route 746 buses will divert and miss several stops while roadworks take place.</div>\n<div>&nbsp;</div>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Edmund St after Garfield Rd East (2765337)&nbsp;</li>\n<li>Edmund St before Garfield Rd East (2765338)</li>\n<li>33 Edmund St (2765339)</li>\n<li>Edmund St opp No 33 (2756340)</li>\n<li>Garfield Rd East before Edmund St (2765460)&nbsp;</li>\n<li>Garfield Rd East after Clarke St (2765461)&nbsp;</li>\n</ul>",
+        "subtitle": "Grantham Farm bus diversions",
+        "smsText": "Grantham Farm bus diversions",
+        "speechText": "From Tuesday 29 September 20 25 to Monday 6 April 20 26, route 7 4 6 buses will divert and miss several stops while roadworks take place."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "7a1ab851-91a9-527e-a5e0-772c523982d3",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Grantham Farm bus diversions",
+      "speechText": "From Tuesday 29 September 20 25 to Monday 6 April 20 26, route 7 4 6 buses will divert and miss several stops while roadworks take place."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:11746: :R:",
+          "destination": {
+            "name": "Rouse Hill Station, Rouse Hill",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 746",
+          "number": "746",
+          "description": "Riverstone to Rouse Hill",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2501",
+            "name": "Busways R1"
+          },
+          "iconId": 5
+        }
+      ]
+    },
+    "urlText": "Grantham Farm bus diversions",
+    "url": "https://transportnsw.info/alerts/details#/ems-55713",
+    "content": "<div>From Tuesday 29 September 2025 to Monday 6 April 2026, route 746 buses will divert and miss several stops while roadworks take place.</div>\n<div>&nbsp;</div>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Edmund St after Garfield Rd East (2765337)&nbsp;</li>\n<li>Edmund St before Garfield Rd East (2765338)</li>\n<li>33 Edmund St (2765339)</li>\n<li>Edmund St opp No 33 (2756340)</li>\n<li>Garfield Rd East before Edmund St (2765460)&nbsp;</li>\n<li>Garfield Rd East after Clarke St (2765461)&nbsp;</li>\n</ul>",
+    "subtitle": "Grantham Farm bus diversions"
   },
   {
     "type": "routeInfo",
@@ -7096,109 +7249,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-63152",
     "content": "<div>Due to planned trackwork, the Sydney to Canberra Xplorer service has been replaced by a road coach from Sydney/Central to Campbelltown. On arrival at Campbelltown, please join the Xplorer train for the reminder of your journey.</div>",
     "subtitle": "3rd and 4th January 2026 inclusive- 631/633/635 Sydney to Canberra Xplorer services."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-64569",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-12-22T03:19:00Z",
-      "lastModification": "2025-12-22T03:19:00Z",
-      "availability": {
-        "from": "2025-12-22T03:00:00Z",
-        "to": "2026-01-15T15:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-12T10:50:00Z",
-          "to": "2026-01-12T15:30:00Z"
-        },
-        {
-          "from": "2026-01-13T10:50:00Z",
-          "to": "2026-01-13T15:30:00Z"
-        },
-        {
-          "from": "2026-01-14T10:50:00Z",
-          "to": "2026-01-14T15:30:00Z"
-        },
-        {
-          "from": "2026-01-15T12:00:00Z",
-          "to": "2026-01-15T15:30:00Z"
-        }
-      ],
-      "expiration": "2026-01-15T15:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
-        "url": "https://transportnsw.info/alerts/details#/ems-64569",
-        "content": "<div><strong>Monday 12 to Thursday 15 January</strong></div>\n<ul>\n<li><strong>Nightly from 11pm to 2.30am</strong>, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.<br /><br /></li>\n<li><strong>Monday to Wednesday, nightly from 9.50pm</strong>, metro services do not run between Sydenham and Central. Change at Martin Place for metro services towards Tallawong.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-        "subtitle": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
-        "smsText": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
-        "speechText": "Monday 12 to Thursday 15 January\nNightly from 11PM to 2:30AM, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.\nMonday to Wednesday, nightly from 9:50PM, metro services do not run between Sydenham and Central. Change at Martin Place for metro services towards Tallawong."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "18d4556e-bd7b-5a93-b75a-cfc3373ff837",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
-      "speechText": "Monday 12 to Thursday 15 January\nNightly from 11PM to 2:30AM, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.\nMonday to Wednesday, nightly from 9:50PM, metro services do not run between Sydenham and Central. Change at Martin Place for metro services towards Tallawong."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station, Bondi Junction",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station, Port Kembla",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
-        }
-      ]
-    },
-    "urlText": "Trains may run to a changed timetable. Metro trackwork may affect how you travel",
-    "url": "https://transportnsw.info/alerts/details#/ems-64569",
-    "content": "<div><strong>Monday 12 to Thursday 15 January</strong></div>\n<ul>\n<li><strong>Nightly from 11pm to 2.30am</strong>, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.<br /><br /></li>\n<li><strong>Monday to Wednesday, nightly from 9.50pm</strong>, metro services do not run between Sydenham and Central. Change at Martin Place for metro services towards Tallawong.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "Trains may run to a changed timetable. Metro trackwork may affect how you travel"
   },
   {
     "type": "lineInfo",
@@ -7637,32 +7687,32 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-64573",
-    "version": 1,
+    "id": "ems-62077",
+    "version": 448065,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-12-22T03:24:00Z",
-      "lastModification": "2025-12-22T03:24:00Z",
+      "creation": "2025-11-12T20:05:00Z",
+      "lastModification": "2025-11-18T00:32:00Z",
       "availability": {
-        "from": "2025-12-21T20:30:00Z",
-        "to": "2026-01-17T00:30:00Z"
+        "from": "2025-11-17T17:30:00Z",
+        "to": "2026-01-10T08:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-16T20:30:00Z",
-          "to": "2026-01-17T00:30:00Z"
+          "from": "2026-01-09T17:30:00Z",
+          "to": "2026-01-10T08:00:00Z"
         }
       ],
-      "expiration": "2026-01-17T00:30:59Z"
+      "expiration": "2026-01-10T08:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
-        "url": "https://transportnsw.info/alerts/details#/ems-64573",
-        "content": "<div><strong>Saturday 17 January</strong></div>\n<ul>\n<li><strong>From 7.30am to 11.30am</strong>, at Stanwell Park and Coalcliff, all trains leave from platform 1.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-        "subtitle": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
-        "smsText": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
-        "speechText": "Saturday 17 January\nFrom 7:30AM to 11:30AM, at Stanwell Park and Coalcliff, all trains leave from platform 1."
+        "urlText": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-62077",
+        "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Sydney and Albury.</div>",
+        "subtitle": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
+        "smsText": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
+        "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Sydney and Albury."
       }
     ],
     "properties": {
@@ -7670,61 +7720,183 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2e7e61e8-7ef1-5742-95f4-db7d81ae0fd0",
+      "messageRef": "86d9bdb4-d720-5df4-8dd0-c829f2b7f9fd",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
-      "speechText": "Saturday 17 January\nFrom 7:30AM to 11:30AM, at Stanwell Park and Coalcliff, all trains leave from platform 1."
+      "smsText": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
+      "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Sydney and Albury."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:02SCO: :R:",
+          "id": "nsw:76623: :H:",
           "destination": {
-            "name": "Bondi Junction Station, Bondi Junction",
+            "name": "Melbourne (Southern Cross) Station, Victoria",
             "type": "stop"
           },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
           "product": {
-            "id": 2,
+            "id": 3,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
+            "id": "711",
+            "name": "NSW TrainLink"
           },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station, Port Kembla",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
+          "iconId": 3
         }
       ]
     },
-    "urlText": "At Stanwell Park and Coalcliff, all trains leave from platform 1",
-    "url": "https://transportnsw.info/alerts/details#/ems-64573",
-    "content": "<div><strong>Saturday 17 January</strong></div>\n<ul>\n<li><strong>From 7.30am to 11.30am</strong>, at Stanwell Park and Coalcliff, all trains leave from platform 1.</li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "At Stanwell Park and Coalcliff, all trains leave from platform 1"
+    "urlText": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-62077",
+    "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Sydney and Albury.</div>",
+    "subtitle": "Saturday 10th January 2026 - 623 Sydney to Melbourne XPT service."
+  },
+  {
+    "type": "routeInfo",
+    "id": "ems-63190",
+    "version": 102,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-12-01T21:32:00Z",
+      "lastModification": "2025-12-01T21:34:00Z",
+      "availability": {
+        "from": "2025-12-01T19:30:00Z",
+        "to": "2026-01-04T11:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-02T19:30:00Z",
+          "to": "2026-01-04T11:00:00Z"
+        }
+      ],
+      "expiration": "2026-01-04T11:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
+        "url": "https://transportnsw.info/alerts/details#/ems-63190",
+        "content": "<div>Due to planned trackwork, this Xplorer service has been replaced by a road coach from Campbelltown to Sydney/Central. On arrival at Campbelltown, alight Xplorer train and board awaiting road coach replacement to Sydney/Central.</div>",
+        "subtitle": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
+        "smsText": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
+        "speechText": "Due to planned trackwork, this Xplorer service has been replaced by a road coach from Campbelltown to Sydney/Central. On arrival at Campbelltown alight Xplorer train and board awaiting road coach replacement to Sydney/Central."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "93854bde-0c0d-5493-b2d4-cd2a30c545b6",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "256020#200060",
+      "providerCode": "TfNSW",
+      "smsText": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
+      "speechText": "Due to planned trackwork, this Xplorer service has been replaced by a road coach from Campbelltown to Sydney/Central. On arrival at Campbelltown alight Xplorer train and board awaiting road coach replacement to Sydney/Central."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76632: :R:",
+          "destination": {
+            "name": "Strathfield Station, Strathfield",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 632",
+          "number": "632",
+          "description": "Canberra to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        },
+        {
+          "id": "nsw:76634: :R:",
+          "destination": {
+            "name": "Strathfield Station, Strathfield",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 634",
+          "number": "634",
+          "description": "Canberra to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        },
+        {
+          "id": "nsw:76636: :R:",
+          "destination": {
+            "name": "Strathfield Station, Strathfield",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 636",
+          "number": "636",
+          "description": "Canberra to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ],
+      "stops": [
+        {
+          "id": "256020",
+          "isGlobalId": true,
+          "name": "Campbelltown Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313007:1",
+            "name": "Campbelltown",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101296"
+          }
+        },
+        {
+          "id": "200060",
+          "isGlobalId": true,
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101100"
+          }
+        }
+      ]
+    },
+    "urlText": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services.",
+    "url": "https://transportnsw.info/alerts/details#/ems-63190",
+    "content": "<div>Due to planned trackwork, this Xplorer service has been replaced by a road coach from Campbelltown to Sydney/Central. On arrival at Campbelltown, alight Xplorer train and board awaiting road coach replacement to Sydney/Central.</div>",
+    "subtitle": "3rd and 4th January 2026 inclusive- 632/634/636 Canberra to Sydney Xplorer services."
   },
   {
     "type": "lineInfo",
@@ -10252,97 +10424,6 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-64539",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-12-22T02:18:00Z",
-      "lastModification": "2025-12-22T02:18:00Z",
-      "availability": {
-        "from": "2025-12-21T15:00:00Z",
-        "to": "2026-01-18T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-16T15:00:00Z",
-          "to": "2026-01-18T15:00:00Z"
-        }
-      ],
-      "expiration": "2026-01-18T15:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
-        "url": "https://transportnsw.info/alerts/details#/ems-64539",
-        "content": "<div><strong>Saturday 17 and Sunday 18 January&nbsp;</strong></div>\n<ul>\n<li>Direct trains do not run between T3 Liverpool Line stations and the City.</li>\n<li>Trains run to a changed timetable between Liverpool and Lidcombe only.</li>\n<li>Buses replace trains between Lidcombe and Olympic Park or Parramatta.<br /><br /></li>\n<li>Change at:<br />-<strong> Lidcombe</strong> for buses to Olympic Park, then trains from Olympic Park to the City, or<br />- <strong>Cabramatta</strong> for trains towards Leppington or T1 Western Line stations.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus route</strong></div>\n<div>5T1 Olympic Park, Lidcombe, then all stations to Parramatta and return</div>\n<div>40T7 Olympic Park, Lidcombe and return</div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>Replacement buses</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</div>",
-        "subtitle": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
-        "smsText": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
-        "speechText": "Saturday 17 and Sunday 18 January \nDirect trains do not run between T3 Liverpool Line stations and the City.\nTrains run to a changed timetable between Liverpool and Lidcombe only.\nBuses replace trains between Lidcombe and Olympic Park or Parramatta.\nChange at:\n- Lidcombe for buses to Olympic Park, then trains from Olympic Park to the City, or\n- Cabramatta for trains towards Leppington or T1 Western Line stations."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "45016b35-e8b3-5898-bd16-b6528a94a480",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
-      "speechText": "Saturday 17 and Sunday 18 January \nDirect trains do not run between T3 Liverpool Line stations and the City.\nTrains run to a changed timetable between Liverpool and Lidcombe only.\nBuses replace trains between Lidcombe and Olympic Park or Parramatta.\nChange at:\n- Lidcombe for buses to Olympic Park, then trains from Olympic Park to the City, or\n- Cabramatta for trains towards Leppington or T1 Western Line stations."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T3: :R:",
-          "destination": {
-            "name": "Bankstown Station, Bankstown",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
-          "number": "T3 Liverpool & Inner West Line",
-          "description": "Liverpool or Lidcombe to City",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T3: :H:",
-          "destination": {
-            "name": "Liverpool Station, Liverpool",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
-          "number": "T3 Liverpool & Inner West Line",
-          "description": "City to Liverpool or Lidcombe",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
-    "url": "https://transportnsw.info/alerts/details#/ems-64539",
-    "content": "<div><strong>Saturday 17 and Sunday 18 January&nbsp;</strong></div>\n<ul>\n<li>Direct trains do not run between T3 Liverpool Line stations and the City.</li>\n<li>Trains run to a changed timetable between Liverpool and Lidcombe only.</li>\n<li>Buses replace trains between Lidcombe and Olympic Park or Parramatta.<br /><br /></li>\n<li>Change at:<br />-<strong> Lidcombe</strong> for buses to Olympic Park, then trains from Olympic Park to the City, or<br />- <strong>Cabramatta</strong> for trains towards Leppington or T1 Western Line stations.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus route</strong></div>\n<div>5T1 Olympic Park, Lidcombe, then all stations to Parramatta and return</div>\n<div>40T7 Olympic Park, Lidcombe and return</div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>Replacement buses</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</div>",
-    "subtitle": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park"
-  },
-  {
-    "type": "lineInfo",
     "id": "ems-64211",
     "version": 1,
     "priority": "normal",
@@ -10437,33 +10518,33 @@
     "subtitle": "Buses replace trains between Leppington and Glenfield"
   },
   {
-    "type": "routeInfo",
-    "id": "ems-62462",
-    "version": 3459786,
+    "type": "lineInfo",
+    "id": "ems-64539",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-11-19T03:32:00Z",
-      "lastModification": "2025-12-29T04:35:00Z",
+      "creation": "2025-12-22T02:18:00Z",
+      "lastModification": "2025-12-22T02:18:00Z",
       "availability": {
-        "from": "2025-11-18T17:45:00Z",
-        "to": "2026-01-04T11:00:00Z"
+        "from": "2025-12-21T15:00:00Z",
+        "to": "2026-01-18T15:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-01T17:45:00Z",
-          "to": "2026-01-04T11:00:00Z"
+          "from": "2026-01-16T15:00:00Z",
+          "to": "2026-01-18T15:00:00Z"
         }
       ],
-      "expiration": "2026-01-04T11:00:59Z"
+      "expiration": "2026-01-18T15:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-62462",
-        "content": "<div>Due to planned trackwork, this XPT service will be replaced by road coaches between Broadmeadow and Sydney</div>",
-        "subtitle": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
-        "smsText": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
-        "speechText": "Due to planned trackwork, this XPT service will be replaced by road coaches between Broadmeadow and Sydney"
+        "urlText": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
+        "url": "https://transportnsw.info/alerts/details#/ems-64539",
+        "content": "<div><strong>Saturday 17 and Sunday 18 January&nbsp;</strong></div>\n<ul>\n<li>Direct trains do not run between T3 Liverpool Line stations and the City.</li>\n<li>Trains run to a changed timetable between Liverpool and Lidcombe only.</li>\n<li>Buses replace trains between Lidcombe and Olympic Park or Parramatta.<br /><br /></li>\n<li>Change at:<br />-<strong> Lidcombe</strong> for buses to Olympic Park, then trains from Olympic Park to the City, or<br />- <strong>Cabramatta</strong> for trains towards Leppington or T1 Western Line stations.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus route</strong></div>\n<div>5T1 Olympic Park, Lidcombe, then all stations to Parramatta and return</div>\n<div>40T7 Olympic Park, Lidcombe and return</div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>Replacement buses</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</div>",
+        "subtitle": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
+        "smsText": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
+        "speechText": "Saturday 17 and Sunday 18 January \nDirect trains do not run between T3 Liverpool Line stations and the City.\nTrains run to a changed timetable between Liverpool and Lidcombe only.\nBuses replace trains between Lidcombe and Olympic Park or Parramatta.\nChange at:\n- Lidcombe for buses to Olympic Park, then trains from Olympic Park to the City, or\n- Cabramatta for trains towards Leppington or T1 Western Line stations."
       }
     ],
     "properties": {
@@ -10471,141 +10552,60 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5b5d4f8b-f1ec-5151-85bb-f4581fac2843",
+      "messageRef": "45016b35-e8b3-5898-bd16-b6528a94a480",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "229210#228330#225920#225040#207720#213510#200060",
       "providerCode": "TfNSW",
-      "smsText": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
-      "speechText": "Due to planned trackwork, this XPT service will be replaced by road coaches between Broadmeadow and Sydney"
+      "smsText": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
+      "speechText": "Saturday 17 and Sunday 18 January \nDirect trains do not run between T3 Liverpool Line stations and the City.\nTrains run to a changed timetable between Liverpool and Lidcombe only.\nBuses replace trains between Lidcombe and Olympic Park or Parramatta.\nChange at:\n- Lidcombe for buses to Olympic Park, then trains from Olympic Park to the City, or\n- Cabramatta for trains towards Leppington or T1 Western Line stations."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76032: :R:",
+          "id": "nsw:020T3: :R:",
           "destination": {
-            "name": "Central Station, Sydney",
+            "name": "Bankstown Station, Bankstown",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
+          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
+          "number": "T3 Liverpool & Inner West Line",
+          "description": "Liverpool or Lidcombe to City",
           "product": {
-            "id": 3,
+            "id": 1,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "x0001",
+            "name": "Sydney Trains"
           },
-          "iconId": 3
-        }
-      ],
-      "stops": [
-        {
-          "id": "229210",
-          "isGlobalId": true,
-          "name": "Broadmeadow Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95342007:1",
-            "name": "Broadmeadow",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101160"
-          }
+          "iconId": 1
         },
         {
-          "id": "228330",
-          "isGlobalId": true,
-          "name": "Fassifern Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95331036:1",
-            "name": "Fassifern",
-            "type": "locality"
+          "id": "nsw:020T3: :H:",
+          "destination": {
+            "name": "Liverpool Station, Liverpool",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101151"
-          }
-        },
-        {
-          "id": "225920",
-          "isGlobalId": true,
-          "name": "Wyong Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95367074:1",
-            "name": "Wyong",
-            "type": "locality"
+          "name": "Sydney Trains Network T3 Liverpool & Inner West Line",
+          "number": "T3 Liverpool & Inner West Line",
+          "description": "City to Liverpool or Lidcombe",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
           },
-          "properties": {
-            "stopId": "10101145"
-          }
-        },
-        {
-          "id": "225040",
-          "isGlobalId": true,
-          "name": "Gosford Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95320022:1",
-            "name": "Gosford",
-            "type": "locality"
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
           },
-          "properties": {
-            "stopId": "10101139"
-          }
-        },
-        {
-          "id": "207720",
-          "isGlobalId": true,
-          "name": "Hornsby Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95325020:1",
-            "name": "Hornsby",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101127"
-          }
-        },
-        {
-          "id": "213510",
-          "isGlobalId": true,
-          "name": "Strathfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95356003:1",
-            "name": "Strathfield",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101206"
-          }
-        },
-        {
-          "id": "200060",
-          "isGlobalId": true,
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101100"
-          }
+          "iconId": 1
         }
       ]
     },
-    "urlText": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-62462",
-    "content": "<div>Due to planned trackwork, this XPT service will be replaced by road coaches between Broadmeadow and Sydney</div>",
-    "subtitle": "2nd to 4th January 2026 inclusive- 32 Brisbane to Sydney XPT service."
+    "urlText": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park",
+    "url": "https://transportnsw.info/alerts/details#/ems-64539",
+    "content": "<div><strong>Saturday 17 and Sunday 18 January&nbsp;</strong></div>\n<ul>\n<li>Direct trains do not run between T3 Liverpool Line stations and the City.</li>\n<li>Trains run to a changed timetable between Liverpool and Lidcombe only.</li>\n<li>Buses replace trains between Lidcombe and Olympic Park or Parramatta.<br /><br /></li>\n<li>Change at:<br />-<strong> Lidcombe</strong> for buses to Olympic Park, then trains from Olympic Park to the City, or<br />- <strong>Cabramatta</strong> for trains towards Leppington or T1 Western Line stations.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus route</strong></div>\n<div>5T1 Olympic Park, Lidcombe, then all stations to Parramatta and return</div>\n<div>40T7 Olympic Park, Lidcombe and return</div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>Replacement buses</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp; Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</div>",
+    "subtitle": "Trains run between Liverpool and Lidcombe only. Buses replace trains between Lidcombe and Olympic Park"
   }
 ]
