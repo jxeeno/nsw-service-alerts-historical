@@ -1,133 +1,75 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "type": "infrastructure",
+    "id": "ems-64843",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2025-12-31T07:59:00Z",
+      "lastModification": "2025-12-31T08:00:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
+        "from": "2025-12-24T10:48:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
+          "from": "2025-12-31T07:59:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-02-07T11:49:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64843",
+        "content": "At Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
+        "subtitle": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
+        "smsText": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
+        "speechText": "At Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "2172b800-c60a-55d1-8819-4ef09308fba7",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214610:2146113,2146114",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
+      "speechText": "At Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
+          "id": "214610",
+          "isGlobalId": true,
+          "name": "Toongabbie Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308040:1",
+            "name": "Toongabbie",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
+          "properties": {
+            "stopId": "10101233"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64843",
+    "content": "At Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
+    "subtitle": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available"
   },
   {
     "type": "infrastructure",
@@ -203,34 +145,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-64843",
-    "version": 2,
+    "id": "ems-64948",
+    "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-12-31T07:59:00Z",
-      "lastModification": "2025-12-31T08:00:00Z",
+      "creation": "2026-01-04T01:16:00Z",
+      "lastModification": "2026-01-04T01:16:00Z",
       "availability": {
-        "from": "2025-12-24T10:48:00Z",
+        "from": "2025-12-28T04:06:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-12-31T07:59:00Z",
+          "from": "2026-01-04T01:16:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-02-07T11:49:59Z"
+      "expiration": "2505-02-11T05:07:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64843",
-        "content": "At Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
-        "subtitle": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
-        "smsText": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
-        "speechText": "At Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+        "urlText": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64948",
+        "content": "At Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4739 1753.",
+        "subtitle": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
+        "smsText": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
+        "speechText": "At Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4739 1753."
       }
     ],
     "properties": {
@@ -239,28 +181,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2172b800-c60a-55d1-8819-4ef09308fba7",
+      "messageRef": "a3401071-f2ec-57f8-97bc-ec3696dc7f94",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214610:2146113,2146114",
+      "stopIDglobalID": "277310:277371,277372",
       "providerCode": "TfNSW",
-      "smsText": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
-      "speechText": "At Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+      "smsText": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
+      "speechText": "At Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4739 1753."
     },
     "affected": {
       "stops": [
         {
-          "id": "214610",
+          "id": "277310",
           "isGlobalId": true,
-          "name": "Toongabbie Station",
+          "name": "Glenbrook Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95308040:1",
-            "name": "Toongabbie",
+            "id": "placeID:95309009:1",
+            "name": "Glenbrook",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101233"
+            "stopId": "10101255"
           }
         }
       ],
@@ -268,10 +210,225 @@
         {}
       ]
     },
-    "urlText": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64843",
-    "content": "At Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
-    "subtitle": "Toongabbie Station Lift 3 between the footbridge and Platform 3/4 is not available"
+    "urlText": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64948",
+    "content": "At Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4739 1753.",
+    "subtitle": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64909",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-02T12:08:00Z",
+      "lastModification": "2026-01-02T12:09:00Z",
+      "availability": {
+        "from": "2025-12-25T00:29:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-02T12:08:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-09T15:59:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64909",
+        "content": "At Glenfield Station Lift 1 between the concourse and Railway Pde S is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1162.",
+        "subtitle": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
+        "smsText": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
+        "speechText": "At Glenfield Station Lift 1 between the concourse and Railway Pde S is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1162."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "98ec3c72-df83-5125-8f78-c0b859c87462",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "216710",
+      "providerCode": "TfNSW",
+      "smsText": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
+      "speechText": "At Glenfield Station Lift 1 between the concourse and Railway Pde S is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1162."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "216710",
+          "isGlobalId": true,
+          "name": "Glenfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313015:1",
+            "name": "Glenfield",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101291"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64909",
+    "content": "At Glenfield Station Lift 1 between the concourse and Railway Pde S is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1162.",
+    "subtitle": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64891",
+    "version": 18,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-01T21:48:00Z",
+      "lastModification": "2026-01-01T21:49:00Z",
+      "availability": {
+        "from": "2026-01-01T21:43:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-01T21:43:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
+        "url": "https://transportnsw.info/alerts/details#/ems-64891",
+        "content": "At Marion Light Rail Lift between Marion St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use if the doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use alternative light rail stops (Taverners Hill or Hawthorne or Taverners Hill), due to no alternative lift available at this stop</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>\n</div>",
+        "subtitle": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
+        "smsText": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
+        "speechText": "At Marion Light Rail Lift between Marion St and the Light Rail stop is temporarily out of service."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "19f655e1-92f5-597a-bc2d-b7c410128b53",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "204092:2040109",
+      "providerCode": "TfNSW",
+      "smsText": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
+      "speechText": "At Marion Light Rail Lift between Marion St and the Light Rail stop is temporarily out of service."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "204092",
+          "isGlobalId": true,
+          "name": "Marion Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95333005:1",
+            "name": "Leichhardt",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101627"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
+    "url": "https://transportnsw.info/alerts/details#/ems-64891",
+    "content": "At Marion Light Rail Lift between Marion St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use if the doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use alternative light rail stops (Taverners Hill or Hawthorne or Taverners Hill), due to no alternative lift available at this stop</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>\n</div>",
+    "subtitle": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n."
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-64956",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-04T08:47:00Z",
+      "lastModification": "2026-01-04T08:47:00Z",
+      "availability": {
+        "from": "2025-12-28T11:37:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-04T08:47:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-11T12:38:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-64956",
+        "content": "At Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9122.",
+        "subtitle": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
+        "smsText": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
+        "speechText": "At Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9122."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "81a2b4cb-b209-519e-8bc3-b828a85aa223",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "229210",
+      "providerCode": "TfNSW",
+      "smsText": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
+      "speechText": "At Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9122."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "229210",
+          "isGlobalId": true,
+          "name": "Broadmeadow Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95342007:1",
+            "name": "Broadmeadow",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101160"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-64956",
+    "content": "At Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9122.",
+    "subtitle": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available"
   },
   {
     "type": "lineInfo",
@@ -405,78 +562,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-64909",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-02T12:08:00Z",
-      "lastModification": "2026-01-02T12:09:00Z",
-      "availability": {
-        "from": "2025-12-25T00:29:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-02T12:08:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-02-09T15:59:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64909",
-        "content": "At Glenfield Station Lift 1 between the concourse and Railway Pde S is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1162.",
-        "subtitle": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
-        "smsText": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
-        "speechText": "At Glenfield Station Lift 1 between the concourse and Railway Pde S is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1162."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "98ec3c72-df83-5125-8f78-c0b859c87462",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "216710",
-      "providerCode": "TfNSW",
-      "smsText": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
-      "speechText": "At Glenfield Station Lift 1 between the concourse and Railway Pde S is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1162."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "216710",
-          "isGlobalId": true,
-          "name": "Glenfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95313015:1",
-            "name": "Glenfield",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101291"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64909",
-    "content": "At Glenfield Station Lift 1 between the concourse and Railway Pde S is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1162.",
-    "subtitle": "Glenfield Station Lift 1 between the concourse and Railway Pde S is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-64960",
     "version": 7,
     "priority": "low",
@@ -546,149 +631,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-64960",
     "content": "At Penrith Station Lift 1 between the concourse and Belmore St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3971.",
     "subtitle": "Penrith Station Lift 1 between the concourse and Belmore St is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64948",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-04T01:16:00Z",
-      "lastModification": "2026-01-04T01:16:00Z",
-      "availability": {
-        "from": "2025-12-28T04:06:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-04T01:16:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-02-11T05:07:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64948",
-        "content": "At Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4739 1753.",
-        "subtitle": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
-        "smsText": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
-        "speechText": "At Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4739 1753."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "a3401071-f2ec-57f8-97bc-ec3696dc7f94",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "277310:277371,277372",
-      "providerCode": "TfNSW",
-      "smsText": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
-      "speechText": "At Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4739 1753."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "277310",
-          "isGlobalId": true,
-          "name": "Glenbrook Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95309009:1",
-            "name": "Glenbrook",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101255"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64948",
-    "content": "At Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4739 1753.",
-    "subtitle": "Glenbrook Station Lift 1 between the footbridge and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-64891",
-    "version": 18,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-01T21:48:00Z",
-      "lastModification": "2026-01-01T21:49:00Z",
-      "availability": {
-        "from": "2026-01-01T21:43:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-01T21:43:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
-        "url": "https://transportnsw.info/alerts/details#/ems-64891",
-        "content": "At Marion Light Rail Lift between Marion St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use if the doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use alternative light rail stops (Taverners Hill or Hawthorne or Taverners Hill), due to no alternative lift available at this stop</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>\n</div>",
-        "subtitle": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
-        "smsText": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
-        "speechText": "At Marion Light Rail Lift between Marion St and the Light Rail stop is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "19f655e1-92f5-597a-bc2d-b7c410128b53",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204092:2040109",
-      "providerCode": "TfNSW",
-      "smsText": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
-      "speechText": "At Marion Light Rail Lift between Marion St and the Light Rail stop is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "204092",
-          "isGlobalId": true,
-          "name": "Marion Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333005:1",
-            "name": "Leichhardt",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101627"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n.",
-    "url": "https://transportnsw.info/alerts/details#/ems-64891",
-    "content": "At Marion Light Rail Lift between Marion St and the Light Rail stop is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use if the doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use alternative light rail stops (Taverners Hill or Hawthorne or Taverners Hill), due to no alternative lift available at this stop</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>\n</div>",
-    "subtitle": "Marion Light Rail Lift between Marion St and the Light Rail stop is not available\n\n."
   },
   {
     "type": "lineInfo",
@@ -781,75 +723,133 @@
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
-    "type": "infrastructure",
-    "id": "ems-64956",
-    "version": 2,
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-04T08:47:00Z",
-      "lastModification": "2026-01-04T08:47:00Z",
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
       "availability": {
-        "from": "2025-12-28T11:37:00Z",
+        "from": "2021-11-19T02:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-04T08:47:00Z",
+          "from": "2021-11-19T02:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-02-11T12:38:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-64956",
-        "content": "At Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9122.",
-        "subtitle": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
-        "smsText": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
-        "speechText": "At Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9122."
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "81a2b4cb-b209-519e-8bc3-b828a85aa223",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "229210",
       "providerCode": "TfNSW",
-      "smsText": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
-      "speechText": "At Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9122."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "229210",
-          "isGlobalId": true,
-          "name": "Broadmeadow Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95342007:1",
-            "name": "Broadmeadow",
-            "type": "locality"
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101160"
-          }
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     },
-    "urlText": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-64956",
-    "content": "At Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9122.",
-    "subtitle": "Broadmeadow Station Lift 1 between the pedestrian Tunnel and Graham Rd is not available"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   }
 ]
