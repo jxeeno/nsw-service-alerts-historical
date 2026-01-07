@@ -1,75 +1,133 @@
 [
   {
-    "type": "infrastructure",
-    "id": "ems-62159",
-    "version": 6235,
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
     "priority": "low",
     "timestamps": {
-      "creation": "2025-11-13T22:03:00Z",
-      "lastModification": "2025-11-13T23:46:00Z",
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
       "availability": {
-        "from": "2025-11-12T23:02:00Z",
+        "from": "2021-11-19T02:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2025-11-12T23:03:00Z",
+          "from": "2021-11-19T02:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2504-12-21T13:53:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62159",
-        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204420:204476",
       "providerCode": "TfNSW",
-      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "204420",
-          "isGlobalId": true,
-          "name": "Sydenham Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95338008:1",
-            "name": "Sydenham",
-            "type": "locality"
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101326"
-          }
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     },
-    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62159",
-    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
@@ -145,34 +203,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-65155",
-    "version": 5,
+    "id": "ems-62159",
+    "version": 6235,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-07T09:43:00Z",
-      "lastModification": "2026-01-07T09:43:00Z",
+      "creation": "2025-11-13T22:03:00Z",
+      "lastModification": "2025-11-13T23:46:00Z",
       "availability": {
-        "from": "2025-12-31T12:33:00Z",
+        "from": "2025-11-12T23:02:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-07T09:43:00Z",
+          "from": "2025-11-12T23:03:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-02-14T13:34:59Z"
+      "expiration": "2504-12-21T13:53:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65155",
-        "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
-        "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-        "smsText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-        "speechText": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
+        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62159",
+        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
       }
     ],
     "properties": {
@@ -181,28 +239,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "6783f379-5d9b-547a-803f-ae7c5a410565",
+      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213410:213494,213495",
+      "stopIDglobalID": "204420:204476",
       "providerCode": "TfNSW",
-      "smsText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-      "speechText": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
+      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
     },
     "affected": {
       "stops": [
         {
-          "id": "213410",
+          "id": "204420",
           "isGlobalId": true,
-          "name": "Burwood Station",
+          "name": "Sydenham Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95311001:1",
-            "name": "Burwood",
+            "id": "placeID:95338008:1",
+            "name": "Sydenham",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101207"
+            "stopId": "10101326"
           }
         }
       ],
@@ -210,10 +268,172 @@
         {}
       ]
     },
-    "urlText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65155",
-    "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
-    "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available"
+    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62159",
+    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
+      "availability": {
+        "from": "2021-11-19T03:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T03:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-65169",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-07T20:05:00Z",
+      "lastModification": "2026-01-07T20:05:00Z",
+      "availability": {
+        "from": "2026-01-06T21:05:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-06T21:05:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-14T11:56:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65169",
+        "content": "At Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8421.",
+        "subtitle": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+        "smsText": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+        "speechText": "At Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8421."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "fe8adf5e-c00c-545d-8a7b-af7769ee248b",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "211910:211910,211981,211982",
+      "providerCode": "TfNSW",
+      "smsText": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+      "speechText": "At Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8421."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "211910",
+          "isGlobalId": true,
+          "name": "Beecroft Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325003:1",
+            "name": "Beecroft",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101197"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65169",
+    "content": "At Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8421.",
+    "subtitle": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available"
   },
   {
     "type": "lineInfo",
@@ -347,34 +567,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-65169",
-    "version": 2,
+    "id": "ems-65155",
+    "version": 5,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-07T20:05:00Z",
-      "lastModification": "2026-01-07T20:05:00Z",
+      "creation": "2026-01-07T09:43:00Z",
+      "lastModification": "2026-01-07T09:43:00Z",
       "availability": {
-        "from": "2026-01-06T21:05:00Z",
+        "from": "2025-12-31T12:33:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-06T21:05:00Z",
+          "from": "2026-01-07T09:43:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-02-14T11:56:59Z"
+      "expiration": "2505-02-14T13:34:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65169",
-        "content": "At Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8421.",
-        "subtitle": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-        "smsText": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-        "speechText": "At Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8421."
+        "urlText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65155",
+        "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
+        "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+        "smsText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+        "speechText": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
       }
     ],
     "properties": {
@@ -383,28 +603,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "fe8adf5e-c00c-545d-8a7b-af7769ee248b",
+      "messageRef": "6783f379-5d9b-547a-803f-ae7c5a410565",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "211910:211910,211981,211982",
+      "stopIDglobalID": "213410:213494,213495",
       "providerCode": "TfNSW",
-      "smsText": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-      "speechText": "At Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8421."
+      "smsText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+      "speechText": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
     },
     "affected": {
       "stops": [
         {
-          "id": "211910",
+          "id": "213410",
           "isGlobalId": true,
-          "name": "Beecroft Station",
+          "name": "Burwood Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95325003:1",
-            "name": "Beecroft",
+            "id": "placeID:95311001:1",
+            "name": "Burwood",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101197"
+            "stopId": "10101207"
           }
         }
       ],
@@ -412,229 +632,9 @@
         {}
       ]
     },
-    "urlText": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65169",
-    "content": "At Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8421.",
-    "subtitle": "Beecroft Station Lift 1 between the pedestrian tunnel and Platform 1/2 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
-      "availability": {
-        "from": "2021-11-19T03:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T03:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65155",
+    "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
+    "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available"
   }
 ]
