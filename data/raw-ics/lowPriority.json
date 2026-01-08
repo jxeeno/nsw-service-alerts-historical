@@ -1,162 +1,104 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "type": "infrastructure",
+    "id": "ems-65206",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2026-01-08T13:04:00Z",
+      "lastModification": "2026-01-08T13:04:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
+        "from": "2021-12-16T22:26:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
+          "from": "2026-01-08T13:04:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-02-16T03:55:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65206",
+        "content": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935.",
+        "subtitle": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
+        "smsText": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
+        "speechText": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "56ee2f4e-d3c4-5f09-8e59-55dcc05240bb",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "257710",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
+      "speechText": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
+          "id": "257710",
+          "isGlobalId": true,
+          "name": "Moss Vale Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95363026:1",
+            "name": "Moss Vale",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
+          "properties": {
+            "stopId": "10101308"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65206",
+    "content": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935.",
+    "subtitle": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available"
   },
   {
     "type": "lineInfo",
-    "id": "ems-65202",
+    "id": "ems-65203",
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-08T10:46:00Z",
-      "lastModification": "2026-01-08T10:46:00Z",
+      "creation": "2026-01-08T10:59:00Z",
+      "lastModification": "2026-01-08T10:59:00Z",
       "availability": {
-        "from": "2026-01-08T10:41:00Z",
-        "to": "2026-01-08T22:41:00Z"
+        "from": "2026-01-07T13:01:00Z",
+        "to": "2026-01-09T12:59:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-08T10:41:00Z",
-          "to": "2026-01-08T22:41:00Z"
+          "from": "2026-01-07T13:01:00Z",
+          "to": "2026-01-09T13:00:00Z"
         }
       ],
-      "expiration": "2026-01-08T22:41:59Z"
+      "expiration": "2026-01-09T13:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Train service delays between Casino Station and Central Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-65202",
-        "content": "There are delays on route 34 train services due to extreme heat. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train service delays between Casino Station and Central Station",
-        "smsText": "Train service delays between Casino Station and Central Station",
-        "speechText": "There are delays on route 34 train services due to extreme heat. \n Plan ahead and allow extra travel time."
+        "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-65203",
+        "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
       }
     ],
     "properties": {
@@ -164,24 +106,24 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d3b0d571-269e-58eb-9619-0536d53f91d6",
+      "messageRef": "2d895594-f388-59a1-b463-6fa98771348a",
       "EnvironmentReason": "highTemperatures",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Train service delays between Casino Station and Central Station",
-      "speechText": "There are delays on route 34 train services due to extreme heat. \n Plan ahead and allow extra travel time."
+      "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+      "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76034: :R:",
+          "id": "nsw:76623: :H:",
           "destination": {
-            "name": "Central Station, Sydney",
+            "name": "Melbourne (Southern Cross) Station, Victoria",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
           "product": {
             "id": 3,
             "class": 1,
@@ -195,82 +137,10 @@
         }
       ]
     },
-    "urlText": "Train service delays between Casino Station and Central Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-65202",
-    "content": "There are delays on route 34 train services due to extreme heat. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Casino Station and Central Station"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-62159",
-    "version": 6235,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-11-13T22:03:00Z",
-      "lastModification": "2025-11-13T23:46:00Z",
-      "availability": {
-        "from": "2025-11-12T23:02:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-12T23:03:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-12-21T13:53:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62159",
-        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204420:204476",
-      "providerCode": "TfNSW",
-      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "204420",
-          "isGlobalId": true,
-          "name": "Sydenham Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95338008:1",
-            "name": "Sydenham",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101326"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62159",
-    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
+    "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-65203",
+    "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station"
   },
   {
     "type": "lineInfo",
@@ -365,34 +235,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-65201",
-    "version": 3,
+    "id": "ems-62159",
+    "version": 6235,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-08T10:29:00Z",
-      "lastModification": "2026-01-08T10:29:00Z",
+      "creation": "2025-11-13T22:03:00Z",
+      "lastModification": "2025-11-13T23:46:00Z",
       "availability": {
-        "from": "2026-01-07T11:29:00Z",
+        "from": "2025-11-12T23:02:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-07T11:29:00Z",
+          "from": "2025-11-12T23:03:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-02-15T02:19:59Z"
+      "expiration": "2504-12-21T13:53:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65201",
-        "content": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046.",
-        "subtitle": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
-        "smsText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
-        "speechText": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046."
+        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62159",
+        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
       }
     ],
     "properties": {
@@ -401,28 +271,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "54aa61e6-e048-5143-9455-358b6b1f2f12",
+      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206520",
+      "stopIDglobalID": "204420:204476",
       "providerCode": "TfNSW",
-      "smsText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
-      "speechText": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046."
+      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
     },
     "affected": {
       "stops": [
         {
-          "id": "206520",
+          "id": "204420",
           "isGlobalId": true,
-          "name": "St Leonards Station",
+          "name": "Sydenham Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95362010:1",
-            "name": "St Leonards",
+            "id": "placeID:95338008:1",
+            "name": "Sydenham",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101115"
+            "stopId": "10101326"
           }
         }
       ],
@@ -430,81 +300,10 @@
         {}
       ]
     },
-    "urlText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65201",
-    "content": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046.",
-    "subtitle": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-65203",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-08T10:59:00Z",
-      "lastModification": "2026-01-08T10:59:00Z",
-      "availability": {
-        "from": "2026-01-07T13:01:00Z",
-        "to": "2026-01-09T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-07T13:01:00Z",
-          "to": "2026-01-09T13:00:00Z"
-        }
-      ],
-      "expiration": "2026-01-09T13:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-65203",
-        "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2d895594-f388-59a1-b463-6fa98771348a",
-      "EnvironmentReason": "highTemperatures",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-      "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-65203",
-    "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station"
+    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62159",
+    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
   },
   {
     "type": "infrastructure",
@@ -577,6 +376,97 @@
     "url": "https://transportnsw.info/alerts/details#/ems-65155",
     "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
     "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-65194",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-08T07:57:00Z",
+      "lastModification": "2026-01-08T07:57:00Z",
+      "availability": {
+        "from": "2026-01-07T13:01:00Z",
+        "to": "2026-01-09T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-07T13:01:00Z",
+          "to": "2026-01-09T13:00:00Z"
+        }
+      ],
+      "expiration": "2026-01-09T13:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+        "url": "https://transportnsw.info/alerts/details#/ems-65194",
+        "content": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+        "smsText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+        "speechText": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "fe7ac28c-fbab-5f5a-b502-e043108f2def",
+      "EnvironmentReason": "highTemperatures",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+      "speechText": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76741: :H:",
+          "destination": {
+            "name": "Echuca Coach Stop, Echuca (VIC)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 741",
+          "number": "741",
+          "description": "Albury to Echuca",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        },
+        {
+          "id": "nsw:76742: :R:",
+          "destination": {
+            "name": "Albury Station, East Albury",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 742",
+          "number": "742",
+          "description": "Echuca to Albury",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        }
+      ]
+    },
+    "urlText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+    "url": "https://transportnsw.info/alerts/details#/ems-65194",
+    "content": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach services cancelled between Albury Station and Echuca Coach Stop"
   },
   {
     "type": "lineInfo",
@@ -871,126 +761,35 @@
     "subtitle": "Central Station Lift 26 between Central Walk North, the Northern Concourse and the Grand Concourse is not available"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-65194",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-08T07:57:00Z",
-      "lastModification": "2026-01-08T07:57:00Z",
-      "availability": {
-        "from": "2026-01-07T13:01:00Z",
-        "to": "2026-01-09T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-07T13:01:00Z",
-          "to": "2026-01-09T13:00:00Z"
-        }
-      ],
-      "expiration": "2026-01-09T13:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-        "url": "https://transportnsw.info/alerts/details#/ems-65194",
-        "content": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-        "smsText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-        "speechText": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "fe7ac28c-fbab-5f5a-b502-e043108f2def",
-      "EnvironmentReason": "highTemperatures",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-      "speechText": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76741: :H:",
-          "destination": {
-            "name": "Echuca Coach Stop, Echuca (VIC)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 741",
-          "number": "741",
-          "description": "Albury to Echuca",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
-        },
-        {
-          "id": "nsw:76742: :R:",
-          "destination": {
-            "name": "Albury Station, East Albury",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 742",
-          "number": "742",
-          "description": "Echuca to Albury",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
-        }
-      ]
-    },
-    "urlText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-    "url": "https://transportnsw.info/alerts/details#/ems-65194",
-    "content": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach services cancelled between Albury Station and Echuca Coach Stop"
-  },
-  {
     "type": "infrastructure",
-    "id": "ems-65206",
+    "id": "ems-65201",
     "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-08T13:04:00Z",
-      "lastModification": "2026-01-08T13:04:00Z",
+      "creation": "2026-01-08T10:29:00Z",
+      "lastModification": "2026-01-08T10:29:00Z",
       "availability": {
-        "from": "2021-12-16T22:26:00Z",
+        "from": "2026-01-07T11:29:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-08T13:04:00Z",
+          "from": "2026-01-07T11:29:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-02-16T03:55:59Z"
+      "expiration": "2505-02-15T02:19:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65206",
-        "content": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935.",
-        "subtitle": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
-        "smsText": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
-        "speechText": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935."
+        "urlText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65201",
+        "content": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046.",
+        "subtitle": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
+        "smsText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
+        "speechText": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046."
       }
     ],
     "properties": {
@@ -999,28 +798,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "56ee2f4e-d3c4-5f09-8e59-55dcc05240bb",
+      "messageRef": "54aa61e6-e048-5143-9455-358b6b1f2f12",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "257710",
+      "stopIDglobalID": "206520",
       "providerCode": "TfNSW",
-      "smsText": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
-      "speechText": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935."
+      "smsText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
+      "speechText": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046."
     },
     "affected": {
       "stops": [
         {
-          "id": "257710",
+          "id": "206520",
           "isGlobalId": true,
-          "name": "Moss Vale Station",
+          "name": "St Leonards Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95363026:1",
-            "name": "Moss Vale",
+            "id": "placeID:95362010:1",
+            "name": "St Leonards",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101308"
+            "stopId": "10101115"
           }
         }
       ],
@@ -1028,9 +827,210 @@
         {}
       ]
     },
-    "urlText": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65206",
-    "content": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935.",
-    "subtitle": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available"
+    "urlText": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65201",
+    "content": "At St Leonards Station Lift 3 between Herbert St and Forum Plaza is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1046.",
+    "subtitle": "St Leonards Station Lift 3 between Herbert St and Forum Plaza is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-65202",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-08T10:46:00Z",
+      "lastModification": "2026-01-08T10:46:00Z",
+      "availability": {
+        "from": "2026-01-08T10:41:00Z",
+        "to": "2026-01-08T22:41:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-08T10:41:00Z",
+          "to": "2026-01-08T22:41:00Z"
+        }
+      ],
+      "expiration": "2026-01-08T22:41:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train service delays between Casino Station and Central Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-65202",
+        "content": "There are delays on route 34 train services due to extreme heat. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train service delays between Casino Station and Central Station",
+        "smsText": "Train service delays between Casino Station and Central Station",
+        "speechText": "There are delays on route 34 train services due to extreme heat. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "d3b0d571-269e-58eb-9619-0536d53f91d6",
+      "EnvironmentReason": "highTemperatures",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays between Casino Station and Central Station",
+      "speechText": "There are delays on route 34 train services due to extreme heat. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Train service delays between Casino Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-65202",
+    "content": "There are delays on route 34 train services due to extreme heat. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Casino Station and Central Station"
   }
 ]
