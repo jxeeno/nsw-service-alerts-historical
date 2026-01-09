@@ -130,6 +130,77 @@
     "subtitle": "Bikes permitted with fees."
   },
   {
+    "type": "lineInfo",
+    "id": "ems-65203",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-08T10:59:00Z",
+      "lastModification": "2026-01-08T10:59:00Z",
+      "availability": {
+        "from": "2026-01-07T13:01:00Z",
+        "to": "2026-01-09T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-07T13:01:00Z",
+          "to": "2026-01-09T13:00:00Z"
+        }
+      ],
+      "expiration": "2026-01-09T13:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-65203",
+        "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "2d895594-f388-59a1-b463-6fa98771348a",
+      "EnvironmentReason": "highTemperatures",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+      "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-65203",
+    "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station"
+  },
+  {
     "type": "infrastructure",
     "id": "ems-65206",
     "version": 3,
@@ -200,6 +271,78 @@
     "url": "https://transportnsw.info/alerts/details#/ems-65206",
     "content": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935.",
     "subtitle": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-65245",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-09T05:11:00Z",
+      "lastModification": "2026-01-09T05:12:00Z",
+      "availability": {
+        "from": "2026-01-02T08:01:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-09T05:11:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-16T09:02:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65245",
+        "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
+        "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+        "smsText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+        "speechText": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "057171b0-70e8-5a1e-bdbd-126fd5e1f84f",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213410:213494,213495",
+      "providerCode": "TfNSW",
+      "smsText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+      "speechText": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "213410",
+          "isGlobalId": true,
+          "name": "Burwood Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95311001:1",
+            "name": "Burwood",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101207"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65245",
+    "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
+    "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available"
   },
   {
     "type": "infrastructure",
@@ -492,149 +635,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-181",
     "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
     "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-65203",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-08T10:59:00Z",
-      "lastModification": "2026-01-08T10:59:00Z",
-      "availability": {
-        "from": "2026-01-07T13:01:00Z",
-        "to": "2026-01-09T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-07T13:01:00Z",
-          "to": "2026-01-09T13:00:00Z"
-        }
-      ],
-      "expiration": "2026-01-09T13:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-65203",
-        "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2d895594-f388-59a1-b463-6fa98771348a",
-      "EnvironmentReason": "highTemperatures",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-      "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-65203",
-    "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-65245",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-09T05:11:00Z",
-      "lastModification": "2026-01-09T05:12:00Z",
-      "availability": {
-        "from": "2026-01-02T08:01:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-09T05:11:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-02-16T09:02:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65245",
-        "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
-        "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-        "smsText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-        "speechText": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "057171b0-70e8-5a1e-bdbd-126fd5e1f84f",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213410:213494,213495",
-      "providerCode": "TfNSW",
-      "smsText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-      "speechText": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "213410",
-          "isGlobalId": true,
-          "name": "Burwood Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95311001:1",
-            "name": "Burwood",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101207"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65245",
-    "content": "At Burwood Station Lift 3 between the concourse and Platform 4/5 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
-    "subtitle": "Burwood Station Lift 3 between the concourse and Platform 4/5 is not available"
   },
   {
     "type": "lineInfo",
