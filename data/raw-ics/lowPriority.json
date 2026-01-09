@@ -131,6 +131,149 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-65203",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-08T10:59:00Z",
+      "lastModification": "2026-01-08T10:59:00Z",
+      "availability": {
+        "from": "2026-01-07T13:01:00Z",
+        "to": "2026-01-09T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-07T13:01:00Z",
+          "to": "2026-01-09T13:00:00Z"
+        }
+      ],
+      "expiration": "2026-01-09T13:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-65203",
+        "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+        "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "2d895594-f388-59a1-b463-6fa98771348a",
+      "EnvironmentReason": "highTemperatures",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+      "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76623: :H:",
+          "destination": {
+            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 623",
+          "number": "623",
+          "description": "Central to Melbourne (Southern Cross)",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-65203",
+    "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-65257",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-09T07:38:00Z",
+      "lastModification": "2026-01-09T07:38:00Z",
+      "availability": {
+        "from": "2026-01-02T10:27:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-09T07:38:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-16T11:28:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65257",
+        "content": "At Toongabbie Station Lift 4 between the footbridge and Portico Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
+        "subtitle": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
+        "smsText": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
+        "speechText": "At Toongabbie Station Lift 4 between the footbridge and Portico Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "e24cc44b-69c1-5f3a-a69e-4dc6329746a2",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214610",
+      "providerCode": "TfNSW",
+      "smsText": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
+      "speechText": "At Toongabbie Station Lift 4 between the footbridge and Portico Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214610",
+          "isGlobalId": true,
+          "name": "Toongabbie Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308040:1",
+            "name": "Toongabbie",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101233"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65257",
+    "content": "At Toongabbie Station Lift 4 between the footbridge and Portico Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
+    "subtitle": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available"
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-65195",
     "version": 1,
     "priority": "low",
@@ -221,77 +364,6 @@
     "subtitle": "Coach services cancelled between Wagga Wagga Station and Echuca Coach Stop"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-65203",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-08T10:59:00Z",
-      "lastModification": "2026-01-08T10:59:00Z",
-      "availability": {
-        "from": "2026-01-07T13:01:00Z",
-        "to": "2026-01-09T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-07T13:01:00Z",
-          "to": "2026-01-09T13:00:00Z"
-        }
-      ],
-      "expiration": "2026-01-09T13:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-65203",
-        "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-        "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2d895594-f388-59a1-b463-6fa98771348a",
-      "EnvironmentReason": "highTemperatures",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-      "speechText": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76623: :H:",
-          "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 623",
-          "number": "623",
-          "description": "Central to Melbourne (Southern Cross)",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-65203",
-    "content": "Some train services on route 623 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train services cancelled between Central Station and Melbourne (Southern Cross) Station"
-  },
-  {
     "type": "infrastructure",
     "id": "ems-65258",
     "version": 2,
@@ -362,241 +434,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-65258",
     "content": "At Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4352 1450.",
     "subtitle": "Niagara Park Station Lift 2 between the footbridge and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-62159",
-    "version": 6235,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-11-13T22:03:00Z",
-      "lastModification": "2025-11-13T23:46:00Z",
-      "availability": {
-        "from": "2025-11-12T23:02:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-12T23:03:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-12-21T13:53:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62159",
-        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204420:204476",
-      "providerCode": "TfNSW",
-      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "204420",
-          "isGlobalId": true,
-          "name": "Sydenham Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95338008:1",
-            "name": "Sydenham",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101326"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62159",
-    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-65257",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-09T07:38:00Z",
-      "lastModification": "2026-01-09T07:38:00Z",
-      "availability": {
-        "from": "2026-01-02T10:27:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-09T07:38:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-02-16T11:28:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65257",
-        "content": "At Toongabbie Station Lift 4 between the footbridge and Portico Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
-        "subtitle": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
-        "smsText": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
-        "speechText": "At Toongabbie Station Lift 4 between the footbridge and Portico Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "e24cc44b-69c1-5f3a-a69e-4dc6329746a2",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214610",
-      "providerCode": "TfNSW",
-      "smsText": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
-      "speechText": "At Toongabbie Station Lift 4 between the footbridge and Portico Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214610",
-          "isGlobalId": true,
-          "name": "Toongabbie Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308040:1",
-            "name": "Toongabbie",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101233"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65257",
-    "content": "At Toongabbie Station Lift 4 between the footbridge and Portico Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
-    "subtitle": "Toongabbie Station Lift 4 between the footbridge and Portico Pde is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-65194",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-08T07:57:00Z",
-      "lastModification": "2026-01-08T07:57:00Z",
-      "availability": {
-        "from": "2026-01-07T13:01:00Z",
-        "to": "2026-01-09T12:59:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-07T13:01:00Z",
-          "to": "2026-01-09T13:00:00Z"
-        }
-      ],
-      "expiration": "2026-01-09T13:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-        "url": "https://transportnsw.info/alerts/details#/ems-65194",
-        "content": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-        "smsText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-        "speechText": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "fe7ac28c-fbab-5f5a-b502-e043108f2def",
-      "EnvironmentReason": "highTemperatures",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-      "speechText": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76741: :H:",
-          "destination": {
-            "name": "Echuca Coach Stop, Echuca (VIC)",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 741",
-          "number": "741",
-          "description": "Albury to Echuca",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
-        },
-        {
-          "id": "nsw:76742: :R:",
-          "destination": {
-            "name": "Albury Station, East Albury",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 742",
-          "number": "742",
-          "description": "Echuca to Albury",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
-        }
-      ]
-    },
-    "urlText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
-    "url": "https://transportnsw.info/alerts/details#/ems-65194",
-    "content": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Coach services cancelled between Albury Station and Echuca Coach Stop"
   },
   {
     "type": "lineInfo",
@@ -819,6 +656,97 @@
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
+    "type": "lineInfo",
+    "id": "ems-65194",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-08T07:57:00Z",
+      "lastModification": "2026-01-08T07:57:00Z",
+      "availability": {
+        "from": "2026-01-07T13:01:00Z",
+        "to": "2026-01-09T12:59:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-07T13:01:00Z",
+          "to": "2026-01-09T13:00:00Z"
+        }
+      ],
+      "expiration": "2026-01-09T13:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+        "url": "https://transportnsw.info/alerts/details#/ems-65194",
+        "content": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+        "smsText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+        "speechText": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "fe7ac28c-fbab-5f5a-b502-e043108f2def",
+      "EnvironmentReason": "highTemperatures",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+      "speechText": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76741: :H:",
+          "destination": {
+            "name": "Echuca Coach Stop, Echuca (VIC)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 741",
+          "number": "741",
+          "description": "Albury to Echuca",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        },
+        {
+          "id": "nsw:76742: :R:",
+          "destination": {
+            "name": "Albury Station, East Albury",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 742",
+          "number": "742",
+          "description": "Echuca to Albury",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        }
+      ]
+    },
+    "urlText": "Coach services cancelled between Albury Station and Echuca Coach Stop",
+    "url": "https://transportnsw.info/alerts/details#/ems-65194",
+    "content": "Some coach services on routes 741 and 742 have been cancelled due to extreme heat. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Coach services cancelled between Albury Station and Echuca Coach Stop"
+  },
+  {
     "type": "infrastructure",
     "id": "ems-65206",
     "version": 3,
@@ -889,5 +817,77 @@
     "url": "https://transportnsw.info/alerts/details#/ems-65206",
     "content": "At Moss Vale Station Lift 1 between the footbridge and Lackey Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4871 1935.",
     "subtitle": "Moss Vale Station Lift 1 between the footbridge and Lackey Rd is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-62159",
+    "version": 6235,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-11-13T22:03:00Z",
+      "lastModification": "2025-11-13T23:46:00Z",
+      "availability": {
+        "from": "2025-11-12T23:02:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-11-12T23:03:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-12-21T13:53:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62159",
+        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "204420:204476",
+      "providerCode": "TfNSW",
+      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "204420",
+          "isGlobalId": true,
+          "name": "Sydenham Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338008:1",
+            "name": "Sydenham",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101326"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62159",
+    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
   }
 ]
