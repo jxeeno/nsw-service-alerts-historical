@@ -1,33 +1,32 @@
 [
   {
     "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "id": "ems-65641",
+    "version": 136,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2026-01-15T19:53:00Z",
+      "lastModification": "2026-01-15T19:55:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
+        "from": "2026-01-15T19:48:00Z",
+        "to": "2026-01-16T12:59:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
+          "from": "2026-01-15T19:48:00Z",
+          "to": "2026-01-16T13:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2026-01-16T13:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "F3 Parramatta River bus replacement",
+        "url": "https://transportnsw.info/alerts/details#/ems-65641",
+        "content": "<div>The following ferry services are replaced by buses between Rydalmere and Parramatta due to low tide:</div>\n<ul>\n<li>8:13am and 9:13am</li>\n<li>1:13pm, 2:13pm, 3:13pm and 4:13pm</li>\n</ul>",
+        "subtitle": "F3 Parramatta River bus replacement",
+        "smsText": "F3 Parramatta River bus replacement",
+        "speechText": "The 8:13am, 9:13am, 1:13pm, 2:13pm, 3:13pm and 4:13pm F3 Parramatta River ferry services are replaced by buses due to low tide."
       }
     ],
     "properties": {
@@ -35,99 +34,61 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "ac80857f-0bde-5e65-8f8a-842d7b750de2",
+      "EnvironmentReason": "lowTide",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "F3 Parramatta River bus replacement",
+      "speechText": "The 8:13am, 9:13am, 1:13pm, 2:13pm, 3:13pm and 4:13pm F3 Parramatta River ferry services are replaced by buses due to low tide."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:04BUN:C:H:",
+          "id": "nsw:090F3: :R:",
           "destination": {
-            "name": "Bundeena Wharf, Bundeena",
+            "name": "Circular Quay, Sydney",
             "type": "stop"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Parramatta to Circular Quay",
           "product": {
-            "id": 12,
+            "id": 10,
             "class": 9,
             "iconId": 9
           },
           "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
+            "id": "SF",
+            "name": "Sydney Ferries"
           },
-          "iconId": 12
+          "iconId": 10
         },
         {
-          "id": "nsw:04BUN:C:R:",
+          "id": "nsw:090F3: :H:",
           "destination": {
-            "name": "Cronulla Wharf, Cronulla",
+            "name": "Parramatta Wharf, Parramatta",
             "type": "stop"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
+          "name": "Sydney Ferries Network F3 Parramatta River",
+          "number": "F3 Parramatta River",
+          "description": "Circular Quay to Parramatta",
           "product": {
-            "id": 12,
+            "id": 10,
             "class": 9,
             "iconId": 9
           },
           "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
+            "id": "SF",
+            "name": "Sydney Ferries"
           },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
+          "iconId": 10
         }
       ]
     },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "F3 Parramatta River bus replacement",
+    "url": "https://transportnsw.info/alerts/details#/ems-65641",
+    "content": "<div>The following ferry services are replaced by buses between Rydalmere and Parramatta due to low tide:</div>\n<ul>\n<li>8:13am and 9:13am</li>\n<li>1:13pm, 2:13pm, 3:13pm and 4:13pm</li>\n</ul>",
+    "subtitle": "F3 Parramatta River bus replacement"
   },
   {
     "type": "lineInfo",
@@ -218,222 +179,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-159",
     "content": "<div>&nbsp; &nbsp;</div>",
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-62159",
-    "version": 6235,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2025-11-13T22:03:00Z",
-      "lastModification": "2025-11-13T23:46:00Z",
-      "availability": {
-        "from": "2025-11-12T23:02:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-12T23:03:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2504-12-21T13:53:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-62159",
-        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204420:204476",
-      "providerCode": "TfNSW",
-      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "204420",
-          "isGlobalId": true,
-          "name": "Sydenham Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95338008:1",
-            "name": "Sydenham",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101326"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-62159",
-    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
-    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-65636",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-15T07:38:00Z",
-      "lastModification": "2026-01-15T07:38:00Z",
-      "availability": {
-        "from": "2026-01-08T10:28:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-15T07:38:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-02-22T11:29:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Hurstville Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65636",
-        "content": "At Hurstville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568.",
-        "subtitle": "Hurstville Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "smsText": "Hurstville Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "speechText": "At Hurstville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "3d020018-a494-5ff9-bd81-4bffa29606d2",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "222010:2220363,2220364",
-      "providerCode": "TfNSW",
-      "smsText": "Hurstville Station Lift 2 between the concourse and Platform 3/4 is not available",
-      "speechText": "At Hurstville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "222010",
-          "isGlobalId": true,
-          "name": "Hurstville Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95327002:1",
-            "name": "Hurstville",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101339"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Hurstville Station Lift 2 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65636",
-    "content": "At Hurstville Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568.",
-    "subtitle": "Hurstville Station Lift 2 between the concourse and Platform 3/4 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-65544",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-14T04:09:00Z",
-      "lastModification": "2026-01-14T04:09:00Z",
-      "availability": {
-        "from": "2026-01-07T06:58:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-14T04:09:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-02-21T07:59:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65544",
-        "content": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
-        "subtitle": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
-        "smsText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
-        "speechText": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "aa6e0a8f-5cbb-55ae-bf88-4f24fa0a25fe",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214520",
-      "providerCode": "TfNSW",
-      "smsText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
-      "speechText": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214520",
-          "isGlobalId": true,
-          "name": "Wentworthville Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95346019:1",
-            "name": "Wentworthville",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101231"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65544",
-    "content": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
-    "subtitle": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available"
   },
   {
     "type": "lineInfo",
@@ -566,33 +311,178 @@
     "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-65641",
-    "version": 136,
+    "type": "infrastructure",
+    "id": "ems-65544",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-15T19:53:00Z",
-      "lastModification": "2026-01-15T19:55:00Z",
+      "creation": "2026-01-14T04:09:00Z",
+      "lastModification": "2026-01-14T04:09:00Z",
       "availability": {
-        "from": "2026-01-15T19:48:00Z",
-        "to": "2026-01-16T12:59:00Z"
+        "from": "2026-01-07T06:58:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-15T19:48:00Z",
-          "to": "2026-01-16T13:00:00Z"
+          "from": "2026-01-14T04:09:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-01-16T13:00:59Z"
+      "expiration": "2505-02-21T07:59:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "F3 Parramatta River bus replacement",
-        "url": "https://transportnsw.info/alerts/details#/ems-65641",
-        "content": "<div>The following ferry services are replaced by buses between Rydalmere and Parramatta due to low tide:</div>\n<ul>\n<li>8:13am and 9:13am</li>\n<li>1:13pm, 2:13pm, 3:13pm and 4:13pm</li>\n</ul>",
-        "subtitle": "F3 Parramatta River bus replacement",
-        "smsText": "F3 Parramatta River bus replacement",
-        "speechText": "The 8:13am, 9:13am, 1:13pm, 2:13pm, 3:13pm and 4:13pm F3 Parramatta River ferry services are replaced by buses due to low tide."
+        "urlText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65544",
+        "content": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+        "subtitle": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+        "smsText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+        "speechText": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "aa6e0a8f-5cbb-55ae-bf88-4f24fa0a25fe",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214520",
+      "providerCode": "TfNSW",
+      "smsText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+      "speechText": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214520",
+          "isGlobalId": true,
+          "name": "Wentworthville Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346019:1",
+            "name": "Wentworthville",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101231"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65544",
+    "content": "At Wentworthville Station Lift 1 between the concourse and The Kingsway is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+    "subtitle": "Wentworthville Station Lift 1 between the concourse and The Kingsway is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-65644",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-15T20:34:00Z",
+      "lastModification": "2026-01-15T20:34:00Z",
+      "availability": {
+        "from": "2022-01-20T09:06:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-15T20:34:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-23T11:24:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65644",
+        "content": "At Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is temporarily out of service.",
+        "subtitle": "Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is not available",
+        "smsText": "Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is not available",
+        "speechText": "At Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is temporarily out of service."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "1c4c1ea5-f84f-5b1c-a4c9-d615b8cb2674",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "275010",
+      "providerCode": "TfNSW",
+      "smsText": "Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is not available",
+      "speechText": "At Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is temporarily out of service."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "275010",
+          "isGlobalId": true,
+          "name": "Penrith Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347024:1",
+            "name": "Penrith",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101252"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65644",
+    "content": "At Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is temporarily out of service.",
+    "subtitle": "Penrith Station Lift 6 between Park&Ride - Penrith (mulit-level) and Dunshea St is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
@@ -600,61 +490,243 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ac80857f-0bde-5e65-8f8a-842d7b750de2",
-      "EnvironmentReason": "lowTide",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "F3 Parramatta River bus replacement",
-      "speechText": "The 8:13am, 9:13am, 1:13pm, 2:13pm, 3:13pm and 4:13pm F3 Parramatta River ferry services are replaced by buses due to low tide."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:090F3: :R:",
+          "id": "nsw:04BUN:C:H:",
           "destination": {
-            "name": "Circular Quay, Sydney",
+            "name": "Bundeena Wharf, Bundeena",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Parramatta to Circular Quay",
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
           "product": {
-            "id": 10,
+            "id": 12,
             "class": 9,
             "iconId": 9
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
+            "id": "300",
+            "name": "Cronulla Ferries"
           },
-          "iconId": 10
+          "iconId": 12
         },
         {
-          "id": "nsw:090F3: :H:",
+          "id": "nsw:04BUN:C:R:",
           "destination": {
-            "name": "Parramatta Wharf, Parramatta",
+            "name": "Cronulla Wharf, Cronulla",
             "type": "stop"
           },
-          "name": "Sydney Ferries Network F3 Parramatta River",
-          "number": "F3 Parramatta River",
-          "description": "Circular Quay to Parramatta",
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
           "product": {
-            "id": 10,
+            "id": 12,
             "class": 9,
             "iconId": 9
           },
           "operator": {
-            "id": "SF",
-            "name": "Sydney Ferries"
+            "id": "300",
+            "name": "Cronulla Ferries"
           },
-          "iconId": 10
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "F3 Parramatta River bus replacement",
-    "url": "https://transportnsw.info/alerts/details#/ems-65641",
-    "content": "<div>The following ferry services are replaced by buses between Rydalmere and Parramatta due to low tide:</div>\n<ul>\n<li>8:13am and 9:13am</li>\n<li>1:13pm, 2:13pm, 3:13pm and 4:13pm</li>\n</ul>",
-    "subtitle": "F3 Parramatta River bus replacement"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-62159",
+    "version": 6235,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2025-11-13T22:03:00Z",
+      "lastModification": "2025-11-13T23:46:00Z",
+      "availability": {
+        "from": "2025-11-12T23:02:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-11-12T23:03:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2504-12-21T13:53:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-62159",
+        "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+        "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+        "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "c4c7cc0b-f339-5ca3-a6e9-3e93cbbfe470",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "204420:204476",
+      "providerCode": "TfNSW",
+      "smsText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+      "speechText": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "204420",
+          "isGlobalId": true,
+          "name": "Sydenham Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95338008:1",
+            "name": "Sydenham",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101326"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-62159",
+    "content": "At Sydenham Station Lift ML4 between the concourse and Platform 6 is temporarily out of service.",
+    "subtitle": "Sydenham Station Lift ML4 between the concourse and Platform 6 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-65643",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-15T20:33:00Z",
+      "lastModification": "2026-01-15T20:33:00Z",
+      "availability": {
+        "from": "2026-01-08T23:23:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-15T20:33:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-23T00:24:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65643",
+        "content": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568.",
+        "subtitle": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "smsText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "7eb56b02-98c8-5113-91b0-b324f8f9163e",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "222010:2220361,2220362",
+      "providerCode": "TfNSW",
+      "smsText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "222010",
+          "isGlobalId": true,
+          "name": "Hurstville Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95327002:1",
+            "name": "Hurstville",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101339"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65643",
+    "content": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568.",
+    "subtitle": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
