@@ -1,133 +1,75 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-181",
-    "version": 38596556,
+    "type": "infrastructure",
+    "id": "ems-66551",
+    "version": 4,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T05:32:00Z",
-      "lastModification": "2023-02-08T22:48:00Z",
+      "creation": "2026-01-28T19:11:00Z",
+      "lastModification": "2026-01-28T19:11:00Z",
       "availability": {
-        "from": "2021-11-19T05:00:00Z",
+        "from": "2026-01-21T22:01:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T05:00:00Z",
+          "from": "2026-01-28T19:11:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-03-07T23:02:59Z"
     },
     "infoLinks": [
       {
-        "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-        "url": "https://transportnsw.info/alerts/details#/ems-181",
-        "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
-        "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-        "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+        "urlText": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-66551",
+        "content": "At Burwood Station Lift 4 between the concourse and Platform 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
+        "subtitle": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
+        "smsText": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
+        "speechText": "At Burwood Station Lift 4 between the concourse and Platform 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f9d26fc0-ddd6-5885-a6fb-4b4f91d8c21c",
+      "messageRef": "189ef80d-0190-574d-a6ec-950ea90fef6f",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213410:213496",
       "providerCode": "TfNSW",
-      "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+      "smsText": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
+      "speechText": "At Burwood Station Lift 4 between the concourse and Platform 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:08MCS: :R:",
-          "destination": {
-            "name": "Jolimont Centre, Canberra City (ACT)",
-            "type": "stop"
+          "id": "213410",
+          "isGlobalId": true,
+          "name": "Burwood Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95311001:1",
+            "name": "Burwood",
+            "type": "locality"
           },
-          "name": "Private coach services MCS",
-          "number": "MCS",
-          "description": "South Coast to Canberra",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08MCS: :H:",
-          "destination": {
-            "name": "Narooma Plaza, Princes Hwy, Narooma",
-            "type": "stop"
-          },
-          "name": "Private coach services MCS",
-          "number": "MCS",
-          "description": "Canberra to South Coast",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08855: :H:",
-          "destination": {
-            "name": "Jolimont Centre, Canberra City (ACT)",
-            "type": "stop"
-          },
-          "name": "Private coach services 855",
-          "number": "855",
-          "description": "Wollongong to Canberra",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
-        },
-        {
-          "id": "nsw:08855: :R:",
-          "destination": {
-            "name": "Wollongong Station",
-            "type": "stop"
-          },
-          "name": "Private coach services 855",
-          "number": "855",
-          "description": "Canberra to Wollongong",
-          "product": {
-            "id": 17,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "B079",
-            "name": "Murrays Coaches"
-          },
-          "iconId": 17
+          "properties": {
+            "stopId": "10101207"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
-    "url": "https://transportnsw.info/alerts/details#/ems-181",
-    "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
-    "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
+    "urlText": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-66551",
+    "content": "At Burwood Station Lift 4 between the concourse and Platform 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
+    "subtitle": "Burwood Station Lift 4 between the concourse and Platform 6 is not available"
   },
   {
     "type": "lineInfo",
@@ -260,76 +202,134 @@
     "subtitle": "Bikes permitted with fees."
   },
   {
-    "type": "infrastructure",
-    "id": "ems-66544",
-    "version": 3,
+    "type": "lineInfo",
+    "id": "ems-181",
+    "version": 38596556,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-28T08:49:00Z",
-      "lastModification": "2026-01-28T08:49:00Z",
+      "creation": "2021-11-19T05:32:00Z",
+      "lastModification": "2023-02-08T22:48:00Z",
       "availability": {
-        "from": "2026-01-21T11:39:00Z",
+        "from": "2021-11-19T05:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-28T08:49:00Z",
+          "from": "2021-11-19T05:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-03-07T12:40:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-66544",
-        "content": "At Kings Cross Station Lift 1 between the concourse and Victoria St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204.",
-        "subtitle": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
-        "smsText": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
-        "speechText": "At Kings Cross Station Lift 1 between the concourse and Victoria St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204."
+        "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+        "url": "https://transportnsw.info/alerts/details#/ems-181",
+        "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
+        "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+        "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "52de6069-4824-53c4-98b8-2a53823bf0bd",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "f9d26fc0-ddd6-5885-a6fb-4b4f91d8c21c",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "201110",
       "providerCode": "TfNSW",
-      "smsText": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
-      "speechText": "At Kings Cross Station Lift 1 between the concourse and Victoria St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204."
+      "smsText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "201110",
-          "isGlobalId": true,
-          "name": "Kings Cross Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301022:1",
-            "name": "Potts Point",
-            "type": "locality"
+          "id": "nsw:08MCS: :R:",
+          "destination": {
+            "name": "Jolimont Centre, Canberra City (ACT)",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101107"
-          }
+          "name": "Private coach services MCS",
+          "number": "MCS",
+          "description": "South Coast to Canberra",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08MCS: :H:",
+          "destination": {
+            "name": "Narooma Plaza, Princes Hwy, Narooma",
+            "type": "stop"
+          },
+          "name": "Private coach services MCS",
+          "number": "MCS",
+          "description": "Canberra to South Coast",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08855: :H:",
+          "destination": {
+            "name": "Jolimont Centre, Canberra City (ACT)",
+            "type": "stop"
+          },
+          "name": "Private coach services 855",
+          "number": "855",
+          "description": "Wollongong to Canberra",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
+        },
+        {
+          "id": "nsw:08855: :R:",
+          "destination": {
+            "name": "Wollongong Station",
+            "type": "stop"
+          },
+          "name": "Private coach services 855",
+          "number": "855",
+          "description": "Canberra to Wollongong",
+          "product": {
+            "id": 17,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "B079",
+            "name": "Murrays Coaches"
+          },
+          "iconId": 17
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     },
-    "urlText": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-66544",
-    "content": "At Kings Cross Station Lift 1 between the concourse and Victoria St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204.",
-    "subtitle": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available"
+    "urlText": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>",
+    "url": "https://transportnsw.info/alerts/details#/ems-181",
+    "content": "<div>&nbsp;&nbsp;&nbsp;</div>",
+    "subtitle": " <a href=\"https://www.murrays.com.au/express-services/\">Book your seat with Murrays Coaches</a>"
   },
   {
     "type": "lineInfo",
@@ -423,6 +423,78 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-66544",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-28T08:49:00Z",
+      "lastModification": "2026-01-28T08:49:00Z",
+      "availability": {
+        "from": "2026-01-21T11:39:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-28T08:49:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-03-07T12:40:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-66544",
+        "content": "At Kings Cross Station Lift 1 between the concourse and Victoria St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204.",
+        "subtitle": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
+        "smsText": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
+        "speechText": "At Kings Cross Station Lift 1 between the concourse and Victoria St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "52de6069-4824-53c4-98b8-2a53823bf0bd",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "201110",
+      "providerCode": "TfNSW",
+      "smsText": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
+      "speechText": "At Kings Cross Station Lift 1 between the concourse and Victoria St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "201110",
+          "isGlobalId": true,
+          "name": "Kings Cross Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301022:1",
+            "name": "Potts Point",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101107"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-66544",
+    "content": "At Kings Cross Station Lift 1 between the concourse and Victoria St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204.",
+    "subtitle": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-62159",
     "version": 6235,
     "priority": "low",
@@ -495,6 +567,78 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-66552",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-28T21:19:00Z",
+      "lastModification": "2026-01-28T21:19:00Z",
+      "availability": {
+        "from": "2026-01-28T21:19:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-28T21:19:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-03-08T12:10:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-66552",
+        "content": "At Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
+        "subtitle": "Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is not available",
+        "smsText": "Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is not available",
+        "speechText": "At Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "3336c1a9-5177-5873-96fb-1201ae023c3f",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "212110:2121221,2121222,2121225,2121226",
+      "providerCode": "TfNSW",
+      "smsText": "Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is not available",
+      "speechText": "At Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "212110",
+          "isGlobalId": true,
+          "name": "Epping Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325016:1",
+            "name": "Epping",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101429"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-66552",
+    "content": "At Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8878 4100.",
+    "subtitle": "Epping Station Lift 2 between the concourse and Platforms 1, 2, 5 and 6 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-65380",
     "version": 3,
     "priority": "low",
@@ -564,77 +708,5 @@
     "url": "https://transportnsw.info/alerts/details#/ems-65380",
     "content": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432.",
     "subtitle": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-66551",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-01-28T19:11:00Z",
-      "lastModification": "2026-01-28T19:11:00Z",
-      "availability": {
-        "from": "2026-01-21T22:01:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-28T19:11:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-03-07T23:02:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-66551",
-        "content": "At Burwood Station Lift 4 between the concourse and Platform 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
-        "subtitle": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
-        "smsText": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
-        "speechText": "At Burwood Station Lift 4 between the concourse and Platform 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "189ef80d-0190-574d-a6ec-950ea90fef6f",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213410:213496",
-      "providerCode": "TfNSW",
-      "smsText": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
-      "speechText": "At Burwood Station Lift 4 between the concourse and Platform 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "213410",
-          "isGlobalId": true,
-          "name": "Burwood Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95311001:1",
-            "name": "Burwood",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101207"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Burwood Station Lift 4 between the concourse and Platform 6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-66551",
-    "content": "At Burwood Station Lift 4 between the concourse and Platform 6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8734.",
-    "subtitle": "Burwood Station Lift 4 between the concourse and Platform 6 is not available"
   }
 ]
