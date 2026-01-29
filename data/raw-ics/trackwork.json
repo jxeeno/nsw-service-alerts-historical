@@ -2616,32 +2616,40 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-65060",
-    "version": 125,
+    "id": "ems-66442",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-01-06T01:37:00Z",
-      "lastModification": "2026-01-06T01:39:00Z",
+      "creation": "2026-01-27T04:42:00Z",
+      "lastModification": "2026-01-27T04:42:00Z",
       "availability": {
-        "from": "2026-01-05T19:00:00Z",
-        "to": "2026-02-12T06:45:00Z"
+        "from": "2026-01-27T04:00:00Z",
+        "to": "2026-02-12T14:30:00Z"
       },
       "validity": [
         {
-          "from": "2026-02-09T19:30:00Z",
-          "to": "2026-02-12T06:45:00Z"
+          "from": "2026-02-10T10:30:00Z",
+          "to": "2026-02-10T14:30:00Z"
+        },
+        {
+          "from": "2026-02-11T10:30:00Z",
+          "to": "2026-02-11T14:30:00Z"
+        },
+        {
+          "from": "2026-02-12T10:30:00Z",
+          "to": "2026-02-12T14:30:00Z"
         }
       ],
-      "expiration": "2026-02-12T06:45:59Z"
+      "expiration": "2026-02-12T14:30:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-65060",
-        "content": "<div>Due to planned trackwork the Sydney to Armidale Xplorer service has been replaced by a road coach for the entire journey.</div>",
-        "subtitle": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
-        "smsText": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
-        "speechText": "Due to planned trackwork the Sydney to Armidale Xplorer service has been replaced by a road coach for the entire journey."
+        "urlText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+        "url": "https://transportnsw.info/alerts/details#/ems-66442",
+        "content": "<div><strong>Tuesday 10 to Thursday 12 February&nbsp;</strong> &nbsp;</div>\n<ul>\n<li><strong>Nightly from 9.30pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave up to 20 minutes earlier than the normal train timetable.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, all stations to Richmond and return</div>\n<div>52T1 Blacktown, all stations to Riverstone and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
+        "subtitle": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+        "smsText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+        "speechText": "Tuesday 10 to Thursday 12 February Nightly from 9 30 PM to 1 30 AM, buses replace trains between Richmond and Blacktown."
       }
     ],
     "properties": {
@@ -2649,41 +2657,156 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5d0b593b-ce59-5d3e-9d05-8064841b3875",
+      "messageRef": "495d9af2-56ab-58a8-afb2-01e55f6a22db",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
-      "speechText": "Due to planned trackwork the Sydney to Armidale Xplorer service has been replaced by a road coach for the entire journey."
+      "smsText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+      "speechText": "Tuesday 10 to Thursday 12 February Nightly from 9 30 PM to 1 30 AM, buses replace trains between Richmond and Blacktown."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76223: :H:",
+          "id": "nsw:020T1:W:H:",
           "destination": {
-            "name": "Armidale Station, Armidale",
+            "name": "Emu Plains Station, Emu Plains",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 223",
-          "number": "223",
-          "description": "Central to Armidale",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
           "product": {
-            "id": 3,
+            "id": 1,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "x0001",
+            "name": "Sydney Trains"
           },
-          "iconId": 3
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T1:W:R:",
+          "destination": {
+            "name": "Olympic Park Station, Sydney Olympic Park",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
         }
       ]
     },
-    "urlText": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-65060",
-    "content": "<div>Due to planned trackwork the Sydney to Armidale Xplorer service has been replaced by a road coach for the entire journey.</div>",
-    "subtitle": "10th February - 12th February - 223 Sydney to Armidale Xplorer service."
+    "urlText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
+    "url": "https://transportnsw.info/alerts/details#/ems-66442",
+    "content": "<div><strong>Tuesday 10 to Thursday 12 February&nbsp;</strong> &nbsp;</div>\n<ul>\n<li><strong>Nightly from 9.30pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave up to 20 minutes earlier than the normal train timetable.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, all stations to Richmond and return</div>\n<div>52T1 Blacktown, all stations to Riverstone and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
+    "subtitle": "T1 Western Line: Buses replace trains between Richmond and Blacktown"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-65993",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-20T02:26:00Z",
+      "lastModification": "2026-01-20T02:26:00Z",
+      "availability": {
+        "from": "2026-01-20T02:00:00Z",
+        "to": "2026-02-05T14:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-04T10:40:00Z",
+          "to": "2026-02-04T14:30:00Z"
+        },
+        {
+          "from": "2026-02-05T10:40:00Z",
+          "to": "2026-02-05T14:30:00Z"
+        }
+      ],
+      "expiration": "2026-02-05T14:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Buses replace trains between Bankstown and Lidcombe",
+        "url": "https://transportnsw.info/alerts/details#/ems-65993",
+        "content": "<div><strong>Wednesday 4 and Thursday 5 February</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, buses replace trains between Bankstown and Lidcombe.</li>\n<li>Buses also replace T3 trains between Liverpool and Lidcombe.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">subscribe to planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div><br />9T3 Liverpool, all stations to Lidcombe and return</div>\n<div>8T6 Bankstown, all stations to Lidcombe and return​</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
+        "subtitle": "Buses replace trains between Bankstown and Lidcombe",
+        "smsText": "Buses replace trains between Bankstown and Lidcombe",
+        "speechText": "Wednesday 4 and Thursday 5 February\nNightly from 9.40pm to 1.30am, buses replace trains between Bankstown and Lidcombe."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "f951559e-5c1a-5a94-818c-99cfc087687e",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Buses replace trains between Bankstown and Lidcombe",
+      "speechText": "Wednesday 4 and Thursday 5 February\nNightly from 9.40pm to 1.30am, buses replace trains between Bankstown and Lidcombe."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T6: :R:",
+          "destination": {
+            "name": "Lidcombe Station, Lidcombe",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T6 Lidcombe & Bankstown Line",
+          "number": "T6 Lidcombe & Bankstown Line",
+          "description": "Bankstown to Lidcombe",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T6: :H:",
+          "destination": {
+            "name": "Lidcombe Station, Lidcombe",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T6 Lidcombe & Bankstown Line",
+          "number": "T6 Lidcombe & Bankstown Line",
+          "description": "Lidcombe to Bankstown",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "Buses replace trains between Bankstown and Lidcombe",
+    "url": "https://transportnsw.info/alerts/details#/ems-65993",
+    "content": "<div><strong>Wednesday 4 and Thursday 5 February</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, buses replace trains between Bankstown and Lidcombe.</li>\n<li>Buses also replace T3 trains between Liverpool and Lidcombe.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">subscribe to planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div><br />9T3 Liverpool, all stations to Lidcombe and return</div>\n<div>8T6 Bankstown, all stations to Lidcombe and return​</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
+    "subtitle": "Buses replace trains between Bankstown and Lidcombe"
   },
   {
     "type": "routeInfo",
@@ -3938,32 +4061,32 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-66127",
-    "version": 695024,
+    "id": "ems-66565",
+    "version": 1307956,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-01-14T03:32:00Z",
-      "lastModification": "2026-01-22T04:36:00Z",
+      "creation": "2026-01-13T20:10:00Z",
+      "lastModification": "2026-01-28T23:29:00Z",
       "availability": {
-        "from": "2026-01-22T07:00:00Z",
-        "to": "2026-03-01T22:45:00Z"
+        "from": "2026-01-28T19:00:00Z",
+        "to": "2026-03-29T06:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-02-27T07:30:00Z",
-          "to": "2026-03-01T22:45:00Z"
+          "from": "2026-03-28T19:00:00Z",
+          "to": "2026-03-29T06:00:00Z"
         }
       ],
-      "expiration": "2026-03-01T22:45:59Z"
+      "expiration": "2026-03-29T06:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66127",
-        "content": "<div>Due to planned trackwork, Service 621 Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey.</div>",
-        "subtitle": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
-        "smsText": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
-        "speechText": "Due to planned trackwork, Service 621 Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey."
+        "urlText": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66565",
+        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+        "subtitle": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
+        "smsText": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
+        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
       }
     ],
     "properties": {
@@ -3971,24 +4094,24 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "233a1f2e-900b-548e-b58b-794117a335eb",
+      "messageRef": "86128785-a153-509d-aae2-271dba31d941",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
-      "speechText": "Due to planned trackwork, Service 621 Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey."
+      "smsText": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
+      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76621: :H:",
+          "id": "nsw:76644: :R:",
           "destination": {
-            "name": "Melbourne (Southern Cross) Station, Victoria",
+            "name": "Goulburn Station, Goulburn",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 621",
-          "number": "621",
-          "description": "Central to Melbourne (Southern Cross)",
+          "name": "Regional Trains and Coaches Network 644",
+          "number": "644",
+          "description": "Griffith to Goulburn",
           "product": {
             "id": 3,
             "class": 1,
@@ -4002,10 +4125,10 @@
         }
       ]
     },
-    "urlText": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66127",
-    "content": "<div>Due to planned trackwork, Service 621 Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey.</div>",
-    "subtitle": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service."
+    "urlText": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66565",
+    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+    "subtitle": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service."
   },
   {
     "type": "lineInfo",
@@ -4274,40 +4397,32 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-66442",
-    "version": 1,
+    "id": "ems-66156",
+    "version": 787194,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-01-27T04:42:00Z",
-      "lastModification": "2026-01-27T04:42:00Z",
+      "creation": "2026-01-13T02:11:00Z",
+      "lastModification": "2026-01-22T04:51:00Z",
       "availability": {
-        "from": "2026-01-27T04:00:00Z",
-        "to": "2026-02-12T14:30:00Z"
+        "from": "2026-01-22T02:00:00Z",
+        "to": "2026-03-01T11:15:00Z"
       },
       "validity": [
         {
-          "from": "2026-02-10T10:30:00Z",
-          "to": "2026-02-10T14:30:00Z"
-        },
-        {
-          "from": "2026-02-11T10:30:00Z",
-          "to": "2026-02-11T14:30:00Z"
-        },
-        {
-          "from": "2026-02-12T10:30:00Z",
-          "to": "2026-02-12T14:30:00Z"
+          "from": "2026-02-28T05:00:00Z",
+          "to": "2026-03-01T11:15:00Z"
         }
       ],
-      "expiration": "2026-02-12T14:30:59Z"
+      "expiration": "2026-03-01T11:15:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-        "url": "https://transportnsw.info/alerts/details#/ems-66442",
-        "content": "<div><strong>Tuesday 10 to Thursday 12 February&nbsp;</strong> &nbsp;</div>\n<ul>\n<li><strong>Nightly from 9.30pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave up to 20 minutes earlier than the normal train timetable.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, all stations to Richmond and return</div>\n<div>52T1 Blacktown, all stations to Riverstone and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
-        "subtitle": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-        "smsText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-        "speechText": "Tuesday 10 to Thursday 12 February Nightly from 9 30 PM to 1 30 AM, buses replace trains between Richmond and Blacktown."
+        "urlText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66156",
+        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+        "subtitle": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+        "smsText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
       }
     ],
     "properties": {
@@ -4315,94 +4430,172 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "495d9af2-56ab-58a8-afb2-01e55f6a22db",
+      "messageRef": "2d51f4db-aad8-5f92-b154-e23e05802ee9",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-      "speechText": "Tuesday 10 to Thursday 12 February Nightly from 9 30 PM to 1 30 AM, buses replace trains between Richmond and Blacktown."
+      "smsText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T1:W:H:",
+          "id": "nsw:76636: :R:",
           "destination": {
-            "name": "Emu Plains Station, Emu Plains",
+            "name": "Central Station, Sydney",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
+          "name": "Regional Trains and Coaches Network 636",
+          "number": "636",
+          "description": "Canberra to Central",
           "product": {
-            "id": 1,
+            "id": 3,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+            "id": "711",
+            "name": "NSW TrainLink"
           },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station, Sydney Olympic Park",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
+          "iconId": 3
         }
       ]
     },
-    "urlText": "T1 Western Line: Buses replace trains between Richmond and Blacktown",
-    "url": "https://transportnsw.info/alerts/details#/ems-66442",
-    "content": "<div><strong>Tuesday 10 to Thursday 12 February&nbsp;</strong> &nbsp;</div>\n<ul>\n<li><strong>Nightly from 9.30pm to 1.30am</strong>, buses replace trains between Richmond and Blacktown.</li>\n<li>Buses towards Blacktown may leave up to 20 minutes earlier than the normal train timetable.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>50T1 Blacktown, all stations to Richmond and return</div>\n<div>52T1 Blacktown, all stations to Riverstone and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
-    "subtitle": "T1 Western Line: Buses replace trains between Richmond and Blacktown"
+    "urlText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66156",
+    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+    "subtitle": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service."
+  },
+  {
+    "type": "routeInfo",
+    "id": "ems-66422",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-27T01:19:00Z",
+      "lastModification": "2026-01-27T01:19:00Z",
+      "availability": {
+        "from": "2026-01-27T00:00:00Z",
+        "to": "2026-02-28T20:45:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-27T08:00:00Z",
+          "to": "2026-02-28T20:45:00Z"
+        }
+      ],
+      "expiration": "2026-02-28T20:45:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66422",
+        "content": "<div>Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield).</div>",
+        "subtitle": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+        "smsText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+        "speechText": "Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield)."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "07697dcc-bae2-57e4-9260-c2f222a9478f",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213510#200060",
+      "providerCode": "TfNSW",
+      "smsText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+      "speechText": "Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield)."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ],
+      "stops": [
+        {
+          "id": "213510",
+          "isGlobalId": true,
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101206"
+          }
+        },
+        {
+          "id": "200060",
+          "isGlobalId": true,
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101100"
+          }
+        }
+      ]
+    },
+    "urlText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66422",
+    "content": "<div>Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield).</div>",
+    "subtitle": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service."
   },
   {
     "type": "lineInfo",
-    "id": "ems-65993",
-    "version": 1,
+    "id": "ems-65080",
+    "version": 82,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-01-20T02:26:00Z",
-      "lastModification": "2026-01-20T02:26:00Z",
+      "creation": "2026-01-06T03:01:00Z",
+      "lastModification": "2026-01-06T03:03:00Z",
       "availability": {
-        "from": "2026-01-20T02:00:00Z",
-        "to": "2026-02-05T14:30:00Z"
+        "from": "2026-01-06T19:00:00Z",
+        "to": "2026-02-15T06:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-02-04T10:40:00Z",
-          "to": "2026-02-04T14:30:00Z"
-        },
-        {
-          "from": "2026-02-05T10:40:00Z",
-          "to": "2026-02-05T14:30:00Z"
+          "from": "2026-02-14T19:00:00Z",
+          "to": "2026-02-15T06:00:00Z"
         }
       ],
-      "expiration": "2026-02-05T14:30:59Z"
+      "expiration": "2026-02-15T06:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Buses replace trains between Bankstown and Lidcombe",
-        "url": "https://transportnsw.info/alerts/details#/ems-65993",
-        "content": "<div><strong>Wednesday 4 and Thursday 5 February</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, buses replace trains between Bankstown and Lidcombe.</li>\n<li>Buses also replace T3 trains between Liverpool and Lidcombe.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">subscribe to planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div><br />9T3 Liverpool, all stations to Lidcombe and return</div>\n<div>8T6 Bankstown, all stations to Lidcombe and return​</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
-        "subtitle": "Buses replace trains between Bankstown and Lidcombe",
-        "smsText": "Buses replace trains between Bankstown and Lidcombe",
-        "speechText": "Wednesday 4 and Thursday 5 February\nNightly from 9.40pm to 1.30am, buses replace trains between Bankstown and Lidcombe."
+        "urlText": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-65080",
+        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+        "subtitle": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
+        "smsText": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
+        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
       }
     ],
     "properties": {
@@ -4410,61 +4603,41 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f951559e-5c1a-5a94-818c-99cfc087687e",
+      "messageRef": "d3cba4ce-8be3-55ef-8545-0358f6bee240",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Buses replace trains between Bankstown and Lidcombe",
-      "speechText": "Wednesday 4 and Thursday 5 February\nNightly from 9.40pm to 1.30am, buses replace trains between Bankstown and Lidcombe."
+      "smsText": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
+      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T6: :R:",
+          "id": "nsw:76644: :R:",
           "destination": {
-            "name": "Lidcombe Station, Lidcombe",
+            "name": "Goulburn Station, Goulburn",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T6 Lidcombe & Bankstown Line",
-          "number": "T6 Lidcombe & Bankstown Line",
-          "description": "Bankstown to Lidcombe",
+          "name": "Regional Trains and Coaches Network 644",
+          "number": "644",
+          "description": "Griffith to Goulburn",
           "product": {
-            "id": 1,
+            "id": 3,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+            "id": "711",
+            "name": "NSW TrainLink"
           },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T6: :H:",
-          "destination": {
-            "name": "Lidcombe Station, Lidcombe",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T6 Lidcombe & Bankstown Line",
-          "number": "T6 Lidcombe & Bankstown Line",
-          "description": "Lidcombe to Bankstown",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
+          "iconId": 3
         }
       ]
     },
-    "urlText": "Buses replace trains between Bankstown and Lidcombe",
-    "url": "https://transportnsw.info/alerts/details#/ems-65993",
-    "content": "<div><strong>Wednesday 4 and Thursday 5 February</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, buses replace trains between Bankstown and Lidcombe.</li>\n<li>Buses also replace T3 trains between Liverpool and Lidcombe.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">subscribe to planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div><br />9T3 Liverpool, all stations to Lidcombe and return</div>\n<div>8T6 Bankstown, all stations to Lidcombe and return​</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
-    "subtitle": "Buses replace trains between Bankstown and Lidcombe"
+    "urlText": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-65080",
+    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+    "subtitle": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service."
   },
   {
     "type": "lineInfo",
@@ -5289,33 +5462,33 @@
     "subtitle": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service."
   },
   {
-    "type": "routeInfo",
-    "id": "ems-66422",
-    "version": 1,
+    "type": "lineInfo",
+    "id": "ems-64136",
+    "version": 211,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-01-27T01:19:00Z",
-      "lastModification": "2026-01-27T01:19:00Z",
+      "creation": "2025-12-16T04:01:00Z",
+      "lastModification": "2025-12-16T04:05:00Z",
       "availability": {
-        "from": "2026-01-27T00:00:00Z",
-        "to": "2026-02-28T20:45:00Z"
+        "from": "2025-12-15T22:15:00Z",
+        "to": "2026-02-01T08:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-02-27T08:00:00Z",
-          "to": "2026-02-28T20:45:00Z"
+          "from": "2026-01-30T22:15:00Z",
+          "to": "2026-02-01T08:00:00Z"
         }
       ],
-      "expiration": "2026-02-28T20:45:59Z"
+      "expiration": "2026-02-01T08:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66422",
-        "content": "<div>Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield).</div>",
-        "subtitle": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-        "smsText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-        "speechText": "Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield)."
+        "urlText": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-64136",
+        "content": "<div>Due to planned trackwork this service has been replaced by road coaches between Sydney and Muswellbrook. At Muswellbrook passengers will board the Xplorer train service for the remainder of the journey.</div>",
+        "subtitle": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
+        "smsText": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
+        "speechText": "Due to planned trackwork this service has been replaced by road coaches between Sydney and Muswellbrook. At Muswellbrook passengers will board the Xplorer train service for the remainder of the journey."
       }
     ],
     "properties": {
@@ -5323,25 +5496,24 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "07697dcc-bae2-57e4-9260-c2f222a9478f",
+      "messageRef": "c0dcb26a-e188-5f75-ae64-5be84373dd13",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213510#200060",
       "providerCode": "TfNSW",
-      "smsText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-      "speechText": "Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield)."
+      "smsText": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
+      "speechText": "Due to planned trackwork this service has been replaced by road coaches between Sydney and Muswellbrook. At Muswellbrook passengers will board the Xplorer train service for the remainder of the journey."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76034: :R:",
+          "id": "nsw:76243: :H:",
           "destination": {
-            "name": "Central Station, Sydney",
+            "name": "Moree Station, Moree",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
+          "name": "Regional Trains and Coaches Network 243",
+          "number": "243",
+          "description": "Werris Creek to Moree",
           "product": {
             "id": 3,
             "class": 1,
@@ -5353,42 +5525,12 @@
           },
           "iconId": 3
         }
-      ],
-      "stops": [
-        {
-          "id": "213510",
-          "isGlobalId": true,
-          "name": "Strathfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95356003:1",
-            "name": "Strathfield",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101206"
-          }
-        },
-        {
-          "id": "200060",
-          "isGlobalId": true,
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101100"
-          }
-        }
       ]
     },
-    "urlText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66422",
-    "content": "<div>Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield).</div>",
-    "subtitle": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service."
+    "urlText": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-64136",
+    "content": "<div>Due to planned trackwork this service has been replaced by road coaches between Sydney and Muswellbrook. At Muswellbrook passengers will board the Xplorer train service for the remainder of the journey.</div>",
+    "subtitle": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service."
   },
   {
     "type": "lineInfo",
@@ -5483,32 +5625,32 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-64136",
-    "version": 211,
+    "id": "ems-66127",
+    "version": 695024,
     "priority": "normal",
     "timestamps": {
-      "creation": "2025-12-16T04:01:00Z",
-      "lastModification": "2025-12-16T04:05:00Z",
+      "creation": "2026-01-14T03:32:00Z",
+      "lastModification": "2026-01-22T04:36:00Z",
       "availability": {
-        "from": "2025-12-15T22:15:00Z",
-        "to": "2026-02-01T08:00:00Z"
+        "from": "2026-01-22T07:00:00Z",
+        "to": "2026-03-01T22:45:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-30T22:15:00Z",
-          "to": "2026-02-01T08:00:00Z"
+          "from": "2026-02-27T07:30:00Z",
+          "to": "2026-03-01T22:45:00Z"
         }
       ],
-      "expiration": "2026-02-01T08:00:59Z"
+      "expiration": "2026-03-01T22:45:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-64136",
-        "content": "<div>Due to planned trackwork this service has been replaced by road coaches between Sydney and Muswellbrook. At Muswellbrook passengers will board the Xplorer train service for the remainder of the journey.</div>",
-        "subtitle": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
-        "smsText": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
-        "speechText": "Due to planned trackwork this service has been replaced by road coaches between Sydney and Muswellbrook. At Muswellbrook passengers will board the Xplorer train service for the remainder of the journey."
+        "urlText": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66127",
+        "content": "<div>Due to planned trackwork, Service 621 Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey.</div>",
+        "subtitle": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
+        "smsText": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
+        "speechText": "Due to planned trackwork, Service 621 Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey."
       }
     ],
     "properties": {
@@ -5516,24 +5658,24 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c0dcb26a-e188-5f75-ae64-5be84373dd13",
+      "messageRef": "233a1f2e-900b-548e-b58b-794117a335eb",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
-      "speechText": "Due to planned trackwork this service has been replaced by road coaches between Sydney and Muswellbrook. At Muswellbrook passengers will board the Xplorer train service for the remainder of the journey."
+      "smsText": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
+      "speechText": "Due to planned trackwork, Service 621 Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76243: :H:",
+          "id": "nsw:76621: :H:",
           "destination": {
-            "name": "Moree Station, Moree",
+            "name": "Melbourne (Southern Cross) Station, Victoria",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 243",
-          "number": "243",
-          "description": "Werris Creek to Moree",
+          "name": "Regional Trains and Coaches Network 621",
+          "number": "621",
+          "description": "Central to Melbourne (Southern Cross)",
           "product": {
             "id": 3,
             "class": 1,
@@ -5547,294 +5689,10 @@
         }
       ]
     },
-    "urlText": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-64136",
-    "content": "<div>Due to planned trackwork this service has been replaced by road coaches between Sydney and Muswellbrook. At Muswellbrook passengers will board the Xplorer train service for the remainder of the journey.</div>",
-    "subtitle": "31st January and 1st February 2026 inclusive - 243 Sydney to Moree Xplorer service."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66561",
-    "version": 1308696,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-13T20:00:00Z",
-      "lastModification": "2026-01-28T23:32:00Z",
-      "availability": {
-        "from": "2026-01-28T19:00:00Z",
-        "to": "2026-03-27T22:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-27T06:00:00Z",
-          "to": "2026-03-27T22:30:00Z"
-        }
-      ],
-      "expiration": "2026-03-27T22:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
-        "url": "https://transportnsw.info/alerts/details#/ems-66561",
-        "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Albury and Sydney.</div>",
-        "subtitle": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
-        "smsText": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
-        "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Albury and Sydney."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "14dc0143-a7b8-5e98-9542-fdddbda95225",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
-      "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Albury and Sydney."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
-    "url": "https://transportnsw.info/alerts/details#/ems-66561",
-    "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Albury and Sydney.</div>",
-    "subtitle": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-65066",
-    "version": 782,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-06T01:58:00Z",
-      "lastModification": "2026-01-06T02:11:00Z",
-      "availability": {
-        "from": "2026-01-05T19:45:00Z",
-        "to": "2026-02-12T06:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-09T19:45:00Z",
-          "to": "2026-02-12T06:30:00Z"
-        }
-      ],
-      "expiration": "2026-02-12T06:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-65066",
-        "content": "<div>Due to planned trackwork Moree to Sydney Xplorer service will be replaced by a road coach for the entire journey.</div>",
-        "subtitle": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
-        "smsText": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
-        "speechText": "Due to planned trackwork Moree to Sydney Xplorer service will be replaced by a road coach for the entire journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38d01aef-2164-567c-941a-fd2b3248a7c0",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
-      "speechText": "Due to planned trackwork Moree to Sydney Xplorer service will be replaced by a road coach for the entire journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76244: :R:",
-          "destination": {
-            "name": "Werris Creek Station, Werris Creek",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 244",
-          "number": "244",
-          "description": "Moree to Werris Creek",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-65066",
-    "content": "<div>Due to planned trackwork Moree to Sydney Xplorer service will be replaced by a road coach for the entire journey.</div>",
-    "subtitle": "10th February- 12th February -244 Moree to Sydney Xplorer service."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-65080",
-    "version": 82,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-06T03:01:00Z",
-      "lastModification": "2026-01-06T03:03:00Z",
-      "availability": {
-        "from": "2026-01-06T19:00:00Z",
-        "to": "2026-02-15T06:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-14T19:00:00Z",
-          "to": "2026-02-15T06:00:00Z"
-        }
-      ],
-      "expiration": "2026-02-15T06:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-65080",
-        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-        "subtitle": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
-        "smsText": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
-        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d3cba4ce-8be3-55ef-8545-0358f6bee240",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
-      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76644: :R:",
-          "destination": {
-            "name": "Goulburn Station, Goulburn",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 644",
-          "number": "644",
-          "description": "Griffith to Goulburn",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-65080",
-    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-    "subtitle": "Sunday 15th February 2026 - 644 Griffith to Sydney Xplorer service."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66156",
-    "version": 787194,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-13T02:11:00Z",
-      "lastModification": "2026-01-22T04:51:00Z",
-      "availability": {
-        "from": "2026-01-22T02:00:00Z",
-        "to": "2026-03-01T11:15:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-28T05:00:00Z",
-          "to": "2026-03-01T11:15:00Z"
-        }
-      ],
-      "expiration": "2026-03-01T11:15:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66156",
-        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-        "subtitle": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-        "smsText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2d51f4db-aad8-5f92-b154-e23e05802ee9",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76636: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 636",
-          "number": "636",
-          "description": "Canberra to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66156",
-    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-    "subtitle": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service."
+    "urlText": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66127",
+    "content": "<div>Due to planned trackwork, Service 621 Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey.</div>",
+    "subtitle": "Friday 27th February- Sunday 1st March 2026- 621 Sydney to Melbourne XPT service."
   },
   {
     "type": "lineInfo",
@@ -6336,6 +6194,77 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-65653",
+    "version": 2035,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-16T00:30:00Z",
+      "lastModification": "2026-01-16T01:04:00Z",
+      "availability": {
+        "from": "2026-01-15T15:00:00Z",
+        "to": "2026-01-31T12:58:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-30T15:00:00Z",
+          "to": "2026-01-31T12:58:00Z"
+        }
+      ],
+      "expiration": "2026-01-31T12:58:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
+        "url": "https://transportnsw.info/alerts/details#/ems-65653",
+        "content": "<div>Due to road closures, Broadmeadow coach stop will temporarily move. Road coaches will pick up/drop off at Brown Rd, between Denney St and Young Rd Broadmeadow.</div>",
+        "subtitle": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
+        "smsText": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
+        "speechText": "Due to road closures, Broadmeadow coach stop will temporarily move. Road coaches will pick up/drop off at Brown Rd, between Denney St and Young Rd Broadmeadow."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "eab49b76-667c-5088-b11e-f888acef2aab",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
+      "speechText": "Due to road closures, Broadmeadow coach stop will temporarily move. Road coaches will pick up/drop off at Brown Rd, between Denney St and Young Rd Broadmeadow."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76032: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 32",
+          "number": "32",
+          "description": "Brisbane (Roma Street) to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
+    "url": "https://transportnsw.info/alerts/details#/ems-65653",
+    "content": "<div>Due to road closures, Broadmeadow coach stop will temporarily move. Road coaches will pick up/drop off at Brown Rd, between Denney St and Young Rd Broadmeadow.</div>",
+    "subtitle": "Saturday 31st January - 32 Brisbane to Sydney XPT service"
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-66459",
     "version": 1,
     "priority": "normal",
@@ -6427,32 +6356,32 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-66565",
-    "version": 1307956,
+    "id": "ems-66561",
+    "version": 1308696,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-01-13T20:10:00Z",
-      "lastModification": "2026-01-28T23:29:00Z",
+      "creation": "2026-01-13T20:00:00Z",
+      "lastModification": "2026-01-28T23:32:00Z",
       "availability": {
         "from": "2026-01-28T19:00:00Z",
-        "to": "2026-03-29T06:00:00Z"
+        "to": "2026-03-27T22:30:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-28T19:00:00Z",
-          "to": "2026-03-29T06:00:00Z"
+          "from": "2026-03-27T06:00:00Z",
+          "to": "2026-03-27T22:30:00Z"
         }
       ],
-      "expiration": "2026-03-29T06:00:59Z"
+      "expiration": "2026-03-27T22:30:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66565",
-        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-        "subtitle": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
-        "smsText": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
-        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
+        "urlText": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
+        "url": "https://transportnsw.info/alerts/details#/ems-66561",
+        "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Albury and Sydney.</div>",
+        "subtitle": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
+        "smsText": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
+        "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Albury and Sydney."
       }
     ],
     "properties": {
@@ -6460,24 +6389,24 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "86128785-a153-509d-aae2-271dba31d941",
+      "messageRef": "14dc0143-a7b8-5e98-9542-fdddbda95225",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
-      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
+      "smsText": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
+      "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Albury and Sydney."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76644: :R:",
+          "id": "nsw:76622: :R:",
           "destination": {
-            "name": "Goulburn Station, Goulburn",
+            "name": "Central Station, Sydney",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 644",
-          "number": "644",
-          "description": "Griffith to Goulburn",
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
           "product": {
             "id": 3,
             "class": 1,
@@ -6491,10 +6420,152 @@
         }
       ]
     },
-    "urlText": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66565",
-    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-    "subtitle": "Sunday 29th March 2026 - 644 Griffith to Sydney Xplorer service."
+    "urlText": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service",
+    "url": "https://transportnsw.info/alerts/details#/ems-66561",
+    "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Albury and Sydney.</div>",
+    "subtitle": "Friday 27th March 2026- 622 Melbourne to Sydney XPT service"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-65066",
+    "version": 782,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-06T01:58:00Z",
+      "lastModification": "2026-01-06T02:11:00Z",
+      "availability": {
+        "from": "2026-01-05T19:45:00Z",
+        "to": "2026-02-12T06:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-09T19:45:00Z",
+          "to": "2026-02-12T06:30:00Z"
+        }
+      ],
+      "expiration": "2026-02-12T06:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-65066",
+        "content": "<div>Due to planned trackwork Moree to Sydney Xplorer service will be replaced by a road coach for the entire journey.</div>",
+        "subtitle": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
+        "smsText": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
+        "speechText": "Due to planned trackwork Moree to Sydney Xplorer service will be replaced by a road coach for the entire journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "38d01aef-2164-567c-941a-fd2b3248a7c0",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
+      "speechText": "Due to planned trackwork Moree to Sydney Xplorer service will be replaced by a road coach for the entire journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76244: :R:",
+          "destination": {
+            "name": "Werris Creek Station, Werris Creek",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 244",
+          "number": "244",
+          "description": "Moree to Werris Creek",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "10th February- 12th February -244 Moree to Sydney Xplorer service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-65066",
+    "content": "<div>Due to planned trackwork Moree to Sydney Xplorer service will be replaced by a road coach for the entire journey.</div>",
+    "subtitle": "10th February- 12th February -244 Moree to Sydney Xplorer service."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-65060",
+    "version": 125,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-06T01:37:00Z",
+      "lastModification": "2026-01-06T01:39:00Z",
+      "availability": {
+        "from": "2026-01-05T19:00:00Z",
+        "to": "2026-02-12T06:45:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-09T19:30:00Z",
+          "to": "2026-02-12T06:45:00Z"
+        }
+      ],
+      "expiration": "2026-02-12T06:45:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-65060",
+        "content": "<div>Due to planned trackwork the Sydney to Armidale Xplorer service has been replaced by a road coach for the entire journey.</div>",
+        "subtitle": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
+        "smsText": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
+        "speechText": "Due to planned trackwork the Sydney to Armidale Xplorer service has been replaced by a road coach for the entire journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "5d0b593b-ce59-5d3e-9d05-8064841b3875",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
+      "speechText": "Due to planned trackwork the Sydney to Armidale Xplorer service has been replaced by a road coach for the entire journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76223: :H:",
+          "destination": {
+            "name": "Armidale Station, Armidale",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 223",
+          "number": "223",
+          "description": "Central to Armidale",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "10th February - 12th February - 223 Sydney to Armidale Xplorer service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-65060",
+    "content": "<div>Due to planned trackwork the Sydney to Armidale Xplorer service has been replaced by a road coach for the entire journey.</div>",
+    "subtitle": "10th February - 12th February - 223 Sydney to Armidale Xplorer service."
   },
   {
     "type": "routeInfo",
@@ -7416,77 +7487,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-66506",
     "content": "<div><strong>Monday 9 to Thursday 12 February</strong></div>\n<ul>\n<li><strong>Nightly from 11pm to 2.30am</strong>, trains may run to a changed timetable due to trackwork between Sutherland and Hurstville.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
     "subtitle": "Trains may run to a changed timetable"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-65653",
-    "version": 2035,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-16T00:30:00Z",
-      "lastModification": "2026-01-16T01:04:00Z",
-      "availability": {
-        "from": "2026-01-15T15:00:00Z",
-        "to": "2026-01-31T12:58:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-01-30T15:00:00Z",
-          "to": "2026-01-31T12:58:00Z"
-        }
-      ],
-      "expiration": "2026-01-31T12:58:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
-        "url": "https://transportnsw.info/alerts/details#/ems-65653",
-        "content": "<div>Due to road closures, Broadmeadow coach stop will temporarily move. Road coaches will pick up/drop off at Brown Rd, between Denney St and Young Rd Broadmeadow.</div>",
-        "subtitle": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
-        "smsText": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
-        "speechText": "Due to road closures, Broadmeadow coach stop will temporarily move. Road coaches will pick up/drop off at Brown Rd, between Denney St and Young Rd Broadmeadow."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "eab49b76-667c-5088-b11e-f888acef2aab",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
-      "speechText": "Due to road closures, Broadmeadow coach stop will temporarily move. Road coaches will pick up/drop off at Brown Rd, between Denney St and Young Rd Broadmeadow."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76032: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 32",
-          "number": "32",
-          "description": "Brisbane (Roma Street) to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Saturday 31st January - 32 Brisbane to Sydney XPT service",
-    "url": "https://transportnsw.info/alerts/details#/ems-65653",
-    "content": "<div>Due to road closures, Broadmeadow coach stop will temporarily move. Road coaches will pick up/drop off at Brown Rd, between Denney St and Young Rd Broadmeadow.</div>",
-    "subtitle": "Saturday 31st January - 32 Brisbane to Sydney XPT service"
   },
   {
     "type": "lineInfo",
