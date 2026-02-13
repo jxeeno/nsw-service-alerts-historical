@@ -3404,32 +3404,44 @@
   },
   {
     "type": "lineInfo",
-    "id": "ems-65076",
-    "version": 83,
+    "id": "ems-66838",
+    "version": 1,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-01-06T02:54:00Z",
-      "lastModification": "2026-01-06T02:55:00Z",
+      "creation": "2026-02-02T22:30:00Z",
+      "lastModification": "2026-02-02T22:30:00Z",
       "availability": {
-        "from": "2026-01-07T00:00:00Z",
-        "to": "2026-02-14T06:15:00Z"
+        "from": "2026-02-02T22:00:00Z",
+        "to": "2026-02-19T14:30:00Z"
       },
       "validity": [
         {
-          "from": "2026-02-14T00:00:00Z",
-          "to": "2026-02-14T06:15:00Z"
+          "from": "2026-02-16T10:00:00Z",
+          "to": "2026-02-16T14:30:00Z"
+        },
+        {
+          "from": "2026-02-17T10:00:00Z",
+          "to": "2026-02-17T14:30:00Z"
+        },
+        {
+          "from": "2026-02-18T10:00:00Z",
+          "to": "2026-02-18T14:30:00Z"
+        },
+        {
+          "from": "2026-02-19T10:00:00Z",
+          "to": "2026-02-19T14:30:00Z"
         }
       ],
-      "expiration": "2026-02-14T06:15:59Z"
+      "expiration": "2026-02-19T14:30:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-65076",
-        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-        "subtitle": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
-        "smsText": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
-        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
+        "urlText": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
+        "url": "https://transportnsw.info/alerts/details#/ems-66838",
+        "content": "<div><strong>Monday 16 to Thursday 19 February </strong></div>\n<ul>\n<li><strong>Nightly from 9pm to 1.30am</strong>, trains run to a changed timetable and make extra stops at some stations between Parramatta and Burwood.<br /><br /></li>\n<li><strong>Monday and Tuesday from 9.50pm to 1.30am</strong>, trains run between Penrith and Central, platforms 1-14 only.</li>\n<li>If travelling to T1 North Shore Line stations use metro services to Victoria Cross, Crows Nest or Chatswood then change for replacement buses.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+        "subtitle": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
+        "smsText": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
+        "speechText": "Monday 16 to Thursday 19 February \nNightly from 9PM to 1:30AM, trains run to a changed timetable and make extra stops at some stations between Parramatta and Burwood.\nMonday and Tuesday from 9:50PM to 1:30AM, trains run between Penrith and Central, platforms 1-14 only.\nIf travelling to T1 North Shore Line stations use metro services to Victoria Cross, Crows Nest or Chatswood then change for replacement buses."
       }
     ],
     "properties": {
@@ -3437,41 +3449,172 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "9d6c1355-46a9-501a-8a59-8409d5f6a0ed",
+      "messageRef": "f0c183da-3290-5e73-9e78-8ec8eb198791",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
-      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
+      "smsText": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
+      "speechText": "Monday 16 to Thursday 19 February \nNightly from 9PM to 1:30AM, trains run to a changed timetable and make extra stops at some stations between Parramatta and Burwood.\nMonday and Tuesday from 9:50PM to 1:30AM, trains run between Penrith and Central, platforms 1-14 only.\nIf travelling to T1 North Shore Line stations use metro services to Victoria Cross, Crows Nest or Chatswood then change for replacement buses."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76634: :R:",
+          "id": "nsw:020T1:W:R:",
           "destination": {
-            "name": "Central Station, Sydney",
+            "name": "Olympic Park Station, Sydney Olympic Park",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 634",
-          "number": "634",
-          "description": "Canberra to Central",
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "Emu Plains or Richmond to City",
           "product": {
-            "id": 3,
+            "id": 1,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
+            "id": "x0001",
+            "name": "Sydney Trains"
           },
-          "iconId": 3
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T1:W:H:",
+          "destination": {
+            "name": "Richmond Station, Richmond",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T1 North Shore & Western Line",
+          "number": "T1 North Shore & Western Line",
+          "description": "City to Emu Plains or Richmond",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
         }
       ]
     },
-    "urlText": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-65076",
-    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-    "subtitle": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service."
+    "urlText": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
+    "url": "https://transportnsw.info/alerts/details#/ems-66838",
+    "content": "<div><strong>Monday 16 to Thursday 19 February </strong></div>\n<ul>\n<li><strong>Nightly from 9pm to 1.30am</strong>, trains run to a changed timetable and make extra stops at some stations between Parramatta and Burwood.<br /><br /></li>\n<li><strong>Monday and Tuesday from 9.50pm to 1.30am</strong>, trains run between Penrith and Central, platforms 1-14 only.</li>\n<li>If travelling to T1 North Shore Line stations use metro services to Victoria Cross, Crows Nest or Chatswood then change for replacement buses.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "T1 Western Line: Trains run to a changed timetable and stopping pattern"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-66510",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-27T23:17:00Z",
+      "lastModification": "2026-01-27T23:17:00Z",
+      "availability": {
+        "from": "2026-01-27T13:50:00Z",
+        "to": "2026-02-15T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-13T13:50:00Z",
+          "to": "2026-02-15T15:00:00Z"
+        }
+      ],
+      "expiration": "2026-02-15T15:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Buses replace trains between Bomaderry and Wollongong",
+        "url": "https://transportnsw.info/alerts/details#/ems-66510",
+        "content": "<div><strong>Saturday 14 and Sunday 15 February</strong></div>\n<ul>\n<li>Buses replace trains between Bomaderry and Wollongong.</li>\n<li>Trains run between Port Kembla, Wollongong and Central or Bondi Junction, some to a changed timetable.</li>\n<li>Buses do not run to the train timetable. If connecting with trains at Wollongong you may need to catch <strong>an earlier bus</strong> to ensure you meet your train connection.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>61SC Bomaderry, all stations to Kiama, then express to Wollongong and return</div>\n<div>62SC Kiama, all stations to Wollongong and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
+        "subtitle": "Buses replace trains between Bomaderry and Wollongong",
+        "smsText": "Buses replace trains between Bomaderry and Wollongong",
+        "speechText": "Saturday 14 and Sunday 15 February Buses replace trains between Bomaderry and Wollongong."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "ab244d1f-85b2-5572-988a-e9509f3fb7da",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Buses replace trains between Bomaderry and Wollongong",
+      "speechText": "Saturday 14 and Sunday 15 February Buses replace trains between Bomaderry and Wollongong."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76SCO: :H:",
+          "destination": {
+            "name": "Bomaderry Station, Bomaderry",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Kiama to Bomaderry",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:02SCO: :R:",
+          "destination": {
+            "name": "Bondi Junction Station, Bondi Junction",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:02SCO: :H:",
+          "destination": {
+            "name": "Port Kembla Station, Port Kembla",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        }
+      ]
+    },
+    "urlText": "Buses replace trains between Bomaderry and Wollongong",
+    "url": "https://transportnsw.info/alerts/details#/ems-66510",
+    "content": "<div><strong>Saturday 14 and Sunday 15 February</strong></div>\n<ul>\n<li>Buses replace trains between Bomaderry and Wollongong.</li>\n<li>Trains run between Port Kembla, Wollongong and Central or Bondi Junction, some to a changed timetable.</li>\n<li>Buses do not run to the train timetable. If connecting with trains at Wollongong you may need to catch <strong>an earlier bus</strong> to ensure you meet your train connection.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>61SC Bomaderry, all stations to Kiama, then express to Wollongong and return</div>\n<div>62SC Kiama, all stations to Wollongong and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
+    "subtitle": "Buses replace trains between Bomaderry and Wollongong"
   },
   {
     "type": "lineInfo",
@@ -3665,122 +3808,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-66428",
     "content": "<div>Due to planned track work, 31 Sydney to Brisbane XPT will commence at Strathfield. Passengers travelling from Sydney/Central will need to make their way on a T1 suburban train service to Strathfield. Please check indicators on arrival at Central.&nbsp;</div>",
     "subtitle": "28th February and 1st March 2026 - 31 Brisbane to Sydney XPT service."
-  },
-  {
-    "type": "routeInfo",
-    "id": "ems-66414",
-    "version": 247,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-27T00:39:00Z",
-      "lastModification": "2026-01-27T00:43:00Z",
-      "availability": {
-        "from": "2026-01-27T00:00:00Z",
-        "to": "2026-02-28T17:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-27T03:00:00Z",
-          "to": "2026-02-28T17:00:00Z"
-        }
-      ],
-      "expiration": "2026-02-28T17:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66414",
-        "content": "<div>Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.Passengers travelling to/from Kyogle will need to board a mini bus between Kyogle and Casino.</div>",
-        "subtitle": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
-        "smsText": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
-        "speechText": "Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.Passengers travelling to/from Kyogle will need to board a mini bus between Kyogle and Casino."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "3c4ea734-fdc8-5328-86bd-d31928f36c44",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "24701#24741#40001",
-      "providerCode": "TfNSW",
-      "smsText": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
-      "speechText": "Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.Passengers travelling to/from Kyogle will need to board a mini bus between Kyogle and Casino."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76031: :H:",
-          "destination": {
-            "name": "Brisbane (Roma Street) Station, Queensland",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ],
-      "stops": [
-        {
-          "id": "24701",
-          "isGlobalId": true,
-          "name": "Casino Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95935006:1",
-            "name": "Casino",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101830"
-          }
-        },
-        {
-          "id": "24741",
-          "isGlobalId": true,
-          "name": "Kyogle Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95933046:1",
-            "name": "Kyogle",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101829"
-          }
-        },
-        {
-          "id": "40001",
-          "isGlobalId": true,
-          "name": "Brisbane (Roma Street) Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95401001:95401001",
-            "name": "Queensland",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101828"
-          }
-        }
-      ]
-    },
-    "urlText": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66414",
-    "content": "<div>Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.Passengers travelling to/from Kyogle will need to board a mini bus between Kyogle and Casino.</div>",
-    "subtitle": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service."
   },
   {
     "type": "lineInfo",
@@ -5536,6 +5563,97 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-66875",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-02-03T00:07:00Z",
+      "lastModification": "2026-02-03T00:07:00Z",
+      "availability": {
+        "from": "2026-02-02T15:00:00Z",
+        "to": "2026-02-22T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-20T15:00:00Z",
+          "to": "2026-02-22T15:00:00Z"
+        }
+      ],
+      "expiration": "2026-02-22T15:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Buses replace trains between Bathurst and Parramatta",
+        "url": "https://transportnsw.info/alerts/details#/ems-66875",
+        "content": "<div><strong>Saturday 21 and Sunday 22 February </strong></div>\n<ul>\n<li>Buses replace trains between Bathurst and Parramatta.</li>\n<li>T1 Western Line trains run between Parramatta and the City, to a changed timetable.</li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />2BM Bathurst, express to Lithgow and return<br />10BM Bathurst, Tarana, Rydal, Lithgow and return<br />21BM Katoomba, all stations to Penrith express to Parramatta and return<br />22BM Parramatta, express to Katoomba and return<br />23BM Lithgow, all stations to Katoomba, Leura, Wentworth Falls, Hazelbrook, Springwood, Blaxland, Parramatta and return (bypassing Bell)<br />24BM Mount Victoria, all stations to Katoomba, Leura, Wentworth Falls, Hazelbrook, Springwood, Blaxland, Parramatta and return<br />25BM Bathurst, Lithgow, Mount Victoria, Katoomba, Springwood, Penrith Parramatta and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
+        "subtitle": "Buses replace trains between Bathurst and Parramatta",
+        "smsText": "Buses replace trains between Bathurst and Parramatta",
+        "speechText": "Saturday 21 and Sunday 22 February \nBuses replace trains between Bathurst and Parramatta.\nT1 Western Line trains run between Parramatta and the City, to a changed timetable.\nIf you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "9a057b00-da57-5fc5-8e85-d5680d525445",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Buses replace trains between Bathurst and Parramatta",
+      "speechText": "Saturday 21 and Sunday 22 February \nBuses replace trains between Bathurst and Parramatta.\nT1 Western Line trains run between Parramatta and the City, to a changed timetable.\nIf you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76BMT: :H:",
+          "destination": {
+            "name": "Bathurst Station, Bathurst",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Central to Bathurst",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:76BMT: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Blue Mountains Line",
+          "number": "Blue Mountains Line",
+          "description": "Bathurst to Central",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X000",
+            "name": "Intercity Train"
+          },
+          "iconId": 2
+        }
+      ]
+    },
+    "urlText": "Buses replace trains between Bathurst and Parramatta",
+    "url": "https://transportnsw.info/alerts/details#/ems-66875",
+    "content": "<div><strong>Saturday 21 and Sunday 22 February </strong></div>\n<ul>\n<li>Buses replace trains between Bathurst and Parramatta.</li>\n<li>T1 Western Line trains run between Parramatta and the City, to a changed timetable.</li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />2BM Bathurst, express to Lithgow and return<br />10BM Bathurst, Tarana, Rydal, Lithgow and return<br />21BM Katoomba, all stations to Penrith express to Parramatta and return<br />22BM Parramatta, express to Katoomba and return<br />23BM Lithgow, all stations to Katoomba, Leura, Wentworth Falls, Hazelbrook, Springwood, Blaxland, Parramatta and return (bypassing Bell)<br />24BM Mount Victoria, all stations to Katoomba, Leura, Wentworth Falls, Hazelbrook, Springwood, Blaxland, Parramatta and return<br />25BM Bathurst, Lithgow, Mount Victoria, Katoomba, Springwood, Penrith Parramatta and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
+    "subtitle": "Buses replace trains between Bathurst and Parramatta"
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-67162",
     "version": 1,
     "priority": "normal",
@@ -5961,6 +6079,122 @@
     "url": "https://transportnsw.info/alerts/details#/ems-67166",
     "content": "<div><strong>Saturday 28 February and Sunday 1 March </strong></div>\n<ul>\n<li>Buses replace trains between Goulburn, Moss Vale and Glenfield.</li>\n<li>You may need to change buses to continue your journey.</li>\n<li>T8 Airport &amp; South Line trains run between Glenfield and the City via the Airport, to a changed timetable.<br /><br /></li>\n<li><strong>From 9.40pm Saturday to 3am Sunday</strong>, buses replace trains between Moss Vale and East Hills.</li>\n<li>T8 Airport &amp; South Line trains run between East Hills and the City via the Airport.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />5SH Goulburn, all stations to Moss Vale and return<br />6SH Moss Vale, all stations to Campbelltown and return<br />6ASH Bundanoon, all stations to Campbelltown and return<br />11SH Moss Vale, Bowral, Mittagong, Picton, Campbelltown, Glenfield and return<br />12SH Moss Vale, Bowral, Mittagong, Campbelltown then express to East Hills and return (Saturday night)</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
     "subtitle": "Buses replace trains between Goulburn and Glenfield or East Hills"
+  },
+  {
+    "type": "routeInfo",
+    "id": "ems-66414",
+    "version": 247,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-27T00:39:00Z",
+      "lastModification": "2026-01-27T00:43:00Z",
+      "availability": {
+        "from": "2026-01-27T00:00:00Z",
+        "to": "2026-02-28T17:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-27T03:00:00Z",
+          "to": "2026-02-28T17:00:00Z"
+        }
+      ],
+      "expiration": "2026-02-28T17:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66414",
+        "content": "<div>Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.Passengers travelling to/from Kyogle will need to board a mini bus between Kyogle and Casino.</div>",
+        "subtitle": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
+        "smsText": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
+        "speechText": "Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.Passengers travelling to/from Kyogle will need to board a mini bus between Kyogle and Casino."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "3c4ea734-fdc8-5328-86bd-d31928f36c44",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "24701#24741#40001",
+      "providerCode": "TfNSW",
+      "smsText": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
+      "speechText": "Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.Passengers travelling to/from Kyogle will need to board a mini bus between Kyogle and Casino."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76031: :H:",
+          "destination": {
+            "name": "Brisbane (Roma Street) Station, Queensland",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 31",
+          "number": "31",
+          "description": "Central to Brisbane (Roma Street)",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ],
+      "stops": [
+        {
+          "id": "24701",
+          "isGlobalId": true,
+          "name": "Casino Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95935006:1",
+            "name": "Casino",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101830"
+          }
+        },
+        {
+          "id": "24741",
+          "isGlobalId": true,
+          "name": "Kyogle Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95933046:1",
+            "name": "Kyogle",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101829"
+          }
+        },
+        {
+          "id": "40001",
+          "isGlobalId": true,
+          "name": "Brisbane (Roma Street) Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95401001:95401001",
+            "name": "Queensland",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101828"
+          }
+        }
+      ]
+    },
+    "urlText": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66414",
+    "content": "<div>Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.Passengers travelling to/from Kyogle will need to board a mini bus between Kyogle and Casino.</div>",
+    "subtitle": "27th to 28th February 2026 inclusive- 31 Sydney to Brisbane XPT service."
   },
   {
     "type": "routeInfo",
@@ -6854,6 +7088,77 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-66152",
+    "version": 787574,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-13T02:02:00Z",
+      "lastModification": "2026-01-22T04:49:00Z",
+      "availability": {
+        "from": "2026-01-22T00:00:00Z",
+        "to": "2026-03-01T06:15:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-28T00:00:00Z",
+          "to": "2026-03-01T06:15:00Z"
+        }
+      ],
+      "expiration": "2026-03-01T06:15:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66152",
+        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+        "subtitle": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+        "smsText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "40e67c32-956e-538a-803b-58ce06a1899c",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76634: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 634",
+          "number": "634",
+          "description": "Canberra to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66152",
+    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+    "subtitle": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service."
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-67124",
     "version": 1,
     "priority": "normal",
@@ -6942,516 +7247,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-67124",
     "content": "<div><strong>Saturday 28 February and Sunday 1 March </strong></div>\n<ul>\n<li>Buses replace trains between Macarthur, Glenfield and Fairfield.</li>\n<li>Trains run to a changed timetable and stopping pattern between Leppington and the City via the Airport, and between Fairfield and Richmond. Change at Parramatta for trains to the City via Granville.</li>\n<li>Inner West trains run between Homebush or Ashfield and the City.</li>\n<li>Buses also replace T3 trains between Liverpool and Lidcombe via Regents Park.<br /><br /></li>\n<li><strong>From 9.40pm Saturday to 3am Sunday</strong>, buses also replace trains between Leppington and East Hills.</li>\n<li>Trains run between East Hills and the City, to a changed timetable.<br /><br /></li>\n<li><strong>Sunday from 4am to 1.20pm</strong>, Inner West trains run to a changed timetable between Homebush and the City.</li>\n<li>T9 Northern Line trains make an extra stop at Ashfield.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />11T8 Campbelltown, Minto, Ingleburn, Glenfield and return <br />79T2 Macarthur, all stations to Fairfield and return <br />80T2 Liverpool, all stations to Fairfield and return</div>\n<div><strong>9.40pm Saturday to 3am Sunday</strong> <br />22T2 Leppington, all stations to East Hills and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
     "subtitle": "Buses replace trains between Macarthur, Glenfield and Fairfield. Trains run to a changed stopping pattern; you may need to change services"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66492",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-27T22:16:00Z",
-      "lastModification": "2026-01-27T22:16:00Z",
-      "availability": {
-        "from": "2026-01-27T18:30:00Z",
-        "to": "2026-02-15T00:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-14T18:30:00Z",
-          "to": "2026-02-15T00:30:00Z"
-        }
-      ],
-      "expiration": "2026-02-15T00:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Train run to a changed timetable and reduced frequency",
-        "url": "https://transportnsw.info/alerts/details#/ems-66492",
-        "content": "<div><strong>Sunday 15 February&nbsp; &nbsp;</strong>&nbsp;</div>\n<ul>\n<li><strong>From 5.30am to 11.30am</strong>, trains run to a changed timetable and reduced frequency, every 30 minutes.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>",
-        "subtitle": "Train run to a changed timetable and reduced frequency",
-        "smsText": "Train run to a changed timetable and reduced frequency",
-        "speechText": "Sunday 15 February From 5 30 AM to 11 30 AM, trains run to a changed timetable and reduced frequency, every 30 minutes."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "913be372-9db2-5375-a5ec-951ec32e4c79",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Train run to a changed timetable and reduced frequency",
-      "speechText": "Sunday 15 February From 5 30 AM to 11 30 AM, trains run to a changed timetable and reduced frequency, every 30 minutes."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T6: :H:",
-          "destination": {
-            "name": "Bankstown Station, Bankstown",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T6 Lidcombe & Bankstown Line",
-          "number": "T6 Lidcombe & Bankstown Line",
-          "description": "Lidcombe to Bankstown",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T6: :R:",
-          "destination": {
-            "name": "Lidcombe Station, Lidcombe",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T6 Lidcombe & Bankstown Line",
-          "number": "T6 Lidcombe & Bankstown Line",
-          "description": "Bankstown to Lidcombe",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "Train run to a changed timetable and reduced frequency",
-    "url": "https://transportnsw.info/alerts/details#/ems-66492",
-    "content": "<div><strong>Sunday 15 February&nbsp; &nbsp;</strong>&nbsp;</div>\n<ul>\n<li><strong>From 5.30am to 11.30am</strong>, trains run to a changed timetable and reduced frequency, every 30 minutes.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "Train run to a changed timetable and reduced frequency"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66152",
-    "version": 787574,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-13T02:02:00Z",
-      "lastModification": "2026-01-22T04:49:00Z",
-      "availability": {
-        "from": "2026-01-22T00:00:00Z",
-        "to": "2026-03-01T06:15:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-28T00:00:00Z",
-          "to": "2026-03-01T06:15:00Z"
-        }
-      ],
-      "expiration": "2026-03-01T06:15:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66152",
-        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-        "subtitle": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-        "smsText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "40e67c32-956e-538a-803b-58ce06a1899c",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76634: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 634",
-          "number": "634",
-          "description": "Canberra to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66152",
-    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
-    "subtitle": "Saturday 28th February- Sunday 1st March 2026 - 632 Canberra to Sydney Xplorer service."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66875",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-02-03T00:07:00Z",
-      "lastModification": "2026-02-03T00:07:00Z",
-      "availability": {
-        "from": "2026-02-02T15:00:00Z",
-        "to": "2026-02-22T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-20T15:00:00Z",
-          "to": "2026-02-22T15:00:00Z"
-        }
-      ],
-      "expiration": "2026-02-22T15:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Buses replace trains between Bathurst and Parramatta",
-        "url": "https://transportnsw.info/alerts/details#/ems-66875",
-        "content": "<div><strong>Saturday 21 and Sunday 22 February </strong></div>\n<ul>\n<li>Buses replace trains between Bathurst and Parramatta.</li>\n<li>T1 Western Line trains run between Parramatta and the City, to a changed timetable.</li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />2BM Bathurst, express to Lithgow and return<br />10BM Bathurst, Tarana, Rydal, Lithgow and return<br />21BM Katoomba, all stations to Penrith express to Parramatta and return<br />22BM Parramatta, express to Katoomba and return<br />23BM Lithgow, all stations to Katoomba, Leura, Wentworth Falls, Hazelbrook, Springwood, Blaxland, Parramatta and return (bypassing Bell)<br />24BM Mount Victoria, all stations to Katoomba, Leura, Wentworth Falls, Hazelbrook, Springwood, Blaxland, Parramatta and return<br />25BM Bathurst, Lithgow, Mount Victoria, Katoomba, Springwood, Penrith Parramatta and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
-        "subtitle": "Buses replace trains between Bathurst and Parramatta",
-        "smsText": "Buses replace trains between Bathurst and Parramatta",
-        "speechText": "Saturday 21 and Sunday 22 February \nBuses replace trains between Bathurst and Parramatta.\nT1 Western Line trains run between Parramatta and the City, to a changed timetable.\nIf you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "9a057b00-da57-5fc5-8e85-d5680d525445",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Buses replace trains between Bathurst and Parramatta",
-      "speechText": "Saturday 21 and Sunday 22 February \nBuses replace trains between Bathurst and Parramatta.\nT1 Western Line trains run between Parramatta and the City, to a changed timetable.\nIf you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76BMT: :H:",
-          "destination": {
-            "name": "Bathurst Station, Bathurst",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Central to Bathurst",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:76BMT: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Blue Mountains Line",
-          "number": "Blue Mountains Line",
-          "description": "Bathurst to Central",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          },
-          "iconId": 2
-        }
-      ]
-    },
-    "urlText": "Buses replace trains between Bathurst and Parramatta",
-    "url": "https://transportnsw.info/alerts/details#/ems-66875",
-    "content": "<div><strong>Saturday 21 and Sunday 22 February </strong></div>\n<ul>\n<li>Buses replace trains between Bathurst and Parramatta.</li>\n<li>T1 Western Line trains run between Parramatta and the City, to a changed timetable.</li>\n<li>If you are travelling to Lithgow to connect with NSW TrainLink Regional Coaches, please call 132 232 to confirm departure times.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />2BM Bathurst, express to Lithgow and return<br />10BM Bathurst, Tarana, Rydal, Lithgow and return<br />21BM Katoomba, all stations to Penrith express to Parramatta and return<br />22BM Parramatta, express to Katoomba and return<br />23BM Lithgow, all stations to Katoomba, Leura, Wentworth Falls, Hazelbrook, Springwood, Blaxland, Parramatta and return (bypassing Bell)<br />24BM Mount Victoria, all stations to Katoomba, Leura, Wentworth Falls, Hazelbrook, Springwood, Blaxland, Parramatta and return<br />25BM Bathurst, Lithgow, Mount Victoria, Katoomba, Springwood, Penrith Parramatta and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
-    "subtitle": "Buses replace trains between Bathurst and Parramatta"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-67148",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-02-10T01:23:00Z",
-      "lastModification": "2026-02-10T01:23:00Z",
-      "availability": {
-        "from": "2026-02-10T01:00:00Z",
-        "to": "2026-02-24T14:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-23T10:40:00Z",
-          "to": "2026-02-23T14:30:00Z"
-        },
-        {
-          "from": "2026-02-24T10:40:00Z",
-          "to": "2026-02-24T14:30:00Z"
-        }
-      ],
-      "expiration": "2026-02-24T14:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Trains run between Hornsby and Central, platforms 1-14 only",
-        "url": "https://transportnsw.info/alerts/details#/ems-67148",
-        "content": "<div><strong>Monday 23 and Tuesday 24 February </strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, trains run to a changed timetable between Hornsby and Central, platforms 1-14 only. Some trains make extra stops at Croydon and Ashfield.</li>\n<li>Trackwork on the City Circle may also affect how you travel. Change at Central for T4 trains, metro, light rail or local buses to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-        "subtitle": "Trains run between Hornsby and Central, platforms 1-14 only",
-        "smsText": "Trains run between Hornsby and Central, platforms 1-14 only",
-        "speechText": "Monday 23 and Tuesday 24 February \nNightly from 9:40PM to 1:30AM, trains run to a changed timetable between Hornsby and Central, platforms 1-14 only. Some trains make extra stops at Croydon and Ashfield.\nTrackwork on the City Circle may also affect how you travel. Change at Central for T4 trains, metro, light rail or local buses to continue your journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ee4981a3-3ba2-599d-b5c2-1dedbed78b04",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Trains run between Hornsby and Central, platforms 1-14 only",
-      "speechText": "Monday 23 and Tuesday 24 February \nNightly from 9:40PM to 1:30AM, trains run to a changed timetable between Hornsby and Central, platforms 1-14 only. Some trains make extra stops at Croydon and Ashfield.\nTrackwork on the City Circle may also affect how you travel. Change at Central for T4 trains, metro, light rail or local buses to continue your journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T9: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "Hornsby to North Shore via City",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T9: :H:",
-          "destination": {
-            "name": "Gordon Station, Gordon",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T9 Northern Line",
-          "number": "T9 Northern Line",
-          "description": "North Shore to Hornsby via City",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "Trains run between Hornsby and Central, platforms 1-14 only",
-    "url": "https://transportnsw.info/alerts/details#/ems-67148",
-    "content": "<div><strong>Monday 23 and Tuesday 24 February </strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, trains run to a changed timetable between Hornsby and Central, platforms 1-14 only. Some trains make extra stops at Croydon and Ashfield.</li>\n<li>Trackwork on the City Circle may also affect how you travel. Change at Central for T4 trains, metro, light rail or local buses to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "Trains run between Hornsby and Central, platforms 1-14 only"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-67158",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-02-10T01:34:00Z",
-      "lastModification": "2026-02-10T01:34:00Z",
-      "availability": {
-        "from": "2026-02-09T15:00:00Z",
-        "to": "2026-03-01T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-27T15:00:00Z",
-          "to": "2026-03-01T15:00:00Z"
-        }
-      ],
-      "expiration": "2026-03-01T15:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
-        "url": "https://transportnsw.info/alerts/details#/ems-67158",
-        "content": "<div><strong>Saturday 28 February and Sunday 1 March </strong></div>\n<ul>\n<li>Most trains run between Central Coast &amp; Newcastle Line stations and Strathfield only.</li>\n<li><strong>Change at Epping</strong> for metro services to the City or change trains at Strathfield to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-        "subtitle": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
-        "smsText": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
-        "speechText": "Saturday 28 February and Sunday 1 March \nMost trains run between Central Coast & Newcastle Line stations and Strathfield only.\nChange at Epping for metro services to the City or change trains at Strathfield to continue your journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "e3030e54-3fbf-5603-b47f-2d0c683f5b48",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
-      "speechText": "Saturday 28 February and Sunday 1 March \nMost trains run between Central Coast & Newcastle Line stations and Strathfield only.\nChange at Epping for metro services to the City or change trains at Strathfield to continue your journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02CCN: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Newcastle to Central via Strathfield or Gordon",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:02CCN: :H:",
-          "destination": {
-            "name": "Newcastle Interchange, Wickham",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network Central Coast & Newcastle Line",
-          "number": "Central Coast & Newcastle Line",
-          "description": "Central to Newcastle via Strathfield or Gordon",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
-        }
-      ]
-    },
-    "urlText": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
-    "url": "https://transportnsw.info/alerts/details#/ems-67158",
-    "content": "<div><strong>Saturday 28 February and Sunday 1 March </strong></div>\n<ul>\n<li>Most trains run between Central Coast &amp; Newcastle Line stations and Strathfield only.</li>\n<li><strong>Change at Epping</strong> for metro services to the City or change trains at Strathfield to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "Trains run between Central Coast & Newcastle Line stations and Strathfield"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66695",
-    "version": 702,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-30T05:25:00Z",
-      "lastModification": "2026-01-30T05:37:00Z",
-      "availability": {
-        "from": "2026-01-30T03:00:00Z",
-        "to": "2026-03-01T10:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-28T03:00:00Z",
-          "to": "2026-03-01T10:30:00Z"
-        }
-      ],
-      "expiration": "2026-03-01T10:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66695",
-        "content": "<div>Due to planned track work, this XPT service will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central. Please check indicators on arrival at Strathfield.</div>\nPlan ahead and allow extra travel time.",
-        "subtitle": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
-        "smsText": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
-        "speechText": "Due to planned track work, this XPT service will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central. Please check indicators on arrival at Strathfield."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "3ad9150b-8409-5b98-b305-2d5956168cec",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
-      "speechText": "Due to planned track work, this XPT service will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central. Please check indicators on arrival at Strathfield."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76428: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 428",
-          "number": "428",
-          "description": "Dubbo to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66695",
-    "content": "<div>Due to planned track work, this XPT service will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central. Please check indicators on arrival at Strathfield.</div>\nPlan ahead and allow extra travel time.",
-    "subtitle": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service."
   },
   {
     "type": "lineInfo",
@@ -7728,6 +7523,354 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-67148",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-02-10T01:23:00Z",
+      "lastModification": "2026-02-10T01:23:00Z",
+      "availability": {
+        "from": "2026-02-10T01:00:00Z",
+        "to": "2026-02-24T14:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-23T10:40:00Z",
+          "to": "2026-02-23T14:30:00Z"
+        },
+        {
+          "from": "2026-02-24T10:40:00Z",
+          "to": "2026-02-24T14:30:00Z"
+        }
+      ],
+      "expiration": "2026-02-24T14:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Trains run between Hornsby and Central, platforms 1-14 only",
+        "url": "https://transportnsw.info/alerts/details#/ems-67148",
+        "content": "<div><strong>Monday 23 and Tuesday 24 February </strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, trains run to a changed timetable between Hornsby and Central, platforms 1-14 only. Some trains make extra stops at Croydon and Ashfield.</li>\n<li>Trackwork on the City Circle may also affect how you travel. Change at Central for T4 trains, metro, light rail or local buses to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+        "subtitle": "Trains run between Hornsby and Central, platforms 1-14 only",
+        "smsText": "Trains run between Hornsby and Central, platforms 1-14 only",
+        "speechText": "Monday 23 and Tuesday 24 February \nNightly from 9:40PM to 1:30AM, trains run to a changed timetable between Hornsby and Central, platforms 1-14 only. Some trains make extra stops at Croydon and Ashfield.\nTrackwork on the City Circle may also affect how you travel. Change at Central for T4 trains, metro, light rail or local buses to continue your journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "ee4981a3-3ba2-599d-b5c2-1dedbed78b04",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Trains run between Hornsby and Central, platforms 1-14 only",
+      "speechText": "Monday 23 and Tuesday 24 February \nNightly from 9:40PM to 1:30AM, trains run to a changed timetable between Hornsby and Central, platforms 1-14 only. Some trains make extra stops at Croydon and Ashfield.\nTrackwork on the City Circle may also affect how you travel. Change at Central for T4 trains, metro, light rail or local buses to continue your journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T9: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "Hornsby to North Shore via City",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T9: :H:",
+          "destination": {
+            "name": "Gordon Station, Gordon",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T9 Northern Line",
+          "number": "T9 Northern Line",
+          "description": "North Shore to Hornsby via City",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "Trains run between Hornsby and Central, platforms 1-14 only",
+    "url": "https://transportnsw.info/alerts/details#/ems-67148",
+    "content": "<div><strong>Monday 23 and Tuesday 24 February </strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 1.30am</strong>, trains run to a changed timetable between Hornsby and Central, platforms 1-14 only. Some trains make extra stops at Croydon and Ashfield.</li>\n<li>Trackwork on the City Circle may also affect how you travel. Change at Central for T4 trains, metro, light rail or local buses to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "Trains run between Hornsby and Central, platforms 1-14 only"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-67158",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-02-10T01:34:00Z",
+      "lastModification": "2026-02-10T01:34:00Z",
+      "availability": {
+        "from": "2026-02-09T15:00:00Z",
+        "to": "2026-03-01T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-27T15:00:00Z",
+          "to": "2026-03-01T15:00:00Z"
+        }
+      ],
+      "expiration": "2026-03-01T15:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
+        "url": "https://transportnsw.info/alerts/details#/ems-67158",
+        "content": "<div><strong>Saturday 28 February and Sunday 1 March </strong></div>\n<ul>\n<li>Most trains run between Central Coast &amp; Newcastle Line stations and Strathfield only.</li>\n<li><strong>Change at Epping</strong> for metro services to the City or change trains at Strathfield to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+        "subtitle": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
+        "smsText": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
+        "speechText": "Saturday 28 February and Sunday 1 March \nMost trains run between Central Coast & Newcastle Line stations and Strathfield only.\nChange at Epping for metro services to the City or change trains at Strathfield to continue your journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "e3030e54-3fbf-5603-b47f-2d0c683f5b48",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
+      "speechText": "Saturday 28 February and Sunday 1 March \nMost trains run between Central Coast & Newcastle Line stations and Strathfield only.\nChange at Epping for metro services to the City or change trains at Strathfield to continue your journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:02CCN: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Newcastle to Central via Strathfield or Gordon",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        },
+        {
+          "id": "nsw:02CCN: :H:",
+          "destination": {
+            "name": "Newcastle Interchange, Wickham",
+            "type": "stop"
+          },
+          "name": "Intercity Trains Network Central Coast & Newcastle Line",
+          "number": "Central Coast & Newcastle Line",
+          "description": "Central to Newcastle via Strathfield or Gordon",
+          "product": {
+            "id": 2,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "X0000",
+            "name": "NSW Trains"
+          },
+          "iconId": 2
+        }
+      ]
+    },
+    "urlText": "Trains run between Central Coast & Newcastle Line stations and Strathfield",
+    "url": "https://transportnsw.info/alerts/details#/ems-67158",
+    "content": "<div><strong>Saturday 28 February and Sunday 1 March </strong></div>\n<ul>\n<li>Most trains run between Central Coast &amp; Newcastle Line stations and Strathfield only.</li>\n<li><strong>Change at Epping</strong> for metro services to the City or change trains at Strathfield to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "Trains run between Central Coast & Newcastle Line stations and Strathfield"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-66492",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-27T22:16:00Z",
+      "lastModification": "2026-01-27T22:16:00Z",
+      "availability": {
+        "from": "2026-01-27T18:30:00Z",
+        "to": "2026-02-15T00:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-14T18:30:00Z",
+          "to": "2026-02-15T00:30:00Z"
+        }
+      ],
+      "expiration": "2026-02-15T00:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train run to a changed timetable and reduced frequency",
+        "url": "https://transportnsw.info/alerts/details#/ems-66492",
+        "content": "<div><strong>Sunday 15 February&nbsp; &nbsp;</strong>&nbsp;</div>\n<ul>\n<li><strong>From 5.30am to 11.30am</strong>, trains run to a changed timetable and reduced frequency, every 30 minutes.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>",
+        "subtitle": "Train run to a changed timetable and reduced frequency",
+        "smsText": "Train run to a changed timetable and reduced frequency",
+        "speechText": "Sunday 15 February From 5 30 AM to 11 30 AM, trains run to a changed timetable and reduced frequency, every 30 minutes."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "913be372-9db2-5375-a5ec-951ec32e4c79",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train run to a changed timetable and reduced frequency",
+      "speechText": "Sunday 15 February From 5 30 AM to 11 30 AM, trains run to a changed timetable and reduced frequency, every 30 minutes."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T6: :H:",
+          "destination": {
+            "name": "Bankstown Station, Bankstown",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T6 Lidcombe & Bankstown Line",
+          "number": "T6 Lidcombe & Bankstown Line",
+          "description": "Lidcombe to Bankstown",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T6: :R:",
+          "destination": {
+            "name": "Lidcombe Station, Lidcombe",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T6 Lidcombe & Bankstown Line",
+          "number": "T6 Lidcombe & Bankstown Line",
+          "description": "Bankstown to Lidcombe",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "Train run to a changed timetable and reduced frequency",
+    "url": "https://transportnsw.info/alerts/details#/ems-66492",
+    "content": "<div><strong>Sunday 15 February&nbsp; &nbsp;</strong>&nbsp;</div>\n<ul>\n<li><strong>From 5.30am to 11.30am</strong>, trains run to a changed timetable and reduced frequency, every 30 minutes.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>",
+    "subtitle": "Train run to a changed timetable and reduced frequency"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-66137",
+    "version": 694571,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-14T03:46:00Z",
+      "lastModification": "2026-01-22T04:42:00Z",
+      "availability": {
+        "from": "2026-01-21T19:00:00Z",
+        "to": "2026-03-01T10:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-27T19:00:00Z",
+          "to": "2026-03-01T10:30:00Z"
+        }
+      ],
+      "expiration": "2026-03-01T10:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66137",
+        "content": "<div>Due to planned trackwork, Service 624 Melbourne to Sydney XPT will be replaced by Road Coaches for the entire journey.&nbsp;</div>",
+        "subtitle": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
+        "smsText": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
+        "speechText": "Due to planned trackwork, Service 624 Melbourne to Sydney XPT will be replaced by Road Coaches for the entire journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "190c54d8-1396-5372-b419-53e36430a6f2",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
+      "speechText": "Due to planned trackwork, Service 624 Melbourne to Sydney XPT will be replaced by Road Coaches for the entire journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76624: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 624",
+          "number": "624",
+          "description": "Melbourne (Southern Cross) to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66137",
+    "content": "<div>Due to planned trackwork, Service 624 Melbourne to Sydney XPT will be replaced by Road Coaches for the entire journey.&nbsp;</div>",
+    "subtitle": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service."
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-66569",
     "version": 1307660,
     "priority": "normal",
@@ -7887,6 +8030,108 @@
     "url": "https://transportnsw.info/alerts/details#/ems-66448",
     "content": "<div><strong>Saturday 14 February&nbsp; &nbsp;</strong></div>\n<ul>\n<li><strong>From 6.30am to 10.30am</strong>, trains run to a changed timetable between Liverpool and Lidcombe, and between Homebush and the City only.</li>\n<li>You may need to change trains to continue your journey.</li>\n<li>T1 Western and T2 Leppington trains run between Lidcombe and the City.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>",
     "subtitle": "Trains run to a changed stopping pattern. You may need to change trains"
+  },
+  {
+    "type": "routeInfo",
+    "id": "ems-66422",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-27T01:19:00Z",
+      "lastModification": "2026-01-27T01:19:00Z",
+      "availability": {
+        "from": "2026-01-27T00:00:00Z",
+        "to": "2026-02-28T20:45:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-27T08:00:00Z",
+          "to": "2026-02-28T20:45:00Z"
+        }
+      ],
+      "expiration": "2026-02-28T20:45:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66422",
+        "content": "<div>Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield).</div>",
+        "subtitle": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+        "smsText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+        "speechText": "Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield)."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "07697dcc-bae2-57e4-9260-c2f222a9478f",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213510#200060",
+      "providerCode": "TfNSW",
+      "smsText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+      "speechText": "Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield)."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ],
+      "stops": [
+        {
+          "id": "213510",
+          "isGlobalId": true,
+          "name": "Strathfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356003:1",
+            "name": "Strathfield",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101206"
+          }
+        },
+        {
+          "id": "200060",
+          "isGlobalId": true,
+          "name": "Central Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101100"
+          }
+        }
+      ]
+    },
+    "urlText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66422",
+    "content": "<div>Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield).</div>",
+    "subtitle": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service."
   },
   {
     "type": "lineInfo",
@@ -8073,179 +8318,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-67130",
     "content": "<div><strong>Saturday 28 February and Sunday 1 March </strong></div>\n<ul>\n<li>Buses replace trains between Liverpool and Lidcombe.</li>\n<li>Trains run between Lidcombe and the City, to a changed timetable and frequency.</li>\n<li>Inner West trains run between Homebush or Ashfield and the City. You may need to change trains to continue your journey.</li>\n<li>Buses also replace trains between Macarthur, Liverpool and Fairfield and T6 trains between Bankstown and Lidcombe.<br /><br /></li>\n<li><strong>Sunday from 4am to 1.20pm</strong>, Inner West trains run to a changed timetable between Homebush and the City.</li>\n<li>T9 Northern Line trains make an extra stop at Ashfield.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />9T3 Liverpool, all stations to Lidcombe and return <br />19T3 Cabramatta, express to Lidcombe and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
     "subtitle": "Buses replace trains between Liverpool and Lidcombe"
-  },
-  {
-    "type": "routeInfo",
-    "id": "ems-66422",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-27T01:19:00Z",
-      "lastModification": "2026-01-27T01:19:00Z",
-      "availability": {
-        "from": "2026-01-27T00:00:00Z",
-        "to": "2026-02-28T20:45:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-27T08:00:00Z",
-          "to": "2026-02-28T20:45:00Z"
-        }
-      ],
-      "expiration": "2026-02-28T20:45:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66422",
-        "content": "<div>Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield).</div>",
-        "subtitle": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-        "smsText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-        "speechText": "Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield)."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "07697dcc-bae2-57e4-9260-c2f222a9478f",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213510#200060",
-      "providerCode": "TfNSW",
-      "smsText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-      "speechText": "Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield)."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76034: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 34",
-          "number": "34",
-          "description": "Casino to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ],
-      "stops": [
-        {
-          "id": "213510",
-          "isGlobalId": true,
-          "name": "Strathfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95356003:1",
-            "name": "Strathfield",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101206"
-          }
-        },
-        {
-          "id": "200060",
-          "isGlobalId": true,
-          "name": "Central Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101100"
-          }
-        }
-      ]
-    },
-    "urlText": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66422",
-    "content": "<div>Due to planned track work, 34 Casino to Sydney XPT will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central (Please check indicators on arrival at Strathfield).</div>",
-    "subtitle": "27th and 28th February 2026 inclusive- 34 Casino to Sydney XPT service."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66137",
-    "version": 694571,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-14T03:46:00Z",
-      "lastModification": "2026-01-22T04:42:00Z",
-      "availability": {
-        "from": "2026-01-21T19:00:00Z",
-        "to": "2026-03-01T10:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-27T19:00:00Z",
-          "to": "2026-03-01T10:30:00Z"
-        }
-      ],
-      "expiration": "2026-03-01T10:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-66137",
-        "content": "<div>Due to planned trackwork, Service 624 Melbourne to Sydney XPT will be replaced by Road Coaches for the entire journey.&nbsp;</div>",
-        "subtitle": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
-        "smsText": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
-        "speechText": "Due to planned trackwork, Service 624 Melbourne to Sydney XPT will be replaced by Road Coaches for the entire journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "190c54d8-1396-5372-b419-53e36430a6f2",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
-      "speechText": "Due to planned trackwork, Service 624 Melbourne to Sydney XPT will be replaced by Road Coaches for the entire journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76624: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 624",
-          "number": "624",
-          "description": "Melbourne (Southern Cross) to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-66137",
-    "content": "<div>Due to planned trackwork, Service 624 Melbourne to Sydney XPT will be replaced by Road Coaches for the entire journey.&nbsp;</div>",
-    "subtitle": "Saturday 28th February - Sunday 1st March 2026- 624 Melbourne to Sydney XPT service."
   },
   {
     "type": "lineInfo",
@@ -8435,6 +8507,77 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-66695",
+    "version": 702,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-30T05:25:00Z",
+      "lastModification": "2026-01-30T05:37:00Z",
+      "availability": {
+        "from": "2026-01-30T03:00:00Z",
+        "to": "2026-03-01T10:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-28T03:00:00Z",
+          "to": "2026-03-01T10:30:00Z"
+        }
+      ],
+      "expiration": "2026-03-01T10:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-66695",
+        "content": "<div>Due to planned track work, this XPT service will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central. Please check indicators on arrival at Strathfield.</div>\nPlan ahead and allow extra travel time.",
+        "subtitle": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
+        "smsText": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
+        "speechText": "Due to planned track work, this XPT service will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central. Please check indicators on arrival at Strathfield."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "3ad9150b-8409-5b98-b305-2d5956168cec",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
+      "speechText": "Due to planned track work, this XPT service will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central. Please check indicators on arrival at Strathfield."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76428: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 428",
+          "number": "428",
+          "description": "Dubbo to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-66695",
+    "content": "<div>Due to planned track work, this XPT service will terminate at Strathfield. Passengers travelling to Sydney/Central will need to make their way on a T1 suburban train service to Sydney/Central. Please check indicators on arrival at Strathfield.</div>\nPlan ahead and allow extra travel time.",
+    "subtitle": "28th February and 1st March 2026-428 Dubbo to Sydney XPT service."
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-67132",
     "version": 1,
     "priority": "normal",
@@ -8535,220 +8678,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-67132",
     "content": "<div><strong>Monday 23 to Thursday 26 February</strong></div>\n<ul>\n<li><strong>Nightly from 9.40pm to 2.30am</strong>, buses replace trains between Cronulla and Sutherland.</li>\n<li>Trains run to a changed timetable between Waterfall, Sutherland and Bondi Junction.<br /><br /></li>\n<li><strong>Monday and Tuesday</strong>, some trains make extra stops at St Peters and Erskineville.</li>\n<li>Trackwork on the City Circle may also affect how you travel.<br /><br /></li>\n<li><strong>Friday from 12.20am to 2.30am</strong>, buses replace trains between Cronulla and Hurstville, and some trains from Hurstville to Waterfall.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong><br />33T4 Cronulla, all stations to Sutherland and return</div>\n<div>Friday morning<br />41T4 Hurstville, all stations to Sutherland, express to Waterfall <br />42T4 Cronulla, all stations to Sutherland, express Hurstville and return<br />43T4 Sutherland, all stations to Hurstville and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
     "subtitle": "Buses replace trains between Cronulla and Sutherland, and some trains between Hurstville and Waterfall"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66838",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-02-02T22:30:00Z",
-      "lastModification": "2026-02-02T22:30:00Z",
-      "availability": {
-        "from": "2026-02-02T22:00:00Z",
-        "to": "2026-02-19T14:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-16T10:00:00Z",
-          "to": "2026-02-16T14:30:00Z"
-        },
-        {
-          "from": "2026-02-17T10:00:00Z",
-          "to": "2026-02-17T14:30:00Z"
-        },
-        {
-          "from": "2026-02-18T10:00:00Z",
-          "to": "2026-02-18T14:30:00Z"
-        },
-        {
-          "from": "2026-02-19T10:00:00Z",
-          "to": "2026-02-19T14:30:00Z"
-        }
-      ],
-      "expiration": "2026-02-19T14:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
-        "url": "https://transportnsw.info/alerts/details#/ems-66838",
-        "content": "<div><strong>Monday 16 to Thursday 19 February </strong></div>\n<ul>\n<li><strong>Nightly from 9pm to 1.30am</strong>, trains run to a changed timetable and make extra stops at some stations between Parramatta and Burwood.<br /><br /></li>\n<li><strong>Monday and Tuesday from 9.50pm to 1.30am</strong>, trains run between Penrith and Central, platforms 1-14 only.</li>\n<li>If travelling to T1 North Shore Line stations use metro services to Victoria Cross, Crows Nest or Chatswood then change for replacement buses.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-        "subtitle": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
-        "smsText": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
-        "speechText": "Monday 16 to Thursday 19 February \nNightly from 9PM to 1:30AM, trains run to a changed timetable and make extra stops at some stations between Parramatta and Burwood.\nMonday and Tuesday from 9:50PM to 1:30AM, trains run between Penrith and Central, platforms 1-14 only.\nIf travelling to T1 North Shore Line stations use metro services to Victoria Cross, Crows Nest or Chatswood then change for replacement buses."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f0c183da-3290-5e73-9e78-8ec8eb198791",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
-      "speechText": "Monday 16 to Thursday 19 February \nNightly from 9PM to 1:30AM, trains run to a changed timetable and make extra stops at some stations between Parramatta and Burwood.\nMonday and Tuesday from 9:50PM to 1:30AM, trains run between Penrith and Central, platforms 1-14 only.\nIf travelling to T1 North Shore Line stations use metro services to Victoria Cross, Crows Nest or Chatswood then change for replacement buses."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Olympic Park Station, Sydney Olympic Park",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T1:W:H:",
-          "destination": {
-            "name": "Richmond Station, Richmond",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "City to Emu Plains or Richmond",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "T1 Western Line: Trains run to a changed timetable and stopping pattern",
-    "url": "https://transportnsw.info/alerts/details#/ems-66838",
-    "content": "<div><strong>Monday 16 to Thursday 19 February </strong></div>\n<ul>\n<li><strong>Nightly from 9pm to 1.30am</strong>, trains run to a changed timetable and make extra stops at some stations between Parramatta and Burwood.<br /><br /></li>\n<li><strong>Monday and Tuesday from 9.50pm to 1.30am</strong>, trains run between Penrith and Central, platforms 1-14 only.</li>\n<li>If travelling to T1 North Shore Line stations use metro services to Victoria Cross, Crows Nest or Chatswood then change for replacement buses.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\">planned trackwork alerts</a>.</li>\n</ul>",
-    "subtitle": "T1 Western Line: Trains run to a changed timetable and stopping pattern"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-66510",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-01-27T23:17:00Z",
-      "lastModification": "2026-01-27T23:17:00Z",
-      "availability": {
-        "from": "2026-01-27T13:50:00Z",
-        "to": "2026-02-15T15:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-13T13:50:00Z",
-          "to": "2026-02-15T15:00:00Z"
-        }
-      ],
-      "expiration": "2026-02-15T15:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Buses replace trains between Bomaderry and Wollongong",
-        "url": "https://transportnsw.info/alerts/details#/ems-66510",
-        "content": "<div><strong>Saturday 14 and Sunday 15 February</strong></div>\n<ul>\n<li>Buses replace trains between Bomaderry and Wollongong.</li>\n<li>Trains run between Port Kembla, Wollongong and Central or Bondi Junction, some to a changed timetable.</li>\n<li>Buses do not run to the train timetable. If connecting with trains at Wollongong you may need to catch <strong>an earlier bus</strong> to ensure you meet your train connection.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>61SC Bomaderry, all stations to Kiama, then express to Wollongong and return</div>\n<div>62SC Kiama, all stations to Wollongong and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
-        "subtitle": "Buses replace trains between Bomaderry and Wollongong",
-        "smsText": "Buses replace trains between Bomaderry and Wollongong",
-        "speechText": "Saturday 14 and Sunday 15 February Buses replace trains between Bomaderry and Wollongong."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ab244d1f-85b2-5572-988a-e9509f3fb7da",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Buses replace trains between Bomaderry and Wollongong",
-      "speechText": "Saturday 14 and Sunday 15 February Buses replace trains between Bomaderry and Wollongong."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76SCO: :H:",
-          "destination": {
-            "name": "Bomaderry Station, Bomaderry",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Kiama to Bomaderry",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X000",
-            "name": "Intercity Train"
-          },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station, Bondi Junction",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
-        },
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station, Port Kembla",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "iconId": 2
-        }
-      ]
-    },
-    "urlText": "Buses replace trains between Bomaderry and Wollongong",
-    "url": "https://transportnsw.info/alerts/details#/ems-66510",
-    "content": "<div><strong>Saturday 14 and Sunday 15 February</strong></div>\n<ul>\n<li>Buses replace trains between Bomaderry and Wollongong.</li>\n<li>Trains run between Port Kembla, Wollongong and Central or Bondi Junction, some to a changed timetable.</li>\n<li>Buses do not run to the train timetable. If connecting with trains at Wollongong you may need to catch <strong>an earlier bus</strong> to ensure you meet your train connection.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip#/trip\" target=\"_blank\" rel=\"noopener\">Plan your trip</a>&nbsp;before you travel for up-to-date real time information.&nbsp;You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n<div><strong>Bus routes</strong></div>\n<div>61SC Bomaderry, all stations to Kiama, then express to Wollongong and return</div>\n<div>62SC Kiama, all stations to Wollongong and return</div>\n<div>&nbsp;</div>\n<div><strong>Replacement buses</strong></div>\n<ul>\n<li>Most replacement buses are Opal-enabled. Tap on and off with a valid Opal or contactless card. Fines apply without a valid ticket.</li>\n<li>Bikes aren&rsquo;t allowed on replacement buses. Use a nearby bike shed or locker.</li>\n<li>Services may be delayed or cancelled due to driver shortages. We're working to minimise disruptions and keep your journey safe.</li>\n</ul>",
-    "subtitle": "Buses replace trains between Bomaderry and Wollongong"
   },
   {
     "type": "lineInfo",
@@ -11804,5 +11733,76 @@
     "url": "https://transportnsw.info/alerts/details#/ems-55713",
     "content": "<div>From Tuesday 29 September 2025 to Monday 6 April 2026, route 746 buses will divert and miss several stops while roadworks take place.</div>\n<div>&nbsp;</div>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Edmund St after Garfield Rd East (2765337)&nbsp;</li>\n<li>Edmund St before Garfield Rd East (2765338)</li>\n<li>33 Edmund St (2765339)</li>\n<li>Edmund St opp No 33 (2756340)</li>\n<li>Garfield Rd East before Edmund St (2765460)&nbsp;</li>\n<li>Garfield Rd East after Clarke St (2765461)&nbsp;</li>\n</ul>",
     "subtitle": "Grantham Farm bus diversions"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-65076",
+    "version": 83,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-01-06T02:54:00Z",
+      "lastModification": "2026-01-06T02:55:00Z",
+      "availability": {
+        "from": "2026-01-07T00:00:00Z",
+        "to": "2026-02-14T06:15:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-14T00:00:00Z",
+          "to": "2026-02-14T06:15:00Z"
+        }
+      ],
+      "expiration": "2026-02-14T06:15:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-65076",
+        "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+        "subtitle": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
+        "smsText": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
+        "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "9d6c1355-46a9-501a-8a59-8409d5f6a0ed",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
+      "speechText": "Due to planned track work, this service has been replaced by a road coach for the entire journey."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76634: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 634",
+          "number": "634",
+          "description": "Canberra to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-65076",
+    "content": "<div>Due to planned track work, this service has been replaced by a road coach for the entire journey.</div>",
+    "subtitle": "Saturday 14th February 2026 - 634 Canberra to Sydney Xplorer service."
   }
 ]
