@@ -1,94 +1,75 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-67494",
-    "version": 14031,
+    "type": "infrastructure",
+    "id": "ems-68525",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-02-15T22:18:00Z",
-      "lastModification": "2026-02-16T02:12:00Z",
+      "creation": "2026-03-05T20:52:00Z",
+      "lastModification": "2026-03-05T20:52:00Z",
       "availability": {
-        "from": "2026-02-15T15:00:00Z",
-        "to": "2026-07-09T16:00:00Z"
+        "from": "2024-07-31T21:54:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-01T15:00:00Z",
-          "to": "2026-07-09T16:00:00Z"
+          "from": "2026-03-05T20:52:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-07-09T16:00:59Z"
+      "expiration": "2505-04-13T11:42:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Manly Fast Ferry altered timetable",
-        "url": "https://transportnsw.info/alerts/details#/ems-67494",
-        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-        "subtitle": "Manly Fast Ferry altered timetable",
-        "smsText": "Manly Fast Ferry altered timetable",
-        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+        "urlText": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-68525",
+        "content": "At Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+        "subtitle": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
+        "smsText": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
+        "speechText": "At Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
-      "Others": "speedRestrictions",
+      "messageRef": "a6a4babd-044f-52be-9945-fa516912a858",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200080",
       "providerCode": "TfNSW",
-      "smsText": "Manly Fast Ferry altered timetable",
-      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+      "smsText": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
+      "speechText": "At Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:05MFF: :H:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
+          "id": "200080",
+          "isGlobalId": true,
+          "name": "Wynyard Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Circular Quay to Manly",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:05MFF: :R:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Manly to Circular Quay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
+          "properties": {
+            "stopId": "10101102"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": "Manly Fast Ferry altered timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-67494",
-    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-    "subtitle": "Manly Fast Ferry altered timetable"
+    "urlText": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-68525",
+    "content": "At Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+    "subtitle": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available"
   },
   {
     "type": "infrastructure",
@@ -253,78 +234,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-68525",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-03-05T20:52:00Z",
-      "lastModification": "2026-03-05T20:52:00Z",
-      "availability": {
-        "from": "2024-07-31T21:54:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-05T20:52:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-04-13T11:42:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-68525",
-        "content": "At Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
-        "subtitle": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
-        "smsText": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
-        "speechText": "At Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "a6a4babd-044f-52be-9945-fa516912a858",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200080",
-      "providerCode": "TfNSW",
-      "smsText": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
-      "speechText": "At Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200080",
-          "isGlobalId": true,
-          "name": "Wynyard Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101102"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-68525",
-    "content": "At Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
-    "subtitle": "Wynyard Station Lift 9 between Exchange Place and Wynyard Walk is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-68260",
     "version": 78009,
     "priority": "low",
@@ -395,76 +304,95 @@
     "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-68606",
-    "version": 4,
+    "type": "lineInfo",
+    "id": "ems-67494",
+    "version": 14031,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-03-07T17:56:00Z",
-      "lastModification": "2026-03-07T17:56:00Z",
+      "creation": "2026-02-15T22:18:00Z",
+      "lastModification": "2026-02-16T02:12:00Z",
       "availability": {
-        "from": "2026-02-28T20:46:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
+        "from": "2026-02-15T15:00:00Z",
+        "to": "2026-07-09T16:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-07T17:56:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
+          "from": "2026-03-01T15:00:00Z",
+          "to": "2026-07-09T16:00:00Z"
         }
       ],
-      "expiration": "2505-04-15T08:47:59Z"
+      "expiration": "2026-07-09T16:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-68606",
-        "content": "At Martin Place Station Lift 1 between concourse, mezzanine and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
-        "subtitle": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
-        "smsText": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
-        "speechText": "At Martin Place Station Lift 1 between concourse, mezzanine and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+        "urlText": "Manly Fast Ferry altered timetable",
+        "url": "https://transportnsw.info/alerts/details#/ems-67494",
+        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+        "subtitle": "Manly Fast Ferry altered timetable",
+        "smsText": "Manly Fast Ferry altered timetable",
+        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "469c0740-0d47-52c2-9703-f0f20800bf1e",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
+      "Others": "speedRestrictions",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200030",
       "providerCode": "TfNSW",
-      "smsText": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
-      "speechText": "At Martin Place Station Lift 1 between concourse, mezzanine and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+      "smsText": "Manly Fast Ferry altered timetable",
+      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "200030",
-          "isGlobalId": true,
-          "name": "Martin Place Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
+          "id": "nsw:05MFF: :H:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101106"
-          }
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:05MFF: :R:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     },
-    "urlText": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-68606",
-    "content": "At Martin Place Station Lift 1 between concourse, mezzanine and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
-    "subtitle": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available"
+    "urlText": "Manly Fast Ferry altered timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-67494",
+    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+    "subtitle": "Manly Fast Ferry altered timetable"
   },
   {
     "type": "infrastructure",
@@ -813,76 +741,134 @@
     "subtitle": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-68620",
-    "version": 2,
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-03-08T02:30:00Z",
-      "lastModification": "2026-03-08T02:30:00Z",
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
       "availability": {
-        "from": "2026-03-01T05:20:00Z",
+        "from": "2021-11-19T02:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-08T02:30:00Z",
+          "from": "2021-11-19T02:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-04-15T17:20:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-68620",
-        "content": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265.",
-        "subtitle": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
-        "smsText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
-        "speechText": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265."
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ec5f2ae8-bdd6-5fc8-9aa5-d7295f2f9c33",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "223010",
       "providerCode": "TfNSW",
-      "smsText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
-      "speechText": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "223010",
-          "isGlobalId": true,
-          "name": "Woolooware Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95357037:1",
-            "name": "Woolooware",
-            "type": "locality"
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101350"
-          }
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     },
-    "urlText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-68620",
-    "content": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265.",
-    "subtitle": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
@@ -1029,133 +1015,147 @@
     "subtitle": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "type": "infrastructure",
+    "id": "ems-68620",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2026-03-08T02:30:00Z",
+      "lastModification": "2026-03-08T02:30:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
+        "from": "2026-03-01T05:20:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
+          "from": "2026-03-08T02:30:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-04-15T17:20:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-68620",
+        "content": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265.",
+        "subtitle": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
+        "smsText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
+        "speechText": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "ec5f2ae8-bdd6-5fc8-9aa5-d7295f2f9c33",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "223010",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
+      "speechText": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
+          "id": "223010",
+          "isGlobalId": true,
+          "name": "Woolooware Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95357037:1",
+            "name": "Woolooware",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
+          "properties": {
+            "stopId": "10101350"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-68620",
+    "content": "At Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1265.",
+    "subtitle": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-68606",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-03-07T17:56:00Z",
+      "lastModification": "2026-03-07T17:56:00Z",
+      "availability": {
+        "from": "2026-02-28T20:46:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-03-07T17:56:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-04-15T08:47:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-68606",
+        "content": "At Martin Place Station Lift 1 between concourse, mezzanine and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+        "subtitle": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
+        "smsText": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
+        "speechText": "At Martin Place Station Lift 1 between concourse, mezzanine and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "469c0740-0d47-52c2-9703-f0f20800bf1e",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200030",
+      "providerCode": "TfNSW",
+      "smsText": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
+      "speechText": "At Martin Place Station Lift 1 between concourse, mezzanine and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200030",
+          "isGlobalId": true,
+          "name": "Martin Place Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101106"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-68606",
+    "content": "At Martin Place Station Lift 1 between concourse, mezzanine and street level is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+    "subtitle": "Martin Place Station Lift 1 between concourse, mezzanine and street level is not available"
   }
 ]
