@@ -1,94 +1,74 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-67494",
-    "version": 14031,
+    "type": "infrastructure",
+    "id": "ems-68260",
+    "version": 78009,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-02-15T22:18:00Z",
-      "lastModification": "2026-02-16T02:12:00Z",
+      "creation": "2026-03-02T02:44:00Z",
+      "lastModification": "2026-03-03T00:24:00Z",
       "availability": {
-        "from": "2026-02-15T15:00:00Z",
-        "to": "2026-07-09T16:00:00Z"
+        "from": "2026-03-02T02:40:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-01T15:00:00Z",
-          "to": "2026-07-09T16:00:00Z"
+          "from": "2026-03-02T02:40:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-07-09T16:00:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Manly Fast Ferry altered timetable",
-        "url": "https://transportnsw.info/alerts/details#/ems-67494",
-        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-        "subtitle": "Manly Fast Ferry altered timetable",
-        "smsText": "Manly Fast Ferry altered timetable",
-        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+        "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+        "url": "https://transportnsw.info/alerts/details#/ems-68260",
+        "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service.\n\n<br/><div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the stairs, if able to</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or use the lift opposite on Parramatta Road.</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Help Point if on the platform</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or call 131 500</div>\n</div>",
+        "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+        "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+        "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
-      "Others": "speedRestrictions",
+      "messageRef": "19fdc80c-0038-5719-81fc-a910bb611ce4",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "204093",
       "providerCode": "TfNSW",
-      "smsText": "Manly Fast Ferry altered timetable",
-      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+      "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+      "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:05MFF: :H:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
+          "id": "204093",
+          "isGlobalId": true,
+          "name": "Taverners Hill Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95333005:1",
+            "name": "Leichhardt",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Circular Quay to Manly",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:05MFF: :R:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Manly to Circular Quay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
+          "properties": {
+            "stopId": "10101626"
+          }
         }
+      ],
+      "Infrastructures": [
+        {}
       ]
     },
-    "urlText": "Manly Fast Ferry altered timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-67494",
-    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-    "subtitle": "Manly Fast Ferry altered timetable"
+    "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+    "url": "https://transportnsw.info/alerts/details#/ems-68260",
+    "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service.\n\n<br/><div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the stairs, if able to</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or use the lift opposite on Parramatta Road.</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Help Point if on the platform</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or call 131 500</div>\n</div>",
+    "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ"
   },
   {
     "type": "lineInfo",
@@ -222,6 +202,78 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-65380",
+    "version": 3103049,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-01-11T08:12:00Z",
+      "lastModification": "2026-02-16T06:09:00Z",
+      "availability": {
+        "from": "2026-01-04T11:02:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-01-11T08:12:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-02-18T12:03:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-65380",
+        "content": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432.",
+        "subtitle": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
+        "smsText": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
+        "speechText": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "172195b9-9148-5778-b698-08e6e520cd35",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214110:2141311",
+      "providerCode": "TfNSW",
+      "smsText": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
+      "speechText": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214110",
+          "isGlobalId": true,
+          "name": "Lidcombe Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304004:1",
+            "name": "Lidcombe",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101218"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-65380",
+    "content": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432.",
+    "subtitle": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-68643",
     "version": 103709,
     "priority": "low",
@@ -291,6 +343,292 @@
     "url": "https://transportnsw.info/alerts/details#/ems-68643",
     "content": "At Engadine Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\nFrom Monday 9 to Sunday 15 March, the lift will be closed for maintenance. There will be no accessible route to/from Platform 2.\nIf you are arriving on Platform 2 and need a lift, remain on the train to Heathcote Station. Cross to Platform 1 and board a train returning to Engadine Station on Platform 1. \nIf you are seeking to board a train from Platform 2 and need a lift, board a train from Platform 1 to Loftus Station. Cross to Platform 2 and board a train to your destination.\n\nIf you need help, ask staff or phone 02 9522 1224.",
     "subtitle": "Engadine Station Lift 2 between the footbridge and Platform 2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-68914",
+    "version": 6,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-03-12T19:46:00Z",
+      "lastModification": "2026-03-12T19:46:00Z",
+      "availability": {
+        "from": "2026-03-12T19:46:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-03-12T19:46:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-04-20T09:37:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-68914",
+        "content": "At Kingswood Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
+        "subtitle": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
+        "smsText": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
+        "speechText": "At Kingswood Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "b6aa25ba-f5b2-5e7c-8bbc-869af137d90b",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "274720:2747362",
+      "providerCode": "TfNSW",
+      "smsText": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
+      "speechText": "At Kingswood Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "274720",
+          "isGlobalId": true,
+          "name": "Kingswood Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347014:1",
+            "name": "Kingswood (2747)",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101251"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-68914",
+    "content": "At Kingswood Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
+    "subtitle": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-66797",
+    "version": 1229132,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-02-02T00:45:00Z",
+      "lastModification": "2026-02-16T06:10:00Z",
+      "availability": {
+        "from": "2026-01-26T03:35:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-02-02T00:45:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-03-12T04:35:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-66797",
+        "content": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7574.",
+        "subtitle": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
+        "smsText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
+        "speechText": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7574."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "32bab6f5-d4f9-5a6e-8ee4-6272d331d780",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "221620:221620,2216172,2216173",
+      "providerCode": "TfNSW",
+      "smsText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
+      "speechText": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7574."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "221620",
+          "isGlobalId": true,
+          "name": "Rockdale Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95351015:1",
+            "name": "Rockdale",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101335"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-66797",
+    "content": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7574.",
+    "subtitle": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-68951",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-03-13T07:34:00Z",
+      "lastModification": "2026-03-13T07:34:00Z",
+      "availability": {
+        "from": "2026-03-06T04:34:00Z",
+        "to": "2026-03-17T05:33:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-03-12T08:34:00Z",
+          "to": "2026-03-17T05:33:00Z"
+        }
+      ],
+      "expiration": "2026-03-17T05:33:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-68951",
+        "content": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
+        "subtitle": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+        "smsText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+        "speechText": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "34231946-5f72-5506-ad00-aaea20401560",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213820:213820,213891",
+      "providerCode": "TfNSW",
+      "smsText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+      "speechText": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "213820",
+          "isGlobalId": true,
+          "name": "Rhodes Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95314013:1",
+            "name": "Rhodes",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101203"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-68951",
+    "content": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
+    "subtitle": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-68858",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-03-11T20:49:00Z",
+      "lastModification": "2026-03-11T20:49:00Z",
+      "availability": {
+        "from": "2026-03-04T23:39:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-03-11T20:49:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-04-19T11:40:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-68858",
+        "content": "At Marayong Station Lift 1 between the concourse and Railway Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241.",
+        "subtitle": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
+        "smsText": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
+        "speechText": "At Marayong Station Lift 1 between the concourse and Railway Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "b73f94c3-d225-50aa-a1ef-3609b8a7f185",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214820",
+      "providerCode": "TfNSW",
+      "smsText": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
+      "speechText": "At Marayong Station Lift 1 between the concourse and Railway Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214820",
+          "isGlobalId": true,
+          "name": "Marayong Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308022:1",
+            "name": "Marayong",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101236"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {}
+      ]
+    },
+    "urlText": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-68858",
+    "content": "At Marayong Station Lift 1 between the concourse and Railway Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241.",
+    "subtitle": "Marayong Station Lift 1 between the concourse and Railway Rd is not available"
   },
   {
     "type": "infrastructure",
@@ -456,34 +794,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-65380",
-    "version": 3103049,
+    "id": "ems-68787",
+    "version": 12,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-01-11T08:12:00Z",
-      "lastModification": "2026-02-16T06:09:00Z",
+      "creation": "2026-03-10T20:08:00Z",
+      "lastModification": "2026-03-10T20:08:00Z",
       "availability": {
-        "from": "2026-01-04T11:02:00Z",
+        "from": "2026-02-21T07:18:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-01-11T08:12:00Z",
+          "from": "2026-03-10T20:08:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-02-18T12:03:59Z"
+      "expiration": "2505-04-07T19:26:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-65380",
-        "content": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432.",
-        "subtitle": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
-        "smsText": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
-        "speechText": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432."
+        "urlText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-68787",
+        "content": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495.",
+        "subtitle": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+        "smsText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+        "speechText": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495."
       }
     ],
     "properties": {
@@ -492,28 +830,28 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "172195b9-9148-5778-b698-08e6e520cd35",
+      "messageRef": "5012d2c8-a401-5e47-84ff-4b71af2d7e43",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214110:2141311",
+      "stopIDglobalID": "230410",
       "providerCode": "TfNSW",
-      "smsText": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
-      "speechText": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432."
+      "smsText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+      "speechText": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495."
     },
     "affected": {
       "stops": [
         {
-          "id": "214110",
+          "id": "230410",
           "isGlobalId": true,
-          "name": "Lidcombe Station",
+          "name": "Waratah Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95304004:1",
-            "name": "Lidcombe",
+            "id": "placeID:95342029:1",
+            "name": "Mayfield (2304)",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101218"
+            "stopId": "10101167"
           }
         }
       ],
@@ -521,296 +859,10 @@
         {}
       ]
     },
-    "urlText": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-65380",
-    "content": "At Lidcombe Station Lift 1 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8432.",
-    "subtitle": "Lidcombe Station Lift 1 between the concourse and Platform 1 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-68914",
-    "version": 6,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-03-12T19:46:00Z",
-      "lastModification": "2026-03-12T19:46:00Z",
-      "availability": {
-        "from": "2026-03-12T19:46:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-12T19:46:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-04-20T09:37:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-68914",
-        "content": "At Kingswood Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
-        "subtitle": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
-        "smsText": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
-        "speechText": "At Kingswood Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "b6aa25ba-f5b2-5e7c-8bbc-869af137d90b",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "274720:2747362",
-      "providerCode": "TfNSW",
-      "smsText": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
-      "speechText": "At Kingswood Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "274720",
-          "isGlobalId": true,
-          "name": "Kingswood Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95347014:1",
-            "name": "Kingswood (2747)",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101251"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-68914",
-    "content": "At Kingswood Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3814.",
-    "subtitle": "Kingswood Station Lift 2 between the concourse and Platform 2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-68858",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-03-11T20:49:00Z",
-      "lastModification": "2026-03-11T20:49:00Z",
-      "availability": {
-        "from": "2026-03-04T23:39:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-11T20:49:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-04-19T11:40:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-68858",
-        "content": "At Marayong Station Lift 1 between the concourse and Railway Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241.",
-        "subtitle": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
-        "smsText": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
-        "speechText": "At Marayong Station Lift 1 between the concourse and Railway Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "b73f94c3-d225-50aa-a1ef-3609b8a7f185",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214820",
-      "providerCode": "TfNSW",
-      "smsText": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
-      "speechText": "At Marayong Station Lift 1 between the concourse and Railway Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214820",
-          "isGlobalId": true,
-          "name": "Marayong Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308022:1",
-            "name": "Marayong",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101236"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Marayong Station Lift 1 between the concourse and Railway Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-68858",
-    "content": "At Marayong Station Lift 1 between the concourse and Railway Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7241.",
-    "subtitle": "Marayong Station Lift 1 between the concourse and Railway Rd is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-68951",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-03-13T07:34:00Z",
-      "lastModification": "2026-03-13T07:34:00Z",
-      "availability": {
-        "from": "2026-03-06T04:34:00Z",
-        "to": "2026-03-17T05:33:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-12T08:34:00Z",
-          "to": "2026-03-17T05:33:00Z"
-        }
-      ],
-      "expiration": "2026-03-17T05:33:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-68951",
-        "content": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
-        "subtitle": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
-        "smsText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
-        "speechText": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "34231946-5f72-5506-ad00-aaea20401560",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213820:213820,213891",
-      "providerCode": "TfNSW",
-      "smsText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
-      "speechText": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "213820",
-          "isGlobalId": true,
-          "name": "Rhodes Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95314013:1",
-            "name": "Rhodes",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101203"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-68951",
-    "content": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
-    "subtitle": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-66797",
-    "version": 1229132,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-02-02T00:45:00Z",
-      "lastModification": "2026-02-16T06:10:00Z",
-      "availability": {
-        "from": "2026-01-26T03:35:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-02-02T00:45:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-03-12T04:35:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-66797",
-        "content": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7574.",
-        "subtitle": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "smsText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "speechText": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7574."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "32bab6f5-d4f9-5a6e-8ee4-6272d331d780",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "221620:221620,2216172,2216173",
-      "providerCode": "TfNSW",
-      "smsText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-      "speechText": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7574."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "221620",
-          "isGlobalId": true,
-          "name": "Rockdale Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95351015:1",
-            "name": "Rockdale",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101335"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-66797",
-    "content": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7574.",
-    "subtitle": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available"
+    "urlText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-68787",
+    "content": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495.",
+    "subtitle": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available"
   },
   {
     "type": "infrastructure",
@@ -885,146 +937,94 @@
     "subtitle": "Kings Cross Station Lift 1 between the concourse and Victoria St is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-68260",
-    "version": 78009,
+    "type": "lineInfo",
+    "id": "ems-67494",
+    "version": 14031,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-03-02T02:44:00Z",
-      "lastModification": "2026-03-03T00:24:00Z",
+      "creation": "2026-02-15T22:18:00Z",
+      "lastModification": "2026-02-16T02:12:00Z",
       "availability": {
-        "from": "2026-03-02T02:40:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
+        "from": "2026-02-15T15:00:00Z",
+        "to": "2026-07-09T16:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-02T02:40:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
+          "from": "2026-03-01T15:00:00Z",
+          "to": "2026-07-09T16:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2026-07-09T16:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-        "url": "https://transportnsw.info/alerts/details#/ems-68260",
-        "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service.\n\n<br/><div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the stairs, if able to</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or use the lift opposite on Parramatta Road.</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Help Point if on the platform</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or call 131 500</div>\n</div>",
-        "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-        "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-        "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service."
+        "urlText": "Manly Fast Ferry altered timetable",
+        "url": "https://transportnsw.info/alerts/details#/ems-67494",
+        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+        "subtitle": "Manly Fast Ferry altered timetable",
+        "smsText": "Manly Fast Ferry altered timetable",
+        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "19fdc80c-0038-5719-81fc-a910bb611ce4",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
+      "Others": "speedRestrictions",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204093",
       "providerCode": "TfNSW",
-      "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-      "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service."
+      "smsText": "Manly Fast Ferry altered timetable",
+      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "204093",
-          "isGlobalId": true,
-          "name": "Taverners Hill Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333005:1",
-            "name": "Leichhardt",
-            "type": "locality"
+          "id": "nsw:05MFF: :H:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101626"
-          }
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:05MFF: :R:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
         }
-      ],
-      "Infrastructures": [
-        {}
       ]
     },
-    "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-    "url": "https://transportnsw.info/alerts/details#/ems-68260",
-    "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service.\n\n<br/><div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the stairs, if able to</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or use the lift opposite on Parramatta Road.</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Help Point if on the platform</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or call 131 500</div>\n</div>",
-    "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-68787",
-    "version": 12,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-03-10T20:08:00Z",
-      "lastModification": "2026-03-10T20:08:00Z",
-      "availability": {
-        "from": "2026-02-21T07:18:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-10T20:08:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-04-07T19:26:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-68787",
-        "content": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495.",
-        "subtitle": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-        "smsText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-        "speechText": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5012d2c8-a401-5e47-84ff-4b71af2d7e43",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "230410",
-      "providerCode": "TfNSW",
-      "smsText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-      "speechText": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "230410",
-          "isGlobalId": true,
-          "name": "Waratah Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95342029:1",
-            "name": "Mayfield (2304)",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101167"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {}
-      ]
-    },
-    "urlText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-68787",
-    "content": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495.",
-    "subtitle": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available"
+    "urlText": "Manly Fast Ferry altered timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-67494",
+    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+    "subtitle": "Manly Fast Ferry altered timetable"
   }
 ]
