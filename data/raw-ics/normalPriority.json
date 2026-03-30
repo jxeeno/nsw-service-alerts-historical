@@ -27032,33 +27032,33 @@
     "subtitle": "Added Stops"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-68503",
-    "version": 105,
+    "type": "routeInfo",
+    "id": "ems-69305",
+    "version": 44,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-03-05T04:51:00Z",
-      "lastModification": "2026-03-05T04:53:00Z",
+      "creation": "2026-03-20T03:26:00Z",
+      "lastModification": "2026-03-20T03:27:00Z",
       "availability": {
-        "from": "2026-03-04T19:00:00Z",
-        "to": "2026-04-19T08:00:00Z"
+        "from": "2026-03-20T07:15:00Z",
+        "to": "2026-05-05T21:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-04-17T20:00:00Z",
-          "to": "2026-04-19T08:00:00Z"
+          "from": "2026-05-05T08:15:00Z",
+          "to": "2026-05-05T21:00:00Z"
         }
       ],
-      "expiration": "2026-04-19T08:00:59Z"
+      "expiration": "2026-05-05T21:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
-        "url": "https://transportnsw.info/alerts/details#/ems-68503",
-        "content": "<div>Due to planned trackwork, the Griffith Xplorer services will be replaced by road coaches for the entire journey in both directions.</div>",
-        "subtitle": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
-        "smsText": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
-        "speechText": "Due to planned trackwork, the Griffith Xplorer services will be replaced by road coaches for the entire journey in both directions."
+        "urlText": "5th May 2026- 622 Melbourne to Sydney XPT service.",
+        "url": "https://transportnsw.info/alerts/details#/ems-69305",
+        "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Melbourne and Albury. On arrival at Albury please board commencing XPT train for the remainder of the journey.</div>",
+        "subtitle": "5th May 2026- 622 Melbourne to Sydney XPT service.",
+        "smsText": "5th May 2026- 622 Melbourne to Sydney XPT service.",
+        "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Melbourne and Albury. On arrival at Albury please board commencing XPT train for the remainder of the journey."
       }
     ],
     "properties": {
@@ -27066,24 +27066,25 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ac4e6ce8-2e46-5e94-b314-a9c9c6f3517e",
+      "messageRef": "c050c040-457f-501a-9ce6-8e3a7ea9601d",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "22180#20030#20342#20295#20356#26401",
       "providerCode": "TfNSW",
-      "smsText": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
-      "speechText": "Due to planned trackwork, the Griffith Xplorer services will be replaced by road coaches for the entire journey in both directions."
+      "smsText": "5th May 2026- 622 Melbourne to Sydney XPT service.",
+      "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Melbourne and Albury. On arrival at Albury please board commencing XPT train for the remainder of the journey."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:76641: :H:",
+          "id": "nsw:76622: :R:",
           "destination": {
-            "name": "Griffith Station, Griffith",
+            "name": "Central Station, Sydney",
             "type": "stop"
           },
-          "name": "Regional Trains and Coaches Network 641",
-          "number": "641",
-          "description": "Goulburn to Griffith",
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
           "product": {
             "id": 3,
             "class": 1,
@@ -27094,210 +27095,116 @@
             "name": "NSW TrainLink"
           },
           "iconId": 3
+        }
+      ],
+      "stops": [
+        {
+          "id": "22180",
+          "isGlobalId": true,
+          "name": "Melbourne (Southern Cross) Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95101001:95101001",
+            "name": "Victoria",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101844"
+          }
         },
         {
-          "id": "nsw:76644: :R:",
-          "destination": {
-            "name": "Goulburn Station, Goulburn",
-            "type": "stop"
+          "id": "20030",
+          "isGlobalId": true,
+          "name": "Broadmeadows Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95101001:95101001",
+            "name": "Victoria",
+            "type": "locality"
           },
-          "name": "Regional Trains and Coaches Network 644",
-          "number": "644",
-          "description": "Griffith to Goulburn",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
+          "properties": {
+            "stopId": "10101845"
+          }
         },
         {
-          "id": "nsw:76725: :H:",
-          "destination": {
-            "name": "Mildura Station, Mildura (VIC)",
-            "type": "stop"
+          "id": "20342",
+          "isGlobalId": true,
+          "name": "Seymour Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95101001:95101001",
+            "name": "Victoria",
+            "type": "locality"
           },
-          "name": "Regional Trains and Coaches Network 725",
-          "number": "725",
-          "description": "Cootamundra to Mildura",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
+          "properties": {
+            "stopId": "10101846"
+          }
         },
         {
-          "id": "nsw:76726: :R:",
-          "destination": {
-            "name": "Cootamundra Station, Cootamundra",
-            "type": "stop"
+          "id": "20295",
+          "isGlobalId": true,
+          "name": "Benalla Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95101001:95101001",
+            "name": "Victoria",
+            "type": "locality"
           },
-          "name": "Regional Trains and Coaches Network 726",
-          "number": "726",
-          "description": "Mildura to Cootamundra",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
+          "properties": {
+            "stopId": "10101847"
+          }
         },
         {
-          "id": "nsw:76731: :H:",
-          "destination": {
-            "name": "Griffith Station, Griffith",
-            "type": "stop"
+          "id": "20356",
+          "isGlobalId": true,
+          "name": "Wangaratta Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95101001:95101001",
+            "name": "Victoria",
+            "type": "locality"
           },
-          "name": "Regional Trains and Coaches Network 731",
-          "number": "731",
-          "description": "Wagga Wagga to Griffith",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
+          "properties": {
+            "stopId": "10101848"
+          }
         },
         {
-          "id": "nsw:76732: :R:",
-          "destination": {
-            "name": "Wagga Wagga Station, Turvey Park",
-            "type": "stop"
+          "id": "26401",
+          "isGlobalId": true,
+          "name": "Albury Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95302002:1",
+            "name": "East Albury",
+            "type": "locality"
           },
-          "name": "Regional Trains and Coaches Network 732",
-          "number": "732",
-          "description": "Griffith to Wagga Wagga",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
-        },
-        {
-          "id": "nsw:76735: :H:",
-          "destination": {
-            "name": "Griffith Station, Griffith",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 735",
-          "number": "735",
-          "description": "Wagga Wagga to Griffith",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
-        },
-        {
-          "id": "nsw:76736: :R:",
-          "destination": {
-            "name": "Wagga Wagga Station, Turvey Park",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 736",
-          "number": "736",
-          "description": "Griffith to Wagga Wagga",
-          "product": {
-            "id": 7,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 7
-        },
-        {
-          "id": "nsw:76410:1:H:",
-          "destination": {
-            "name": "Griffith Station, Griffith",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 4101",
-          "number": "4101",
-          "description": "Central to Griffith",
-          "product": {
-            "id": 22,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 22
-        },
-        {
-          "id": "nsw:76410:3:H:",
-          "destination": {
-            "name": "Griffith Station, Griffith",
-            "type": "stop"
-          },
-          "name": "Temporary coaches 4103",
-          "number": "4103",
-          "description": "Central to Griffith",
-          "product": {
-            "id": 22,
-            "class": 7,
-            "iconId": 7
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 22
+          "properties": {
+            "stopId": "10101849"
+          }
         }
       ]
     },
-    "urlText": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
-    "url": "https://transportnsw.info/alerts/details#/ems-68503",
-    "content": "<div>Due to planned trackwork, the Griffith Xplorer services will be replaced by road coaches for the entire journey in both directions.</div>",
-    "subtitle": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services."
+    "urlText": "5th May 2026- 622 Melbourne to Sydney XPT service.",
+    "url": "https://transportnsw.info/alerts/details#/ems-69305",
+    "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Melbourne and Albury. On arrival at Albury please board commencing XPT train for the remainder of the journey.</div>",
+    "subtitle": "5th May 2026- 622 Melbourne to Sydney XPT service."
   },
   {
-    "type": "lineInfo",
-    "id": "ems-68661",
-    "version": 1,
+    "type": "tripMessage",
+    "id": "83e8d2a820c7a38df70bcec2ab6b9c1e54519055",
+    "version": 9600,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-03-09T05:24:00Z",
-      "lastModification": "2026-03-09T05:24:00Z",
+      "creation": "2024-10-10T06:09:00Z",
+      "lastModification": "2024-10-10T08:49:00Z",
       "availability": {
-        "from": "2026-03-09T05:19:00Z",
+        "from": "2024-10-10T08:49:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-09T05:19:00Z",
+          "from": "2024-10-10T08:49:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
@@ -27306,134 +27213,1115 @@
     },
     "infoLinks": [
       {
-        "urlText": "Diversion in Lithgow",
-        "url": "https://transportnsw.info/alerts/details#/ems-68661",
-        "content": "<div>Buses are diverting away from Main Street, due to heavy traffic near Lithgow and Mort Streets.</div>\n<ul>\n<li>Buses are using Ordnance Avenue and Methven Streets instead.&nbsp;</li>\n<li>No stops are being missed.&nbsp;</li>\n</ul>",
-        "subtitle": "Diversion in Lithgow",
-        "smsText": "Diversion in Lithgow",
-        "speechText": "Buses are diverting away from Main Street, due to heavy traffic near Lithgow and Mort Streets.\nBuses are using Ordnance Avenue and Methven Streets instead. \nNo stops are being missed."
+        "urlText": "Running late",
+        "url": "https://transportnsw.info/alerts/details#/83e8d2a820c7a38df70bcec2ab6b9c1e54519055",
+        "content": "Due to urgent signal repairs at Edgecliff.\n\nTrains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
+        "subtitle": "Running late",
+        "smsText": "Running late",
+        "speechText": "Due to urgent signal repairs at Edgecliff.\n\nTrains may stop on platforms or between stations for longer than normal while the incident is ongoing."
       }
     ],
     "properties": {
       "announcementType": "serviceChange",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "effb8cd7-4fc4-5249-8d02-d8ad4d81cf56",
-      "MiscellaneousReason": "roadworks",
+      "messageRef": "d17a185c-8f88-5c99-bad5-cacf2d4e3217",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Diversion in Lithgow",
-      "speechText": "Buses are diverting away from Main Street, due to heavy traffic near Lithgow and Mort Streets.\nBuses are using Ordnance Avenue and Methven Streets instead. \nNo stops are being missed."
+      "smsText": "Running late",
+      "speechText": "Due to urgent signal repairs at Edgecliff.\n\nTrains may stop on platforms or between stations for longer than normal while the incident is ongoing."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:71200: :R:",
+          "id": "nsw:02SCO: :H:",
           "destination": {
-            "name": "Main St after Bridge St, Lithgow",
+            "name": "Port Kembla Station",
             "type": "stop"
           },
-          "name": "Central West and Orana Network 200",
-          "number": "200",
-          "description": "Bowenfels to Lithgow via Lithgow Hospital (Loop Service)",
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
           "product": {
-            "id": 31,
-            "class": 5,
-            "iconId": 5
+            "id": 2,
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "6005",
-            "name": "Lithgow Buslines"
+            "id": "X0000",
+            "name": "NSW Trains"
           },
-          "iconId": 31
+          "trips": [
+            {
+              "tripCode": 392,
+              "realtimeTripId": "C181.830.159.48.H.4.82216099",
+              "trainNumber": "392",
+              "departureTimePlannedJourneyOrigin": "2024-10-10T07:41:00Z",
+              "stops": [
+                {
+                  "id": "10101100",
+                  "name": "Central Station, Platform 9",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:41:00Z"
+                },
+                {
+                  "id": "10101421",
+                  "name": "Redfern Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:44:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:44:00Z"
+                },
+                {
+                  "id": "10101328",
+                  "name": "Wolli Creek Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:56:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:56:00Z"
+                },
+                {
+                  "id": "10101339",
+                  "name": "Hurstville Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:05:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:04:00Z"
+                },
+                {
+                  "id": "10101345",
+                  "name": "Sutherland Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:16:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:15:00Z"
+                },
+                {
+                  "id": "10101356",
+                  "name": "Helensburgh Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:36:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:36:00Z"
+                },
+                {
+                  "id": "10101364",
+                  "name": "Thirroul Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:01:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:01:00Z"
+                },
+                {
+                  "id": "10101371",
+                  "name": "North Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:10:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:10:00Z"
+                },
+                {
+                  "id": "10101372",
+                  "name": "Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:14:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:13:00Z"
+                },
+                {
+                  "id": "10101373",
+                  "name": "Coniston Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:16:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:15:00Z"
+                },
+                {
+                  "id": "10101378",
+                  "name": "Unanderra Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:22:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:21:00Z"
+                },
+                {
+                  "id": "10101425",
+                  "name": "Dapto Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:28:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:28:00Z"
+                },
+                {
+                  "id": "10101381",
+                  "name": "Albion Park Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:36:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:35:00Z"
+                },
+                {
+                  "id": "10101382",
+                  "name": "Oak Flats Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:39:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:39:00Z"
+                },
+                {
+                  "id": "10101446",
+                  "name": "Shellharbour Junction, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:43:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:43:00Z"
+                },
+                {
+                  "id": "10101384",
+                  "name": "Minnamurra Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:48:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:47:00Z"
+                },
+                {
+                  "id": "10101385",
+                  "name": "Bombo Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:53:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:52:00Z"
+                },
+                {
+                  "id": "10101386",
+                  "name": "Kiama Station, Platform 2",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2024-10-10T09:56:00Z"
+                }
+              ]
+            },
+            {
+              "tripCode": 347,
+              "realtimeTripId": "381B.830.159.40.H.8.82216406",
+              "trainNumber": "347",
+              "departureTimePlannedJourneyOrigin": "2024-10-10T08:33:00Z",
+              "stops": [
+                {
+                  "id": "10101355",
+                  "name": "Waterfall Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:33:00Z"
+                },
+                {
+                  "id": "10101356",
+                  "name": "Helensburgh Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:42:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:42:00Z"
+                },
+                {
+                  "id": "10101357",
+                  "name": "Otford Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:50:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:49:00Z"
+                },
+                {
+                  "id": "10101358",
+                  "name": "Stanwell Park Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:54:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:53:00Z"
+                },
+                {
+                  "id": "10101359",
+                  "name": "Coalcliff Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:59:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:59:00Z"
+                },
+                {
+                  "id": "10101360",
+                  "name": "Scarborough Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:04:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:03:00Z"
+                },
+                {
+                  "id": "10101361",
+                  "name": "Wombarra Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:06:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:06:00Z"
+                },
+                {
+                  "id": "10101423",
+                  "name": "Coledale Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:09:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:09:00Z"
+                },
+                {
+                  "id": "10101363",
+                  "name": "Austinmer Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:12:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:11:00Z"
+                },
+                {
+                  "id": "10101364",
+                  "name": "Thirroul Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:14:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:14:00Z"
+                },
+                {
+                  "id": "10101365",
+                  "name": "Bulli Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:17:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:16:00Z"
+                },
+                {
+                  "id": "10101366",
+                  "name": "Woonona Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:19:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:19:00Z"
+                },
+                {
+                  "id": "10101367",
+                  "name": "Bellambi Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:21:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:21:00Z"
+                },
+                {
+                  "id": "10101368",
+                  "name": "Corrimal Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:24:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:23:00Z"
+                },
+                {
+                  "id": "10101369",
+                  "name": "Towradgi Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:25:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:25:00Z"
+                },
+                {
+                  "id": "10101370",
+                  "name": "Fairy Meadow Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:27:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:27:00Z"
+                },
+                {
+                  "id": "10101371",
+                  "name": "North Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:30:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:30:00Z"
+                },
+                {
+                  "id": "10101372",
+                  "name": "Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:34:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:33:00Z"
+                },
+                {
+                  "id": "10101373",
+                  "name": "Coniston Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:36:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:35:00Z"
+                },
+                {
+                  "id": "10101374",
+                  "name": "Lysaghts Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:39:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:38:00Z"
+                },
+                {
+                  "id": "10101375",
+                  "name": "Cringila Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:41:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:40:00Z"
+                },
+                {
+                  "id": "10101376",
+                  "name": "Port Kembla North Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:43:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:42:00Z"
+                },
+                {
+                  "id": "10101377",
+                  "name": "Port Kembla Station, Platform 1",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2024-10-10T09:46:00Z"
+                }
+              ]
+            },
+            {
+              "tripCode": 459,
+              "realtimeTripId": "497A.830.159.48.H.8.82220462",
+              "trainNumber": "459",
+              "departureTimePlannedJourneyOrigin": "2024-10-10T06:52:00Z",
+              "stops": [
+                {
+                  "id": "10101109",
+                  "name": "Bondi Junction Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:52:00Z"
+                },
+                {
+                  "id": "10101108",
+                  "name": "Edgecliff Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:55:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:55:00Z"
+                },
+                {
+                  "id": "10101107",
+                  "name": "Kings Cross Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:58:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:57:00Z"
+                },
+                {
+                  "id": "10101106",
+                  "name": "Martin Place Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:00:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:00:00Z"
+                },
+                {
+                  "id": "10101101",
+                  "name": "Town Hall Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:03:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:02:00Z"
+                },
+                {
+                  "id": "10101100",
+                  "name": "Central Station, Platform 25",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:06:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:05:00Z"
+                },
+                {
+                  "id": "10101421",
+                  "name": "Redfern Station, Platform 12",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:08:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:07:00Z"
+                },
+                {
+                  "id": "10101328",
+                  "name": "Wolli Creek Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:16:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:16:00Z"
+                },
+                {
+                  "id": "10101339",
+                  "name": "Hurstville Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:25:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:24:00Z"
+                },
+                {
+                  "id": "10101345",
+                  "name": "Sutherland Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:36:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:35:00Z"
+                },
+                {
+                  "id": "10101356",
+                  "name": "Helensburgh Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:56:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:56:00Z"
+                },
+                {
+                  "id": "10101364",
+                  "name": "Thirroul Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:21:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:21:00Z"
+                },
+                {
+                  "id": "10101371",
+                  "name": "North Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:30:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:30:00Z"
+                },
+                {
+                  "id": "10101372",
+                  "name": "Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:34:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:33:00Z"
+                },
+                {
+                  "id": "10101373",
+                  "name": "Coniston Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:36:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:35:00Z"
+                },
+                {
+                  "id": "10101378",
+                  "name": "Unanderra Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:41:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:41:00Z"
+                },
+                {
+                  "id": "10101425",
+                  "name": "Dapto Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:47:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:47:00Z"
+                },
+                {
+                  "id": "10101381",
+                  "name": "Albion Park Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:55:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:54:00Z"
+                },
+                {
+                  "id": "10101382",
+                  "name": "Oak Flats Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:58:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:58:00Z"
+                },
+                {
+                  "id": "10101446",
+                  "name": "Shellharbour Junction, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:02:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:02:00Z"
+                },
+                {
+                  "id": "10101384",
+                  "name": "Minnamurra Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:07:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:06:00Z"
+                },
+                {
+                  "id": "10101385",
+                  "name": "Bombo Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:12:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:11:00Z"
+                },
+                {
+                  "id": "10101386",
+                  "name": "Kiama Station, Platform 1",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2024-10-10T09:15:00Z"
+                }
+              ]
+            },
+            {
+              "tripCode": 375,
+              "realtimeTripId": "368E.830.159.56.T.8.82220308",
+              "trainNumber": "375",
+              "departureTimePlannedJourneyOrigin": "2024-10-10T06:32:00Z",
+              "stops": [
+                {
+                  "id": "10101109",
+                  "name": "Bondi Junction Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:32:00Z"
+                },
+                {
+                  "id": "10101108",
+                  "name": "Edgecliff Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:35:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:35:00Z"
+                },
+                {
+                  "id": "10101107",
+                  "name": "Kings Cross Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:38:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:37:00Z"
+                },
+                {
+                  "id": "10101106",
+                  "name": "Martin Place Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:40:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:40:00Z"
+                },
+                {
+                  "id": "10101101",
+                  "name": "Town Hall Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:43:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:42:00Z"
+                },
+                {
+                  "id": "10101100",
+                  "name": "Central Station, Platform 25",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:46:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:45:00Z"
+                },
+                {
+                  "id": "10101421",
+                  "name": "Redfern Station, Platform 12",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:48:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:47:00Z"
+                },
+                {
+                  "id": "10101328",
+                  "name": "Wolli Creek Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:56:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:56:00Z"
+                },
+                {
+                  "id": "10101339",
+                  "name": "Hurstville Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:05:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:04:00Z"
+                },
+                {
+                  "id": "10101345",
+                  "name": "Sutherland Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:15:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:14:00Z"
+                },
+                {
+                  "id": "10101356",
+                  "name": "Helensburgh Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:37:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:36:00Z"
+                },
+                {
+                  "id": "10101358",
+                  "name": "Stanwell Park Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:48:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:47:00Z"
+                },
+                {
+                  "id": "10101363",
+                  "name": "Austinmer Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:01:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:01:00Z"
+                },
+                {
+                  "id": "10101364",
+                  "name": "Thirroul Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:04:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:03:00Z"
+                },
+                {
+                  "id": "10101371",
+                  "name": "North Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:13:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:12:00Z"
+                },
+                {
+                  "id": "10101372",
+                  "name": "Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2024-10-10T08:15:00Z"
+                }
+              ]
+            },
+            {
+              "tripCode": 346,
+              "realtimeTripId": "379L.830.159.48.H.8.82220475",
+              "trainNumber": "346",
+              "departureTimePlannedJourneyOrigin": "2024-10-10T07:53:00Z",
+              "stops": [
+                {
+                  "id": "10101355",
+                  "name": "Waterfall Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:53:00Z"
+                },
+                {
+                  "id": "10101356",
+                  "name": "Helensburgh Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:02:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:02:00Z"
+                },
+                {
+                  "id": "10101357",
+                  "name": "Otford Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:10:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:09:00Z"
+                },
+                {
+                  "id": "10101358",
+                  "name": "Stanwell Park Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:14:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:13:00Z"
+                },
+                {
+                  "id": "10101359",
+                  "name": "Coalcliff Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:19:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:19:00Z"
+                },
+                {
+                  "id": "10101360",
+                  "name": "Scarborough Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:24:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:23:00Z"
+                },
+                {
+                  "id": "10101361",
+                  "name": "Wombarra Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:26:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:26:00Z"
+                },
+                {
+                  "id": "10101423",
+                  "name": "Coledale Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:29:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:29:00Z"
+                },
+                {
+                  "id": "10101363",
+                  "name": "Austinmer Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:32:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:31:00Z"
+                },
+                {
+                  "id": "10101364",
+                  "name": "Thirroul Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:34:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:34:00Z"
+                },
+                {
+                  "id": "10101365",
+                  "name": "Bulli Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:37:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:36:00Z"
+                },
+                {
+                  "id": "10101366",
+                  "name": "Woonona Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:39:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:39:00Z"
+                },
+                {
+                  "id": "10101367",
+                  "name": "Bellambi Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:41:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:41:00Z"
+                },
+                {
+                  "id": "10101368",
+                  "name": "Corrimal Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:44:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:43:00Z"
+                },
+                {
+                  "id": "10101369",
+                  "name": "Towradgi Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:45:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:45:00Z"
+                },
+                {
+                  "id": "10101370",
+                  "name": "Fairy Meadow Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:47:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:47:00Z"
+                },
+                {
+                  "id": "10101371",
+                  "name": "North Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:50:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:50:00Z"
+                },
+                {
+                  "id": "10101372",
+                  "name": "Wollongong Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:54:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:53:00Z"
+                },
+                {
+                  "id": "10101373",
+                  "name": "Coniston Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:56:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:55:00Z"
+                },
+                {
+                  "id": "10101374",
+                  "name": "Lysaghts Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:59:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:58:00Z"
+                },
+                {
+                  "id": "10101375",
+                  "name": "Cringila Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:01:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:00:00Z"
+                },
+                {
+                  "id": "10101376",
+                  "name": "Port Kembla North Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:03:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:02:00Z"
+                },
+                {
+                  "id": "10101377",
+                  "name": "Port Kembla Station, Platform 1",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2024-10-10T09:06:00Z"
+                }
+              ]
+            }
+          ],
+          "iconId": 2
         },
         {
-          "id": "nsw:71600: :R:",
+          "id": "nsw:02SCO: :R:",
           "destination": {
-            "name": "Main St after Bridge St, Lithgow",
+            "name": "Bondi Junction Station",
             "type": "stop"
           },
-          "name": "Central West and Orana Network 600",
-          "number": "600",
-          "description": "Lithgow to Portland via Wallerawang",
+          "name": "Intercity Trains Network South Coast Line",
+          "number": "South Coast Line",
+          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
           "product": {
-            "id": 31,
-            "class": 5,
-            "iconId": 5
+            "id": 2,
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "6005",
-            "name": "Lithgow Buslines"
+            "id": "X0000",
+            "name": "NSW Trains"
           },
-          "iconId": 31
+          "trips": [
+            {
+              "tripCode": 161,
+              "realtimeTripId": "C176.830.159.32.H.8.82217220",
+              "trainNumber": "161",
+              "departureTimePlannedJourneyOrigin": "2024-10-10T07:54:00Z",
+              "stops": [
+                {
+                  "id": "10101386",
+                  "name": "Kiama Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:54:00Z"
+                },
+                {
+                  "id": "10101385",
+                  "name": "Bombo Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:57:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:56:00Z"
+                },
+                {
+                  "id": "10101384",
+                  "name": "Minnamurra Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:01:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:01:00Z"
+                },
+                {
+                  "id": "10101446",
+                  "name": "Shellharbour Junction, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:07:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:07:00Z"
+                },
+                {
+                  "id": "10101382",
+                  "name": "Oak Flats Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:11:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:10:00Z"
+                },
+                {
+                  "id": "10101381",
+                  "name": "Albion Park Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:18:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:14:00Z"
+                },
+                {
+                  "id": "10101425",
+                  "name": "Dapto Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:25:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:24:00Z"
+                },
+                {
+                  "id": "10101378",
+                  "name": "Unanderra Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:30:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:30:00Z"
+                },
+                {
+                  "id": "10101373",
+                  "name": "Coniston Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:35:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:35:00Z"
+                },
+                {
+                  "id": "10101372",
+                  "name": "Wollongong Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:38:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:37:00Z"
+                },
+                {
+                  "id": "10101371",
+                  "name": "North Wollongong Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:40:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:39:00Z"
+                },
+                {
+                  "id": "10101364",
+                  "name": "Thirroul Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T08:49:00Z",
+                  "arrivalTimePlanned": "2024-10-10T08:49:00Z"
+                },
+                {
+                  "id": "10101356",
+                  "name": "Helensburgh Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:13:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:13:00Z"
+                },
+                {
+                  "id": "10101345",
+                  "name": "Sutherland Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:31:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:30:00Z"
+                },
+                {
+                  "id": "10101339",
+                  "name": "Hurstville Station, Platform 3",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:42:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:41:00Z"
+                },
+                {
+                  "id": "10101328",
+                  "name": "Wolli Creek Station, Platform 3",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T09:50:00Z",
+                  "arrivalTimePlanned": "2024-10-10T09:49:00Z"
+                },
+                {
+                  "id": "10101421",
+                  "name": "Redfern Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T10:01:00Z",
+                  "arrivalTimePlanned": "2024-10-10T10:00:00Z"
+                },
+                {
+                  "id": "10101100",
+                  "name": "Central Station, Platform 4",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2024-10-10T10:04:00Z"
+                }
+              ]
+            }
+          ],
+          "iconId": 2
         },
         {
-          "id": "nsw:71600: :H:",
+          "id": "nsw:020T4: :H:",
           "destination": {
-            "name": "Wolgan St at Wallerwang Rd, Portland",
+            "name": "Cronulla Station",
             "type": "stop"
           },
-          "name": "Central West and Orana Network 600",
-          "number": "600",
-          "description": "Portland to Lithgow via Wallerawang",
+          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
+          "number": "T4 Eastern Suburbs & Illawarra Line",
+          "description": "Bondi Junction to Waterfall or Cronulla",
           "product": {
-            "id": 31,
-            "class": 5,
-            "iconId": 5
+            "id": 1,
+            "class": 1,
+            "iconId": 1
           },
           "operator": {
-            "id": "6005",
-            "name": "Lithgow Buslines"
+            "id": "x0001",
+            "name": "Sydney Trains"
           },
-          "iconId": 31
-        },
-        {
-          "id": "nsw:71636: :H:",
-          "destination": {
-            "name": "Bathurst City, Howick St, Bathurst",
-            "type": "stop"
-          },
-          "name": "Central West and Orana Network 636",
-          "number": "636",
-          "description": "Bathurst to Lithgow via Portland & Wallerawang",
-          "product": {
-            "id": 31,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "6005",
-            "name": "Lithgow Buslines"
-          },
-          "iconId": 31
-        },
-        {
-          "id": "nsw:71636: :R:",
-          "destination": {
-            "name": "Main St after Bridge St, Lithgow",
-            "type": "stop"
-          },
-          "name": "Central West and Orana Network 636",
-          "number": "636",
-          "description": "Lithgow to Bathurst via Wallerawang & Portland",
-          "product": {
-            "id": 31,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "6005",
-            "name": "Lithgow Buslines"
-          },
-          "iconId": 31
+          "trips": [
+            {
+              "tripCode": 1140,
+              "realtimeTripId": "379K.830.159.48.H.8.82217391",
+              "trainNumber": "1140",
+              "departureTimePlannedJourneyOrigin": "2024-10-10T06:42:00Z",
+              "stops": [
+                {
+                  "id": "10101109",
+                  "name": "Bondi Junction Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:42:00Z"
+                },
+                {
+                  "id": "10101108",
+                  "name": "Edgecliff Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:45:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:45:00Z"
+                },
+                {
+                  "id": "10101107",
+                  "name": "Kings Cross Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:48:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:47:00Z"
+                },
+                {
+                  "id": "10101106",
+                  "name": "Martin Place Station, Platform 1",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:50:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:50:00Z"
+                },
+                {
+                  "id": "10101101",
+                  "name": "Town Hall Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:53:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:52:00Z"
+                },
+                {
+                  "id": "10101100",
+                  "name": "Central Station, Platform 25",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:56:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:55:00Z"
+                },
+                {
+                  "id": "10101421",
+                  "name": "Redfern Station, Platform 12",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T06:58:00Z",
+                  "arrivalTimePlanned": "2024-10-10T06:57:00Z"
+                },
+                {
+                  "id": "10101325",
+                  "name": "St Peters Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:02:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:01:00Z"
+                },
+                {
+                  "id": "10101328",
+                  "name": "Wolli Creek Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:07:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:06:00Z"
+                },
+                {
+                  "id": "10101339",
+                  "name": "Hurstville Station, Platform 4",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:15:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:15:00Z"
+                },
+                {
+                  "id": "10101342",
+                  "name": "Oatley Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:20:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:19:00Z"
+                },
+                {
+                  "id": "10101343",
+                  "name": "Como Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:23:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:23:00Z"
+                },
+                {
+                  "id": "10101344",
+                  "name": "Jannali Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:25:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:25:00Z"
+                },
+                {
+                  "id": "10101345",
+                  "name": "Sutherland Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:29:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:28:00Z"
+                },
+                {
+                  "id": "10101352",
+                  "name": "Loftus Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:32:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:31:00Z"
+                },
+                {
+                  "id": "10101353",
+                  "name": "Engadine Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:36:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:36:00Z"
+                },
+                {
+                  "id": "10101354",
+                  "name": "Heathcote Station, Platform 2",
+                  "type": "stop",
+                  "departureTimePlanned": "2024-10-10T07:39:00Z",
+                  "arrivalTimePlanned": "2024-10-10T07:39:00Z"
+                },
+                {
+                  "id": "10101355",
+                  "name": "Waterfall Station, Platform 2",
+                  "type": "stop",
+                  "arrivalTimePlanned": "2024-10-10T07:44:00Z"
+                }
+              ]
+            }
+          ],
+          "iconId": 1
         }
       ]
     },
-    "urlText": "Diversion in Lithgow",
-    "url": "https://transportnsw.info/alerts/details#/ems-68661",
-    "content": "<div>Buses are diverting away from Main Street, due to heavy traffic near Lithgow and Mort Streets.</div>\n<ul>\n<li>Buses are using Ordnance Avenue and Methven Streets instead.&nbsp;</li>\n<li>No stops are being missed.&nbsp;</li>\n</ul>",
-    "subtitle": "Diversion in Lithgow"
+    "urlText": "Running late",
+    "url": "https://transportnsw.info/alerts/details#/83e8d2a820c7a38df70bcec2ab6b9c1e54519055",
+    "content": "Due to urgent signal repairs at Edgecliff.\n\nTrains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
+    "subtitle": "Running late"
   },
   {
     "type": "lineInfo",
@@ -28708,1298 +29596,6 @@
     "subtitle": "Sydney CBD bus diversions on Anzac Day"
   },
   {
-    "type": "tripMessage",
-    "id": "83e8d2a820c7a38df70bcec2ab6b9c1e54519055",
-    "version": 9600,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2024-10-10T06:09:00Z",
-      "lastModification": "2024-10-10T08:49:00Z",
-      "availability": {
-        "from": "2024-10-10T08:49:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2024-10-10T08:49:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Running late",
-        "url": "https://transportnsw.info/alerts/details#/83e8d2a820c7a38df70bcec2ab6b9c1e54519055",
-        "content": "Due to urgent signal repairs at Edgecliff.\n\nTrains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
-        "subtitle": "Running late",
-        "smsText": "Running late",
-        "speechText": "Due to urgent signal repairs at Edgecliff.\n\nTrains may stop on platforms or between stations for longer than normal while the incident is ongoing."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d17a185c-8f88-5c99-bad5-cacf2d4e3217",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Running late",
-      "speechText": "Due to urgent signal repairs at Edgecliff.\n\nTrains may stop on platforms or between stations for longer than normal while the incident is ongoing."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:02SCO: :H:",
-          "destination": {
-            "name": "Port Kembla Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bondi Junction and Central to Bomaderry or Port Kembla",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "trips": [
-            {
-              "tripCode": 392,
-              "realtimeTripId": "C181.830.159.48.H.4.82216099",
-              "trainNumber": "392",
-              "departureTimePlannedJourneyOrigin": "2024-10-10T07:41:00Z",
-              "stops": [
-                {
-                  "id": "10101100",
-                  "name": "Central Station, Platform 9",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:41:00Z"
-                },
-                {
-                  "id": "10101421",
-                  "name": "Redfern Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:44:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:44:00Z"
-                },
-                {
-                  "id": "10101328",
-                  "name": "Wolli Creek Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:56:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:56:00Z"
-                },
-                {
-                  "id": "10101339",
-                  "name": "Hurstville Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:05:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:04:00Z"
-                },
-                {
-                  "id": "10101345",
-                  "name": "Sutherland Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:16:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:15:00Z"
-                },
-                {
-                  "id": "10101356",
-                  "name": "Helensburgh Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:36:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:36:00Z"
-                },
-                {
-                  "id": "10101364",
-                  "name": "Thirroul Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:01:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:01:00Z"
-                },
-                {
-                  "id": "10101371",
-                  "name": "North Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:10:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:10:00Z"
-                },
-                {
-                  "id": "10101372",
-                  "name": "Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:14:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:13:00Z"
-                },
-                {
-                  "id": "10101373",
-                  "name": "Coniston Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:16:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:15:00Z"
-                },
-                {
-                  "id": "10101378",
-                  "name": "Unanderra Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:22:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:21:00Z"
-                },
-                {
-                  "id": "10101425",
-                  "name": "Dapto Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:28:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:28:00Z"
-                },
-                {
-                  "id": "10101381",
-                  "name": "Albion Park Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:36:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:35:00Z"
-                },
-                {
-                  "id": "10101382",
-                  "name": "Oak Flats Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:39:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:39:00Z"
-                },
-                {
-                  "id": "10101446",
-                  "name": "Shellharbour Junction, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:43:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:43:00Z"
-                },
-                {
-                  "id": "10101384",
-                  "name": "Minnamurra Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:48:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:47:00Z"
-                },
-                {
-                  "id": "10101385",
-                  "name": "Bombo Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:53:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:52:00Z"
-                },
-                {
-                  "id": "10101386",
-                  "name": "Kiama Station, Platform 2",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2024-10-10T09:56:00Z"
-                }
-              ]
-            },
-            {
-              "tripCode": 347,
-              "realtimeTripId": "381B.830.159.40.H.8.82216406",
-              "trainNumber": "347",
-              "departureTimePlannedJourneyOrigin": "2024-10-10T08:33:00Z",
-              "stops": [
-                {
-                  "id": "10101355",
-                  "name": "Waterfall Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:33:00Z"
-                },
-                {
-                  "id": "10101356",
-                  "name": "Helensburgh Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:42:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:42:00Z"
-                },
-                {
-                  "id": "10101357",
-                  "name": "Otford Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:50:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:49:00Z"
-                },
-                {
-                  "id": "10101358",
-                  "name": "Stanwell Park Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:54:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:53:00Z"
-                },
-                {
-                  "id": "10101359",
-                  "name": "Coalcliff Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:59:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:59:00Z"
-                },
-                {
-                  "id": "10101360",
-                  "name": "Scarborough Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:04:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:03:00Z"
-                },
-                {
-                  "id": "10101361",
-                  "name": "Wombarra Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:06:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:06:00Z"
-                },
-                {
-                  "id": "10101423",
-                  "name": "Coledale Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:09:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:09:00Z"
-                },
-                {
-                  "id": "10101363",
-                  "name": "Austinmer Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:12:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:11:00Z"
-                },
-                {
-                  "id": "10101364",
-                  "name": "Thirroul Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:14:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:14:00Z"
-                },
-                {
-                  "id": "10101365",
-                  "name": "Bulli Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:17:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:16:00Z"
-                },
-                {
-                  "id": "10101366",
-                  "name": "Woonona Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:19:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:19:00Z"
-                },
-                {
-                  "id": "10101367",
-                  "name": "Bellambi Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:21:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:21:00Z"
-                },
-                {
-                  "id": "10101368",
-                  "name": "Corrimal Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:24:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:23:00Z"
-                },
-                {
-                  "id": "10101369",
-                  "name": "Towradgi Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:25:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:25:00Z"
-                },
-                {
-                  "id": "10101370",
-                  "name": "Fairy Meadow Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:27:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:27:00Z"
-                },
-                {
-                  "id": "10101371",
-                  "name": "North Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:30:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:30:00Z"
-                },
-                {
-                  "id": "10101372",
-                  "name": "Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:34:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:33:00Z"
-                },
-                {
-                  "id": "10101373",
-                  "name": "Coniston Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:36:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:35:00Z"
-                },
-                {
-                  "id": "10101374",
-                  "name": "Lysaghts Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:39:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:38:00Z"
-                },
-                {
-                  "id": "10101375",
-                  "name": "Cringila Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:41:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:40:00Z"
-                },
-                {
-                  "id": "10101376",
-                  "name": "Port Kembla North Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:43:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:42:00Z"
-                },
-                {
-                  "id": "10101377",
-                  "name": "Port Kembla Station, Platform 1",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2024-10-10T09:46:00Z"
-                }
-              ]
-            },
-            {
-              "tripCode": 459,
-              "realtimeTripId": "497A.830.159.48.H.8.82220462",
-              "trainNumber": "459",
-              "departureTimePlannedJourneyOrigin": "2024-10-10T06:52:00Z",
-              "stops": [
-                {
-                  "id": "10101109",
-                  "name": "Bondi Junction Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:52:00Z"
-                },
-                {
-                  "id": "10101108",
-                  "name": "Edgecliff Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:55:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:55:00Z"
-                },
-                {
-                  "id": "10101107",
-                  "name": "Kings Cross Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:58:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:57:00Z"
-                },
-                {
-                  "id": "10101106",
-                  "name": "Martin Place Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:00:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:00:00Z"
-                },
-                {
-                  "id": "10101101",
-                  "name": "Town Hall Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:03:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:02:00Z"
-                },
-                {
-                  "id": "10101100",
-                  "name": "Central Station, Platform 25",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:06:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:05:00Z"
-                },
-                {
-                  "id": "10101421",
-                  "name": "Redfern Station, Platform 12",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:08:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:07:00Z"
-                },
-                {
-                  "id": "10101328",
-                  "name": "Wolli Creek Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:16:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:16:00Z"
-                },
-                {
-                  "id": "10101339",
-                  "name": "Hurstville Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:25:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:24:00Z"
-                },
-                {
-                  "id": "10101345",
-                  "name": "Sutherland Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:36:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:35:00Z"
-                },
-                {
-                  "id": "10101356",
-                  "name": "Helensburgh Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:56:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:56:00Z"
-                },
-                {
-                  "id": "10101364",
-                  "name": "Thirroul Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:21:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:21:00Z"
-                },
-                {
-                  "id": "10101371",
-                  "name": "North Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:30:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:30:00Z"
-                },
-                {
-                  "id": "10101372",
-                  "name": "Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:34:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:33:00Z"
-                },
-                {
-                  "id": "10101373",
-                  "name": "Coniston Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:36:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:35:00Z"
-                },
-                {
-                  "id": "10101378",
-                  "name": "Unanderra Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:41:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:41:00Z"
-                },
-                {
-                  "id": "10101425",
-                  "name": "Dapto Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:47:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:47:00Z"
-                },
-                {
-                  "id": "10101381",
-                  "name": "Albion Park Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:55:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:54:00Z"
-                },
-                {
-                  "id": "10101382",
-                  "name": "Oak Flats Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:58:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:58:00Z"
-                },
-                {
-                  "id": "10101446",
-                  "name": "Shellharbour Junction, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:02:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:02:00Z"
-                },
-                {
-                  "id": "10101384",
-                  "name": "Minnamurra Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:07:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:06:00Z"
-                },
-                {
-                  "id": "10101385",
-                  "name": "Bombo Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:12:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:11:00Z"
-                },
-                {
-                  "id": "10101386",
-                  "name": "Kiama Station, Platform 1",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2024-10-10T09:15:00Z"
-                }
-              ]
-            },
-            {
-              "tripCode": 375,
-              "realtimeTripId": "368E.830.159.56.T.8.82220308",
-              "trainNumber": "375",
-              "departureTimePlannedJourneyOrigin": "2024-10-10T06:32:00Z",
-              "stops": [
-                {
-                  "id": "10101109",
-                  "name": "Bondi Junction Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:32:00Z"
-                },
-                {
-                  "id": "10101108",
-                  "name": "Edgecliff Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:35:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:35:00Z"
-                },
-                {
-                  "id": "10101107",
-                  "name": "Kings Cross Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:38:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:37:00Z"
-                },
-                {
-                  "id": "10101106",
-                  "name": "Martin Place Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:40:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:40:00Z"
-                },
-                {
-                  "id": "10101101",
-                  "name": "Town Hall Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:43:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:42:00Z"
-                },
-                {
-                  "id": "10101100",
-                  "name": "Central Station, Platform 25",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:46:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:45:00Z"
-                },
-                {
-                  "id": "10101421",
-                  "name": "Redfern Station, Platform 12",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:48:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:47:00Z"
-                },
-                {
-                  "id": "10101328",
-                  "name": "Wolli Creek Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:56:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:56:00Z"
-                },
-                {
-                  "id": "10101339",
-                  "name": "Hurstville Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:05:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:04:00Z"
-                },
-                {
-                  "id": "10101345",
-                  "name": "Sutherland Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:15:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:14:00Z"
-                },
-                {
-                  "id": "10101356",
-                  "name": "Helensburgh Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:37:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:36:00Z"
-                },
-                {
-                  "id": "10101358",
-                  "name": "Stanwell Park Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:48:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:47:00Z"
-                },
-                {
-                  "id": "10101363",
-                  "name": "Austinmer Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:01:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:01:00Z"
-                },
-                {
-                  "id": "10101364",
-                  "name": "Thirroul Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:04:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:03:00Z"
-                },
-                {
-                  "id": "10101371",
-                  "name": "North Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:13:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:12:00Z"
-                },
-                {
-                  "id": "10101372",
-                  "name": "Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2024-10-10T08:15:00Z"
-                }
-              ]
-            },
-            {
-              "tripCode": 346,
-              "realtimeTripId": "379L.830.159.48.H.8.82220475",
-              "trainNumber": "346",
-              "departureTimePlannedJourneyOrigin": "2024-10-10T07:53:00Z",
-              "stops": [
-                {
-                  "id": "10101355",
-                  "name": "Waterfall Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:53:00Z"
-                },
-                {
-                  "id": "10101356",
-                  "name": "Helensburgh Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:02:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:02:00Z"
-                },
-                {
-                  "id": "10101357",
-                  "name": "Otford Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:10:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:09:00Z"
-                },
-                {
-                  "id": "10101358",
-                  "name": "Stanwell Park Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:14:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:13:00Z"
-                },
-                {
-                  "id": "10101359",
-                  "name": "Coalcliff Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:19:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:19:00Z"
-                },
-                {
-                  "id": "10101360",
-                  "name": "Scarborough Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:24:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:23:00Z"
-                },
-                {
-                  "id": "10101361",
-                  "name": "Wombarra Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:26:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:26:00Z"
-                },
-                {
-                  "id": "10101423",
-                  "name": "Coledale Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:29:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:29:00Z"
-                },
-                {
-                  "id": "10101363",
-                  "name": "Austinmer Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:32:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:31:00Z"
-                },
-                {
-                  "id": "10101364",
-                  "name": "Thirroul Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:34:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:34:00Z"
-                },
-                {
-                  "id": "10101365",
-                  "name": "Bulli Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:37:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:36:00Z"
-                },
-                {
-                  "id": "10101366",
-                  "name": "Woonona Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:39:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:39:00Z"
-                },
-                {
-                  "id": "10101367",
-                  "name": "Bellambi Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:41:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:41:00Z"
-                },
-                {
-                  "id": "10101368",
-                  "name": "Corrimal Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:44:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:43:00Z"
-                },
-                {
-                  "id": "10101369",
-                  "name": "Towradgi Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:45:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:45:00Z"
-                },
-                {
-                  "id": "10101370",
-                  "name": "Fairy Meadow Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:47:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:47:00Z"
-                },
-                {
-                  "id": "10101371",
-                  "name": "North Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:50:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:50:00Z"
-                },
-                {
-                  "id": "10101372",
-                  "name": "Wollongong Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:54:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:53:00Z"
-                },
-                {
-                  "id": "10101373",
-                  "name": "Coniston Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:56:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:55:00Z"
-                },
-                {
-                  "id": "10101374",
-                  "name": "Lysaghts Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:59:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:58:00Z"
-                },
-                {
-                  "id": "10101375",
-                  "name": "Cringila Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:01:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:00:00Z"
-                },
-                {
-                  "id": "10101376",
-                  "name": "Port Kembla North Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:03:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:02:00Z"
-                },
-                {
-                  "id": "10101377",
-                  "name": "Port Kembla Station, Platform 1",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2024-10-10T09:06:00Z"
-                }
-              ]
-            }
-          ],
-          "iconId": 2
-        },
-        {
-          "id": "nsw:02SCO: :R:",
-          "destination": {
-            "name": "Bondi Junction Station",
-            "type": "stop"
-          },
-          "name": "Intercity Trains Network South Coast Line",
-          "number": "South Coast Line",
-          "description": "Bomaderry or Port Kembla to Central and Bondi Junction",
-          "product": {
-            "id": 2,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "X0000",
-            "name": "NSW Trains"
-          },
-          "trips": [
-            {
-              "tripCode": 161,
-              "realtimeTripId": "C176.830.159.32.H.8.82217220",
-              "trainNumber": "161",
-              "departureTimePlannedJourneyOrigin": "2024-10-10T07:54:00Z",
-              "stops": [
-                {
-                  "id": "10101386",
-                  "name": "Kiama Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:54:00Z"
-                },
-                {
-                  "id": "10101385",
-                  "name": "Bombo Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:57:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:56:00Z"
-                },
-                {
-                  "id": "10101384",
-                  "name": "Minnamurra Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:01:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:01:00Z"
-                },
-                {
-                  "id": "10101446",
-                  "name": "Shellharbour Junction, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:07:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:07:00Z"
-                },
-                {
-                  "id": "10101382",
-                  "name": "Oak Flats Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:11:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:10:00Z"
-                },
-                {
-                  "id": "10101381",
-                  "name": "Albion Park Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:18:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:14:00Z"
-                },
-                {
-                  "id": "10101425",
-                  "name": "Dapto Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:25:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:24:00Z"
-                },
-                {
-                  "id": "10101378",
-                  "name": "Unanderra Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:30:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:30:00Z"
-                },
-                {
-                  "id": "10101373",
-                  "name": "Coniston Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:35:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:35:00Z"
-                },
-                {
-                  "id": "10101372",
-                  "name": "Wollongong Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:38:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:37:00Z"
-                },
-                {
-                  "id": "10101371",
-                  "name": "North Wollongong Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:40:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:39:00Z"
-                },
-                {
-                  "id": "10101364",
-                  "name": "Thirroul Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T08:49:00Z",
-                  "arrivalTimePlanned": "2024-10-10T08:49:00Z"
-                },
-                {
-                  "id": "10101356",
-                  "name": "Helensburgh Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:13:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:13:00Z"
-                },
-                {
-                  "id": "10101345",
-                  "name": "Sutherland Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:31:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:30:00Z"
-                },
-                {
-                  "id": "10101339",
-                  "name": "Hurstville Station, Platform 3",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:42:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:41:00Z"
-                },
-                {
-                  "id": "10101328",
-                  "name": "Wolli Creek Station, Platform 3",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T09:50:00Z",
-                  "arrivalTimePlanned": "2024-10-10T09:49:00Z"
-                },
-                {
-                  "id": "10101421",
-                  "name": "Redfern Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T10:01:00Z",
-                  "arrivalTimePlanned": "2024-10-10T10:00:00Z"
-                },
-                {
-                  "id": "10101100",
-                  "name": "Central Station, Platform 4",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2024-10-10T10:04:00Z"
-                }
-              ]
-            }
-          ],
-          "iconId": 2
-        },
-        {
-          "id": "nsw:020T4: :H:",
-          "destination": {
-            "name": "Cronulla Station",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T4 Eastern Suburbs & Illawarra Line",
-          "number": "T4 Eastern Suburbs & Illawarra Line",
-          "description": "Bondi Junction to Waterfall or Cronulla",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "trips": [
-            {
-              "tripCode": 1140,
-              "realtimeTripId": "379K.830.159.48.H.8.82217391",
-              "trainNumber": "1140",
-              "departureTimePlannedJourneyOrigin": "2024-10-10T06:42:00Z",
-              "stops": [
-                {
-                  "id": "10101109",
-                  "name": "Bondi Junction Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:42:00Z"
-                },
-                {
-                  "id": "10101108",
-                  "name": "Edgecliff Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:45:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:45:00Z"
-                },
-                {
-                  "id": "10101107",
-                  "name": "Kings Cross Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:48:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:47:00Z"
-                },
-                {
-                  "id": "10101106",
-                  "name": "Martin Place Station, Platform 1",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:50:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:50:00Z"
-                },
-                {
-                  "id": "10101101",
-                  "name": "Town Hall Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:53:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:52:00Z"
-                },
-                {
-                  "id": "10101100",
-                  "name": "Central Station, Platform 25",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:56:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:55:00Z"
-                },
-                {
-                  "id": "10101421",
-                  "name": "Redfern Station, Platform 12",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T06:58:00Z",
-                  "arrivalTimePlanned": "2024-10-10T06:57:00Z"
-                },
-                {
-                  "id": "10101325",
-                  "name": "St Peters Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:02:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:01:00Z"
-                },
-                {
-                  "id": "10101328",
-                  "name": "Wolli Creek Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:07:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:06:00Z"
-                },
-                {
-                  "id": "10101339",
-                  "name": "Hurstville Station, Platform 4",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:15:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:15:00Z"
-                },
-                {
-                  "id": "10101342",
-                  "name": "Oatley Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:20:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:19:00Z"
-                },
-                {
-                  "id": "10101343",
-                  "name": "Como Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:23:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:23:00Z"
-                },
-                {
-                  "id": "10101344",
-                  "name": "Jannali Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:25:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:25:00Z"
-                },
-                {
-                  "id": "10101345",
-                  "name": "Sutherland Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:29:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:28:00Z"
-                },
-                {
-                  "id": "10101352",
-                  "name": "Loftus Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:32:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:31:00Z"
-                },
-                {
-                  "id": "10101353",
-                  "name": "Engadine Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:36:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:36:00Z"
-                },
-                {
-                  "id": "10101354",
-                  "name": "Heathcote Station, Platform 2",
-                  "type": "stop",
-                  "departureTimePlanned": "2024-10-10T07:39:00Z",
-                  "arrivalTimePlanned": "2024-10-10T07:39:00Z"
-                },
-                {
-                  "id": "10101355",
-                  "name": "Waterfall Station, Platform 2",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2024-10-10T07:44:00Z"
-                }
-              ]
-            }
-          ],
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "Running late",
-    "url": "https://transportnsw.info/alerts/details#/83e8d2a820c7a38df70bcec2ab6b9c1e54519055",
-    "content": "Due to urgent signal repairs at Edgecliff.\n\nTrains may stop on platforms or between stations for longer than normal while the incident is ongoing.",
-    "subtitle": "Running late"
-  },
-  {
-    "type": "routeInfo",
-    "id": "ems-69305",
-    "version": 44,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-03-20T03:26:00Z",
-      "lastModification": "2026-03-20T03:27:00Z",
-      "availability": {
-        "from": "2026-03-20T07:15:00Z",
-        "to": "2026-05-05T21:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-05T08:15:00Z",
-          "to": "2026-05-05T21:00:00Z"
-        }
-      ],
-      "expiration": "2026-05-05T21:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "5th May 2026- 622 Melbourne to Sydney XPT service.",
-        "url": "https://transportnsw.info/alerts/details#/ems-69305",
-        "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Melbourne and Albury. On arrival at Albury please board commencing XPT train for the remainder of the journey.</div>",
-        "subtitle": "5th May 2026- 622 Melbourne to Sydney XPT service.",
-        "smsText": "5th May 2026- 622 Melbourne to Sydney XPT service.",
-        "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Melbourne and Albury. On arrival at Albury please board commencing XPT train for the remainder of the journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c050c040-457f-501a-9ce6-8e3a7ea9601d",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "22180#20030#20342#20295#20356#26401",
-      "providerCode": "TfNSW",
-      "smsText": "5th May 2026- 622 Melbourne to Sydney XPT service.",
-      "speechText": "Due to planned trackwork, this service will be replaced by road coaches between Melbourne and Albury. On arrival at Albury please board commencing XPT train for the remainder of the journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ],
-      "stops": [
-        {
-          "id": "22180",
-          "isGlobalId": true,
-          "name": "Melbourne (Southern Cross) Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95101001:95101001",
-            "name": "Victoria",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101844"
-          }
-        },
-        {
-          "id": "20030",
-          "isGlobalId": true,
-          "name": "Broadmeadows Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95101001:95101001",
-            "name": "Victoria",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101845"
-          }
-        },
-        {
-          "id": "20342",
-          "isGlobalId": true,
-          "name": "Seymour Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95101001:95101001",
-            "name": "Victoria",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101846"
-          }
-        },
-        {
-          "id": "20295",
-          "isGlobalId": true,
-          "name": "Benalla Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95101001:95101001",
-            "name": "Victoria",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101847"
-          }
-        },
-        {
-          "id": "20356",
-          "isGlobalId": true,
-          "name": "Wangaratta Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95101001:95101001",
-            "name": "Victoria",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101848"
-          }
-        },
-        {
-          "id": "26401",
-          "isGlobalId": true,
-          "name": "Albury Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95302002:1",
-            "name": "East Albury",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101849"
-          }
-        }
-      ]
-    },
-    "urlText": "5th May 2026- 622 Melbourne to Sydney XPT service.",
-    "url": "https://transportnsw.info/alerts/details#/ems-69305",
-    "content": "<div>Due to planned trackwork, this service will be replaced by road coaches between Melbourne and Albury. On arrival at Albury please board commencing XPT train for the remainder of the journey.</div>",
-    "subtitle": "5th May 2026- 622 Melbourne to Sydney XPT service."
-  },
-  {
     "type": "lineInfo",
     "id": "ems-69603",
     "version": 113,
@@ -30678,375 +30274,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-67391",
     "content": "<div>Some school buses are not running due to the closure of Waterfall Way west of Bellingen due to a landslip. &nbsp;</div>\n<div>As an interim solution for school students in the Dorrigo and Bellingen area, a fleet of minibuses will operate school services via the detour on Summervilles Road.</div>\n<div>From Monday 9 February, a phased approach has commenced for school bus services. Families should stay abreast of communication being distributed via their schools.</div>\n<div>Sign up for SMS updates about interim bus service cancellations</div>\n<div>Inclement weather and road conditions have the potential to prevent interim bus movements on the detour route and cancel services.</div>\n<div>Transport has set up an SMS service to notify families of cancellations of services. Opt in to receive SMS <a href=\"https://confirmsubscription.com/h/j/1B554F53432900D8\" target=\"_blank\" rel=\"noopener\">via this link</a>.</div>\n<div><strong>Routes affected:</strong></div>\n<ul>\n<li>S110</li>\n<li>S125</li>\n<li>S126</li>\n<li>S127</li>\n<li>S887</li>\n</ul>",
     "subtitle": "Changes to school bus services impacted by Waterfall Way closure"
-  },
-  {
-    "type": "tripMessage",
-    "id": "f3dda87c7106d8c47928b0e17b487daa99ea72b2",
-    "version": 15000,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-03-30T06:45:00Z",
-      "lastModification": "2026-03-30T10:55:00Z",
-      "availability": {
-        "from": "2026-03-30T10:55:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-30T10:55:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Running late",
-        "url": "https://transportnsw.info/alerts/details#/f3dda87c7106d8c47928b0e17b487daa99ea72b2",
-        "content": "due to urgent train repairs at Lidcombe earlier. Please allow extra travel time.",
-        "subtitle": "Running late",
-        "smsText": "Running late",
-        "speechText": "due to urgent train repairs at Lidcombe earlier. Please allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5c632213-4577-5db9-ab74-3e18c5a3d26d",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Running late",
-      "speechText": "due to urgent train repairs at Lidcombe earlier. Please allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T1:W:R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T1 North Shore & Western Line",
-          "number": "T1 North Shore & Western Line",
-          "description": "Emu Plains or Richmond to City",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "trips": [
-            {
-              "tripCode": 300,
-              "realtimeTripId": "133R.1359.124.4.A.8.88889084",
-              "trainNumber": "300",
-              "departureTimePlannedJourneyOrigin": "2026-03-30T09:59:00Z",
-              "stops": [
-                {
-                  "id": "10101252",
-                  "name": "Penrith Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T09:59:00Z"
-                },
-                {
-                  "id": "10101251",
-                  "name": "Kingswood Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:03:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:02:00Z"
-                },
-                {
-                  "id": "10101250",
-                  "name": "Werrington Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:06:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:06:00Z"
-                },
-                {
-                  "id": "10101249",
-                  "name": "St Marys Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:09:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:08:00Z"
-                },
-                {
-                  "id": "10101248",
-                  "name": "Mount Druitt Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:13:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:12:00Z"
-                },
-                {
-                  "id": "10101247",
-                  "name": "Rooty Hill Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:16:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:15:00Z"
-                },
-                {
-                  "id": "10101246",
-                  "name": "Doonside Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:19:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:18:00Z"
-                },
-                {
-                  "id": "10101235",
-                  "name": "Blacktown Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:23:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:22:00Z"
-                },
-                {
-                  "id": "10101234",
-                  "name": "Seven Hills Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:26:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:26:00Z"
-                },
-                {
-                  "id": "10101233",
-                  "name": "Toongabbie Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:29:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:28:00Z"
-                },
-                {
-                  "id": "10101232",
-                  "name": "Pendle Hill Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:31:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:31:00Z"
-                },
-                {
-                  "id": "10101231",
-                  "name": "Wentworthville Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:34:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:33:00Z"
-                },
-                {
-                  "id": "10101230",
-                  "name": "Westmead Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:36:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:36:00Z"
-                },
-                {
-                  "id": "10101229",
-                  "name": "Parramatta Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:40:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:39:00Z"
-                },
-                {
-                  "id": "10101227",
-                  "name": "Granville Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:43:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:42:00Z"
-                },
-                {
-                  "id": "10101219",
-                  "name": "Auburn Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:46:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:45:00Z"
-                },
-                {
-                  "id": "10101218",
-                  "name": "Lidcombe Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:49:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:49:00Z"
-                },
-                {
-                  "id": "10101206",
-                  "name": "Strathfield Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:56:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:55:00Z"
-                },
-                {
-                  "id": "10101421",
-                  "name": "Redfern Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T11:07:00Z",
-                  "arrivalTimePlanned": "2026-03-30T11:06:00Z"
-                },
-                {
-                  "id": "10101100",
-                  "name": "Central Station",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2026-03-30T11:09:00Z"
-                }
-              ]
-            }
-          ],
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Redfern Station, Eveleigh",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Leppington & Inner West Line",
-          "number": "T2 Leppington & Inner West Line",
-          "description": "City to Parramatta or Leppington",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "trips": [
-            {
-              "tripCode": 703,
-              "realtimeTripId": "27-M.1359.124.12.K.8.88886680",
-              "trainNumber": "703",
-              "departureTimePlannedJourneyOrigin": "2026-03-30T10:05:00Z",
-              "stops": [
-                {
-                  "id": "10101100",
-                  "name": "Central Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:05:00Z"
-                },
-                {
-                  "id": "10101101",
-                  "name": "Town Hall Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:09:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:08:00Z"
-                },
-                {
-                  "id": "10101102",
-                  "name": "Wynyard Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:12:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:11:00Z"
-                },
-                {
-                  "id": "10101103",
-                  "name": "Circular Quay",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:14:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:14:00Z"
-                },
-                {
-                  "id": "10101105",
-                  "name": "St James Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:17:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:17:00Z"
-                },
-                {
-                  "id": "10101104",
-                  "name": "Museum Station",
-                  "type": "stop",
-                  "departureTimePlanned": "2026-03-30T10:19:00Z",
-                  "arrivalTimePlanned": "2026-03-30T10:19:00Z"
-                },
-                {
-                  "id": "10101100",
-                  "name": "Central Station",
-                  "type": "stop",
-                  "arrivalTimePlanned": "2026-03-30T10:22:00Z"
-                }
-              ]
-            }
-          ],
-          "iconId": 1
-        }
-      ]
-    },
-    "urlText": "Running late",
-    "url": "https://transportnsw.info/alerts/details#/f3dda87c7106d8c47928b0e17b487daa99ea72b2",
-    "content": "due to urgent train repairs at Lidcombe earlier. Please allow extra travel time.",
-    "subtitle": "Running late"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-69879",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-03-30T03:56:00Z",
-      "lastModification": "2026-03-30T03:56:00Z",
-      "availability": {
-        "from": "2026-03-29T18:00:00Z",
-        "to": "2026-04-24T21:30:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-24T19:00:00Z",
-          "to": "2026-04-24T21:30:00Z"
-        }
-      ],
-      "expiration": "2026-04-24T21:30:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Coogee bus diversions on Anzac Day",
-        "url": "https://transportnsw.info/alerts/details#/ems-69879",
-        "content": "<div><strong>From&nbsp;5am until&nbsp;7.30am on Saturday 25 April</strong>,&nbsp;route&nbsp;<strong>370</strong>&nbsp;services will&nbsp;divert&nbsp;and miss stops due to road closures in place&nbsp;for&nbsp;an&nbsp;Anzac Day&nbsp;Dawn Service.&nbsp;<br />Buses travelling&nbsp;to&nbsp;Coogee&nbsp;will&nbsp;divert via Byron Street, Carr Street and Havelock Avenue to&nbsp;end trips&nbsp;at&nbsp;Havelock Ave at Asher St (203467).&nbsp;&nbsp;<br />Buses leaving&nbsp;Coogee&nbsp;will&nbsp;start&nbsp;trips&nbsp;at&nbsp;Havelock Ave at Asher St (203467)&nbsp;and divert via Arden Street, Carr Street to and Brook Street to return to normal route on&nbsp;Coogee&nbsp;Bay Road. An&nbsp;additional&nbsp;stop will be made at Byron St&nbsp;opp&nbsp;Coogee&nbsp;Public School (203451).&nbsp;<br />Check signs at bus stops for alternative stop locations and allow extra travel time.&nbsp;&nbsp;</div>\n<div><br /><strong>Missed stops:&nbsp;</strong></div>\n<ul>\n<li>St Brigid's Primary School,&nbsp;Coogee&nbsp;Bay Rd (203452)&nbsp;</li>\n<li>Arden St after Dolphin St (203483)&nbsp;</li>\n<li>Arden St&nbsp;opp&nbsp;Coogee&nbsp;Bay Rd (203471)&nbsp;</li>\n</ul>",
-        "subtitle": "Coogee bus diversions on Anzac Day",
-        "smsText": "Coogee bus diversions on Anzac Day",
-        "speechText": "From 5 AM until 7 30 AM on Saturday 25 April, route 3 70 services will divert and miss stops due to road closures in place for an Anzac Day Dawn Service."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f4e83578-fae7-56ec-930c-520a01ef2f0e",
-      "MiscellaneousReason": "specialEvent",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Coogee bus diversions on Anzac Day",
-      "speechText": "From 5 AM until 7 30 AM on Saturday 25 April, route 3 70 services will divert and miss stops due to road closures in place for an Anzac Day Dawn Service."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:30370: :H:",
-          "destination": {
-            "name": "Arden St at Dolphin St, Coogee",
-            "type": "stop"
-          },
-          "name": "Sydney Buses Network 370",
-          "number": "370",
-          "description": "Glebe Point to Coogee",
-          "product": {
-            "id": 5,
-            "class": 5,
-            "iconId": 5
-          },
-          "operator": {
-            "id": "2509",
-            "name": "Transdev John Holland Buses"
-          },
-          "iconId": 5
-        }
-      ]
-    },
-    "urlText": "Coogee bus diversions on Anzac Day",
-    "url": "https://transportnsw.info/alerts/details#/ems-69879",
-    "content": "<div><strong>From&nbsp;5am until&nbsp;7.30am on Saturday 25 April</strong>,&nbsp;route&nbsp;<strong>370</strong>&nbsp;services will&nbsp;divert&nbsp;and miss stops due to road closures in place&nbsp;for&nbsp;an&nbsp;Anzac Day&nbsp;Dawn Service.&nbsp;<br />Buses travelling&nbsp;to&nbsp;Coogee&nbsp;will&nbsp;divert via Byron Street, Carr Street and Havelock Avenue to&nbsp;end trips&nbsp;at&nbsp;Havelock Ave at Asher St (203467).&nbsp;&nbsp;<br />Buses leaving&nbsp;Coogee&nbsp;will&nbsp;start&nbsp;trips&nbsp;at&nbsp;Havelock Ave at Asher St (203467)&nbsp;and divert via Arden Street, Carr Street to and Brook Street to return to normal route on&nbsp;Coogee&nbsp;Bay Road. An&nbsp;additional&nbsp;stop will be made at Byron St&nbsp;opp&nbsp;Coogee&nbsp;Public School (203451).&nbsp;<br />Check signs at bus stops for alternative stop locations and allow extra travel time.&nbsp;&nbsp;</div>\n<div><br /><strong>Missed stops:&nbsp;</strong></div>\n<ul>\n<li>St Brigid's Primary School,&nbsp;Coogee&nbsp;Bay Rd (203452)&nbsp;</li>\n<li>Arden St after Dolphin St (203483)&nbsp;</li>\n<li>Arden St&nbsp;opp&nbsp;Coogee&nbsp;Bay Rd (203471)&nbsp;</li>\n</ul>",
-    "subtitle": "Coogee bus diversions on Anzac Day"
   },
   {
     "type": "lineInfo",
@@ -37837,6 +37064,410 @@
   },
   {
     "type": "lineInfo",
+    "id": "ems-68503",
+    "version": 105,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-03-05T04:51:00Z",
+      "lastModification": "2026-03-05T04:53:00Z",
+      "availability": {
+        "from": "2026-03-04T19:00:00Z",
+        "to": "2026-04-19T08:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-17T20:00:00Z",
+          "to": "2026-04-19T08:00:00Z"
+        }
+      ],
+      "expiration": "2026-04-19T08:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
+        "url": "https://transportnsw.info/alerts/details#/ems-68503",
+        "content": "<div>Due to planned trackwork, the Griffith Xplorer services will be replaced by road coaches for the entire journey in both directions.</div>",
+        "subtitle": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
+        "smsText": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
+        "speechText": "Due to planned trackwork, the Griffith Xplorer services will be replaced by road coaches for the entire journey in both directions."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "ac4e6ce8-2e46-5e94-b314-a9c9c6f3517e",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
+      "speechText": "Due to planned trackwork, the Griffith Xplorer services will be replaced by road coaches for the entire journey in both directions."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76641: :H:",
+          "destination": {
+            "name": "Griffith Station, Griffith",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 641",
+          "number": "641",
+          "description": "Goulburn to Griffith",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        },
+        {
+          "id": "nsw:76644: :R:",
+          "destination": {
+            "name": "Goulburn Station, Goulburn",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 644",
+          "number": "644",
+          "description": "Griffith to Goulburn",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        },
+        {
+          "id": "nsw:76725: :H:",
+          "destination": {
+            "name": "Mildura Station, Mildura (VIC)",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 725",
+          "number": "725",
+          "description": "Cootamundra to Mildura",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        },
+        {
+          "id": "nsw:76726: :R:",
+          "destination": {
+            "name": "Cootamundra Station, Cootamundra",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 726",
+          "number": "726",
+          "description": "Mildura to Cootamundra",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        },
+        {
+          "id": "nsw:76731: :H:",
+          "destination": {
+            "name": "Griffith Station, Griffith",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 731",
+          "number": "731",
+          "description": "Wagga Wagga to Griffith",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        },
+        {
+          "id": "nsw:76732: :R:",
+          "destination": {
+            "name": "Wagga Wagga Station, Turvey Park",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 732",
+          "number": "732",
+          "description": "Griffith to Wagga Wagga",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        },
+        {
+          "id": "nsw:76735: :H:",
+          "destination": {
+            "name": "Griffith Station, Griffith",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 735",
+          "number": "735",
+          "description": "Wagga Wagga to Griffith",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        },
+        {
+          "id": "nsw:76736: :R:",
+          "destination": {
+            "name": "Wagga Wagga Station, Turvey Park",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 736",
+          "number": "736",
+          "description": "Griffith to Wagga Wagga",
+          "product": {
+            "id": 7,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 7
+        },
+        {
+          "id": "nsw:76410:1:H:",
+          "destination": {
+            "name": "Griffith Station, Griffith",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 4101",
+          "number": "4101",
+          "description": "Central to Griffith",
+          "product": {
+            "id": 22,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 22
+        },
+        {
+          "id": "nsw:76410:3:H:",
+          "destination": {
+            "name": "Griffith Station, Griffith",
+            "type": "stop"
+          },
+          "name": "Temporary coaches 4103",
+          "number": "4103",
+          "description": "Central to Griffith",
+          "product": {
+            "id": 22,
+            "class": 7,
+            "iconId": 7
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 22
+        }
+      ]
+    },
+    "urlText": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services.",
+    "url": "https://transportnsw.info/alerts/details#/ems-68503",
+    "content": "<div>Due to planned trackwork, the Griffith Xplorer services will be replaced by road coaches for the entire journey in both directions.</div>",
+    "subtitle": "18th and 19th April 2026 inclusive- 641/644 Griffith Xplorer services."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-68661",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-03-09T05:24:00Z",
+      "lastModification": "2026-03-09T05:24:00Z",
+      "availability": {
+        "from": "2026-03-09T05:19:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-03-09T05:19:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Diversion in Lithgow",
+        "url": "https://transportnsw.info/alerts/details#/ems-68661",
+        "content": "<div>Buses are diverting away from Main Street, due to heavy traffic near Lithgow and Mort Streets.</div>\n<ul>\n<li>Buses are using Ordnance Avenue and Methven Streets instead.&nbsp;</li>\n<li>No stops are being missed.&nbsp;</li>\n</ul>",
+        "subtitle": "Diversion in Lithgow",
+        "smsText": "Diversion in Lithgow",
+        "speechText": "Buses are diverting away from Main Street, due to heavy traffic near Lithgow and Mort Streets.\nBuses are using Ordnance Avenue and Methven Streets instead. \nNo stops are being missed."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "effb8cd7-4fc4-5249-8d02-d8ad4d81cf56",
+      "MiscellaneousReason": "roadworks",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Diversion in Lithgow",
+      "speechText": "Buses are diverting away from Main Street, due to heavy traffic near Lithgow and Mort Streets.\nBuses are using Ordnance Avenue and Methven Streets instead. \nNo stops are being missed."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:71200: :R:",
+          "destination": {
+            "name": "Main St after Bridge St, Lithgow",
+            "type": "stop"
+          },
+          "name": "Central West and Orana Network 200",
+          "number": "200",
+          "description": "Bowenfels to Lithgow via Lithgow Hospital (Loop Service)",
+          "product": {
+            "id": 31,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "6005",
+            "name": "Lithgow Buslines"
+          },
+          "iconId": 31
+        },
+        {
+          "id": "nsw:71600: :R:",
+          "destination": {
+            "name": "Main St after Bridge St, Lithgow",
+            "type": "stop"
+          },
+          "name": "Central West and Orana Network 600",
+          "number": "600",
+          "description": "Lithgow to Portland via Wallerawang",
+          "product": {
+            "id": 31,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "6005",
+            "name": "Lithgow Buslines"
+          },
+          "iconId": 31
+        },
+        {
+          "id": "nsw:71600: :H:",
+          "destination": {
+            "name": "Wolgan St at Wallerwang Rd, Portland",
+            "type": "stop"
+          },
+          "name": "Central West and Orana Network 600",
+          "number": "600",
+          "description": "Portland to Lithgow via Wallerawang",
+          "product": {
+            "id": 31,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "6005",
+            "name": "Lithgow Buslines"
+          },
+          "iconId": 31
+        },
+        {
+          "id": "nsw:71636: :H:",
+          "destination": {
+            "name": "Bathurst City, Howick St, Bathurst",
+            "type": "stop"
+          },
+          "name": "Central West and Orana Network 636",
+          "number": "636",
+          "description": "Bathurst to Lithgow via Portland & Wallerawang",
+          "product": {
+            "id": 31,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "6005",
+            "name": "Lithgow Buslines"
+          },
+          "iconId": 31
+        },
+        {
+          "id": "nsw:71636: :R:",
+          "destination": {
+            "name": "Main St after Bridge St, Lithgow",
+            "type": "stop"
+          },
+          "name": "Central West and Orana Network 636",
+          "number": "636",
+          "description": "Lithgow to Bathurst via Wallerawang & Portland",
+          "product": {
+            "id": 31,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "6005",
+            "name": "Lithgow Buslines"
+          },
+          "iconId": 31
+        }
+      ]
+    },
+    "urlText": "Diversion in Lithgow",
+    "url": "https://transportnsw.info/alerts/details#/ems-68661",
+    "content": "<div>Buses are diverting away from Main Street, due to heavy traffic near Lithgow and Mort Streets.</div>\n<ul>\n<li>Buses are using Ordnance Avenue and Methven Streets instead.&nbsp;</li>\n<li>No stops are being missed.&nbsp;</li>\n</ul>",
+    "subtitle": "Diversion in Lithgow"
+  },
+  {
+    "type": "lineInfo",
     "id": "ems-69165",
     "version": 1,
     "priority": "normal",
@@ -39438,196 +39069,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-68468",
     "content": "<div>From Monday 16 March to Monday 31 August 2026, buses will divert and miss some stops while roadworks take place.</div>\n<div>&nbsp;</div>\n<div><strong>Affected stops</strong></div>\n<ul>\n<li>Crown St after Junction St (2765111)</li>\n<li>Crown St before Junction St (2765114)</li>\n</ul>",
     "subtitle": "Crown St, Grantham Farm bus diversions"
-  },
-  {
-    "type": "stopInfo",
-    "id": "507d64dd6c1f6ef14d64e00707b933b5d5153039",
-    "version": 1,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2025-11-26T21:31:00Z",
-      "lastModification": "2025-11-26T21:31:00Z",
-      "availability": {
-        "from": "2025-11-26T21:31:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2025-11-26T21:31:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Station Update - Macquarie Fields",
-        "url": "https://transportnsw.info/alerts/details#/507d64dd6c1f6ef14d64e00707b933b5d5153039",
-        "content": "Station Access Changes\nFrom Tuesday 26 August 2025 until mid-2026, the pedestrian ramp access from Railway Parade into the station on Platform 2 will be closed for upgrade works.\nDuring this time, station access will be available via the stairs only.\nPlanned Trackwork buses depart from Atchinson Rd near the Service Station.\nIf you require ramp or lift access, please visit transportnsw.info for your accessible travel options.\nFor more information about the project, please contact the Project Infoline on 1800 684 490 or visit www.transport.nsw.gov.au/macquariefields.",
-        "subtitle": "Station Update - Macquarie Fields",
-        "smsText": "Station Update - Macquarie Fields",
-        "speechText": "Station Access Changes\nFrom Tuesday 26 August 2025 until mid-2026, the pedestrian ramp access from Railway Parade into the station on Platform 2 will be closed for upgrade works.\nDuring this time, station access will be available via the stairs only.\nPlanned Trackwork buses depart from Atchinson Rd near the Service Station.\nIf you require ramp or lift access, please visit transportnsw.info for your accessible travel options.\nFor more information about the project, please contact the Project Infoline on 1800 684 490 or visit www.transport.nsw.gov.au/macquariefields."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c81f2db9-86ef-5ba3-b816-c5dbe800528c",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "256410",
-      "providerCode": "TfNSW",
-      "smsText": "Station Update - Macquarie Fields",
-      "speechText": "Station Access Changes\nFrom Tuesday 26 August 2025 until mid-2026, the pedestrian ramp access from Railway Parade into the station on Platform 2 will be closed for upgrade works.\nDuring this time, station access will be available via the stairs only.\nPlanned Trackwork buses depart from Atchinson Rd near the Service Station.\nIf you require ramp or lift access, please visit transportnsw.info for your accessible travel options.\nFor more information about the project, please contact the Project Infoline on 1800 684 490 or visit www.transport.nsw.gov.au/macquariefields."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:020T2: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Leppington & Inner West Line",
-          "number": "T2 Leppington & Inner West Line",
-          "description": "Parramatta or Leppington to City",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T5: :R:",
-          "destination": {
-            "name": "Penrith Station, Penrith",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T8: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "Macarthur to City via Airport or Sydenham",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T2: :H:",
-          "destination": {
-            "name": "Redfern Station, Eveleigh",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T2 Leppington & Inner West Line",
-          "number": "T2 Leppington & Inner West Line",
-          "description": "City to Parramatta or Leppington",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T5: :H:",
-          "destination": {
-            "name": "Penrith Station, Penrith",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        },
-        {
-          "id": "nsw:020T8: :H:",
-          "destination": {
-            "name": "Leppington Station, Leppington",
-            "type": "stop"
-          },
-          "name": "Sydney Trains Network T8 Airport & South Line",
-          "number": "T8 Airport & South Line",
-          "description": "City to Macarthur via Airport or Sydenham",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
-        }
-      ],
-      "stops": [
-        {
-          "id": "256410",
-          "isGlobalId": true,
-          "name": "Macquarie Fields Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95313021:1",
-            "name": "Macquarie Fields",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101292"
-          }
-        }
-      ]
-    },
-    "urlText": "Station Update - Macquarie Fields",
-    "url": "https://transportnsw.info/alerts/details#/507d64dd6c1f6ef14d64e00707b933b5d5153039",
-    "content": "Station Access Changes\nFrom Tuesday 26 August 2025 until mid-2026, the pedestrian ramp access from Railway Parade into the station on Platform 2 will be closed for upgrade works.\nDuring this time, station access will be available via the stairs only.\nPlanned Trackwork buses depart from Atchinson Rd near the Service Station.\nIf you require ramp or lift access, please visit transportnsw.info for your accessible travel options.\nFor more information about the project, please contact the Project Infoline on 1800 684 490 or visit www.transport.nsw.gov.au/macquariefields.",
-    "subtitle": "Station Update - Macquarie Fields"
   },
   {
     "type": "stopInfo",
@@ -42402,6 +41843,196 @@
     "url": "https://transportnsw.info/alerts/details#/050e5ddecd61f6aee7f526d5dd200ab08bbd658e",
     "content": "due to an issue with a freight train at Clyde. Please allow extra travel time.",
     "subtitle": "Running late"
+  },
+  {
+    "type": "stopInfo",
+    "id": "507d64dd6c1f6ef14d64e00707b933b5d5153039",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2025-11-26T21:31:00Z",
+      "lastModification": "2025-11-26T21:31:00Z",
+      "availability": {
+        "from": "2025-11-26T21:31:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2025-11-26T21:31:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Station Update - Macquarie Fields",
+        "url": "https://transportnsw.info/alerts/details#/507d64dd6c1f6ef14d64e00707b933b5d5153039",
+        "content": "Station Access Changes\nFrom Tuesday 26 August 2025 until mid-2026, the pedestrian ramp access from Railway Parade into the station on Platform 2 will be closed for upgrade works.\nDuring this time, station access will be available via the stairs only.\nPlanned Trackwork buses depart from Atchinson Rd near the Service Station.\nIf you require ramp or lift access, please visit transportnsw.info for your accessible travel options.\nFor more information about the project, please contact the Project Infoline on 1800 684 490 or visit www.transport.nsw.gov.au/macquariefields.",
+        "subtitle": "Station Update - Macquarie Fields",
+        "smsText": "Station Update - Macquarie Fields",
+        "speechText": "Station Access Changes\nFrom Tuesday 26 August 2025 until mid-2026, the pedestrian ramp access from Railway Parade into the station on Platform 2 will be closed for upgrade works.\nDuring this time, station access will be available via the stairs only.\nPlanned Trackwork buses depart from Atchinson Rd near the Service Station.\nIf you require ramp or lift access, please visit transportnsw.info for your accessible travel options.\nFor more information about the project, please contact the Project Infoline on 1800 684 490 or visit www.transport.nsw.gov.au/macquariefields."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "c81f2db9-86ef-5ba3-b816-c5dbe800528c",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "256410",
+      "providerCode": "TfNSW",
+      "smsText": "Station Update - Macquarie Fields",
+      "speechText": "Station Access Changes\nFrom Tuesday 26 August 2025 until mid-2026, the pedestrian ramp access from Railway Parade into the station on Platform 2 will be closed for upgrade works.\nDuring this time, station access will be available via the stairs only.\nPlanned Trackwork buses depart from Atchinson Rd near the Service Station.\nIf you require ramp or lift access, please visit transportnsw.info for your accessible travel options.\nFor more information about the project, please contact the Project Infoline on 1800 684 490 or visit www.transport.nsw.gov.au/macquariefields."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T2: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Leppington & Inner West Line",
+          "number": "T2 Leppington & Inner West Line",
+          "description": "Parramatta or Leppington to City",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Penrith Station, Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T8: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "Macarthur to City via Airport or Sydenham",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T2: :H:",
+          "destination": {
+            "name": "Redfern Station, Eveleigh",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T2 Leppington & Inner West Line",
+          "number": "T2 Leppington & Inner West Line",
+          "description": "City to Parramatta or Leppington",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Penrith Station, Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T8: :H:",
+          "destination": {
+            "name": "Leppington Station, Leppington",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T8 Airport & South Line",
+          "number": "T8 Airport & South Line",
+          "description": "City to Macarthur via Airport or Sydenham",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        }
+      ],
+      "stops": [
+        {
+          "id": "256410",
+          "isGlobalId": true,
+          "name": "Macquarie Fields Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313021:1",
+            "name": "Macquarie Fields",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101292"
+          }
+        }
+      ]
+    },
+    "urlText": "Station Update - Macquarie Fields",
+    "url": "https://transportnsw.info/alerts/details#/507d64dd6c1f6ef14d64e00707b933b5d5153039",
+    "content": "Station Access Changes\nFrom Tuesday 26 August 2025 until mid-2026, the pedestrian ramp access from Railway Parade into the station on Platform 2 will be closed for upgrade works.\nDuring this time, station access will be available via the stairs only.\nPlanned Trackwork buses depart from Atchinson Rd near the Service Station.\nIf you require ramp or lift access, please visit transportnsw.info for your accessible travel options.\nFor more information about the project, please contact the Project Infoline on 1800 684 490 or visit www.transport.nsw.gov.au/macquariefields.",
+    "subtitle": "Station Update - Macquarie Fields"
   },
   {
     "type": "tripMessage",
@@ -48678,6 +48309,77 @@
     "url": "https://transportnsw.info/alerts/details#/ems-69294",
     "content": "<div>Due to planned trackwork, the Sydney to Melbourne XPT will be replaced by Road Coaches for the entire journey.</div>",
     "subtitle": "1st May to 4th May 2026 inclusive- 621 Sydney to Melbourne XPT service."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-69879",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-03-30T03:56:00Z",
+      "lastModification": "2026-03-30T03:56:00Z",
+      "availability": {
+        "from": "2026-03-29T18:00:00Z",
+        "to": "2026-04-24T21:30:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-24T19:00:00Z",
+          "to": "2026-04-24T21:30:00Z"
+        }
+      ],
+      "expiration": "2026-04-24T21:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Coogee bus diversions on Anzac Day",
+        "url": "https://transportnsw.info/alerts/details#/ems-69879",
+        "content": "<div><strong>From&nbsp;5am until&nbsp;7.30am on Saturday 25 April</strong>,&nbsp;route&nbsp;<strong>370</strong>&nbsp;services will&nbsp;divert&nbsp;and miss stops due to road closures in place&nbsp;for&nbsp;an&nbsp;Anzac Day&nbsp;Dawn Service.&nbsp;<br />Buses travelling&nbsp;to&nbsp;Coogee&nbsp;will&nbsp;divert via Byron Street, Carr Street and Havelock Avenue to&nbsp;end trips&nbsp;at&nbsp;Havelock Ave at Asher St (203467).&nbsp;&nbsp;<br />Buses leaving&nbsp;Coogee&nbsp;will&nbsp;start&nbsp;trips&nbsp;at&nbsp;Havelock Ave at Asher St (203467)&nbsp;and divert via Arden Street, Carr Street to and Brook Street to return to normal route on&nbsp;Coogee&nbsp;Bay Road. An&nbsp;additional&nbsp;stop will be made at Byron St&nbsp;opp&nbsp;Coogee&nbsp;Public School (203451).&nbsp;<br />Check signs at bus stops for alternative stop locations and allow extra travel time.&nbsp;&nbsp;</div>\n<div><br /><strong>Missed stops:&nbsp;</strong></div>\n<ul>\n<li>St Brigid's Primary School,&nbsp;Coogee&nbsp;Bay Rd (203452)&nbsp;</li>\n<li>Arden St after Dolphin St (203483)&nbsp;</li>\n<li>Arden St&nbsp;opp&nbsp;Coogee&nbsp;Bay Rd (203471)&nbsp;</li>\n</ul>",
+        "subtitle": "Coogee bus diversions on Anzac Day",
+        "smsText": "Coogee bus diversions on Anzac Day",
+        "speechText": "From 5 AM until 7 30 AM on Saturday 25 April, route 3 70 services will divert and miss stops due to road closures in place for an Anzac Day Dawn Service."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "f4e83578-fae7-56ec-930c-520a01ef2f0e",
+      "MiscellaneousReason": "specialEvent",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Coogee bus diversions on Anzac Day",
+      "speechText": "From 5 AM until 7 30 AM on Saturday 25 April, route 3 70 services will divert and miss stops due to road closures in place for an Anzac Day Dawn Service."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:30370: :H:",
+          "destination": {
+            "name": "Arden St at Dolphin St, Coogee",
+            "type": "stop"
+          },
+          "name": "Sydney Buses Network 370",
+          "number": "370",
+          "description": "Glebe Point to Coogee",
+          "product": {
+            "id": 5,
+            "class": 5,
+            "iconId": 5
+          },
+          "operator": {
+            "id": "2509",
+            "name": "Transdev John Holland Buses"
+          },
+          "iconId": 5
+        }
+      ]
+    },
+    "urlText": "Coogee bus diversions on Anzac Day",
+    "url": "https://transportnsw.info/alerts/details#/ems-69879",
+    "content": "<div><strong>From&nbsp;5am until&nbsp;7.30am on Saturday 25 April</strong>,&nbsp;route&nbsp;<strong>370</strong>&nbsp;services will&nbsp;divert&nbsp;and miss stops due to road closures in place&nbsp;for&nbsp;an&nbsp;Anzac Day&nbsp;Dawn Service.&nbsp;<br />Buses travelling&nbsp;to&nbsp;Coogee&nbsp;will&nbsp;divert via Byron Street, Carr Street and Havelock Avenue to&nbsp;end trips&nbsp;at&nbsp;Havelock Ave at Asher St (203467).&nbsp;&nbsp;<br />Buses leaving&nbsp;Coogee&nbsp;will&nbsp;start&nbsp;trips&nbsp;at&nbsp;Havelock Ave at Asher St (203467)&nbsp;and divert via Arden Street, Carr Street to and Brook Street to return to normal route on&nbsp;Coogee&nbsp;Bay Road. An&nbsp;additional&nbsp;stop will be made at Byron St&nbsp;opp&nbsp;Coogee&nbsp;Public School (203451).&nbsp;<br />Check signs at bus stops for alternative stop locations and allow extra travel time.&nbsp;&nbsp;</div>\n<div><br /><strong>Missed stops:&nbsp;</strong></div>\n<ul>\n<li>St Brigid's Primary School,&nbsp;Coogee&nbsp;Bay Rd (203452)&nbsp;</li>\n<li>Arden St after Dolphin St (203483)&nbsp;</li>\n<li>Arden St&nbsp;opp&nbsp;Coogee&nbsp;Bay Rd (203471)&nbsp;</li>\n</ul>",
+    "subtitle": "Coogee bus diversions on Anzac Day"
   },
   {
     "type": "lineInfo",
