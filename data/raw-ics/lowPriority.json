@@ -1,93 +1,85 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
+    "type": "infrastructure",
+    "id": "ems-70015",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
+      "creation": "2026-04-01T02:31:00Z",
+      "lastModification": "2026-04-01T02:31:00Z",
       "availability": {
-        "from": "2021-11-19T03:00:00Z",
+        "from": "2026-03-25T05:21:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T03:00:00Z",
+          "from": "2026-04-01T02:31:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-05-09T17:22:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+        "urlText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70015",
+        "content": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568.",
+        "subtitle": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "smsText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "messageRef": "2da7afac-86b8-5c8c-aff7-7e087f75bca2",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "222010:2220361,2220362",
       "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      "smsText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
+          "id": "222010",
+          "isGlobalId": true,
+          "name": "Hurstville Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95327002:1",
+            "name": "Hurstville",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
+          "properties": {
+            "stopId": "10101339"
+          }
+        }
+      ],
+      "Infrastructures": [
         {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
+          "name": "222010:L813",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9750738153"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    "urlText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70015",
+    "content": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568.",
+    "subtitle": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
@@ -254,34 +246,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-70015",
-    "version": 3,
+    "id": "ems-70031",
+    "version": 4,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-04-01T02:31:00Z",
-      "lastModification": "2026-04-01T02:31:00Z",
+      "creation": "2026-04-01T11:02:00Z",
+      "lastModification": "2026-04-01T11:02:00Z",
       "availability": {
-        "from": "2026-03-25T05:21:00Z",
+        "from": "2026-03-25T13:52:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-04-01T02:31:00Z",
+          "from": "2026-04-01T11:02:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-05-09T17:22:59Z"
+      "expiration": "2505-05-10T01:52:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70015",
-        "content": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568.",
-        "subtitle": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
-        "smsText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
-        "speechText": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568."
+        "urlText": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70031",
+        "content": "At Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+        "subtitle": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
+        "smsText": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
+        "speechText": "At Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
       }
     ],
     "properties": {
@@ -290,49 +282,31 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2da7afac-86b8-5c8c-aff7-7e087f75bca2",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "d70968fc-ffc1-5eeb-b6c0-9f700a5a091c",
+      "EquipmentReason": "escalatorFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "222010:2220361,2220362",
+      "stopIDglobalID": "200070:2000395,2000396",
       "providerCode": "TfNSW",
-      "smsText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568."
+      "smsText": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
+      "speechText": "At Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
     },
     "affected": {
       "stops": [
         {
-          "id": "222010",
+          "id": "200070",
           "isGlobalId": true,
-          "name": "Hurstville Station",
+          "name": "Town Hall Station",
           "type": "stop",
-          "parent": {
-            "id": "placeID:95327002:1",
-            "name": "Hurstville",
-            "type": "locality"
-          },
           "properties": {
-            "stopId": "10101339"
+            "stopId": "10101101"
           }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "222010:L813",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9750738153"
-            }
-          ]
         }
       ]
     },
-    "urlText": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70015",
-    "content": "At Hurstville Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7568.",
-    "subtitle": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available"
+    "urlText": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70031",
+    "content": "At Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+    "subtitle": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available"
   },
   {
     "type": "infrastructure",
@@ -415,200 +389,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-70008",
     "content": "At Penrith Station Lift 1 between the concourse and Belmore St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4780 3971.",
     "subtitle": "Penrith Station Lift 1 between the concourse and Belmore St is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70031",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-01T11:02:00Z",
-      "lastModification": "2026-04-01T11:02:00Z",
-      "availability": {
-        "from": "2026-03-25T13:52:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-01T11:02:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-10T01:52:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70031",
-        "content": "At Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-        "subtitle": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
-        "smsText": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
-        "speechText": "At Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d70968fc-ffc1-5eeb-b6c0-9f700a5a091c",
-      "EquipmentReason": "escalatorFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200070:2000395,2000396",
-      "providerCode": "TfNSW",
-      "smsText": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
-      "speechText": "At Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200070",
-          "isGlobalId": true,
-          "name": "Town Hall Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101101"
-          }
-        }
-      ]
-    },
-    "urlText": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70031",
-    "content": "At Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-    "subtitle": "Town Hall Station Escalator 2 between the concourse and the northern end of Platform 5/6 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
@@ -775,6 +555,96 @@
     "subtitle": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available"
   },
   {
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
+      "availability": {
+        "from": "2021-11-19T03:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T03:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+  },
+  {
     "type": "infrastructure",
     "id": "ems-70026",
     "version": 2,
@@ -855,6 +725,136 @@
     "url": "https://transportnsw.info/alerts/details#/ems-70026",
     "content": "At Guildford Station Lift 2 between the footbridge, Railway Tce and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9287.",
     "subtitle": "Guildford Station Lift 2 between the footbridge, Railway Tce and Platform 2 is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "lineInfo",
