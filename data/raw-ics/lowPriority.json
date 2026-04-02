@@ -163,21 +163,21 @@
     "subtitle": "Hurstville Station Lift 1 between the concourse and Platform 1/2 is not available"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "type": "infrastructure",
+    "id": "ems-69836",
+    "version": 69,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2026-03-30T00:45:00Z",
+      "lastModification": "2026-03-30T00:46:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
+        "from": "2026-03-30T00:45:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
+          "from": "2026-03-30T00:45:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
@@ -186,201 +186,62 @@
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
+        "url": "https://transportnsw.info/alerts/details#/ems-69836",
+        "content": "At Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the accessible entry/exit pathway via Murray St and Pirrama Rd</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
+        "subtitle": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
+        "smsText": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
+        "speechText": "At Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is temporarily out of service.\n\n\n\nFor your safety, do not use even if doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr use the accessible entry/exit pathway via Murray St and Pirrama Rd\nFor urgent assistance:\nUse the Help Point if on the platform\nOr call 131 500"
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "6fed0774-04b2-5bd8-a39b-5876282c520f",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200946",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
+      "speechText": "At Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is temporarily out of service.\n\n\n\nFor your safety, do not use even if doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr use the accessible entry/exit pathway via Murray St and Pirrama Rd\nFor urgent assistance:\nUse the Help Point if on the platform\nOr call 131 500"
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
+          "id": "200946",
+          "isGlobalId": true,
+          "name": "Pyrmont Bay Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
-      "availability": {
-        "from": "2021-11-19T03:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T03:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
+          "properties": {
+            "stopId": "10101638"
+          }
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-    },
-    "affected": {
-      "lines": [
+      "Infrastructures": [
         {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
+          "name": "200946:L1775",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "12113791655"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    "urlText": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
+    "url": "https://transportnsw.info/alerts/details#/ems-69836",
+    "content": "At Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the accessible entry/exit pathway via Murray St and Pirrama Rd</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
+    "subtitle": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ"
   },
   {
     "type": "infrastructure",
@@ -529,21 +390,21 @@
     "subtitle": "Oatley Station Lift 1 between the footbridge and Oatley Pde is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-69836",
-    "version": 69,
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-03-30T00:45:00Z",
-      "lastModification": "2026-03-30T00:46:00Z",
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
       "availability": {
-        "from": "2026-03-30T00:45:00Z",
+        "from": "2021-11-19T03:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-30T00:45:00Z",
+          "from": "2021-11-19T03:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
@@ -552,62 +413,201 @@
     },
     "infoLinks": [
       {
-        "urlText": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
-        "url": "https://transportnsw.info/alerts/details#/ems-69836",
-        "content": "At Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the accessible entry/exit pathway via Murray St and Pirrama Rd</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
-        "subtitle": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
-        "smsText": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
-        "speechText": "At Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is temporarily out of service.\n\n\n\nFor your safety, do not use even if doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr use the accessible entry/exit pathway via Murray St and Pirrama Rd\nFor urgent assistance:\nUse the Help Point if on the platform\nOr call 131 500"
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "6fed0774-04b2-5bd8-a39b-5876282c520f",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200946",
       "providerCode": "TfNSW",
-      "smsText": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
-      "speechText": "At Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is temporarily out of service.\n\n\n\nFor your safety, do not use even if doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr use the accessible entry/exit pathway via Murray St and Pirrama Rd\nFor urgent assistance:\nUse the Help Point if on the platform\nOr call 131 500"
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "200946",
-          "isGlobalId": true,
-          "name": "Pyrmont Bay Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101638"
-          }
-        }
-      ],
-      "Infrastructures": [
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        },
         {
-          "name": "200946:L1775",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "12113791655"
-            }
-          ]
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ",
-    "url": "https://transportnsw.info/alerts/details#/ems-69836",
-    "content": "At Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the accessible entry/exit pathway via Murray St and Pirrama Rd</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
-    "subtitle": "Pyrmont Bay Light Rail Lift between the Murray St and the light rail stop (towards Central) is not available\n\nㅤ"
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "lineInfo",
@@ -701,86 +701,6 @@
     "subtitle": "Manly Fast Ferry altered timetable"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-70043",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-01T21:25:00Z",
-      "lastModification": "2026-04-01T21:25:00Z",
-      "availability": {
-        "from": "2026-04-01T21:25:00Z",
-        "to": "2026-05-24T05:28:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-01T21:25:00Z",
-          "to": "2026-05-24T05:28:00Z"
-        }
-      ],
-      "expiration": "2026-05-24T05:28:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70043",
-        "content": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\nFrom Sunday 1 February to Monday 13 April 2026, the lift between the Concourse and Platforms 2 and 3 will be closed for upgrades. \n\n•\tFor lift access use the lift from the Concourse to Platforms 4 and 5 or use Banksia Station as an alternative\n•\tIf you need assistance, ask station staff or call 02 9563 7574",
-        "subtitle": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "smsText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "speechText": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\nFrom Sunday 1 February to Monday 13 April 2026, the lift between the Concourse and Platforms 2 and 3 will be closed for upgrades. \n\n•\tFor lift access use the lift from the Concourse to Platforms 4 and 5 or use Banksia Station as an alternative\n•\tIf you need assistance, ask station staff or call 02 9563 7574"
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ad98e426-08d8-5485-be86-79e59a529102",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "221620:2216172,2216173",
-      "providerCode": "TfNSW",
-      "smsText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-      "speechText": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\nFrom Sunday 1 February to Monday 13 April 2026, the lift between the Concourse and Platforms 2 and 3 will be closed for upgrades. \n\n•\tFor lift access use the lift from the Concourse to Platforms 4 and 5 or use Banksia Station as an alternative\n•\tIf you need assistance, ask station staff or call 02 9563 7574"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "221620",
-          "isGlobalId": true,
-          "name": "Rockdale Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95351015:1",
-            "name": "Rockdale",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101335"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "221620:L873",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9150795624"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70043",
-    "content": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\nFrom Sunday 1 February to Monday 13 April 2026, the lift between the Concourse and Platforms 2 and 3 will be closed for upgrades. \n\n•\tFor lift access use the lift from the Concourse to Platforms 4 and 5 or use Banksia Station as an alternative\n•\tIf you need assistance, ask station staff or call 02 9563 7574",
-    "subtitle": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available"
-  },
-  {
     "type": "lineInfo",
     "id": "ems-70041",
     "version": 1,
@@ -850,86 +770,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-70041",
     "content": "There are delays on route 32 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
     "subtitle": "Train service delays between Brisbane (Roma Street) Station and Central Station"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70045",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-01T22:09:00Z",
-      "lastModification": "2026-04-01T22:09:00Z",
-      "availability": {
-        "from": "2026-04-01T22:09:00Z",
-        "to": "2026-05-24T06:12:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-01T22:09:00Z",
-          "to": "2026-05-24T06:12:00Z"
-        }
-      ],
-      "expiration": "2026-05-24T06:12:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70045",
-        "content": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\nFrom Sunday 1 February to Monday 13 April 2026, the lift between the Concourse and Platforms 2 and 3 will be closed for upgrades. \n\n•\tFor lift access use the lift from the Concourse to Platforms 4 and 5 or use Banksia Station as an alternative\n•\tIf you need assistance, ask station staff or call 02 9563 7574",
-        "subtitle": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "smsText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-        "speechText": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\nFrom Sunday 1 February to Monday 13 April 2026, the lift between the Concourse and Platforms 2 and 3 will be closed for upgrades. \n\n•\tFor lift access use the lift from the Concourse to Platforms 4 and 5 or use Banksia Station as an alternative\n•\tIf you need assistance, ask station staff or call 02 9563 7574"
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f7cafa71-4da7-5037-aa18-31c37ca9cceb",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "221620:2216172,2216173",
-      "providerCode": "TfNSW",
-      "smsText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-      "speechText": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\nFrom Sunday 1 February to Monday 13 April 2026, the lift between the Concourse and Platforms 2 and 3 will be closed for upgrades. \n\n•\tFor lift access use the lift from the Concourse to Platforms 4 and 5 or use Banksia Station as an alternative\n•\tIf you need assistance, ask station staff or call 02 9563 7574"
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "221620",
-          "isGlobalId": true,
-          "name": "Rockdale Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95351015:1",
-            "name": "Rockdale",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101335"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "221620:L873",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9150795624"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70045",
-    "content": "At Rockdale Station Lift 3 between the concourse and Platform 2/3 is temporarily out of service.\nFrom Sunday 1 February to Monday 13 April 2026, the lift between the Concourse and Platforms 2 and 3 will be closed for upgrades. \n\n•\tFor lift access use the lift from the Concourse to Platforms 4 and 5 or use Banksia Station as an alternative\n•\tIf you need assistance, ask station staff or call 02 9563 7574",
-    "subtitle": "Rockdale Station Lift 3 between the concourse and Platform 2/3 is not available"
   },
   {
     "type": "infrastructure",
