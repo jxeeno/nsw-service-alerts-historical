@@ -83,6 +83,218 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-70086",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-02T12:02:00Z",
+      "lastModification": "2026-04-02T12:02:00Z",
+      "availability": {
+        "from": "2026-03-26T14:52:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-02T12:02:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-11T02:52:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70086",
+        "content": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+        "subtitle": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+        "smsText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+        "speechText": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "a3f9b289-610b-5cb9-8ce0-24526b088f87",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200080:2000405,2000406",
+      "providerCode": "TfNSW",
+      "smsText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+      "speechText": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200080",
+          "isGlobalId": true,
+          "name": "Wynyard Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101102"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "200080:L1568",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "7693897493"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70086",
+    "content": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+    "subtitle": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-70092",
     "version": 3,
     "priority": "low",
@@ -255,6 +467,88 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-70103",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-03T04:59:00Z",
+      "lastModification": "2026-04-03T04:59:00Z",
+      "availability": {
+        "from": "2026-03-27T07:49:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-03T04:59:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-11T19:50:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70103",
+        "content": "At Flemington Station Lift 1 between the footbridge and The Crescent is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8477.",
+        "subtitle": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
+        "smsText": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
+        "speechText": "At Flemington Station Lift 1 between the footbridge and The Crescent is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8477."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "b59af75f-e6e3-56fd-bb6e-b8b04c725f65",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214020",
+      "providerCode": "TfNSW",
+      "smsText": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
+      "speechText": "At Flemington Station Lift 1 between the footbridge and The Crescent is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8477."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214020",
+          "isGlobalId": true,
+          "name": "Flemington Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95356002:1",
+            "name": "Homebush West",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101217"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "214020:L518",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9282131168"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70103",
+    "content": "At Flemington Station Lift 1 between the footbridge and The Crescent is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8477.",
+    "subtitle": "Flemington Station Lift 1 between the footbridge and The Crescent is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-70131",
     "version": 2,
     "priority": "low",
@@ -334,88 +628,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-70131",
     "content": "At Ingleburn Station Lift 3 between the footbridge and Stanley Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845.",
     "subtitle": "Ingleburn Station Lift 3 between the footbridge and Stanley Rd is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70086",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-02T12:02:00Z",
-      "lastModification": "2026-04-02T12:02:00Z",
-      "availability": {
-        "from": "2026-03-26T14:52:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-02T12:02:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-11T02:52:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70086",
-        "content": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
-        "subtitle": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-        "smsText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-        "speechText": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "a3f9b289-610b-5cb9-8ce0-24526b088f87",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200080:2000405,2000406",
-      "providerCode": "TfNSW",
-      "smsText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-      "speechText": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200080",
-          "isGlobalId": true,
-          "name": "Wynyard Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101102"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "200080:L1568",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "7693897493"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70086",
-    "content": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
-    "subtitle": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available"
   },
   {
     "type": "infrastructure",
@@ -582,218 +794,6 @@
     "subtitle": "Schofields Station Lift 2 between the concourse and Railway Tce is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-70103",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-03T04:59:00Z",
-      "lastModification": "2026-04-03T04:59:00Z",
-      "availability": {
-        "from": "2026-03-27T07:49:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-03T04:59:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-11T19:50:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70103",
-        "content": "At Flemington Station Lift 1 between the footbridge and The Crescent is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8477.",
-        "subtitle": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
-        "smsText": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
-        "speechText": "At Flemington Station Lift 1 between the footbridge and The Crescent is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8477."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "b59af75f-e6e3-56fd-bb6e-b8b04c725f65",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214020",
-      "providerCode": "TfNSW",
-      "smsText": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
-      "speechText": "At Flemington Station Lift 1 between the footbridge and The Crescent is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8477."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214020",
-          "isGlobalId": true,
-          "name": "Flemington Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95356002:1",
-            "name": "Homebush West",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101217"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "214020:L518",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9282131168"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Flemington Station Lift 1 between the footbridge and The Crescent is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70103",
-    "content": "At Flemington Station Lift 1 between the footbridge and The Crescent is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8477.",
-    "subtitle": "Flemington Station Lift 1 between the footbridge and The Crescent is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
-  },
-  {
     "type": "lineInfo",
     "id": "ems-67494",
     "version": 14031,
@@ -883,88 +883,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-67494",
     "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
     "subtitle": "Manly Fast Ferry altered timetable"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70132",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-05T02:06:00Z",
-      "lastModification": "2026-04-05T02:06:00Z",
-      "availability": {
-        "from": "2024-02-23T16:09:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-05T02:06:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-13T16:57:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70132",
-        "content": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440.",
-        "subtitle": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "smsText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "speechText": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "70fcc412-3d03-5904-80b9-0adb2ab627c1",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "207110:207110,207191,207192",
-      "providerCode": "TfNSW",
-      "smsText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-      "speechText": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "207110",
-          "isGlobalId": true,
-          "name": "Killara Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95330004:1",
-            "name": "Killara",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101120"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "207110:L1442",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "11328454300"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70132",
-    "content": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440.",
-    "subtitle": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
