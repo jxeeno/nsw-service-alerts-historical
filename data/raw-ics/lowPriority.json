@@ -1,6 +1,300 @@
 [
   {
     "type": "infrastructure",
+    "id": "ems-70396",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-10T07:41:00Z",
+      "lastModification": "2026-04-10T07:41:00Z",
+      "availability": {
+        "from": "2026-04-03T10:31:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-10T07:41:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-18T22:32:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70396",
+        "content": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
+        "subtitle": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "smsText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "86c861fa-6054-5c5f-8dea-0c92dabec199",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214410:2144243,2144244",
+      "providerCode": "TfNSW",
+      "smsText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214410",
+          "isGlobalId": true,
+          "name": "Auburn Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95304001:1",
+            "name": "Auburn",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101219"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "214410:L167",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "4943300321"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70396",
+    "content": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
+    "subtitle": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-70384",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-10T01:26:00Z",
+      "lastModification": "2026-04-10T01:26:00Z",
+      "availability": {
+        "from": "2026-04-03T04:16:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-10T01:26:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-18T16:17:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70384",
+        "content": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
+        "subtitle": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+        "smsText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+        "speechText": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "0ec00f31-b119-5a6d-aa56-dac5be3d588d",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214240",
+      "providerCode": "TfNSW",
+      "smsText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+      "speechText": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214240",
+          "isGlobalId": true,
+          "name": "Granville Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346007:1",
+            "name": "Granville",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101227"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "214240:L217",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "4692878097"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70384",
+    "content": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
+    "subtitle": "Granville Station Lift 4 between the concourse and Railway Pde is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-68260",
     "version": 78009,
     "priority": "low",
@@ -169,464 +463,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-159",
     "content": "<div>&nbsp; &nbsp;</div>",
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70396",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-10T07:41:00Z",
-      "lastModification": "2026-04-10T07:41:00Z",
-      "availability": {
-        "from": "2026-04-03T10:31:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-10T07:41:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-18T22:32:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70396",
-        "content": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
-        "subtitle": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-        "smsText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-        "speechText": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "86c861fa-6054-5c5f-8dea-0c92dabec199",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214410:2144243,2144244",
-      "providerCode": "TfNSW",
-      "smsText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-      "speechText": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214410",
-          "isGlobalId": true,
-          "name": "Auburn Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95304001:1",
-            "name": "Auburn",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101219"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "214410:L167",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "4943300321"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70396",
-    "content": "At Auburn Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9206.",
-    "subtitle": "Auburn Station Lift 1 between the concourse and Platform 3/4 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70384",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-10T01:26:00Z",
-      "lastModification": "2026-04-10T01:26:00Z",
-      "availability": {
-        "from": "2026-04-03T04:16:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-10T01:26:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-18T16:17:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70384",
-        "content": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
-        "subtitle": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-        "smsText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-        "speechText": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "0ec00f31-b119-5a6d-aa56-dac5be3d588d",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214240",
-      "providerCode": "TfNSW",
-      "smsText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-      "speechText": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214240",
-          "isGlobalId": true,
-          "name": "Granville Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95346007:1",
-            "name": "Granville",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101227"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "214240:L217",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "4692878097"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Granville Station Lift 4 between the concourse and Railway Pde is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70384",
-    "content": "At Granville Station Lift 4 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
-    "subtitle": "Granville Station Lift 4 between the concourse and Railway Pde is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70348",
-    "version": 6,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-08T23:01:00Z",
-      "lastModification": "2026-04-08T23:01:00Z",
-      "availability": {
-        "from": "2026-04-08T23:01:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-08T23:01:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-17T13:51:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70348",
-        "content": "At St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525.",
-        "subtitle": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
-        "smsText": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
-        "speechText": "At St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2df0249c-33c7-507d-9a23-ec78a35918bc",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "276010",
-      "providerCode": "TfNSW",
-      "smsText": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
-      "speechText": "At St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "276010",
-          "isGlobalId": true,
-          "name": "St Marys Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95347021:1",
-            "name": "North St Marys",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101249"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "276010:L1617",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "11350233834"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70348",
-    "content": "At St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525.",
-    "subtitle": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70401",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-10T12:13:00Z",
-      "lastModification": "2026-04-10T12:13:00Z",
-      "availability": {
-        "from": "2026-04-03T15:03:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-10T12:13:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-19T03:04:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70401",
-        "content": "At Ashfield Station Lift 6 between Brown St and the multi-storey car park is temporarily out of service.",
-        "subtitle": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
-        "smsText": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
-        "speechText": "At Ashfield Station Lift 6 between Brown St and the multi-storey car park is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "16b0bbf7-4846-5064-aef7-6772d613fd3c",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "213110",
-      "providerCode": "TfNSW",
-      "smsText": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
-      "speechText": "At Ashfield Station Lift 6 between Brown St and the multi-storey car park is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "213110",
-          "isGlobalId": true,
-          "name": "Ashfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95303001:1",
-            "name": "Ashfield",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101209"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "213110:L686",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "11367681294"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70401",
-    "content": "At Ashfield Station Lift 6 between Brown St and the multi-storey car park is temporarily out of service.",
-    "subtitle": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
@@ -799,5 +635,169 @@
     "url": "https://transportnsw.info/alerts/details#/ems-67494",
     "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
     "subtitle": "Manly Fast Ferry altered timetable"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-70401",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-10T12:13:00Z",
+      "lastModification": "2026-04-10T12:13:00Z",
+      "availability": {
+        "from": "2026-04-03T15:03:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-10T12:13:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-19T03:04:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70401",
+        "content": "At Ashfield Station Lift 6 between Brown St and the multi-storey car park is temporarily out of service.",
+        "subtitle": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
+        "smsText": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
+        "speechText": "At Ashfield Station Lift 6 between Brown St and the multi-storey car park is temporarily out of service."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "16b0bbf7-4846-5064-aef7-6772d613fd3c",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213110",
+      "providerCode": "TfNSW",
+      "smsText": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
+      "speechText": "At Ashfield Station Lift 6 between Brown St and the multi-storey car park is temporarily out of service."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "213110",
+          "isGlobalId": true,
+          "name": "Ashfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95303001:1",
+            "name": "Ashfield",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101209"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "213110:L686",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "11367681294"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70401",
+    "content": "At Ashfield Station Lift 6 between Brown St and the multi-storey car park is temporarily out of service.",
+    "subtitle": "Ashfield Station Lift 6 between Brown St and the multi-storey car park is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-70348",
+    "version": 6,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-08T23:01:00Z",
+      "lastModification": "2026-04-08T23:01:00Z",
+      "availability": {
+        "from": "2026-04-08T23:01:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-08T23:01:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-17T13:51:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70348",
+        "content": "At St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525.",
+        "subtitle": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
+        "smsText": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
+        "speechText": "At St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "2df0249c-33c7-507d-9a23-ec78a35918bc",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "276010",
+      "providerCode": "TfNSW",
+      "smsText": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
+      "speechText": "At St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "276010",
+          "isGlobalId": true,
+          "name": "St Marys Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95347021:1",
+            "name": "North St Marys",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101249"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "276010:L1617",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "11350233834"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70348",
+    "content": "At St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7525.",
+    "subtitle": "St Marys Station Lift 6 between Forrester Rd and the multi-storey car park is not available"
   }
 ]
