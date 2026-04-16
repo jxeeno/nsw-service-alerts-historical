@@ -1,82 +1,94 @@
 [
   {
-    "type": "infrastructure",
-    "id": "ems-70698",
-    "version": 57,
+    "type": "lineInfo",
+    "id": "ems-67494",
+    "version": 14031,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-04-15T01:50:00Z",
-      "lastModification": "2026-04-15T01:51:00Z",
+      "creation": "2026-02-15T22:18:00Z",
+      "lastModification": "2026-02-16T02:12:00Z",
       "availability": {
-        "from": "2026-03-23T19:33:00Z",
-        "to": "2026-09-24T16:34:00Z"
+        "from": "2026-02-15T15:00:00Z",
+        "to": "2026-07-09T16:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-04-15T01:50:00Z",
-          "to": "2026-09-24T16:34:00Z"
+          "from": "2026-03-01T15:00:00Z",
+          "to": "2026-07-09T16:00:00Z"
         }
       ],
-      "expiration": "2026-09-24T16:34:59Z"
+      "expiration": "2026-07-09T16:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
-        "url": "https://transportnsw.info/alerts/details#/ems-70698",
-        "content": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
-        "subtitle": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
-        "smsText": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
-        "speechText": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n\n\nAt Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr use the opposite accessible entry/exit ramp via Bank Street.\nFor urgent assistance:\nUse the Help Point if on the platform\nOr call 131 500"
+        "urlText": "Manly Fast Ferry altered timetable",
+        "url": "https://transportnsw.info/alerts/details#/ems-67494",
+        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+        "subtitle": "Manly Fast Ferry altered timetable",
+        "smsText": "Manly Fast Ferry altered timetable",
+        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "daf436dd-e0e6-5a61-8497-269f5543412e",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
+      "Others": "speedRestrictions",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200952:200938",
       "providerCode": "TfNSW",
-      "smsText": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
-      "speechText": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n\n\nAt Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr use the opposite accessible entry/exit ramp via Bank Street.\nFor urgent assistance:\nUse the Help Point if on the platform\nOr call 131 500"
+      "smsText": "Manly Fast Ferry altered timetable",
+      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "200952",
-          "isGlobalId": true,
-          "name": "Bank Street Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
+          "id": "nsw:05MFF: :H:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101635"
-          }
-        }
-      ],
-      "Infrastructures": [
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
+        },
         {
-          "name": "200952:L1363",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "5691952430"
-            }
-          ]
+          "id": "nsw:05MFF: :R:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
-    "url": "https://transportnsw.info/alerts/details#/ems-70698",
-    "content": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
-    "subtitle": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ"
+    "urlText": "Manly Fast Ferry altered timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-67494",
+    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+    "subtitle": "Manly Fast Ferry altered timetable"
   },
   {
     "type": "infrastructure",
@@ -161,34 +173,32 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-70788",
-    "version": 5,
+    "id": "ems-70478",
+    "version": 464,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-04-16T19:19:00Z",
-      "lastModification": "2026-04-16T19:19:00Z",
+      "creation": "2026-04-12T22:02:00Z",
+      "lastModification": "2026-04-12T22:10:00Z",
       "availability": {
-        "from": "2026-03-30T06:49:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
+        "from": "2026-04-06T15:02:00Z",
+        "to": "2026-04-24T15:02:00Z"
       },
       "validity": [
         {
-          "from": "2026-04-16T19:19:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
+          "from": "2026-04-12T22:02:00Z",
+          "to": "2026-04-24T15:02:00Z"
         }
       ],
-      "expiration": "2505-05-14T18:52:59Z"
+      "expiration": "2026-04-24T15:02:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70788",
-        "content": "At Metford Station Lift 2 between the footbridge and McCubbin Cl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4933 7902.",
-        "subtitle": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
-        "smsText": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
-        "speechText": "At Metford Station Lift 2 between the footbridge and McCubbin Cl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4933 7902."
+        "urlText": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70478",
+        "content": "At Town Hall Station Escalator 1 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+        "subtitle": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
+        "smsText": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
+        "speechText": "At Town Hall Station Escalator 1 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
       }
     ],
     "properties": {
@@ -197,49 +207,356 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "69b64770-72e2-544d-8f9e-d6247e6c7537",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "bf8c988e-5e31-5e09-9c14-d2498bee64f1",
+      "EquipmentReason": "escalatorFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "232310",
+      "stopIDglobalID": "200070:2000395,2000396",
       "providerCode": "TfNSW",
-      "smsText": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
-      "speechText": "At Metford Station Lift 2 between the footbridge and McCubbin Cl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4933 7902."
+      "smsText": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
+      "speechText": "At Town Hall Station Escalator 1 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
     },
     "affected": {
       "stops": [
         {
-          "id": "232310",
+          "id": "200070",
           "isGlobalId": true,
-          "name": "Metford Station",
+          "name": "Town Hall Station",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101101"
+          }
+        }
+      ]
+    },
+    "urlText": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70478",
+    "content": "At Town Hall Station Escalator 1 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+    "subtitle": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-70698",
+    "version": 57,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-15T01:50:00Z",
+      "lastModification": "2026-04-15T01:51:00Z",
+      "availability": {
+        "from": "2026-03-23T19:33:00Z",
+        "to": "2026-09-24T16:34:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-15T01:50:00Z",
+          "to": "2026-09-24T16:34:00Z"
+        }
+      ],
+      "expiration": "2026-09-24T16:34:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
+        "url": "https://transportnsw.info/alerts/details#/ems-70698",
+        "content": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
+        "subtitle": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
+        "smsText": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
+        "speechText": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n\n\nAt Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr use the opposite accessible entry/exit ramp via Bank Street.\nFor urgent assistance:\nUse the Help Point if on the platform\nOr call 131 500"
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "daf436dd-e0e6-5a61-8497-269f5543412e",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200952:200938",
+      "providerCode": "TfNSW",
+      "smsText": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
+      "speechText": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n\n\nAt Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\nFor your safety, do not use even if doors open.\n \nAlternative access:\nUse the stairs, if able to\nOr use the opposite accessible entry/exit ramp via Bank Street.\nFor urgent assistance:\nUse the Help Point if on the platform\nOr call 131 500"
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200952",
+          "isGlobalId": true,
+          "name": "Bank Street Light Rail",
           "type": "stop",
           "parent": {
-            "id": "placeID:95336011:1",
-            "name": "East Maitland",
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101174"
+            "stopId": "10101635"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "232310:L1216",
+          "name": "200952:L1363",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "10698478926"
+              "id": "5691952430"
             }
           ]
         }
       ]
     },
-    "urlText": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70788",
-    "content": "At Metford Station Lift 2 between the footbridge and McCubbin Cl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4933 7902.",
-    "subtitle": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available"
+    "urlText": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ",
+    "url": "https://transportnsw.info/alerts/details#/ems-70698",
+    "content": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
+    "subtitle": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-70782",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-16T10:30:00Z",
+      "lastModification": "2026-04-16T10:30:00Z",
+      "availability": {
+        "from": "2026-04-09T13:20:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-16T10:30:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-25T01:20:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70782",
+        "content": "At Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7986.",
+        "subtitle": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
+        "smsText": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
+        "speechText": "At Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7986."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "fd6b4a74-6fa9-53a9-92c2-7879bd2d1e93",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "220510",
+      "providerCode": "TfNSW",
+      "smsText": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
+      "speechText": "At Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7986."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "220510",
+          "isGlobalId": true,
+          "name": "Wolli Creek Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95351019:1",
+            "name": "Wolli Creek",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101328"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "220510:L895",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "5695605101"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70782",
+    "content": "At Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7986.",
+    "subtitle": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-70793",
+    "version": 5,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-16T22:04:00Z",
+      "lastModification": "2026-04-16T22:04:00Z",
+      "availability": {
+        "from": "2026-04-10T00:54:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-16T22:04:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-25T12:55:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Carlton Station Lift 4 between Railway Pde and the footbridge is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70793",
+        "content": "At Carlton Station Lift 4 between Railway Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612.",
+        "subtitle": "Carlton Station Lift 4 between Railway Pde and the footbridge is not available",
+        "smsText": "Carlton Station Lift 4 between Railway Pde and the footbridge is not available",
+        "speechText": "At Carlton Station Lift 4 between Railway Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "dcf7a0c6-d227-5f10-b0fa-da9d4963849e",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "221810",
+      "providerCode": "TfNSW",
+      "smsText": "Carlton Station Lift 4 between Railway Pde and the footbridge is not available",
+      "speechText": "At Carlton Station Lift 4 between Railway Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "221810",
+          "isGlobalId": true,
+          "name": "Carlton Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95329002:1",
+            "name": "Carlton",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101337"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "221810:L783",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9544238083"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Carlton Station Lift 4 between Railway Pde and the footbridge is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70793",
+    "content": "At Carlton Station Lift 4 between Railway Pde and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7612.",
+    "subtitle": "Carlton Station Lift 4 between Railway Pde and the footbridge is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-70773",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-16T07:51:00Z",
+      "lastModification": "2026-04-16T07:51:00Z",
+      "availability": {
+        "from": "2026-04-09T10:41:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-16T07:51:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-05-24T22:41:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70773",
+        "content": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
+        "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+        "smsText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+        "speechText": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "cef5a9d7-1c03-59fe-a2fd-2a1dd077f3ee",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214610",
+      "providerCode": "TfNSW",
+      "smsText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+      "speechText": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214610",
+          "isGlobalId": true,
+          "name": "Toongabbie Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308040:1",
+            "name": "Toongabbie",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101233"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "214610:L401",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9203644825"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70773",
+    "content": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
+    "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available"
   },
   {
     "type": "lineInfo",
@@ -372,313 +689,6 @@
     "subtitle": "Bikes permitted with fees."
   },
   {
-    "type": "infrastructure",
-    "id": "ems-70773",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-16T07:51:00Z",
-      "lastModification": "2026-04-16T07:51:00Z",
-      "availability": {
-        "from": "2026-04-09T10:41:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-16T07:51:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-24T22:41:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70773",
-        "content": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
-        "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-        "smsText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-        "speechText": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "cef5a9d7-1c03-59fe-a2fd-2a1dd077f3ee",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214610",
-      "providerCode": "TfNSW",
-      "smsText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-      "speechText": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214610",
-          "isGlobalId": true,
-          "name": "Toongabbie Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308040:1",
-            "name": "Toongabbie",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101233"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "214610:L401",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9203644825"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70773",
-    "content": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
-    "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70782",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-16T10:30:00Z",
-      "lastModification": "2026-04-16T10:30:00Z",
-      "availability": {
-        "from": "2026-04-09T13:20:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-16T10:30:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-25T01:20:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70782",
-        "content": "At Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7986.",
-        "subtitle": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
-        "smsText": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
-        "speechText": "At Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7986."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "fd6b4a74-6fa9-53a9-92c2-7879bd2d1e93",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "220510",
-      "providerCode": "TfNSW",
-      "smsText": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
-      "speechText": "At Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7986."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "220510",
-          "isGlobalId": true,
-          "name": "Wolli Creek Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95351019:1",
-            "name": "Wolli Creek",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101328"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "220510:L895",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "5695605101"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70782",
-    "content": "At Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7986.",
-    "subtitle": "Wolli Creek Station Lift 4 between the concourse and Discovery Point Pl is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-68260",
-    "version": 78009,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-03-02T02:44:00Z",
-      "lastModification": "2026-03-03T00:24:00Z",
-      "availability": {
-        "from": "2026-03-02T02:40:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-02T02:40:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-        "url": "https://transportnsw.info/alerts/details#/ems-68260",
-        "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service.\n\n<br/><div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the stairs, if able to</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or use the lift opposite on Parramatta Road.</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Help Point if on the platform</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or call 131 500</div>\n</div>",
-        "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-        "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-        "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "19fdc80c-0038-5719-81fc-a910bb611ce4",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "204093",
-      "providerCode": "TfNSW",
-      "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-      "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "204093",
-          "isGlobalId": true,
-          "name": "Taverners Hill Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95333005:1",
-            "name": "Leichhardt",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101626"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "204093:L1538",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "5692024867"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
-    "url": "https://transportnsw.info/alerts/details#/ems-68260",
-    "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service.\n\n<br/><div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the stairs, if able to</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or use the lift opposite on Parramatta Road.</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Help Point if on the platform</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or call 131 500</div>\n</div>",
-    "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-70478",
-    "version": 464,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-12T22:02:00Z",
-      "lastModification": "2026-04-12T22:10:00Z",
-      "availability": {
-        "from": "2026-04-06T15:02:00Z",
-        "to": "2026-04-24T15:02:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-12T22:02:00Z",
-          "to": "2026-04-24T15:02:00Z"
-        }
-      ],
-      "expiration": "2026-04-24T15:02:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-70478",
-        "content": "At Town Hall Station Escalator 1 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-        "subtitle": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
-        "smsText": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
-        "speechText": "At Town Hall Station Escalator 1 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "bf8c988e-5e31-5e09-9c14-d2498bee64f1",
-      "EquipmentReason": "escalatorFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200070:2000395,2000396",
-      "providerCode": "TfNSW",
-      "smsText": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
-      "speechText": "At Town Hall Station Escalator 1 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200070",
-          "isGlobalId": true,
-          "name": "Town Hall Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101101"
-          }
-        }
-      ]
-    },
-    "urlText": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-70478",
-    "content": "At Town Hall Station Escalator 1 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-    "subtitle": "Town Hall Station Escalator 1 between the concourse and Platform 5/6 is not available"
-  },
-  {
     "type": "lineInfo",
     "id": "ems-159",
     "version": 19017138,
@@ -769,94 +779,166 @@
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
-    "type": "lineInfo",
-    "id": "ems-67494",
-    "version": 14031,
+    "type": "infrastructure",
+    "id": "ems-70788",
+    "version": 5,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-02-15T22:18:00Z",
-      "lastModification": "2026-02-16T02:12:00Z",
+      "creation": "2026-04-16T19:19:00Z",
+      "lastModification": "2026-04-16T19:19:00Z",
       "availability": {
-        "from": "2026-02-15T15:00:00Z",
-        "to": "2026-07-09T16:00:00Z"
+        "from": "2026-03-30T06:49:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-01T15:00:00Z",
-          "to": "2026-07-09T16:00:00Z"
+          "from": "2026-04-16T19:19:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-07-09T16:00:59Z"
+      "expiration": "2505-05-14T18:52:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Manly Fast Ferry altered timetable",
-        "url": "https://transportnsw.info/alerts/details#/ems-67494",
-        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-        "subtitle": "Manly Fast Ferry altered timetable",
-        "smsText": "Manly Fast Ferry altered timetable",
-        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+        "urlText": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-70788",
+        "content": "At Metford Station Lift 2 between the footbridge and McCubbin Cl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4933 7902.",
+        "subtitle": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
+        "smsText": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
+        "speechText": "At Metford Station Lift 2 between the footbridge and McCubbin Cl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4933 7902."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
-      "Others": "speedRestrictions",
+      "messageRef": "69b64770-72e2-544d-8f9e-d6247e6c7537",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "232310",
       "providerCode": "TfNSW",
-      "smsText": "Manly Fast Ferry altered timetable",
-      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+      "smsText": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
+      "speechText": "At Metford Station Lift 2 between the footbridge and McCubbin Cl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4933 7902."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:05MFF: :H:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
+          "id": "232310",
+          "isGlobalId": true,
+          "name": "Metford Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95336011:1",
+            "name": "East Maitland",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Circular Quay to Manly",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
-        },
+          "properties": {
+            "stopId": "10101174"
+          }
+        }
+      ],
+      "Infrastructures": [
         {
-          "id": "nsw:05MFF: :R:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Manly to Circular Quay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
+          "name": "232310:L1216",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "10698478926"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Manly Fast Ferry altered timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-67494",
-    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-    "subtitle": "Manly Fast Ferry altered timetable"
+    "urlText": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-70788",
+    "content": "At Metford Station Lift 2 between the footbridge and McCubbin Cl is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4933 7902.",
+    "subtitle": "Metford Station Lift 2 between the footbridge and McCubbin Cl is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-68260",
+    "version": 78009,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-03-02T02:44:00Z",
+      "lastModification": "2026-03-03T00:24:00Z",
+      "availability": {
+        "from": "2026-03-02T02:40:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-03-02T02:40:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+        "url": "https://transportnsw.info/alerts/details#/ems-68260",
+        "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service.\n\n<br/><div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the stairs, if able to</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or use the lift opposite on Parramatta Road.</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Help Point if on the platform</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or call 131 500</div>\n</div>",
+        "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+        "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+        "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "19fdc80c-0038-5719-81fc-a910bb611ce4",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "204093",
+      "providerCode": "TfNSW",
+      "smsText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+      "speechText": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "204093",
+          "isGlobalId": true,
+          "name": "Taverners Hill Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95333005:1",
+            "name": "Leichhardt",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101626"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "204093:L1538",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "5692024867"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ",
+    "url": "https://transportnsw.info/alerts/details#/ems-68260",
+    "content": "At Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is temporarily out of service.\n\n<br/><div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the stairs, if able to</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or use the lift opposite on Parramatta Road.</div>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Use the Help Point if on the platform</div>\n<div>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Or call 131 500</div>\n</div>",
+    "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ"
   }
 ]
