@@ -1,85 +1,94 @@
 [
   {
-    "type": "infrastructure",
-    "id": "ems-71143",
-    "version": 7,
+    "type": "lineInfo",
+    "id": "ems-67494",
+    "version": 14031,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-04-24T03:15:00Z",
-      "lastModification": "2026-04-24T03:15:00Z",
+      "creation": "2026-02-15T22:18:00Z",
+      "lastModification": "2026-02-16T02:12:00Z",
       "availability": {
-        "from": "2026-04-17T06:05:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
+        "from": "2026-02-15T15:00:00Z",
+        "to": "2026-07-09T16:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-04-24T03:15:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
+          "from": "2026-03-01T15:00:00Z",
+          "to": "2026-07-09T16:00:00Z"
         }
       ],
-      "expiration": "2505-06-01T18:06:59Z"
+      "expiration": "2026-07-09T16:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71143",
-        "content": "At Chatswood Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311.",
-        "subtitle": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "smsText": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "speechText": "At Chatswood Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311."
+        "urlText": "Manly Fast Ferry altered timetable",
+        "url": "https://transportnsw.info/alerts/details#/ems-67494",
+        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+        "subtitle": "Manly Fast Ferry altered timetable",
+        "smsText": "Manly Fast Ferry altered timetable",
+        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "d85bacfc-13a2-574e-90cd-6b3b522c4ec5",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
+      "Others": "speedRestrictions",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206710:2067141,2067142",
       "providerCode": "TfNSW",
-      "smsText": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Chatswood Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311."
+      "smsText": "Manly Fast Ferry altered timetable",
+      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "206710",
-          "isGlobalId": true,
-          "name": "Chatswood Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95362004:1",
-            "name": "Chatswood",
-            "type": "locality"
+          "id": "nsw:05MFF: :H:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101117"
-          }
-        }
-      ],
-      "Infrastructures": [
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
+        },
         {
-          "name": "206710:L364",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "4420554011"
-            }
-          ]
+          "id": "nsw:05MFF: :R:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71143",
-    "content": "At Chatswood Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311.",
-    "subtitle": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available"
+    "urlText": "Manly Fast Ferry altered timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-67494",
+    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+    "subtitle": "Manly Fast Ferry altered timetable"
   },
   {
     "type": "infrastructure",
@@ -164,88 +173,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-71135",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-23T22:47:00Z",
-      "lastModification": "2026-04-23T22:47:00Z",
-      "availability": {
-        "from": "2026-04-17T01:37:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-23T22:47:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-01T13:38:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71135",
-        "content": "At Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8417.",
-        "subtitle": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
-        "smsText": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
-        "speechText": "At Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8417."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "a19c0ac9-f9a9-53b5-9294-2f3aaab04477",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "211920:211920,211992",
-      "providerCode": "TfNSW",
-      "smsText": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
-      "speechText": "At Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8417."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "211920",
-          "isGlobalId": true,
-          "name": "Cheltenham Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95325011:1",
-            "name": "Cheltenham",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101198"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "211920:L998",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "5315802243"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71135",
-    "content": "At Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8417.",
-    "subtitle": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-70698",
     "version": 57,
     "priority": "low",
@@ -322,6 +249,96 @@
     "url": "https://transportnsw.info/alerts/details#/ems-70698",
     "content": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
     "subtitle": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
+      "availability": {
+        "from": "2021-11-19T03:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T03:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
     "type": "infrastructure",
@@ -699,94 +716,86 @@
     "subtitle": "Woolooware Station Lift 1 between the footbridge and Hagger Park/Denman Ave is not available"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
+    "type": "infrastructure",
+    "id": "ems-71135",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
+      "creation": "2026-04-23T22:47:00Z",
+      "lastModification": "2026-04-23T22:47:00Z",
       "availability": {
-        "from": "2021-11-19T03:00:00Z",
+        "from": "2026-04-17T01:37:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T03:00:00Z",
+          "from": "2026-04-23T22:47:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-06-01T13:38:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+        "urlText": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71135",
+        "content": "At Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8417.",
+        "subtitle": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
+        "smsText": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
+        "speechText": "At Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8417."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "messageRef": "a19c0ac9-f9a9-53b5-9294-2f3aaab04477",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "211920:211920,211992",
       "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      "smsText": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
+      "speechText": "At Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8417."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
+          "id": "211920",
+          "isGlobalId": true,
+          "name": "Cheltenham Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325011:1",
+            "name": "Cheltenham",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
+          "properties": {
+            "stopId": "10101198"
+          }
+        }
+      ],
+      "Infrastructures": [
         {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
+          "name": "211920:L998",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "5315802243"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    "urlText": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71135",
+    "content": "At Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8417.",
+    "subtitle": "Cheltenham Station Lift 2 between Cheltenham Rd and Platform 2 is not available"
   },
   {
     "type": "infrastructure",
@@ -851,6 +860,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71142",
     "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
     "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71143",
+    "version": 7,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-24T03:15:00Z",
+      "lastModification": "2026-04-24T03:15:00Z",
+      "availability": {
+        "from": "2026-04-17T06:05:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-24T03:15:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-01T18:06:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71143",
+        "content": "At Chatswood Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311.",
+        "subtitle": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "smsText": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Chatswood Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "d85bacfc-13a2-574e-90cd-6b3b522c4ec5",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "206710:2067141,2067142",
+      "providerCode": "TfNSW",
+      "smsText": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Chatswood Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "206710",
+          "isGlobalId": true,
+          "name": "Chatswood Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95362004:1",
+            "name": "Chatswood",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101117"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "206710:L364",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "4420554011"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71143",
+    "content": "At Chatswood Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 3311.",
+    "subtitle": "Chatswood Station Lift 2 between the concourse and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
@@ -1096,96 +1187,5 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71101",
     "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
     "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-67494",
-    "version": 14031,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-02-15T22:18:00Z",
-      "lastModification": "2026-02-16T02:12:00Z",
-      "availability": {
-        "from": "2026-02-15T15:00:00Z",
-        "to": "2026-07-09T16:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-03-01T15:00:00Z",
-          "to": "2026-07-09T16:00:00Z"
-        }
-      ],
-      "expiration": "2026-07-09T16:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Manly Fast Ferry altered timetable",
-        "url": "https://transportnsw.info/alerts/details#/ems-67494",
-        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-        "subtitle": "Manly Fast Ferry altered timetable",
-        "smsText": "Manly Fast Ferry altered timetable",
-        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
-      "Others": "speedRestrictions",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Manly Fast Ferry altered timetable",
-      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:05MFF: :H:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Circular Quay to Manly",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:05MFF: :R:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Manly to Circular Quay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Manly Fast Ferry altered timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-67494",
-    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-    "subtitle": "Manly Fast Ferry altered timetable"
   }
 ]
