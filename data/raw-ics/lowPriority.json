@@ -81,95 +81,86 @@
     "subtitle": "Taverners Hill Light Rail Lift 2 between Parramatta Rd (south side) and the footbridge is not available\n\nㅤ"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-67494",
-    "version": 14031,
+    "type": "infrastructure",
+    "id": "ems-71101",
+    "version": 5498,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-02-15T22:18:00Z",
-      "lastModification": "2026-02-16T02:12:00Z",
+      "creation": "2026-04-22T21:51:00Z",
+      "lastModification": "2026-04-22T23:22:00Z",
       "availability": {
-        "from": "2026-02-15T15:00:00Z",
-        "to": "2026-07-09T16:00:00Z"
+        "from": "2026-04-16T00:41:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-01T15:00:00Z",
-          "to": "2026-07-09T16:00:00Z"
+          "from": "2026-04-22T21:51:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-07-09T16:00:59Z"
+      "expiration": "2505-05-31T12:41:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Manly Fast Ferry altered timetable",
-        "url": "https://transportnsw.info/alerts/details#/ems-67494",
-        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-        "subtitle": "Manly Fast Ferry altered timetable",
-        "smsText": "Manly Fast Ferry altered timetable",
-        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+        "urlText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71101",
+        "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+        "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+        "smsText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+        "speechText": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
-      "Others": "speedRestrictions",
+      "messageRef": "eadb64be-335c-5497-ad1a-4a82145c53b1",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200070:2000391,2000392,2000394",
       "providerCode": "TfNSW",
-      "smsText": "Manly Fast Ferry altered timetable",
-      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+      "smsText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+      "speechText": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:05MFF: :H:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
+          "id": "200070",
+          "isGlobalId": true,
+          "name": "Town Hall Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Circular Quay to Manly",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
-        },
+          "properties": {
+            "stopId": "10101101"
+          }
+        }
+      ],
+      "Infrastructures": [
         {
-          "id": "nsw:05MFF: :R:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Manly to Circular Quay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
+          "name": "200070:L1329",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9787541559"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Manly Fast Ferry altered timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-67494",
-    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-    "subtitle": "Manly Fast Ferry altered timetable"
+    "urlText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71101",
+    "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+    "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available"
   },
   {
     "type": "infrastructure",
@@ -249,6 +240,170 @@
     "url": "https://transportnsw.info/alerts/details#/ems-70698",
     "content": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
     "subtitle": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71169",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-24T08:57:00Z",
+      "lastModification": "2026-04-24T08:57:00Z",
+      "availability": {
+        "from": "2026-04-17T11:47:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-24T08:57:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-01T23:47:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71169",
+        "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+        "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+        "smsText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+        "speechText": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "05b53a92-c5d3-5608-8f90-03cca508d914",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200070:2000391,2000392,2000394",
+      "providerCode": "TfNSW",
+      "smsText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+      "speechText": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200070",
+          "isGlobalId": true,
+          "name": "Town Hall Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101101"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "200070:L1329",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9787541559"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71169",
+    "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
+    "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71222",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-25T22:24:00Z",
+      "lastModification": "2026-04-25T22:24:00Z",
+      "availability": {
+        "from": "2026-04-19T01:14:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-25T22:24:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-03T13:14:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71222",
+        "content": "At Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7203.",
+        "subtitle": "Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "smsText": "Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7203."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "e86cb802-10aa-5575-a9f9-6ae33490aacf",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214530:2145643,2145644",
+      "providerCode": "TfNSW",
+      "smsText": "Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7203."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214530",
+          "isGlobalId": true,
+          "name": "Pendle Hill Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346014:1",
+            "name": "Pendle Hill",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101232"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "214530:L324",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9201676060"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71222",
+    "content": "At Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7203.",
+    "subtitle": "Pendle Hill Station Lift 2 between the concourse and Platform 3/4 is not available"
   },
   {
     "type": "lineInfo",
@@ -463,34 +618,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-71169",
-    "version": 4,
+    "id": "ems-71142",
+    "version": 5,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-04-24T08:57:00Z",
-      "lastModification": "2026-04-24T08:57:00Z",
+      "creation": "2026-04-24T03:15:00Z",
+      "lastModification": "2026-04-24T03:15:00Z",
       "availability": {
-        "from": "2026-04-17T11:47:00Z",
+        "from": "2026-04-17T06:05:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-04-24T08:57:00Z",
+          "from": "2026-04-24T03:15:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-06-01T23:47:59Z"
+      "expiration": "2505-06-01T18:06:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71169",
-        "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-        "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-        "smsText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-        "speechText": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
+        "urlText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71142",
+        "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+        "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+        "smsText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
       }
     ],
     "properties": {
@@ -499,49 +654,31 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "05b53a92-c5d3-5608-8f90-03cca508d914",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "023bd3cc-dc4e-5538-b045-a0b4fe166508",
+      "EquipmentReason": "escalatorFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200070:2000391,2000392,2000394",
+      "stopIDglobalID": "200030:2000361,2000362",
       "providerCode": "TfNSW",
-      "smsText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-      "speechText": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
+      "smsText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
     },
     "affected": {
       "stops": [
         {
-          "id": "200070",
+          "id": "200030",
           "isGlobalId": true,
-          "name": "Town Hall Station",
+          "name": "Martin Place Station",
           "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
           "properties": {
-            "stopId": "10101101"
+            "stopId": "10101106"
           }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "200070:L1329",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9787541559"
-            }
-          ]
         }
       ]
     },
-    "urlText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71169",
-    "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-    "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available"
+    "urlText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71142",
+    "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+    "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available"
   },
   {
     "type": "lineInfo",
@@ -635,152 +772,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-71142",
-    "version": 5,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-24T03:15:00Z",
-      "lastModification": "2026-04-24T03:15:00Z",
-      "availability": {
-        "from": "2026-04-17T06:05:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-24T03:15:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-01T18:06:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71142",
-        "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
-        "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-        "smsText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-        "speechText": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "023bd3cc-dc4e-5538-b045-a0b4fe166508",
-      "EquipmentReason": "escalatorFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200030:2000361,2000362",
-      "providerCode": "TfNSW",
-      "smsText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200030",
-          "isGlobalId": true,
-          "name": "Martin Place Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101106"
-          }
-        }
-      ]
-    },
-    "urlText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71142",
-    "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
-    "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-71101",
-    "version": 5498,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-22T21:51:00Z",
-      "lastModification": "2026-04-22T23:22:00Z",
-      "availability": {
-        "from": "2026-04-16T00:41:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-22T21:51:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-05-31T12:41:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71101",
-        "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-        "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-        "smsText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-        "speechText": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "eadb64be-335c-5497-ad1a-4a82145c53b1",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200070:2000391,2000392,2000394",
-      "providerCode": "TfNSW",
-      "smsText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-      "speechText": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200070",
-          "isGlobalId": true,
-          "name": "Town Hall Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101101"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "200070:L1329",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9787541559"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71101",
-    "content": "At Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4110.",
-    "subtitle": "Town Hall Station Lift 2 between the concourse and Platforms 1, 2 and 4 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-70557",
     "version": 2,
     "priority": "low",
@@ -859,5 +850,96 @@
     "url": "https://transportnsw.info/alerts/details#/ems-70557",
     "content": "At Leichhardt North Light Rail Lift between James St and the Light Rail stop is temporarily out of service.\n\n\n \n<br/><div>&nbsp;</div>\n<div>\n<div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit pathway via Charles Street.</li>\n</ul>\n<div>&nbsp;</div>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>\n</div>",
     "subtitle": "Leichhardt North Light Rail Lift between James St and the Light Rail stop is not available\n\nㅤ"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-67494",
+    "version": 14031,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-02-15T22:18:00Z",
+      "lastModification": "2026-02-16T02:12:00Z",
+      "availability": {
+        "from": "2026-02-15T15:00:00Z",
+        "to": "2026-07-09T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-03-01T15:00:00Z",
+          "to": "2026-07-09T16:00:00Z"
+        }
+      ],
+      "expiration": "2026-07-09T16:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Manly Fast Ferry altered timetable",
+        "url": "https://transportnsw.info/alerts/details#/ems-67494",
+        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+        "subtitle": "Manly Fast Ferry altered timetable",
+        "smsText": "Manly Fast Ferry altered timetable",
+        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
+      "Others": "speedRestrictions",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Manly Fast Ferry altered timetable",
+      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:05MFF: :H:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:05MFF: :R:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Manly Fast Ferry altered timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-67494",
+    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+    "subtitle": "Manly Fast Ferry altered timetable"
   }
 ]
