@@ -1,6 +1,152 @@
 [
   {
     "type": "infrastructure",
+    "id": "ems-71142",
+    "version": 5,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-24T03:15:00Z",
+      "lastModification": "2026-04-24T03:15:00Z",
+      "availability": {
+        "from": "2026-04-17T06:05:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-24T03:15:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-01T18:06:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71142",
+        "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+        "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+        "smsText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "023bd3cc-dc4e-5538-b045-a0b4fe166508",
+      "EquipmentReason": "escalatorFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200030:2000361,2000362",
+      "providerCode": "TfNSW",
+      "smsText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200030",
+          "isGlobalId": true,
+          "name": "Martin Place Station",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101106"
+          }
+        }
+      ]
+    },
+    "urlText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71142",
+    "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
+    "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71292",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-04-28T03:22:00Z",
+      "lastModification": "2026-04-28T03:22:00Z",
+      "availability": {
+        "from": "2026-04-21T06:12:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-04-28T03:22:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-05T18:12:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71292",
+        "content": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+        "subtitle": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+        "smsText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+        "speechText": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "536d009e-8c3b-5f26-9229-eea26b1d867b",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200080:2000405,2000406",
+      "providerCode": "TfNSW",
+      "smsText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+      "speechText": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200080",
+          "isGlobalId": true,
+          "name": "Wynyard Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301001:1",
+            "name": "Sydney",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101102"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "200080:L1568",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "7693897493"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71292",
+    "content": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
+    "subtitle": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-68260",
     "version": 78009,
     "priority": "low",
@@ -239,234 +385,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-70698",
     "content": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
     "subtitle": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-71291",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-28T02:49:00Z",
-      "lastModification": "2026-04-28T02:49:00Z",
-      "availability": {
-        "from": "2026-04-21T05:39:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-28T02:49:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-05T17:39:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71291",
-        "content": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997.",
-        "subtitle": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-        "smsText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-        "speechText": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "8e0062a1-3a90-5557-ae88-55abfb17ac7d",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206020:2060112",
-      "providerCode": "TfNSW",
-      "smsText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-      "speechText": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "206020",
-          "isGlobalId": true,
-          "name": "Waverton Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343011:1",
-            "name": "Waverton",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101113"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "206020:L156",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "4887412803"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71291",
-    "content": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997.",
-    "subtitle": "Waverton Station Lift 2 between the concourse and Platform 2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-71292",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-28T03:22:00Z",
-      "lastModification": "2026-04-28T03:22:00Z",
-      "availability": {
-        "from": "2026-04-21T06:12:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-28T03:22:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-05T18:12:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71292",
-        "content": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
-        "subtitle": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-        "smsText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-        "speechText": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "536d009e-8c3b-5f26-9229-eea26b1d867b",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200080:2000405,2000406",
-      "providerCode": "TfNSW",
-      "smsText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-      "speechText": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200080",
-          "isGlobalId": true,
-          "name": "Wynyard Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301001:1",
-            "name": "Sydney",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101102"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "200080:L1568",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "7693897493"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71292",
-    "content": "At Wynyard Station Lift 3 between the concourse and Platform 5/6 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9224 2959.",
-    "subtitle": "Wynyard Station Lift 3 between the concourse and Platform 5/6 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-71142",
-    "version": 5,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-04-24T03:15:00Z",
-      "lastModification": "2026-04-24T03:15:00Z",
-      "availability": {
-        "from": "2026-04-17T06:05:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-04-24T03:15:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-01T18:06:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71142",
-        "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
-        "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-        "smsText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-        "speechText": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "023bd3cc-dc4e-5538-b045-a0b4fe166508",
-      "EquipmentReason": "escalatorFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200030:2000361,2000362",
-      "providerCode": "TfNSW",
-      "smsText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200030",
-          "isGlobalId": true,
-          "name": "Martin Place Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101106"
-          }
-        }
-      ]
-    },
-    "urlText": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71142",
-    "content": "At Martin Place Station Escalator 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4858.",
-    "subtitle": "Martin Place Station Escalator 2 between the concourse and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
