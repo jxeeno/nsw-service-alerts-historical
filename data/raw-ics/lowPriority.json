@@ -1,88 +1,6 @@
 [
   {
     "type": "infrastructure",
-    "id": "ems-71712",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-05-05T07:08:00Z",
-      "lastModification": "2026-05-05T07:08:00Z",
-      "availability": {
-        "from": "2026-04-28T09:58:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-05T07:08:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-12T21:58:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71712",
-        "content": "At Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1396.",
-        "subtitle": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
-        "smsText": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
-        "speechText": "At Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1396."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "67532251-6cde-58bb-8959-c54199dbd791",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "223330:2233291,2233292",
-      "providerCode": "TfNSW",
-      "smsText": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
-      "speechText": "At Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1396."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "223330",
-          "isGlobalId": true,
-          "name": "Waterfall Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95357036:1",
-            "name": "Waterfall",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101355"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "223330:L887",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9800404449"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71712",
-    "content": "At Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1396.",
-    "subtitle": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-71574",
     "version": 83,
     "priority": "low",
@@ -142,6 +60,96 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71574",
     "content": "At Redfern Station Escalator 1 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398.",
     "subtitle": "Redfern Station Escalator 1 between the concourse and Platform 11/12 is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
+      "availability": {
+        "from": "2021-11-19T03:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T03:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
     "type": "infrastructure",
@@ -227,6 +235,88 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-71726",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-05-05T20:37:00Z",
+      "lastModification": "2026-05-05T20:37:00Z",
+      "availability": {
+        "from": "2024-03-25T10:41:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-05-05T20:37:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-13T11:28:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71726",
+        "content": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440.",
+        "subtitle": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "smsText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "speechText": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "ba66fb57-2d5e-5ccb-8453-adaaa2cb9458",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "207110:207110,207191,207192",
+      "providerCode": "TfNSW",
+      "smsText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
+      "speechText": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "207110",
+          "isGlobalId": true,
+          "name": "Killara Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95330004:1",
+            "name": "Killara",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101120"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "207110:L1442",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "11328454300"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71726",
+    "content": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440.",
+    "subtitle": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-71707",
     "version": 920,
     "priority": "low",
@@ -303,6 +393,68 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71707",
     "content": "At Bank Street Light Rail Lift between Miller St and the Light Rail stop is temporarily out of service.\n\n<br/><div>For your safety, do not use even if doors open.</div>\n<div>&nbsp;</div>\n<div>Alternative access:</div>\n<ul>\n<li>Use the stairs, if able to</li>\n<li>Or use the opposite accessible entry/exit ramp via Bank Street.</li>\n</ul>\n<div>For urgent assistance:</div>\n<ul>\n<li>Use the Help Point if on the platform</li>\n<li>Or call 131 500</li>\n</ul>",
     "subtitle": "Bank Street Light Rail Lift between Miller St and the Light Rail stop is not available\n\nㅤ"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71575",
+    "version": 27,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-05-04T01:45:00Z",
+      "lastModification": "2026-05-04T01:45:00Z",
+      "availability": {
+        "from": "2025-03-03T18:58:00Z",
+        "to": "2026-05-08T19:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-05-04T01:45:00Z",
+          "to": "2026-05-08T19:00:00Z"
+        }
+      ],
+      "expiration": "2026-05-08T19:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71575",
+        "content": "At Redfern Station Escalator 2 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398.",
+        "subtitle": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
+        "smsText": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
+        "speechText": "At Redfern Station Escalator 2 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "8f171ecc-9ec9-5b49-bc61-c011c40a96e0",
+      "EquipmentReason": "escalatorFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "201510:2015141,2015142",
+      "providerCode": "TfNSW",
+      "smsText": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
+      "speechText": "At Redfern Station Escalator 2 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "201510",
+          "isGlobalId": true,
+          "name": "Redfern Station",
+          "type": "stop",
+          "properties": {
+            "stopId": "10101421"
+          }
+        }
+      ]
+    },
+    "urlText": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71575",
+    "content": "At Redfern Station Escalator 2 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398.",
+    "subtitle": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available"
   },
   {
     "type": "infrastructure",
@@ -385,6 +537,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71714",
     "content": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
     "subtitle": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71564",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-05-03T22:20:00Z",
+      "lastModification": "2026-05-03T22:20:00Z",
+      "availability": {
+        "from": "2026-05-03T22:20:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-05-03T22:20:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-11T13:10:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71564",
+        "content": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service.",
+        "subtitle": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
+        "smsText": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
+        "speechText": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "18c88e93-fca1-50d3-928f-5dae29aac48b",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "250020",
+      "providerCode": "TfNSW",
+      "smsText": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
+      "speechText": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "250020",
+          "isGlobalId": true,
+          "name": "Wollongong Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95366063:1",
+            "name": "Wollongong",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101372"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "250020:L1559",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "11971321008"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71564",
+    "content": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service.",
+    "subtitle": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available"
   },
   {
     "type": "infrastructure",
@@ -681,6 +915,88 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-71725",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-05-05T20:35:00Z",
+      "lastModification": "2026-05-05T20:35:00Z",
+      "availability": {
+        "from": "2026-04-28T23:25:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-05-05T20:35:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-13T11:25:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71725",
+        "content": "At Parramatta Station Lift 3 between the western concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
+        "subtitle": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
+        "smsText": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
+        "speechText": "At Parramatta Station Lift 3 between the western concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "16b9ab31-0645-5125-971e-439c88fdb71c",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "215020:2150414",
+      "providerCode": "TfNSW",
+      "smsText": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
+      "speechText": "At Parramatta Station Lift 3 between the western concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "215020",
+          "isGlobalId": true,
+          "name": "Parramatta Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95346013:1",
+            "name": "Parramatta",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101229"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "215020:L275",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9198957683"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71725",
+    "content": "At Parramatta Station Lift 3 between the western concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
+    "subtitle": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-71570",
     "version": 2,
     "priority": "low",
@@ -763,424 +1079,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-71564",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-05-03T22:20:00Z",
-      "lastModification": "2026-05-03T22:20:00Z",
-      "availability": {
-        "from": "2026-05-03T22:20:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-03T22:20:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-11T13:10:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71564",
-        "content": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service.",
-        "subtitle": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
-        "smsText": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
-        "speechText": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "18c88e93-fca1-50d3-928f-5dae29aac48b",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "250020",
-      "providerCode": "TfNSW",
-      "smsText": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
-      "speechText": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "250020",
-          "isGlobalId": true,
-          "name": "Wollongong Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95366063:1",
-            "name": "Wollongong",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101372"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "250020:L1559",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "11971321008"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71564",
-    "content": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service.",
-    "subtitle": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-71724",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-05-05T20:23:00Z",
-      "lastModification": "2026-05-05T20:24:00Z",
-      "availability": {
-        "from": "2026-04-28T23:13:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-05T20:23:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-13T11:14:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71724",
-        "content": "At Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9287.",
-        "subtitle": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available",
-        "smsText": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available",
-        "speechText": "At Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9287."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "f4ac7a8f-9cef-5924-a780-b87d0dad5d48",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "216110",
-      "providerCode": "TfNSW",
-      "smsText": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available",
-      "speechText": "At Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9287."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "216110",
-          "isGlobalId": true,
-          "name": "Guildford Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95324003:1",
-            "name": "Guildford",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101283"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "216110:L521",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9093558097"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71724",
-    "content": "At Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9287.",
-    "subtitle": "Guildford Station Lift 1 between Military Rd, Platform 1 and the footbridge is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-71725",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-05-05T20:35:00Z",
-      "lastModification": "2026-05-05T20:35:00Z",
-      "availability": {
-        "from": "2026-04-28T23:25:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-05T20:35:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-13T11:25:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71725",
-        "content": "At Parramatta Station Lift 3 between the western concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
-        "subtitle": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
-        "smsText": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
-        "speechText": "At Parramatta Station Lift 3 between the western concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "16b9ab31-0645-5125-971e-439c88fdb71c",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "215020:2150414",
-      "providerCode": "TfNSW",
-      "smsText": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
-      "speechText": "At Parramatta Station Lift 3 between the western concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "215020",
-          "isGlobalId": true,
-          "name": "Parramatta Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95346013:1",
-            "name": "Parramatta",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101229"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "215020:L275",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9198957683"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71725",
-    "content": "At Parramatta Station Lift 3 between the western concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9387.",
-    "subtitle": "Parramatta Station Lift 3 between the western concourse and Platform 4 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
-      "availability": {
-        "from": "2021-11-19T03:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T03:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-71726",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-05-05T20:37:00Z",
-      "lastModification": "2026-05-05T20:37:00Z",
-      "availability": {
-        "from": "2024-03-25T10:41:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-05T20:37:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-13T11:28:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71726",
-        "content": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440.",
-        "subtitle": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "smsText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-        "speechText": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ba66fb57-2d5e-5ccb-8453-adaaa2cb9458",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "207110:207110,207191,207192",
-      "providerCode": "TfNSW",
-      "smsText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-      "speechText": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "207110",
-          "isGlobalId": true,
-          "name": "Killara Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95330004:1",
-            "name": "Killara",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101120"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "207110:L1442",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "11328454300"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71726",
-    "content": "At Killara Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8440.",
-    "subtitle": "Killara Station Lift 2 between the footbridge and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-71722",
     "version": 5,
     "priority": "low",
@@ -1260,68 +1158,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71722",
     "content": "At Strathfield Station Lift 5 between the concourse and Platform 7/8 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
     "subtitle": "Strathfield Station Lift 5 between the concourse and Platform 7/8 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-71575",
-    "version": 27,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-05-04T01:45:00Z",
-      "lastModification": "2026-05-04T01:45:00Z",
-      "availability": {
-        "from": "2025-03-03T18:58:00Z",
-        "to": "2026-05-08T19:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-04T01:45:00Z",
-          "to": "2026-05-08T19:00:00Z"
-        }
-      ],
-      "expiration": "2026-05-08T19:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71575",
-        "content": "At Redfern Station Escalator 2 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398.",
-        "subtitle": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
-        "smsText": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
-        "speechText": "At Redfern Station Escalator 2 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "8f171ecc-9ec9-5b49-bc61-c011c40a96e0",
-      "EquipmentReason": "escalatorFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "201510:2015141,2015142",
-      "providerCode": "TfNSW",
-      "smsText": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
-      "speechText": "At Redfern Station Escalator 2 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "201510",
-          "isGlobalId": true,
-          "name": "Redfern Station",
-          "type": "stop",
-          "properties": {
-            "stopId": "10101421"
-          }
-        }
-      ]
-    },
-    "urlText": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71575",
-    "content": "At Redfern Station Escalator 2 between the concourse and Platform 11/12 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1398.",
-    "subtitle": "Redfern Station Escalator 2 between the concourse and Platform 11/12 is not available"
   },
   {
     "type": "infrastructure",
@@ -1494,6 +1330,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-67494",
     "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
     "subtitle": "Manly Fast Ferry altered timetable"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71712",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-05-05T07:08:00Z",
+      "lastModification": "2026-05-05T07:08:00Z",
+      "availability": {
+        "from": "2026-04-28T09:58:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-05-05T07:08:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-12T21:58:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71712",
+        "content": "At Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1396.",
+        "subtitle": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
+        "smsText": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
+        "speechText": "At Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1396."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "67532251-6cde-58bb-8959-c54199dbd791",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "223330:2233291,2233292",
+      "providerCode": "TfNSW",
+      "smsText": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
+      "speechText": "At Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1396."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "223330",
+          "isGlobalId": true,
+          "name": "Waterfall Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95357036:1",
+            "name": "Waterfall",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101355"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "223330:L887",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9800404449"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71712",
+    "content": "At Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1396.",
+    "subtitle": "Waterfall Station Lift 1 between Kooraban St and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
