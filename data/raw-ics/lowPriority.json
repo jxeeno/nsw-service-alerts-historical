@@ -127,88 +127,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-71561",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-05-03T21:03:00Z",
-      "lastModification": "2026-05-03T21:03:00Z",
-      "availability": {
-        "from": "2026-04-21T05:39:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-03T21:03:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-06-11T11:53:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-71561",
-        "content": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997.",
-        "subtitle": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-        "smsText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-        "speechText": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "cf6d0784-1e22-5b1d-be48-ccf601d2474e",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206020:2060112",
-      "providerCode": "TfNSW",
-      "smsText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-      "speechText": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "206020",
-          "isGlobalId": true,
-          "name": "Waverton Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95343011:1",
-            "name": "Waverton",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101113"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "206020:L156",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "4887412803"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-71561",
-    "content": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997.",
-    "subtitle": "Waverton Station Lift 2 between the concourse and Platform 2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-71707",
     "version": 920,
     "priority": "low",
@@ -697,6 +615,136 @@
     "subtitle": "Mortdale Station Lift 1 between the footbridge and Morts Rd is not available"
   },
   {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
+  },
+  {
     "type": "infrastructure",
     "id": "ems-71722",
     "version": 5,
@@ -777,6 +825,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71722",
     "content": "At Strathfield Station Lift 5 between the concourse and Platform 7/8 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8430.",
     "subtitle": "Strathfield Station Lift 5 between the concourse and Platform 7/8 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71561",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-05-03T21:03:00Z",
+      "lastModification": "2026-05-03T21:03:00Z",
+      "availability": {
+        "from": "2026-04-21T05:39:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-05-03T21:03:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-11T11:53:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71561",
+        "content": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997.",
+        "subtitle": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
+        "smsText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
+        "speechText": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "cf6d0784-1e22-5b1d-be48-ccf601d2474e",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "206020:2060112",
+      "providerCode": "TfNSW",
+      "smsText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
+      "speechText": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "206020",
+          "isGlobalId": true,
+          "name": "Waverton Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95343011:1",
+            "name": "Waverton",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101113"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "206020:L156",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "4887412803"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Waverton Station Lift 2 between the concourse and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71561",
+    "content": "At Waverton Station Lift 2 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1997.",
+    "subtitle": "Waverton Station Lift 2 between the concourse and Platform 2 is not available"
   },
   {
     "type": "infrastructure",
@@ -941,136 +1071,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71564",
     "content": "At Wollongong Station Lift 3 between the car park and Wollongong Station is temporarily out of service.",
     "subtitle": "Wollongong Station Lift 3 between the car park and Wollongong Station is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "lineInfo",
@@ -1243,6 +1243,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-71570",
     "content": "At Woy Woy Station Lift 5 between the car park and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
     "subtitle": "Woy Woy Station Lift 5 between the car park and Railway St is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-71793",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-05-07T01:21:00Z",
+      "lastModification": "2026-05-07T01:21:00Z",
+      "availability": {
+        "from": "2026-04-30T04:11:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-05-07T01:21:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-06-14T16:12:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Campbelltown Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-71793",
+        "content": "At Campbelltown Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721.",
+        "subtitle": "Campbelltown Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "smsText": "Campbelltown Station Lift 2 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Campbelltown Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "9fa948fb-9100-5c48-9e12-9c2f645cceed",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "256020:2560691,2560692",
+      "providerCode": "TfNSW",
+      "smsText": "Campbelltown Station Lift 2 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Campbelltown Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "256020",
+          "isGlobalId": true,
+          "name": "Campbelltown Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313007:1",
+            "name": "Campbelltown",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101296"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "256020:L67",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9294975674"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Campbelltown Station Lift 2 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-71793",
+    "content": "At Campbelltown Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721.",
+    "subtitle": "Campbelltown Station Lift 2 between the concourse and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
