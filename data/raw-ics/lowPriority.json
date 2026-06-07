@@ -1,94 +1,85 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-67494",
-    "version": 14031,
+    "type": "infrastructure",
+    "id": "ems-72603",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-02-15T22:18:00Z",
-      "lastModification": "2026-02-16T02:12:00Z",
+      "creation": "2026-05-25T12:24:00Z",
+      "lastModification": "2026-05-25T12:24:00Z",
       "availability": {
-        "from": "2026-02-15T15:00:00Z",
-        "to": "2026-07-09T16:00:00Z"
+        "from": "2026-05-18T15:14:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-01T15:00:00Z",
-          "to": "2026-07-09T16:00:00Z"
+          "from": "2026-05-25T12:24:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-07-09T16:00:59Z"
+      "expiration": "2505-07-03T03:14:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Manly Fast Ferry altered timetable",
-        "url": "https://transportnsw.info/alerts/details#/ems-67494",
-        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-        "subtitle": "Manly Fast Ferry altered timetable",
-        "smsText": "Manly Fast Ferry altered timetable",
-        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+        "urlText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-72603",
+        "content": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+        "subtitle": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+        "smsText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+        "speechText": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
-      "Others": "speedRestrictions",
+      "messageRef": "97e63e03-9082-589e-a9e9-bd586fdcd02b",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "202030:2020102",
       "providerCode": "TfNSW",
-      "smsText": "Manly Fast Ferry altered timetable",
-      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+      "smsText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+      "speechText": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:05MFF: :H:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
+          "id": "202030",
+          "isGlobalId": true,
+          "name": "International Airport Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95310008:1",
+            "name": "Mascot",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Circular Quay to Manly",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
-        },
+          "properties": {
+            "stopId": "10101332"
+          }
+        }
+      ],
+      "Infrastructures": [
         {
-          "id": "nsw:05MFF: :R:",
-          "destination": {
-            "name": "Circular Quay, Sydney",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Manly to Circular Quay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
-          },
-          "iconId": 12
+          "name": "202030:L464",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "10164225802"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Manly Fast Ferry altered timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-67494",
-    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-    "subtitle": "Manly Fast Ferry altered timetable"
+    "urlText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-72603",
+    "content": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+    "subtitle": "International Airport Station Lift 3 between the concourse and Platform 2 is not available"
   },
   {
     "type": "lineInfo",
@@ -221,35 +212,126 @@
     "subtitle": "Bikes permitted with fees."
   },
   {
-    "type": "infrastructure",
-    "id": "ems-72603",
-    "version": 2,
+    "type": "lineInfo",
+    "id": "ems-67494",
+    "version": 14031,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-05-25T12:24:00Z",
-      "lastModification": "2026-05-25T12:24:00Z",
+      "creation": "2026-02-15T22:18:00Z",
+      "lastModification": "2026-02-16T02:12:00Z",
       "availability": {
-        "from": "2026-05-18T15:14:00Z",
+        "from": "2026-02-15T15:00:00Z",
+        "to": "2026-07-09T16:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-03-01T15:00:00Z",
+          "to": "2026-07-09T16:00:00Z"
+        }
+      ],
+      "expiration": "2026-07-09T16:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Manly Fast Ferry altered timetable",
+        "url": "https://transportnsw.info/alerts/details#/ems-67494",
+        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+        "subtitle": "Manly Fast Ferry altered timetable",
+        "smsText": "Manly Fast Ferry altered timetable",
+        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
+      "Others": "speedRestrictions",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Manly Fast Ferry altered timetable",
+      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:05MFF: :H:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:05MFF: :R:",
+          "destination": {
+            "name": "Circular Quay, Sydney",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Manly Fast Ferry altered timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-67494",
+    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+    "subtitle": "Manly Fast Ferry altered timetable"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-73376",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-06-07T04:44:00Z",
+      "lastModification": "2026-06-07T04:45:00Z",
+      "availability": {
+        "from": "2026-05-31T07:34:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-05-25T12:24:00Z",
+          "from": "2026-06-07T04:44:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-07-03T03:14:59Z"
+      "expiration": "2505-07-15T19:34:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-72603",
-        "content": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
-        "subtitle": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-        "smsText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-        "speechText": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
+        "urlText": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-73376",
+        "content": "At Seven Hills Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431.",
+        "subtitle": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "smsText": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Seven Hills Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431."
       }
     ],
     "properties": {
@@ -258,49 +340,131 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "97e63e03-9082-589e-a9e9-bd586fdcd02b",
+      "messageRef": "8406ee19-5f7c-534b-ba2f-9447f2635efd",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "202030:2020102",
+      "stopIDglobalID": "214710:2147423,2147424",
       "providerCode": "TfNSW",
-      "smsText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-      "speechText": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
+      "smsText": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Seven Hills Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431."
     },
     "affected": {
       "stops": [
         {
-          "id": "202030",
+          "id": "214710",
           "isGlobalId": true,
-          "name": "International Airport Station",
+          "name": "Seven Hills Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95310008:1",
-            "name": "Mascot",
+            "id": "placeID:95308035:1",
+            "name": "Seven Hills",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101332"
+            "stopId": "10101234"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "202030:L464",
+          "name": "214710:L360",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "10164225802"
+              "id": "9206728341"
             }
           ]
         }
       ]
     },
-    "urlText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-72603",
-    "content": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
-    "subtitle": "International Airport Station Lift 3 between the concourse and Platform 2 is not available"
+    "urlText": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-73376",
+    "content": "At Seven Hills Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431.",
+    "subtitle": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-73377",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-06-07T04:48:00Z",
+      "lastModification": "2026-06-07T04:48:00Z",
+      "availability": {
+        "from": "2024-04-26T18:41:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-06-07T04:48:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-07-15T19:39:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-73377",
+        "content": "At Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4325 7897.",
+        "subtitle": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
+        "smsText": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
+        "speechText": "At Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4325 7897."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "ceb44de4-a802-54af-80ca-52cd93040fe3",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "225030",
+      "providerCode": "TfNSW",
+      "smsText": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
+      "speechText": "At Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4325 7897."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "225030",
+          "isGlobalId": true,
+          "name": "Point Clare Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95320055:1",
+            "name": "Point Clare",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101138"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "225030:L1122",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "10181798980"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-73377",
+    "content": "At Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4325 7897.",
+    "subtitle": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available"
   },
   {
     "type": "infrastructure",
@@ -476,34 +640,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-73377",
-    "version": 4,
+    "id": "ems-73380",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-06-07T04:48:00Z",
-      "lastModification": "2026-06-07T04:48:00Z",
+      "creation": "2026-06-07T07:02:00Z",
+      "lastModification": "2026-06-07T07:02:00Z",
       "availability": {
-        "from": "2024-04-26T18:41:00Z",
+        "from": "2026-05-31T09:52:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-06-07T04:48:00Z",
+          "from": "2026-06-07T07:02:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-07-15T19:39:59Z"
+      "expiration": "2505-07-15T21:53:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-73377",
-        "content": "At Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4325 7897.",
-        "subtitle": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
-        "smsText": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
-        "speechText": "At Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4325 7897."
+        "urlText": "Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-73380",
+        "content": "At Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721.",
+        "subtitle": "Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is not available",
+        "smsText": "Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is not available",
+        "speechText": "At Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721."
       }
     ],
     "properties": {
@@ -512,131 +676,49 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ceb44de4-a802-54af-80ca-52cd93040fe3",
+      "messageRef": "92bb218d-35fe-5556-ad8e-34a4b8d932f9",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "225030",
+      "stopIDglobalID": "256020",
       "providerCode": "TfNSW",
-      "smsText": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
-      "speechText": "At Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4325 7897."
+      "smsText": "Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is not available",
+      "speechText": "At Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721."
     },
     "affected": {
       "stops": [
         {
-          "id": "225030",
+          "id": "256020",
           "isGlobalId": true,
-          "name": "Point Clare Station",
+          "name": "Campbelltown Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95320055:1",
-            "name": "Point Clare",
+            "id": "placeID:95313007:1",
+            "name": "Campbelltown",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101138"
+            "stopId": "10101296"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "225030:L1122",
+          "name": "256020:L75",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "10181798980"
+              "id": "4698261549"
             }
           ]
         }
       ]
     },
-    "urlText": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-73377",
-    "content": "At Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4325 7897.",
-    "subtitle": "Point Clare Station Lift 1 between the pedestrian tunnel, Brisbane Water Dr and Platform 2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-73376",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-06-07T04:44:00Z",
-      "lastModification": "2026-06-07T04:45:00Z",
-      "availability": {
-        "from": "2026-05-31T07:34:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-06-07T04:44:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-07-15T19:34:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-73376",
-        "content": "At Seven Hills Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431.",
-        "subtitle": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "smsText": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "speechText": "At Seven Hills Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "8406ee19-5f7c-534b-ba2f-9447f2635efd",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214710:2147423,2147424",
-      "providerCode": "TfNSW",
-      "smsText": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
-      "speechText": "At Seven Hills Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "214710",
-          "isGlobalId": true,
-          "name": "Seven Hills Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308035:1",
-            "name": "Seven Hills",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101234"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "214710:L360",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9206728341"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-73376",
-    "content": "At Seven Hills Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431.",
-    "subtitle": "Seven Hills Station Lift 3 between the concourse and Platform 3/4 is not available"
+    "urlText": "Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-73380",
+    "content": "At Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721.",
+    "subtitle": "Campbelltown Station Lift 3 betweeen the concourse and Farrow Rd is not available"
   },
   {
     "type": "infrastructure",
