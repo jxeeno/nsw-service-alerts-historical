@@ -1,32 +1,115 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-67494",
-    "version": 14031,
+    "type": "infrastructure",
+    "id": "ems-72603",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-02-15T22:18:00Z",
-      "lastModification": "2026-02-16T02:12:00Z",
+      "creation": "2026-05-25T12:24:00Z",
+      "lastModification": "2026-05-25T12:24:00Z",
       "availability": {
-        "from": "2026-02-15T15:00:00Z",
-        "to": "2026-07-09T16:00:00Z"
+        "from": "2026-05-18T15:14:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-03-01T15:00:00Z",
-          "to": "2026-07-09T16:00:00Z"
+          "from": "2026-05-25T12:24:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-07-09T16:00:59Z"
+      "expiration": "2505-07-03T03:14:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Manly Fast Ferry altered timetable",
-        "url": "https://transportnsw.info/alerts/details#/ems-67494",
-        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-        "subtitle": "Manly Fast Ferry altered timetable",
-        "smsText": "Manly Fast Ferry altered timetable",
-        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+        "urlText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-72603",
+        "content": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+        "subtitle": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+        "smsText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+        "speechText": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "97e63e03-9082-589e-a9e9-bd586fdcd02b",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "202030:2020102",
+      "providerCode": "TfNSW",
+      "smsText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+      "speechText": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "202030",
+          "isGlobalId": true,
+          "name": "International Airport Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95310008:1",
+            "name": "Mascot",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101332"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "202030:L464",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "10164225802"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-72603",
+    "content": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+    "subtitle": "International Airport Station Lift 3 between the concourse and Platform 2 is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
@@ -34,61 +117,99 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
-      "Others": "speedRestrictions",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Manly Fast Ferry altered timetable",
-      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:05MFF: :H:",
+          "id": "nsw:04BUN:C:H:",
           "destination": {
-            "name": "Circular Quay, Sydney",
+            "name": "Bundeena Wharf, Bundeena",
             "type": "stop"
           },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Circular Quay to Manly",
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
           "product": {
             "id": 12,
             "class": 9,
             "iconId": 9
           },
           "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
+            "id": "300",
+            "name": "Cronulla Ferries"
           },
           "iconId": 12
         },
         {
-          "id": "nsw:05MFF: :R:",
+          "id": "nsw:04BUN:C:R:",
           "destination": {
-            "name": "Circular Quay, Sydney",
+            "name": "Cronulla Wharf, Cronulla",
             "type": "stop"
           },
-          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
-          "number": "MFF Manly Fast Ferry",
-          "description": "Manly to Circular Quay",
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
           "product": {
             "id": 12,
             "class": 9,
             "iconId": 9
           },
           "operator": {
-            "id": "MFF",
-            "name": "Manly Fast Ferries"
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
           },
           "iconId": 12
         }
       ]
     },
-    "urlText": "Manly Fast Ferry altered timetable",
-    "url": "https://transportnsw.info/alerts/details#/ems-67494",
-    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
-    "subtitle": "Manly Fast Ferry altered timetable"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
@@ -174,6 +295,88 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-74274",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-06-26T20:36:00Z",
+      "lastModification": "2026-06-26T20:36:00Z",
+      "availability": {
+        "from": "2026-06-26T20:36:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-06-26T20:36:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-08-04T09:46:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Sutherland Station Lift 2 between the concourse and Platform 1 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-74274",
+        "content": "At Sutherland Station Lift 2 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1260.",
+        "subtitle": "Sutherland Station Lift 2 between the concourse and Platform 1 is not available",
+        "smsText": "Sutherland Station Lift 2 between the concourse and Platform 1 is not available",
+        "speechText": "At Sutherland Station Lift 2 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1260."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "83252a4d-eca7-5bc3-800b-b73f02f46990",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "223210:2232291",
+      "providerCode": "TfNSW",
+      "smsText": "Sutherland Station Lift 2 between the concourse and Platform 1 is not available",
+      "speechText": "At Sutherland Station Lift 2 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1260."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "223210",
+          "isGlobalId": true,
+          "name": "Sutherland Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95357032:1",
+            "name": "Sutherland",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101345"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "223210:L881",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9797636346"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Sutherland Station Lift 2 between the concourse and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-74274",
+    "content": "At Sutherland Station Lift 2 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9522 1260.",
+    "subtitle": "Sutherland Station Lift 2 between the concourse and Platform 1 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-74244",
     "version": 3,
     "priority": "low",
@@ -256,88 +459,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-72603",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-05-25T12:24:00Z",
-      "lastModification": "2026-05-25T12:24:00Z",
-      "availability": {
-        "from": "2026-05-18T15:14:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-05-25T12:24:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-07-03T03:14:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-72603",
-        "content": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
-        "subtitle": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-        "smsText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-        "speechText": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "97e63e03-9082-589e-a9e9-bd586fdcd02b",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "202030:2020102",
-      "providerCode": "TfNSW",
-      "smsText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-      "speechText": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "202030",
-          "isGlobalId": true,
-          "name": "International Airport Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95310008:1",
-            "name": "Mascot",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101332"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "202030:L464",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "10164225802"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "International Airport Station Lift 3 between the concourse and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-72603",
-    "content": "At International Airport Station Lift 3 between the concourse and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
-    "subtitle": "International Airport Station Lift 3 between the concourse and Platform 2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-73779",
     "version": 92806,
     "priority": "low",
@@ -417,6 +538,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-73779",
     "content": "At Holsworthy Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\nFrom Thursday 18 June to Thursday 25 June 2026, the lift will be closed for maintenance. Use the ramp for access between the Concourse and Platforms 1 and 2.\n\n\nIf you need help, ask staff or phone 02 9765 1166.",
     "subtitle": "Holsworthy Station Lift 1 between the footbridge and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-74136",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-06-23T21:32:00Z",
+      "lastModification": "2026-06-23T21:32:00Z",
+      "availability": {
+        "from": "2026-06-06T08:43:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-06-23T21:32:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-07-21T20:50:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-74136",
+        "content": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495.",
+        "subtitle": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+        "smsText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+        "speechText": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "a3a525c9-d464-5f4f-ab18-2f53fd06723f",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "230410",
+      "providerCode": "TfNSW",
+      "smsText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+      "speechText": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "230410",
+          "isGlobalId": true,
+          "name": "Waratah Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95342029:1",
+            "name": "Mayfield (2304)",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101167"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "230410:L1199",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "7170960709"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-74136",
+    "content": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495.",
+    "subtitle": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available"
   },
   {
     "type": "infrastructure",
@@ -738,34 +941,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-74236",
-    "version": 5,
+    "id": "ems-74273",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-06-25T19:46:00Z",
-      "lastModification": "2026-06-25T19:46:00Z",
+      "creation": "2026-06-26T20:29:00Z",
+      "lastModification": "2026-06-26T20:29:00Z",
       "availability": {
-        "from": "2026-06-18T22:36:00Z",
+        "from": "2026-06-19T23:19:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-06-25T19:46:00Z",
+          "from": "2026-06-26T20:29:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-08-03T10:37:59Z"
+      "expiration": "2505-08-04T11:20:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-74236",
-        "content": "At Bulli Station Lift 2 between Park Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5577.",
-        "subtitle": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
-        "smsText": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
-        "speechText": "At Bulli Station Lift 2 between Park Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5577."
+        "urlText": "Leppington Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-74273",
+        "content": "At Leppington Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1444.",
+        "subtitle": "Leppington Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "smsText": "Leppington Station Lift 1 between the concourse and Platform 1/2 is not available",
+        "speechText": "At Leppington Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1444."
       }
     ],
     "properties": {
@@ -774,49 +977,49 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "178c1b87-38b2-587d-ab0f-f956c9b45240",
+      "messageRef": "c55de7e6-85da-58d0-a505-37976aa744cf",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "251610:251672",
+      "stopIDglobalID": "217933:217934,217935",
       "providerCode": "TfNSW",
-      "smsText": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
-      "speechText": "At Bulli Station Lift 2 between Park Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5577."
+      "smsText": "Leppington Station Lift 1 between the concourse and Platform 1/2 is not available",
+      "speechText": "At Leppington Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1444."
     },
     "affected": {
       "stops": [
         {
-          "id": "251610",
+          "id": "217933",
           "isGlobalId": true,
-          "name": "Bulli Station",
+          "name": "Leppington Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95366007:1",
-            "name": "Bulli",
+            "id": "placeID:95312012:1",
+            "name": "Leppington",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101365"
+            "stopId": "10101428"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "251610:L1637",
+          "name": "217933:L8",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "9953910531"
+              "id": "983102405"
             }
           ]
         }
       ]
     },
-    "urlText": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-74236",
-    "content": "At Bulli Station Lift 2 between Park Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5577.",
-    "subtitle": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available"
+    "urlText": "Leppington Station Lift 1 between the concourse and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-74273",
+    "content": "At Leppington Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1444.",
+    "subtitle": "Leppington Station Lift 1 between the concourse and Platform 1/2 is not available"
   },
   {
     "type": "infrastructure",
@@ -899,6 +1102,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-74267",
     "content": "At Kogarah Station Lift 1 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7273.",
     "subtitle": "Kogarah Station Lift 1 between the concourse and Railway Pde is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-74236",
+    "version": 5,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-06-25T19:46:00Z",
+      "lastModification": "2026-06-25T19:46:00Z",
+      "availability": {
+        "from": "2026-06-18T22:36:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-06-25T19:46:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-08-03T10:37:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-74236",
+        "content": "At Bulli Station Lift 2 between Park Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5577.",
+        "subtitle": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
+        "smsText": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
+        "speechText": "At Bulli Station Lift 2 between Park Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5577."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "178c1b87-38b2-587d-ab0f-f956c9b45240",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "251610:251672",
+      "providerCode": "TfNSW",
+      "smsText": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
+      "speechText": "At Bulli Station Lift 2 between Park Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5577."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "251610",
+          "isGlobalId": true,
+          "name": "Bulli Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95366007:1",
+            "name": "Bulli",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101365"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "251610:L1637",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9953910531"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-74236",
+    "content": "At Bulli Station Lift 2 between Park Rd and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4223 5577.",
+    "subtitle": "Bulli Station Lift 2 between Park Rd and Platform 2 is not available"
   },
   {
     "type": "infrastructure",
@@ -1210,116 +1495,33 @@
     "subtitle": "Wentworth Falls Station Lift 3 between the footbridge and Railway Pde is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-74136",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-06-23T21:32:00Z",
-      "lastModification": "2026-06-23T21:32:00Z",
-      "availability": {
-        "from": "2026-06-06T08:43:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-06-23T21:32:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-07-21T20:50:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-74136",
-        "content": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495.",
-        "subtitle": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-        "smsText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-        "speechText": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "a3a525c9-d464-5f4f-ab18-2f53fd06723f",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "230410",
-      "providerCode": "TfNSW",
-      "smsText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-      "speechText": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "230410",
-          "isGlobalId": true,
-          "name": "Waratah Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95342029:1",
-            "name": "Mayfield (2304)",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101167"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "230410:L1199",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "7170960709"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-74136",
-    "content": "At Waratah Station Lift 3 between the footbridge and Railway Tce is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9495.",
-    "subtitle": "Waratah Station Lift 3 between the footbridge and Railway Tce is not available"
-  },
-  {
     "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "id": "ems-67494",
+    "version": 14031,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2026-02-15T22:18:00Z",
+      "lastModification": "2026-02-16T02:12:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
+        "from": "2026-02-15T15:00:00Z",
+        "to": "2026-07-09T16:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
+          "from": "2026-03-01T15:00:00Z",
+          "to": "2026-07-09T16:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2026-07-09T16:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "Manly Fast Ferry altered timetable",
+        "url": "https://transportnsw.info/alerts/details#/ems-67494",
+        "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+        "subtitle": "Manly Fast Ferry altered timetable",
+        "smsText": "Manly Fast Ferry altered timetable",
+        "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
       }
     ],
     "properties": {
@@ -1327,98 +1529,60 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "91f15fc1-1e76-5aec-9474-efa98a4aaeca",
+      "Others": "speedRestrictions",
       "publisher": "ems.comm.addinfo",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "Manly Fast Ferry altered timetable",
+      "speechText": "From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable. \n \nFor all other services, please check indicator screens and listen for announcements."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:04BUN:C:H:",
+          "id": "nsw:05MFF: :H:",
           "destination": {
-            "name": "Bundeena Wharf, Bundeena",
+            "name": "Circular Quay, Sydney",
             "type": "stop"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Circular Quay to Manly",
           "product": {
             "id": 12,
             "class": 9,
             "iconId": 9
           },
           "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
           },
           "iconId": 12
         },
         {
-          "id": "nsw:04BUN:C:R:",
+          "id": "nsw:05MFF: :R:",
           "destination": {
-            "name": "Cronulla Wharf, Cronulla",
+            "name": "Circular Quay, Sydney",
             "type": "stop"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
+          "name": "Private ferry and fast ferry services MFF Manly Fast Ferry",
+          "number": "MFF Manly Fast Ferry",
+          "description": "Manly to Circular Quay",
           "product": {
             "id": 12,
             "class": 9,
             "iconId": 9
           },
           "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
+            "id": "MFF",
+            "name": "Manly Fast Ferries"
           },
           "iconId": 12
         }
       ]
     },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "Manly Fast Ferry altered timetable",
+    "url": "https://transportnsw.info/alerts/details#/ems-67494",
+    "content": "<div>From Monday 2 March to Friday 10 July, the Manly Fast Ferry service will depart Circular Quay from Wharf 6 to an altered timetable.&nbsp;</div>\n<div>&nbsp;</div>\n<div>For all other services, please check indicator screens and listen for announcements.</div>\n<div>&nbsp;</div>\n<div>Plan ahead at transportnsw.info</div>",
+    "subtitle": "Manly Fast Ferry altered timetable"
   }
 ]
