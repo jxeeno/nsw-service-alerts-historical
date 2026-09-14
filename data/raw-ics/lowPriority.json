@@ -1,116 +1,164 @@
 [
   {
-    "type": "infrastructure",
-    "id": "ems-78077",
-    "version": 3,
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-09-06T19:58:00Z",
-      "lastModification": "2026-09-06T19:58:00Z",
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
       "availability": {
-        "from": "2026-08-30T22:48:00Z",
+        "from": "2021-11-19T02:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-09-06T19:58:00Z",
+          "from": "2021-11-19T02:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-10-15T10:48:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-78077",
-        "content": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465.",
-        "subtitle": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
-        "smsText": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
-        "speechText": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465."
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "5981c1f3-8edf-58be-81bc-8d905a3341cf",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "211420",
       "providerCode": "TfNSW",
-      "smsText": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
-      "speechText": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "211420",
-          "isGlobalId": true,
-          "name": "West Ryde Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95352014:1",
-            "name": "West Ryde",
-            "type": "locality"
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101201"
-          }
-        }
-      ],
-      "Infrastructures": [
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
         {
-          "name": "211420:L1063",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "3055232572"
-            }
-          ]
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-78077",
-    "content": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465.",
-    "subtitle": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
-    "id": "ems-78446",
-    "version": 3,
+    "id": "ems-78470",
+    "version": 5,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-09-14T02:11:00Z",
-      "lastModification": "2026-09-14T02:11:00Z",
+      "creation": "2026-09-14T09:02:00Z",
+      "lastModification": "2026-09-14T09:02:00Z",
       "availability": {
-        "from": "2026-09-07T05:01:00Z",
+        "from": "2026-09-07T11:52:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-09-14T02:11:00Z",
+          "from": "2026-09-14T09:02:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-10-22T17:01:59Z"
+      "expiration": "2505-10-22T23:53:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-78446",
-        "content": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
-        "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-        "smsText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-        "speechText": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+        "urlText": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-78470",
+        "content": "At Granville Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
+        "subtitle": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "smsText": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Granville Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
       }
     ],
     "properties": {
@@ -119,49 +167,49 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "dc8ef45f-5d06-5981-b1bd-d248b1ee3b00",
+      "messageRef": "2f43f6a3-a70c-5a29-bf75-1b879a6ca5f2",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214610",
+      "stopIDglobalID": "214240",
       "providerCode": "TfNSW",
-      "smsText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-      "speechText": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+      "smsText": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Granville Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
     },
     "affected": {
       "stops": [
         {
-          "id": "214610",
+          "id": "214240",
           "isGlobalId": true,
-          "name": "Toongabbie Station",
+          "name": "Granville Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95308040:1",
-            "name": "Toongabbie",
+            "id": "placeID:95346007:1",
+            "name": "Granville",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101233"
+            "stopId": "10101227"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "214610:L401",
+          "name": "214240:L215",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "9203644825"
+              "id": "9731614841"
             }
           ]
         }
       ]
     },
-    "urlText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-78446",
-    "content": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
-    "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available"
+    "urlText": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-78470",
+    "content": "At Granville Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
+    "subtitle": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available"
   },
   {
     "type": "infrastructure",
@@ -244,88 +292,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-78434",
     "content": "At Warwick Farm Station Lift 3 between Remembrance Ave and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1127.",
     "subtitle": "Warwick Farm Station Lift 3 between Remembrance Ave and Platform 1 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-78449",
-    "version": 5,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-09-14T02:13:00Z",
-      "lastModification": "2026-09-14T02:13:00Z",
-      "availability": {
-        "from": "2025-02-09T03:38:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-09-14T02:13:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-10-22T17:04:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-78449",
-        "content": "At Newcastle Interchange Lift 1 between the footbridge and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101.",
-        "subtitle": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
-        "smsText": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
-        "speechText": "At Newcastle Interchange Lift 1 between the footbridge and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "dbeb0521-7516-5b89-a0a4-f04355bfa4e4",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "229310",
-      "providerCode": "TfNSW",
-      "smsText": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
-      "speechText": "At Newcastle Interchange Lift 1 between the footbridge and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "229310",
-          "isGlobalId": true,
-          "name": "Newcastle Interchange",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95342054:1",
-            "name": "Wickham",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101165"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "229310:L688",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "8229640799"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-78449",
-    "content": "At Newcastle Interchange Lift 1 between the footbridge and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101.",
-    "subtitle": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available"
   },
   {
     "type": "infrastructure",
@@ -492,34 +458,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-78470",
+    "id": "ems-78449",
     "version": 5,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-09-14T09:02:00Z",
-      "lastModification": "2026-09-14T09:02:00Z",
+      "creation": "2026-09-14T02:13:00Z",
+      "lastModification": "2026-09-14T02:13:00Z",
       "availability": {
-        "from": "2026-09-07T11:52:00Z",
+        "from": "2025-02-09T03:38:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-09-14T09:02:00Z",
+          "from": "2026-09-14T02:13:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-10-22T23:53:59Z"
+      "expiration": "2505-10-22T17:04:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-78470",
-        "content": "At Granville Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
-        "subtitle": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "smsText": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
-        "speechText": "At Granville Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
+        "urlText": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-78449",
+        "content": "At Newcastle Interchange Lift 1 between the footbridge and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101.",
+        "subtitle": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
+        "smsText": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
+        "speechText": "At Newcastle Interchange Lift 1 between the footbridge and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101."
       }
     ],
     "properties": {
@@ -528,49 +494,49 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2f43f6a3-a70c-5a29-bf75-1b879a6ca5f2",
+      "messageRef": "dbeb0521-7516-5b89-a0a4-f04355bfa4e4",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214240",
+      "stopIDglobalID": "229310",
       "providerCode": "TfNSW",
-      "smsText": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
-      "speechText": "At Granville Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388."
+      "smsText": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
+      "speechText": "At Newcastle Interchange Lift 1 between the footbridge and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101."
     },
     "affected": {
       "stops": [
         {
-          "id": "214240",
+          "id": "229310",
           "isGlobalId": true,
-          "name": "Granville Station",
+          "name": "Newcastle Interchange",
           "type": "stop",
           "parent": {
-            "id": "placeID:95346007:1",
-            "name": "Granville",
+            "id": "placeID:95342054:1",
+            "name": "Wickham",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101227"
+            "stopId": "10101165"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "214240:L215",
+          "name": "229310:L688",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "9731614841"
+              "id": "8229640799"
             }
           ]
         }
       ]
     },
-    "urlText": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-78470",
-    "content": "At Granville Station Lift 3 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9388.",
-    "subtitle": "Granville Station Lift 3 between the concourse and Platform 3/4 is not available"
+    "urlText": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-78449",
+    "content": "At Newcastle Interchange Lift 1 between the footbridge and Railway St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9101.",
+    "subtitle": "Newcastle Interchange Lift 1 between the footbridge and Railway St is not available"
   },
   {
     "type": "infrastructure",
@@ -653,136 +619,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-77406",
     "content": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
     "subtitle": "International Airport Station Lift 4 between the concourse and Platform 1 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
@@ -1111,6 +947,170 @@
     "url": "https://transportnsw.info/alerts/details#/ems-78450",
     "content": "At Woy Woy Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
     "subtitle": "Woy Woy Station Lift 2 between the footbridge and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-78446",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-09-14T02:11:00Z",
+      "lastModification": "2026-09-14T02:11:00Z",
+      "availability": {
+        "from": "2026-09-07T05:01:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-09-14T02:11:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-10-22T17:01:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-78446",
+        "content": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
+        "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+        "smsText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+        "speechText": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "dc8ef45f-5d06-5981-b1bd-d248b1ee3b00",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "214610",
+      "providerCode": "TfNSW",
+      "smsText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+      "speechText": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "214610",
+          "isGlobalId": true,
+          "name": "Toongabbie Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308040:1",
+            "name": "Toongabbie",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101233"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "214610:L401",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9203644825"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-78446",
+    "content": "At Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7204.",
+    "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-78077",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-09-06T19:58:00Z",
+      "lastModification": "2026-09-06T19:58:00Z",
+      "availability": {
+        "from": "2026-08-30T22:48:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-09-06T19:58:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-10-15T10:48:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-78077",
+        "content": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465.",
+        "subtitle": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
+        "smsText": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
+        "speechText": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "5981c1f3-8edf-58be-81bc-8d905a3341cf",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "211420",
+      "providerCode": "TfNSW",
+      "smsText": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
+      "speechText": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "211420",
+          "isGlobalId": true,
+          "name": "West Ryde Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95352014:1",
+            "name": "West Ryde",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101201"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "211420:L1063",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "3055232572"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-78077",
+    "content": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465.",
+    "subtitle": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available"
   },
   {
     "type": "lineInfo",
