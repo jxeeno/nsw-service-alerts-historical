@@ -246,134 +246,86 @@
     "subtitle": "Strathfield Station Lift 3 between the concourse and Platform 3/4 is not available"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "type": "infrastructure",
+    "id": "ems-78677",
+    "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2026-09-17T01:11:00Z",
+      "lastModification": "2026-09-17T01:11:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
+        "from": "2026-09-17T01:11:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
+          "from": "2026-09-17T01:11:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-10-23T18:01:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-78677",
+        "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
+        "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+        "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+        "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "603af1b8-ca0f-54b8-a284-aa8cc936d354",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "225610",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+      "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
+          "id": "225610",
+          "isGlobalId": true,
+          "name": "Woy Woy Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95320072:1",
+            "name": "Woy Woy",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
+          "properties": {
+            "stopId": "10101135"
+          }
+        }
+      ],
+      "Infrastructures": [
         {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
+          "name": "225610:L1770",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "12179419763"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-78677",
+    "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
+    "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available"
   },
   {
     "type": "infrastructure",
@@ -456,88 +408,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-78766",
     "content": "At Turramurra Station Lift 1 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8464.",
     "subtitle": "Turramurra Station Lift 1 between the concourse and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-78676",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-09-17T01:10:00Z",
-      "lastModification": "2026-09-17T01:10:00Z",
-      "availability": {
-        "from": "2026-09-10T04:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-09-17T01:10:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-10-25T16:01:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-78676",
-        "content": "At Liverpool Station Lift 6 between the concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
-        "subtitle": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
-        "smsText": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
-        "speechText": "At Liverpool Station Lift 6 between the concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "8b9b3a31-8b88-5b8d-92b0-e4f12cc836a1",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "217020",
-      "providerCode": "TfNSW",
-      "smsText": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
-      "speechText": "At Liverpool Station Lift 6 between the concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "217020",
-          "isGlobalId": true,
-          "name": "Liverpool Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95335020:1",
-            "name": "Liverpool",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101289"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "217020:L36",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9093516369"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-78676",
-    "content": "At Liverpool Station Lift 6 between the concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
-    "subtitle": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available"
   },
   {
     "type": "infrastructure",
@@ -705,6 +575,88 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-78676",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-09-17T01:10:00Z",
+      "lastModification": "2026-09-17T01:10:00Z",
+      "availability": {
+        "from": "2026-09-10T04:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-09-17T01:10:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-10-25T16:01:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-78676",
+        "content": "At Liverpool Station Lift 6 between the concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
+        "subtitle": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
+        "smsText": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
+        "speechText": "At Liverpool Station Lift 6 between the concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "8b9b3a31-8b88-5b8d-92b0-e4f12cc836a1",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "217020",
+      "providerCode": "TfNSW",
+      "smsText": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
+      "speechText": "At Liverpool Station Lift 6 between the concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "217020",
+          "isGlobalId": true,
+          "name": "Liverpool Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95335020:1",
+            "name": "Liverpool",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101289"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "217020:L36",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9093516369"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-78676",
+    "content": "At Liverpool Station Lift 6 between the concourse and Platform 4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
+    "subtitle": "Liverpool Station Lift 6 between the concourse and Platform 4 is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-77139",
     "version": 2,
     "priority": "low",
@@ -867,86 +819,134 @@
     "subtitle": "Mount Druitt Station Lift 4 between the concourse and Platform 1/2 is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-78677",
-    "version": 1,
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-09-17T01:11:00Z",
-      "lastModification": "2026-09-17T01:11:00Z",
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
       "availability": {
-        "from": "2026-09-17T01:11:00Z",
+        "from": "2021-11-19T02:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-09-17T01:11:00Z",
+          "from": "2021-11-19T02:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-10-23T18:01:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-78677",
-        "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
-        "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "603af1b8-ca0f-54b8-a284-aa8cc936d354",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "225610",
       "providerCode": "TfNSW",
-      "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-      "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "225610",
-          "isGlobalId": true,
-          "name": "Woy Woy Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95320072:1",
-            "name": "Woy Woy",
-            "type": "locality"
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101135"
-          }
-        }
-      ],
-      "Infrastructures": [
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
         {
-          "name": "225610:L1770",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "12179419763"
-            }
-          ]
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-78677",
-    "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
-    "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "lineInfo",
