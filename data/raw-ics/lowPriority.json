@@ -1,5 +1,76 @@
 [
   {
+    "type": "lineInfo",
+    "id": "ems-79100",
+    "version": 7,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-09-23T15:39:00Z",
+      "lastModification": "2026-09-23T15:40:00Z",
+      "availability": {
+        "from": "2026-09-23T15:38:00Z",
+        "to": "2026-09-23T22:38:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-09-23T15:38:00Z",
+          "to": "2026-09-23T22:38:00Z"
+        }
+      ],
+      "expiration": "2026-09-23T22:38:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train service delays between Casino Station and Central Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-79100",
+        "content": "There are delays on route 34 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train service delays between Casino Station and Central Station",
+        "smsText": "Train service delays between Casino Station and Central Station",
+        "speechText": "There are delays on route 34 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "3dca5402-e94a-5482-8c73-b6086528a8b1",
+      "Others": "speedRestrictions",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays between Casino Station and Central Station",
+      "speechText": "There are delays on route 34 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76034: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 34",
+          "number": "34",
+          "description": "Casino to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Train service delays between Casino Station and Central Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-79100",
+    "content": "There are delays on route 34 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays between Casino Station and Central Station"
+  },
+  {
     "type": "infrastructure",
     "id": "ems-79032",
     "version": 35,
@@ -78,178 +149,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-79032",
     "content": "At North Ryde Station Lift 1 between the concourse and Dehli Rd is temporarily out of service.\n\n<br/><div>&nbsp;</div>\n<div>Customers requiring lift access will need to disembark at Chatswood or Macquarie University and change to a connecting bus.</div>",
     "subtitle": "North Ryde Station Lift 1 between the concourse and Dehli Rd is not available\n\nㅤ"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-79039",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-09-23T04:31:00Z",
-      "lastModification": "2026-09-23T04:32:00Z",
-      "availability": {
-        "from": "2026-09-16T07:21:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-09-23T04:31:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-10-31T19:21:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-79039",
-        "content": "At Rooty Hill Station Lift 1 between the concourse and North Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7208.",
-        "subtitle": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
-        "smsText": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
-        "speechText": "At Rooty Hill Station Lift 1 between the concourse and North Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7208."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "979ce396-757b-5b0e-9178-4b6f0a8a1ebe",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "276610",
-      "providerCode": "TfNSW",
-      "smsText": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
-      "speechText": "At Rooty Hill Station Lift 1 between the concourse and North Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7208."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "276610",
-          "isGlobalId": true,
-          "name": "Rooty Hill Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308032:1",
-            "name": "Rooty Hill",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101247"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "276610:L348",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "7856328572"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-79039",
-    "content": "At Rooty Hill Station Lift 1 between the concourse and North Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7208.",
-    "subtitle": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
-      "availability": {
-        "from": "2021-11-19T03:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T03:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
     "type": "infrastructure",
@@ -335,88 +234,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-79099",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-09-23T11:32:00Z",
-      "lastModification": "2026-09-23T11:32:00Z",
-      "availability": {
-        "from": "2026-09-16T14:22:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-09-23T11:32:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-11-01T02:23:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-79099",
-        "content": "At Campbelltown Station Lift 1 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721.",
-        "subtitle": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
-        "smsText": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
-        "speechText": "At Campbelltown Station Lift 1 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ab4d1ab5-3894-5504-b643-fbe5880e7434",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "256020",
-      "providerCode": "TfNSW",
-      "smsText": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
-      "speechText": "At Campbelltown Station Lift 1 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "256020",
-          "isGlobalId": true,
-          "name": "Campbelltown Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95313007:1",
-            "name": "Campbelltown",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101296"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "256020:L69",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9294975685"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-79099",
-    "content": "At Campbelltown Station Lift 1 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721.",
-    "subtitle": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-77406",
     "version": 1,
     "priority": "low",
@@ -496,6 +313,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-77406",
     "content": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
     "subtitle": "International Airport Station Lift 4 between the concourse and Platform 1 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-79099",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-09-23T11:32:00Z",
+      "lastModification": "2026-09-23T11:32:00Z",
+      "availability": {
+        "from": "2026-09-16T14:22:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-09-23T11:32:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-11-01T02:23:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-79099",
+        "content": "At Campbelltown Station Lift 1 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721.",
+        "subtitle": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
+        "smsText": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
+        "speechText": "At Campbelltown Station Lift 1 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "ab4d1ab5-3894-5504-b643-fbe5880e7434",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "256020",
+      "providerCode": "TfNSW",
+      "smsText": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
+      "speechText": "At Campbelltown Station Lift 1 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "256020",
+          "isGlobalId": true,
+          "name": "Campbelltown Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313007:1",
+            "name": "Campbelltown",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101296"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "256020:L69",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9294975685"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-79099",
+    "content": "At Campbelltown Station Lift 1 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0721.",
+    "subtitle": "Campbelltown Station Lift 1 between the concourse and Platform 3 is not available"
   },
   {
     "type": "infrastructure",
@@ -707,5 +606,177 @@
     "url": "https://transportnsw.info/alerts/details#/ems-158",
     "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
     "subtitle": "Bikes permitted with fees."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
+      "availability": {
+        "from": "2021-11-19T03:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T03:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-79039",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-09-23T04:31:00Z",
+      "lastModification": "2026-09-23T04:32:00Z",
+      "availability": {
+        "from": "2026-09-16T07:21:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-09-23T04:31:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-10-31T19:21:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-79039",
+        "content": "At Rooty Hill Station Lift 1 between the concourse and North Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7208.",
+        "subtitle": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
+        "smsText": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
+        "speechText": "At Rooty Hill Station Lift 1 between the concourse and North Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7208."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "979ce396-757b-5b0e-9178-4b6f0a8a1ebe",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "276610",
+      "providerCode": "TfNSW",
+      "smsText": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
+      "speechText": "At Rooty Hill Station Lift 1 between the concourse and North Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7208."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "276610",
+          "isGlobalId": true,
+          "name": "Rooty Hill Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308032:1",
+            "name": "Rooty Hill",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101247"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "276610:L348",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "7856328572"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-79039",
+    "content": "At Rooty Hill Station Lift 1 between the concourse and North Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7208.",
+    "subtitle": "Rooty Hill Station Lift 1 between the concourse and North Pde is not available"
   }
 ]
