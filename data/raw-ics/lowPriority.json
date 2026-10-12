@@ -1,74 +1,85 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-80018",
-    "version": 2,
+    "type": "infrastructure",
+    "id": "ems-80030",
+    "version": 4,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-10-12T04:03:00Z",
-      "lastModification": "2026-10-12T04:03:00Z",
+      "creation": "2026-10-12T05:53:00Z",
+      "lastModification": "2026-10-12T05:53:00Z",
       "availability": {
-        "from": "2026-10-12T04:02:00Z",
-        "to": "2026-10-12T07:02:00Z"
+        "from": "2026-09-24T17:14:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-10-12T04:02:00Z",
-          "to": "2026-10-12T07:02:00Z"
+          "from": "2026-10-12T05:53:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-10-12T07:02:59Z"
+      "expiration": "2505-11-09T05:19:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Train service delays at Scone Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-80018",
-        "content": "There are delays on route 223 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train service delays at Scone Station",
-        "smsText": "Train service delays at Scone Station",
-        "speechText": "There are delays on route 223 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+        "urlText": "Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80030",
+        "content": "At Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9240.",
+        "subtitle": "Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "smsText": "Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is not available",
+        "speechText": "At Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9240."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "95398cf5-445e-532f-91c1-b9d53f9a4ef6",
-      "Others": "speedRestrictions",
+      "messageRef": "bb11b83d-3c4e-5a4f-8421-a4007d087577",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "232320",
       "providerCode": "TfNSW",
-      "smsText": "Train service delays at Scone Station",
-      "speechText": "There are delays on route 223 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      "smsText": "Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is not available",
+      "speechText": "At Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9240."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:76223: :H:",
-          "destination": {
-            "name": "Armidale Station, Armidale",
-            "type": "stop"
+          "id": "232320",
+          "isGlobalId": true,
+          "name": "Victoria Street Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95336011:1",
+            "name": "East Maitland",
+            "type": "locality"
           },
-          "name": "Regional Trains and Coaches Network 223",
-          "number": "223",
-          "description": "Central to Armidale",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
+          "properties": {
+            "stopId": "10101175"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "232320:L1224",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "6438209198"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Train service delays at Scone Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-80018",
-    "content": "There are delays on route 223 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Scone Station"
+    "urlText": "Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80030",
+    "content": "At Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4962 9240.",
+    "subtitle": "Victoria Street Station Lift 2 between the footbridge and Platform 1/2 is not available"
   },
   {
     "type": "lineInfo",
@@ -199,6 +210,157 @@
     "url": "https://transportnsw.info/alerts/details#/ems-158",
     "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
     "subtitle": "Bikes permitted with fees."
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-80018",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-10-12T04:03:00Z",
+      "lastModification": "2026-10-12T04:03:00Z",
+      "availability": {
+        "from": "2026-10-12T04:02:00Z",
+        "to": "2026-10-12T07:02:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-10-12T04:02:00Z",
+          "to": "2026-10-12T07:02:00Z"
+        }
+      ],
+      "expiration": "2026-10-12T07:02:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Train service delays at Scone Station",
+        "url": "https://transportnsw.info/alerts/details#/ems-80018",
+        "content": "There are delays on route 223 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train service delays at Scone Station",
+        "smsText": "Train service delays at Scone Station",
+        "speechText": "There are delays on route 223 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "95398cf5-445e-532f-91c1-b9d53f9a4ef6",
+      "Others": "speedRestrictions",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Train service delays at Scone Station",
+      "speechText": "There are delays on route 223 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:76223: :H:",
+          "destination": {
+            "name": "Armidale Station, Armidale",
+            "type": "stop"
+          },
+          "name": "Regional Trains and Coaches Network 223",
+          "number": "223",
+          "description": "Central to Armidale",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
+        }
+      ]
+    },
+    "urlText": "Train service delays at Scone Station",
+    "url": "https://transportnsw.info/alerts/details#/ems-80018",
+    "content": "There are delays on route 223 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Scone Station"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-80033",
+    "version": 3,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-10-12T06:09:00Z",
+      "lastModification": "2026-10-12T06:09:00Z",
+      "availability": {
+        "from": "2026-10-06T02:09:00Z",
+        "to": "2026-10-17T03:08:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-10-12T06:09:00Z",
+          "to": "2026-10-17T03:08:00Z"
+        }
+      ],
+      "expiration": "2026-10-17T03:08:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80033",
+        "content": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
+        "subtitle": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+        "smsText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+        "speechText": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "f3ab3044-ed93-5bb4-8e4e-af57a747990d",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "213820:213820",
+      "providerCode": "TfNSW",
+      "smsText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+      "speechText": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "213820",
+          "isGlobalId": true,
+          "name": "Rhodes Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95314013:1",
+            "name": "Rhodes",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101203"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "213820:L1044",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9072851518"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80033",
+    "content": "At Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8467.",
+    "subtitle": "Rhodes Station Lift 1 between the concourse and Platform 1 or Blaxland Rd is not available"
   },
   {
     "type": "infrastructure",
@@ -365,6 +527,170 @@
     "subtitle": "International Airport Station Lift 4 between the concourse and Platform 1 is not available"
   },
   {
+    "type": "infrastructure",
+    "id": "ems-80031",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-10-12T05:53:00Z",
+      "lastModification": "2026-10-12T05:53:00Z",
+      "availability": {
+        "from": "2026-10-05T08:43:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-10-12T05:53:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-11-19T20:44:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Leppington Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80031",
+        "content": "At Leppington Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1444.",
+        "subtitle": "Leppington Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "smsText": "Leppington Station Lift 2 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Leppington Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1444."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "98fa0da8-4c08-5d9a-ba52-9178ffdc0c84",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "217933",
+      "providerCode": "TfNSW",
+      "smsText": "Leppington Station Lift 2 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Leppington Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1444."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "217933",
+          "isGlobalId": true,
+          "name": "Leppington Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95312012:1",
+            "name": "Leppington",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101428"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "217933:L10",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "983102399"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Leppington Station Lift 2 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80031",
+    "content": "At Leppington Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1444.",
+    "subtitle": "Leppington Station Lift 2 between the concourse and Platform 3/4 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-80032",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-10-12T06:02:00Z",
+      "lastModification": "2026-10-12T06:02:00Z",
+      "availability": {
+        "from": "2026-10-05T05:35:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-10-12T06:02:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-11-19T20:53:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Kogarah Station Lift 1 between the concourse and Railway Pde is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80032",
+        "content": "At Kogarah Station Lift 1 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7273.",
+        "subtitle": "Kogarah Station Lift 1 between the concourse and Railway Pde is not available",
+        "smsText": "Kogarah Station Lift 1 between the concourse and Railway Pde is not available",
+        "speechText": "At Kogarah Station Lift 1 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7273."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "4f5366cf-d68d-552b-8f93-71e836c59734",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "221710",
+      "providerCode": "TfNSW",
+      "smsText": "Kogarah Station Lift 1 between the concourse and Railway Pde is not available",
+      "speechText": "At Kogarah Station Lift 1 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7273."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "221710",
+          "isGlobalId": true,
+          "name": "Kogarah Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95351010:1",
+            "name": "Kogarah",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101336"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "221710:L840",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9750894247"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Kogarah Station Lift 1 between the concourse and Railway Pde is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80032",
+    "content": "At Kogarah Station Lift 1 between the concourse and Railway Pde is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7273.",
+    "subtitle": "Kogarah Station Lift 1 between the concourse and Railway Pde is not available"
+  },
+  {
     "type": "lineInfo",
     "id": "ems-159",
     "version": 19017138,
@@ -453,87 +779,5 @@
     "url": "https://transportnsw.info/alerts/details#/ems-159",
     "content": "<div>&nbsp; &nbsp;</div>",
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-79956",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-10-11T02:45:00Z",
-      "lastModification": "2026-10-11T02:46:00Z",
-      "availability": {
-        "from": "2026-10-11T02:45:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-10-11T02:45:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-11-16T19:35:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-79956",
-        "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
-        "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "79d43e9a-8953-5293-a8ef-cceae20328f9",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "225610",
-      "providerCode": "TfNSW",
-      "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-      "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "225610",
-          "isGlobalId": true,
-          "name": "Woy Woy Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95320072:1",
-            "name": "Woy Woy",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101135"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "225610:L1770",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "12179419763"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-79956",
-    "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
-    "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available"
   }
 ]
