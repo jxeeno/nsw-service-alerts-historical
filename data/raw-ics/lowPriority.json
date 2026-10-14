@@ -1,133 +1,85 @@
 [
   {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "type": "infrastructure",
+    "id": "ems-80167",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2026-10-13T19:20:00Z",
+      "lastModification": "2026-10-13T19:20:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
+        "from": "2026-10-06T22:10:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
+          "from": "2026-10-13T19:20:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2505-11-21T10:11:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80167",
+        "content": "At Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9239.",
+        "subtitle": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
+        "smsText": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
+        "speechText": "At Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9239."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "21d07e37-f9c7-50f9-bd00-1080e8ce1b62",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "216010",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
+      "speechText": "At Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9239."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
+          "id": "216010",
+          "isGlobalId": true,
+          "name": "Merrylands Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95324007:1",
+            "name": "Merrylands",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
+          "properties": {
+            "stopId": "10101282"
+          }
+        }
+      ],
+      "Infrastructures": [
         {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
+          "name": "216010:L534",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9189474602"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80167",
+    "content": "At Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9239.",
+    "subtitle": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available"
   },
   {
     "type": "infrastructure",
@@ -210,6 +162,88 @@
     "url": "https://transportnsw.info/alerts/details#/ems-80188",
     "content": "At West Ryde Station Lift 1 between the concourse and Ryedale Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465.",
     "subtitle": "West Ryde Station Lift 1 between the concourse and Ryedale Rd is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-80134",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-10-13T02:49:00Z",
+      "lastModification": "2026-10-13T02:49:00Z",
+      "availability": {
+        "from": "2026-10-06T05:39:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-10-13T02:49:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-11-20T17:40:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80134",
+        "content": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
+        "subtitle": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+        "smsText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+        "speechText": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "3d70ffb4-2e5d-5ebc-a13d-ddf28439c748",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "217020",
+      "providerCode": "TfNSW",
+      "smsText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+      "speechText": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "217020",
+          "isGlobalId": true,
+          "name": "Liverpool Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95335020:1",
+            "name": "Liverpool",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101289"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "217020:L38",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9093519827"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80134",
+    "content": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
+    "subtitle": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available"
   },
   {
     "type": "infrastructure",
@@ -376,88 +410,6 @@
     "subtitle": "International Airport Station Lift 4 between the concourse and Platform 1 is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-80134",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-10-13T02:49:00Z",
-      "lastModification": "2026-10-13T02:49:00Z",
-      "availability": {
-        "from": "2026-10-06T05:39:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-10-13T02:49:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-11-20T17:40:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-80134",
-        "content": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
-        "subtitle": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-        "smsText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-        "speechText": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "3d70ffb4-2e5d-5ebc-a13d-ddf28439c748",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "217020",
-      "providerCode": "TfNSW",
-      "smsText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-      "speechText": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "217020",
-          "isGlobalId": true,
-          "name": "Liverpool Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95335020:1",
-            "name": "Liverpool",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101289"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "217020:L38",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9093519827"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-80134",
-    "content": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
-    "subtitle": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available"
-  },
-  {
     "type": "lineInfo",
     "id": "ems-159",
     "version": 19017138,
@@ -548,85 +500,133 @@
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
-    "type": "infrastructure",
-    "id": "ems-80167",
-    "version": 2,
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-10-13T19:20:00Z",
-      "lastModification": "2026-10-13T19:20:00Z",
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
       "availability": {
-        "from": "2026-10-06T22:10:00Z",
+        "from": "2021-11-19T02:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-10-13T19:20:00Z",
+          "from": "2021-11-19T02:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-11-21T10:11:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-80167",
-        "content": "At Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9239.",
-        "subtitle": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
-        "smsText": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
-        "speechText": "At Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9239."
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "21d07e37-f9c7-50f9-bd00-1080e8ce1b62",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "216010",
       "providerCode": "TfNSW",
-      "smsText": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
-      "speechText": "At Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9239."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "216010",
-          "isGlobalId": true,
-          "name": "Merrylands Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95324007:1",
-            "name": "Merrylands",
-            "type": "locality"
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101282"
-          }
-        }
-      ],
-      "Infrastructures": [
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
         {
-          "name": "216010:L534",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9189474602"
-            }
-          ]
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-80167",
-    "content": "At Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9239.",
-    "subtitle": "Merrylands Station Lift 1 between the footbridge, Terminal Pl and Platform 1 is not available"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   }
 ]
