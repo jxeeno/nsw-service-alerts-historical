@@ -499,134 +499,85 @@
     "subtitle": "Jannali Station Lift 1 between Platform 1, Mitchell Ave and the footbridge is not available"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
+    "type": "infrastructure",
+    "id": "ems-80538",
+    "version": 106708,
     "priority": "low",
     "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
+      "creation": "2026-10-20T22:11:00Z",
+      "lastModification": "2026-10-22T03:50:00Z",
       "availability": {
-        "from": "2021-11-19T02:00:00Z",
+        "from": "2026-09-28T05:27:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2021-11-19T02:00:00Z",
+          "from": "2026-10-20T22:11:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2500-12-31T00:00:59Z"
+      "expiration": "2501-08-20T20:42:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
+        "urlText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "url": "https://transportnsw.info/alerts/details#/ems-80538",
+        "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
+        "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "smsText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "speechText": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n\n\nThe lift is undergoing refurbishment until further notice."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "messageRef": "7e9aa999-70c6-5409-9d62-4775f9d32229",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200948:200940",
       "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
+      "smsText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+      "speechText": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n\n\nThe lift is undergoing refurbishment until further notice."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
+          "id": "200948",
+          "isGlobalId": true,
+          "name": "John Street Square Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
           },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
+          "properties": {
+            "stopId": "10101636"
+          }
+        }
+      ],
+      "Infrastructures": [
         {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
+          "name": "200948:L1482",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "11747037867"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
+    "urlText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+    "url": "https://transportnsw.info/alerts/details#/ems-80538",
+    "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
+    "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ"
   },
   {
     "type": "infrastructure",
@@ -794,87 +745,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-80538",
-    "version": 106708,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-10-20T22:11:00Z",
-      "lastModification": "2026-10-22T03:50:00Z",
-      "availability": {
-        "from": "2026-09-28T05:27:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-10-20T22:11:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2501-08-20T20:42:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "url": "https://transportnsw.info/alerts/details#/ems-80538",
-        "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
-        "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "smsText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "speechText": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n\n\nThe lift is undergoing refurbishment until further notice."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7e9aa999-70c6-5409-9d62-4775f9d32229",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200948:200940",
-      "providerCode": "TfNSW",
-      "smsText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-      "speechText": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n\n\nThe lift is undergoing refurbishment until further notice."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200948",
-          "isGlobalId": true,
-          "name": "John Street Square Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101636"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "200948:L1482",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "11747037867"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-    "url": "https://transportnsw.info/alerts/details#/ems-80538",
-    "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
-    "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-80944",
     "version": 1,
     "priority": "low",
@@ -1036,6 +906,136 @@
     "url": "https://transportnsw.info/alerts/details#/ems-80732",
     "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
     "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
