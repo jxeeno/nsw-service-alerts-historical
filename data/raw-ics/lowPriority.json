@@ -82,6 +82,218 @@
   },
   {
     "type": "infrastructure",
+    "id": "ems-80732",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-10-25T07:16:00Z",
+      "lastModification": "2026-10-25T07:16:00Z",
+      "availability": {
+        "from": "2026-10-18T10:06:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-10-25T07:16:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-12-02T22:07:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80732",
+        "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
+        "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+        "smsText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+        "speechText": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "bef726f1-6927-5f43-bff3-8d368690a793",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "226410",
+      "providerCode": "TfNSW",
+      "smsText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+      "speechText": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "226410",
+          "isGlobalId": true,
+          "name": "Morisset Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95331059:1",
+            "name": "Morisset",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101148"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "226410:L1170",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9553386940"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80732",
+    "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
+    "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-77406",
     "version": 1,
     "priority": "low",
@@ -246,88 +458,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-81067",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-10-31T19:16:00Z",
-      "lastModification": "2026-10-31T19:16:00Z",
-      "availability": {
-        "from": "2026-10-24T22:06:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-10-31T19:16:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-12-09T10:07:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-81067",
-        "content": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
-        "subtitle": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
-        "smsText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
-        "speechText": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "6e66cdd4-527d-5c67-bdd2-7c92d680e276",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "207210",
-      "providerCode": "TfNSW",
-      "smsText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
-      "speechText": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "207210",
-          "isGlobalId": true,
-          "name": "Gordon Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95330003:1",
-            "name": "Gordon",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101121"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "207210:L126",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9763398741"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-81067",
-    "content": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
-    "subtitle": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-80538",
     "version": 106708,
     "priority": "low",
@@ -406,218 +536,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-80538",
     "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
     "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-80918",
-    "version": 9,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-10-28T23:37:00Z",
-      "lastModification": "2026-10-28T23:38:00Z",
-      "availability": {
-        "from": "2026-10-22T02:27:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-10-28T23:37:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-12-06T14:27:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-80918",
-        "content": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\nFrom Wednesday 28 October until Friday 18 December, the lift between the concourse and Platform 3 will be closed for lift replacement works.\n\nIf you need lift access from the concourse to Platform 3, catch a train from Platform 1 or 2 and change at Rhodes Station to return via Platform 3.\n\nIf you arrive on Platform 3 and need lift access to the concourse, catch a train to Eastwood Station and return via Platform 1 or 2.\n\nAlternatively, lift access to the station will be available on the opposite side of the station on Ryedale Road. Baggage handlers will be available to assist during busy times.\n\nIf you need further assistance, ask station staff or call 02 9752 8465.\nIf you need help, ask staff or phone 02 9752 8465.",
-        "subtitle": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
-        "smsText": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
-        "speechText": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\nFrom Wednesday 28 October until Friday 18 December, the lift between the concourse and Platform 3 will be closed for lift replacement works.\n\nIf you need lift access from the concourse to Platform 3, catch a train from Platform 1 or 2 and change at Rhodes Station to return via Platform 3.\n\nIf you arrive on Platform 3 and need lift access to the concourse, catch a train to Eastwood Station and return via Platform 1 or 2.\n\nAlternatively, lift access to the station will be available on the opposite side of the station on Ryedale Road. Baggage handlers will be available to assist during busy times.\n\nIf you need further assistance, ask station staff or call 02 9752 8465.\nIf you need help, ask staff or phone 02 9752 8465."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "1c3be78b-850a-5eba-b710-a3beff734579",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "211420",
-      "providerCode": "TfNSW",
-      "smsText": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
-      "speechText": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\nFrom Wednesday 28 October until Friday 18 December, the lift between the concourse and Platform 3 will be closed for lift replacement works.\n\nIf you need lift access from the concourse to Platform 3, catch a train from Platform 1 or 2 and change at Rhodes Station to return via Platform 3.\n\nIf you arrive on Platform 3 and need lift access to the concourse, catch a train to Eastwood Station and return via Platform 1 or 2.\n\nAlternatively, lift access to the station will be available on the opposite side of the station on Ryedale Road. Baggage handlers will be available to assist during busy times.\n\nIf you need further assistance, ask station staff or call 02 9752 8465.\nIf you need help, ask staff or phone 02 9752 8465."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "211420",
-          "isGlobalId": true,
-          "name": "West Ryde Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95352014:1",
-            "name": "West Ryde",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101201"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "211420:L1060",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "2281691286"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-80918",
-    "content": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\nFrom Wednesday 28 October until Friday 18 December, the lift between the concourse and Platform 3 will be closed for lift replacement works.\n\nIf you need lift access from the concourse to Platform 3, catch a train from Platform 1 or 2 and change at Rhodes Station to return via Platform 3.\n\nIf you arrive on Platform 3 and need lift access to the concourse, catch a train to Eastwood Station and return via Platform 1 or 2.\n\nAlternatively, lift access to the station will be available on the opposite side of the station on Ryedale Road. Baggage handlers will be available to assist during busy times.\n\nIf you need further assistance, ask station staff or call 02 9752 8465.\nIf you need help, ask staff or phone 02 9752 8465.",
-    "subtitle": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "lineInfo",
@@ -711,34 +629,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-80732",
-    "version": 1,
+    "id": "ems-81067",
+    "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-10-25T07:16:00Z",
-      "lastModification": "2026-10-25T07:16:00Z",
+      "creation": "2026-10-31T19:16:00Z",
+      "lastModification": "2026-10-31T19:16:00Z",
       "availability": {
-        "from": "2026-10-18T10:06:00Z",
+        "from": "2026-10-24T22:06:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-10-25T07:16:00Z",
+          "from": "2026-10-31T19:16:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-12-02T22:07:59Z"
+      "expiration": "2505-12-09T10:07:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-80732",
-        "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
-        "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-        "smsText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-        "speechText": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241."
+        "urlText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-81067",
+        "content": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
+        "subtitle": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
+        "smsText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
+        "speechText": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458."
       }
     ],
     "properties": {
@@ -747,49 +665,131 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "bef726f1-6927-5f43-bff3-8d368690a793",
+      "messageRef": "6e66cdd4-527d-5c67-bdd2-7c92d680e276",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "226410",
+      "stopIDglobalID": "207210",
       "providerCode": "TfNSW",
-      "smsText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-      "speechText": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241."
+      "smsText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
+      "speechText": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458."
     },
     "affected": {
       "stops": [
         {
-          "id": "226410",
+          "id": "207210",
           "isGlobalId": true,
-          "name": "Morisset Station",
+          "name": "Gordon Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95331059:1",
-            "name": "Morisset",
+            "id": "placeID:95330003:1",
+            "name": "Gordon",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101148"
+            "stopId": "10101121"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "226410:L1170",
+          "name": "207210:L126",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "9553386940"
+              "id": "9763398741"
             }
           ]
         }
       ]
     },
-    "urlText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-80732",
-    "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
-    "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available"
+    "urlText": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-81067",
+    "content": "At Gordon Station Lift 2 between the concourse and Platform 2/3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8458.",
+    "subtitle": "Gordon Station Lift 2 between the concourse and Platform 2/3 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-80918",
+    "version": 9,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-10-28T23:37:00Z",
+      "lastModification": "2026-10-28T23:38:00Z",
+      "availability": {
+        "from": "2026-10-22T02:27:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-10-28T23:37:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-12-06T14:27:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80918",
+        "content": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\nFrom Wednesday 28 October until Friday 18 December, the lift between the concourse and Platform 3 will be closed for lift replacement works.\n\nIf you need lift access from the concourse to Platform 3, catch a train from Platform 1 or 2 and change at Rhodes Station to return via Platform 3.\n\nIf you arrive on Platform 3 and need lift access to the concourse, catch a train to Eastwood Station and return via Platform 1 or 2.\n\nAlternatively, lift access to the station will be available on the opposite side of the station on Ryedale Road. Baggage handlers will be available to assist during busy times.\n\nIf you need further assistance, ask station staff or call 02 9752 8465.\nIf you need help, ask staff or phone 02 9752 8465.",
+        "subtitle": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
+        "smsText": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
+        "speechText": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\nFrom Wednesday 28 October until Friday 18 December, the lift between the concourse and Platform 3 will be closed for lift replacement works.\n\nIf you need lift access from the concourse to Platform 3, catch a train from Platform 1 or 2 and change at Rhodes Station to return via Platform 3.\n\nIf you arrive on Platform 3 and need lift access to the concourse, catch a train to Eastwood Station and return via Platform 1 or 2.\n\nAlternatively, lift access to the station will be available on the opposite side of the station on Ryedale Road. Baggage handlers will be available to assist during busy times.\n\nIf you need further assistance, ask station staff or call 02 9752 8465.\nIf you need help, ask staff or phone 02 9752 8465."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "1c3be78b-850a-5eba-b710-a3beff734579",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "211420",
+      "providerCode": "TfNSW",
+      "smsText": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
+      "speechText": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\nFrom Wednesday 28 October until Friday 18 December, the lift between the concourse and Platform 3 will be closed for lift replacement works.\n\nIf you need lift access from the concourse to Platform 3, catch a train from Platform 1 or 2 and change at Rhodes Station to return via Platform 3.\n\nIf you arrive on Platform 3 and need lift access to the concourse, catch a train to Eastwood Station and return via Platform 1 or 2.\n\nAlternatively, lift access to the station will be available on the opposite side of the station on Ryedale Road. Baggage handlers will be available to assist during busy times.\n\nIf you need further assistance, ask station staff or call 02 9752 8465.\nIf you need help, ask staff or phone 02 9752 8465."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "211420",
+          "isGlobalId": true,
+          "name": "West Ryde Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95352014:1",
+            "name": "West Ryde",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101201"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "211420:L1060",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "2281691286"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80918",
+    "content": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\nFrom Wednesday 28 October until Friday 18 December, the lift between the concourse and Platform 3 will be closed for lift replacement works.\n\nIf you need lift access from the concourse to Platform 3, catch a train from Platform 1 or 2 and change at Rhodes Station to return via Platform 3.\n\nIf you arrive on Platform 3 and need lift access to the concourse, catch a train to Eastwood Station and return via Platform 1 or 2.\n\nAlternatively, lift access to the station will be available on the opposite side of the station on Ryedale Road. Baggage handlers will be available to assist during busy times.\n\nIf you need further assistance, ask station staff or call 02 9752 8465.\nIf you need help, ask staff or phone 02 9752 8465.",
+    "subtitle": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available"
   },
   {
     "type": "infrastructure",
