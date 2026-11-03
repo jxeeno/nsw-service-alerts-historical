@@ -1,88 +1,6 @@
 [
   {
     "type": "infrastructure",
-    "id": "ems-81195",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-11-03T06:43:00Z",
-      "lastModification": "2026-11-03T06:43:00Z",
-      "availability": {
-        "from": "2026-10-27T09:33:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-11-03T06:43:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-12-11T21:34:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-81195",
-        "content": "At Fairfield Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
-        "subtitle": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
-        "smsText": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
-        "speechText": "At Fairfield Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "ee5be32e-3e1f-517b-84ad-e42465b8c8ba",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "216510",
-      "providerCode": "TfNSW",
-      "smsText": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
-      "speechText": "At Fairfield Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "216510",
-          "isGlobalId": true,
-          "name": "Fairfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95318011:1",
-            "name": "Fairfield",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101285"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "216510:L57",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9106997654"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-81195",
-    "content": "At Fairfield Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
-    "subtitle": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-81108",
     "version": 32,
     "priority": "low",
@@ -164,106 +82,35 @@
     "subtitle": "Warwick Farm Station Lift 1 between the footbridge and Warwick St is not available"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-81192",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-11-03T06:19:00Z",
-      "lastModification": "2026-11-03T06:19:00Z",
-      "availability": {
-        "from": "2026-11-03T06:18:00Z",
-        "to": "2026-11-03T08:18:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-11-03T06:18:00Z",
-          "to": "2026-11-03T08:18:00Z"
-        }
-      ],
-      "expiration": "2026-11-03T08:18:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Train service delays between Macksville Station and Casino Station",
-        "url": "https://transportnsw.info/alerts/details#/ems-81192",
-        "content": "There are delays on route 33 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train service delays between Macksville Station and Casino Station",
-        "smsText": "Train service delays between Macksville Station and Casino Station",
-        "speechText": "There are delays on route 33 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "007211a7-0ebc-5dae-bcd3-39d579d662ff",
-      "Others": "speedRestrictions",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Train service delays between Macksville Station and Casino Station",
-      "speechText": "There are delays on route 33 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76033: :H:",
-          "destination": {
-            "name": "Casino Station, Casino",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 33",
-          "number": "33",
-          "description": "Central to Casino",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ]
-    },
-    "urlText": "Train service delays between Macksville Station and Casino Station",
-    "url": "https://transportnsw.info/alerts/details#/ems-81192",
-    "content": "There are delays on route 33 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays between Macksville Station and Casino Station"
-  },
-  {
     "type": "infrastructure",
-    "id": "ems-80732",
-    "version": 1,
+    "id": "ems-81102",
+    "version": 3,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-10-25T07:16:00Z",
-      "lastModification": "2026-10-25T07:16:00Z",
+      "creation": "2026-11-02T01:22:00Z",
+      "lastModification": "2026-11-02T01:22:00Z",
       "availability": {
-        "from": "2026-10-18T10:06:00Z",
+        "from": "2026-11-02T01:22:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-10-25T07:16:00Z",
+          "from": "2026-11-02T01:22:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-12-02T22:07:59Z"
+      "expiration": "2505-12-08T18:12:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-80732",
-        "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
-        "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-        "smsText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-        "speechText": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241."
+        "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-81102",
+        "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
+        "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+        "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+        "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
       }
     ],
     "properties": {
@@ -272,49 +119,49 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "bef726f1-6927-5f43-bff3-8d368690a793",
+      "messageRef": "31082e96-98a6-5207-950f-6465d0e68b3e",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "226410",
+      "stopIDglobalID": "225610",
       "providerCode": "TfNSW",
-      "smsText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-      "speechText": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241."
+      "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+      "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
     },
     "affected": {
       "stops": [
         {
-          "id": "226410",
+          "id": "225610",
           "isGlobalId": true,
-          "name": "Morisset Station",
+          "name": "Woy Woy Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95331059:1",
-            "name": "Morisset",
+            "id": "placeID:95320072:1",
+            "name": "Woy Woy",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101148"
+            "stopId": "10101135"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "226410:L1170",
+          "name": "225610:L1770",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "9553386940"
+              "id": "12179419763"
             }
           ]
         }
       ]
     },
-    "urlText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-80732",
-    "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
-    "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available"
+    "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-81102",
+    "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
+    "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available"
   },
   {
     "type": "infrastructure",
@@ -397,299 +244,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-81070",
     "content": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465.",
     "subtitle": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-80538",
-    "version": 106708,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-10-20T22:11:00Z",
-      "lastModification": "2026-10-22T03:50:00Z",
-      "availability": {
-        "from": "2026-09-28T05:27:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-10-20T22:11:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2501-08-20T20:42:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "url": "https://transportnsw.info/alerts/details#/ems-80538",
-        "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
-        "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "smsText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-        "speechText": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n\n\nThe lift is undergoing refurbishment until further notice."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7e9aa999-70c6-5409-9d62-4775f9d32229",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "200948:200940",
-      "providerCode": "TfNSW",
-      "smsText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-      "speechText": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n\n\nThe lift is undergoing refurbishment until further notice."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "200948",
-          "isGlobalId": true,
-          "name": "John Street Square Light Rail",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301023:1",
-            "name": "Pyrmont",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101636"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "200948:L1482",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "11747037867"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
-    "url": "https://transportnsw.info/alerts/details#/ems-80538",
-    "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
-    "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-77406",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-08-25T04:32:00Z",
-      "lastModification": "2026-08-25T04:32:00Z",
-      "availability": {
-        "from": "2026-08-18T07:22:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-08-25T04:32:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-10-02T19:22:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-77406",
-        "content": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
-        "subtitle": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
-        "smsText": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
-        "speechText": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "2d562dd6-1263-58c1-9d4b-189219f388b2",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "202030:2020101",
-      "providerCode": "TfNSW",
-      "smsText": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
-      "speechText": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "202030",
-          "isGlobalId": true,
-          "name": "International Airport Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95310008:1",
-            "name": "Mascot",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101332"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "202030:L450",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "10164225793"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-77406",
-    "content": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
-    "subtitle": "International Airport Station Lift 4 between the concourse and Platform 1 is not available"
   },
   {
     "type": "infrastructure",
@@ -856,6 +410,169 @@
     "subtitle": "Toongabbie Station Lift 1 between the footbridge and Wentworth Ave is not available"
   },
   {
+    "type": "infrastructure",
+    "id": "ems-80538",
+    "version": 106708,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-10-20T22:11:00Z",
+      "lastModification": "2026-10-22T03:50:00Z",
+      "availability": {
+        "from": "2026-09-28T05:27:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-10-20T22:11:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2501-08-20T20:42:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "url": "https://transportnsw.info/alerts/details#/ems-80538",
+        "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
+        "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "smsText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+        "speechText": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n\n\nThe lift is undergoing refurbishment until further notice."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "7e9aa999-70c6-5409-9d62-4775f9d32229",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "200948:200940",
+      "providerCode": "TfNSW",
+      "smsText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+      "speechText": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n\n\nThe lift is undergoing refurbishment until further notice."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "200948",
+          "isGlobalId": true,
+          "name": "John Street Square Light Rail",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95301023:1",
+            "name": "Pyrmont",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101636"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "200948:L1482",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "11747037867"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ",
+    "url": "https://transportnsw.info/alerts/details#/ems-80538",
+    "content": "At John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is temporarily out of service.\n\n<br/><div>The lift is undergoing refurbishment until further notice.</div>\n<div>&nbsp;</div>\n<div>For your safety, do not use even if doors open.<br />&nbsp;<br />Alternative access:<br />Use the stairs, if able to.<br />&nbsp;<br />For urgent assistance:<br />Use the Help Point if on the platform<br />Or call 131 500</div>",
+    "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-77406",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-08-25T04:32:00Z",
+      "lastModification": "2026-08-25T04:32:00Z",
+      "availability": {
+        "from": "2026-08-18T07:22:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-08-25T04:32:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-10-02T19:22:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-77406",
+        "content": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+        "subtitle": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
+        "smsText": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
+        "speechText": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "2d562dd6-1263-58c1-9d4b-189219f388b2",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "202030:2020101",
+      "providerCode": "TfNSW",
+      "smsText": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
+      "speechText": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "202030",
+          "isGlobalId": true,
+          "name": "International Airport Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95310008:1",
+            "name": "Mascot",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101332"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "202030:L450",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "10164225793"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "International Airport Station Lift 4 between the concourse and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-77406",
+    "content": "At International Airport Station Lift 4 between the concourse and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 8337 8460.",
+    "subtitle": "International Airport Station Lift 4 between the concourse and Platform 1 is not available"
+  },
+  {
     "type": "lineInfo",
     "id": "ems-159",
     "version": 19017138,
@@ -946,6 +663,136 @@
     "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
+      "availability": {
+        "from": "2021-11-19T02:00:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2021-11-19T02:00:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2500-12-31T00:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
+      }
+    ],
+    "properties": {
+      "announcementType": "serviceChange",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Bikes permitted with fees."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        }
+      ]
+    },
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
+  },
+  {
     "type": "infrastructure",
     "id": "ems-81119",
     "version": 4,
@@ -1029,34 +876,34 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-81102",
-    "version": 3,
+    "id": "ems-80732",
+    "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-11-02T01:22:00Z",
-      "lastModification": "2026-11-02T01:22:00Z",
+      "creation": "2026-10-25T07:16:00Z",
+      "lastModification": "2026-10-25T07:16:00Z",
       "availability": {
-        "from": "2026-11-02T01:22:00Z",
+        "from": "2026-10-18T10:06:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-11-02T01:22:00Z",
+          "from": "2026-10-25T07:16:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-12-08T18:12:59Z"
+      "expiration": "2505-12-02T22:07:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-81102",
-        "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
-        "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-        "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
+        "urlText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-80732",
+        "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
+        "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+        "smsText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+        "speechText": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241."
       }
     ],
     "properties": {
@@ -1065,49 +912,131 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "31082e96-98a6-5207-950f-6465d0e68b3e",
+      "messageRef": "bef726f1-6927-5f43-bff3-8d368690a793",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "225610",
+      "stopIDglobalID": "226410",
       "providerCode": "TfNSW",
-      "smsText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-      "speechText": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230."
+      "smsText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+      "speechText": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241."
     },
     "affected": {
       "stops": [
         {
-          "id": "225610",
+          "id": "226410",
           "isGlobalId": true,
-          "name": "Woy Woy Station",
+          "name": "Morisset Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95320072:1",
-            "name": "Woy Woy",
+            "id": "placeID:95331059:1",
+            "name": "Morisset",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101135"
+            "stopId": "10101148"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "225610:L1770",
+          "name": "226410:L1170",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "12179419763"
+              "id": "9553386940"
             }
           ]
         }
       ]
     },
-    "urlText": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-81102",
-    "content": "At Woy Woy Station Lift 6 between the car park and Blackwall Rd is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9230.",
-    "subtitle": "Woy Woy Station Lift 6 between the car park and Blackwall Rd is not available"
+    "urlText": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-80732",
+    "content": "At Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4349 9241.",
+    "subtitle": "Morisset Station Lift 2 between the footbridge and Platform 2 or Dora St is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-81195",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-11-03T06:43:00Z",
+      "lastModification": "2026-11-03T06:43:00Z",
+      "availability": {
+        "from": "2026-10-27T09:33:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-11-03T06:43:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-12-11T21:34:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-81195",
+        "content": "At Fairfield Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
+        "subtitle": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
+        "smsText": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
+        "speechText": "At Fairfield Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "ee5be32e-3e1f-517b-84ad-e42465b8c8ba",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "216510",
+      "providerCode": "TfNSW",
+      "smsText": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
+      "speechText": "At Fairfield Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "216510",
+          "isGlobalId": true,
+          "name": "Fairfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95318011:1",
+            "name": "Fairfield",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101285"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "216510:L57",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9106997654"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-81195",
+    "content": "At Fairfield Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
+    "subtitle": "Fairfield Station Lift 1 between the footbridge and Platform 1 is not available"
   },
   {
     "type": "infrastructure",
