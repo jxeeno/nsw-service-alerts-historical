@@ -1,85 +1,133 @@
 [
   {
-    "type": "infrastructure",
-    "id": "ems-81356",
-    "version": 1,
+    "type": "lineInfo",
+    "id": "ems-158",
+    "version": 15628844,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-11-05T05:39:00Z",
-      "lastModification": "2026-11-05T05:39:00Z",
+      "creation": "2021-11-19T03:01:00Z",
+      "lastModification": "2022-05-19T00:21:00Z",
       "availability": {
-        "from": "2026-10-29T08:29:00Z",
+        "from": "2021-11-19T02:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-11-05T05:39:00Z",
+          "from": "2021-11-19T02:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-12-13T20:30:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-81356",
-        "content": "At Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7650.",
-        "subtitle": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
-        "smsText": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
-        "speechText": "At Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7650."
+        "urlText": "Bikes permitted with fees.",
+        "url": "https://transportnsw.info/alerts/details#/ems-158",
+        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+        "subtitle": "Bikes permitted with fees.",
+        "smsText": "Bikes permitted with fees."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "0715a3cb-403a-5c94-881e-e27f2269629c",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "220910",
       "providerCode": "TfNSW",
-      "smsText": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
-      "speechText": "At Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7650."
+      "smsText": "Bikes permitted with fees."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "220910",
-          "isGlobalId": true,
-          "name": "Beverly Hills Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95315004:1",
-            "name": "Beverly Hills",
-            "type": "locality"
+          "id": "nsw:04BUN:C:H:",
+          "destination": {
+            "name": "Bundeena Wharf, Bundeena",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101413"
-          }
-        }
-      ],
-      "Infrastructures": [
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Cronulla to Bundeena",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
         {
-          "name": "220910:L916",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "2444076737"
-            }
-          ]
+          "id": "nsw:04BUN:C:R:",
+          "destination": {
+            "name": "Cronulla Wharf, Cronulla",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
+          "number": "BUNC Bundeena Ferry",
+          "description": "Bundeena to Cronulla",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "300",
+            "name": "Cronulla Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:R:",
+          "destination": {
+            "name": "Woy Woy Wharf, Woy Woy",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Empire Bay to Woy Woy",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
+        },
+        {
+          "id": "nsw:04EMP:B:H:",
+          "destination": {
+            "name": "Empire Bay Wharf, Empire Bay",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
+          "number": "EMPB Woy Woy to Empire Bay Ferry",
+          "description": "Woy Woy to Empire Bay",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "303",
+            "name": "Central Coast Ferries"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-81356",
-    "content": "At Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7650.",
-    "subtitle": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available"
+    "urlText": "Bikes permitted with fees.",
+    "url": "https://transportnsw.info/alerts/details#/ems-158",
+    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
+    "subtitle": "Bikes permitted with fees."
   },
   {
     "type": "infrastructure",
@@ -255,34 +303,116 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-81230",
+    "id": "ems-81356",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-11-05T05:39:00Z",
+      "lastModification": "2026-11-05T05:39:00Z",
+      "availability": {
+        "from": "2026-10-29T08:29:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-11-05T05:39:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-12-13T20:30:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-81356",
+        "content": "At Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7650.",
+        "subtitle": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
+        "smsText": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
+        "speechText": "At Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7650."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "0715a3cb-403a-5c94-881e-e27f2269629c",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "220910",
+      "providerCode": "TfNSW",
+      "smsText": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
+      "speechText": "At Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7650."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "220910",
+          "isGlobalId": true,
+          "name": "Beverly Hills Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95315004:1",
+            "name": "Beverly Hills",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101413"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "220910:L916",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "2444076737"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-81356",
+    "content": "At Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9563 7650.",
+    "subtitle": "Beverly Hills Station Lift 1 between King Georges Rd and Platform 1/2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-81359",
     "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-11-03T19:59:00Z",
-      "lastModification": "2026-11-03T19:59:00Z",
+      "creation": "2026-11-05T06:11:00Z",
+      "lastModification": "2026-11-05T06:11:00Z",
       "availability": {
-        "from": "2026-10-27T22:49:00Z",
+        "from": "2022-05-23T11:18:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-11-03T19:59:00Z",
+          "from": "2026-11-05T06:11:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-12-12T10:49:59Z"
+      "expiration": "2505-12-13T21:02:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-81230",
-        "content": "At Wentworthville Station Lift 4 between the concourse and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
-        "subtitle": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
-        "smsText": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
-        "speechText": "At Wentworthville Station Lift 4 between the concourse and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
+        "urlText": "Chatswood Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-81359",
+        "content": "At Chatswood Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.",
+        "subtitle": "Chatswood Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "smsText": "Chatswood Station Lift 1 between the concourse and Platform 3/4 is not available",
+        "speechText": "At Chatswood Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service."
       }
     ],
     "properties": {
@@ -291,213 +421,49 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "6a9bc7fb-9d08-51b1-a61c-42ffa540b55e",
+      "messageRef": "b36db112-b498-5cd0-b4d7-3021e8588320",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "214520",
+      "stopIDglobalID": "206710",
       "providerCode": "TfNSW",
-      "smsText": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
-      "speechText": "At Wentworthville Station Lift 4 between the concourse and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
+      "smsText": "Chatswood Station Lift 1 between the concourse and Platform 3/4 is not available",
+      "speechText": "At Chatswood Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service."
     },
     "affected": {
       "stops": [
         {
-          "id": "214520",
+          "id": "206710",
           "isGlobalId": true,
-          "name": "Wentworthville Station",
+          "name": "Chatswood Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95346019:1",
-            "name": "Wentworthville",
+            "id": "placeID:95362004:1",
+            "name": "Chatswood",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101231"
+            "stopId": "10101117"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "214520:L417",
+          "name": "206710:L370",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "9201527180"
+              "id": "4420554009"
             }
           ]
         }
       ]
     },
-    "urlText": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-81230",
-    "content": "At Wentworthville Station Lift 4 between the concourse and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
-    "subtitle": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-81350",
-    "version": 3,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-11-05T02:55:00Z",
-      "lastModification": "2026-11-05T02:55:00Z",
-      "availability": {
-        "from": "2026-10-29T05:45:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-11-05T02:55:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-12-13T17:46:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Kings Cross Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-81350",
-        "content": "At Kings Cross Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204.",
-        "subtitle": "Kings Cross Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "smsText": "Kings Cross Station Lift 2 between the concourse and Platform 1/2 is not available",
-        "speechText": "At Kings Cross Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "8ae02c38-5a4b-562f-83cb-bb10f72801e1",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "201110",
-      "providerCode": "TfNSW",
-      "smsText": "Kings Cross Station Lift 2 between the concourse and Platform 1/2 is not available",
-      "speechText": "At Kings Cross Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "201110",
-          "isGlobalId": true,
-          "name": "Kings Cross Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95301022:1",
-            "name": "Potts Point",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101107"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "201110:L829",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9837614158"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Kings Cross Station Lift 2 between the concourse and Platform 1/2 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-81350",
-    "content": "At Kings Cross Station Lift 2 between the concourse and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 1204.",
-    "subtitle": "Kings Cross Station Lift 2 between the concourse and Platform 1/2 is not available"
-  },
-  {
-    "type": "infrastructure",
-    "id": "ems-81119",
-    "version": 4,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-11-02T08:24:00Z",
-      "lastModification": "2026-11-02T08:24:00Z",
-      "availability": {
-        "from": "2026-11-02T08:24:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-11-02T08:24:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-12-10T23:15:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-81119",
-        "content": "At Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
-        "subtitle": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
-        "smsText": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
-        "speechText": "At Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "a31ca47f-fb37-51c1-9fbe-b042679510cc",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "277010",
-      "providerCode": "TfNSW",
-      "smsText": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
-      "speechText": "At Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "277010",
-          "isGlobalId": true,
-          "name": "Mount Druitt Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95308025:1",
-            "name": "Mount Druitt",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101248"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "277010:L253",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "7409773875"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-81119",
-    "content": "At Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
-    "subtitle": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available"
+    "urlText": "Chatswood Station Lift 1 between the concourse and Platform 3/4 is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-81359",
+    "content": "At Chatswood Station Lift 1 between the concourse and Platform 3/4 is temporarily out of service.",
+    "subtitle": "Chatswood Station Lift 1 between the concourse and Platform 3/4 is not available"
   },
   {
     "type": "infrastructure",
@@ -581,165 +547,35 @@
     "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-158",
-    "version": 15628844,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:01:00Z",
-      "lastModification": "2022-05-19T00:21:00Z",
-      "availability": {
-        "from": "2021-11-19T02:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T02:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bikes permitted with fees.",
-        "url": "https://transportnsw.info/alerts/details#/ems-158",
-        "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-        "subtitle": "Bikes permitted with fees.",
-        "smsText": "Bikes permitted with fees."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "63c82e1e-0f40-5f7a-8591-d6ecc7031910",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bikes permitted with fees."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04BUN:C:H:",
-          "destination": {
-            "name": "Bundeena Wharf, Bundeena",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Cronulla to Bundeena",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04BUN:C:R:",
-          "destination": {
-            "name": "Cronulla Wharf, Cronulla",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services BUNC Bundeena Ferry",
-          "number": "BUNC Bundeena Ferry",
-          "description": "Bundeena to Cronulla",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "300",
-            "name": "Cronulla Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:R:",
-          "destination": {
-            "name": "Woy Woy Wharf, Woy Woy",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Empire Bay to Woy Woy",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04EMP:B:H:",
-          "destination": {
-            "name": "Empire Bay Wharf, Empire Bay",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services EMPB Woy Woy to Empire Bay Ferry",
-          "number": "EMPB Woy Woy to Empire Bay Ferry",
-          "description": "Woy Woy to Empire Bay",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "303",
-            "name": "Central Coast Ferries"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bikes permitted with fees.",
-    "url": "https://transportnsw.info/alerts/details#/ems-158",
-    "content": "<div>Bicycles are permitted on this service, although additional fees may apply. Please check the operator has space prior to travelling.</div>.",
-    "subtitle": "Bikes permitted with fees."
-  },
-  {
     "type": "infrastructure",
-    "id": "ems-81343",
+    "id": "ems-81230",
     "version": 2,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-11-04T23:29:00Z",
-      "lastModification": "2026-11-04T23:30:00Z",
+      "creation": "2026-11-03T19:59:00Z",
+      "lastModification": "2026-11-03T19:59:00Z",
       "availability": {
-        "from": "2026-10-29T02:19:00Z",
+        "from": "2026-10-27T22:49:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-11-04T23:29:00Z",
+          "from": "2026-11-03T19:59:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-12-13T14:20:59Z"
+      "expiration": "2505-12-12T10:49:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "North Sydney Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "url": "https://transportnsw.info/alerts/details#/ems-81343",
-        "content": "At North Sydney Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4432.",
-        "subtitle": "North Sydney Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "smsText": "North Sydney Station Lift 2 between the concourse and Platform 3/4 is not available",
-        "speechText": "At North Sydney Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4432."
+        "urlText": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-81230",
+        "content": "At Wentworthville Station Lift 4 between the concourse and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+        "subtitle": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
+        "smsText": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
+        "speechText": "At Wentworthville Station Lift 4 between the concourse and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
       }
     ],
     "properties": {
@@ -748,49 +584,131 @@
       "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "44717d30-7eb9-57de-b754-831dcff6b0cf",
+      "messageRef": "6a9bc7fb-9d08-51b1-a61c-42ffa540b55e",
       "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "206010",
+      "stopIDglobalID": "214520",
       "providerCode": "TfNSW",
-      "smsText": "North Sydney Station Lift 2 between the concourse and Platform 3/4 is not available",
-      "speechText": "At North Sydney Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4432."
+      "smsText": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
+      "speechText": "At Wentworthville Station Lift 4 between the concourse and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151."
     },
     "affected": {
       "stops": [
         {
-          "id": "206010",
+          "id": "214520",
           "isGlobalId": true,
-          "name": "North Sydney Station",
+          "name": "Wentworthville Station",
           "type": "stop",
           "parent": {
-            "id": "placeID:95343010:1",
-            "name": "North Sydney",
+            "id": "placeID:95346019:1",
+            "name": "Wentworthville",
             "type": "locality"
           },
           "properties": {
-            "stopId": "10101112"
+            "stopId": "10101231"
           }
         }
       ],
       "Infrastructures": [
         {
-          "name": "206010:L92",
+          "name": "214520:L417",
           "status": "INACTIVE",
           "type": "ELEVATOR",
           "infrastructureIds": [
             {
               "provider": "osm",
-              "id": "4887412776"
+              "id": "9201527180"
             }
           ]
         }
       ]
     },
-    "urlText": "North Sydney Station Lift 2 between the concourse and Platform 3/4 is not available",
-    "url": "https://transportnsw.info/alerts/details#/ems-81343",
-    "content": "At North Sydney Station Lift 2 between the concourse and Platform 3/4 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9379 4432.",
-    "subtitle": "North Sydney Station Lift 2 between the concourse and Platform 3/4 is not available"
+    "urlText": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-81230",
+    "content": "At Wentworthville Station Lift 4 between the concourse and Wentworth Ave is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9848 9151.",
+    "subtitle": "Wentworthville Station Lift 4 between the concourse and Wentworth Ave is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-81119",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-11-02T08:24:00Z",
+      "lastModification": "2026-11-02T08:24:00Z",
+      "availability": {
+        "from": "2026-11-02T08:24:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-11-02T08:24:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-12-10T23:15:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
+        "url": "https://transportnsw.info/alerts/details#/ems-81119",
+        "content": "At Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
+        "subtitle": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
+        "smsText": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
+        "speechText": "At Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "a31ca47f-fb37-51c1-9fbe-b042679510cc",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "277010",
+      "providerCode": "TfNSW",
+      "smsText": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
+      "speechText": "At Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "277010",
+          "isGlobalId": true,
+          "name": "Mount Druitt Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95308025:1",
+            "name": "Mount Druitt",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101248"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "277010:L253",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "7409773875"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available",
+    "url": "https://transportnsw.info/alerts/details#/ems-81119",
+    "content": "At Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7501.",
+    "subtitle": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available"
   },
   {
     "type": "infrastructure",
