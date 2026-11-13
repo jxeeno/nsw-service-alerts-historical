@@ -3503,33 +3503,33 @@
     "subtitle": "Buses replace trains between Scone and Maitland, and some trains between Scone, Dungog and Newcastle Interchange"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-81536",
-    "version": 1,
+    "type": "routeInfo",
+    "id": "ems-81546",
+    "version": 426,
     "priority": "normal",
     "timestamps": {
-      "creation": "2026-11-09T03:17:00Z",
-      "lastModification": "2026-11-09T03:17:00Z",
+      "creation": "2026-11-09T03:43:00Z",
+      "lastModification": "2026-11-09T03:50:00Z",
       "availability": {
-        "from": "2026-11-08T15:00:00Z",
-        "to": "2026-11-29T15:00:00Z"
+        "from": "2026-11-09T03:00:00Z",
+        "to": "2026-11-28T17:45:00Z"
       },
       "validity": [
         {
-          "from": "2026-11-27T15:00:00Z",
-          "to": "2026-11-29T15:00:00Z"
+          "from": "2026-11-27T03:00:00Z",
+          "to": "2026-11-28T17:45:00Z"
         }
       ],
-      "expiration": "2026-11-29T15:00:59Z"
+      "expiration": "2026-11-28T17:45:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Trains may run to a changed timetable and stopping pattern",
-        "url": "https://transportnsw.info/alerts/details#/ems-81536",
-        "content": "<div>\n<div><strong>Saturday 28 and Sunday 29 November</strong></div>\n<ul>\n<li>Trains may run to a changed timetable and stopping pattern.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\" target=\"_blank\" rel=\"noopener\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-        "subtitle": "Trains may run to a changed timetable and stopping pattern",
-        "smsText": "Trains may run to a changed timetable and stopping pattern",
-        "speechText": "Saturday 28 and Sunday 29 November\nTrains may run to a changed timetable and stopping pattern."
+        "urlText": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
+        "url": "https://transportnsw.info/alerts/details#/ems-81546",
+        "content": "<div>Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.</div>",
+        "subtitle": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
+        "smsText": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
+        "speechText": "Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey."
       }
     ],
     "properties": {
@@ -3537,61 +3537,86 @@
       "publishToAreas": "1",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "258aa2af-3ee9-55bc-bf97-1519aaf9c742",
+      "messageRef": "755e337a-1f54-5f0a-8fc6-ba9ccc6be51d",
       "EquipmentReason": "maintenanceWork",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "24701#24741#40001",
       "providerCode": "TfNSW",
-      "smsText": "Trains may run to a changed timetable and stopping pattern",
-      "speechText": "Saturday 28 and Sunday 29 November\nTrains may run to a changed timetable and stopping pattern."
+      "smsText": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
+      "speechText": "Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey."
     },
     "affected": {
       "lines": [
         {
-          "id": "nsw:020T5: :R:",
+          "id": "nsw:76031: :H:",
           "destination": {
-            "name": "Campbelltown Station, Campbelltown",
+            "name": "Brisbane (Roma Street) Station, Queensland",
             "type": "stop"
           },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Leppington to Richmond",
+          "name": "Regional Trains and Coaches Network 31",
+          "number": "31",
+          "description": "Central to Brisbane (Roma Street)",
           "product": {
-            "id": 1,
+            "id": 3,
             "class": 1,
             "iconId": 1
           },
           "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
+            "id": "711",
+            "name": "NSW TrainLink"
           },
-          "iconId": 1
+          "iconId": 3
+        }
+      ],
+      "stops": [
+        {
+          "id": "24701",
+          "isGlobalId": true,
+          "name": "Casino Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95935006:1",
+            "name": "Casino",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101830"
+          }
         },
         {
-          "id": "nsw:020T5: :H:",
-          "destination": {
-            "name": "Penrith Station, Penrith",
-            "type": "stop"
+          "id": "24741",
+          "isGlobalId": true,
+          "name": "Kyogle Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95933046:1",
+            "name": "Kyogle",
+            "type": "locality"
           },
-          "name": "Sydney Trains Network T5 Cumberland Line",
-          "number": "T5 Cumberland Line",
-          "description": "Richmond to Leppington",
-          "product": {
-            "id": 1,
-            "class": 1,
-            "iconId": 1
+          "properties": {
+            "stopId": "10101829"
+          }
+        },
+        {
+          "id": "40001",
+          "isGlobalId": true,
+          "name": "Brisbane (Roma Street) Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95401001:95401001",
+            "name": "Queensland",
+            "type": "locality"
           },
-          "operator": {
-            "id": "x0001",
-            "name": "Sydney Trains"
-          },
-          "iconId": 1
+          "properties": {
+            "stopId": "10101828"
+          }
         }
       ]
     },
-    "urlText": "Trains may run to a changed timetable and stopping pattern",
-    "url": "https://transportnsw.info/alerts/details#/ems-81536",
-    "content": "<div>\n<div><strong>Saturday 28 and Sunday 29 November</strong></div>\n<ul>\n<li>Trains may run to a changed timetable and stopping pattern.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\" target=\"_blank\" rel=\"noopener\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
-    "subtitle": "Trains may run to a changed timetable and stopping pattern"
+    "urlText": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
+    "url": "https://transportnsw.info/alerts/details#/ems-81546",
+    "content": "<div>Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.</div>",
+    "subtitle": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service"
   },
   {
     "type": "lineInfo",
@@ -9584,122 +9609,6 @@
   },
   {
     "type": "routeInfo",
-    "id": "ems-81546",
-    "version": 426,
-    "priority": "normal",
-    "timestamps": {
-      "creation": "2026-11-09T03:43:00Z",
-      "lastModification": "2026-11-09T03:50:00Z",
-      "availability": {
-        "from": "2026-11-09T03:00:00Z",
-        "to": "2026-11-28T17:45:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-11-27T03:00:00Z",
-          "to": "2026-11-28T17:45:00Z"
-        }
-      ],
-      "expiration": "2026-11-28T17:45:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
-        "url": "https://transportnsw.info/alerts/details#/ems-81546",
-        "content": "<div>Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.</div>",
-        "subtitle": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
-        "smsText": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
-        "speechText": "Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey."
-      }
-    ],
-    "properties": {
-      "announcementType": "trackwork",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "755e337a-1f54-5f0a-8fc6-ba9ccc6be51d",
-      "EquipmentReason": "maintenanceWork",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "24701#24741#40001",
-      "providerCode": "TfNSW",
-      "smsText": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
-      "speechText": "Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:76031: :H:",
-          "destination": {
-            "name": "Brisbane (Roma Street) Station, Queensland",
-            "type": "stop"
-          },
-          "name": "Regional Trains and Coaches Network 31",
-          "number": "31",
-          "description": "Central to Brisbane (Roma Street)",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
-        }
-      ],
-      "stops": [
-        {
-          "id": "24701",
-          "isGlobalId": true,
-          "name": "Casino Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95935006:1",
-            "name": "Casino",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101830"
-          }
-        },
-        {
-          "id": "24741",
-          "isGlobalId": true,
-          "name": "Kyogle Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95933046:1",
-            "name": "Kyogle",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101829"
-          }
-        },
-        {
-          "id": "40001",
-          "isGlobalId": true,
-          "name": "Brisbane (Roma Street) Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95401001:95401001",
-            "name": "Queensland",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101828"
-          }
-        }
-      ]
-    },
-    "urlText": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service",
-    "url": "https://transportnsw.info/alerts/details#/ems-81546",
-    "content": "<div>Due to planned trackwork, this service will terminate at Casino. Passengers will board awaiting coaches to travel the remainder of the journey.</div>",
-    "subtitle": "27th November to 28th November 2026 inclusive- 31 Sydney to Brisbane XPT service"
-  },
-  {
-    "type": "routeInfo",
     "id": "ems-79155",
     "version": 266,
     "priority": "normal",
@@ -13494,6 +13403,97 @@
     "url": "https://transportnsw.info/alerts/details#/ems-80767",
     "content": "<div>\n<div><strong>Saturday 14 November</strong></div>\n<ul>\n<li><strong>From 6.30am to 10.30am</strong>, trains run between Liverpool and Lidcombe only.</li>\n<li>Change trains at Lidcombe to continue your journey.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\" target=\"_blank\" rel=\"noopener\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
     "subtitle": "Trains run between Liverpool and Lidcombe only"
+  },
+  {
+    "type": "lineInfo",
+    "id": "ems-81536",
+    "version": 1,
+    "priority": "normal",
+    "timestamps": {
+      "creation": "2026-11-09T03:17:00Z",
+      "lastModification": "2026-11-09T03:17:00Z",
+      "availability": {
+        "from": "2026-11-08T15:00:00Z",
+        "to": "2026-11-29T15:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-11-27T15:00:00Z",
+          "to": "2026-11-29T15:00:00Z"
+        }
+      ],
+      "expiration": "2026-11-29T15:00:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Trains may run to a changed timetable and stopping pattern",
+        "url": "https://transportnsw.info/alerts/details#/ems-81536",
+        "content": "<div>\n<div><strong>Saturday 28 and Sunday 29 November</strong></div>\n<ul>\n<li>Trains may run to a changed timetable and stopping pattern.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\" target=\"_blank\" rel=\"noopener\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+        "subtitle": "Trains may run to a changed timetable and stopping pattern",
+        "smsText": "Trains may run to a changed timetable and stopping pattern",
+        "speechText": "Saturday 28 and Sunday 29 November\nTrains may run to a changed timetable and stopping pattern."
+      }
+    ],
+    "properties": {
+      "announcementType": "trackwork",
+      "publishToAreas": "1",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "258aa2af-3ee9-55bc-bf97-1519aaf9c742",
+      "EquipmentReason": "maintenanceWork",
+      "publisher": "ems.comm.addinfo",
+      "providerCode": "TfNSW",
+      "smsText": "Trains may run to a changed timetable and stopping pattern",
+      "speechText": "Saturday 28 and Sunday 29 November\nTrains may run to a changed timetable and stopping pattern."
+    },
+    "affected": {
+      "lines": [
+        {
+          "id": "nsw:020T5: :R:",
+          "destination": {
+            "name": "Campbelltown Station, Campbelltown",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Leppington to Richmond",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        },
+        {
+          "id": "nsw:020T5: :H:",
+          "destination": {
+            "name": "Penrith Station, Penrith",
+            "type": "stop"
+          },
+          "name": "Sydney Trains Network T5 Cumberland Line",
+          "number": "T5 Cumberland Line",
+          "description": "Richmond to Leppington",
+          "product": {
+            "id": 1,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "x0001",
+            "name": "Sydney Trains"
+          },
+          "iconId": 1
+        }
+      ]
+    },
+    "urlText": "Trains may run to a changed timetable and stopping pattern",
+    "url": "https://transportnsw.info/alerts/details#/ems-81536",
+    "content": "<div>\n<div><strong>Saturday 28 and Sunday 29 November</strong></div>\n<ul>\n<li>Trains may run to a changed timetable and stopping pattern.<br /><br /></li>\n<li><a href=\"https://transportnsw.info/trip-planner\" target=\"_blank\" rel=\"noopener\">Plan your trip</a> before you travel for up-to-date real time information. You can also subscribe to <a href=\"https://transportnsw.info/travel-info/ways-to-get-around/train/about-trackwork#subscribe\" target=\"_blank\" rel=\"noopener\">planned trackwork alerts</a>.</li>\n</ul>\n</div>",
+    "subtitle": "Trains may run to a changed timetable and stopping pattern"
   },
   {
     "type": "lineInfo",
