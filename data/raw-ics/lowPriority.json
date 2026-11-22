@@ -253,75 +253,86 @@
     "subtitle": "John Street Square Light Rail Lift 1 between Harris St and the Light Rail stop is not available\n\nㅤ"
   },
   {
-    "type": "lineInfo",
-    "id": "ems-82197",
+    "type": "infrastructure",
+    "id": "ems-82183",
     "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-11-22T10:14:00Z",
-      "lastModification": "2026-11-22T10:14:00Z",
+      "creation": "2026-11-22T01:16:00Z",
+      "lastModification": "2026-11-22T01:16:00Z",
       "availability": {
-        "from": "2026-11-22T10:09:00Z",
-        "to": "2026-11-22T20:09:00Z"
+        "from": "2026-11-15T04:06:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-11-22T10:09:00Z",
-          "to": "2026-11-22T20:09:00Z"
+          "from": "2026-11-22T01:16:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2026-11-22T20:09:59Z"
+      "expiration": "2505-12-30T16:07:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Train service delays at Melbourne (Southern Cross) Station",
-        "url": "https://dev.transportnsw.info/alerts/details#/ems-82197",
-        "content": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-        "subtitle": "Train service delays at Melbourne (Southern Cross) Station",
-        "smsText": "Train service delays at Melbourne (Southern Cross) Station",
-        "speechText": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+        "urlText": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
+        "url": "https://dev.transportnsw.info/alerts/details#/ems-82183",
+        "content": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
+        "subtitle": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
+        "smsText": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
+        "speechText": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641."
       }
     ],
     "properties": {
-      "announcementType": "serviceChange",
+      "announcementType": "liftsEscalators",
       "publishToAreas": "1",
+      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "7e67df39-7930-5ca9-aecb-da3caf5102ff",
-      "Others": "speedRestrictions",
+      "messageRef": "434d7fd6-ff1f-503a-a102-dbfd5e204758",
+      "EquipmentReason": "liftFailure",
       "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "216510",
       "providerCode": "TfNSW",
-      "smsText": "Train service delays at Melbourne (Southern Cross) Station",
-      "speechText": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
+      "smsText": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
+      "speechText": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641."
     },
     "affected": {
-      "lines": [
+      "stops": [
         {
-          "id": "nsw:76622: :R:",
-          "destination": {
-            "name": "Central Station, Sydney",
-            "type": "stop"
+          "id": "216510",
+          "isGlobalId": true,
+          "name": "Fairfield Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95318011:1",
+            "name": "Fairfield",
+            "type": "locality"
           },
-          "name": "Regional Trains and Coaches Network 622",
-          "number": "622",
-          "description": "Melbourne (Southern Cross) to Central",
-          "product": {
-            "id": 3,
-            "class": 1,
-            "iconId": 1
-          },
-          "operator": {
-            "id": "711",
-            "name": "NSW TrainLink"
-          },
-          "iconId": 3
+          "properties": {
+            "stopId": "10101285"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "216510:L59",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9106997666"
+            }
+          ]
         }
       ]
     },
-    "urlText": "Train service delays at Melbourne (Southern Cross) Station",
-    "url": "https://dev.transportnsw.info/alerts/details#/ems-82197",
-    "content": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
-    "subtitle": "Train service delays at Melbourne (Southern Cross) Station"
+    "urlText": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
+    "url": "https://dev.transportnsw.info/alerts/details#/ems-82183",
+    "content": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
+    "subtitle": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available"
   },
   {
     "type": "infrastructure",
@@ -407,88 +418,6 @@
   },
   {
     "type": "infrastructure",
-    "id": "ems-82183",
-    "version": 1,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-11-22T01:16:00Z",
-      "lastModification": "2026-11-22T01:16:00Z",
-      "availability": {
-        "from": "2026-11-15T04:06:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-11-22T01:16:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-12-30T16:07:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
-        "url": "https://dev.transportnsw.info/alerts/details#/ems-82183",
-        "content": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
-        "subtitle": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
-        "smsText": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
-        "speechText": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "434d7fd6-ff1f-503a-a102-dbfd5e204758",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "216510",
-      "providerCode": "TfNSW",
-      "smsText": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
-      "speechText": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "216510",
-          "isGlobalId": true,
-          "name": "Fairfield Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95318011:1",
-            "name": "Fairfield",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101285"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "216510:L59",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9106997666"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available",
-    "url": "https://dev.transportnsw.info/alerts/details#/ems-82183",
-    "content": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
-    "subtitle": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available"
-  },
-  {
-    "type": "infrastructure",
     "id": "ems-82196",
     "version": 2,
     "priority": "low",
@@ -568,6 +497,88 @@
     "url": "https://dev.transportnsw.info/alerts/details#/ems-82196",
     "content": "At Seven Hills Station Lift 1 between the concourse and Terminus is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9851 7431.",
     "subtitle": "Seven Hills Station Lift 1 between the concourse and Terminus is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-82193",
+    "version": 4,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-11-22T07:11:00Z",
+      "lastModification": "2026-11-22T07:11:00Z",
+      "availability": {
+        "from": "2022-03-02T14:35:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-11-22T07:11:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-12-30T22:02:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
+        "url": "https://dev.transportnsw.info/alerts/details#/ems-82193",
+        "content": "At Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845.",
+        "subtitle": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
+        "smsText": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
+        "speechText": "At Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "73716585-319e-5a4b-bf18-dc7c03e945d7",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "256410",
+      "providerCode": "TfNSW",
+      "smsText": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
+      "speechText": "At Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "256410",
+          "isGlobalId": true,
+          "name": "Macquarie Fields Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95313021:1",
+            "name": "Macquarie Fields",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101292"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "256410:L1799",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "14045169860"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
+    "url": "https://dev.transportnsw.info/alerts/details#/ems-82193",
+    "content": "At Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845.",
+    "subtitle": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available"
   },
   {
     "type": "lineInfo",
@@ -700,85 +711,74 @@
     "subtitle": "Bikes permitted with fees."
   },
   {
-    "type": "infrastructure",
-    "id": "ems-82193",
-    "version": 4,
+    "type": "lineInfo",
+    "id": "ems-82197",
+    "version": 1,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-11-22T07:11:00Z",
-      "lastModification": "2026-11-22T07:11:00Z",
+      "creation": "2026-11-22T10:14:00Z",
+      "lastModification": "2026-11-22T10:14:00Z",
       "availability": {
-        "from": "2022-03-02T14:35:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
+        "from": "2026-11-22T10:09:00Z",
+        "to": "2026-11-22T20:09:00Z"
       },
       "validity": [
         {
-          "from": "2026-11-22T07:11:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
+          "from": "2026-11-22T10:09:00Z",
+          "to": "2026-11-22T20:09:00Z"
         }
       ],
-      "expiration": "2505-12-30T22:02:59Z"
+      "expiration": "2026-11-22T20:09:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
-        "url": "https://dev.transportnsw.info/alerts/details#/ems-82193",
-        "content": "At Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845.",
-        "subtitle": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
-        "smsText": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
-        "speechText": "At Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845."
+        "urlText": "Train service delays at Melbourne (Southern Cross) Station",
+        "url": "https://dev.transportnsw.info/alerts/details#/ems-82197",
+        "content": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+        "subtitle": "Train service delays at Melbourne (Southern Cross) Station",
+        "smsText": "Train service delays at Melbourne (Southern Cross) Station",
+        "speechText": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "73716585-319e-5a4b-bf18-dc7c03e945d7",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "7e67df39-7930-5ca9-aecb-da3caf5102ff",
+      "Others": "speedRestrictions",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "256410",
       "providerCode": "TfNSW",
-      "smsText": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
-      "speechText": "At Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845."
+      "smsText": "Train service delays at Melbourne (Southern Cross) Station",
+      "speechText": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "256410",
-          "isGlobalId": true,
-          "name": "Macquarie Fields Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95313021:1",
-            "name": "Macquarie Fields",
-            "type": "locality"
+          "id": "nsw:76622: :R:",
+          "destination": {
+            "name": "Central Station, Sydney",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101292"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "256410:L1799",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "14045169860"
-            }
-          ]
+          "name": "Regional Trains and Coaches Network 622",
+          "number": "622",
+          "description": "Melbourne (Southern Cross) to Central",
+          "product": {
+            "id": 3,
+            "class": 1,
+            "iconId": 1
+          },
+          "operator": {
+            "id": "711",
+            "name": "NSW TrainLink"
+          },
+          "iconId": 3
         }
       ]
     },
-    "urlText": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available",
-    "url": "https://dev.transportnsw.info/alerts/details#/ems-82193",
-    "content": "At Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 4629 0845.",
-    "subtitle": "Macquarie Fields Station Lift 1 between the footbridge and Platform 1 is not available"
+    "urlText": "Train service delays at Melbourne (Southern Cross) Station",
+    "url": "https://dev.transportnsw.info/alerts/details#/ems-82197",
+    "content": "There are delays on route 622 train services due to temporary speed restrictions. \n Plan ahead and allow extra travel time.",
+    "subtitle": "Train service delays at Melbourne (Southern Cross) Station"
   }
 ]
