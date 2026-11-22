@@ -1,6 +1,88 @@
 [
   {
     "type": "infrastructure",
+    "id": "ems-82186",
+    "version": 2,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-11-22T02:22:00Z",
+      "lastModification": "2026-11-22T02:22:00Z",
+      "availability": {
+        "from": "2026-11-15T05:12:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-11-22T02:22:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-12-30T17:13:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+        "url": "https://dev.transportnsw.info/alerts/details#/ems-82186",
+        "content": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
+        "subtitle": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+        "smsText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+        "speechText": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "9d9dff15-c086-52e3-96b3-8bcf4dc0f584",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "217020",
+      "providerCode": "TfNSW",
+      "smsText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+      "speechText": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "217020",
+          "isGlobalId": true,
+          "name": "Liverpool Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95335020:1",
+            "name": "Liverpool",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101289"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "217020:L38",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "9093519827"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
+    "url": "https://dev.transportnsw.info/alerts/details#/ems-82186",
+    "content": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
+    "subtitle": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available"
+  },
+  {
+    "type": "infrastructure",
     "id": "ems-80732",
     "version": 1,
     "priority": "low",
@@ -162,96 +244,6 @@
     "url": "https://transportnsw.info/alerts/details#/ems-81070",
     "content": "At West Ryde Station Lift 3 between the concourse and Platform 3 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9752 8465.",
     "subtitle": "West Ryde Station Lift 3 between the concourse and Platform 3 is not available"
-  },
-  {
-    "type": "lineInfo",
-    "id": "ems-159",
-    "version": 19017138,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2021-11-19T03:05:00Z",
-      "lastModification": "2022-06-27T05:38:00Z",
-      "availability": {
-        "from": "2021-11-19T03:00:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2021-11-19T03:00:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2500-12-31T00:00:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "url": "https://transportnsw.info/alerts/details#/ems-159",
-        "content": "<div>&nbsp; &nbsp;</div>",
-        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-      }
-    ],
-    "properties": {
-      "announcementType": "serviceChange",
-      "publishToAreas": "1",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
-      "publisher": "ems.comm.addinfo",
-      "providerCode": "TfNSW",
-      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
-    },
-    "affected": {
-      "lines": [
-        {
-          "id": "nsw:04WAG:E:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
-          "number": "WAGE Palm Beach to Ettalong Ferry",
-          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        },
-        {
-          "id": "nsw:04PLM:B:R:",
-          "destination": {
-            "name": "Palm Beach Wharf, Palm Beach",
-            "type": "stop"
-          },
-          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
-          "number": "PLMB Palm Beach to Mackerel Ferry",
-          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
-          "product": {
-            "id": 12,
-            "class": 9,
-            "iconId": 9
-          },
-          "operator": {
-            "id": "301",
-            "name": "Palm Beach Ferry Service"
-          },
-          "iconId": 12
-        }
-      ]
-    },
-    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
-    "url": "https://transportnsw.info/alerts/details#/ems-159",
-    "content": "<div>&nbsp; &nbsp;</div>",
-    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
     "type": "infrastructure",
@@ -417,88 +409,6 @@
     "subtitle": "Mount Druitt Station Lift 2 between the concourse and Bus Interchange Stands A-E is not available"
   },
   {
-    "type": "infrastructure",
-    "id": "ems-82186",
-    "version": 2,
-    "priority": "low",
-    "timestamps": {
-      "creation": "2026-11-22T02:22:00Z",
-      "lastModification": "2026-11-22T02:22:00Z",
-      "availability": {
-        "from": "2026-11-15T05:12:00Z",
-        "isOpenEnd": true,
-        "to": "2500-12-31T00:00:00Z"
-      },
-      "validity": [
-        {
-          "from": "2026-11-22T02:22:00Z",
-          "isOpenEnd": true,
-          "to": "2500-12-31T00:00:00Z"
-        }
-      ],
-      "expiration": "2505-12-30T17:13:59Z"
-    },
-    "infoLinks": [
-      {
-        "urlText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-        "url": "https://dev.transportnsw.info/alerts/details#/ems-82186",
-        "content": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
-        "subtitle": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-        "smsText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-        "speechText": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
-      }
-    ],
-    "properties": {
-      "announcementType": "liftsEscalators",
-      "publishToAreas": "1",
-      "appliesTo": "departingArriving",
-      "producerRef": "MENTZ-EMS",
-      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "9d9dff15-c086-52e3-96b3-8bcf4dc0f584",
-      "EquipmentReason": "liftFailure",
-      "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "217020",
-      "providerCode": "TfNSW",
-      "smsText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-      "speechText": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655."
-    },
-    "affected": {
-      "stops": [
-        {
-          "id": "217020",
-          "isGlobalId": true,
-          "name": "Liverpool Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95335020:1",
-            "name": "Liverpool",
-            "type": "locality"
-          },
-          "properties": {
-            "stopId": "10101289"
-          }
-        }
-      ],
-      "Infrastructures": [
-        {
-          "name": "217020:L38",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "9093519827"
-            }
-          ]
-        }
-      ]
-    },
-    "urlText": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available",
-    "url": "https://dev.transportnsw.info/alerts/details#/ems-82186",
-    "content": "At Liverpool Station Lift 5 between the concourse and Bus Stand D is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1655.",
-    "subtitle": "Liverpool Station Lift 5 between the concourse and Bus Stand D is not available"
-  },
-  {
     "type": "lineInfo",
     "id": "ems-158",
     "version": 15628844,
@@ -629,86 +539,94 @@
     "subtitle": "Bikes permitted with fees."
   },
   {
-    "type": "infrastructure",
-    "id": "ems-82182",
-    "version": 1,
+    "type": "lineInfo",
+    "id": "ems-159",
+    "version": 19017138,
     "priority": "low",
     "timestamps": {
-      "creation": "2026-11-22T01:16:00Z",
-      "lastModification": "2026-11-22T01:16:00Z",
+      "creation": "2021-11-19T03:05:00Z",
+      "lastModification": "2022-06-27T05:38:00Z",
       "availability": {
-        "from": "2026-11-22T01:16:00Z",
+        "from": "2021-11-19T03:00:00Z",
         "isOpenEnd": true,
         "to": "2500-12-31T00:00:00Z"
       },
       "validity": [
         {
-          "from": "2026-11-22T01:16:00Z",
+          "from": "2021-11-19T03:00:00Z",
           "isOpenEnd": true,
           "to": "2500-12-31T00:00:00Z"
         }
       ],
-      "expiration": "2505-12-30T16:07:59Z"
+      "expiration": "2500-12-31T00:00:59Z"
     },
     "infoLinks": [
       {
-        "urlText": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
-        "url": "https://dev.transportnsw.info/alerts/details#/ems-82182",
-        "content": "At Berowra Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8496.",
-        "subtitle": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
-        "smsText": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
-        "speechText": "At Berowra Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8496."
+        "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "url": "https://transportnsw.info/alerts/details#/ems-159",
+        "content": "<div>&nbsp; &nbsp;</div>",
+        "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+        "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
       }
     ],
     "properties": {
-      "announcementType": "liftsEscalators",
+      "announcementType": "serviceChange",
       "publishToAreas": "1",
-      "appliesTo": "departingArriving",
       "producerRef": "MENTZ-EMS",
       "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
-      "messageRef": "c1153048-a543-5caa-8ecb-8c5a127a66d6",
-      "EquipmentReason": "liftFailure",
+      "messageRef": "38cc7267-000b-5482-befc-e8a7ecb7f6d4",
       "publisher": "ems.comm.addinfo",
-      "stopIDglobalID": "208110",
       "providerCode": "TfNSW",
-      "smsText": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
-      "speechText": "At Berowra Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8496."
+      "smsText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
     },
     "affected": {
-      "stops": [
+      "lines": [
         {
-          "id": "208110",
-          "isGlobalId": true,
-          "name": "Berowra Station",
-          "type": "stop",
-          "parent": {
-            "id": "placeID:95325004:1",
-            "name": "Berowra",
-            "type": "locality"
+          "id": "nsw:04WAG:E:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
           },
-          "properties": {
-            "stopId": "10101131"
-          }
-        }
-      ],
-      "Infrastructures": [
+          "name": "Private ferry and fast ferry services WAGE Palm Beach to Ettalong Ferry",
+          "number": "WAGE Palm Beach to Ettalong Ferry",
+          "description": "Palm Beach, Wagstaffe, Ettalong, Palm Beach Loop",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
+        },
         {
-          "name": "208110:L119",
-          "status": "INACTIVE",
-          "type": "ELEVATOR",
-          "infrastructureIds": [
-            {
-              "provider": "osm",
-              "id": "5707400611"
-            }
-          ]
+          "id": "nsw:04PLM:B:R:",
+          "destination": {
+            "name": "Palm Beach Wharf, Palm Beach",
+            "type": "stop"
+          },
+          "name": "Private ferry and fast ferry services PLMB Palm Beach to Mackerel Ferry",
+          "number": "PLMB Palm Beach to Mackerel Ferry",
+          "description": "Palm Beach to Basin to Mackerel to Palm Beach",
+          "product": {
+            "id": 12,
+            "class": 9,
+            "iconId": 9
+          },
+          "operator": {
+            "id": "301",
+            "name": "Palm Beach Ferry Service"
+          },
+          "iconId": 12
         }
       ]
     },
-    "urlText": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
-    "url": "https://dev.transportnsw.info/alerts/details#/ems-82182",
-    "content": "At Berowra Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8496.",
-    "subtitle": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available"
+    "urlText": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong.",
+    "url": "https://transportnsw.info/alerts/details#/ems-159",
+    "content": "<div>&nbsp; &nbsp;</div>",
+    "subtitle": "Bicycles permitted on this service, although additional fees apply when travelling to Ettalong."
   },
   {
     "type": "infrastructure",
@@ -791,5 +709,87 @@
     "url": "https://dev.transportnsw.info/alerts/details#/ems-82183",
     "content": "At Fairfield Station Lift 2 between the footbridge and Platform 2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9765 1641.",
     "subtitle": "Fairfield Station Lift 2 between the footbridge and Platform 2 is not available"
+  },
+  {
+    "type": "infrastructure",
+    "id": "ems-82182",
+    "version": 1,
+    "priority": "low",
+    "timestamps": {
+      "creation": "2026-11-22T01:16:00Z",
+      "lastModification": "2026-11-22T01:16:00Z",
+      "availability": {
+        "from": "2026-11-22T01:16:00Z",
+        "isOpenEnd": true,
+        "to": "2500-12-31T00:00:00Z"
+      },
+      "validity": [
+        {
+          "from": "2026-11-22T01:16:00Z",
+          "isOpenEnd": true,
+          "to": "2500-12-31T00:00:00Z"
+        }
+      ],
+      "expiration": "2505-12-30T16:07:59Z"
+    },
+    "infoLinks": [
+      {
+        "urlText": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
+        "url": "https://dev.transportnsw.info/alerts/details#/ems-82182",
+        "content": "At Berowra Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8496.",
+        "subtitle": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
+        "smsText": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
+        "speechText": "At Berowra Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8496."
+      }
+    ],
+    "properties": {
+      "announcementType": "liftsEscalators",
+      "publishToAreas": "1",
+      "appliesTo": "departingArriving",
+      "producerRef": "MENTZ-EMS",
+      "deviceRef": "65c871c0fd234d87a5d8903b53da3927",
+      "messageRef": "c1153048-a543-5caa-8ecb-8c5a127a66d6",
+      "EquipmentReason": "liftFailure",
+      "publisher": "ems.comm.addinfo",
+      "stopIDglobalID": "208110",
+      "providerCode": "TfNSW",
+      "smsText": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
+      "speechText": "At Berowra Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8496."
+    },
+    "affected": {
+      "stops": [
+        {
+          "id": "208110",
+          "isGlobalId": true,
+          "name": "Berowra Station",
+          "type": "stop",
+          "parent": {
+            "id": "placeID:95325004:1",
+            "name": "Berowra",
+            "type": "locality"
+          },
+          "properties": {
+            "stopId": "10101131"
+          }
+        }
+      ],
+      "Infrastructures": [
+        {
+          "name": "208110:L119",
+          "status": "INACTIVE",
+          "type": "ELEVATOR",
+          "infrastructureIds": [
+            {
+              "provider": "osm",
+              "id": "5707400611"
+            }
+          ]
+        }
+      ]
+    },
+    "urlText": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available",
+    "url": "https://dev.transportnsw.info/alerts/details#/ems-82182",
+    "content": "At Berowra Station Lift 1 between the footbridge and Platform 1/2 is temporarily out of service.\n\nIf you need help, ask staff or phone 02 9847 8496.",
+    "subtitle": "Berowra Station Lift 1 between the footbridge and Platform 1/2 is not available"
   }
 ]
